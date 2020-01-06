@@ -1,4 +1,4 @@
-## *Notice: I don't plan any time soon to abandon the list but it might only get one update or less a week as the list is getting big and very hard for me to maintain by myself (hard to keep stable) so any and all help is appreciated*
+## *Notice: I don't plan any time soon to abandon the list but it might only get one update or less a week as the list is getting big and very hard for me to maintain by myself (hard to keep stable & school) so any and all help is appreciated*
 
 # Cybo's Hosts
 A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking cookies
