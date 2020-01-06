@@ -1,12 +1,15 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1188
-! Last Modified: Thursday, December 26, 2019
+! Version: 1189
+! Last Modified: Sunday, January 5, 2020
 
 ! This List Is Better Than The Other Hosts For DNS Sinkholes And Slow Computers
 ! (If Used With An Adblocker)
 
 ! Unbreak
+@@||translate.googleapis.com/translate_a/
+edhesive.com#@#+js(nobab)
+docs.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
 @@||192.168.*.*$important
 speedtest.net#@#^script:has-text(googletag)
 speedtest.net#@#^script:has-text(gpt-ad)
@@ -62,10 +65,6 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
-! Seems to deliver ads but also legit content on cnet
-@@||sdad.guru
-! CAN BREAK TIKTOK LOGIN
-@@||log2.musical.ly
 ! Simple Domains
 ! AdGuard Simplified Domains Incorrectly Blocks This -----------------
 @@||smallseotools.com^$important
@@ -84,6 +83,10 @@ pandora.com$genericblock
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
 @@||android.clients.google.com
+! Seems to deliver ads but also legit content on cnet
+@@||sdad.guru
+! CAN BREAK TIKTOK LOGIN
+||log2.musical.ly$badfilter
 
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
@@ -309,7 +312,6 @@ pandora.com$genericblock
 0.0.0.0 time-ios.g.aaplimg.com
 0.0.0.0 www-cdn.icloud.com.akadns.net
 0.0.0.0 e17437.dscb.akamaiedge.net
-0.0.0.0 e6858.dsce9.akamaiedge.net
 0.0.0.0 attwifi.apple.com
 0.0.0.0 parsec.apple.com
 0.0.0.0 iad.apple.com
@@ -403,7 +405,6 @@ pandora.com$genericblock
 0.0.0.0 tracerx-radars.apple.com
 0.0.0.0 internalcheck.apple.com
 0.0.0.0 depot.info.apple.com
-0.0.0.0 time-ios.apple.com
 0.0.0.0 idmsauth-uat.corp.apple.com
 0.0.0.0 appleconnect-uat.apple.com
 0.0.0.0 appleseed-stage.apple.com
@@ -947,6 +948,30 @@ pandora.com$genericblock
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 a-ring.msedge.net
+0.0.0.0 api.curbside.com
+0.0.0.0 applog.musical.ly.edgekey.net
+0.0.0.0 applift-a.apptornado.com
+0.0.0.0 androidcrosspromoapi.herokuapp.com
+0.0.0.0 ab08.mktossl.com
+0.0.0.0 appannie.mktoweb.com
+0.0.0.0 appannie.com
+0.0.0.0 api.smart-sense.org
+0.0.0.0 aff_banner.ampxdirect.com
+0.0.0.0 adlanding.admarketplace.net.akadns.net
+0.0.0.0 admarketplace.net.akadns.net
+0.0.0.0 ampxdirect.com
+0.0.0.0 aff_banner.banners.ampfeed.com
+0.0.0.0 ampfeed.com
+0.0.0.0 ad.broadstreetads.com
+0.0.0.0 analysis.polarisoffice.com
+0.0.0.0 analysys.cn
+0.0.0.0 analytics.metrix.ir
+0.0.0.0 analytics.cloud.unity3d.com
+0.0.0.0 adsaccount.appcpi.net
+0.0.0.0 adtrack.appcpi.net
+0.0.0.0 appcpi.net
+0.0.0.0 ads.ebay.com
 0.0.0.0 amanda.tncrun.net
 0.0.0.0 adventurefeeds.com
 0.0.0.0 apppcdownload.com
@@ -1822,7 +1847,6 @@ pandora.com$genericblock
 0.0.0.0 api.binomo.com
 0.0.0.0 affiliatefunnel.com
 0.0.0.0 api.rvere.com
-0.0.0.0 adblock-data.s3.brave.com
 0.0.0.0 app.saygames.io
 0.0.0.0 aplvn.com
 0.0.0.0 api-30-0-0.twitter.com
@@ -1962,6 +1986,7 @@ pandora.com$genericblock
 0.0.0.0 affiliate.com
 0.0.0.0 www.angryshark.cn
 0.0.0.0 angryshark.cn
+!+ NOT_OPTIMIZED
 0.0.0.0 amgload.net
 0.0.0.0 ads-blocker.ru
 0.0.0.0 app.satismeter.com
@@ -3242,6 +3267,7 @@ pandora.com$genericblock
 0.0.0.0 amazingcounters.com
 0.0.0.0 adassembly.com
 0.0.0.0 a.optmnstr.com
+!+ NOT_OPTIMIZED
 0.0.0.0 adroll.com
 0.0.0.0 appsha1.cointraffic.io
 0.0.0.0 aax.amazon-adsystem.com
@@ -3914,6 +3940,10 @@ pandora.com$genericblock
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 brandme-prod.s3.amazonaws.com
+0.0.0.0 banners.ampfeed.com
+0.0.0.0 broadstreetads.com
+0.0.0.0 ben.crxmouse.com
 0.0.0.0 bitdefender.sc.omtrdc.net
 0.0.0.0 bi.kinecosystembi.com
 0.0.0.0 bidbarrel.cbsnews.com
@@ -4874,6 +4904,24 @@ pandora.com$genericblock
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 count.romwe.com
+0.0.0.0 collect.vuevideo.net
+0.0.0.0 consumer.exacttargetapis.com
+0.0.0.0 consumer-s7.exacttargetapis.com
+0.0.0.0 consumer.n.exacttargetapis.com
+0.0.0.0 census.eu-west-1.nielsencollections.com
+0.0.0.0 cd-down.com
+0.0.0.0 cdn.topsy.com
+0.0.0.0 c3d1c-3fac1.api.pushwoosh.com
+0.0.0.0 cp.pushwoosh.com
+0.0.0.0 csm.fr.eu.criteo.net
+0.0.0.0 cdn.broadstreetads.com
+0.0.0.0 cdn.getambassador.com
+0.0.0.0 cdn.iwmf.ir
+0.0.0.0 cafe-log.myshoplus.com
+0.0.0.0 collection-endpoint-prod.herokuapp.com
+0.0.0.0 collection-endpoint-staging.herokuapp.com
+0.0.0.0 consent.berliner-kurier.de
 0.0.0.0 clk.rtpdn11.com
 0.0.0.0 click.taobao.com
 0.0.0.0 crash.data.v2.mgtv.com
@@ -5160,7 +5208,6 @@ pandora.com$genericblock
 0.0.0.0 crl.sca1b.amazontrust.com
 0.0.0.0 checkappexec.microsoft.com
 0.0.0.0 clientconfig.akamai.steamstatic.com
-0.0.0.0 cursecdn.com
 0.0.0.0 client.wns.windows.com
 0.0.0.0 cdn-magiclinks.trackonomics.net
 0.0.0.0 cse.avlyun.com
@@ -5172,7 +5219,6 @@ pandora.com$genericblock
 0.0.0.0 c00.adobe.com
 0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
 0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
-0.0.0.0 cdm.cursecdn.com
 0.0.0.0 c.spolecznosci.net
 0.0.0.0 ceehimur.uk
 0.0.0.0 cobalten.com
@@ -6036,6 +6082,14 @@ pandora.com$genericblock
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 delivery-cdn-cf.adswizz.com
+0.0.0.0 dnacdn.net
+0.0.0.0 downloadgamesnowtab.com
+0.0.0.0 dsp-adcreative.mobshark.net
+0.0.0.0 dsptrack.mobshark.net
+0.0.0.0 dsp-tracking.unityads.unity3d.com
+0.0.0.0 d.nativendo.de
+0.0.0.0 dr-zh.com
 0.0.0.0 dualstack.api-crashlytics-1180101475.us-east-1.elb.amazonaws.com
 0.0.0.0 dl.vaccine.line.naver.jp
 0.0.0.0 dnl-13.geo.kaspersky.com
@@ -6130,7 +6184,6 @@ pandora.com$genericblock
 0.0.0.0 dep-x.com
 0.0.0.0 d3m83gvgzupli.cloudfront.net
 0.0.0.0 d2hya7iqhf5w3h.cloudfront.net
-0.0.0.0 device.maxmind.com
 0.0.0.0 d2fbkzyicji7c4.cloudfront.net
 0.0.0.0 datacygnal.io
 0.0.0.0 devicemetadataservice.trafficmanager.net
@@ -6797,6 +6850,15 @@ pandora.com$genericblock
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ey9cms.goitcl.com
+0.0.0.0 equuleus.iad.appboy.com
+0.0.0.0 e673.dsce9.akamaiedge.net
+0.0.0.0 exacttargetapis.com
+0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
+0.0.0.0 events-endpoint-c-394794954.us-east-1.elb.amazonaws.com
+0.0.0.0 eu-srv.apptornado.com
+0.0.0.0 exoclick.com$popup,popunder
+0.0.0.0 e.dr-zh.com
 0.0.0.0 ethn.io
 0.0.0.0 edge.simplereach.com
 0.0.0.0 ezojs.com
@@ -7226,6 +7288,7 @@ pandora.com$genericblock
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fraudmetrix.cn
 0.0.0.0 fastfind.com
 0.0.0.0 fgn.cdn.serverable.com
 0.0.0.0 falseclab.tk
@@ -7514,7 +7577,6 @@ pandora.com$genericblock
 0.0.0.0 foresee.com
 0.0.0.0 friendfeed.com
 0.0.0.0 factset.com
-0.0.0.0 fbsbx.com
 0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 fyber.com
 0.0.0.0 fttcj.com
@@ -7542,6 +7604,15 @@ pandora.com$genericblock
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 goitcl.com
+0.0.0.0 gdi-loyaltymobile-lb-prod.galepartners.com
+0.0.0.0 gdi-mobile-server-prod.us-west-2.elasticbeanstalk.com
+0.0.0.0 go.pushwoosh.com
+0.0.0.0 go.appannie.com
+0.0.0.0 geo.ampxdirect.com
+0.0.0.0 gnar.grammarly.com
+0.0.0.0 getambassador.com
+0.0.0.0 gameanalisys.appcpi.net
 0.0.0.0 go.redirectingat.com
 0.0.0.0 g.luckfun.vip
 0.0.0.0 g.luckywinnervip.com
@@ -7589,7 +7660,6 @@ pandora.com$genericblock
 0.0.0.0 go.referralcandy.com
 0.0.0.0 googleclubstore.com
 0.0.0.0 geo.shtranssion.com
-0.0.0.0 ghs.google.com
 0.0.0.0 grtyv.com
 0.0.0.0 gstatic-as.pro
 0.0.0.0 go.strpjmp.com
@@ -7964,6 +8034,8 @@ pandora.com$genericblock
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 ha-api.pushwoosh.com
+0.0.0.0 hwstats.unity3d.com
 0.0.0.0 hope-of-israel.org
 0.0.0.0 hstry.eu
 0.0.0.0 hhsstopbullying.mpeasylink.com
@@ -8211,6 +8283,9 @@ pandora.com$genericblock
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ifbubmsr.com
+0.0.0.0 iwmf.ir
+0.0.0.0 installtracker.unityads.unity3d.com
 0.0.0.0 intentmedia.net
 0.0.0.0 ipm-west-us-content-service.azurewebsites.net
 0.0.0.0 ipm-cloud.trafficmanager.net
@@ -8305,10 +8380,8 @@ pandora.com$genericblock
 0.0.0.0 imp-adedge.*
 0.0.0.0 indexhu.adocean.pl
 0.0.0.0 inquisition.goguardian.com
-0.0.0.0 inquisition.goguardian.com.home
 0.0.0.0 ip.goguardian.com
 0.0.0.0 ipm.bitdefender.com
-0.0.0.0 ir.ebaycdn.net
 0.0.0.0 isrg.trustid.ocsp.identrust.com
 0.0.0.0 ion-ma.turner.com.edgekey.net
 0.0.0.0 inform.com
@@ -8940,6 +9013,7 @@ pandora.com$genericblock
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 journey.unicef.de
 0.0.0.0 jvzwcgobd.com
 0.0.0.0 jads.co
 0.0.0.0 jm-in-xbc.1e100.net
@@ -9048,7 +9122,6 @@ pandora.com$genericblock
 0.0.0.0 js.hs-scripts.com
 0.0.0.0 js.hsforms.net
 0.0.0.0 jumptap.com
-0.0.0.0 js.maxmind.com
 0.0.0.0 jsc.idealmedia.com
 0.0.0.0 justicejudo.com
 0.0.0.0 json.geoiplookup.io
@@ -9058,6 +9131,7 @@ pandora.com$genericblock
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
 0.0.0.0 ksn-fr-geo.kaspersky-labs.com
@@ -9872,6 +9946,11 @@ pandora.com$genericblock
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 laas-api.phunware.com
+0.0.0.0 logx.optimizely.com
+0.0.0.0 logconfig.polarisoffice.com
+0.0.0.0 log.polarisoffice.com
+0.0.0.0 log.apk.v-mate.mobi
 0.0.0.0 latestwebbrowsers.com
 0.0.0.0 log.mgtv.com
 0.0.0.0 logs.gaana.com
@@ -10170,6 +10249,16 @@ pandora.com$genericblock
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mab.chartbeat.com
+0.0.0.0 mktoweb.com
+0.0.0.0 mktossl.com
+0.0.0.0 mdmserver.mobidia.com
+0.0.0.0 mdmserver.mobidia.com
+0.0.0.0 mtrtb.com
+0.0.0.0 mobshark.net
+0.0.0.0 metrix.ir
+0.0.0.0 maxthon.com
+0.0.0.0 mpsnare.iesnare.com
 0.0.0.0 mparticle.com
 0.0.0.0 mktcs-cloudapps.glb-ext.cisco.com
 0.0.0.0 meter-svc.nytimes.com
@@ -10821,10 +10910,12 @@ pandora.com$genericblock
 0.0.0.0 mobclix.com
 0.0.0.0 mobpartner.mobi
 0.0.0.0 m2m1.inner-active.mobi
-0.0.0.0 maxmind.com
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nielsencollections.com
+0.0.0.0 ninja.onap.io
+0.0.0.0 nativendo.de
 0.0.0.0 www.nativo.com
 0.0.0.0 nexstardigital.com
 0.0.0.0 newoctads.com
@@ -11114,6 +11205,9 @@ pandora.com$genericblock
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 ow1.res.office365.com
+0.0.0.0 onap.io
+0.0.0.0 optimized-by.4wnetwork.com
 0.0.0.0 oghub.io
 0.0.0.0 ord37s03-in-x02.1e100.net
 0.0.0.0 ord30s26-in-f10.1e100.net
@@ -11337,6 +11431,8 @@ pandora.com$genericblock
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel.cdnwidget.com
+0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
 0.0.0.0 partner.intentmedia.net
 0.0.0.0 pingjs.qq.com
 0.0.0.0 pingtas.qq.com
@@ -12063,6 +12159,13 @@ pandora.com$genericblock
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rta2.metro.co.uk
+0.0.0.0 remain.appcpi.net
+0.0.0.0 rqmob.com
+0.0.0.0 red.broadstreetads.com
+0.0.0.0 robotornotcheckonline.icu
+0.0.0.0 rsalchk.com
+0.0.0.0 receivetipstricks.com
 0.0.0.0 rtpdn11.com
 0.0.0.0 redirectingat.com
 0.0.0.0 redirect.geo.kaspersky.com
@@ -12414,6 +12517,20 @@ pandora.com$genericblock
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 secure-eu-west-1.imrworldwide.com
+0.0.0.0 secure-origin.imrworldwide.com
+0.0.0.0 secure-proxy.imrworldwide.com
+0.0.0.0 sb.voicefive.com
+0.0.0.0 sslwidget.criteo.com
+0.0.0.0 smart-sense.org
+0.0.0.0 sia.socialblade.com
+0.0.0.0 static.surfe.pro
+0.0.0.0 surfe.pro
+0.0.0.0 stat.m.360.cn
+0.0.0.0 stats-a.maxthon.com
+0.0.0.0 stats.wpmudev.com
+0.0.0.0 stats1.wpmudev.com
+0.0.0.0 statistics.news1.kr
 0.0.0.0 smartadtags.com
 0.0.0.0 searchult.com
 0.0.0.0 searchnu.com
@@ -12667,7 +12784,6 @@ pandora.com$genericblock
 0.0.0.0 stats.qalabs.symantec.com
 0.0.0.0 slscr.update.microsoft.com
 0.0.0.0 slscr.update.microsoft.com.akadns.net
-0.0.0.0 star-mini.c10r.facebook.com
 0.0.0.0 sf.symcd.com
 0.0.0.0 sb.adtidy.org
 0.0.0.0 safebrowsing.brave.com
@@ -12675,7 +12791,6 @@ pandora.com$genericblock
 0.0.0.0 smetrics.boston.com
 0.0.0.0 s3c6.adj.st
 0.0.0.0 status.geotrust.com
-0.0.0.0 star.c10r.facebook.com
 0.0.0.0 schibsted.media
 0.0.0.0 szn.cz
 0.0.0.0 sexad.net
@@ -13795,6 +13910,13 @@ pandora.com$genericblock
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t8webware.com
+0.0.0.0 tracker.mtrtb.com
+0.0.0.0 tracking.ws.eurosport.com
+0.0.0.0 tracker.rqmob.com
+0.0.0.0 track.mobshark.net
+0.0.0.0 tracking.prd.mz.internal.unity3d.com
+0.0.0.0 track.berliner-kurier.de
 0.0.0.0 tncrun.net
 0.0.0.0 trace.qq.com
 0.0.0.0 t.huvlemobile.com
@@ -13980,7 +14102,6 @@ pandora.com$genericblock
 0.0.0.0 tracking.trnox.com
 0.0.0.0 townsquareblogs.com
 0.0.0.0 tool-avpg.crsi.symantec.com
-0.0.0.0 tools.google.com
 0.0.0.0 tool-avpg.crsi.symantec.com
 0.0.0.0 ton.smf1.twitter.com
 0.0.0.0 time.windows.com
@@ -14482,6 +14603,7 @@ pandora.com$genericblock
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 uc.jh1230.com
 0.0.0.0 usage-*-*.myhomescreen.tv
 0.0.0.0 usasync01.admantx.com
@@ -14660,6 +14782,9 @@ pandora.com$genericblock
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 www.vpndefender.com
+0.0.0.0 vxfjgkhy.goitcl.com
+0.0.0.0 voicefive.com
 0.0.0.0 vtemaaftwexu.com
 0.0.0.0 vz-cdn2.contentabc.com
 0.0.0.0 vg-setting.rayjump.com
@@ -14850,6 +14975,11 @@ pandora.com$genericblock
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 whoami.akamai.net
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 wifi-test.mobidia.com
+0.0.0.0 widget.us.criteo.com
+0.0.0.0 wwwlog.thebell.co.kr
 0.0.0.0 webserver.smartadtags.com
 0.0.0.0 webserver-nala.smartadtags.com
 0.0.0.0 wt-eu02.net
@@ -15227,6 +15357,7 @@ pandora.com$genericblock
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xlbbhdarc.com
 0.0.0.0 xeptek.pro
 0.0.0.0 xlog-va.musical.ly
 0.0.0.0 xtgreat.com
@@ -15708,6 +15839,15 @@ pandora.com$genericblock
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 1c818-29521.api.pushwoosh.com
+0.0.0.0 1154669279.rsc.cdn77.org
+0.0.0.0 62971.bodis.com
+0.0.0.0 4zxuvp1ohns9s6m7sbncdiejmryhe1577969424.uaid.imrworldwide.com
+0.0.0.0 3czf6pxue8-1.algolianet.com
+0.0.0.0 3czf6pxue8-3.algolianet.com
+0.0.0.0 3czf6pxue8-2.algolianet.com
+0.0.0.0 3czf6pxue8-dsn.algolia.net
+0.0.0.0 4wnetwork.com
 0.0.0.0 4.sophosxl.net
 0.0.0.0 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com
 0.0.0.0 4.sophosxl.net
