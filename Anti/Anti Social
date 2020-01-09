@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 23
+! Version: 24
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -185,6 +185,7 @@ pandora.com$generichide
 ! Extra
 ||chat.yellw.co
 ||yellw.co
+||share.pluso.ru
 
 ! Comments
 ||facebook.com/plugins/comments.php
@@ -445,6 +446,23 @@ pandora.com$generichide
 ##.dpsp-network-icon
 ##.dpsp-network-btn
 ##.dpsp-total-share-wrapper
+##.header__social
+##.icon-google-plus.icon
+##.icon-heart.icon
+##.icon-x.icon
+##.icon-mail.icon
+##.name-follow
+##.name-rate
+###call-button
+##.ssk-email
+##.ssk-emerald
+##.ssk-twitter
+##.ssk-facebook
+##.ssk-linkedin
+##.article-share
+##.sharedaddy
+##.sd-sharing-enabled
+##.sharing
 -facebook
 -fb
 -twitter
@@ -463,6 +481,7 @@ share_
 -sharebar.
 .sharebar-
 .sharebar.
+/pluso-like/
 
 ! Specific
 www.dailymail.co.uk##.dms-puff
@@ -484,3 +503,4 @@ dailycaller.com##.article-footer > .pt-10.mb-4.flex.list-none
 www.dailywire.com##a.es81y9m5.css-oe3sn5
 thehackernews.com##.cf.f-menu-cl-4
 www.britannica.com##.middle-xs.center-xs.ui-icon
+freebeacon.com##.mt-8.lg\:ml-8.items-center.justify-between.flex
