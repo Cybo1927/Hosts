@@ -6,6 +6,7 @@
 
 hangouts.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
 mail.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
+@@||devtodev.com
 
 *$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id/
 
