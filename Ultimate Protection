@@ -1,8 +1,8 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 31
+! Version: 32
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
+! Number Of Ad Services, Trackers, And Malware Blocked: 55K (Give Or Take A Few Thousand)
 ! Last Modified: Thursday, December 26, 2019
 
 !#include Hosts
@@ -69,11 +69,12 @@ startpage|
 216.218.239.62$network
 
 ! Nothing Is Free / Too Good To Be True / Probably Data Mines
-! "Honey"
-||honey.io^
-||joinhoney.com^
-honey.io|
-joinhoney.com|
+! "Honey" (https://www.joinhoney.com/privacy) They don't seem to collect data by default/without permission
+!||honey.io^
+!||joinhoney.com^
+!honey.io|
+!joinhoney.com|
+! Annoyance
 ##a[href*="joinhoney.com"]
 ! "Otto – Gift Card and Coupon Finder"
 ||d3lh2hqqgsec27.cloudfront.net^
@@ -111,9 +112,29 @@ joinhoney.com|
 ! Easy Anti Public Government Domains
 *.gov
 *.gov.*
-! Remove From Search Results
-google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov)
-google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
+! Remove .gov Links From All Websites
+*#?#a:-abp-contains(.gov)
+*#?#p:-abp-contains(.gov)
+*#?#i:-abp-contains(.gov)
+*#?#u:-abp-contains(.gov)
+*#?#b:-abp-contains(.gov)
+*#?#h1:-abp-contains(.gov)
+*#?#h2:-abp-contains(.gov)
+*#?#h3:-abp-contains(.gov)
+*#?#h4:-abp-contains(.gov)
+*#?#h5:-abp-contains(.gov)
+*#?#h6:-abp-contains(.gov)
+*#?#ul:-abp-contains(.gov)
+*#?#li:-abp-contains(.gov)
+*#?#ol:-abp-contains(.gov)
+*#?#link:-abp-contains(.gov)
+*#?#span:-abp-contains(.gov)
+*#?#form:-abp-contains(.gov)
+*#?#button:-abp-contains(.gov)
+*#?#footer:-abp-contains(.gov)
+*#?#header:-abp-contains(.gov)
+*#?#iframe:-abp-contains(.gov)
+*#?#section:-abp-contains(.gov)
 
 ! Yandex Click Tracking
 ||yandex.*/clck
