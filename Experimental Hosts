@@ -3,3 +3,21 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+hangouts.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
+mail.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
+
+*$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id/
+
+0.0.0.0 ads.yap.yahoo.com
+0.0.0.0 geolocation.forbes.com
+0.0.0.0 g2insights-cdn.azureedge.net
+0.0.0.0 cdn.czx5eyk0exbhwp43ya.biz
+0.0.0.0 czx5eyk0exbhwp43ya.biz
+0.0.0.0 paywall-ad-bucket.s3.amazonaws.com
+
+||baidu.com/link?
+
+www.forbes.com##.vestpocket
+brainly.in##.js-toplayer-remove-on-close.js-toplayer-close.js-register-toplayer.sg-overlay
+freebeacon.com###om-vatxspbgmn-lightbox
