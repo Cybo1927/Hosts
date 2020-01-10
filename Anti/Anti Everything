@@ -8,3 +8,6 @@
 
 ! Content/ad blockers
 *
+
+! AdGuard Specific
+*$cookie=/.+/
