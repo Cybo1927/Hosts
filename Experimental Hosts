@@ -4,11 +4,10 @@
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
 
-hangouts.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
-mail.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
+docs.google.com,mail.google.com,hangouts.google.com#@#+js(nobab)
 @@||devtodev.com
 
-*$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id/
+*$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source/
 
 youronlinechoices.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
@@ -114,12 +113,20 @@ youronlinechoices.com#$#body { overflow-x: hidden !important; overflow-y: scroll
 0.0.0.0 vmweb.net
 0.0.0.0 vtracy.de
 0.0.0.0 xad.com
+0.0.0.0 statgw.devtodev.com
+0.0.0.0 balancer.devtodev.com
+0.0.0.0 api.company-target.com
+0.0.0.0 company-target.com
 
 ||baidu.com/link?
 
 /metro_analytics.js
 /cookies-note-v1.html
 /cookies-note-v2.html
+/ip.json
+
+##.cookies-popup
+###modal-cookies-policy
 
 www.forbes.com##.vestpocket
 brainly.in##.js-toplayer-remove-on-close.js-toplayer-close.js-register-toplayer.sg-overlay
@@ -137,3 +144,10 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.acronis.com##.cookies-notification-container
 magpi.raspberrypi.org##article > .u-box-shadow-inset.c-slice
 www.youronlinechoices.com##.cli-show.cli-popupbar-overlay.cli-fade.cli-modal-backdrop
+freebeacon.com##.p-4
+freebeacon.com###om-h7hqccnqef-lightbox
+planner5d.com###modal-cookies-policy
+www.visme.co##.cookies-popup
+www.raspberrypistarterkits.com##.snp-pop-5691-overlay.fancybox-overlay-fixed.fancybox-overlay
+www.raspberrypistarterkits.com##.snp-newtheme5.snp-fb
+www.raspberrypi.org##.cookiebanner
