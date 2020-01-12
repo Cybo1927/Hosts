@@ -10,15 +10,130 @@ mail.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
 
 *$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id/
 
+youronlinechoices.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+
 0.0.0.0 ads.yap.yahoo.com
 0.0.0.0 geolocation.forbes.com
 0.0.0.0 g2insights-cdn.azureedge.net
 0.0.0.0 cdn.czx5eyk0exbhwp43ya.biz
 0.0.0.0 czx5eyk0exbhwp43ya.biz
 0.0.0.0 paywall-ad-bucket.s3.amazonaws.com
+0.0.0.0 geoedge.be
+0.0.0.0 intent.com
+0.0.0.0 adrollgroup.com
+0.0.0.0 nextroll.com
+0.0.0.0 apolloprogram.com
+0.0.0.0 audiencerate.com
+0.0.0.0 audigent.com
+0.0.0.0 beeswax.com
+0.0.0.0 clicksco.com
+0.0.0.0 crosspixel.net
+0.0.0.0 datonics.com
+0.0.0.0 eyeviewdigital.com
+0.0.0.0 flashtalking.com
+0.0.0.0 markitdigital.com
+0.0.0.0 indexexchange.com
+0.0.0.0 inuvo.com
+0.0.0.0 kbmg.com
+0.0.0.0 lotame.com
+0.0.0.0 wearemiq.com
+0.0.0.0 marketing.wearemiq.com
+0.0.0.0 narrativ.com
+0.0.0.0 owneriq.com
+0.0.0.0 parrable.com
+0.0.0.0 retargetly.com
+0.0.0.0 pulsepoint.com
+0.0.0.0 pulpo.com
+0.0.0.0 swoop.com
+0.0.0.0 semasio.com
+0.0.0.0 runads.com
+0.0.0.0 xaxis.com
+0.0.0.0 vibrantmedia.com
+0.0.0.0 viantinc.com
+0.0.0.0 varick.co
+0.0.0.0 throtle.io
+0.0.0.0 apolloprogram.io
+0.0.0.0 audrte.com
+0.0.0.0 ccgateway.net
+0.0.0.0 clrstm.com
+0.0.0.0 eyeviewads.com
+0.0.0.0 linksynergy.com
+0.0.0.0 mediaforge.com
+0.0.0.0 rakutenmarketing.com
+0.0.0.0 mediaiqdigital.com
+0.0.0.0 mmtro.com
+0.0.0.0 nxtck.com
+0.0.0.0 pro-market.net
+0.0.0.0 rundsp.com
+0.0.0.0 semasio.net
+0.0.0.0 specificmedia.com
+0.0.0.0 swpsvc.com
+0.0.0.0 tentaculos.net
+0.0.0.0 thebrighttag.com
+0.0.0.0 thrtle.com
+0.0.0.0 vindicosuite.com
+0.0.0.0 yieldoptimizer.com
+0.0.0.0 kupona.de
+0.0.0.0 jaduda.com
+0.0.0.0 impressiondesk.com
+0.0.0.0 fonecta.fi
+0.0.0.0 4wmarketplace.com
+0.0.0.0 scoota.com
+0.0.0.0 temelio.com
+0.0.0.0 signalsdata.com
+0.0.0.0 next14.com
+0.0.0.0 publicismedia.de
+0.0.0.0 performics.com
+0.0.0.0 programattik.com
+0.0.0.0 orangeadvertising.fr
+0.0.0.0 neory.com
+0.0.0.0 neodatagroup.com
+0.0.0.0 nanointeractive.com
+0.0.0.0 audiencemanager.de
+0.0.0.0 myntelligence.com
+0.0.0.0 vivalu.com
+0.0.0.0 visualdna.com
+0.0.0.0 yieldr.com
+0.0.0.0 254a.com
+0.0.0.0 4wnet.com
+0.0.0.0 a3cloud.net
+0.0.0.0 ad-srv.net
+0.0.0.0 affec.tv
+0.0.0.0 datafront.co
+0.0.0.0 edaa.eu
+0.0.0.0 impdesk.com
+0.0.0.0 infectiousmedia.com
+0.0.0.0 leadplace.fr
+0.0.0.0 mynsystems.com
+0.0.0.0 oath.com
+0.0.0.0 orangeads.fr
+0.0.0.0 scoota.co
+0.0.0.0 smart-dmp.com
+0.0.0.0 sojern.com
+0.0.0.0 vi-tag.net
+0.0.0.0 vmweb.net
+0.0.0.0 vtracy.de
+0.0.0.0 xad.com
 
 ||baidu.com/link?
+
+/metro_analytics.js
+/cookies-note-v1.html
+/cookies-note-v2.html
 
 www.forbes.com##.vestpocket
 brainly.in##.js-toplayer-remove-on-close.js-toplayer-close.js-register-toplayer.sg-overlay
 freebeacon.com###om-vatxspbgmn-lightbox
+www.androidpit.com##.cookinfo__wrapper
+www.10bestantivirus.com##.reveal-modal-bg
+www.10bestantivirus.com###exitModal
+||www.10bestantivirus.com/img/product_banners/$image
+www.whitepages.com##.desktop.cookie-banner
+www.whitepages.com###exit-intent
+www.linuxandubuntu.com##.penci-gprd-law
+www.moneysavingpro.com##.sticky-footer
+www.cellularcountry.com###pcPaypalBanner
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.acronis.com##.cookies-notification-container
+magpi.raspberrypi.org##article > .u-box-shadow-inset.c-slice
+www.youronlinechoices.com##.cli-show.cli-popupbar-overlay.cli-fade.cli-modal-backdrop
