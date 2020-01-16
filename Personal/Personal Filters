@@ -78,6 +78,7 @@ techiespad.com$script,inline-script
 ||cnvid.net^$all
 ||dnspod.net^$all
 ||dnspod.cn^$all
+||inshotapp.com^$all
 ! Other Chinese Crap
 !#if (adguard && !ext_ublock)
 qq.com|
