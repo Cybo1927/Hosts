@@ -3,3 +3,29 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+! Froom AdGuard For Android (Unfiltered)
+@@||yoloapp.app.link^
+
+||ext.hidemysearches.com^
+||search.downloadpartytab.com^
+||downloadpartytab.com^
+||adsdk.picooapps.com^
+||adsdk-picooapp-elb-50811274.ap-southeast-1.elb.amazonaws.com^
+||adsdk.picooapp.com^
+||dl.ngmacplayer.com^
+||ngmaclayer.com^
+||mydocstopdf.com^
+||ws.tapjoyads.com^
+||ns.exitgames.com^
+||offroadoutlaws.online^
+||x-us.appbaqend.com^
+||76674bdad304297eda3d325f449f6f49.com^
+||a.76674bdad304297eda3d325f449f6f49.com^
+||analytics.ninjakiwi.com^
+||remote-data.urbanairship.com^
+||inshotapp.com.w.kunlungr.com^
+||myinstashot.com^
+||ebjvu.cn^
+||analytics.ninjakiwi.com^
+||47.254.84.222:80^$app=com.camerasideas.trimmer
