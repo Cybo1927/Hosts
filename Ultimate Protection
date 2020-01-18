@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 32
+! Version: 33
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 55K (Give Or Take A Few Thousand)
 ! Last Modified: Thursday, December 26, 2019
@@ -64,7 +64,9 @@ techiespad.com$script,inline-script
 ! https://restoreprivacy.com/startpage-system1-privacy-one-group/
 ! StartPage was bought in part by a targeted advertising company
 ||startpage.com^$all
+||ixquick.com^$all
 startpage|
+ixquick.com|
 ! IP
 216.218.239.62$network
 
