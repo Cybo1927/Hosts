@@ -4,7 +4,7 @@
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
 
-! Froom AdGuard For Android (Unfiltered)
+! From AdGuard For Android (Unfiltered)
 @@||yoloapp.app.link^
 
 ||ext.hidemysearches.com^
@@ -29,3 +29,21 @@
 ||ebjvu.cn^
 ||analytics.ninjakiwi.com^
 ||47.254.84.222:80^$app=com.camerasideas.trimmer
+
+! From uBlock Origin On Linux PC
+0.0.0.0 country.yepshare.com
+0.0.0.0 yepshare.com
+0.0.0.0 analytics.bluemosh.com
+0.0.0.0 ads.dailyfeed.co.uk
+0.0.0.0 analytics.webgains.io
+0.0.0.0 sublytics-*.com
+0.0.0.0 sublytics.com
+
+###the_cookie_notice
+
+window.gapwn.get_country
+
+www.how2shout.com##.td-adspot-title
+www.mojo.vision###the_cookie_notice
+www.linuxandubuntu.com##.JYmXhhXimcmy-bg
+www.linuxandubuntu.com##.JYmXhhXimcmy-default
