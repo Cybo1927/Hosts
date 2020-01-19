@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 24
+! Version: 25
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -463,6 +463,21 @@ pandora.com$generichide
 ##.sharedaddy
 ##.sd-sharing-enabled
 ##.sharing
+##.et-extra-icon-googleplus
+##.et-extra-icon-tumblr
+##.et-extra-icon-pinterest
+##.et-extra-icon-background-hover.et-extra-icon-buffer.et-extra-icon
+##.et-extra-icon-stumbleupon
+##.et-extra-icon-basic_email
+##.et-extra-icon-basic_print
+##.social-link-nl
+##.social-link
+##.rss-button
+##.email
+##.mastodon
+##.mix
+##.diaspora
+##.share-btn
 -facebook
 -fb
 -twitter
@@ -504,3 +519,6 @@ www.dailywire.com##a.es81y9m5.css-oe3sn5
 thehackernews.com##.cf.f-menu-cl-4
 www.britannica.com##.middle-xs.center-xs.ui-icon
 freebeacon.com##.mt-8.lg\:ml-8.items-center.justify-between.flex
+frenreport.com##.ed-social-share-icons.social-icons
+frenreport.com##.social-share-link
+www.privacytools.io###participate
