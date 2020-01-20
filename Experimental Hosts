@@ -47,3 +47,44 @@ www.how2shout.com##.td-adspot-title
 www.mojo.vision###the_cookie_notice
 www.linuxandubuntu.com##.JYmXhhXimcmy-bg
 www.linuxandubuntu.com##.JYmXhhXimcmy-default
+
+! From uBlock Origin On School Chromebook
+! ExoClick
+*##+js(abort-on-property-read, ExoLoader)
+! Found In AdGuard general_extensions Filter - should block ExoClick From Trying To Open New Tabs - https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/general_extensions.txt
+*%#Object.defineProperty(window, 'ExoLoader', { get: function() { return; } });
+
+! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
+@@||fedex.com/Tracking$badfilter
+
+@@||nist.gov
+
+0.0.0.0 aa.google.com
+0.0.0.0 sonar.fedex.epsihost.com
+0.0.0.0 sonar.fedex.com
+0.0.0.0 smetrics.fedex.com
+0.0.0.0 na5.cdn.thunderhead.com
+
+greatist.com##.css-r3w5ih
+greatist.com###DMR1__slot
+greatist.com##.css-1y1s420
+greatist.com###sticky2__slot
+greatist.com##.css-ah1nyu
+greatist.com###inline1__slot
+greatist.com##.css-az6x7v
+greatist.com##.css-1cg0byz
+greatist.com##div.css-c9zd8s
+greatist.com###DCMR1__slot
+greatist.com##.css-vhteyv
+greatist.com##.css-1n288wl
+greatist.com##.css-xl6j01
+www.seattletimes.com##.ad-top-one
+www.seattletimes.com##.is-active.overlay.global-overlay.newsletter-social.NewsletterSignupSplash
+www.seattletimes.com###userMessagingInset
+www.orlandosentinel.com###fHg3Ge1MgprcNr
+www.orlandosentinel.com##.met-rule-3049.met-flyout
+www.orlandosentinel.com##.pb-ad-prod.pb-ad
+www.orlandosentinel.com##div.pb-container
+||dogedoge.com/data/up
+||dogedoge.com/data/js
+||www.fedex.com/content/dam/fedex-com/images/us/va-nina/
