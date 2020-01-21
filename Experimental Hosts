@@ -47,6 +47,7 @@ www.how2shout.com##.td-adspot-title
 www.mojo.vision###the_cookie_notice
 www.linuxandubuntu.com##.JYmXhhXimcmy-bg
 www.linuxandubuntu.com##.JYmXhhXimcmy-default
+mxlinux.org###webarx-cookie-notice
 
 ! From uBlock Origin On School Chromebook
 ! ExoClick
@@ -88,3 +89,25 @@ www.orlandosentinel.com##div.pb-container
 ||dogedoge.com/data/up
 ||dogedoge.com/data/js
 ||www.fedex.com/content/dam/fedex-com/images/us/va-nina/
+
+! AdGuard Home (unfiltered)
+@@||sb.adtidy.org^$important
+@@||ocsp.digicert.com^$important
+@@||cs9.wac.phicdn.net^$important
+@@||e673.dsce9.akamaiedge.net
+@@||www-cdn.icloud.com.akadns.net
+@@||audownload.windowsupdate.nsatc.net
+@@||edge.gycpi.b.yahoodns.net
+
+0.0.0.0 trk.pinterest.com
+0.0.0.0 dfwfis-sponsored.secure.footprint.net
+0.0.0.0 sf.ezoiccdn.com
+0.0.0.0 ezoiccdn.com
+0.0.0.0 matrix.dailyinnovation.biz
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 shepherd.ns1.ff.avast.com
+0.0.0.0 yahoo.uservoice.com
+0.0.0.0 astra.commerce.yahoo.com
+0.0.0.0 gps-w2-elb-fe27-sypi-1026542360.us-west-2.elb.amazonaws.com
+0.0.0.0 sypi.gpshopper.com
+0.0.0.0 gpshopper.com
