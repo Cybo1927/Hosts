@@ -60,11 +60,46 @@ mxlinux.org###webarx-cookie-notice
 
 @@||nist.gov
 
-0.0.0.0 aa.google.com
 0.0.0.0 sonar.fedex.epsihost.com
 0.0.0.0 sonar.fedex.com
 0.0.0.0 smetrics.fedex.com
 0.0.0.0 na5.cdn.thunderhead.com
+0.0.0.0 gscounters.us1.gigya.com
+0.0.0.0 bidfluence.com
+0.0.0.0 btrll.com
+0.0.0.0 c1exchange.com
+0.0.0.0 cedato.com
+0.0.0.0 coxmt.com
+0.0.0.0 elogua.com
+0.0.0.0 exelate.com
+0.0.0.0 getintent.com
+0.0.0.0 imonomy.com
+0.0.0.0 impressionmonster.com
+0.0.0.0 index.com
+0.0.0.0 inner-active.com
+0.0.0.0 insticator.com
+0.0.0.0 liveintent.com
+0.0.0.0 lkqd.com
+0.0.0.0 lkqd.net
+0.0.0.0 matamo.org
+0.0.0.0 mfadsrv.com
+0.0.0.0 mnet-ad.net
+0.0.0.0 nugg.ad
+0.0.0.0 placeholdit.imgix.net
+0.0.0.0 popads.com
+0.0.0.0 q1connect.com
+0.0.0.0 quantum-advertising.com
+0.0.0.0 rfihub.com
+0.0.0.0 sail-personalize.com
+0.0.0.0 smartocto.com
+0.0.0.0 storygize.net
+0.0.0.0 synacor.com
+0.0.0.0 marketing.triplelift.com
+0.0.0.0 triplelift.com
+0.0.0.0 vertamedia.com
+0.0.0.0 vi.ai
+
+/*.sendReport
 
 greatist.com##.css-r3w5ih
 greatist.com###DMR1__slot
@@ -89,6 +124,15 @@ www.orlandosentinel.com##div.pb-container
 ||dogedoge.com/data/up
 ||dogedoge.com/data/js
 ||www.fedex.com/content/dam/fedex-com/images/us/va-nina/
+www.khou.com###article_atf
+www.khou.com##.grid__sticky-column_side_left.grid__sticky-column
+www.khou.com##.ad
+www.symbolab.com##.nl-cookiepolicy
+notablelife.com##.nl_big_box.nl_ad
+notablelife.com##.nl_ad_desktop
+thehackernews.com##.clear.ad_two
+www.dailymail.co.uk##.masthead
+www.buzzfeednews.com##.ad-wireframe-wrapper--labeled.ad-wireframe-wrapper
 
 ! AdGuard Home (unfiltered)
 @@||sb.adtidy.org^$important
