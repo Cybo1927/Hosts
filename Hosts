@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1190
+! Version: 1191
 ! Version hyphen (-) Means Small Update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 24.7K
-! Last Modified: Monday, January 13, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 24.9K
+! Last Modified: Sunday, January 26, 2020
 
 ! Unbreak
 docs.google.com,mail.google.com,hangouts.google.com#@#+js(nobab)
@@ -65,7 +65,8 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
-! Simple Domains
+! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
+@@||fedex.com/Tracking$badfilter
 ! AdGuard Simplified Domains Incorrectly Blocks This -----------------
 @@||smallseotools.com^$important
 ! --------------------------------------------------------------------
@@ -323,6 +324,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/780
 *##+js(aopw, EA_data)
 oui.sncf##+js(acis, document.getElementById, vscaUrl)
+! ExoClick
+*##+js(abort-on-property-read, ExoLoader)
 
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
@@ -553,7 +556,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 metrics.icloud.com
 0.0.0.0 api-glb-msp.smoot.apple.com
 0.0.0.0 time-ios.g.aaplimg.com
-0.0.0.0 www-cdn.icloud.com.akadns.net
 0.0.0.0 e17437.dscb.akamaiedge.net
 0.0.0.0 attwifi.apple.com
 0.0.0.0 parsec.apple.com
@@ -1191,6 +1193,15 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adsdk.picooapps.com
+0.0.0.0 adsdk-picooapp-elb-50811274.ap-southeast-1.elb.amazonaws.com
+0.0.0.0 adsdk.picooapp.com
+0.0.0.0 a.76674bdad304297eda3d325f449f6f49.com
+0.0.0.0 analytics.ninjakiwi.com
+0.0.0.0 analytics.bluemosh.com
+0.0.0.0 ads.dailyfeed.co.uk
+0.0.0.0 analytics.webgains.io
+0.0.0.0 astra.commerce.yahoo.com
 0.0.0.0 adrollgroup.com
 0.0.0.0 apolloprogram.com
 0.0.0.0 audiencerate.com
@@ -1627,7 +1638,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 admitad.com
 0.0.0.0 admitad-connect.com
 0.0.0.0 a-afdentry.net.trafficmanager.net
-0.0.0.0 a-0001.a-afdentry.net.trafficmanager.net
 0.0.0.0 a.applovin.com
 0.0.0.0 apiv2.bricknet.com
 0.0.0.0 areyouabot.net
@@ -1913,7 +1923,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 adserve.io
 0.0.0.0 asadcdn.com
 0.0.0.0 apahflfit2015.samsung.com
-0.0.0.0 audownload.windowsupdate.nsatc.net
 0.0.0.0 api.bignox.com
 0.0.0.0 ad4mat.cz
 0.0.0.0 ad4mat.dk
@@ -3476,7 +3485,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 analytics.io
 0.0.0.0 adserver.pandora.com
-0.0.0.0 app.link
 0.0.0.0 ace.advertising.com
 0.0.0.0 analytics.dwebsite.com
 0.0.0.0 ad-survey.com
@@ -4195,6 +4203,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bidfluence.com
+0.0.0.0 btrll.com
 0.0.0.0 beeswax.com
 0.0.0.0 balancer.devtodev.com
 0.0.0.0 brandme-prod.s3.amazonaws.com
@@ -5161,6 +5171,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 country.yepshare.com
+0.0.0.0 c1exchange.com
+0.0.0.0 cedato.com
+0.0.0.0 coxmt.com
 0.0.0.0 cdn.czx5eyk0exbhwp43ya.biz
 0.0.0.0 czx5eyk0exbhwp43ya.biz
 0.0.0.0 clicksco.com
@@ -5747,7 +5761,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 canalsubscrib.com
 0.0.0.0 choppywaves.com
 0.0.0.0 contextual.media.net
-0.0.0.0 cs9.wac.phicdn.net
 0.0.0.0 contra-virus.com
 0.0.0.0 cb.amazingcounters.com
 0.0.0.0 caideation.secure.force.com
@@ -6346,6 +6359,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 downloadpartytab.com
+0.0.0.0 dl.ngmacplayer.com
+0.0.0.0 dfwfis-sponsored.secure.footprint.net
 0.0.0.0 datonics.com
 0.0.0.0 datafront.co
 0.0.0.0 delivery-cdn-cf.adswizz.com
@@ -7114,12 +7130,16 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ext.hidemysearches.com
+0.0.0.0 ebjvu.cn
+0.0.0.0 elogua.com
+0.0.0.0 exelate.com
+0.0.0.0 ezoiccdn.com
 0.0.0.0 eyeviewdigital.com
 0.0.0.0 eyeviewads.com
 0.0.0.0 edaa.eu
 0.0.0.0 ey9cms.goitcl.com
 0.0.0.0 equuleus.iad.appboy.com
-0.0.0.0 e673.dsce9.akamaiedge.net
 0.0.0.0 exacttargetapis.com
 0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
 0.0.0.0 events-endpoint-c-394794954.us-east-1.elb.amazonaws.com
@@ -7217,7 +7237,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ebm.native-x.io
 0.0.0.0 elb-*-amz.nimbus.bitdefender.net
 0.0.0.0 eff.map.fastly.net
-0.0.0.0 edge.gycpi.b.yahoodns.net
 0.0.0.0 engagement.feedly.com
 0.0.0.0 e-0012.e-msedge.net
 0.0.0.0 es.io
@@ -7874,6 +7893,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gscounters.us1.gigya.com
+0.0.0.0 getintent.com
+0.0.0.0 gps-w2-elb-fe27-sypi-1026542360.us-west-2.elb.amazonaws.com
+0.0.0.0 gpshopper.com
 0.0.0.0 geolocation.forbes.com
 0.0.0.0 g2insights-cdn.azureedge.net
 0.0.0.0 geoedge.be
@@ -8556,6 +8579,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 inshotapp.com.w.kunlungr.com
+0.0.0.0 imonomy.com
+0.0.0.0 impressionmonster.com
+0.0.0.0 index.com
+0.0.0.0 inner-active.com
+0.0.0.0 insticator.com
 0.0.0.0 intent.com
 0.0.0.0 indexexchange.com
 0.0.0.0 inuvo.com
@@ -10228,6 +10257,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 liveintent.com
+0.0.0.0 lkqd.com
+0.0.0.0 lkqd.net
 0.0.0.0 lotame.com
 0.0.0.0 linksynergy.com
 0.0.0.0 leadplace.fr
@@ -10534,6 +10566,13 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mydocstopdf.com
+0.0.0.0 myinstashot.com
+0.0.0.0 matamo.org
+0.0.0.0 mfadsrv.com
+0.0.0.0 mnet-ad.net
+0.0.0.0 marketing.triplelift.com
+0.0.0.0 matrix.dailyinnovation.biz
 0.0.0.0 myemailtracking.com
 0.0.0.0 markitdigital.com
 0.0.0.0 marketing.wearemiq.com
@@ -11206,6 +11245,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ngmaclayer.com
+0.0.0.0 ns.exitgames.com
+0.0.0.0 na5.cdn.thunderhead.com
+0.0.0.0 nugg.ad
 0.0.0.0 nextroll.com
 0.0.0.0 narrativ.com
 0.0.0.0 nxtck.com
@@ -11296,7 +11339,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ns14.p16.dynect.net
 0.0.0.0 ns15.p16.dynect.net
 0.0.0.0 ns16.p16.dynect.net
-0.0.0.0 nist.gov
 0.0.0.0 ntp1.glb.nist.gov
 0.0.0.0 notify.bugsnag.com
 0.0.0.0 nav-it.ru
@@ -11505,6 +11547,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 offroadoutlaws.online
 0.0.0.0 owneriq.com
 0.0.0.0 orangeadvertising.fr
 0.0.0.0 oath.com
@@ -11735,6 +11778,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 placeholdit.imgix.net
+0.0.0.0 popads.com
 0.0.0.0 paywall-ad-bucket.s3.amazonaws.com
 0.0.0.0 parrable.com
 0.0.0.0 pulsepoint.com
@@ -12383,6 +12428,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 q1connect.com
+0.0.0.0 quantum-advertising.com
 0.0.0.0 qejvh5yd.pw
 0.0.0.0 queuev4.vk.com
 0.0.0.0 q.blueswan.io
@@ -12471,6 +12518,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 remote-data.urbanairship.com
+0.0.0.0 rfihub.com
 0.0.0.0 retargetly.com
 0.0.0.0 runads.com
 0.0.0.0 rakutenmarketing.com
@@ -12833,6 +12882,20 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 search.downloadpartytab.com
+0.0.0.0 sublytics-*.com
+0.0.0.0 sublytics.com
+0.0.0.0 sonar.fedex.epsihost.com
+0.0.0.0 sonar.fedex.com
+0.0.0.0 smetrics.fedex.com
+0.0.0.0 sail-personalize.com
+0.0.0.0 smartocto.com
+0.0.0.0 storygize.net
+0.0.0.0 synacor.com
+0.0.0.0 sf.ezoiccdn.com
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 shepherd.ns1.ff.avast.com
+0.0.0.0 sypi.gpshopper.com
 0.0.0.0 swoop.com
 0.0.0.0 semasio.com
 0.0.0.0 semasio.net
@@ -13112,7 +13175,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 slscr.update.microsoft.com
 0.0.0.0 slscr.update.microsoft.com.akadns.net
 0.0.0.0 sf.symcd.com
-0.0.0.0 sb.adtidy.org
 0.0.0.0 safebrowsing.brave.com
 0.0.0.0 stage31.net
 0.0.0.0 smetrics.boston.com
@@ -14237,6 +14299,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 triplelift.com
+0.0.0.0 trk.pinterest.com
 0.0.0.0 throtle.io
 0.0.0.0 tentaculos.net
 0.0.0.0 thebrighttag.com
@@ -15114,6 +15178,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vertamedia.com
+0.0.0.0 vi.ai
 0.0.0.0 velocitycdn.com
 0.0.0.0 velocitycdn.com$popup,popunder
 0.0.0.0 vibrantmedia.com
@@ -15318,6 +15384,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 ws.tapjoyads.com
 0.0.0.0 wearemiq.com
 0.0.0.0 whoami.akamai.net
 0.0.0.0 www-googletagmanager.l.google.com
@@ -15701,6 +15768,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 x-us.appbaqend.com
 0.0.0.0 xaxis.com
 0.0.0.0 xad.com
 0.0.0.0 xlbbhdarc.com
@@ -15782,10 +15850,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 xg4ken.com
 0.0.0.0 xads.zedo.com
 0.0.0.0 xslt.alexa.com
-0.0.0.0 www.xxxwebtraffic.com
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yepshare.com
+0.0.0.0 yahoo.uservoice.com
 0.0.0.0 yieldoptimizer.com
 0.0.0.0 yieldr.com
 0.0.0.0 yepdownload.com
@@ -16187,6 +16256,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 76674bdad304297eda3d325f449f6f49.com
 0.0.0.0 4wmarketplace.com
 0.0.0.0 254a.com
 0.0.0.0 4wnet.com
@@ -23626,6 +23696,43 @@ www.visme.co##.cookies-popup
 www.raspberrypistarterkits.com##.snp-pop-5691-overlay.fancybox-overlay-fixed.fancybox-overlay
 www.raspberrypistarterkits.com##.snp-newtheme5.snp-fb
 www.raspberrypi.org##.cookiebanner
+www.how2shout.com##.td-adspot-title
+www.mojo.vision###the_cookie_notice
+www.linuxandubuntu.com##.JYmXhhXimcmy-bg
+www.linuxandubuntu.com##.JYmXhhXimcmy-default
+mxlinux.org###webarx-cookie-notice
+greatist.com##.css-r3w5ih
+greatist.com###DMR1__slot
+greatist.com##.css-1y1s420
+greatist.com###sticky2__slot
+greatist.com##.css-ah1nyu
+greatist.com###inline1__slot
+greatist.com##.css-az6x7v
+greatist.com##.css-1cg0byz
+greatist.com##div.css-c9zd8s
+greatist.com###DCMR1__slot
+greatist.com##.css-vhteyv
+greatist.com##.css-1n288wl
+greatist.com##.css-xl6j01
+www.seattletimes.com##.ad-top-one
+www.seattletimes.com##.is-active.overlay.global-overlay.newsletter-social.NewsletterSignupSplash
+www.seattletimes.com###userMessagingInset
+www.orlandosentinel.com###fHg3Ge1MgprcNr
+www.orlandosentinel.com##.met-rule-3049.met-flyout
+www.orlandosentinel.com##.pb-ad-prod.pb-ad
+www.orlandosentinel.com##div.pb-container
+||dogedoge.com/data/up
+||dogedoge.com/data/js
+||www.fedex.com/content/dam/fedex-com/images/us/va-nina/
+www.khou.com###article_atf
+www.khou.com##.grid__sticky-column_side_left.grid__sticky-column
+www.khou.com##.ad
+www.symbolab.com##.nl-cookiepolicy
+notablelife.com##.nl_big_box.nl_ad
+notablelife.com##.nl_ad_desktop
+thehackernews.com##.clear.ad_two
+www.dailymail.co.uk##.masthead
+www.buzzfeednews.com##.ad-wireframe-wrapper--labeled.ad-wireframe-wrapper
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -23917,6 +24024,7 @@ cloud2.gsdk.proximabeta.com$app=com.activision.callofduty.shooter
 brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 54.236.163.166^$app=com.supercell.boombeach
 54.146.228.136^$app=com.supercell.boombeach
+47.254.84.222^$app=com.camerasideas.trimmer
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
@@ -24575,6 +24683,8 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /matomo.js
 /mistats/
 /datadog-logs-*$script
+window.gapwn.get_country
+/*.sendReport
 -google-tag-
 -ad-
 -v6exp3-
@@ -24619,6 +24729,7 @@ _statsonlineinfo
 *#$#hide-if-contains-visible-text/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама|Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/
 *##:has-text(/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама/)
 *##:has-text(/^Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/)
+###the_cookie_notice
 ##.js-cookie-modal
 ##.cookie-modal
 ##.cookie-modal__inner
