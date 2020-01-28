@@ -3,3 +3,257 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+! From uBlock Origin On Linux PC
+0.0.0.0 analytics.distributednews.com
+0.0.0.0 market.clio.com
+0.0.0.0 emltrk.com
+0.0.0.0 replymsg.com
+0.0.0.0 mailstat.us
+0.0.0.0 talkmarine.com
+0.0.0.0 contactmonkey.com
+0.0.0.0 go.toutapp.com
+0.0.0.0 tr.cloudmagic.com
+0.0.0.0 email.rocketbolt.com
+0.0.0.0 t.hubspotemail.net
+0.0.0.0 hubspotemail.net
+0.0.0.0 bl-1.com
+0.0.0.0 bixel.io
+0.0.0.0 bb.bixel.io
+0.0.0.0 getnotify.com
+0.0.0.0 email81.com
+0.0.0.0 didtheyreadit.com
+0.0.0.0 xpostmail.com
+0.0.0.0 cirrusinsight.com
+0.0.0.0 tracking.cirrusinsight.com
+0.0.0.0 cmail20.com
+0.0.0.0 mailzter.in
+0.0.0.0 ftrans03.com
+0.0.0.0 awstrack.me
+0.0.0.0 email.paytm.com
+0.0.0.0 trk.paytmemail.com
+0.0.0.0 learnvibes.net
+0.0.0.0 webwerks.learnvibes.net
+0.0.0.0 connequitymailer.com
+0.0.0.0 jan-sampark.nic.in
+0.0.0.0 campaign.maxlifeinsurance.com
+0.0.0.0 vmgursrv0424.maxlife.max.com
+0.0.0.0 email.segment.com
+0.0.0.0 intercom-mail.com
+0.0.0.0 sptrack.trello.com
+0.0.0.0 i.trellomail.com
+0.0.0.0 trellomail.com
+0.0.0.0 t.info.adobesystems.com
+0.0.0.0 411.appriver.com
+0.0.0.0 unicaondemand.com
+0.0.0.0 miq-p4-qa-em.unicaondemand.com
+0.0.0.0 openbracket.co
+0.0.0.0 mltrk.io
+0.0.0.0 insgly.net
+0.0.0.0 insightly.com
+0.0.0.0 agle2.me
+0.0.0.0 console.ebsta.com
+0.0.0.0 ebsta.com
+0.0.0.0 email.mixmax.com
+0.0.0.0 mixmax.com
+0.0.0.0 email.fullcontact.com
+0.0.0.0 fullcontact.com
+0.0.0.0 email.sendgrid.com
+0.0.0.0 sendgrid.com
+0.0.0.0 trackapp.io
+0.0.0.0 kodand.wildapricot.org
+0.0.0.0 app.mailtag.io
+0.0.0.0 mailtag.io
+0.0.0.0 amazonappservices.com
+0.0.0.0 trk.email.dynect.net
+0.0.0.0 weblogger-dynamic-lb.playdom.com
+0.0.0.0 click.send.grammarly.com
+0.0.0.0 cprpt.com
+0.0.0.0 zeemail.in
+0.0.0.0 epidm.edgesuite.net
+0.0.0.0 edgesuite.net
+0.0.0.0 tatadocomobusiness.com
+0.0.0.0 l.e.tatadocomobusiness.com
+0.0.0.0 rio.mailcoral.com
+0.0.0.0 mailinifinity.com
+0.0.0.0 track.opicle.com
+0.0.0.0 opicle.hasoffers.com
+0.0.0.0 formirror.com
+0.0.0.0 blueshiftmail.com
+0.0.0.0 list-manage.com
+0.0.0.0 prolificmail.com
+0.0.0.0 trk.365offers.trade
+0.0.0.0 ind.dell.com
+0.0.0.0 opens.responder.co.il
+0.0.0.0 hdfcbank.net
+0.0.0.0 tracking.vcommission.com
+0.0.0.0 vcommission.com
+0.0.0.0 netecart.com
+0.0.0.0 lnk.pool.driftem.com
+0.0.0.0 click.absolutesoftware-email.com
+0.0.0.0 absolutesoftware-email.com
+0.0.0.0 mailchap.hourlie.com
+0.0.0.0 sendibm3.com
+0.0.0.0 sendibm4.com
+0.0.0.0 getbase.com
+0.0.0.0 mention.com
+0.0.0.0 rs6.net
+0.0.0.0 egocdn.com
+0.0.0.0 stat-pulse.com
+0.0.0.0 sendpulse.email
+0.0.0.0 s608.t.en25.com
+0.0.0.0 emditpison.asus.com
+0.0.0.0 apptivo.com
+0.0.0.0 livehive.com
+0.0.0.0 cdn77.n1272adserv.xyz
+0.0.0.0 n1272adserv.xyz
+0.0.0.0 wrison-subustall.com
+0.0.0.0 mailvibes.io
+0.0.0.0 mvib.es
+0.0.0.0 yournewtab.com
+0.0.0.0 atpclick.com
+0.0.0.0 ads1.atpclick.com
+0.0.0.0 ads.affiliateclub.com
+0.0.0.0 affiliateclub.com
+0.0.0.0 ads.affiliatecruise.com
+0.0.0.0 affiliatecruise.com
+0.0.0.0 genesisaffiliates.com
+0.0.0.0 ads.affiliate-cruise-mail.com
+0.0.0.0 affiliate-cruise-mail.com
+0.0.0.0 affiliates-spinit.com
+0.0.0.0 ads.annapartners.com
+0.0.0.0 annapartners.com
+0.0.0.0 ads.askgamblers.com
+0.0.0.0 ads.b10f.jp
+0.0.0.0 regstat.betfair.com
+0.0.0.0 promotions.betfair.com
+0.0.0.0 ads.casumoaffiliates.com
+0.0.0.0 casumoaffiliates.com
+0.0.0.0 ads.cherrycasino.com
+0.0.0.0 ads.comeon.com
+0.0.0.0 ads.dollartree.com
+0.0.0.0 ads.ellmountgaming.com
+0.0.0.0 adserve.atedra.com
+0.0.0.0 atedra.com
+0.0.0.0 adservex.media.net
+0.0.0.0 adserving.unibet.com
+0.0.0.0 ads.eurogrand.com
+0.0.0.0 ads.eurolotto.com
+0.0.0.0 ads.euroslots.com
+0.0.0.0 adultadworld.com
+0.0.0.0 adup-tech.com
+0.0.0.0 adv.blogupp.com
+0.0.0.0 adv.cr$third-party
+0.0.0.0 advert-solutions.com
+0.0.0.0 bitrix24.ru
+0.0.0.0 advert-technology.ru
+0.0.0.0 advert.ee
+0.0.0.0 advert.io
+0.0.0.0 advertio.com
+0.0.0.0 adverticum.net
+0.0.0.0 afdah.tv
+0.0.0.0 affiliate-b.com
+0.0.0.0 b.yjtag.jp
+0.0.0.0 yjtag.jp
+0.0.0.0 afi-b.com
+0.0.0.0 affinity.com
+0.0.0.0 affiz.net
+0.0.0.0 apvdr.com
+0.0.0.0 apxlv.com
+0.0.0.0 bet365affiliates.com
+0.0.0.0 bidfilter.com
+0.0.0.0 bilsyndication.com
+
+www.androidstrike.com###text-6
+www.androidstrike.com##.single-featured-image > .wp-post-image.size-jannah-image-post.attachment-jannah-image-post
+www.androidstrike.com###text-8
+www.androidstrike.com##li > .wp-image-5132.size-full.aligncenter
+||ups.com/img/icp.gif
+www.ubuntupit.com###tdi_85_838
+www.pcmag.com##.flex-shrink-0.xl\:block.hidden.upper-sidebar.container-right-rail
+privacywatch.news##.LMXABCDKEOFG
+privacywatch.news##.AQXHBICRGMDE
+privacywatch.news##.YPZMDJCQROXL
+||spectrum.com/etc/clientlibs/spectrum/residential/geolocation.min.js
+||cloudhq.io/mail_track/
+||cloudhq-mkt1.net/mail_track/
+||cloudhq-mkt2.net/mail_track/
+||cloudhq-mkt3.net/mail_track/
+||cloudhq-mkt4.net/mail_track/
+||cloudhq-mkt5.net/mail_track/
+||cloudhq-mkt6.net/mail_track/
+||market.clio.com/trk/
+||thetopinbox.com/track/
+privacywatch.news##[href="WBA-5004.html"]
+privacywatch.news##[href="WBA-3357.html"]
+privacywatch.news##[href="WBA-3809.html"]
+privacywatch.news##[href="WBA-3391.html"]
+privacywatch.news##[href="WBA-3758.html"]
+privacywatch.news##[href="WBA-653.html"]
+privacywatch.news##[href="WBA-214.html"]
+privacywatch.news##[href="WBA-3708.html"]
+privacywatch.news##[href="WBA-3670.html"]
+privacywatch.news##[href="WBA-3674.html"]
+privacywatch.news##[href="WBA-2639.html"]
+privacywatch.news##[href="WBA-3700.html"]
+privacywatch.news##[href="WBA-3805.html"]
+privacywatch.news##[href="WBA-4994.html"]
+privacywatch.news##[href="WBA-3802.html"]
+privacywatch.news##[href="WBA-3751.html"]
+privacywatch.news##[href="WBA-5024.html"]
+privacywatch.news##[href="WBA-5034.html"]
+privacywatch.news##[href="WBA-3384.html"]
+privacywatch.news##[href="WBA-5014.html"]
+privacywatch.news##[href="WBA-651.html"]
+||techgig.com/mis/tj_mailer_opened_count_all.php
+||content.fb.com/trk
+||transferwise.com/track/
+||linkedin.com/emimp/
+||email.unsplash.com/o/
+||links.producthunt.com/oo/
+||email.payback.in/a/
+||mail.payback.in/tr/
+||wildapricot.org/emailtracker
+||awscloud.com/trk
+||l.flipkart.com/t/
+||dropbox.com/l/
+||monsterindia.com/corp_news_unsubscribed/track.html
+||quora.com/qemail/mark_read
+||facebook.com/email_open_log_pic.php
+||facebookdevelopers.com/trk
+||email.getpocket.com/wf/open
+||bookmyshow.com/tr/
+||driftem.com/ltrack
+||c.apple.com/img/apple_email_link/
+||eventsinyourarea.com/track/
+||link.runtastic.com/mo/
+b10f.jp##td:nth-of-type(2) > table
+b10f.jp###my_contents_home > table > tbody > tr > td:nth-of-type(2)
+www.betfair.com##.ssc-cha-desktop.ssc-cc-gb.ssc-lang-en.ssc-reg-us.ssc-jur-intl.ssc-prod-prospect-page.ssc-theme-betfair.ssc-cp.ssc-ncb
+www.adventurecreators.com###cookie-banner
+||blocket.se/adout/
+
+/NNAnalytics/
+/wpvisits/
+/NNAnalyticsWPSites
+/linktrack/
+/marketing/mail-
+/appserve/mkt/
+/email_trackers
+/email/tracking/
+/1px.gif
+/track.gif
+/mail/track-open
+/ads-config.min.js
+/ads-async
+?tracking_code
+/advertising.block/
+/blockalyzer-adblock-counter/
+~Ad~
+
+
+! From AdGuard On Linux PC
+! The Cookie Doesn't Need To Be Stored For 4 Month - This Sets It To One
+amiunique.org$cookie=AmIUniqueId;maxAge=43200
+
+*$cookie=/grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid/
