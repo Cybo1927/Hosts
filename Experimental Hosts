@@ -257,3 +257,50 @@ www.adventurecreators.com###cookie-banner
 amiunique.org$cookie=AmIUniqueId;maxAge=43200
 
 *$cookie=/grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid/
+
+
+! From uBlock Origin On School Chromebook
+0.0.0.0 ibn.adreach.co
+0.0.0.0 adreach.co
+0.0.0.0 bandar-logger.prezi.com
+0.0.0.0 biz142.inmotionhosting.com
+0.0.0.0 history-world.org
+0.0.0.0 verified-extensions.com
+0.0.0.0 lp.powerapp.download
+0.0.0.0 powerapp.download
+0.0.0.0 searchpowerapp.com
+
+! Gets A Decent Ammount Of Torrent Trackers
+.+:\/\/.+:?\/(announce)
+
+###bttk_advertisement_widget-44
+##.advert
+##.atom.br-ad-wrapper
+
+www.amazon.com##.index\=0.widgetId\=search-results.template\=SEARCH_RESULTS.slot\=SEARCH_RESULTS.celwidget > .rush-component > .rush-component > .s-border-bottom.s-include-content-margin
+www.theguardian.com##.js-top-banner.top-banner-ad-container
+www.theguardian.com###dfp-ad--mostpop
+www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container
+||g01.msn.com$$xmlhttprequest,domain=msn.com
+||msn.com$ping
+www.msn.com##.dynamicRRv2
+www.msn.com##.apbctr
+www.msn.com###sticky-footer-wrapper
+##[href*="adclick.g.doubleclick.net"]
+www.msn.com##.yvewviizmnzxodjivy.normalsection > .full-width > .sectioncontent
+www.msn.com##.yvehzydphxvmy-kgvxzcjgyzm
+www.msn.com###stripecontentplaceholder
+www.msn.com##.full-width.stripe
+www.msn.com##.stripeouter
+www.msn.com##.loaded.makelist.pagingsection
+graduateway.com###plug0
+graduateway.com##.shadow
+graduateway.com##.exit_window_body_large
+graduateway.com##.article__cta
+graduateway.com##.mail
+eng.atlants.lv##.atlants_cook_bottomcenter.atlants_cook_wrapper
+||s.dedicatedwriters.com/i/first-order-discount.jpg
+www.catholic.com###privacy-notice
+||prezi.com/api/token/log/
+www.bbc.co.uk###bbccookies
+bleacherreport.com##.content
