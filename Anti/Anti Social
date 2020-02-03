@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 25
+! Version: 26
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -186,6 +186,108 @@ pandora.com$generichide
 ||chat.yellw.co
 ||yellw.co
 ||share.pluso.ru
+
+!----- AdGuard Specific -----!
+
+||addtoany.com$cookie
+||addthis.com$cookie
+||static.xx.fbcdn.net$cookie
+||connect.facebook.net$cookie
+||facebook.net$cookie
+||connect.facebook.com$cookie
+||facebook.com$cookie
+||instagram.com$cookie
+||platform.twitter.com$cookie
+||twitter.com$cookie
+||t.co$cookie
+||twitter.github.io$cookie
+||reddit.com$cookie
+||redd.it$cookie
+||redditmedia.com$cookie
+||redditstatic.com$cookie
+||cdn.discordapp.com$cookie
+||discordapp.com$cookie
+||flickr.com$cookie
+||staticflickr.com$cookie
+||linkedin.com$cookie
+||licdn.com$cookie
+||live.com$cookie
+||skypeassets.com$cookie
+||skype.com$cookie
+||whatsapp.com$cookie
+||whatsapp.net$cookie
+||wechat.com$cookie
+||qzone.qq.com$cookie
+||deviantart.com$cookie
+||da-ads.com$cookie
+||dapxl.com$cookie
+||deviantart.net$cookie
+||tiktok.com$cookie
+||tiktokcdn.com$cookie
+||tieba.baidu.com$cookie
+||tumblr.com$cookie
+||line.me$cookie
+||line-scdn.net$cookie
+||viber.com$cookie
+||renren.com$cookie
+||foursquare.com$cookie
+||taringa.net$cookie
+||telegram.org$cookie
+||pinterest.com$cookie
+||vk.com$cookie
+||tagged.com$cookie
+||snapchat.com$cookie
+||snap.com$cookie
+||sc-cdn.net$cookie
+||sc-static.net$cookie
+||snapchat-proxy.appspot.com$cookie
+||snapchat.appspot.com$cookie
+||snapchat-webfonts.storage.googleapis.com$cookie
+||snapnet-cdn.storage.googleapis.com$cookie
+||feelinsonice.appspot.com$cookie
+||feelinsonice-hrd.appspot.com$cookie
+||feelinsonice.com$cookie
+||snapads.com$cookie
+||feelinsonice.l.google.com$cookie
+||appspot.l.google.com$cookie
+||app.snapchat.com$cookie
+||data.flurry.com$cookie
+||snap-storage-cdn.l.google.com$cookie
+||sc-gw.com$cookie
+||sc-prod.ne$cookie
+||snap.api.mapbox.com$cookie
+||snap.events.mapbox.com$cookie
+||snapkit.com$cookie
+||sc-jpl.com$cookie
+||sc-prod.net$cookie
+||bitmoji.com$cookie
+||myspace.com$cookie
+||myspacecdn.com$cookie
+||badoo.com$cookie
+||badoocdn.com$cookie
+||weheartit.com$cookie
+||whicdn.com$cookie
+||vine.co$cookie
+||douban.com$cookie
+||doubanio.com$cookie
+||meetup.com$cookie
+||meetupstatic.com$cookie
+||meetme.com$cookie
+||meetmecdna.com$cookie
+||mtmei18n.com$cookie
+||disqus.com$cookie
+||gmail.com$cookie
+||mail.ru$cookie
+||mail.yahoo.com$cookie
+||mail.163.com$cookie
+||webmail.earthlink.net$cookie
+||mail.com$cookie
+||my.juno.com$cookie
+||chat.yellw.co$cookie
+||yellw.co$cookie
+||share.pluso.ru$cookie
+
+!----------------------------!
 
 ! Comments
 ||facebook.com/plugins/comments.php
@@ -478,6 +580,10 @@ pandora.com$generichide
 ##.mix
 ##.diaspora
 ##.share-btn
+##.event-single-social-accounts-link
+##.event-single-social-accounts-content
+##.social-twitter
+##.social-facebook
 -facebook
 -fb
 -twitter
@@ -522,3 +628,6 @@ freebeacon.com##.mt-8.lg\:ml-8.items-center.justify-between.flex
 frenreport.com##.ed-social-share-icons.social-icons
 frenreport.com##.social-share-link
 www.privacytools.io###participate
+freebeacon.com##.hide-print
+freebeacon.com##.md\:block.flex.justify-center.list-inline
+premiumleech.eu###d-spc > .inside
