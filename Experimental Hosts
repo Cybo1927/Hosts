@@ -163,6 +163,110 @@
 0.0.0.0 bet365affiliates.com
 0.0.0.0 bidfilter.com
 0.0.0.0 bilsyndication.com
+0.0.0.0 ipv4.tracker.harry.lu
+0.0.0.0 ipv6.tracker.zerobytes.xyz
+0.0.0.0 tracker.zerobytes.xyz
+0.0.0.0 46.148.18.250
+0.0.0.0 9.rarbg.me
+0.0.0.0 bt.rutor.info
+0.0.0.0 eddie4.nl
+0.0.0.0 exodus.desync.com
+0.0.0.0 explodie.org
+0.0.0.0 ipv6.tracker.zerobytes.xyz
+0.0.0.0 open.demonii.com
+0.0.0.0 opentor.org
+0.0.0.0 opentrackr.org
+0.0.0.0 p4p.arenabg.ch
+0.0.0.0 p4p.arenabg.com
+0.0.0.0 tracker.blackunicorn.xyz
+0.0.0.0 tracker.coppersurfer.tk
+0.0.0.0 tracker.internetwarriors.net
+0.0.0.0 tracker.leechers-paradise.org
+0.0.0.0 tracker.openbittorrent.com
+0.0.0.0 tracker.opentrackr.org
+0.0.0.0 tracker.pirateparty.gr
+0.0.0.0 tracker.pirateparty.gr
+0.0.0.0 tracker.sktorrent.net
+0.0.0.0 tracker.zer0day.to
+0.0.0.0 tracker.zerobytes.xyz
+0.0.0.0 zer0day.ch
+0.0.0.0 tracker.btorrent.xyz
+0.0.0.0 tracker.fastcast.nz
+0.0.0.0 tracker.openwebtorrent.com
+0.0.0.0 tags.aljazeera.com
+0.0.0.0 yieldlove-ad-serving.net
+0.0.0.0 adquality.ch
+0.0.0.0 adshot.de
+0.0.0.0 adstime.org
+0.0.0.0 admulti.com
+0.0.0.0 luckyads.tech
+0.0.0.0 mobilebanner.ru
+0.0.0.0 ortermodown.ru
+0.0.0.0 metrika.traff.space
+0.0.0.0 traff.space
+0.0.0.0 ad.1k3.com
+0.0.0.0 1k3.com
+0.0.0.0 clkservice.youdao.com
+0.0.0.0 clkservice.mail.youdao.com
+0.0.0.0 clkservice.*.youdao.com
+0.0.0.0 dsp-click.youdao.com
+0.0.0.0 rlogs.youdao.com
+0.0.0.0 abctrack.bid
+0.0.0.0 acookie.alibaba.com
+0.0.0.0 dmtracking1.alibaba.com
+0.0.0.0 dmtracking2.alibaba.com
+0.0.0.0 stat.alibaba.com
+0.0.0.0 tracelog.www.alibaba.com
+0.0.0.0 dmtracking.alibaba.com
+0.0.0.0 p4psearch.china.alibaba.com
+0.0.0.0 activetracker.activehotels.com
+0.0.0.0 ad-bay.com
+0.0.0.0 ad-beacon-v01.uliza.jp
+0.0.0.0 ad-gbn.com
+0.0.0.0 ad-goi.com
+0.0.0.0 ad-img.diyidan.net
+0.0.0.0 ad-indicator.com
+0.0.0.0 ad-m.asia
+0.0.0.0 ad-recommend.com
+0.0.0.0 ad-server.co.za
+0.0.0.0 ad-sponsor.com
+0.0.0.0 beacon.netflix.com
+0.0.0.0 nmtracking.netflix.com
+0.0.0.0 presentationtracking.netflix.com
+0.0.0.0 beacon.nrholding.net
+0.0.0.0 brandads.net
+0.0.0.0 cookie-accept.com
+0.0.0.0 cookiemonster.is
+0.0.0.0 cookieq.com
+0.0.0.0 cookiereports.com
+0.0.0.0 digitalcontrolroom.com
+0.0.0.0 eulerian.mathon.fr
+0.0.0.0 eulerian.officiel-des-vacances.com
+0.0.0.0 eulerian.sarenza.com
+0.0.0.0 eulerian.splendia.com
+0.0.0.0 euleriancdn.net
+0.0.0.0 eultech.fnac.com
+0.0.0.0 eum-appdynamics.com
+0.0.0.0 g-stats.openhost.es
+0.0.0.0 webtrends.yccdn.com
+0.0.0.0 gambling-affiliation.com
+0.0.0.0 game-advertising-online.com
+0.0.0.0 game-clicks.com
+0.0.0.0 gameads.com
+0.0.0.0 gamersad.com
+0.0.0.0 net-ad-vantage.com
+0.0.0.0 newmarads.com
+0.0.0.0 newmayads.com
+0.0.0.0 newnovads.com
+0.0.0.0 newmonads.com
+0.0.0.0 pix.eads.com
+0.0.0.0 eads.com
+0.0.0.0 pixanalytics.com
+0.0.0.0 pixazza.com
+0.0.0.0 pixel.ad
+0.0.0.0 smartad.ee
+0.0.0.0 smartcookies.it
+0.0.0.0 ru.com
 
 www.androidstrike.com###text-6
 www.androidstrike.com##.single-featured-image > .wp-post-image.size-jannah-image-post.attachment-jannah-image-post
@@ -232,6 +336,16 @@ b10f.jp###my_contents_home > table > tbody > tr > td:nth-of-type(2)
 www.betfair.com##.ssc-cha-desktop.ssc-cc-gb.ssc-lang-en.ssc-reg-us.ssc-jur-intl.ssc-prod-prospect-page.ssc-theme-betfair.ssc-cp.ssc-ncb
 www.adventurecreators.com###cookie-banner
 ||blocket.se/adout/
+www.aljazeera.com##.article-adv-right-sideBar
+help-wifi.com##.r1-adapt
+whatson.cityofsydney.nsw.gov.au##.ad-event--desktop
+whatson.cityofsydney.nsw.gov.au##.shadowed-section.event-single-newsletter.page-content-header
+www.bing.com###b_pole
+www.sciencenews.org##.cookie-banner__wrapper___2HSqF
+nypost.com###header-billboard-ad
+
+##.ad-img-wrapper
+##.ad-event--desktop
 
 /NNAnalytics/
 /wpvisits/
@@ -250,6 +364,7 @@ www.adventurecreators.com###cookie-banner
 /advertising.block/
 /blockalyzer-adblock-counter/
 ~Ad~
+-ad-serving
 
 
 ! From AdGuard On Linux PC
