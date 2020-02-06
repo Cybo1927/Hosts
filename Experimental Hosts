@@ -419,3 +419,29 @@ www.catholic.com###privacy-notice
 ||prezi.com/api/token/log/
 www.bbc.co.uk###bbccookies
 bleacherreport.com##.content
+
+
+! From uBlock Origin On School Chromebook
+@@||checkadblock.ru
+@@||cc.bingj.com
+@@||gamearter.com
+
+www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+
+##.adwords_in_content
+
+www.oneplus.com##.misc-dialog.auto-subscribe-dialog
+www.oneplus.com##.cookie-warn
+www.oneplus.com##div.section-row:nth-of-type(2) > .sections > .section-container
+www.nytimes.com##div.g-ad
+www.hoodamath.com###desktopAboveGames
+www.hoodamath.com###skyscraper
+www.hoodamath.com###instructions > div
+www.walmart.com##.ads-wpa-brand-amplifier
+www.nationsencyclopedia.com##.leftad
+||pacogames.com/js/wgAds.
+search.library.wisc.edu###cookieconsent-window
+www.businessinsider.com##[href^="https://www.businessinsider.com/intelligence/connectivity-and-tech-pro"]
+www.businessinsider.com###right-rail-2
+www.businessinsider.com##.first.js-autofill.popular-recirc.popular-post
+www.businessinsider.com##section.js-autofill.popular-recirc.popular-post
