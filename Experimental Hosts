@@ -422,13 +422,19 @@ bleacherreport.com##.content
 
 
 ! From uBlock Origin On School Chromebook
-@@||checkadblock.ru
-@@||cc.bingj.com
-@@||gamearter.com
+@@||checkadblock.ru$badfilter
+@@||cc.bingj.com$badfilter
+@@||gamearter.com$badfilter
+
+0.0.0.0 adservice.google.ru
+0.0.0.0 adservice.google.*
 
 www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ##.adwords_in_content
+
+/*ads_banner.swf
+/*_advertising_*.swf
 
 www.oneplus.com##.misc-dialog.auto-subscribe-dialog
 www.oneplus.com##.cookie-warn
