@@ -1,15 +1,15 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1191
+! Version: 1192
 ! Version hyphen (-) Means Small Update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 24.9K
-! Last Modified: Sunday, January 26, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.4K
+! Last Modified: Sunday, February 9, 2020
 
 ! Unbreak
+www.cnn.com#@#[class*="gdpr"]
 docs.google.com,mail.google.com,hangouts.google.com#@#+js(nobab)
 @@||translate.googleapis.com/translate_a/
 edhesive.com#@#+js(nobab)
-docs.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
 @@||192.168.*.*$important
 speedtest.net#@#^script:has-text(googletag)
 speedtest.net#@#^script:has-text(gpt-ad)
@@ -17,7 +17,6 @@ speedtest.net#@#^script:has-text(gpt-ad)
 pearsonrealize.com#@#+js(nobab)
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
-@@||youtube.com$cookie
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
 @@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
 @@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
@@ -41,7 +40,6 @@ pandora.com$genericblock
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||encrypted-tbn*.gstatic.com$domain=google.
-@@||gab.com$cookie
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
 @@||*-dnsotls-ds.metric.gstatic.com
@@ -61,7 +59,6 @@ pandora.com$genericblock
 @@||link.theplatform.com$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
-@@||accounts.google.*$cookie
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
@@ -116,6 +113,8 @@ pandora.com$genericblock
 ! btms.samsungsemi.com (Breaks Samsung Magician)
 ! ota.googlezip.net (Breaks Android Updates)
 ! geo-pro.beatport.com (Breaks https://www.beatport.com/)
+! gstaticadssl.l.google.com (Breaks Google Fonts - Doesn't appear to actually be related to any Ads)
+! e13678.dspb.akamaiedge.net (Breaks microsoft.com)
 
 ! RegEX Stuffs
 ! Block insecure (HTTP) popups
@@ -145,6 +144,7 @@ pandora.com$genericblock
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
+||pandora.com/ping.txt?f=*^$redirect=nooptext,domain=pandora.com
 ||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noopmp3-0.1s,domain=hulu.com
 ||akamaihd.net/prerolls$media,redirect=noopmp4-1s,domain=hulu.com
@@ -197,6 +197,7 @@ zoomowl.co#$#body { overflow-x: hidden !important; overflow-y: scroll !important
 helpfulprofessor.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -397,9 +398,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 
 ! Left-Wing Propaganda/Fake Local News Site - https://www.youtube.com/watch?v=RLIFiI2ADW4
 0.0.0.0 coppercourier.com
-
-! IP that appears to be a 'phone to home' for AdGuard Home
-0.0.0.0 176.103.133.133
 
 ! Unknown Domains From Lucky Patcher
 ! 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
@@ -1193,6 +1191,78 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ams-ads-cornerstone-pda-creatives.s3.amazonaws.com
+0.0.0.0 analytics.distributednews.com
+0.0.0.0 awstrack.me
+0.0.0.0 agle2.me
+0.0.0.0 app.mailtag.io
+0.0.0.0 aan.amazon-adsystem.com
+0.0.0.0 amazonappservices.com
+0.0.0.0 absolutesoftware-email.com
+0.0.0.0 apptivo.com
+0.0.0.0 atpclick.com
+0.0.0.0 ads1.atpclick.com
+0.0.0.0 ads.affiliateclub.com
+0.0.0.0 affiliateclub.com
+0.0.0.0 ads.affiliatecruise.com
+0.0.0.0 affiliatecruise.com
+0.0.0.0 ads.affiliate-cruise-mail.com
+0.0.0.0 affiliate-cruise-mail.com
+0.0.0.0 affiliates-spinit.com
+0.0.0.0 ads.annapartners.com
+0.0.0.0 annapartners.com
+0.0.0.0 ads.askgamblers.com
+0.0.0.0 ads.b10f.jp
+0.0.0.0 ads.casumoaffiliates.com
+0.0.0.0 ads.cherrycasino.com
+0.0.0.0 ads.comeon.com
+0.0.0.0 ads.dollartree.com
+0.0.0.0 ads.ellmountgaming.com
+0.0.0.0 adserve.atedra.com
+0.0.0.0 atedra.com
+0.0.0.0 adservex.media.net
+0.0.0.0 adserving.unibet.com
+0.0.0.0 ads.eurogrand.com
+0.0.0.0 ads.eurolotto.com
+0.0.0.0 ads.euroslots.com
+0.0.0.0 adultadworld.com
+0.0.0.0 adup-tech.com
+0.0.0.0 adv.blogupp.com
+0.0.0.0 adv.cr$third-party
+0.0.0.0 advert-solutions.com
+0.0.0.0 advert-technology.ru
+0.0.0.0 advert.ee
+0.0.0.0 advert.io
+0.0.0.0 advertio.com
+0.0.0.0 adverticum.net
+0.0.0.0 afdah.tv
+0.0.0.0 affiliate-b.com
+0.0.0.0 afi-b.com
+0.0.0.0 affinity.com
+0.0.0.0 affiz.net
+0.0.0.0 apvdr.com
+0.0.0.0 apxlv.com
+0.0.0.0 adquality.ch
+0.0.0.0 adshot.de
+0.0.0.0 adstime.org
+0.0.0.0 admulti.com
+0.0.0.0 ad.1k3.com
+0.0.0.0 abctrack.bid
+0.0.0.0 acookie.alibaba.com
+0.0.0.0 activetracker.activehotels.com
+0.0.0.0 ad-bay.com
+0.0.0.0 ad-beacon-v01.uliza.jp
+0.0.0.0 ad-gbn.com
+0.0.0.0 ad-goi.com
+0.0.0.0 ad-img.diyidan.net
+0.0.0.0 ad-indicator.com
+0.0.0.0 ad-m.asia
+0.0.0.0 ad-recommend.com
+0.0.0.0 ad-server.co.za
+0.0.0.0 ad-sponsor.com
+0.0.0.0 adreach.co
+0.0.0.0 adservice.google.ru
+0.0.0.0 adservice.google.*
 0.0.0.0 adsdk.picooapps.com
 0.0.0.0 adsdk-picooapp-elb-50811274.ap-southeast-1.elb.amazonaws.com
 0.0.0.0 adsdk.picooapp.com
@@ -4203,6 +4273,23 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bl-1.com
+0.0.0.0 bixel.io
+0.0.0.0 bb.bixel.io
+0.0.0.0 blueshiftmail.com
+0.0.0.0 bitrix24.ru
+0.0.0.0 b.yjtag.jp
+0.0.0.0 bet365affiliates.com
+0.0.0.0 bidfilter.com
+0.0.0.0 bilsyndication.com
+0.0.0.0 bt.rutor.info
+0.0.0.0 beacon.netflix.com
+0.0.0.0 beacon.nrholding.net
+0.0.0.0 brandads.net
+0.0.0.0 bandar-logger.prezi.com
+0.0.0.0 biz142.inmotionhosting.com
+0.0.0.0 b1t-nydc1.zemanta.com
+0.0.0.0 bhfoto.edge.nc0.co
 0.0.0.0 bidfluence.com
 0.0.0.0 btrll.com
 0.0.0.0 beeswax.com
@@ -5171,6 +5258,27 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clkservice.youdao.com
+0.0.0.0 clkservice.mail.youdao.com
+0.0.0.0 clkservice.*.youdao.com
+0.0.0.0 console.ebsta.com
+0.0.0.0 cds.taboola.com
+0.0.0.0 corelabs.fit
+0.0.0.0 cj41hrr25e4ahi.w1.jurqfivc.ml
+0.0.0.0 cirrusinsight.com
+0.0.0.0 cmail20.com
+0.0.0.0 connequitymailer.com
+0.0.0.0 campaign.maxlifeinsurance.com
+0.0.0.0 contactmonkey.com
+0.0.0.0 click.absolutesoftware-email.com
+0.0.0.0 click.send.grammarly.com
+0.0.0.0 cprpt.com
+0.0.0.0 casumoaffiliates.com
+0.0.0.0 cdn77.n1272adserv.xyz
+0.0.0.0 cookie-accept.com
+0.0.0.0 cookiemonster.is
+0.0.0.0 cookieq.com
+0.0.0.0 cookiereports.com
 0.0.0.0 country.yepshare.com
 0.0.0.0 c1exchange.com
 0.0.0.0 cedato.com
@@ -5431,7 +5539,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 cision.com
 0.0.0.0 crowdgather.com
 0.0.0.0 collector-medium.lightstep.com
-0.0.0.0 checkadblock.ru
 0.0.0.0 content.mql5.com
 0.0.0.0 cdn.wootric.com
 0.0.0.0 cdn.adtrue.com
@@ -5959,7 +6066,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 cookiex.ngd.yahoo.com
 0.0.0.0 cas.criteo.com
 0.0.0.0 cm.keywordsconnect.com
-0.0.0.0 cc.bingj.com
 0.0.0.0 cedexis.com
 0.0.0.0 clicknety.com
 0.0.0.0 cliqcares.cliq.com
@@ -6359,6 +6465,13 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 didtheyreadit.com
+0.0.0.0 dmtracking1.alibaba.com
+0.0.0.0 dmtracking2.alibaba.com
+0.0.0.0 dmtracking.alibaba.com
+0.0.0.0 digitalcontrolroom.com
+0.0.0.0 dsp-click.youdao.com
+0.0.0.0 digitalconsumer.com
 0.0.0.0 downloadpartytab.com
 0.0.0.0 dl.ngmacplayer.com
 0.0.0.0 dfwfis-sponsored.secure.footprint.net
@@ -7130,6 +7243,32 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 email.rocketbolt.com
+0.0.0.0 email81.com
+0.0.0.0 email.paytm.com
+0.0.0.0 email.segment.com
+0.0.0.0 ebsta.com
+0.0.0.0 email.mixmax.com
+0.0.0.0 email.fullcontact.com
+0.0.0.0 email.sendgrid.com
+0.0.0.0 ensighten.bhphoto.com
+0.0.0.0 edge-geo.nc0.co
+0.0.0.0 emltrk.com
+0.0.0.0 epidm.edgesuite.net
+0.0.0.0 edgesuite.net
+0.0.0.0 egocdn.com
+0.0.0.0 emditpison.asus.com
+0.0.0.0 eddie4.nl
+0.0.0.0 exodus.desync.com
+0.0.0.0 explodie.org
+0.0.0.0 eulerian.mathon.fr
+0.0.0.0 eulerian.officiel-des-vacances.com
+0.0.0.0 eulerian.sarenza.com
+0.0.0.0 eulerian.splendia.com
+0.0.0.0 euleriancdn.net
+0.0.0.0 eultech.fnac.com
+0.0.0.0 eum-appdynamics.com
+0.0.0.0 eads.com
 0.0.0.0 ext.hidemysearches.com
 0.0.0.0 ebjvu.cn
 0.0.0.0 elogua.com
@@ -7236,7 +7375,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 esputnik.com
 0.0.0.0 ebm.native-x.io
 0.0.0.0 elb-*-amz.nimbus.bitdefender.net
-0.0.0.0 eff.map.fastly.net
 0.0.0.0 engagement.feedly.com
 0.0.0.0 e-0012.e-msedge.net
 0.0.0.0 es.io
@@ -7246,7 +7384,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ezz-skins.gq
 0.0.0.0 entitlements.jwplayer.com
 0.0.0.0 europacash.com
-0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 et.nytimes.com
 0.0.0.0 eas3.msg.t-mobile.com
 0.0.0.0 eqx.smartadserver.com
@@ -7574,6 +7711,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 friends2follow.com
+0.0.0.0 ftrans03.com
+0.0.0.0 fullcontact.com
+0.0.0.0 formirror.com
 0.0.0.0 freeonlinegames.win$third-party
 0.0.0.0 flashtalking.com
 0.0.0.0 fonecta.fi
@@ -7893,6 +8034,17 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 getnotify.com
+0.0.0.0 getbase.com
+0.0.0.0 genesisaffiliates.com
+0.0.0.0 gambling-affiliation.com
+0.0.0.0 game-advertising-online.com
+0.0.0.0 game-clicks.com
+0.0.0.0 gameads.com
+0.0.0.0 gamersad.com
+0.0.0.0 g-stats.openhost.es
+0.0.0.0 go.jumpshot.com
+0.0.0.0 go.toutapp.com
 0.0.0.0 gscounters.us1.gigya.com
 0.0.0.0 getintent.com
 0.0.0.0 gps-w2-elb-fe27-sypi-1026542360.us-west-2.elb.amazonaws.com
@@ -7913,7 +8065,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 g.luckfun.vip
 0.0.0.0 g.luckywinnervip.com
 0.0.0.0 geo.iplocation.com
-0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 g4mz.com
 0.0.0.0 geo-media.beatport.com
 0.0.0.0 gingie.com
@@ -7977,7 +8128,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gsspat.jp
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 godog.shopifycloud.com
-0.0.0.0 gamearter.com
 0.0.0.0 geo.poki.io
 0.0.0.0 guoshipartners.com
 0.0.0.0 graphenedigitalanalytics.in
@@ -8330,6 +8480,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hubspotemail.net
+0.0.0.0 hdfcbank.net
+0.0.0.0 history-world.org
 0.0.0.0 ha-api.pushwoosh.com
 0.0.0.0 hwstats.unity3d.com
 0.0.0.0 hope-of-israel.org
@@ -8579,6 +8732,17 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 insgly.net
+0.0.0.0 insightly.com
+0.0.0.0 ind.dell.com
+0.0.0.0 ipv4.tracker.harry.lu
+0.0.0.0 ipv6.tracker.zerobytes.xyz
+0.0.0.0 ipv6.tracker.zerobytes.xyz
+0.0.0.0 ibn.adreach.co
+0.0.0.0 images2.zemanta.com
+0.0.0.0 images.taboola.com
+0.0.0.0 intercom-mail.com
+0.0.0.0 i.trellomail.com
 0.0.0.0 inshotapp.com.w.kunlungr.com
 0.0.0.0 imonomy.com
 0.0.0.0 impressionmonster.com
@@ -9321,6 +9485,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jumpshot.com
+0.0.0.0 jan-sampark.nic.in
+0.0.0.0 jurqfivc.ml
 0.0.0.0 jaduda.com
 0.0.0.0 journey.unicef.de
 0.0.0.0 jvzwcgobd.com
@@ -9440,6 +9607,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kodand.wildapricot.org
 0.0.0.0 kbmg.com
 0.0.0.0 kupona.de
 0.0.0.0 kinesis.us-east-1.amazonaws.com
@@ -10257,6 +10425,13 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 livehive.com
+0.0.0.0 luckyads.tech
+0.0.0.0 lp.powerapp.download
+0.0.0.0 learnvibes.net
+0.0.0.0 list-manage.com
+0.0.0.0 lnk.pool.driftem.com
+0.0.0.0 l.e.tatadocomobusiness.com
 0.0.0.0 liveintent.com
 0.0.0.0 lkqd.com
 0.0.0.0 lkqd.net
@@ -10566,6 +10741,22 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mailstat.us
+0.0.0.0 market.clio.com
+0.0.0.0 miq-p4-qa-em.unicaondemand.com
+0.0.0.0 mltrk.io
+0.0.0.0 mailzter.in
+0.0.0.0 match.taboola.com
+0.0.0.0 msr40nnvu4nmsu.w0.vgorzfcz.tk
+0.0.0.0 mailvibes.io
+0.0.0.0 mvib.es
+0.0.0.0 mobilebanner.ru
+0.0.0.0 metrika.traff.space
+0.0.0.0 mailchap.hourlie.com
+0.0.0.0 mention.com
+0.0.0.0 mixmax.com
+0.0.0.0 mailtag.io
+0.0.0.0 mailinifinity.com
 0.0.0.0 mydocstopdf.com
 0.0.0.0 myinstashot.com
 0.0.0.0 matamo.org
@@ -11245,6 +11436,14 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 n1272adserv.xyz
+0.0.0.0 nmtracking.netflix.com
+0.0.0.0 net-ad-vantage.com
+0.0.0.0 newmarads.com
+0.0.0.0 newmayads.com
+0.0.0.0 newnovads.com
+0.0.0.0 newmonads.com
+0.0.0.0 netecart.com
 0.0.0.0 ngmaclayer.com
 0.0.0.0 ns.exitgames.com
 0.0.0.0 na5.cdn.thunderhead.com
@@ -11547,6 +11746,14 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 open.demonii.com
+0.0.0.0 opentor.org
+0.0.0.0 opentrackr.org
+0.0.0.0 ortermodown.ru
+0.0.0.0 olc0.cn
+0.0.0.0 openbracket.co
+0.0.0.0 opicle.hasoffers.com
+0.0.0.0 opens.responder.co.il
 0.0.0.0 offroadoutlaws.online
 0.0.0.0 owneriq.com
 0.0.0.0 orangeadvertising.fr
@@ -11653,7 +11860,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 olark.com
 0.0.0.0 onetrust.chargebee.com
 0.0.0.0 onetrust.chargebeestatic.com
-0.0.0.0 onetrust.com
 0.0.0.0 onesearch.org
 0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
@@ -11778,6 +11984,20 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.purple6401.com
+0.0.0.0 purple6401.com
+0.0.0.0 purplestats.com
+0.0.0.0 prolificmail.com
+0.0.0.0 promotions.betfair.com
+0.0.0.0 p4p.arenabg.ch
+0.0.0.0 p4p.arenabg.com
+0.0.0.0 presentationtracking.netflix.com
+0.0.0.0 pix.eads.com
+0.0.0.0 pixanalytics.com
+0.0.0.0 pixazza.com
+0.0.0.0 pixel.ad
+0.0.0.0 powerapp.download
+0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 placeholdit.imgix.net
 0.0.0.0 popads.com
 0.0.0.0 paywall-ad-bucket.s3.amazonaws.com
@@ -12518,6 +12738,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 replymsg.com
+0.0.0.0 rio.mailcoral.com
+0.0.0.0 rs6.net
+0.0.0.0 regstat.betfair.com
+0.0.0.0 rlogs.youdao.com
+0.0.0.0 ru.com
 0.0.0.0 remote-data.urbanairship.com
 0.0.0.0 rfihub.com
 0.0.0.0 retargetly.com
@@ -12882,6 +13108,20 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sendgrid.com
+0.0.0.0 stat-pulse.com
+0.0.0.0 sendpulse.email
+0.0.0.0 s608.t.en25.com
+0.0.0.0 smartad.ee
+0.0.0.0 smartcookies.it
+0.0.0.0 searchpowerapp.com
+0.0.0.0 stat.alibaba.com
+0.0.0.0 sendibm3.com
+0.0.0.0 sendibm4.com
+0.0.0.0 saferoute.ru
+0.0.0.0 sptrack.trello.com
+0.0.0.0 stas.outbrain.com
+0.0.0.0 sync1.intentiq.com
 0.0.0.0 search.downloadpartytab.com
 0.0.0.0 sublytics-*.com
 0.0.0.0 sublytics.com
@@ -13365,7 +13605,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 stats.glb.paypal.com
 0.0.0.0 s6.io
 0.0.0.0 ssix.io
-0.0.0.0 splkmobile.com
 0.0.0.0 smetric.hilton.com
 0.0.0.0 smetrics.bestbuy.com
 0.0.0.0 smetrics.cnn.com
@@ -14299,6 +14538,39 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trellomail.com
+0.0.0.0 t.info.adobesystems.com
+0.0.0.0 tracking.vcommission.com
+0.0.0.0 tracker.zerobytes.xyz
+0.0.0.0 tracker.blackunicorn.xyz
+0.0.0.0 tracker.coppersurfer.tk
+0.0.0.0 tracker.internetwarriors.net
+0.0.0.0 tracker.leechers-paradise.org
+0.0.0.0 tracker.openbittorrent.com
+0.0.0.0 tracker.opentrackr.org
+0.0.0.0 tracker.pirateparty.gr
+0.0.0.0 tracker.pirateparty.gr
+0.0.0.0 tracker.sktorrent.net
+0.0.0.0 tracker.zer0day.to
+0.0.0.0 tracker.zerobytes.xyz
+0.0.0.0 tracker.btorrent.xyz
+0.0.0.0 tracker.fastcast.nz
+0.0.0.0 tracker.openwebtorrent.com
+0.0.0.0 tags.aljazeera.com
+0.0.0.0 traff.space
+0.0.0.0 tracelog.www.alibaba.com
+0.0.0.0 tatadocomobusiness.com
+0.0.0.0 track.opicle.com
+0.0.0.0 trk.365offers.trade
+0.0.0.0 trackapp.io
+0.0.0.0 trk.email.dynect.net
+0.0.0.0 tree.com$domain=cnn.com
+0.0.0.0 tr.cloudmagic.com
+0.0.0.0 t.hubspotemail.net
+0.0.0.0 tracking.cirrusinsight.com
+0.0.0.0 trk.paytmemail.com
+0.0.0.0 trellian.com
+0.0.0.0 talkmarine.com
 0.0.0.0 triplelift.com
 0.0.0.0 trk.pinterest.com
 0.0.0.0 throtle.io
@@ -14999,6 +15271,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 unicaondemand.com
 0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 uc.jh1230.com
 0.0.0.0 usage-*-*.myhomescreen.tv
@@ -15178,6 +15451,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vgorzfcz.tk
+0.0.0.0 vmiua.com
+0.0.0.0 vas.samsungapps.com
+0.0.0.0 vmgursrv0424.maxlife.max.com
+0.0.0.0 vcommission.com
+0.0.0.0 verified-extensions.com
 0.0.0.0 vertamedia.com
 0.0.0.0 vi.ai
 0.0.0.0 velocitycdn.com
@@ -15384,6 +15663,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webwerks.learnvibes.net
+0.0.0.0 weblogger-dynamic-lb.playdom.com
+0.0.0.0 wrison-subustall.com
+0.0.0.0 webtrends.yccdn.com
 0.0.0.0 ws.tapjoyads.com
 0.0.0.0 wearemiq.com
 0.0.0.0 whoami.akamai.net
@@ -15768,6 +16051,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xpostmail.com
 0.0.0.0 x-us.appbaqend.com
 0.0.0.0 xaxis.com
 0.0.0.0 xad.com
@@ -15853,6 +16137,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yournewtab.com
+0.0.0.0 yjtag.jp
+0.0.0.0 yieldlove-ad-serving.net
 0.0.0.0 yepshare.com
 0.0.0.0 yahoo.uservoice.com
 0.0.0.0 yieldoptimizer.com
@@ -16026,6 +16313,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zeemail.in
+0.0.0.0 zer0day.ch
 0.0.0.0 zcbyoqylllxe.com
 0.0.0.0 zendplace.pro
 0.0.0.0 zdravo.neboley.site
@@ -16256,6 +16545,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 411.appriver.com
+0.0.0.0 46.148.18.250
+0.0.0.0 9.rarbg.me
+0.0.0.0 1k3.com
 0.0.0.0 76674bdad304297eda3d325f449f6f49.com
 0.0.0.0 4wmarketplace.com
 0.0.0.0 254a.com
@@ -21400,7 +21693,6 @@ multiup.org##.panel.panel-featured-top.panel-featured-primary
 technologysage.com##.mh-ad-spot
 ||*.microsoft.com/fp/tags.js
 ||dox.wearelegal.ru/static/js/wal.dox.js
-||шляхтен.рф$cookie
 github.com##div#js-flash-container
 github.com##html > head:first-child > meta:nth-child(44)[name="octolytics-dimension-visitor_id"]
 github.com##meta.js-octo-ga-ide
@@ -23733,6 +24025,156 @@ notablelife.com##.nl_ad_desktop
 thehackernews.com##.clear.ad_two
 www.dailymail.co.uk##.masthead
 www.buzzfeednews.com##.ad-wireframe-wrapper--labeled.ad-wireframe-wrapper
+www.cincinnati.com###ad-position-55
+www.cincinnati.com##.home.taboola-sidebar-content.sidebar-content
+www.cincinnati.com##.taboola-sidebar-title-wrapper.sidebar-title-wrapper
+www.cincinnati.com##.flm-ad-mediumrectangle
+www.cincinnati.com##.nscm-container
+www.welt.de##.c-placeholder--is-rectangle-ad
+www.9news.com.au##.nk-demographics
+||munichnow.com/linkout/
+munichnow.com##.vc-hoverbox-front.vc-hoverbox-block
+munichnow.com##.td-a-rec-id-custom_ad_2
+||munichnow.com/wp-content/uploads/2018/05/MunichNOW-Golfcenter-Ismaning-*.jpg$image
+www.etesync.com###ircbutton
+trueimg.xyz###cookie-law-banner
+www.pricerunner.dk###data-protection-notification
+www.audio-technica.com###cookie_new
+www.psychologytoday.com###block-pt-ads-300x-right-www
+www.psychologytoday.com###block-pt-ads-300x600-right2-www-site
+||cdn.cnn.com/ads/
+||t.co/i/adsct?
+||cnn.com/optimizelyjs
+||cdn.cnn.com/cnn/images/geoslate/
+||agility.cnn.com/turner/cnn-prod/serverComponent.php
+www.cnn.com###mvpdPickerFrame
+www.cnn.com###mvpdpicker
+www.player.one###dfp-ad-bottom
+www.player.one###dfp-ad-right1
+www.player.one###dfp-ad-right2
+www.player.one###dfp-ad-right3
+www.bhphotovideo.com##.styled-async.experts-widget
+www.whonix.org##.mw-cookiewarning-text
+www.androidstrike.com###text-6
+www.androidstrike.com##.single-featured-image > .wp-post-image.size-jannah-image-post.attachment-jannah-image-post
+www.androidstrike.com###text-8
+www.androidstrike.com##li > .wp-image-5132.size-full.aligncenter
+||ups.com/img/icp.gif
+www.ubuntupit.com###tdi_85_838
+www.pcmag.com##.flex-shrink-0.xl\:block.hidden.upper-sidebar.container-right-rail
+privacywatch.news##.LMXABCDKEOFG
+privacywatch.news##.AQXHBICRGMDE
+privacywatch.news##.YPZMDJCQROXL
+||spectrum.com/etc/clientlibs/spectrum/residential/geolocation.min.js
+||cloudhq.io/mail_track/
+||cloudhq-mkt1.net/mail_track/
+||cloudhq-mkt2.net/mail_track/
+||cloudhq-mkt3.net/mail_track/
+||cloudhq-mkt4.net/mail_track/
+||cloudhq-mkt5.net/mail_track/
+||cloudhq-mkt6.net/mail_track/
+||market.clio.com/trk/
+||thetopinbox.com/track/
+privacywatch.news##[href="WBA-5004.html"]
+privacywatch.news##[href="WBA-3357.html"]
+privacywatch.news##[href="WBA-3809.html"]
+privacywatch.news##[href="WBA-3391.html"]
+privacywatch.news##[href="WBA-3758.html"]
+privacywatch.news##[href="WBA-653.html"]
+privacywatch.news##[href="WBA-214.html"]
+privacywatch.news##[href="WBA-3708.html"]
+privacywatch.news##[href="WBA-3670.html"]
+privacywatch.news##[href="WBA-3674.html"]
+privacywatch.news##[href="WBA-2639.html"]
+privacywatch.news##[href="WBA-3700.html"]
+privacywatch.news##[href="WBA-3805.html"]
+privacywatch.news##[href="WBA-4994.html"]
+privacywatch.news##[href="WBA-3802.html"]
+privacywatch.news##[href="WBA-3751.html"]
+privacywatch.news##[href="WBA-5024.html"]
+privacywatch.news##[href="WBA-5034.html"]
+privacywatch.news##[href="WBA-3384.html"]
+privacywatch.news##[href="WBA-5014.html"]
+privacywatch.news##[href="WBA-651.html"]
+||techgig.com/mis/tj_mailer_opened_count_all.php
+||content.fb.com/trk
+||transferwise.com/track/
+||linkedin.com/emimp/
+||email.unsplash.com/o/
+||links.producthunt.com/oo/
+||email.payback.in/a/
+||mail.payback.in/tr/
+||wildapricot.org/emailtracker
+||awscloud.com/trk
+||l.flipkart.com/t/
+||dropbox.com/l/
+||monsterindia.com/corp_news_unsubscribed/track.html
+||quora.com/qemail/mark_read
+||facebook.com/email_open_log_pic.php
+||facebookdevelopers.com/trk
+||email.getpocket.com/wf/open
+||bookmyshow.com/tr/
+||driftem.com/ltrack
+||c.apple.com/img/apple_email_link/
+||eventsinyourarea.com/track/
+||link.runtastic.com/mo/
+b10f.jp##td:nth-of-type(2) > table
+b10f.jp###my_contents_home > table > tbody > tr > td:nth-of-type(2)
+www.betfair.com##.ssc-cha-desktop.ssc-cc-gb.ssc-lang-en.ssc-reg-us.ssc-jur-intl.ssc-prod-prospect-page.ssc-theme-betfair.ssc-cp.ssc-ncb
+www.adventurecreators.com###cookie-banner
+||blocket.se/adout/
+www.aljazeera.com##.article-adv-right-sideBar
+help-wifi.com##.r1-adapt
+whatson.cityofsydney.nsw.gov.au##.ad-event--desktop
+whatson.cityofsydney.nsw.gov.au##.shadowed-section.event-single-newsletter.page-content-header
+www.bing.com###b_pole
+www.sciencenews.org##.cookie-banner__wrapper___2HSqF
+nypost.com###header-billboard-ad
+www.amazon.com##.index\=0.widgetId\=search-results.template\=SEARCH_RESULTS.slot\=SEARCH_RESULTS.celwidget > .rush-component > .rush-component > .s-border-bottom.s-include-content-margin
+www.theguardian.com##.js-top-banner.top-banner-ad-container
+www.theguardian.com###dfp-ad--mostpop
+www.theguardian.com##.js-most-popular-footer.fc-container--has-toggle.fc-container
+||g01.msn.com$$xmlhttprequest,domain=msn.com
+||msn.com$ping
+www.msn.com##.dynamicRRv2
+www.msn.com##.apbctr
+www.msn.com###sticky-footer-wrapper
+##[href*="adclick.g.doubleclick.net"]
+www.msn.com##.yvewviizmnzxodjivy.normalsection > .full-width > .sectioncontent
+www.msn.com##.yvehzydphxvmy-kgvxzcjgyzm
+www.msn.com###stripecontentplaceholder
+www.msn.com##.full-width.stripe
+www.msn.com##.stripeouter
+www.msn.com##.loaded.makelist.pagingsection
+graduateway.com###plug0
+graduateway.com##.shadow
+graduateway.com##.exit_window_body_large
+graduateway.com##.article__cta
+graduateway.com##.mail
+eng.atlants.lv##.atlants_cook_bottomcenter.atlants_cook_wrapper
+||s.dedicatedwriters.com/i/first-order-discount.jpg
+www.catholic.com###privacy-notice
+||prezi.com/api/token/log/
+www.bbc.co.uk###bbccookies
+bleacherreport.com##.content
+www.oneplus.com##.misc-dialog.auto-subscribe-dialog
+www.oneplus.com##.cookie-warn
+www.oneplus.com##div.section-row:nth-of-type(2) > .sections > .section-container
+www.nytimes.com##div.g-ad
+www.hoodamath.com###desktopAboveGames
+www.hoodamath.com###skyscraper
+www.hoodamath.com###instructions > div
+www.walmart.com##.ads-wpa-brand-amplifier
+www.nationsencyclopedia.com##.leftad
+||pacogames.com/js/wgAds.
+search.library.wisc.edu###cookieconsent-window
+www.businessinsider.com##[href^="https://www.businessinsider.com/intelligence/connectivity-and-tech-pro"]
+www.businessinsider.com###right-rail-2
+www.businessinsider.com##.first.js-autofill.popular-recirc.popular-post
+www.businessinsider.com##section.js-autofill.popular-recirc.popular-post
+youtube.com###YtKevlarVisibilityIdentifier
+youtube.com###contents > ytd-promoted-sparkles-text-search-renderer.style-scope.ytd-item-section-renderer
+||images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*_.gif
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -23796,6 +24238,11 @@ crashlytics.com|
 @@||sourceforge.net$cookie
 @@||auth.adguard.com$cookie
 @@||github.com$cookie
+@@||accounts.google.*$cookie
+@@||gab.com$cookie
+@@||youtube.com$cookie
+@@||amazon.com$cookie
+@@||accounts.google.com^$stealth
 
 ! https://forum.adguard.com/index.php?threads/http-rt-pornhub-com.12443/
 pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
@@ -23810,7 +24257,11 @@ dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
+*$cookie=/grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
+! The Cookie Doesn't Need To Be Stored For 4 Month - This Sets It To One
+amiunique.org$cookie=AmIUniqueId;maxAge=43200
+!
+шляхтен.рф$cookie
 googlevideo.com$cookie
 lmgtfy.com$cookie
 letmegooglethat.com$cookie
@@ -24037,652 +24488,673 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 *freemonies*
 
 ! Wildcard
-/appstore-install-badges/
-/cmd.php?ad=*
+*/appstore-install-badges/
+*/cmd.php?ad=*
 *ext.track.scripts*
-/logcollect/
-/metaTag.min.js
-/log.asp?callback=
-/json/*/getStats
-/akam/11/
-/ad-manager.min.js
-/tagmanager/
-/doctracking.js
-/bidbarrel-cbsnews$script
-/vhs-plugin-*-analytics.min.js
-/ip_seg_
-/gciAnalytics.js
-/google-tracking/
-/gaT.module.js
-/ruxitagentjs_
-/redirect/?spot_id
-/googleads.css
-/adx.css
-/ClickTail.js
-/counter/?domain=
-/footer_ads_tiz.php
-/ad-blocking-detector.php
-/anti-adblock.php
-/pdAb.min.js
-/common/tracker.js
-/promotional/
-/personalized-banner-ads/
-/etags.jpg
-/etag.jpg
-/tracking_id.js
-/clientjs/
-/FingerprintApi/
-/JsFingerprint-Kotlin/
-/site_stats/
-/track.min.js
-/missing-ad.png
-/adrum-config.js
-/logImpressions
-/ad-truck.
-/click.track
-/ad.gif
-/sbn_fingerprint.
+*/logcollect/
+*/metaTag.min.js
+*/log.asp?callback=
+*/json/*/getStats
+*/akam/11/
+*/ad-manager.min.js
+*/tagmanager/
+*/doctracking.js
+*/bidbarrel-cbsnews$script
+*/vhs-plugin-*-analytics.min.js
+*/ip_seg_
+*/gciAnalytics.js
+*/google-tracking/
+*/gaT.module.js
+*/ruxitagentjs_
+*/redirect/?spot_id
+*/googleads.css
+*/adx.css
+*/ClickTail.js
+*/counter/?domain=
+*/footer_ads_tiz.php
+*/ad-blocking-detector.php
+*/anti-adblock.php
+*/pdAb.min.js
+*/common/tracker.js
+*/promotional/
+*/personalized-banner-ads/
+*/etags.jpg
+*/etag.jpg
+*/tracking_id.js
+*/clientjs/
+*/FingerprintApi/
+*/JsFingerprint-Kotlin/
+*/site_stats/
+*/track.min.js
+*/missing-ad.png
+*/adrum-config.js
+*/logImpressions
+*/ad-truck.
+*/click.track
+*/ad.gif
+*/sbn_fingerprint.
 ! /analytics/ (breaks sites like moodysanalytics.com)
-/ad-specs.
-/poool-identity.min.js
-/usersync?redir
-/cywevent.js
-/event.gif?
-/ads/beacon-
-/*.iframetracker.*
-/ad-manager.min.js
-/adServe/
-/ads-for-wp.bak/
-/ads-front.min.js
-/adsforwp-front.min.css
-/trackalyze_secure.js
-/google-analytics-for-wordpress/
-/showads/
-/showad.js
-/lib/tracking/
-/atrk.js
-/VisitorIdentification.js
-/client.min.js
-/video-tracking.
-/caos-analytics/
-/detectmobilebrowser.js
-/__fpn.gif
-/adfox
-/adv_hash
-/opentab_tracking.php
-/*-tags-without-adobe.min.js
-/usersync?
-/msn-adblocker-*/
-/adfit/static/
-/reklamy/
-/ad-choices.png
-/rlog.php?
-/RLinkPing.htm
-/async-ads.js
-/userHistory/count?
-/images/ads/
-/expadsblocked.js
-/travel-pixel-js/
-/google-tracking/
-/ga-*.js
-/browserfp.min.js
-/sk-logabpstatus.php
-/px.js?ch=
-/fingerprint2.js
-/fingerprintjs2
-/jwplayer*/ping.gif
-/cookie-prompt
-/geo/get
-/public/ads/
-/__utm.gif
-/js/cookie-prompt.js
-/vendor/bowser.js
-/vendor/bowser.min.js
-/devicead/*
-/shopify_justuno_*
-/ads.min@
-/wp-content/ads/
-/w.chatlio-widget.js
-/assets/track.js
-/www/delivery/asyncjs.php
-/asyncjs.php
-/*.iframetracker.js
-/iframetracker.js
-/front/js/counter.js
-/raygun.min.js
-/apusers/serve/
-/*-scevent.js?
-/storefront/track?
-/ico_facebook.gif
-/ico_twitter.gif
-/adalyser.js
-/images/sponsors/
-/third-party.js
-/webgl.js?
+*/ad-specs.
+*/poool-identity.min.js
+*/usersync?redir
+*/cywevent.js
+*/event.gif?
+*/ads/beacon-
+*/*.iframetracker.*
+*/ad-manager.min.js
+*/adServe/
+*/ads-for-wp.bak/
+*/ads-front.min.js
+*/adsforwp-front.min.css
+*/trackalyze_secure.js
+*/google-analytics-for-wordpress/
+*/showads/
+*/showad.js
+*/lib/tracking/
+*/atrk.js
+*/VisitorIdentification.js
+*/client.min.js
+*/video-tracking.
+*/caos-analytics/
+*/detectmobilebrowser.js
+*/__fpn.gif
+*/adfox
+*/adv_hash
+*/opentab_tracking.php
+*/*-tags-without-adobe.min.js
+*/usersync?
+*/msn-adblocker-*/
+*/adfit/static/
+*/reklamy/
+*/ad-choices.png
+*/rlog.php?
+*/RLinkPing.htm
+*/async-ads.js
+*/userHistory/count?
+*/images/ads/
+*/expadsblocked.js
+*/travel-pixel-js/
+*/google-tracking/
+*/ga-*.js
+*/browserfp.min.js
+*/sk-logabpstatus.php
+*/px.js?ch=
+*/fingerprint2.js
+*/fingerprintjs2
+*/jwplayer*/ping.gif
+*/cookie-prompt
+*/geo/get
+*/public/ads/
+*/__utm.gif
+*/js/cookie-prompt.js
+*/vendor/bowser.js
+*/vendor/bowser.min.js
+*/devicead/*
+*/shopify_justuno_*
+*/ads.min@
+*/wp-content/ads/
+*/w.chatlio-widget.js
+*/assets/track.js
+*/www/delivery/asyncjs.php
+*/asyncjs.php
+*/*.iframetracker.js
+*/iframetracker.js
+*/front/js/counter.js
+*/raygun.min.js
+*/apusers/serve/
+*/*-scevent.js?
+*/storefront/track?
+*/ico_facebook.gif
+*/ico_twitter.gif
+*/adalyser.js
+*/images/sponsors/
+*/third-party.js
+*/webgl.js?
 /*.gif?
-/ads20*
-/rects.js?
+*/ads20*
+*/rects.js?
 ?*connect.facebook.com
-/wp-content/plugins/snow-3d/
-/ads-iframe/
-/abc-analytics/
-/a8sales.js
-/mol-adverts/
-/iphone_ad_*
-/i/pix/promoboxes/
-/entry_stats?
-/analytics/track/
-/events?app_id=
-/mixpanel-2-latest.min.js
+*/wp-content/plugins/snow-3d/
+*/ads-iframe/
+*/abc-analytics/
+*/a8sales.js
+*/mol-adverts/
+*/iphone_ad_*
+*/i/pix/promoboxes/
+*/entry_stats?
+*/analytics/track/
+*/events?app_id=
+*/mixpanel-2-latest.min.js
 *-tracking.js
-/events?app_id=
-/htmlPauseRoll/pb_block_controller.js?
-/google-tracking/
-/adblock-notify-by-bweb/
-/caos-analytics/
-/mod_pagespeed_beacon?
-/plugin/better-stop-adblock/
-/plugins/ibd-block-adblocker/
-/plugins/noadblock-nice-message/
-/jquery.adblock-detector.js$script
-/adblock-detector.js
-/plugins/ad-blocking-advisor/
-/plugins/ad-block-defender/
-/plugins/deadblocker/
-/scripts/load_tags.js
-/scr/pixel.gif
-/?callback=*.update_facebook_count
-/riveted.min.js
-/autotrack.js
-/case-adv.jpg
-/_hcms/forms/
-/jsonip?
-/csp_report?
-/google-analyticator/
-/external-tracking.min.js
-/iu3?d=amazon.com&
-/paywall_js/
-/jslibs/track.js
-/wsAnalytics.min.js
-/metrics/adobe/
-/adblock-detector/
-/in.php?referer=
-/video-hit
-/video/tracking.js
-/scripttag.js
-/reportTimeWatched
-/vtrack.php
-/akam/*/pixel
-/admantx/service?
-/adobe-blank.css
-/blank.css
-/utag/cmsgov/
-/Universal-Federated-Analytics-Min.js
-/federated-analytics/
-/federated-analytics.js
-/autotracker/
-/autotracker.js
-/google_tag/
-/geminivideoads/
-/ad_feedback_icon_*
-/transparent-pixel
-images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*_.gif
-/bv-analytics.js
-/px.gif?
-/pix.gif?
-/api/analytics/
-/react-dom/cjs/react-dom.production.min.js
-/pixel-clear.gif?
-/storefront/track?
-/meks-easy-ads-widget/
-/td-ads-model-min.js
-/advertisement_0.0.18.js
-/dnsdetect/
-/getLiveRadioAdConfig
-/content/markets?zipCode
-/collection/user/*/collection
-/api/cards?country
-/content/markets?countryCode
-/MM/js/eex-canvas.js
-/sbi?mmasync
-/ipv6test/test?
-/reportActivity?
-/cc8437ad.js
-/6323ce42.js
-/AS/Suggesttions?
-/0716c9f4.js
-/261929f9.js
-/xnTuawbjfertd/tl.gif?
-/satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
-/research/pixel/
-/adnetwork.js
-/api/v1/tracking-event/creative_view
-/fuckadblock
-/fuckadblock.js
-/fuckadblock.min.js
-/FuckAdBlock.min.js
-/FuckAdBlock.js
-/FuckAdBlock
-/BlockAdBlock
-/BlockAdBlock.js
-/BlockAdBlock.min.js
-/blockadblock.min.js
-/blockadblock.js
-/blockadblock
-/FuckAdBlock.git
-/fuckadblock.git
-/blockadblock.git
-/api/analytics/view.json
-/Ping.aspx
-/adoric.js
-/ping.gif
-/adframestats
-/_tracking
-/fi_client.js
-/player_204
-/ptracking/
-/yt/advertise
-/advertise
-/9_rICcQEs1i28yq2ECdx4lNAqnXY68gixcJK91aOanQ.js
-/_pa.facebookPixelId/
-/trg.gif
-/blank.gif
-/adServer.bs
-/digitalfirstmedia.js
-/com.snowplowanalytics
-/sites/all/modules/features/dw_adops/prebid-1541451197.js
-/akam/10/d1bc67e
-/b/ss/foxnews/1/JS-1.7.0/s09375317477627
-/i/jot/syndication
-/sem_campaigns/sem_pixel_test
-/sem_pixel_test
-/csi_204/
-/insights/consumersurveys/async_survey
-/adsid/google/ui/
-/universal-federated-analytics-min.js
-/js/ssa.firefly.head.js
-/framework/js/ssa.firefly.body.js
-/js/respond.js
-/js/platform.js
-/jwplayer-20/assets/images/favicon.ico
-/jwplayer-20/assets/images/favicon-152.png
-/jwplayer-20/assets/images/favicon-144.png
-/jwplayer-20/assets/images/favicon-120.png
-/jwplayer-20/assets/images/favicon-114.png
-/jwplayer-20/assets/images/favicon-72.png
-/jwplayer-20/assets/images/favicon-57.png
-/2062
-/wp-content/plugins/st-privacy-detection/js/src/ads/ad-test.js
-/wp-content/plugins/st-privacy-detection/js/dist/st-detect.min.js
-/wDq4Hx70.min.js
-/analytics-event-adapter.bundle.min.js
-/elqCfg.min.js
-/country.js
-/167493.js
-/insight.min.js
-/jquery.adrotate.clicktracker.js
-/adrotate.clicktracker.js
-/clicktracker.js
-/js/platform.js
-/reportsuites.js
-/x.gif?&ads/
-/monetization.js
-/logger.js
-/log?format/
-/log?format=json/
-/complete/search?client/
-/sponsored.php
-/js/v0Min.js
-/add_search.php
-/RightNow.Client.js
-/cookie-id.js?fn=eluminate2429/
-/csm/showads.v2.js
-/ibu_aidsid_online_bundle.19c3a268.js,ibu_use_cookie_online_bundle.f2f451c7.js
-/tracker-patch/index.js
-/external-tracking.min.js
-/rblvc9nal.js
-/header/11882.js
-/o/25936583-postmessagerelay.js
-/js/gdpr-cookie-consent.js
-/en_US/fbevents.js
-/aax2/apstag.js
-/adsbygoogle.js
-/ddm/adj/Amixf/Bsmplb
-/ddm/adj/Atozx/Bbmlr
-/log_event/
-/log_interaction/
-/px/client/main.min.js
-/displayAdFrame.html?cb=15371282272319750
-/ads.js?v=1536859593317
-/certificate/digital_id.js
-/mail/webmail/yahoo/login mail/english.js
-/mail/webmail/yahoo/login mail/arabic.js
-/browser/cellphone/iphone.js
-/browser/cellphone/motorola.js
-/browser/cellphone/samsung.js
-/browser/cellphone/android.js
-/browser/cellphone/sony.js
-/browser/cellphone/blackberry.js
-/piwik.js
-/coinhive.min.js
-/head.load.min.js
-/js/fingerprint.pc.js
-/fingerprint.pc.js
-/ads.js
-/infinity.js.aspx
-/Yxm1CmxEPNZB1Lj9EXw.js
-/QMZcByGC8JsTWu_Q_IrkfA.jpg
-/googletagmanager.js
-/js/blank.html
-/vbulletin_fingerprint.js
-/PluginDetect.js
-/plugindetect.js
-/sha1.js
-/fp.js
-/webGL.js
-/browser-fingerprint
-/fingerprint.min.js
-/fingerprint.css
-/static/fp2.js
-/fp2.js
-/scripts/jquery-1.11.2.min.js
-/js/canvas.js
-/js/ip-direct-vi.js
-/js/ip-direct.js
-/js/ip.js
-/js/webgl.js
-/js/webrtc.js
-/jquery.canvasjs.min.js
-/canvasjs.min.js
-/canvasjs.js
-/fp2.js
-/fingerprint/figp.js
-/smeadvert-intermediate-ad.js
-/STAT/89946.js
-/fp.min.jsp
-/fingerprint2.min.js
-/bsredirect5.js
-/ad.js
-/ads.js
-/ad.json
-/wp-content/plugins/sorry-adblocker/js/sab.js$script
-/ad-blocking-detector/*
-/adb_detector.
-/adblock-blocker/*
-/adblock_detector.
-/adblockdetect.
-/adblockdetection.
-/anti_ab.
-/antiadblock.
-/wp-content/plugins/anti_ad_blocker/*
-/adblock_detection/*
-/antipubblicita.js
-/noadblock.jpg
-/adblock/adblockpopup.js$script
-/adblockbait.js$script
-/adblockchecker.js$script
-/kill-adblock/js/function.js$script
-/binfgkxpxaizujgk.js/
-/heatmap.js
-/ajax/mercury/change_read_status.php
-/ajax/messaging/typ.php
-/mtiFontTrackingCode.js
-/__utm.gif
-/_utm.gif
-/generate_204/
-/images/public/devicead/$image
-/images/BottomCol2Back2.gif
-/aboutadtextonline.php.html
-/getadpack.html
-/pixels/storage/main/pixel.gif
-/removeAB.php
-/_ate.track.config_resp
-/search?vet
-/async/ecr?
-/fd/ls/lsp.aspx
-/fd/ls/ls.gif
-/common-student-lab/src/js/jsxgraphcore.js
-/ajax/record-impressions
-/track/track.js
-/ads_banner
-/track/ga_tracker
-/track/pixel_tracker
-/adbackground.html
-/plugins/feedback.php
-/ajax/bz
-/game-tracking-views.ajax
-/adimaged/textlink-ads.^$image
-/wp-content/plugins/dfm-notifications/js/webpush.js?
-/ki.js/53782/bH0qoo.js
-/JS/cos-chatbot-1.10.min.js
-/JS/botchat-es5-0.14.0.js
-/dcs.gif?
-/recImpression.html
-/serveAds.php
-/showads.v2.js
-/track.png
-/track.gif
-/tracker.php
-/detect-adblock.js
-/detect-adblock/
-/manageads/47191571.jsons?
-/jsAds/
-/xgemius.js
-/cookie-law-info-bar
-/attachment-tracking
-/email-link-tracking
-/email-analytics-performance
-/api/census/RecordHit
-/api/1/wp-rum/settings/
-/_/stat?event=pixel/
-/js/tracking.min.js
-/upscribe_sage/resources/assets/scripts/sales.js
-/_/batch
-/api/stats/atr?
-/api/stats/watchtime?
-/api/stats/qoe?
-/silentpassport?
-/sl/e/i/
-/sl/e/v/
-/img.php?
-/domains/caf.js
-/logpstatus.php
-/kj/bm.js?
-/GARecord
-/PageMoniker?pixelList
-/tag/js/gpt.js
-/JSErrorRecord
-/beacon.js
-/v2/record_log.php
-/js/log.js?
-/js/experiment.js?
-/js/ga.js
-/cse/cse.js?
-/TOIBNews/breakingnews.html
-/clear1x1.gif
-/1.1/promoted_content/log.json
-/1.1/jot/client_event.json
-/1.1/jot/error_log.json
-/ac/qzfl/stat.js
-/barclays-monitoring/
-/libs/adrum.js
-/visit.json
-/?ref=
-/cookie-law-info-public.css
-/img/grey.gif
-/audiencenetwork/token/v1/
-/AC_ad_*_*-*.png
-/html2canvas.min.js
-/ads/carbonads/
-/ads/carbonads/carbon-modified.js
-/mput?topic=metrics
-/spacer_tr.gif
-/api/stats/
-/sas/analytics
-/analytics/iframe.html
-/beacon/csp?
-/bestfollowers/
-/freefollower/
-/freefollowers/
-/forfollow/
-/google-analytics-premium/
-/_/items/newswars_ads
-/tracker?domain
-/fbi-gov/production/gateway.min.js
-/prebid-$script
-/api/stats/
-/play?pub_id=
-/tr?id
-/~/st/af.js
-/js/ad-min.js
-/smartads.epl
-/images.php?
-/ga_action
-/webTracking/
-/onetag/
-/addthis_widget.js
-/ads/ga-audiences/
-/__ptq.gif
-/get_midroll_info?
-/activity_ext/dc_pubid=
-/sodar/*.html
-/videogoodput?
-/pagead/
-/pagead/adview?
-/native/flowplayer.async.js
-/concert_ads.js
-/internal-ad-api/
-/autotrack.carbon.js
-/matomo.php?
-/imads.js
-/ns*-auth.
-/feedclick?
-/bk-coretag.js
-/rontar*_async.js
-/gdpr-analytics.php
-/ads/header_1.html
-/ads/home_sidebar_1.html
-/js/counters-informers-init.js
-/?fp=
-/client/domains/videoAds/
-/images/*/imdbads/
-/imdbads/js/
-/ad_load.js
-/piwik.php
-/plugins/better-adsmanager/
-/wp-slimstat/
-/webdig_test.js
-/webdig.js
-/wp-content/plugins/ad-inserter-pro/
-/activityloggingapi/
-/evercookie-master/
-/evercookie.js
-/mod_pagespeed_beacon
-/fi_client.js
-/visit.jpg
-/pub_lyricsmode.gif
-/adstream
-/prebid2.x.x.js
-/clientprofiler/
-/tracking/fingerprint/
-/rpFingerprint
-/pixel.fingerprint
-/loadJsFingerprint.js
-/device-fingerprint
-/analytics*.php
-/radioAdEmbed.
-/topad_*.gif
-/ads-loader-*
-/cookieconsent.min.js
-/AdManager.js
-/adcombo
-/topoffers_
-/cookie-notice/
-/global/metrics/
-/pixel.html
-/pixel.js
-/affirm.js
-/UpsellTracker.js
-/v6exp3/iframe.html
-/ad-overlay-anything/
-/google-adblock.js
-/ramy6P8ui3ZlbYWn/
-/gm-ga.min.js
-/showads.js
-/adoefieldlite-
-/plugins/mashsharer/$script
-/_gap/
-/adOk?
-/adtech/
-/gravitate-event-tracking/
-/heatmap-for-wp/
-/go_to/
-/ga-audiences
-/_img/space.gif
-/r/collect?
-//collect?
-/gampad/google_$script
+*/events?app_id=
+*/htmlPauseRoll/pb_block_controller.js?
+*/google-tracking/
+*/adblock-notify-by-bweb/
+*/caos-analytics/
+*/mod_pagespeed_beacon?
+*/plugin/better-stop-adblock/
+*/plugins/ibd-block-adblocker/
+*/plugins/noadblock-nice-message/
+*/jquery.adblock-detector.js$script
+*/adblock-detector.js
+*/plugins/ad-blocking-advisor/
+*/plugins/ad-block-defender/
+*/plugins/deadblocker/
+*/scripts/load_tags.js
+*/scr/pixel.gif
+*/?callback=*.update_facebook_count
+*/riveted.min.js
+*/autotrack.js
+*/case-adv.jpg
+*/_hcms/forms/
+*/jsonip?
+*/csp_report?
+*/google-analyticator/
+*/external-tracking.min.js
+*/iu3?d=amazon.com&
+*/paywall_js/
+*/jslibs/track.js
+*/wsAnalytics.min.js
+*/metrics/adobe/
+*/adblock-detector/
+*/in.php?referer=
+*/video-hit
+*/video/tracking.js
+*/scripttag.js
+*/reportTimeWatched
+*/vtrack.php
+*/akam/*/pixel
+*/admantx/service?
+*/adobe-blank.css
+*/blank.css
+*/utag/cmsgov/
+*/Universal-Federated-Analytics-Min.js
+*/federated-analytics/
+*/federated-analytics.js
+*/autotracker/
+*/autotracker.js
+*/google_tag/
+*/geminivideoads/
+*/ad_feedback_icon_*
+*/transparent-pixel
+*/bv-analytics.js
+*/px.gif?
+*/pix.gif?
+*/api/analytics/
+*/react-dom/cjs/react-dom.production.min.js
+*/pixel-clear.gif?
+*/storefront/track?
+*/meks-easy-ads-widget/
+*/td-ads-model-min.js
+*/advertisement_0.0.18.js
+*/dnsdetect/
+*/getLiveRadioAdConfig
+*/content/markets?zipCode
+*/collection/user/*/collection
+*/api/cards?country
+*/content/markets?countryCode
+*/MM/js/eex-canvas.js
+*/sbi?mmasync
+*/ipv6test/test?
+*/reportActivity?
+*/cc8437ad.js
+*/6323ce42.js
+*/AS/Suggesttions?
+*/0716c9f4.js
+*/261929f9.js
+*/xnTuawbjfertd/tl.gif?
+*/satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
+*/research/pixel/
+*/adnetwork.js
+*/api/v1/tracking-event/creative_view
+*/fuckadblock
+*/fuckadblock.js
+*/fuckadblock.min.js
+*/FuckAdBlock.min.js
+*/FuckAdBlock.js
+*/FuckAdBlock
+*/BlockAdBlock
+*/BlockAdBlock.js
+*/BlockAdBlock.min.js
+*/blockadblock.min.js
+*/blockadblock.js
+*/blockadblock
+*/FuckAdBlock.git
+*/fuckadblock.git
+*/blockadblock.git
+*/api/analytics/view.json
+*/Ping.aspx
+*/adoric.js
+*/ping.gif
+*/adframestats
+*/_tracking
+*/fi_client.js
+*/player_204
+*/ptracking/
+*/yt/advertise
+*/advertise
+*/9_rICcQEs1i28yq2ECdx4lNAqnXY68gixcJK91aOanQ.js
+*/_pa.facebookPixelId/
+*/trg.gif
+*/blank.gif
+*/adServer.bs
+*/digitalfirstmedia.js
+*/com.snowplowanalytics
+*/sites/all/modules/features/dw_adops/prebid-1541451197.js
+*/akam/10/d1bc67e
+*/b/ss/foxnews/1/JS-1.7.0/s09375317477627
+*/i/jot/syndication
+*/sem_campaigns/sem_pixel_test
+*/sem_pixel_test
+*/csi_204/
+*/insights/consumersurveys/async_survey
+*/adsid/google/ui/
+*/universal-federated-analytics-min.js
+*/js/ssa.firefly.head.js
+*/framework/js/ssa.firefly.body.js
+*/js/respond.js
+*/js/platform.js
+*/jwplayer-20/assets/images/favicon.ico
+*/jwplayer-20/assets/images/favicon-152.png
+*/jwplayer-20/assets/images/favicon-144.png
+*/jwplayer-20/assets/images/favicon-120.png
+*/jwplayer-20/assets/images/favicon-114.png
+*/jwplayer-20/assets/images/favicon-72.png
+*/jwplayer-20/assets/images/favicon-57.png
+*/2062
+*/wp-content/plugins/st-privacy-detection/js/src/ads/ad-test.js
+*/wp-content/plugins/st-privacy-detection/js/dist/st-detect.min.js
+*/wDq4Hx70.min.js
+*/analytics-event-adapter.bundle.min.js
+*/elqCfg.min.js
+*/country.js
+*/167493.js
+*/insight.min.js
+*/jquery.adrotate.clicktracker.js
+*/adrotate.clicktracker.js
+*/clicktracker.js
+*/js/platform.js
+*/reportsuites.js
+*/x.gif?&ads/
+*/monetization.js
+*/logger.js
+*/log?format/
+*/log?format=json/
+*/complete/search?client/
+*/sponsored.php
+*/js/v0Min.js
+*/add_search.php
+*/RightNow.Client.js
+*/cookie-id.js?fn=eluminate2429/
+*/csm/showads.v2.js
+*/ibu_aidsid_online_bundle.19c3a268.js,ibu_use_cookie_online_bundle.f2f451c7.js
+*/tracker-patch/index.js
+*/external-tracking.min.js
+*/rblvc9nal.js
+*/header/11882.js
+*/o/25936583-postmessagerelay.js
+*/js/gdpr-cookie-consent.js
+*/en_US/fbevents.js
+*/aax2/apstag.js
+*/adsbygoogle.js
+*/ddm/adj/Amixf/Bsmplb
+*/ddm/adj/Atozx/Bbmlr
+*/log_event/
+*/log_interaction/
+*/px/client/main.min.js
+*/displayAdFrame.html?cb=
+*/ads.js?v=
+*/certificate/digital_id.js
+*/mail/webmail/yahoo/login mail/english.js
+*/mail/webmail/yahoo/login mail/arabic.js
+*/browser/cellphone/iphone.js
+*/browser/cellphone/motorola.js
+*/browser/cellphone/samsung.js
+*/browser/cellphone/android.js
+*/browser/cellphone/sony.js
+*/browser/cellphone/blackberry.js
+*/piwik.js
+*/coinhive.min.js
+*/head.load.min.js
+*/js/fingerprint.pc.js
+*/fingerprint.pc.js
+*/ads.js
+*/infinity.js.aspx
+*/Yxm1CmxEPNZB1Lj9EXw.js
+*/QMZcByGC8JsTWu_Q_IrkfA.jpg
+*/googletagmanager.js
+*/js/blank.html
+*/vbulletin_fingerprint.js
+*/PluginDetect.js
+*/plugindetect.js
+*/sha1.js
+*/fp.js
+*/webGL.js
+*/browser-fingerprint
+*/fingerprint.min.js
+*/fingerprint.css
+*/static/fp2.js
+*/fp2.js
+*/scripts/jquery-1.11.2.min.js
+*/js/canvas.js
+*/js/ip-direct-vi.js
+*/js/ip-direct.js
+*/js/ip.js
+*/js/webgl.js
+*/js/webrtc.js
+*/jquery.canvasjs.min.js
+*/canvasjs.min.js
+*/canvasjs.js
+*/fp2.js
+*/fingerprint/figp.js
+*/smeadvert-intermediate-ad.js
+*/STAT/89946.js
+*/fp.min.jsp
+*/fingerprint2.min.js
+*/bsredirect5.js
+*/ad.js
+*/ads.js
+*/ad.json
+*/wp-content/plugins/sorry-adblocker/js/sab.js$script
+*/ad-blocking-detector/*
+*/adb_detector.
+*/adblock-blocker/*
+*/adblock_detector.
+*/adblockdetect.
+*/adblockdetection.
+*/anti_ab.
+*/antiadblock.
+*/wp-content/plugins/anti_ad_blocker/*
+*/adblock_detection/*
+*/antipubblicita.js
+*/noadblock.jpg
+*/adblock/adblockpopup.js$script
+*/adblockbait.js$script
+*/adblockchecker.js$script
+*/kill-adblock/js/function.js$script
+*/binfgkxpxaizujgk.js/
+*/heatmap.js
+*/ajax/mercury/change_read_status.php
+*/ajax/messaging/typ.php
+*/mtiFontTrackingCode.js
+*/__utm.gif
+*/_utm.gif
+*/generate_204/
+*/images/public/devicead/$image
+*/images/BottomCol2Back2.gif
+*/aboutadtextonline.php.html
+*/getadpack.html
+*/pixels/storage/main/pixel.gif
+*/removeAB.php
+*/_ate.track.config_resp
+*/search?vet
+*/async/ecr?
+*/fd/ls/lsp.aspx
+*/fd/ls/ls.gif
+*/common-student-lab/src/js/jsxgraphcore.js
+*/ajax/record-impressions
+*/track/track.js
+*/ads_banner
+*/track/ga_tracker
+*/track/pixel_tracker
+*/adbackground.html
+*/plugins/feedback.php
+*/ajax/bz
+*/game-tracking-views.ajax
+*/adimaged/textlink-ads.^$image
+*/wp-content/plugins/dfm-notifications/js/webpush.js?
+*/ki.js/53782/bH0qoo.js
+*/JS/cos-chatbot-1.10.min.js
+*/JS/botchat-es5-0.14.0.js
+*/dcs.gif?
+*/recImpression.html
+*/serveAds.php
+*/showads.v2.js
+*/track.png
+*/track.gif
+*/tracker.php
+*/detect-adblock.js
+*/detect-adblock/
+*/manageads/47191571.jsons?
+*/jsAds/
+*/xgemius.js
+*/cookie-law-info-bar
+*/attachment-tracking
+*/email-link-tracking
+*/email-analytics-performance
+*/api/census/RecordHit
+*/api/1/wp-rum/settings/
+*/_/stat?event=pixel/
+*/js/tracking.min.js
+*/upscribe_sage/resources/assets/scripts/sales.js
+*/_/batch
+*/api/stats/atr?
+*/api/stats/watchtime?
+*/api/stats/qoe?
+*/silentpassport?
+*/sl/e/i/
+*/sl/e/v/
+*/img.php?
+*/domains/caf.js
+*/logpstatus.php
+*/kj/bm.js?
+*/GARecord
+*/PageMoniker?pixelList
+*/tag/js/gpt.js
+*/JSErrorRecord
+*/beacon.js
+*/v2/record_log.php
+*/js/log.js?
+*/js/experiment.js?
+*/js/ga.js
+*/cse/cse.js?
+*/TOIBNews/breakingnews.html
+*/clear1x1.gif
+*/1.1/promoted_content/log.json
+*/1.1/jot/client_event.json
+*/1.1/jot/error_log.json
+*/ac/qzfl/stat.js
+*/barclays-monitoring/
+*/libs/adrum.js
+*/visit.json
+*/?ref=
+*/cookie-law-info-public.css
+*/img/grey.gif
+*/audiencenetwork/token/v1/
+*/AC_ad_*_*-*.png
+*/html2canvas.min.js
+*/ads/carbonads/
+*/ads/carbonads/carbon-modified.js
+*/mput?topic=metrics
+*/spacer_tr.gif
+*/api/stats/
+*/sas/analytics
+*/analytics/iframe.html
+*/beacon/csp?
+*/bestfollowers/
+*/freefollower/
+*/freefollowers/
+*/forfollow/
+*/google-analytics-premium/
+*/_/items/newswars_ads
+*/tracker?domain
+*/fbi-gov/production/gateway.min.js
+*/prebid-$script
+*/api/stats/
+*/play?pub_id=
+*/tr?id
+*/~/st/af.js
+*/js/ad-min.js
+*/smartads.epl
+*/images.php?
+*/ga_action
+*/webTracking/
+*/onetag/
+*/addthis_widget.js
+*/ads/ga-audiences/
+*/__ptq.gif
+*/get_midroll_info?
+*/activity_ext/dc_pubid=
+*/sodar/*.html
+*/videogoodput?
+*/pagead/
+*/pagead/adview?
+*/native/flowplayer.async.js
+*/concert_ads.js
+*/internal-ad-api/
+*/autotrack.carbon.js
+*/matomo.php?
+*/imads.js
+*/ns*-auth.
+*/feedclick?
+*/bk-coretag.js
+*/rontar*_async.js
+*/gdpr-analytics.php
+*/ads/header_1.html
+*/ads/home_sidebar_1.html
+*/js/counters-informers-init.js
+*/?fp=
+*/client/domains/videoAds/
+*/images/*/imdbads/
+*/imdbads/js/
+*/ad_load.js
+*/piwik.php
+*/plugins/better-adsmanager/
+*/wp-slimstat/
+*/webdig_test.js
+*/webdig.js
+*/wp-content/plugins/ad-inserter-pro/
+*/activityloggingapi/
+*/evercookie-master/
+*/evercookie.js
+*/mod_pagespeed_beacon
+*/fi_client.js
+*/visit.jpg
+*/pub_lyricsmode.gif
+*/adstream
+*/prebid2.x.x.js
+*/clientprofiler/
+*/tracking/fingerprint/
+*/rpFingerprint
+*/pixel.fingerprint
+*/loadJsFingerprint.js
+*/device-fingerprint
+*/analytics*.php
+*/radioAdEmbed.
+*/topad_*.gif
+*/ads-loader-*
+*/cookieconsent.min.js
+*/AdManager.js
+*/adcombo
+*/topoffers_
+*/cookie-notice/
+*/global/metrics/
+*/pixel.html
+*/pixel.js
+*/affirm.js
+*/UpsellTracker.js
+*/v6exp3/iframe.html
+*/ad-overlay-anything/
+*/google-adblock.js
+*/ramy6P8ui3ZlbYWn/
+*/gm-ga.min.js
+*/showads.js
+*/adoefieldlite-
+*/plugins/mashsharer/$script
+*/_gap/
+*/adOk?
+*/adtech/
+*/gravitate-event-tracking/
+*/heatmap-for-wp/
+*/go_to/
+*/ga-audiences
+*/_img/space.gif
+*/r/collect?
+*//collect?
+*/gampad/google_$script
 *.net/bnr/$image
-/graph-calc.js
-/getStartPageAds
-/getMultiAdsStrategy
-/getAditem
-/output-stats/
-/getads?
-/?track=ad
-/golink?url=
-/phantomPopunder.js
-/ads-sexlink.
-/afu.php?zoneid
-/widget/ip/
-/v2internal/viewerimpressions
-/_/jserror
-/StatsService.RecordStats
-/QuotaService.RecordEvent
-/transparent-pixel$image
-/crosspromo/
-/ads.json
-/ad_manager
-/infos.ads?
-/gtag/analytics.
-/gtag.js
-/advert-amazon-secret?
-/banner/videos/player.htm?
-/plugin/banner/videos/*
-/haekchen/mapchen/
-/mapchen-heatmap/
-/pixel/purst?$image
-/pixel/pure
-/_addve.php
-/_addve*Footer.php
-/addve*bottom.php
-/track/count/zone/
-/e.mtrack.cryfe.js
-/sponsors/ads/
-/game-analytics
-/gtm.js
-/rsya-tag-users/
-/myvids/nb/thephpfile.php
-/traffic_return.php
-/myvids/force.php?
-/popunder.cgi
-/istripper/
-/yandex-metrica-watch/
-/ads-top
-/ad-inserter/
-/xhr/api/v2/collector
-/hit.xiti
-/Telemetry.Request
-/smartpop/
-/atop$domain=morazzia.com
-/newrelic-browser.js
-/utag/
-/utag.js
-/ads/iframe-mobile-
-/collector/noScript.gif
-/matomo.js
-/mistats/
-/datadog-logs-*$script
+*/graph-calc.js
+*/getStartPageAds
+*/getMultiAdsStrategy
+*/getAditem
+*/output-stats/
+*/getads?
+*/?track=ad
+*/golink?url=
+*/phantomPopunder.js
+*/ads-sexlink.
+*/afu.php?zoneid
+*/widget/ip/
+*/v2internal/viewerimpressions
+*/_/jserror
+*/StatsService.RecordStats
+*/QuotaService.RecordEvent
+*/transparent-pixel$image
+*/crosspromo/
+*/ads.json
+*/ad_manager
+*/infos.ads?
+*/gtag/analytics.
+*/gtag.js
+*/advert-amazon-secret?
+*/banner/videos/player.htm?
+*/plugin/banner/videos/*
+*/haekchen/mapchen/
+*/mapchen-heatmap/
+*/pixel/purst?$image
+*/pixel/pure
+*/_addve.php
+*/_addve*Footer.php
+*/addve*bottom.php
+*/track/count/zone/
+*/e.mtrack.cryfe.js
+*/sponsors/ads/
+*/game-analytics
+*/gtm.js
+*/rsya-tag-users/
+*/myvids/nb/thephpfile.php
+*/traffic_return.php
+*/myvids/force.php?
+*/popunder.cgi
+*/istripper/
+*/yandex-metrica-watch/
+*/ads-top
+*/ad-inserter/
+*/xhr/api/v2/collector
+*/hit.xiti
+*/Telemetry.Request
+*/smartpop/
+*/atop$domain=morazzia.com
+*/newrelic-browser.js
+*/utag/
+*/utag.js
+*/ads/iframe-mobile-
+*/collector/noScript.gif
+*/matomo.js
+*/mistats/
+*/datadog-logs-*$script
+*/ads/adfuel
+*/js/intersection-observer.js
+*/NNAnalytics/
+*/wpvisits/
+*/NNAnalyticsWPSites
+*/linktrack/
+*/marketing/mail-
+*/appserve/mkt/
+*/email_trackers
+*/email/tracking/
+*/1px.gif
+*/track.gif
+*/mail/track-open
+*/ads-config.min.js
+*/ads-async
+?tracking_code
+*/advertising.block/
+*/blockalyzer-adblock-counter/
+*/*ads_banner.swf
+*/*_advertising_*.swf
+~Ad~
+-ad-serving
 window.gapwn.get_country
 /*.sendReport
 -google-tag-
@@ -24879,6 +25351,15 @@ _statsonlineinfo
 ##.ad-container__notification
 ##.ad-container--lead1--18
 ##.ad-container--lead1.ad-container
+##.google-ad-square-inline
+##.google-ad-square-sidebar
+##.google-ad-leaderboard
+##.ad-img-wrapper
+##.ad-event--desktop
+###bttk_advertisement_widget-44
+##.advert
+##.atom.br-ad-wrapper
+##.adwords_in_content
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
