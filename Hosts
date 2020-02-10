@@ -1,6 +1,6 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1192
+! Version: 1192-1
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.4K
 ! Last Modified: Sunday, February 9, 2020
@@ -75,7 +75,6 @@ pandora.com$genericblock
 @@||connectivitycheck.gstatic.com
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
-@@||gigya.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
@@ -8111,7 +8110,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gstatic-as.pro
 0.0.0.0 go.strpjmp.com
 0.0.0.0 gaps.com
-0.0.0.0 gigya.com
 0.0.0.0 geohawk.co.uk
 0.0.0.0 gloussuz.com
 0.0.0.0 grooksom.com
