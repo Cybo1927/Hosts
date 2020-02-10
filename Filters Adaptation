@@ -1,7 +1,7 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1192
+! Version: 1192-1
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.4K
 ! Last Modified: Sunday, February 9, 2020
@@ -76,7 +76,6 @@ pandora.com$genericblock
 @@||connectivitycheck.gstatic.com
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
-@@||gigya.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
@@ -8112,7 +8111,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||gstatic-as.pro
 ||go.strpjmp.com
 ||gaps.com
-||gigya.com
 ||geohawk.co.uk
 ||gloussuz.com
 ||grooksom.com
