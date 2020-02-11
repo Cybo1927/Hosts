@@ -479,6 +479,7 @@
 0.0.0.0 sts.503a90a9c435.us.fm-cloud.com
 0.0.0.0 alb-loadb-pmfmsu6lx4vr-1241112320.us-west-2.elb.amazonaws.com
 0.0.0.0 go.vzw.com
+0.0.0.0 selfserveapps-vzw.g.vzw.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
@@ -523,17 +524,17 @@ vznavigator.net|
 [2001:428:1404:2::2:11]$network
 [2001:4860:4806:8::]$network
 ! App Specific
-0.0.0.0 code.jquery.com$app=com.dcgov.verizon
-0.0.0.0 code.jquery.com$app=com.capresults.verizon
-0.0.0.0 fonts.google.com$app=com.capresults.verizon
-0.0.0.0 login.voicestorm.com$app=com.dynamicsignal.enterprise.iamvz
-0.0.0.0 s3.amazonaws.com$app=com.vzw.smartlocatorhub
-0.0.0.0 www.cdnstabletransit.com$app=com.app_phonewireless.layout
-0.0.0.0 2373813c.api.splkmobile.com$app=com.allstate.Verizon
-0.0.0.0 api.telogis.eu$app=com.telogis.spotlight
-0.0.0.0 spotlight.telogis.com$app=com.telogis.spotlight
-0.0.0.0 sdk.out.usbla.net$app=com.telogis.spotlight
-0.0.0.0 trips.telogis.com$app=com.telogis.logbook
-0.0.0.0 mobilecore-dist.flows.telogis.com$app=com.verizonconnect.workforce
-0.0.0.0 static.telogis.com$app=com.verizonconnect.workforce
-0.0.0.0 login.platform.telogis.com$app=com.verizonconnect.workforce
+code.jquery.com$app=com.dcgov.verizon
+code.jquery.com$app=com.capresults.verizon
+fonts.google.com$app=com.capresults.verizon
+login.voicestorm.com$app=com.dynamicsignal.enterprise.iamvz
+s3.amazonaws.com$app=com.vzw.smartlocatorhub
+www.cdnstabletransit.com$app=com.app_phonewireless.layout
+2373813c.api.splkmobile.com$app=com.allstate.Verizon
+api.telogis.eu$app=com.telogis.spotlight
+spotlight.telogis.com$app=com.telogis.spotlight
+sdk.out.usbla.net$app=com.telogis.spotlight
+trips.telogis.com$app=com.telogis.logbook
+mobilecore-dist.flows.telogis.com$app=com.verizonconnect.workforce
+static.telogis.com$app=com.verizonconnect.workforce
+login.platform.telogis.com$app=com.verizonconnect.workforce
