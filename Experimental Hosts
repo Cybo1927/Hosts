@@ -4,6 +4,9 @@
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
 
+@@||*/showads.js$domain=softgames.de|softgames.com
+@@||*/advertisement.js$domain=softgames.de|softgames.com
+
 0.0.0.0 consent.snmmd.nl
 0.0.0.0 tracking.unrealengine.com
 0.0.0.0 gscounters.eu1.gigya.com
@@ -28,14 +31,76 @@
 0.0.0.0 pixel.marsble.com
 0.0.0.0 genesis.malwarebytes.com
 0.0.0.0 pumpkin.abine.com
+0.0.0.0 media-api.recosenselabs.com
+0.0.0.0 recosenselabs.com
+0.0.0.0 admp-tc-bauer.adtlgc.com
+0.0.0.0 app.readpeak.com
+0.0.0.0 readpeak.com
+0.0.0.0 t.sgc.io
+0.0.0.0 sgc.io
+0.0.0.0 api.survata.net
+0.0.0.0 survata.net
+0.0.0.0 static.truex.com
+0.0.0.0 truex.com
+0.0.0.0 static.ultra-rv.com
+0.0.0.0 ultra-rv.com
+0.0.0.0 gerlinger.org
+0.0.0.0 logger.c1oudmobi.net
+0.0.0.0 tkup.uparpu.com
+0.0.0.0 uparpu.com
+0.0.0.0 clk.cpi.leapmobs.com
+0.0.0.0 leapmobs.com
+0.0.0.0 rlog_sem.vizio.com
+0.0.0.0 picanalysis.vivo.com.cn
+0.0.0.0 safeurl.maxthon.cn
+0.0.0.0 maxthon.cn
+0.0.0.0 urlsec.qq.com
+0.0.0.0 adserver.admost.com
+0.0.0.0 mobile.admost.com
+0.0.0.0 admost.com
+0.0.0.0 ads.vaguthu.mv
+0.0.0.0 99counters.com
+0.0.0.0 admo.net
+0.0.0.0 analytics.webdunia.com
+0.0.0.0 linkopp.net
+0.0.0.0 onlineuserscounter.com
+0.0.0.0 adbox.lk
+0.0.0.0 adlink.lk
 
 */cookiebar-latest.js
 */advagg_js/
 */advagg_css/
 */gscounters.sendReport?
 */arscode-ninja-popups/
+*/personalization?client_id=
+*/adobetracking
+*/ali-metrics.js
+*/rum-telemetry/
+*/trackit.js
+*/sg-ga-track-sdk.js?
+*/ads-ng/
+*/referurl.php
 
 www.kekmama.nl###sanoma-consent-bar-mobile
 www.sanoma.nl###sanoma-consent-bar-mobile
 www.kekmama.nl##.clearfix.top-fullwidth.region
 www.qatar-tribune.com###content-desktop > div > div:nth-of-type(1)
+www.lidl.fi##.notification--primary.notification--site.notification
+www.abplive.com##[href="https://www.viphaircolourshampoo.com"]
+www.abplive.com##div.uk-grid.uk-grid-small:nth-of-type(1) > ._hsidebar.uk-sidebar
+www.abplive.com##.uk-grid.margThree.uk-grid-small > .uk-first-column.uk-width-1-2
+www.abplive.com##.featured-ad
+www.abplive.com##.uk-margin-top._hsidebar.uk-sidebar
+www.abplive.com##[href="https://www.abplive.com/pradhanmantri2"]
+www.abplive.com##.manch-fixed-icon
+www.alppimatkat.fi##.toast-info.toast
+www.alpresor.se##.toast-info.toast
+||americanexpress.com/*/log/
+||americanexpress.com/adobetracking/
+||americanexpress.com/beacon/
+||americanexpress.com/collector/
+publishers.softgames.com##.transparent.sg-cookie-popup-backdrop
+publishers.softgames.com##.sg-cookie-popup-container
+vaguthu.mv##.ads-wrapper
+vaguthu.mv##.featured-listing
+hindi.webdunia.com##.ad_300
