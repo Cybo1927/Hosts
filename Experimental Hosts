@@ -3,3 +3,39 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+0.0.0.0 consent.snmmd.nl
+0.0.0.0 tracking.unrealengine.com
+0.0.0.0 gscounters.eu1.gigya.com
+0.0.0.0 meedoen.kekmama.nl
+0.0.0.0 ads.xyz.ng
+0.0.0.0 propellerad.*
+0.0.0.0 analytics-tracker.*
+0.0.0.0 trk.ablogica.com
+0.0.0.0 ablogica.com
+0.0.0.0 katie.dntrx.com
+0.0.0.0 dntrx.com
+0.0.0.0 5rocks.io
+0.0.0.0 ads-nyj-nfl.yinzcam.com
+0.0.0.0 icons8-analytics.herokuapp.com
+0.0.0.0 ads-*-nfl.yinzcam.com
+0.0.0.0 ads-resources.waze.com
+0.0.0.0 ads-trk.vidible.tv
+0.0.0.0 ads.internal.unity3d.com
+0.0.0.0 analytics.bsgwireless.com
+0.0.0.0 push.mxapis.com
+0.0.0.0 mxapis.com
+0.0.0.0 pixel.marsble.com
+0.0.0.0 genesis.malwarebytes.com
+0.0.0.0 pumpkin.abine.com
+
+*/cookiebar-latest.js
+*/advagg_js/
+*/advagg_css/
+*/gscounters.sendReport?
+*/arscode-ninja-popups/
+
+www.kekmama.nl###sanoma-consent-bar-mobile
+www.sanoma.nl###sanoma-consent-bar-mobile
+www.kekmama.nl##.clearfix.top-fullwidth.region
+www.qatar-tribune.com###content-desktop > div > div:nth-of-type(1)
