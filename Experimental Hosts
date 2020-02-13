@@ -6,6 +6,7 @@
 
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
+@@||s.w-x.co
 
 0.0.0.0 consent.snmmd.nl
 0.0.0.0 tracking.unrealengine.com
@@ -66,6 +67,10 @@
 0.0.0.0 onlineuserscounter.com
 0.0.0.0 adbox.lk
 0.0.0.0 adlink.lk
+0.0.0.0 stats.t-online.de
+0.0.0.0 uxcam.com
+0.0.0.0 triggers.wfxtriggers.com
+0.0.0.0 wfxtriggers.com
 
 */cookiebar-latest.js
 */advagg_js/
@@ -80,6 +85,8 @@
 */sg-ga-track-sdk.js?
 */ads-ng/
 */referurl.php
+*/ad-third-party/
+*/newrelic-gpt.
 
 www.kekmama.nl###sanoma-consent-bar-mobile
 www.sanoma.nl###sanoma-consent-bar-mobile
@@ -104,3 +111,11 @@ publishers.softgames.com##.sg-cookie-popup-container
 vaguthu.mv##.ads-wrapper
 vaguthu.mv##.featured-listing
 hindi.webdunia.com##.ad_300
+www.t-online.de###TnavtsrShopping
+clickspeedtest.com##[href="https://clickspeedtest.com/black-friday-gaming-deals.html"]
+clickspeedtest.com##[href="https://clickspeedtest.com/mouse_accuracy/index.html"]
+||www.latimes.com/subscriptions/ad-arc-ears/img/LA_Skyling_toaster.svg$image
+www.latimes.com##.met-rule-2749
+||weather.com/api/*/content-config/ads/
+weather.com##.today.region-top.region
+intro.edhesive.com##.smcx-opaque.smcx-widget-dark.smcx-show.smcx-modal-survey.smcx-modal.smcx-widget
