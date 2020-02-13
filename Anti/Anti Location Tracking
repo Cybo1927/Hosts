@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 16
+! Version: 17
 
 ! Block maps, location analytics, and GPS services
 
@@ -274,9 +274,9 @@ foursquare.com|
 *map.online*
 /bhuvan2d.php
 /gps-navigation
-/maps-data/
-/location-intelligence/
-/api/location
+*/maps-data/
+*/location-intelligence/
+*/location
 /google_map_*
 .maps
 -maps
@@ -285,7 +285,9 @@ foursquare.com|
 &maps
 %maps
 &geo=
+&geocode
 %geo=
+%geocode
 &ip=
 %ip=
 &isp=
