@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 21
+! Version: 22
 
 ! DNS Sinkholes
 0.0.0.0 google.com
@@ -4674,6 +4674,8 @@ android.com|
 172.217.6.14$network
 172.217.0.14$network
 172.217.9.46$network
+! Found In Snapchat On Android - https://who.is/whois-ip/ip-address/216.239.36.126
+216.239.36.126$network
 ! https://who.is/whois-ip/ip-address/172.217.9.74
 172.217.9.74$network
 ! Gboard Tracking
