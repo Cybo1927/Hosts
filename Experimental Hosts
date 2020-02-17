@@ -71,6 +71,14 @@
 0.0.0.0 uxcam.com
 0.0.0.0 triggers.wfxtriggers.com
 0.0.0.0 wfxtriggers.com
+0.0.0.0 tcx-live-chat.appspot.com
+0.0.0.0 45.79.223.161
+0.0.0.0 graph.microsoft.com
+0.0.0.0 perr.hola.org
+0.0.0.0 ads.korri.fr
+
+! Ping is never anything but analytics/trackers
+*$ping
 
 */cookiebar-latest.js
 */advagg_js/
@@ -87,6 +95,8 @@
 */referurl.php
 */ad-third-party/
 */newrelic-gpt.
+*/wp-live-chat-support/
+?beacon=
 
 www.kekmama.nl###sanoma-consent-bar-mobile
 www.sanoma.nl###sanoma-consent-bar-mobile
@@ -119,3 +129,17 @@ www.latimes.com##.met-rule-2749
 ||weather.com/api/*/content-config/ads/
 weather.com##.today.region-top.region
 intro.edhesive.com##.smcx-opaque.smcx-widget-dark.smcx-show.smcx-modal-survey.smcx-modal.smcx-widget
+www.ratemyprofessors.com##.StickyLeaderboard__StyledStickyLeaderboard-sc-1smpoa4-0
+www.ratemyprofessors.com##.CCPAFooter__StyledCCPAFooter-sc-1sx9bs3-0
+www.washingtontimes.com###frm_search
+www.washingtontimes.com##.email-alerts
+www.washingtontimes.com###news-signup-block
+joaoapps.com###cookieChoiceInfo
+igarinemax.com##.cp-overlay-background
+igarinemax.com##.cp-modal-popup-container
+igarinemax.com##.wp-live-chat-wraper
+crxcavator.io##.sponsored-by
+open.spotify.com##._759904f944cb2420680734ecad0043ed-scss
+open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > .f8173b6c9c83185b5ba509aefd178eb8-scss
+||vimeocdn.com/*/player-stats
+||vimeocdn.com/p/*/js/*/sentry.js
