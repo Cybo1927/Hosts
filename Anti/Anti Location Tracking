@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 17
+! Version: 18
 
 ! Block maps, location analytics, and GPS services
 
@@ -120,6 +120,8 @@
 0.0.0.0 static.telogis.com
 0.0.0.0 login.platform.telogis.com
 0.0.0.0 geo-pro.beatport.com
+0.0.0.0 geoip.youversionapi.com
+0.0.0.0 geoip.*
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
