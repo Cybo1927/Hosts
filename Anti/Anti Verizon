@@ -471,6 +471,8 @@
 0.0.0.0 verizonmdm.vzw.com
 0.0.0.0 tones.verizonwireless.com
 0.0.0.0 scache.vzw.com
+0.0.0.0 scache1.vzw.com
+0.0.0.0 scache2.vzw.com
 0.0.0.0 mobile.track-n-trace.net
 0.0.0.0 track-n-trace.net
 0.0.0.0 mobile.vznavigator.net
@@ -480,16 +482,20 @@
 0.0.0.0 alb-loadb-pmfmsu6lx4vr-1241112320.us-west-2.elb.amazonaws.com
 0.0.0.0 go.vzw.com
 0.0.0.0 selfserveapps-vzw.g.vzw.com
+0.0.0.0 ss7.vzw.com
+0.0.0.0 ss71.vzw.com
+0.0.0.0 ss72.vzw.com
+0.0.0.0 ss73.vzw.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
 /vzauth
 /verizonrewards
-?goto=https://*.verizon*
+?goto=http*://*.verizon*
 %2everizon%2ecom%
 ||pandora.com/verizon
 
-! AdGuard
+! AdGuard Specific
 verizondigitalmedia.com|
 uplynk.com|
 verizonwireless.com|
