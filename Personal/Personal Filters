@@ -8,7 +8,7 @@
 !#include ../Other%20Formats/Extra%20Format
 !#endif
 
-!--- PERSONAL FILTERS DONT ADD TO LISTS ---!
+
 ! Sites that can work without scripts
 marketwatch.com^$script,inline-script
 nytimes.com^$script
@@ -44,12 +44,15 @@ mashtips.com$script,inline-script
 mistersaad.com$script,inline-script
 thinkmobiles.com$script,inline-script
 techiespad.com$script,inline-script
-!
+
+
 !||cloudfront.net^$all
 ||bit.ly^$all
 ||bitly.com^$all
 ||microsoftonline.com^$all
 ||mirmay.com^$all
+
+
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
 !||cloudflare.*^$all
 ||cloudflare-dns.com^$all
@@ -64,9 +67,13 @@ techiespad.com$script,inline-script
 ||one.one.one.one^$all
 ||1.1.1.1^$all
 ||1.0.0.1^$all
+
+
 ! No Scripts On .Gov Domains
 ||*.gov$script,inline-script
 ||*.gov.*$script,inline-script
+
+
 ! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
 ||*.cn^$all
 ||*.mo^$all
@@ -79,7 +86,9 @@ techiespad.com$script,inline-script
 ||dnspod.net^$all
 ||dnspod.cn^$all
 ||inshotapp.com^$all
-! Other Chinese Crap
+
+
+! Other Chinese Crap (AdGuard Specific)
 !#if (adguard && !ext_ublock)
 qq.com|
 gtimg.cn|
@@ -92,19 +101,19 @@ crrepa.com|
 ||api2.crrepa.com
 ||qcdn.crrepa.com.qiniudns.com
 47.246.43.204$network
-! Stores
-||refer.walmart.com^$all
-! Amazon Hosting
-!*cloudfront.*|
-*aws.amazon.*|
-*elasticbeanstalk.*|
 !#endif
+
+
 ! CSP
 *$csp='upgrade-insecure-requests';
+
+
 ! Add Event Listener Defuser
 *##+js(aeld, /onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide/)$domain=~youtube.com
 ! Remove Attributes
 *##+js(ra, onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide)$domain=~youtube.com
+
+
 ! Discord Cosmetic
 discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:first-child
 discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-child(2)
@@ -113,6 +122,8 @@ discordapp.com##.noticeDefault-362Ko2, .notice-2FJMB4
 discordapp.com##.fixClipping-3qAKRb.container-16j22k
 discordapp.com###app-mount > .app-19_DXt > .app-2rEoOp > .layers-3q14ss.layers-3iHuyZ > .baseLayer-35bLyl.layer-3QrUeG > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk > .activityFeed-1C0EmJ > .container-3T1zWi.noWrap-3jynv6.alignCenter-1dQNNs.justifyCenter-3D2jYp.directionRow-3v3tfG.horizontal-2EEEnY.horizontal-1ae9ci.flex-1O1GKY.flex-1xMQg5
 discordapp.com##.activityFeed-1C0EmJ
+
+
 !#if (adguard && !ext_ublock)
 ! AdGuard Specific
 !||cloudflare.*^$network,all
@@ -128,8 +139,38 @@ discordapp.com##.activityFeed-1C0EmJ
 ||one.one.one.one^$network,all
 ||1.1.1.1^$network,all
 ||1.0.0.1^$network,all
+
+
+! Amazon Hosting
+!*cloudfront.*|
+*aws.amazon.*|
+*elasticbeanstalk.*|
+
+
 ! Cookies
-*^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com|mega.nz
+*^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com|~mega.nz
 *^$cookie=/lithiumSSO%3A[a-z]+.prod|_wamtcstandards|http_referrer|at|__cfduid/
 !#endif
-!--- END PERSONAL FILTERS ---!
+
+! Extra
+||refer.walmart.com^$all
+||ak-us.wal.co
+||ec-us.wal.co
+||zy-us.wal.co
+||ll-us.wal.co
+||us.tb.wal.co
+||cf-us.wal.co
+||ak-us-dyn.wal.co
+||us-dyn.tb.wal.co
+||ll-us-dyn.wal.co
+||ec-us-dyn.wal.co
+||cf-us-dyn.wal.co
+||zy-us-dyn.wal.co
+
+
+walmartimages.com$script
+docs.google.com$font,xhr
+
+! Block Notifications
+*##+js(abort-on-property-read.js, Notification.requestPermission)
+docs.google.com##.jfk-butterBar-shown.jfk-butterBar-info.jfk-butterBar
