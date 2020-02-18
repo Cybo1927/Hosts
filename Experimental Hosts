@@ -7,6 +7,10 @@
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
 @@||s.w-x.co
+@@||eff.map.fastly.net
+@@||snaptu-z.facebook.com
+@@||cognac-prod.appspot.com
+@@||cds.j3z9t3p6.hwcdn.net
 
 0.0.0.0 consent.snmmd.nl
 0.0.0.0 tracking.unrealengine.com
@@ -76,6 +80,53 @@
 0.0.0.0 graph.microsoft.com
 0.0.0.0 perr.hola.org
 0.0.0.0 ads.korri.fr
+0.0.0.0 tapdaq.com
+0.0.0.0 trackers.voodoo-analytics.io
+0.0.0.0 voodoo-analytics.io
+0.0.0.0 advgoogle.com
+0.0.0.0 tracking.porndoelabs.com
+0.0.0.0 tracking.pornhd.com
+0.0.0.0 st.linkfire.com
+0.0.0.0 crptgate.com
+0.0.0.0 cradver.*
+0.0.0.0 s.opoxv.com
+0.0.0.0 opoxv.com
+0.0.0.0 glishais.net
+0.0.0.0 gromairt.net
+0.0.0.0 pushrase.com
+0.0.0.0 adnxtr.com
+0.0.0.0 adrunnr.com
+0.0.0.0 adserver.com
+0.0.0.0 adserversolutions.com
+0.0.0.0 adservme.com
+0.0.0.0 adservme.co
+0.0.0.0 adthor.com
+0.0.0.0 stc.adtima.vn
+0.0.0.0 adtima.vn
+0.0.0.0 adventori.com
+0.0.0.0 fractionalmedia.com
+0.0.0.0 d36aw3ue2ntmsq.cloudfront.net
+0.0.0.0 static.adzerk.com
+0.0.0.0 adzerk.com
+0.0.0.0 promote.thinkyeah.com
+0.0.0.0 e-9741.adzerk.net
+0.0.0.0 ev.surveywall-api.survata.com
+0.0.0.0 fltag.findlawresources.com
+0.0.0.0 geoip.youversionapi.com
+0.0.0.0 app.bugfender.com
+0.0.0.0 bugfender.com
+0.0.0.0 alogus.umeng.com
+0.0.0.0 alogsus.umeng.com
+0.0.0.0 alogsus.umeng.com.gds.alibabadns.com
+0.0.0.0 townsquare.media
+0.0.0.0 img1.zergnet.com
+0.0.0.0 parse.townsquaremedia.com
+0.0.0.0 i.clean.gg
+0.0.0.0 clean.gg
+0.0.0.0 pa.rxthdr.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 lightstep-collector.api.ua.com
+0.0.0.0 mobile-data.s3.brave.com
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -143,3 +194,12 @@ open.spotify.com##._759904f944cb2420680734ecad0043ed-scss
 open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > .f8173b6c9c83185b5ba509aefd178eb8-scss
 ||vimeocdn.com/*/player-stats
 ||vimeocdn.com/p/*/js/*/sentry.js
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+||xnxx.com/html5player/jsdebug/
+||ignition.fun/statusKKKK.txt
+||app.ignition.fun/js/device.class.js
+app.ignition.fun##.backdrop-in.dialog-backdrop
+app.ignition.fun##.modal-in.dialog-buttons-vertical.dialog-buttons-2.dialog
+
+! AdGuard For Android
+||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
