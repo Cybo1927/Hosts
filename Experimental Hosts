@@ -11,6 +11,7 @@
 @@||snaptu-z.facebook.com
 @@||cognac-prod.appspot.com
 @@||cds.j3z9t3p6.hwcdn.net
+@@||cdn.tm.shopifysvc.com
 
 0.0.0.0 consent.snmmd.nl
 0.0.0.0 tracking.unrealengine.com
@@ -127,6 +128,14 @@
 0.0.0.0 adc3-launch.adcolony.com
 0.0.0.0 lightstep-collector.api.ua.com
 0.0.0.0 mobile-data.s3.brave.com
+0.0.0.0 widget.criteo.com
+0.0.0.0 rxthdr.com
+0.0.0.0 match-visualsearch.amazon.com
+0.0.0.0 consent.api.ua.com
+0.0.0.0 chelpus.com
+0.0.0.0 audio-akp-bbr-spotify-com.akamaized.net
+0.0.0.0 exp.wg.spotify.com
+0.0.0.0 alps.youversionapi.com
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -147,6 +156,7 @@
 */ad-third-party/
 */newrelic-gpt.
 */wp-live-chat-support/
+*/get_ad_config/
 ?beacon=
 
 www.kekmama.nl###sanoma-consent-bar-mobile
@@ -200,6 +210,13 @@ www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 ||app.ignition.fun/js/device.class.js
 app.ignition.fun##.backdrop-in.dialog-backdrop
 app.ignition.fun##.modal-in.dialog-buttons-vertical.dialog-buttons-2.dialog
+||auxbrain.com/*/get_ad_config
+||auxbrain.com/*/first_contact
+||config.samqaicongen.com/CustomLoggerPolicy.json
 
 ! AdGuard For Android
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
+||*.firebaseio.com$app=com.fourchars.privary
+||appx.transient.amazon.com$app=com.android.mShop.android.shopping
+198.211.120.59$network,app=com.nutomic.syncthingandroid
+47.104.24.111$network
