@@ -136,6 +136,11 @@
 0.0.0.0 audio-akp-bbr-spotify-com.akamaized.net
 0.0.0.0 exp.wg.spotify.com
 0.0.0.0 alps.youversionapi.com
+0.0.0.0 portal.tinychill.com
+0.0.0.0 install.tinychill.com
+0.0.0.0 tinychill.com
+0.0.0.0 targeting.perso.aws.arc.pub
+0.0.0.0 arc.pub
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -213,6 +218,15 @@ app.ignition.fun##.modal-in.dialog-buttons-vertical.dialog-buttons-2.dialog
 ||auxbrain.com/*/get_ad_config
 ||auxbrain.com/*/first_contact
 ||config.samqaicongen.com/CustomLoggerPolicy.json
+pixlr.com##[href^="https://pixlr.com/dropbox/redemption"]
+www.express.co.uk##div.clear.two-related-articles.box
+www.express.co.uk###componentDiv
+www.express.co.uk##div.trevda.type2.rh-element
+www.usatoday.com##.gnt_em_cp.gnt_em
+www.mlive.com###below-toprail
+www.mlive.com##.rightRail-top-wrapper
+www.mlive.com###sidebar
+www.mlive.com##.ad
 
 ! AdGuard For Android
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
