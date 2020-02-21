@@ -141,6 +141,15 @@
 0.0.0.0 tinychill.com
 0.0.0.0 targeting.perso.aws.arc.pub
 0.0.0.0 arc.pub
+0.0.0.0 goodskins.space
+0.0.0.0 gigya.com
+0.0.0.0 gigya-ext.com
+0.0.0.0 ekoma.io
+0.0.0.0 app.ekoma.io
+0.0.0.0 api.hubapi.com
+0.0.0.0 hubapi.com
+0.0.0.0 cdn.seguno.com
+0.0.0.0 seguno.com
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -162,6 +171,8 @@
 */newrelic-gpt.
 */wp-live-chat-support/
 */get_ad_config/
+*/api/tracking/
+*/api/*/performance/
 ?beacon=
 
 www.kekmama.nl###sanoma-consent-bar-mobile
@@ -227,6 +238,17 @@ www.mlive.com###below-toprail
 www.mlive.com##.rightRail-top-wrapper
 www.mlive.com###sidebar
 www.mlive.com##.ad
+www.maximintegrated.com###Cookieconsent
+mediabiasfactcheck.com##.iiLbodDHtMbG-bg
+mediabiasfactcheck.com##.iiLbodDHtMbG-default
+news.energysage.com###pum-4196
+news.energysage.com##.l-form-help.l-zip-responsive.l-box
+news.energysage.com###hubspot_emailsubscribe_widget-3
+www.orangutan.org.uk##.sqs-cookie-banner-v2
+||orangutan.org.uk/api/popup-overlay/render?currentUrl=
+||squarespace.com/universal/*/performance*
+||grammarly.com/api/tracking/
+||maximintegrated.com/bin/getCountryHeaderCode
 
 ! AdGuard For Android
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
