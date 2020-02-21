@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 33
+! Version: 34
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 55K (Give Or Take A Few Thousand)
-! Last Modified: Thursday, December 26, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 60K (Give Or Take A Few Thousand)
+! Last Modified: Friday, February 21, 2020
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -69,6 +69,13 @@ startpage|
 ixquick.com|
 ! IP
 216.218.239.62$network
+
+! https://www.youtube.com/watch?v=FWxp7-9yn88
+! Waterfox was bought by the same targeted advertising company as StartPage
+! Their websites also seem to identify users through browser fingerprinting techniques
+||waterfox.onrender.com^$all
+||waterfox.net^$all
+waterfox.net|
 
 ! Nothing Is Free / Too Good To Be True / Probably Data Mines
 ! "Honey" (https://www.joinhoney.com/privacy) They don't seem to collect data by default/without permission
