@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 28
+! Version: 29
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -608,6 +608,15 @@ pandora.com$generichide
 ##.btn-social
 ##.float-share-li
 ##.icon-share
+##.sqs-svg-icon--social
+##.social-icons-style-regular
+##.social-icons-size-extra-large
+##.social-icons-color-black
+##.social-icon-alignment-center
+##.socialtext
+##.social
+##.shopify-social-icon-instagram
+##.social-media-tiv
 ##[href^="mailto:"]
 -facebook
 -fb
