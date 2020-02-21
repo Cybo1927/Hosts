@@ -150,6 +150,7 @@
 0.0.0.0 hubapi.com
 0.0.0.0 cdn.seguno.com
 0.0.0.0 seguno.com
+0.0.0.0 stats.waterfox.net
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -249,6 +250,9 @@ www.orangutan.org.uk##.sqs-cookie-banner-v2
 ||squarespace.com/universal/*/performance*
 ||grammarly.com/api/tracking/
 ||maximintegrated.com/bin/getCountryHeaderCode
+||youtube.com/youtubei/*/log_event?
+||eyeo.com/wp-content/*/jquery.mousewheel.min.js
+www.comodoca.com###sleeknote-cover
 
 ! AdGuard For Android
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
