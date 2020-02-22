@@ -456,7 +456,7 @@
 0.0.0.0 sanalytics.verizon.com
 0.0.0.0 mvmobile.verizonwireless.com
 0.0.0.0 cdnstabletransit.com
-0.0.0.0 verizonconnect.*
+0.0.0.0 verizonconnect.
 0.0.0.0 sdk.out.usbla.net
 0.0.0.0 ars-dynatrace.allstate.com
 0.0.0.0 *-dynatrace.allstate.com
@@ -486,6 +486,8 @@
 0.0.0.0 ss71.vzw.com
 0.0.0.0 ss72.vzw.com
 0.0.0.0 ss73.vzw.com
+0.0.0.0 anscorporate.com
+0.0.0.0 anscorpstaging.wpengine.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
@@ -515,10 +517,12 @@ broadcloudpbx.net|
 verizononthego.com|
 verizonsocialadvocacy.com|
 cdnstabletransit.com|
-verizonconnect.*|
+verizonconnect.|
 polargrizzly.com|
 track-n-trace.net|
 vznavigator.net|
+anscorporate.com|
+anscorpstaging.wpengine.com|
 ! AdGuard For Android
 69.78.235.114$network
 151.101.186.110$network
@@ -529,6 +533,8 @@ vznavigator.net|
 54.236.3.168$network
 [2001:428:1404:2::2:11]$network
 [2001:4860:4806:8::]$network
+! https://who.is/whois-ip/ip-address/152.195.53.200
+152.195.53.200$network
 ! App Specific
 code.jquery.com$app=com.dcgov.verizon
 code.jquery.com$app=com.capresults.verizon
