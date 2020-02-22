@@ -13,8 +13,8 @@
 0.0.0.0 mapway.com
 0.0.0.0 ud-prd.geohawk.co.uk
 0.0.0.0 geohawk.co.uk
-0.0.0.0 openstreetmap.*
-0.0.0.0 openweathermap.*
+0.0.0.0 openstreetmap.
+0.0.0.0 openweathermap.
 0.0.0.0 maps.randmcnally.com
 0.0.0.0 viamichelin.com
 0.0.0.0 wikimapia.org
@@ -78,8 +78,8 @@
 0.0.0.0 sas.com
 0.0.0.0 pivvot.com
 0.0.0.0 db-ip.com
-0.0.0.0 api-maps.yandex.*
-0.0.0.0 maps.yandex.*
+0.0.0.0 api-maps.yandex.
+0.0.0.0 maps.yandex.
 0.0.0.0 bestmaps.ru
 0.0.0.0 2gis.ua
 0.0.0.0 map.meta.ua
@@ -121,7 +121,7 @@
 0.0.0.0 login.platform.telogis.com
 0.0.0.0 geo-pro.beatport.com
 0.0.0.0 geoip.youversionapi.com
-0.0.0.0 geoip.*
+0.0.0.0 geoip.
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -172,8 +172,8 @@ maps.yahoo.com|
 mapway.com|
 ud-prd.geohawk.co.uk|
 geohawk.co.uk|
-openstreetmap.*|
-openweathermap.*|
+openstreetmap.|
+openweathermap.|
 maps.randmcnally.com|
 viamichelin.com|
 wikimapia.org|
@@ -233,8 +233,8 @@ pitneybowes.com|
 sas.com|
 pivvot.com|
 db-ip.com|
-api-maps.yandex.*|
-maps.yandex.*|
+api-maps.yandex.|
+maps.yandex.|
 bestmaps.ru|
 2gis.ua|
 map.meta.ua|
