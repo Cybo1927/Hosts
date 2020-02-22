@@ -4494,8 +4494,8 @@
 
 ! uBlock Origin/AdGuard products
 ! Google
-0.0.0.0 google.*^$all
-0.0.0.0 googleapis.*^$all
+0.0.0.0 google.^$all
+0.0.0.0 googleapis.^$all
 0.0.0.0 googlevideo.com^$all
 0.0.0.0 googleusercontent.com^$all
 0.0.0.0 *.goog^$all
@@ -4584,8 +4584,8 @@
 ! Extra AdGuard Specific
 
 ! Google
-google.*|
-googleapis.*|
+google.|
+googleapis.|
 googlevideo.com|
 googleusercontent.com|
 *.goog|
@@ -4677,6 +4677,7 @@ android.com|
 34.83.64.96$network
 172.217.8.193$network
 216.58.192.202$network
+172.217.168.206$network
 ! Found In Snapchat On Android - https://who.is/whois-ip/ip-address/216.239.36.126
 216.239.36.126$network
 ! https://who.is/whois-ip/ip-address/172.217.9.74
