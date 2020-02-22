@@ -1,12 +1,14 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1192
-! Last Modified: Sunday, February 9, 2020
+! Version: 1193
+! Last Modified: Saturday, February 22, 2020
 
 ! This List Is Better Than The Other Hosts For DNS Sinkholes And Slow Computers
-! (If Used With An Adblocker)
+! (If Used With An Ad/content blocker)
 
 ! Unbreak
+@@||*/showads.js$domain=softgames.de|softgames.com
+@@||*/advertisement.js$domain=softgames.de|softgames.com
 www.cnn.com#@#[class*="gdpr"]
 docs.google.com,mail.google.com,hangouts.google.com#@#+js(nobab)
 @@||translate.googleapis.com/translate_a/
@@ -90,6 +92,7 @@ pandora.com$genericblock
 ! dailydot.com/debug/hola-vpn-security
 ! torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
 0.0.0.0 hola.org
+0.0.0.0 perr.hola.org
 0.0.0.0 holaspark.com
 0.0.0.0 client.hola.org
 0.0.0.0 client-cdn1.hola.org
@@ -942,6 +945,47 @@ pandora.com$genericblock
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adnxtr.com
+0.0.0.0 adrunnr.com
+0.0.0.0 adserver.com
+0.0.0.0 adserversolutions.com
+0.0.0.0 adservme.com
+0.0.0.0 adservme.co
+0.0.0.0 adthor.com
+0.0.0.0 adtima.vn
+0.0.0.0 adventori.com
+0.0.0.0 adzerk.com
+0.0.0.0 app.bugfender.com
+0.0.0.0 arc.pub
+0.0.0.0 app.ekoma.io
+0.0.0.0 api.hubapi.com
+0.0.0.0 audio-akp-bbr-spotify-com.akamaized.net
+0.0.0.0 alps.youversionapi.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 alogus.umeng.com
+0.0.0.0 alogsus.umeng.com
+0.0.0.0 alogsus.umeng.com.gds.alibabadns.com
+0.0.0.0 admo.net
+0.0.0.0 analytics.webdunia.com
+0.0.0.0 adbox.lk
+0.0.0.0 adlink.lk
+0.0.0.0 ads.korri.fr
+0.0.0.0 advgoogle.com
+0.0.0.0 adserver.admost.com
+0.0.0.0 admost.com
+0.0.0.0 ads.vaguthu.mv
+0.0.0.0 admp-tc-bauer.adtlgc.com
+0.0.0.0 app.readpeak.com
+0.0.0.0 api.survata.net
+0.0.0.0 ads.xyz.ng
+0.0.0.0 analytics-tracker.*
+0.0.0.0 ablogica.com
+0.0.0.0 ads-*-nfl.yinzcam.com
+0.0.0.0 ads-resources.waze.com
+0.0.0.0 ads-trk.vidible.tv
+0.0.0.0 ads.internal.unity3d.com
+0.0.0.0 analytics.bsgwireless.com
+0.0.0.0 ads-nyj-nfl.yinzcam.com
 0.0.0.0 ams-ads-cornerstone-pda-creatives.s3.amazonaws.com
 0.0.0.0 analytics.distributednews.com
 0.0.0.0 awstrack.me
@@ -4024,6 +4068,7 @@ pandora.com$genericblock
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bugfender.com
 0.0.0.0 bl-1.com
 0.0.0.0 bixel.io
 0.0.0.0 bb.bixel.io
@@ -5009,6 +5054,14 @@ pandora.com$genericblock
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 crptgate.com
+0.0.0.0 cradver.*
+0.0.0.0 clean.gg
+0.0.0.0 consent.api.ua.com
+0.0.0.0 chelpus.com
+0.0.0.0 cdn.seguno.com
+0.0.0.0 consent.snmmd.nl
+0.0.0.0 clk.cpi.leapmobs.com
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.*.youdao.com
@@ -5325,7 +5378,6 @@ pandora.com$genericblock
 0.0.0.0 cnevids.com
 0.0.0.0 crownpeak.net
 0.0.0.0 cdn.native.ai
-0.0.0.0 cdn.tm.shopifysvc.com
 0.0.0.0 cdn.gubagoo.io
 0.0.0.0 connect.podium.com
 0.0.0.0 cdn.cookielaw.org
@@ -5343,7 +5395,6 @@ pandora.com$genericblock
 0.0.0.0 crl.comodoca4.com
 0.0.0.0 crl.sca1b.amazontrust.com
 0.0.0.0 checkappexec.microsoft.com
-0.0.0.0 clientconfig.akamai.steamstatic.com
 0.0.0.0 client.wns.windows.com
 0.0.0.0 cdn-magiclinks.trackonomics.net
 0.0.0.0 cse.avlyun.com
@@ -5380,8 +5431,6 @@ pandora.com$genericblock
 0.0.0.0 circularhub.com
 0.0.0.0 cpagrip.com
 0.0.0.0 contentlockingnetworks.com
-0.0.0.0 cds.*.hwcdn.net
-0.0.0.0 cds.j3z9t3p6.hwcdn.net
 0.0.0.0 credomobile.com
 0.0.0.0 cdn.feedbackify.com
 0.0.0.0 cstream.wi-fi.ru
@@ -5419,7 +5468,6 @@ pandora.com$genericblock
 0.0.0.0 csstatic.com
 0.0.0.0 c.happyfoxchat.com
 0.0.0.0 cdn.brandmetrics.com
-0.0.0.0 cognac-prod.appspot.com
 0.0.0.0 clixsense.com
 0.0.0.0 copynpastecash.com
 0.0.0.0 cryptopros.biz
@@ -6216,6 +6264,8 @@ pandora.com$genericblock
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dntrx.com
+0.0.0.0 d36aw3ue2ntmsq.cloudfront.net
 0.0.0.0 didtheyreadit.com
 0.0.0.0 dmtracking1.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
@@ -6994,6 +7044,10 @@ pandora.com$genericblock
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 e-9741.adzerk.net
+0.0.0.0 ev.surveywall-api.survata.com
+0.0.0.0 exp.wg.spotify.com
+0.0.0.0 ekoma.io
 0.0.0.0 email.rocketbolt.com
 0.0.0.0 email81.com
 0.0.0.0 email.paytm.com
@@ -7462,6 +7516,8 @@ pandora.com$genericblock
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fractionalmedia.com
+0.0.0.0 fltag.findlawresources.com
 0.0.0.0 friends2follow.com
 0.0.0.0 ftrans03.com
 0.0.0.0 fullcontact.com
@@ -7785,6 +7841,16 @@ pandora.com$genericblock
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gerlinger.org
+0.0.0.0 graph.microsoft.com
+0.0.0.0 gscounters.eu1.gigya.com
+0.0.0.0 genesis.malwarebytes.com
+0.0.0.0 glishais.net
+0.0.0.0 gromairt.net
+0.0.0.0 geoip.youversionapi.com
+0.0.0.0 goodskins.space
+0.0.0.0 gigya.com
+0.0.0.0 gigya-ext.com
 0.0.0.0 getnotify.com
 0.0.0.0 getbase.com
 0.0.0.0 genesisaffiliates.com
@@ -7835,7 +7901,6 @@ pandora.com$genericblock
 0.0.0.0 gjapplog.ucweb.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googletagservices.com
-0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 ghtenbritingso.com
 0.0.0.0 goguardian.*
 0.0.0.0 gse.io
@@ -7906,7 +7971,6 @@ pandora.com$genericblock
 0.0.0.0 gahu.hit.gemius.pl
 0.0.0.0 gourmetads.com
 0.0.0.0 googleapis.l.google.com
-0.0.0.0 github-cloud.s3.amazonaws.com
 0.0.0.0 gsacollections-pa.googleapis.com
 0.0.0.0 g100na.update.netease.com
 0.0.0.0 g100na.gph.netease.com
@@ -8105,7 +8169,6 @@ pandora.com$genericblock
 0.0.0.0 gate.hockeyapp.net
 0.0.0.0 gfwsl.geforce.com
 0.0.0.0 go.instart.com
-0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 go.ad1data.com
 0.0.0.0 go-mpulse.net
 0.0.0.0 get.fabric.io
@@ -8230,6 +8293,7 @@ pandora.com$genericblock
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hubapi.com
 0.0.0.0 hubspotemail.net
 0.0.0.0 hdfcbank.net
 0.0.0.0 history-world.org
@@ -8482,6 +8546,10 @@ pandora.com$genericblock
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 icons8-analytics.herokuapp.com
+0.0.0.0 img1.zergnet.com
+0.0.0.0 i.clean.gg
+0.0.0.0 install.tinychill.com
 0.0.0.0 insgly.net
 0.0.0.0 insightly.com
 0.0.0.0 ind.dell.com
@@ -9235,6 +9303,7 @@ pandora.com$genericblock
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jload01.info
 0.0.0.0 jumpshot.com
 0.0.0.0 jan-sampark.nic.in
 0.0.0.0 jurqfivc.ml
@@ -9357,6 +9426,7 @@ pandora.com$genericblock
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 katie.dntrx.com
 0.0.0.0 kodand.wildapricot.org
 0.0.0.0 kbmg.com
 0.0.0.0 kupona.de
@@ -10175,6 +10245,10 @@ pandora.com$genericblock
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 logger.c1oudmobi.net
+0.0.0.0 leapmobs.com
+0.0.0.0 linkopp.net
+0.0.0.0 lightstep-collector.api.ua.com
 0.0.0.0 livehive.com
 0.0.0.0 luckyads.tech
 0.0.0.0 lp.powerapp.download
@@ -10491,6 +10565,13 @@ pandora.com$genericblock
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 meedoen.kekmama.nl
+0.0.0.0 mxapis.com
+0.0.0.0 media-api.recosenselabs.com
+0.0.0.0 maxthon.cn
+0.0.0.0 mobile.admost.com
+0.0.0.0 mobile-data.s3.brave.com
+0.0.0.0 match-visualsearch.amazon.com
 0.0.0.0 mailstat.us
 0.0.0.0 market.clio.com
 0.0.0.0 miq-p4-qa-em.unicaondemand.com
@@ -11496,6 +11577,8 @@ pandora.com$genericblock
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onlineuserscounter.com
+0.0.0.0 opoxv.com
 0.0.0.0 open.demonii.com
 0.0.0.0 opentor.org
 0.0.0.0 opentrackr.org
@@ -11734,6 +11817,16 @@ pandora.com$genericblock
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pa.rxthdr.com
+0.0.0.0 portal.tinychill.com
+0.0.0.0 parse.townsquaremedia.com
+0.0.0.0 picanalysis.vivo.com.cn
+0.0.0.0 pushrase.com
+0.0.0.0 promote.thinkyeah.com
+0.0.0.0 pixel.marsble.com
+0.0.0.0 pumpkin.abine.com
+0.0.0.0 propellerad.*
+0.0.0.0 push.mxapis.com
 0.0.0.0 p.purple6401.com
 0.0.0.0 purple6401.com
 0.0.0.0 purplestats.com
@@ -12488,6 +12581,10 @@ pandora.com$genericblock
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 recosenselabs.com
+0.0.0.0 readpeak.com
+0.0.0.0 rlog_sem.vizio.com
+0.0.0.0 rxthdr.com
 0.0.0.0 replymsg.com
 0.0.0.0 rio.mailcoral.com
 0.0.0.0 rs6.net
@@ -12858,6 +12955,18 @@ pandora.com$genericblock
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 survata.net
+0.0.0.0 static.truex.com
+0.0.0.0 safeurl.maxthon.cn
+0.0.0.0 static.ultra-rv.com
+0.0.0.0 sgc.io
+0.0.0.0 stats.t-online.de
+0.0.0.0 static.adzerk.com
+0.0.0.0 seguno.com
+0.0.0.0 stats.waterfox.net
+0.0.0.0 s.opoxv.com
+0.0.0.0 stc.adtima.vn
+0.0.0.0 st.linkfire.com
 0.0.0.0 sendgrid.com
 0.0.0.0 stat-pulse.com
 0.0.0.0 sendpulse.email
@@ -12992,7 +13101,6 @@ pandora.com$genericblock
 0.0.0.0 seeawhale.com
 0.0.0.0 sexad.com$popup
 0.0.0.0 shalltry.com
-0.0.0.0 snaptu-z.facebook.com
 0.0.0.0 sniff.visistat.com
 0.0.0.0 stats-new.smugmug.com
 0.0.0.0 subscribers.click
@@ -13101,7 +13209,6 @@ pandora.com$genericblock
 0.0.0.0 stats.ibtimes.co.uk
 0.0.0.0 spoor-api.ft.com
 0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
-0.0.0.0 s.w-x.co
 0.0.0.0 sdk.iad-01.braze.com
 0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net
 0.0.0.0 st-n.pc3ads.com
@@ -14288,6 +14395,20 @@ pandora.com$genericblock
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 triggers.wfxtriggers.com
+0.0.0.0 tcx-live-chat.appspot.com
+0.0.0.0 trk.ablogica.com
+0.0.0.0 truex.com
+0.0.0.0 tkup.uparpu.com
+0.0.0.0 t.sgc.io
+0.0.0.0 tracking.unrealengine.com
+0.0.0.0 tapdaq.com
+0.0.0.0 trackers.voodoo-analytics.io
+0.0.0.0 tracking.porndoelabs.com
+0.0.0.0 tracking.pornhd.com
+0.0.0.0 townsquare.media
+0.0.0.0 tinychill.com
+0.0.0.0 targeting.perso.aws.arc.pub
 0.0.0.0 trellomail.com
 0.0.0.0 t.info.adobesystems.com
 0.0.0.0 tracking.vcommission.com
@@ -15021,6 +15142,10 @@ pandora.com$genericblock
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ultra-rv.com
+0.0.0.0 uparpu.com
+0.0.0.0 urlsec.qq.com
+0.0.0.0 uxcam.com
 0.0.0.0 unicaondemand.com
 0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 uc.jh1230.com
@@ -15201,6 +15326,7 @@ pandora.com$genericblock
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 voodoo-analytics.io
 0.0.0.0 vgorzfcz.tk
 0.0.0.0 vmiua.com
 0.0.0.0 vas.samsungapps.com
@@ -15413,6 +15539,8 @@ pandora.com$genericblock
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wfxtriggers.com
+0.0.0.0 widget.criteo.com
 0.0.0.0 webwerks.learnvibes.net
 0.0.0.0 weblogger-dynamic-lb.playdom.com
 0.0.0.0 wrison-subustall.com
@@ -16295,6 +16423,9 @@ pandora.com$genericblock
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 5rocks.io
+0.0.0.0 99counters.com
+0.0.0.0 45.79.223.161
 0.0.0.0 411.appriver.com
 0.0.0.0 46.148.18.250
 0.0.0.0 9.rarbg.me
