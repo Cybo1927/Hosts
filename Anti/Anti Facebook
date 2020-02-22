@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 4
+! Version: 5
 
 ! DNS Sinkholes
 0.0.0.0 facebook.com
@@ -56,20 +56,20 @@
 0.0.0.0 scontent-*.fbcdn.net
 0.0.0.0 star-mini.*.facebook.com
 0.0.0.0 b-*.facebook.com
-0.0.0.0 fbcdn-photos-*.*
+0.0.0.0 fbcdn-photos-*.
 0.0.0.0 fbcdn-sphotos-*.
-0.0.0.0 fbcdn-profile-*.*
-0.0.0.0 fbexternal-*.*
-0.0.0.0 facebook.*
+0.0.0.0 fbcdn-profile-*.
+0.0.0.0 fbexternal-*.
+0.0.0.0 facebook.
 0.0.0.0 *.instagram.com
 0.0.0.0 *.whatsapp.net
 
 ?*facebook*
-?*.facebook.*
+?*.facebook.
 
 ! Extra AdGuard Specific
-facebook.*|
-www.facebook.*|
+facebook.|
+www.facebook.|
 graph.facebook.com|
 star-mini.*.facebook.com|
 fbcdn.net|
@@ -98,8 +98,8 @@ fbstatic-*.akamaihd.net|
 internet.org|
 freebasics.com|
 ! AdGuard For Android
-facebook.*$network
-www.facebook.*$network
+facebook.$network
+www.facebook.$network
 graph.facebook.com$network
 star-mini.*.facebook.com$network
 fbcdn.net$network
