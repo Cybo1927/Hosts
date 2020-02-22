@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Microsoft
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
 ! Block Microsoft and their services
 
@@ -48,27 +48,6 @@
 0.0.0.0 *minecraft.net*
 0.0.0.0 *appcenter.ms*
 0.0.0.0 *playfabapi.com*
-
-! Block any domains that include (AdGuard)
-microsoft.com|
-s-microsoft.com|
-onenote.net|
-msedge.net|
-*-msedge.net|
-live.com|
-live.net|
-outlook.com|
-skype.com|
-msn.com|
-windowsupdate.com|
-msecnd.net|
-office365.com|
-mceserv.net|
-playfab.com|
-azurefd.net|
-minecraft.net|
-appcenter.ms|
-playfabapi.com|
 
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1809-endpoints
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1803-endpoints
@@ -178,7 +157,7 @@ playfabapi.com|
 0.0.0.0 *auth.gfx.ms*
 0.0.0.0 *evoke-windowsservices-tas.msedge*
 0.0.0.0 *fe2.update.microsoft.com*
-0.0.0.0 *fe3.*.mp.microsoft.com.*
+0.0.0.0 *fe3.*.mp.microsoft.com.
 0.0.0.0 *fs.microsoft.com*
 0.0.0.0 *g.live.com*
 0.0.0.0 *iriscoremetadataprod.blob.core.windows.net*
@@ -199,7 +178,7 @@ playfabapi.com|
 0.0.0.0 *tile-service.weather.microsoft.com*
 0.0.0.0 *tsfe.trafficshaping.dsp.mp.microsoft.com*
 0.0.0.0 *v10.events.data.microsoft.com*
-0.0.0.0 *wdcp.microsoft.*
+0.0.0.0 *wdcp.microsoft.
 0.0.0.0 *wd-prod-cp-us-west-1-fe.westus.cloudapp.azure.com*
 0.0.0.0 *bing.com*
 0.0.0.0 *.e-msedge.net*
@@ -223,3 +202,27 @@ playfabapi.com|
 0.0.0.0 *tile-service.weather.microsoft.com*
 0.0.0.0 *tsfe.trafficshaping.dsp.mp.microsoft.com*
 0.0.0.0 *vip5.afdorigin-prod-am02.afdogw.com*
+!
+
+! AdGuard Specific
+microsoft.com|
+s-microsoft.com|
+onenote.net|
+msedge.net|
+*-msedge.net|
+live.com|
+live.net|
+outlook.com|
+skype.com|
+msn.com|
+windowsupdate.com|
+msecnd.net|
+office365.com|
+mceserv.net|
+playfab.com|
+azurefd.net|
+minecraft.net|
+appcenter.ms|
+playfabapi.com|
+! https://who.is/whois-ip/ip-address/13.89.240.193
+13.89.240.193$network
