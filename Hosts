@@ -1,22 +1,13 @@
-! Title: Cybo's Hosts
+! Title: Cybo's Hosts - Rewrite
 ! Expires: 8 hours
-! Version: 1193
-! Version hyphen (-) Means Small Update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.6K
-! Last Modified: Saturday, February 22, 2020
 
 ! Unbreak
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
 www.cnn.com#@#[class*="gdpr"]
-docs.google.com,mail.google.com,hangouts.google.com#@#+js(nobab)
 @@||translate.googleapis.com/translate_a/
-edhesive.com#@#+js(nobab)
 @@||192.168.*.*$important
-speedtest.net#@#^script:has-text(googletag)
-speedtest.net#@#^script:has-text(gpt-ad)
 @@||haberler.com$image
-pearsonrealize.com#@#+js(nobab)
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
@@ -26,9 +17,6 @@ pearsonrealize.com#@#+js(nobab)
 @@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com/assessment?
 @@||pandora.com/web-version/*/ads.json?
-pandora.com#@#^script:has-text(ideoAds)
-pandora.com#@#^script:has-text(udioAds)
-pandora.com#@#^script:has-text(AdBlock)
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 @@$generichide,domain=reddit.com
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
@@ -87,41 +75,7 @@ pandora.com$genericblock
 ! CAN BREAK TIKTOK LOGIN
 ||log2.musical.ly$badfilter
 
-! Don't Add Because Of Breakage
-! gdmf.apple.com (iOS updates)
-! gdmf.apple.com.akadns.net (iOS updates)
-! gs.apple.com (iOS updates)
-! e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
-! play.itunes.apple.com (Breaks Apple App store on iOS)
-! p43-buy.itunes.apple.com (Breaks app updates)
-! a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
-! android.clients.google.com (Breaks some things on mobile)
-! akamaihd.net (Breaks some sites)
-! connectivitycheck.gstatic.com (Breaks Google Play downloads-Makes them think you have no wifi/data connection)
-! clients2.googleusercontent.com (Breaks extensions downloads for Chrome based browsers)
-! lh3.google.com (Breaks some websites)
-! lh3.googleusercontent.com (Breaks some websites)
-! pushwoosh.com (Blocks many notifications)
-! spclient.wg.spotify.com (Breaks Spotify)
-! ir.ebaystatic.com (Possible analytics but blocking causes breakage on ebay.com)
-! ctldl.windowsupdate.com (Windows Update)
-! settings-win.data.microsoft.com (Windows Update)
-! tr.rbxcdn.com (Breaks Roblox Profile Pictures)
-! presence.roblox.com (Breaks Roblox Friends and Chat)
-! rover.ebay.com (Breaks External Linking)
-! graph.facebook.com (Appears To Break The Facebook App)
-! gvt1.com (Breaks Google Play Store Downloads)
-! btms.samsungsemi.com (Breaks Samsung Magician)
-! ota.googlezip.net (Breaks Android Updates)
-! geo-pro.beatport.com (Breaks https://www.beatport.com/)
-! gstaticadssl.l.google.com (Breaks Google Fonts - Doesn't appear to actually be related to any Ads)
-! e13678.dspb.akamaiedge.net (Breaks microsoft.com)
-
 ! RegEX Stuffs
-! Block insecure (HTTP) popups
-! /^http:/$popup,domain=~pearsonrealize.com|~pearsoncmg.com - Removed because it breaks way too many things
-! Block insecure (HTTP) popunders on supported adblockers
-! /^http:/$popunder - Removed because it breaks way too many things
 ! Block Insecure Third-Party IP Addresses
 /^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
 ! Screen resolution tracker
@@ -200,141 +154,10 @@ theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll
 pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
-! Conveniences
-! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
-*##+js(nofab.js)
-*##+js(nobab.js)
-*##+js(abort-on-property-read, userABMessage)
-*##+js(abort-on-property-read, app_vars.force_disable_adblock)
-*##+js(abort-on-property-read, AaDetector)
-*##+js(abort-on-property-read.js, KBB.DetectBlockerExtensions)
-*##+js(abort-on-property-read.js, jQuery.adblock)
-*##+js(abort-on-property-read.js, ab_detection)
-*##+js(abort-on-property-read.js, AntiAd.check)
-*##+js(abort-on-property-read.js, adblock)
-*##+js(abort-on-property-write, isAdblockOn)
-*##+js(abort-on-property-write, adBlockDetected)
-*##+js(abort-on-property-write.js, AdBlockDetectorWorkaround)
-*##+js(abort-on-property-write.js, showAdBlockerOverlay)
-*##+js(abort-on-property-write.js, KillAdBlock)
-*##+js(abort-on-property-write.js, IS_ADBLOCK)
-*##+js(abort-current-inline-script, jQuery, adblock)
-*##+js(abort-current-inline-script.js, adblockinfo)
-*##+js(abort-current-inline-script.js, ad-blocker)
-*##+js(abort-current-inline-script, adsBlocked)
-*##+js(setTimeout-defuser.js, displayAdBlockedVideo)
-*##^script:has-text(userABMessage)
-*##^script:has-text(app_vars.force_disable_adblock)
-*##^script:has-text(AaDetector)
-*##^script:has-text(KBB.DetectBlockerExtensions)
-*##^script:has-text(jQuery.adblock)
-*##^script:has-text(ab_detection)
-*##^script:has-text(AntiAd.check)
-*##^script:has-text(adblock)
-*##^script:has-text(isAdblockOn)
-*##^script:has-text(adBlockDetected)
-*##^script:has-text(AdBlockDetectorWorkaround)
-*##^script:has-text(showAdBlockerOverlay)
-*##^script:has-text(KillAdBlock)
-*##^script:has-text(IS_ADBLOCK)
-*##^script:has-text(adblockinfo)
-*##^script:has-text(ad-blocker)
-*##^script:has-text(adsBlocked)
-*##+js(set, adblock, false)
-*##+js(set, ads, true)
-*##img[onload="AntiAd.check(this)"]
-! Extra for AdGuard AdBlocker Browser Extension
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#//scriptlet("prevent-bab")
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#//scriptlet("prevent-fab-3.2.0")
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockDetected = false;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.check_adblock = true;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock_check = true;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ads_unblocked = true;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockTest = true;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.hasAdblock = false;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblocker = false;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlock = false;
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock = 'no';
-com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
-#%#window.blockAdBlock = function() {};
-#%#fuckAdBlock = function() {};
-#%#AG_abortInlineScript(/Please disable "ad blocker"/);
-#%#Object.defineProperty(window, 'adCheck', { value: 0 });
-#%#AG_defineProperty('jQuery.adblock', {value: false});
-#%#Object.defineProperty(window,'adCheck',{value:0});
-! Generic script:has-text
-*##^script:has-text(GoogleAnalyticsObject)
-*##^script:has-text(adsbygoogle)
-*##^script:has-text(googletag)
-*##^script:has-text(gtag)
-*##^script:has-text(google_tag_params)
-*##^script:has-text(googletagmanager)
-*##^script:has-text(_gaq.push)
-*##^script:has-text(ga.js)
-*##^script:has-text(google-analytics)
-*##^script:has-text(google.ads)
-*##^script:has-text(google_ad_client)
-*##^script:has-text(google_ad_height)
-*##^script:has-text(google_ad_slot)
-*##^script:has-text(google_ad_width)
-*##^script:has-text(google_ads)
-*##^script:has-text(google_conversion_id)
-*##^script:has-text(google_remarketing_only)
-*##^script:has-text(gpt-ad)
-*##^script:has-text("gpt-ad")
-*##^script:has-text(popads)
-*##^script:has-text(ad-tag)
-*##^script:has-text(adtag)
-*##^script:has-text(deployads)
-*##^script:has-text(displayPlayerAdv)
-*##^script:has-text(statsLog)
-*##^script:has-text(clickTrackerInit)
-*##^script:has-text(clicktracker)
-*##^script:has-text(clicktale)
-*##^script:has-text(freegeoip)
-*##^script:has-text(Ya.Metrika)
-*##^script:has-text(cookieAlert)
-*##^script:has-text(rotatorEnableLinks)
-! Defuse and sanatize the Fingerprintjs2 object
-*##+js(abort-on-property-write.js, Fingerprint2)
-! Keep adf.ly links from trying to make you turn off your adblocker
-adf.ly##+js(adfly-defuser.js)
-! WebRTC is problematic for most
-*##+js(nowebrtc)
-
-! Scriptlet Injections
-docs.google.com##+js(alert-buster.js)
-file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
-thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
-thepiratebay.cr##+js(window.open-defuser.js)
-mp3converter.net##+js(abort-on-property-write.js, Fingerprint2)
-loadvid.online##+js(abort-current-inline-script.js, adblock)
-twitch.tv##+js(twitch-videoad.js)
-solarmovie.*##+js(window.open-defuser.js)
-imgrock.*##+js(abort-on-property-write.js, Fingerprint2)
-imgrock.*##+js(popads-dummy.js)
-imgrock.*##+js(window.open-defuser.js)
-123moviesunblocked.net##+js(abort-on-property-write.js, Fingerprint2)
-2giga.link##+js(abort-on-property-write.js, Fingerprint2)
-uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
-mega.co.nz##+js(abort-on-property-write.js, Fingerprint2)
-mega.nz##+js(abort-on-property-write.js, Fingerprint2)
-bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
-veedi.com##+js(set-constant, adBlocker, false)
-veedif.com##+js(set-constant, adBlocker, false)
-*##+js(abort-on-property-read, adtoniq)
-! https://github.com/uBlockOrigin/uBlock-issues/issues/780
-*##+js(aopw, EA_data)
-oui.sncf##+js(acis, document.getElementById, vscaUrl)
-! ExoClick
-*##+js(abort-on-property-read, ExoLoader)
-
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 ||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
-! Prevent prefetch which can sometimes bypass blocking (uBlock & Nano Have A Simple Button To Do Something Like This)
-||*^$csp=prefetch-src 'none'
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -342,1328 +165,644 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
 ! torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-0.0.0.0 hola.org
-0.0.0.0 perr.hola.org
-0.0.0.0 holaspark.com
-0.0.0.0 client.hola.org
-0.0.0.0 client-cdn1.hola.org
-0.0.0.0 client-cdn2.hola.org
-0.0.0.0 client-cdn3.hola.org
-0.0.0.0 client-cdn4.hola.org
-0.0.0.0 client-cdn5.hola.org
-0.0.0.0 h-cdn.com
-0.0.0.0 cdn4.hola.org
-0.0.0.0 luminati.io
-0.0.0.0 clientalt-holanetworksltd.netdna-ssl.com
-0.0.0.0 client1-holanetworksltd.netdna-ssl.com
-0.0.0.0 client2-holanetworksltd.netdna-ssl.com
-0.0.0.0 client3-holanetworksltd.netdna-ssl.com
-0.0.0.0 holaalt-holanetworksltd.netdna-ssl.com
-0.0.0.0 ec2-54-243-128-120.compute-1.amazonaws.com
-0.0.0.0 ec2-107-22-193-119.compute-1.amazonaws.com
-0.0.0.0 s6m9m3g5.map2.ssl.hwcdn.net
-0.0.0.0 f9t5n3y6.map2.ssl.hwcdn.net
-0.0.0.0 d6g3b3z8.map2.ssl.hwcdn.net
-0.0.0.0 p6y7c8h9.map2.ssl.hwcdn.net
-0.0.0.0 m3a2r7m3.map2.ssl.hwcdn.net
-0.0.0.0 w5t6c5u8.map2.ssl.hwcdn.net
-0.0.0.0 184.164.147.6
-0.0.0.0 66.85.185.75
-0.0.0.0 107.170.77.122
-0.0.0.0 54.243.128.120
-0.0.0.0 184.164.146.26
-0.0.0.0 162.243.24.21
-0.0.0.0 107.22.193.119
-0.0.0.0 107.22.60.33
+||hola.org$important
+||holaspark.com$important
+||client.hola.org$important
+||client-cdn*.hola.org$important
+||h-cdn*.com$important
+||luminati.io$important
+||clientalt-holanetworksltd.netdna-ssl.com$important
+||client*-holanetworksltd.netdna-ssl.com$important
+||holaalt-holanetworksltd.netdna-ssl.com$important
+||ec2-54-243-128-120.compute-1.amazonaws.com$important
+||ec2-107-22-193-119.compute-1.amazonaws.com$important
 
 ! https://sensorstechforum.com/remove-trustnav-com-browser-hijacker/
 ! https://forums.malwarebytes.com/topic/236937-removal-instructions-for-trustnav-safesearch/
-0.0.0.0 trustnav.com
-0.0.0.0 www.trustnav.com
-0.0.0.0 search.trustnav.com
-0.0.0.0 develop.account.trustnav.com
-0.0.0.0 testing.account.trustnav.com
-0.0.0.0 account.trustnav.com
-0.0.0.0 safesearch.trustnav.com
+||trustnav.com$important
 
-! Stop Pushing Your Propaganda On Us
-0.0.0.0 dragqueenstoryhour.org
-0.0.0.0 austindragfest.org
+! Propaganda
+||dragqueenstoryhour.org$important
+||austindragfest.org$important
+! Left-Wing Propaganda/Fake Local News Site - https://www.youtube.com/watch?v=RLIFiI2ADW4
+||coppercourier.com$important
 
 ! https://www.youtube.com/watch?v=oBI4Cl4rM6o
-0.0.0.0 census.zorinos.com
+||census.zorinos.com$important
 
 ! Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
-0.0.0.0 weathercenter.co
-0.0.0.0 quickemailaccess.co
-0.0.0.0 easyspeedtest.co
+||weathercenter.co$important
+||quickemailaccess.co$important
+||easyspeedtest.co$important
 
 ! https://www.youtube.com/watch?v=_ypaZ2XaxhU
-0.0.0.0 trace.svc.ui.com
-
-! Left-Wing Propaganda/Fake Local News Site - https://www.youtube.com/watch?v=RLIFiI2ADW4
-0.0.0.0 coppercourier.com
-
-! Unknown Domains From Lucky Patcher
-! 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
-0.0.0.0 030519azino777.com
-0.0.0.0 0dayarchive.us
-0.0.0.0 alhdas.com
-0.0.0.0 arcadiaservers.com
-0.0.0.0 artfitrj.online
-0.0.0.0 austrian-booking.club
-0.0.0.0 auto400.us
-0.0.0.0 beafindholidaylaptopdealsok.live
-0.0.0.0 boomtouch.bid
-0.0.0.0 cryptotrades.exchange
-0.0.0.0 cutyjg.com
-0.0.0.0 dinamobet46.com
-0.0.0.0 diziizlendi.org
-0.0.0.0 dokodemosento.com
-0.0.0.0 dosyaindir.info
-0.0.0.0 evilmobile.com
-0.0.0.0 findmedatemeloveme.club
-0.0.0.0 g-resources31.us
-0.0.0.0 garryinc.com
-0.0.0.0 godiabetesfree.org
-0.0.0.0 goutmovie.download
-0.0.0.0 howtomakeblog.info
-0.0.0.0 iiimanila.com
-0.0.0.0 jaj77.com
-0.0.0.0 japanesetradingcardgame.host
-0.0.0.0 karabin4ikitoys1.host
-0.0.0.0 kjqhp.tel
-0.0.0.0 le-bodyx-shop.com
-0.0.0.0 librospdf.top
-0.0.0.0 wap.macantogel4d.com
-0.0.0.0 macantogel4d.com
-0.0.0.0 naudoorssase.ml
-0.0.0.0 nwominhaisu.tk
-0.0.0.0 panamaretireespensionersvisa.com
-0.0.0.0 pereveb.com
-0.0.0.0 pewterreport.com
-0.0.0.0 possible24.site
-0.0.0.0 qphkno.space
-0.0.0.0 ratethemix.com
-0.0.0.0 salegetshops.club
-0.0.0.0 starorhydderc.tk
-0.0.0.0 sticker-for-car.bid
-0.0.0.0 www.subscribepage.com
-0.0.0.0 subscribepage.com
-0.0.0.0 tis-market.com
-0.0.0.0 tracedempire.us
-0.0.0.0 tworldclock.pro
-0.0.0.0 vittoriale-dvd.com
-0.0.0.0 oboeinsight.com
-0.0.0.0 oboeinsight.com.cdn.cloudflare.net
-0.0.0.0 pinkribbonmiracle.com
-0.0.0.0 yokgp.club
-! Fake Rising SUn Rock Festival Website
-0.0.0.0 tenbai-no.jp
+||trace.svc.ui.com$important
 
 ! IP Grabbers
-0.0.0.0 skypeipresolver.net
-0.0.0.0 www.spylink.net
-0.0.0.0 spylink.net
-0.0.0.0 ipstat.com
-0.0.0.0 ipstatp.com
-0.0.0.0 api.grabify.link
-0.0.0.0 grabify.link
-0.0.0.0 bmwforum.co
-0.0.0.0 leancoding.co
-0.0.0.0 quickmessage.io
-0.0.0.0 spottyfly.com
-0.0.0.0 spötify.com
-0.0.0.0 stopify.co
-0.0.0.0 yoütu.be
-0.0.0.0 yoütübe.co
-0.0.0.0 yoütübe.com
-0.0.0.0 yȯutube.com
-0.0.0.0 xda-developers.io
-0.0.0.0 starbucksiswrong.com
-0.0.0.0 starbucksisbadforyou.com
-0.0.0.0 bucks.as
-0.0.0.0 discörd.com
-0.0.0.0 minecräft.com
-0.0.0.0 cyberh1.xyz
-0.0.0.0 discördapp.com
-0.0.0.0 freegiftcards.co
-0.0.0.0 disçordapp.com
-0.0.0.0 rëddït.com
-0.0.0.0 iplogger.org
-0.0.0.0 iplogger.com
-0.0.0.0 iplogger.ru
-0.0.0.0 2no.co
-0.0.0.0 yip.su
-0.0.0.0 youramonkey.com
-0.0.0.0 whatstheirip.com
-0.0.0.0 IP-Grabber.com
-0.0.0.0 ip-grabber.com
-0.0.0.0 blasze.tk
-0.0.0.0 ps3cfw.com
-0.0.0.0 freegeoip.net
-0.0.0.0 ipstack.com
-0.0.0.0 ipstack.net
-0.0.0.0 tracemyip.org
-0.0.0.0 www.tracemyip.org
-0.0.0.0 xn--yotu-1ra.be
-0.0.0.0 xn--discrd-zxa.com
-0.0.0.0 xn--srahah-bua.eu
-0.0.0.0 xn--minecrft-5za.com
-0.0.0.0 xn--disordapp-s3a.com
-0.0.0.0 xn--srahah-bua.pl
-0.0.0.0 xda-developers.us
-0.0.0.0 quickmessage.us
-0.0.0.0 fortnight.space
-0.0.0.0 fortnitechat.site
-0.0.0.0 youshouldclick.us
-0.0.0.0 joinmy.site
-0.0.0.0 watches-my.stream
-0.0.0.0 www.apple.com-fasting.live
-0.0.0.0 apple.com-fasting.live
-0.0.0.0 parentelement.tk
-0.0.0.0 com-fasting.live
-0.0.0.0 crabrave.pw
-0.0.0.0 särahah.eu
-0.0.0.0 särahah.pl
-0.0.0.0 mapper.info
-0.0.0.0 ezstat.ru
-0.0.0.0 blasze.com
-0.0.0.0 myiptest.com/img.php
-0.0.0.0 spÃ¶tify.com
-0.0.0.0 yoÃ¼tÃ¼be.co
-0.0.0.0 yoÃ¼tÃ¼be.com
-0.0.0.0 yoÃ¼tu.be
-0.0.0.0 hackfÈ¯rums.com
-0.0.0.0 hackfÈ¯rums.net
-0.0.0.0 discÃ¶rd.com
-0.0.0.0 battlÄ—.net
-0.0.0.0 xn--yo14t14be-m2ad7057gea.com
-0.0.0.0 xn--sptify-4ka37a.com
-0.0.0.0 xn--discrd-6ka37a.com
-0.0.0.0 xn--yo14tu-4ta9735d.be
-0.0.0.0 xn--yo14t14be-m2ad7057gea.co
-0.0.0.0 xn--battl-kra2007c.net
+||skypeipresolver.net$important
+||www.spylink.net$important
+||spylink.net$important
+||ipstat.com$important
+||ipstatp.com$important
+||api.grabify.link$important
+||grabify.link$important
+||bmwforum.co$important
+||leancoding.co$important
+||quickmessage.io$important
+||spottyfly.com$important
+||spötify.com$important
+||stopify.co$important
+||yoütu.be$important
+||yoütübe.co$important
+||yoütübe.com$important
+||yȯutube.com$important
+||xda-developers.io$important
+||starbucksiswrong.com$important
+||starbucksisbadforyou.com$important
+||bucks.as$important
+||discörd.com$important
+||minecräft.com$important
+||cyberh1.xyz$important
+||discördapp.com$important
+||freegiftcards.co$important
+||disçordapp.com$important
+||rëddït.com$important
+||iplogger.org$important
+||iplogger.com$important
+||iplogger.ru$important
+||2no.co$important
+||yip.su$important
+||youramonkey.com$important
+||whatstheirip.com$important
+||IP-Grabber.com$important
+||ip-grabber.com$important
+||blasze.tk$important
+||ps3cfw.com$important
+||freegeoip.net$important
+||ipstack.com$important
+||ipstack.net$important
+||tracemyip.org$important
+||xn--yotu-1ra.be$important
+||xn--discrd-zxa.com$important
+||xn--srahah-bua.eu$important
+||xn--minecrft-5za.com$important
+||xn--disordapp-s3a.com$important
+||xn--srahah-bua.pl$important
+||xda-developers.us$important
+||quickmessage.us$important
+||fortnight.space$important
+||fortnitechat.site$important
+||youshouldclick.us$important
+||joinmy.site$important
+||watches-my.stream$important
+||apple.com-fasting.live$important
+||parentelement.tk$important
+||com-fasting.live$important
+||crabrave.pw$important
+||särahah.eu$important
+||särahah.pl$important
+||mapper.info$important
+||ezstat.ru$important
+||blasze.com$important
+||spÃ¶tify.com$important
+||yoÃ¼tÃ¼be.co$important
+||yoÃ¼tÃ¼be.com$important
+||yoÃ¼tu.be$important
+||hackfÈ¯rums.com$important
+||hackfÈ¯rums.net$important
+||discÃ¶rd.com$important
+||battlÄ—.net$important
+||xn--yo14t14be-m2ad7057gea.com$important
+||xn--sptify-4ka37a.com$important
+||xn--discrd-6ka37a.com$important
+||xn--yo14tu-4ta9735d.be$important
+||xn--yo14t14be-m2ad7057gea.co$important
+||xn--battl-kra2007c.net$important
 
-! Apple
-0.0.0.0 smp-device-content.apple.com
-0.0.0.0 apple.comscoreresearch.com
-0.0.0.0 init.ess.apple.com
-0.0.0.0 profile.gc.apple.com
-0.0.0.0 uts-api.itunes.apple.com
-0.0.0.0 userpub.itunes.apple.com
-0.0.0.0 init-p01md.apple.com
-0.0.0.0 cf.iadsdk.apple.com
-0.0.0.0 basejumper.apple.com
-0.0.0.0 cl4.apple.com
-0.0.0.0 metrics.icloud.com
-0.0.0.0 api-glb-msp.smoot.apple.com
-0.0.0.0 time-ios.g.aaplimg.com
-0.0.0.0 e17437.dscb.akamaiedge.net
-0.0.0.0 attwifi.apple.com
-0.0.0.0 parsec.apple.com
-0.0.0.0 iad.apple.com
-0.0.0.0 chein-1.apple.com
-0.0.0.0 albert.apple.com
-0.0.0.0 search.itunes.apple.com
-0.0.0.0 sf-api-token-service.itunes.apple.com
-0.0.0.0 tr.iadsdk.apple.com
-0.0.0.0 cs.iadsdk.apple.com
-0.0.0.0 ca.iadsdk.apple.com
-0.0.0.0 ocsp.apple.com
-0.0.0.0 se-edge.itunes.apple.com
-0.0.0.0 stats.gc.apple.com
-0.0.0.0 advertising.apple.com
-0.0.0.0 autolinkmaker.itunes.apple.com
-0.0.0.0 searchads.apple.com
-0.0.0.0 securemetrics.apple.com
-0.0.0.0 xp.apple.com
-0.0.0.0 mesu.apple.com
-0.0.0.0 apsu.apple.com
-0.0.0.0 apfw.apple.com
-0.0.0.0 daypass.api-aka.smoot.apple.com
-0.0.0.0 daypass.api-glb-atl.smoot.apple.com
-0.0.0.0 daypass.api-glb-lon.smoot.apple.com
-0.0.0.0 daypass.api-glb-sea.smoot.apple.com
-0.0.0.0 smoot.apple.com
-0.0.0.0 api.smoot.apple.com
-0.0.0.0 geo.itunes.apple.com
-0.0.0.0 gsp-ssl-dynamic.ls-apple.com.akadns.net
-0.0.0.0 gsp-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp-ssl.ls.apple.com
-0.0.0.0 gsp-ssl.ls2-apple.com.akadns.net
-0.0.0.0 gsp1.apple.com
-0.0.0.0 gsp10-ssl.apple.com
-0.0.0.0 gsp10-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp10-ssl.ls.apple.com
-0.0.0.0 gsp36-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp36-ssl.ls.apple.com
-0.0.0.0 gsp47-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp47-ssl.ls.apple.com
-0.0.0.0 gsp51-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp51-ssl.ls.apple.com
-0.0.0.0 gsp57-ssl-background.ls-apple.com.akadns.net
-0.0.0.0 gsp57-ssl-background.ls.apple.com
-0.0.0.0 hls.itunes.apple.com
-0.0.0.0 hls.itunes.g.aaplimg.com
-0.0.0.0 gsp57-ssl-locus.ls-apple.com.akadns.net
-0.0.0.0 gsp57-ssl-locus.ls.apple.com
-0.0.0.0 gsp57-ssl-revgeo.ls-apple.com.akadns.net
-0.0.0.0 gsp57-ssl-revgeo.ls.apple.com
-0.0.0.0 gsp64-ssl.ls-apple.com.akadns.net
-0.0.0.0 gsp64-ssl.ls.apple.com
-0.0.0.0 gsp9-ssl.apple.com
-0.0.0.0 gsp9-ssl.ls-apple.com.akadns.net
-0.0.0.0 gspe1-ssl.ls.apple.com
-0.0.0.0 gspe11-ssl.ls.apple.com
-0.0.0.0 gspe12-ssl.ls.apple.com
-0.0.0.0 gspe19-ssl-dualstack.ls-apple.com.akadns.net
-0.0.0.0 gspe19-ssl.ls.apple.com
-0.0.0.0 gspe21-ssl.ls.apple.com
-0.0.0.0 gspe35-ssl.ls-apple.com.akadns.net
-0.0.0.0 gspe35-ssl.ls.apple.com
-0.0.0.0 guzzoni.apple.com
-0.0.0.0 health-assets.cdn-apple.com
-0.0.0.0 gs-loc-new.ls-apple.com.akadns.net
-0.0.0.0 gs-loc.apple.com
-0.0.0.0 gs-loc.ls-apple.com.akadns.net
-0.0.0.0 gs.apple.com.akadns.net
-0.0.0.0 gsa.apple.com
-0.0.0.0 gsa.apple.com.akadns.net
-0.0.0.0 gsas.apple.com
-0.0.0.0 gsas.apple.com.akadns.net
-0.0.0.0 pancake.apple.com
-0.0.0.0 feedback.apple.com
-0.0.0.0 guzzoni.apple.com
-0.0.0.0 iadsdk.apple.com
-0.0.0.0 cf.iadsdk.apple.com
-0.0.0.0 ut.iadsdk.apple.com
-0.0.0.0 static.ips.apple.com
-0.0.0.0 qtpartners.apple.com
-0.0.0.0 iphonesubmissions.apple.com
-0.0.0.0 iphone-services.apple.com
-0.0.0.0 idiagnostics.apple.com
-0.0.0.0 iphonediags.apple.com
-0.0.0.0 radarsubmissions.apple.com
-0.0.0.0 messagetracer-whitelist.apple.com
-0.0.0.0 icalbridge.apple.com
-0.0.0.0 bugreport.apple.com
-0.0.0.0 redcarpet.apple.com
-0.0.0.0 speedtracer.apple.com
-0.0.0.0 tracerx-radars.apple.com
-0.0.0.0 internalcheck.apple.com
-0.0.0.0 depot.info.apple.com
-0.0.0.0 idmsauth-uat.corp.apple.com
-0.0.0.0 appleconnect-uat.apple.com
-0.0.0.0 appleseed-stage.apple.com
-0.0.0.0 iforgot-uat.apple.com
-0.0.0.0 xseedapps.apple.com
-0.0.0.0 appleseed-temp.apple.com
-0.0.0.0 crucio.apple.com
-0.0.0.0 ac-at.apple.com
-0.0.0.0 iforgott.apple.com
-0.0.0.0 mobile-uat.corp.apple.com
-0.0.0.0 idmswt.corp.apple.com
-0.0.0.0 mobile.apple.com
-0.0.0.0 mobile-bz-mdn.apple.com
-0.0.0.0 privftp.apple.com
-0.0.0.0 mobile-bz-privftp.apple.commdn.apple.com
-0.0.0.0 cssubmissions-uat.corp.apple.com
-0.0.0.0 cssubmissions.apple.com
-0.0.0.0 www.me.com
-0.0.0.0 me.com
-0.0.0.0 fmip.me.com
-0.0.0.0 public.me.com
-0.0.0.0 photocast.me.com
-0.0.0.0 caldav.icloud.com
-0.0.0.0 statici.icloud.com
-0.0.0.0 gsp-ssl.ls.apple.com
-0.0.0.0 gsp1.apple.com
-0.0.0.0 gsp2.apple.com
-0.0.0.0 gspe1-ssl.ls.apple.com
-0.0.0.0 gsp17-ssl.apple.com
-0.0.0.0 gsp17-2-ssl.apple.com
-0.0.0.0 gspe19-ssl.ls.apple.com
-0.0.0.0 gspa21.ls.apple.com
-0.0.0.0 gspe21-ssl.ls.apple.com
-0.0.0.0 gspa35-ssl.ls.apple.com
-0.0.0.0 gspe35-ssl.ls.apple.com
-0.0.0.0 gsp64-ssl.ls.apple.com
-0.0.0.0 cl-dev.apple.com
-0.0.0.0 cl2.apple.com
-0.0.0.0 cl3.apple.com
-0.0.0.0 gs-loc.apple.com
-0.0.0.0 gsp9-ssl.apple.com
-0.0.0.0 gsp10-ssl.apple.com
-0.0.0.0 iphone-ld.apple.com
-0.0.0.0 0-courier.push.apple.com
-0.0.0.0 0.courier-push-apple.com.akadns.net
-0.0.0.0 1-courier.push.apple.com
-0.0.0.0 1-courier.sandbox.push.apple.com
-0.0.0.0 1.courier-push-apple.com.akadns.net
-0.0.0.0 1.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 10-courier.push.apple.com
-0.0.0.0 10-courier.sandbox.push.apple.com
-0.0.0.0 10.courier-push-apple.com.akadns.net
-0.0.0.0 10.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 11-courier.push.apple.com
-0.0.0.0 12-courier.push.apple.com
-0.0.0.0 12.courier-push-apple.com.akadns.net
-0.0.0.0 13-courier.push.apple.com
-0.0.0.0 14-courier.push.apple.com
-0.0.0.0 15-courier.push.apple.com
-0.0.0.0 17-courier.push.apple.com
-0.0.0.0 18-courier.push.apple.com
-0.0.0.0 19-courier.push.apple.com
-0.0.0.0 2-courier.push.apple.com
-0.0.0.0 2-courier.sandbox.push.apple.com
-0.0.0.0 2.courier-push-apple.com.akadns.net
-0.0.0.0 2.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 20-courier.push.apple.com
-0.0.0.0 20.courier-push-apple.com.akadns.net
-0.0.0.0 21-courier.push.apple.com
-0.0.0.0 22-courier.push.apple.com
-0.0.0.0 23-courier.push.apple.com
-0.0.0.0 24-courier.push.apple.com
-0.0.0.0 25-courier.push.apple.com
-0.0.0.0 26-courier.push.apple.com
-0.0.0.0 27-courier.push.apple.com
-0.0.0.0 28-courier.push.apple.com
-0.0.0.0 28.courier-push-apple.com.akadns.net
-0.0.0.0 29-courier.push.apple.com
-0.0.0.0 3-courier.push.apple.com
-0.0.0.0 3-courier.sandbox.push.apple.com
-0.0.0.0 3.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 30-courier.push.apple.com
-0.0.0.0 31.courier-push-apple.com.akadns.net
-0.0.0.0 33-courier.push.apple.com
-0.0.0.0 34-courier.push.apple.com
-0.0.0.0 35-courier.push.apple.com
-0.0.0.0 36-courier.push.apple.com
-0.0.0.0 37-courier.push.apple.com
-0.0.0.0 37.courier-push-apple.com.akadns.net
-0.0.0.0 38-courier.push.apple.com
-0.0.0.0 39-courier.push.apple.com
-0.0.0.0 39.courier-push-apple.com.akadns.net
-0.0.0.0 4-courier.push.apple.com
-0.0.0.0 4-courier.sandbox.push.apple.com
-0.0.0.0 4.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 40-courier.push.apple.com
-0.0.0.0 40.courier-push-apple.com.akadns.net
-0.0.0.0 41-courier.push.apple.com
-0.0.0.0 42-courier.push.apple.com
-0.0.0.0 43-courier.push.apple.com
-0.0.0.0 43.courier-push-apple.com.akadns.net
-0.0.0.0 44-courier.push.apple.com
-0.0.0.0 44.courier-push-apple.com.akadns.net
-0.0.0.0 45-courier.push.apple.com
-0.0.0.0 45.courier-push-apple.com.akadns.net
-0.0.0.0 46-courier.push.apple.com
-0.0.0.0 46.courier-push-apple.com.akadns.net
-0.0.0.0 47-courier.push.apple.com
-0.0.0.0 47.courier-push-apple.com.akadns.net
-0.0.0.0 48-courier.push.apple.com
-0.0.0.0 48.courier-push-apple.com.akadns.net
-0.0.0.0 49-courier.push.apple.com
-0.0.0.0 5-courier.sandbox.push.apple.com
-0.0.0.0 5.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 6-courier.push.apple.com
-0.0.0.0 6-courier.sandbox.push.apple.com
-0.0.0.0 6.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 7-courier.sandbox.push.apple.com
-0.0.0.0 7.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 8-courier.push.apple.com
-0.0.0.0 8-courier.sandbox.push.apple.com
-0.0.0.0 8.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 9-courier.push.apple.com
-0.0.0.0 9-courier.sandbox.push.apple.com
-0.0.0.0 9.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 identity.apple.com
-0.0.0.0 identity.apple.com.akadns.net
-0.0.0.0 identity.ess-apple.com.akadns.net
-0.0.0.0 identity.ess.apple.com
-0.0.0.0 idiagnostics.apple.com
-0.0.0.0 idiagnostics.apple.com.akadns.net
-0.0.0.0 keyvalueservice.fe.apple-dns.net
-0.0.0.0 keyvalueservice.icloud.com
-0.0.0.0 lcdn-locator-usuqo.apple.com.akadns.net
-0.0.0.0 lcdn-locator.apple.com
-0.0.0.0 ld-3.itunes-apple.com.akadns.net
-0.0.0.0 ld-3.itunes.apple.com
-0.0.0.0 ld-5.itunes-apple.com.akadns.net
-0.0.0.0 ld-5.itunes.apple.com
-0.0.0.0 mesu-cdn.apple.com.akadns.net
-0.0.0.0 mesu.apple.com
-0.0.0.0 mesu.g.aaplimg.com
-0.0.0.0 mt-ingestion-service-mr22.itunes-apple.com.akadns.net
-0.0.0.0 mt-ingestion-service-pv.itunes-apple.com.akadns.net
-0.0.0.0 mt-ingestion-service-st11.itunes-apple.com.akadns.net
-0.0.0.0 np.itunes.apple.com
-0.0.0.0 ns.itunes-apple.com.akadns.net
-0.0.0.0 ns.itunes.apple.com
-0.0.0.0 p02-imap.mail.me.com.akadns.net
-0.0.0.0 p02-mailws.icloud.com
-0.0.0.0 p02-mailws.icloud.com.akadns.net
-0.0.0.0 p02-smtp.mail.me.com.akadns.net
-0.0.0.0 p04-imap.mail.me.com.akadns.net
-0.0.0.0 p09-content.fe.apple-dns.net
-0.0.0.0 p09-content.icloud.com
-0.0.0.0 p100-sandbox.itunes.apple.com
-0.0.0.0 p11-availability.fe.apple-dns.net
-0.0.0.0 p11-availability.icloud.com
-0.0.0.0 p11-bookmarks.fe.apple-dns.net
-0.0.0.0 p11-bookmarks.icloud.com
-0.0.0.0 p11-caldav.fe.apple-dns.net
-0.0.0.0 p11-caldav.icloud.com
-0.0.0.0 p11-ckcoderouter.fe.apple-dns.net
-0.0.0.0 p11-ckcoderouter.icloud.com
-0.0.0.0 p11-ckdatabase.fe.apple-dns.net
-0.0.0.0 p11-ckdatabase.icloud.com
-0.0.0.0 p11-ckdevice.fe.apple-dns.net
-0.0.0.0 p11-ckdevice.icloud.com
-0.0.0.0 p11-contacts.fe.apple-dns.net
-0.0.0.0 p11-contacts.icloud.com
-0.0.0.0 p11-content.fe.apple-dns.net
-0.0.0.0 p11-content.icloud.com
-0.0.0.0 p11-escrowproxy.fe.apple-dns.net
-0.0.0.0 p11-escrowproxy.icloud.com
-0.0.0.0 p11-fmf.fe.apple-dns.net
-0.0.0.0 p11-fmf.icloud.com
-0.0.0.0 p11-fmfmobile.fe.apple-dns.net
-0.0.0.0 p11-fmfmobile.icloud.com
-0.0.0.0 p11-fmip.fe.apple-dns.net
-0.0.0.0 p11-fmip.icloud.com
-0.0.0.0 p11-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p11-keyvalueservice.icloud.com
-0.0.0.0 p11-quota.fe.apple-dns.net
-0.0.0.0 p11-quota.icloud.com
-0.0.0.0 p13-content.fe.apple-dns.net
-0.0.0.0 p13-content.icloud.com
-0.0.0.0 p15-content.fe.apple-dns.net
-0.0.0.0 p15-content.icloud.com
-0.0.0.0 p16-availability.fe.apple-dns.net
-0.0.0.0 p16-availability.icloud.com
-0.0.0.0 p16-bookmarks.fe.apple-dns.net
-0.0.0.0 p16-bookmarks.icloud.com
-0.0.0.0 p16-buy.itunes-apple.com.akadns.net
-0.0.0.0 p16-buy.itunes.apple.com
-0.0.0.0 p16-contacts.fe.apple-dns.net
-0.0.0.0 p16-contacts.icloud.com
-0.0.0.0 p16-escrowproxy.fe.apple-dns.net
-0.0.0.0 p16-escrowproxy.icloud.com
-0.0.0.0 p16-fmfmobile.fe.apple-dns.net
-0.0.0.0 p16-fmfmobile.icloud.com
-0.0.0.0 p16-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p16-keyvalueservice.icloud.com
-0.0.0.0 p17-buy.itunes-apple.com.akadns.net
-0.0.0.0 p17-calendars.fe.apple-dns.net
-0.0.0.0 p17-calendars.icloud.com
-0.0.0.0 p17-content.fe.apple-dns.net
-0.0.0.0 p17-content.icloud.com
-0.0.0.0 p18-buy.itunes-apple.com.akadns.net
-0.0.0.0 p18-buy.itunes.apple.com
-0.0.0.0 p18-calendars.fe.apple-dns.net
-0.0.0.0 p18-calendars.icloud.com
-0.0.0.0 p19-calendars.fe.apple-dns.net
-0.0.0.0 p19-calendars.icloud.com
-0.0.0.0 p19-content.fe.apple-dns.net
-0.0.0.0 p19-content.icloud.com
-0.0.0.0 p20-buy.itunes-apple.com.akadns.net
-0.0.0.0 p20-buy.itunes.apple.com
-0.0.0.0 p20-calendars.fe.apple-dns.net
-0.0.0.0 p20-calendars.icloud.com
-0.0.0.0 p21-buy.itunes-apple.com.akadns.net
-0.0.0.0 p21-buy.itunes.apple.com
-0.0.0.0 p21-content.fe.apple-dns.net
-0.0.0.0 p21-content.icloud.com
-0.0.0.0 p22-calendars.fe.apple-dns.net
-0.0.0.0 p22-calendars.icloud.com
-0.0.0.0 p23-availability.fe.apple-dns.net
-0.0.0.0 p23-availability.icloud.com
-0.0.0.0 p23-bookmarks.fe.apple-dns.net
-0.0.0.0 p23-bookmarks.icloud.com
-0.0.0.0 p23-caldav.fe.apple-dns.net
-0.0.0.0 p23-caldav.icloud.com
-0.0.0.0 p23-calendars.fe.apple-dns.net
-0.0.0.0 p23-calendars.icloud.com
-0.0.0.0 p23-contacts.fe.apple-dns.net
-0.0.0.0 p23-contacts.icloud.com
-0.0.0.0 p23-content.fe.apple-dns.net
-0.0.0.0 p23-content.icloud.com
-0.0.0.0 p23-escrowproxy.fe.apple-dns.net
-0.0.0.0 p23-escrowproxy.icloud.com
-0.0.0.0 p23-fmf.fe.apple-dns.net
-0.0.0.0 p23-fmf.icloud.com
-0.0.0.0 p23-fmfmobile.fe.apple-dns.net
-0.0.0.0 p23-fmfmobile.icloud.com
-0.0.0.0 p23-fmip.fe.apple-dns.net
-0.0.0.0 p23-fmip.icloud.com
-0.0.0.0 p23-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p23-keyvalueservice.icloud.com
-0.0.0.0 p23-quota.fe.apple-dns.net
-0.0.0.0 p23-quota.icloud.com
-0.0.0.0 p23-streams.fe.apple-dns.net
-0.0.0.0 p23-streams.icloud.com
-0.0.0.0 p24-buy.itunes-apple.com.akadns.net
-0.0.0.0 p24-buy.itunes.apple.com
-0.0.0.0 p24-content.fe.apple-dns.net
-0.0.0.0 p24-content.icloud.com
-0.0.0.0 p25-buy.itunes-apple.com.akadns.net
-0.0.0.0 p25-buy.itunes.apple.com
-0.0.0.0 p25-content.fe.apple-dns.net
-0.0.0.0 p25-content.icloud.com
-0.0.0.0 p26-buy.itunes-apple.com.akadns.net
-0.0.0.0 p26-buy.itunes.apple.com
-0.0.0.0 p26-content.fe.apple-dns.net
-0.0.0.0 p26-content.icloud.com
-0.0.0.0 p27-content.fe.apple-dns.net
-0.0.0.0 p27-content.icloud.com
-0.0.0.0 p28-content.fe.apple-dns.net
-0.0.0.0 p28-content.icloud.com
-0.0.0.0 p29-buy.itunes-apple.com.akadns.net
-0.0.0.0 p29-buy.itunes.apple.com
-0.0.0.0 p29-calendars.fe.apple-dns.net
-0.0.0.0 p29-calendars.icloud.com
-0.0.0.0 p29-content.fe.apple-dns.net
-0.0.0.0 p29-content.icloud.com
-0.0.0.0 p3-buy.itunes-apple.com.akadns.net
-0.0.0.0 p3-buy.itunes.apple.com
-0.0.0.0 p30-buy.itunes-apple.com.akadns.net
-0.0.0.0 p30-buy.itunes.apple.com
-0.0.0.0 p30-contacts.fe.apple-dns.net
-0.0.0.0 p30-contacts.icloud.com
-0.0.0.0 p30-content.fe.apple-dns.net
-0.0.0.0 p30-content.icloud.com
-0.0.0.0 p30-escrowproxy.fe.apple-dns.net
-0.0.0.0 p30-escrowproxy.icloud.com
-0.0.0.0 p30-fmfmobile.fe.apple-dns.net
-0.0.0.0 p30-fmfmobile.icloud.com
-0.0.0.0 p30-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p30-keyvalueservice.icloud.com
-0.0.0.0 p30-quota.fe.apple-dns.net
-0.0.0.0 p30-quota.icloud.com
-0.0.0.0 p31-buy.itunes-apple.com.akadns.net
-0.0.0.0 p31-buy.itunes.apple.com
-0.0.0.0 p31-content.fe.apple-dns.net
-0.0.0.0 p31-content.icloud.com
-0.0.0.0 p32-availability.fe.apple-dns.net
-0.0.0.0 p32-availability.icloud.com
-0.0.0.0 p32-buy.itunes-apple.com.akadns.net
-0.0.0.0 p32-buy.itunes.apple.com
-0.0.0.0 p32-ckdatabase.fe.apple-dns.net
-0.0.0.0 p32-ckdatabase.icloud.com
-0.0.0.0 p32-ckdevice.fe.apple-dns.net
-0.0.0.0 p32-ckdevice.icloud.com
-0.0.0.0 p32-content.fe.apple-dns.net
-0.0.0.0 p32-content.icloud.com
-0.0.0.0 p32-escrowproxy.fe.apple-dns.net
-0.0.0.0 p32-escrowproxy.icloud.com
-0.0.0.0 p32-fmfmobile.fe.apple-dns.net
-0.0.0.0 p32-fmfmobile.icloud.com
-0.0.0.0 p32-fmip.fe.apple-dns.net
-0.0.0.0 p32-fmip.icloud.com
-0.0.0.0 p32-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p32-keyvalueservice.icloud.com
-0.0.0.0 p32-quota.fe.apple-dns.net
-0.0.0.0 p32-quota.icloud.com
-0.0.0.0 p33-content.fe.apple-dns.net
-0.0.0.0 p33-content.icloud.com
-0.0.0.0 p34-availability.fe.apple-dns.net
-0.0.0.0 p34-availability.icloud.com
-0.0.0.0 p34-caldav.fe.apple-dns.net
-0.0.0.0 p34-caldav.icloud.com
-0.0.0.0 p34-contacts.fe.apple-dns.net
-0.0.0.0 p34-contacts.icloud.com
-0.0.0.0 p34-content.fe.apple-dns.net
-0.0.0.0 p34-content.icloud.com
-0.0.0.0 p34-escrowproxy.fe.apple-dns.net
-0.0.0.0 p34-escrowproxy.icloud.com
-0.0.0.0 p34-fmf.fe.apple-dns.net
-0.0.0.0 p34-fmf.icloud.com
-0.0.0.0 p34-fmfmobile.fe.apple-dns.net
-0.0.0.0 p34-fmfmobile.icloud.com
-0.0.0.0 p34-fmip.fe.apple-dns.net
-0.0.0.0 p34-fmip.icloud.com
-0.0.0.0 p34-imap.mail.me.com.akadns.net
-0.0.0.0 p34-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p34-keyvalueservice.icloud.com
-0.0.0.0 p34-mailws.icloud.com
-0.0.0.0 p34-mailws.icloud.com.akadns.net
-0.0.0.0 p34-quota.fe.apple-dns.net
-0.0.0.0 p34-quota.icloud.com
-0.0.0.0 p35-buy.itunes-apple.com.akadns.net
-0.0.0.0 p35-buy.itunes.apple.com
-0.0.0.0 p35-content.fe.apple-dns.net
-0.0.0.0 p35-content.icloud.com
-0.0.0.0 p36-buy.itunes-apple.com.akadns.net
-0.0.0.0 p36-buy.itunes.apple.com
-0.0.0.0 p36-content.fe.apple-dns.net
-0.0.0.0 p36-content.icloud.com
-0.0.0.0 p37-calendars.fe.apple-dns.net
-0.0.0.0 p37-calendars.icloud.com
-0.0.0.0 p37-content.fe.apple-dns.net
-0.0.0.0 p37-content.icloud.com
-0.0.0.0 p38-caldav.fe.apple-dns.net
-0.0.0.0 p38-caldav.icloud.com
-0.0.0.0 p38-ckcoderouter.fe.apple-dns.net
-0.0.0.0 p38-ckcoderouter.icloud.com
-0.0.0.0 p38-ckdatabase.fe.apple-dns.net
-0.0.0.0 p38-ckdatabase.icloud.com
-0.0.0.0 p38-ckdevice.fe.apple-dns.net
-0.0.0.0 p38-ckdevice.icloud.com
-0.0.0.0 p38-contacts.fe.apple-dns.net
-0.0.0.0 p38-contacts.icloud.com
-0.0.0.0 p38-content.fe.apple-dns.net
-0.0.0.0 p38-content.icloud.com
-0.0.0.0 p38-escrowproxy.fe.apple-dns.net
-0.0.0.0 p38-escrowproxy.icloud.com
-0.0.0.0 p38-fmfmobile.fe.apple-dns.net
-0.0.0.0 p38-fmfmobile.icloud.com
-0.0.0.0 p38-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p38-keyvalueservice.icloud.com
-0.0.0.0 p38-quota.fe.apple-dns.net
-0.0.0.0 p38-quota.icloud.com
-0.0.0.0 p38-sharedstreams.fe.apple-dns.net
-0.0.0.0 p38-sharedstreams.icloud.com
-0.0.0.0 p39-content.fe.apple-dns.net
-0.0.0.0 p39-content.icloud.com
-0.0.0.0 p40-imap.mail.me.com.akadns.net
-0.0.0.0 p40-mailws.icloud.com
-0.0.0.0 p40-mailws.icloud.com.akadns.net
-0.0.0.0 p41-content.fe.apple-dns.net
-0.0.0.0 p41-content.icloud.com
-0.0.0.0 p41-imap.mail.me.com.akadns.net
-0.0.0.0 p41-mailws.icloud.com
-0.0.0.0 p41-mailws.icloud.com.akadns.net
-0.0.0.0 p42-buy.itunes-apple.com.akadns.net
-0.0.0.0 p42-buy.itunes.apple.com
-0.0.0.0 p42-content.fe.apple-dns.net
-0.0.0.0 p42-content.icloud.com
-0.0.0.0 p43-buy.itunes-apple.com.akadns.net
-0.0.0.0 p43-calendars.fe.apple-dns.net
-0.0.0.0 p43-calendars.icloud.com
-0.0.0.0 p43-content.fe.apple-dns.net
-0.0.0.0 p43-content.icloud.com
-0.0.0.0 p44-buy.itunes-apple.com.akadns.net
-0.0.0.0 p44-buy.itunes.apple.com
-0.0.0.0 p44-content.fe.apple-dns.net
-0.0.0.0 p44-content.icloud.com
-0.0.0.0 p45-calendars.fe.apple-dns.net
-0.0.0.0 p45-calendars.icloud.com
-0.0.0.0 p45-content.fe.apple-dns.net
-0.0.0.0 p45-content.icloud.com
-0.0.0.0 p46-caldav.fe.apple-dns.net
-0.0.0.0 p46-caldav.icloud.com
-0.0.0.0 p46-calendars.fe.apple-dns.net
-0.0.0.0 p46-calendars.icloud.com
-0.0.0.0 p46-content.fe.apple-dns.net
-0.0.0.0 p46-content.icloud.com
-0.0.0.0 p47-content.fe.apple-dns.net
-0.0.0.0 p47-content.icloud.com
-0.0.0.0 p48-buy.itunes-apple.com.akadns.net
-0.0.0.0 p48-buy.itunes.apple.com
-0.0.0.0 p48-calendars.fe.apple-dns.net
-0.0.0.0 p48-calendars.icloud.com
-0.0.0.0 p48-content.fe.apple-dns.net
-0.0.0.0 p48-content.icloud.com
-0.0.0.0 p51-buy.itunes-apple.com.akadns.net
-0.0.0.0 p51-buy.itunes.apple.com
-0.0.0.0 p52-calendars.fe.apple-dns.net
-0.0.0.0 p52-calendars.icloud.com
-0.0.0.0 p54-buy.itunes-apple.com.akadns.net
-0.0.0.0 p54-buy.itunes.apple.com
-0.0.0.0 p54-calendars.fe.apple-dns.net
-0.0.0.0 p54-calendars.icloud.com
-0.0.0.0 p57-calendars.fe.apple-dns.net
-0.0.0.0 p57-calendars.icloud.com
-0.0.0.0 p59-bookmarks.fe.apple-dns.net
-0.0.0.0 p59-bookmarks.icloud.com
-0.0.0.0 p59-caldav.fe.apple-dns.net
-0.0.0.0 p59-caldav.icloud.com
-0.0.0.0 p59-ckdatabase.fe.apple-dns.net
-0.0.0.0 p59-ckdatabase.icloud.com
-0.0.0.0 p59-ckdevice.fe.apple-dns.net
-0.0.0.0 p59-ckdevice.icloud.com
-0.0.0.0 p59-contacts.fe.apple-dns.net
-0.0.0.0 p59-contacts.icloud.com
-0.0.0.0 p59-escrowproxy.fe.apple-dns.net
-0.0.0.0 p59-escrowproxy.icloud.com
-0.0.0.0 p59-fmfmobile.fe.apple-dns.net
-0.0.0.0 p59-fmfmobile.icloud.com
-0.0.0.0 p59-imap.mail.me.com.akadns.net
-0.0.0.0 p59-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p59-keyvalueservice.icloud.com
-0.0.0.0 p59-mailws.icloud.com
-0.0.0.0 p59-mailws.icloud.com.akadns.net
-0.0.0.0 p59-quota.fe.apple-dns.net
-0.0.0.0 p59-quota.icloud.com
-0.0.0.0 p60-caldav.fe.apple-dns.net
-0.0.0.0 p60-caldav.icloud.com
-0.0.0.0 p60-calendars.fe.apple-dns.net
-0.0.0.0 p60-calendars.icloud.com
-0.0.0.0 p61-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p61-keyvalueservice.icloud.com
-0.0.0.0 p62-calendars.fe.apple-dns.net
-0.0.0.0 p62-calendars.icloud.com
-0.0.0.0 p65-availability.fe.apple-dns.net
-0.0.0.0 p65-availability.icloud.com
-0.0.0.0 p65-bookmarks.fe.apple-dns.net
-0.0.0.0 p65-bookmarks.icloud.com
-0.0.0.0 p65-caldav.fe.apple-dns.net
-0.0.0.0 p65-caldav.icloud.com
-0.0.0.0 p65-ckcoderouter.fe.apple-dns.net
-0.0.0.0 p65-ckcoderouter.icloud.com
-0.0.0.0 p65-ckdatabase.fe.apple-dns.net
-0.0.0.0 p65-ckdatabase.icloud.com
-0.0.0.0 p65-ckdevice.fe.apple-dns.net
-0.0.0.0 p65-ckdevice.icloud.com
-0.0.0.0 p65-contacts.fe.apple-dns.net
-0.0.0.0 p65-contacts.icloud.com
-0.0.0.0 p65-content.fe.apple-dns.net
-0.0.0.0 p65-content.icloud.com
-0.0.0.0 p65-escrowproxy.fe.apple-dns.net
-0.0.0.0 p65-escrowproxy.icloud.com
-0.0.0.0 p65-fmf.fe.apple-dns.net
-0.0.0.0 p65-fmf.icloud.com
-0.0.0.0 p65-fmfmobile.fe.apple-dns.net
-0.0.0.0 p65-fmfmobile.icloud.com
-0.0.0.0 p65-fmip.fe.apple-dns.net
-0.0.0.0 p65-fmip.icloud.com
-0.0.0.0 p65-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p65-keyvalueservice.icloud.com
-0.0.0.0 p65-quota.fe.apple-dns.net
-0.0.0.0 p65-quota.icloud.com
-0.0.0.0 p66-availability.fe.apple-dns.net
-0.0.0.0 p66-availability.icloud.com
-0.0.0.0 p66-calendars.fe.apple-dns.net
-0.0.0.0 p66-calendars.icloud.com
-0.0.0.0 p66-contacts.fe.apple-dns.net
-0.0.0.0 p66-contacts.icloud.com
-0.0.0.0 p66-fmf.fe.apple-dns.net
-0.0.0.0 p66-fmf.icloud.com
-0.0.0.0 p66-fmfmobile.fe.apple-dns.net
-0.0.0.0 p66-fmfmobile.icloud.com
-0.0.0.0 p66-fmip.fe.apple-dns.net
-0.0.0.0 p66-fmip.icloud.com
-0.0.0.0 p66-keyvalueservice.fe.apple-dns.net
-0.0.0.0 p66-keyvalueservice.icloud.com
-0.0.0.0 p66-quota.fe.apple-dns.net
-0.0.0.0 p66-quota.icloud.com
-0.0.0.0 p72-buy.itunes-apple.com.akadns.net
-0.0.0.0 0.0.0.0 p72-buy.itunes.apple.com
-0.0.0.0 pancake.apple.com
-0.0.0.0 pancake.cdn-apple.com.akadns.net
-0.0.0.0 pancake.g.aaplimg.com
-0.0.0.0 partiality.itunes-apple.com.akadns.net
-0.0.0.0 partiality.itunes.apple.com
-0.0.0.0 pcr.apple.com
-0.0.0.0 pcr.itunes-apple.com.akadns.net
-0.0.0.0 pd-nk.itunes-apple.com.akadns.net
-0.0.0.0 pd-nk.itunes.apple.com
-0.0.0.0 pd.itunes.apple.com
-0.0.0.0 pipe.cloudapp.aria.akadns.net
-0.0.0.0 pipe.prd.skypedata.akadns.net
-0.0.0.0 play-cdn.itunes-apple.com.akadns.net
-0.0.0.0 seed.siri.apple.com
-0.0.0.0 service.gc-apple.com.akadns.net
-0.0.0.0 service.gc.apple.com
-0.0.0.0 silverbullet-external-ats.itunes-apple.com.akadns.net
-0.0.0.0 silverbullet-external-ats.itunes.apple.com
-0.0.0.0 sjc-courier.push-apple.com.akadns.net
-0.0.0.0 static.deviceservices.apple.com
-0.0.0.0 static.ess.apple.com
-0.0.0.0 static.gc.apple.com
-0.0.0.0 su.itunes.apple.com
-0.0.0.0 swscan.apple.com
-0.0.0.0 tbsc.apple.com
-0.0.0.0 xp.itunes-apple.com.akadns.net
-0.0.0.0 zeusmedia.apple.com
-0.0.0.0 zeusmedia.g.aaplimg.com
-0.0.0.0 uklon5-vip-bx-007.aaplimg.com
-0.0.0.0 defra1-vip-bx-009.aaplimg.com
-0.0.0.0 usmes1-vip-bx-002.aaplimg.com
-0.0.0.0 usnyc3-vip-bx-001.aaplimg.com
-0.0.0.0 defra1-vip-bx-005.aaplimg.com
-0.0.0.0 sgsin3-vip-bx-005.aaplimg.com
-0.0.0.0 usnyc3-vip-bx-005.aaplimg.com
-0.0.0.0 tungsten.aaplimg.com
-0.0.0.0 sesto4-vip-bx-007.aaplimg.com
-0.0.0.0 uklon6-vip-bx-002.aaplimg.com
-0.0.0.0 appldnld.apple.com
-0.0.0.0 albert.apple.com/deviceservices/phoneHome
-0.0.0.0 albert.apple.com/deviceservices/activity
-0.0.0.0 xp.apple.com/report/2/psr_ota
-0.0.0.0 idmsa.apple.com/appleauth/jslog
-
-!A
-0.0.0.0 adnxtr.com
-0.0.0.0 adrunnr.com
-0.0.0.0 adserver.com
-0.0.0.0 adserversolutions.com
-0.0.0.0 adservme.com
-0.0.0.0 adservme.co
-0.0.0.0 adthor.com
-0.0.0.0 adtima.vn
-0.0.0.0 adventori.com
-0.0.0.0 adzerk.com
-0.0.0.0 app.bugfender.com
-0.0.0.0 arc.pub
-0.0.0.0 app.ekoma.io
-0.0.0.0 api.hubapi.com
-0.0.0.0 audio-akp-bbr-spotify-com.akamaized.net
-0.0.0.0 alps.youversionapi.com
-0.0.0.0 adc3-launch.adcolony.com
-0.0.0.0 alogus.umeng.com
-0.0.0.0 alogsus.umeng.com
-0.0.0.0 alogsus.umeng.com.gds.alibabadns.com
-0.0.0.0 admo.net
-0.0.0.0 analytics.webdunia.com
-0.0.0.0 adbox.lk
-0.0.0.0 adlink.lk
-0.0.0.0 ads.korri.fr
-0.0.0.0 advgoogle.com
-0.0.0.0 adserver.admost.com
-0.0.0.0 admost.com
-0.0.0.0 ads.vaguthu.mv
-0.0.0.0 admp-tc-bauer.adtlgc.com
-0.0.0.0 app.readpeak.com
-0.0.0.0 api.survata.net
-0.0.0.0 ads.xyz.ng
-0.0.0.0 analytics-tracker.*
-0.0.0.0 ablogica.com
-0.0.0.0 ads-*-nfl.yinzcam.com
-0.0.0.0 ads-resources.waze.com
-0.0.0.0 ads-trk.vidible.tv
-0.0.0.0 ads.internal.unity3d.com
-0.0.0.0 analytics.bsgwireless.com
-0.0.0.0 ads-nyj-nfl.yinzcam.com
-0.0.0.0 ams-ads-cornerstone-pda-creatives.s3.amazonaws.com
-0.0.0.0 analytics.distributednews.com
-0.0.0.0 awstrack.me
-0.0.0.0 agle2.me
-0.0.0.0 app.mailtag.io
-0.0.0.0 aan.amazon-adsystem.com
-0.0.0.0 amazonappservices.com
-0.0.0.0 absolutesoftware-email.com
-0.0.0.0 apptivo.com
-0.0.0.0 atpclick.com
-0.0.0.0 ads1.atpclick.com
-0.0.0.0 ads.affiliateclub.com
-0.0.0.0 affiliateclub.com
-0.0.0.0 ads.affiliatecruise.com
-0.0.0.0 affiliatecruise.com
-0.0.0.0 ads.affiliate-cruise-mail.com
-0.0.0.0 affiliate-cruise-mail.com
-0.0.0.0 affiliates-spinit.com
-0.0.0.0 ads.annapartners.com
-0.0.0.0 annapartners.com
-0.0.0.0 ads.askgamblers.com
-0.0.0.0 ads.b10f.jp
-0.0.0.0 ads.casumoaffiliates.com
-0.0.0.0 ads.cherrycasino.com
-0.0.0.0 ads.comeon.com
-0.0.0.0 ads.dollartree.com
-0.0.0.0 ads.ellmountgaming.com
-0.0.0.0 adserve.atedra.com
-0.0.0.0 atedra.com
-0.0.0.0 adservex.media.net
-0.0.0.0 adserving.unibet.com
-0.0.0.0 ads.eurogrand.com
-0.0.0.0 ads.eurolotto.com
-0.0.0.0 ads.euroslots.com
-0.0.0.0 adultadworld.com
-0.0.0.0 adup-tech.com
-0.0.0.0 adv.blogupp.com
-0.0.0.0 adv.cr$third-party
-0.0.0.0 advert-solutions.com
-0.0.0.0 advert-technology.ru
-0.0.0.0 advert.ee
-0.0.0.0 advert.io
-0.0.0.0 advertio.com
-0.0.0.0 adverticum.net
-0.0.0.0 afdah.tv
-0.0.0.0 affiliate-b.com
-0.0.0.0 afi-b.com
-0.0.0.0 affinity.com
-0.0.0.0 affiz.net
-0.0.0.0 apvdr.com
-0.0.0.0 apxlv.com
-0.0.0.0 adquality.ch
-0.0.0.0 adshot.de
-0.0.0.0 adstime.org
-0.0.0.0 admulti.com
-0.0.0.0 ad.1k3.com
-0.0.0.0 abctrack.bid
-0.0.0.0 acookie.alibaba.com
-0.0.0.0 activetracker.activehotels.com
-0.0.0.0 ad-bay.com
-0.0.0.0 ad-beacon-v01.uliza.jp
-0.0.0.0 ad-gbn.com
-0.0.0.0 ad-goi.com
-0.0.0.0 ad-img.diyidan.net
-0.0.0.0 ad-indicator.com
-0.0.0.0 ad-m.asia
-0.0.0.0 ad-recommend.com
-0.0.0.0 ad-server.co.za
-0.0.0.0 ad-sponsor.com
-0.0.0.0 adreach.co
-0.0.0.0 adservice.google.ru
-0.0.0.0 adservice.google.*
-0.0.0.0 adsdk.picooapps.com
-0.0.0.0 adsdk-picooapp-elb-50811274.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 adsdk.picooapp.com
-0.0.0.0 a.76674bdad304297eda3d325f449f6f49.com
-0.0.0.0 analytics.ninjakiwi.com
-0.0.0.0 analytics.bluemosh.com
-0.0.0.0 ads.dailyfeed.co.uk
-0.0.0.0 analytics.webgains.io
-0.0.0.0 astra.commerce.yahoo.com
-0.0.0.0 adrollgroup.com
-0.0.0.0 apolloprogram.com
-0.0.0.0 audiencerate.com
-0.0.0.0 audigent.com
-0.0.0.0 apolloprogram.io
-0.0.0.0 audrte.com
-0.0.0.0 audiencemanager.de
-0.0.0.0 a3cloud.net
-0.0.0.0 ad-srv.net
-0.0.0.0 affec.tv
-0.0.0.0 api.company-target.com
-0.0.0.0 ads.yap.yahoo.com
-0.0.0.0 a-ring.msedge.net
-0.0.0.0 api.curbside.com
-0.0.0.0 applog.musical.ly.edgekey.net
-0.0.0.0 applift-a.apptornado.com
-0.0.0.0 androidcrosspromoapi.herokuapp.com
-0.0.0.0 ab08.mktossl.com
-0.0.0.0 appannie.mktoweb.com
-0.0.0.0 appannie.com
-0.0.0.0 api.smart-sense.org
-0.0.0.0 aff_banner.ampxdirect.com
-0.0.0.0 adlanding.admarketplace.net.akadns.net
-0.0.0.0 admarketplace.net.akadns.net
-0.0.0.0 ampxdirect.com
-0.0.0.0 aff_banner.banners.ampfeed.com
-0.0.0.0 ampfeed.com
-0.0.0.0 ad.broadstreetads.com
-0.0.0.0 analysis.polarisoffice.com
-0.0.0.0 analysys.cn
-0.0.0.0 analytics.metrix.ir
-0.0.0.0 analytics.cloud.unity3d.com
-0.0.0.0 adsaccount.appcpi.net
-0.0.0.0 adtrack.appcpi.net
-0.0.0.0 appcpi.net
-0.0.0.0 ads.ebay.com
-0.0.0.0 amanda.tncrun.net
-0.0.0.0 adventurefeeds.com
-0.0.0.0 apppcdownload.com
-0.0.0.0 altmetric.com
-0.0.0.0 advil.waze.com
-0.0.0.0 ads-resources-legacy.waze.com
-0.0.0.0 api.crashlytics.com
-0.0.0.0 api-proxy.nevo.app
-0.0.0.0 analytics.valuepotion.com
-0.0.0.0 a001fraamz.kdn.bitdefender.net
-0.0.0.0 aolon-redirector-farm-m-sdk-b-780386223.us-east-1.elb.amazonaws.com
-0.0.0.0 activision.helpshift.com
-0.0.0.0 a001fraamz.kdn.bitdefender.net
-0.0.0.0 adpopcorn.com
-0.0.0.0 adservice.google.nl
-0.0.0.0 analytics.publitas.com
-0.0.0.0 annualconsumersurvey.com
-0.0.0.0 amarktflow.com
-0.0.0.0 adviggroupdailyfxcom.112.2o7.net
-0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
-0.0.0.0 a.mafiagameglobal.com
-0.0.0.0 ana.whisper.sh
-0.0.0.0 analyticsacademy.withgoogle.com
-0.0.0.0 a.nytimes.com
-0.0.0.0 ad2up.com
-0.0.0.0 adw.wp.pl
-0.0.0.0 adocean.cz
-0.0.0.0 ads.linksrequest.com
-0.0.0.0 ads.yenimedya.com.tr
-0.0.0.0 advgalaxy.com
-0.0.0.0 adwiretracker.fwix.com
-0.0.0.0 adwiretracker.*
-0.0.0.0 affilate.mercola.com
-0.0.0.0 affiliate.ms3388.com
-0.0.0.0 affiliate.productreview.com.au
-0.0.0.0 affiliates.de
-0.0.0.0 analy.qq.com
-0.0.0.0 analyticcdn.wlmediahub.com
-0.0.0.0 appbosh21.wlmediahub.com
-0.0.0.0 analytic.imlive.com
-0.0.0.0 analytics.schoolwires.com
-0.0.0.0 api.ladipage.com
-0.0.0.0 app.purechat.com
-0.0.0.0 api.purechat.com
-0.0.0.0 api-cdn.purechat.com
-0.0.0.0 adn-tksetting-vg-605648748.us-east-1.elb.amazonaws.com
-0.0.0.0 apollo-affiliates.com
-0.0.0.0 analyze.ly
-0.0.0.0 api.growingio.com
-0.0.0.0 ayima.com
-0.0.0.0 ayi.ma
-0.0.0.0 absorbingband.com
-0.0.0.0 affiliation.lws-hosting.com
-0.0.0.0 a1.by
-0.0.0.0 abplockutkach.site
-0.0.0.0 adclickbyte.com
-0.0.0.0 adcator.com
-0.0.0.0 adcannybid.com
-0.0.0.0 adcannyads.com
-0.0.0.0 adcanny.com
-0.0.0.0 adastrasol.com
-0.0.0.0 addropletsrv.com
-0.0.0.0 adeimptrck.com
-0.0.0.0 adeanalysis.com
-0.0.0.0 adex.media
-0.0.0.0 adleads.space
-0.0.0.0 adkomo.com
-0.0.0.0 adkmbc.com
-0.0.0.0 admeridianads.com
-0.0.0.0 admida.com
-0.0.0.0 admidainsight.com
-0.0.0.0 admozartxml.com
-0.0.0.0 admuxer.com
-0.0.0.0 adnexus.mobi
-0.0.0.0 adpays.net
-0.0.0.0 adorca.com
-0.0.0.0 adoptadx.com
-0.0.0.0 adops.click
-0.0.0.0 adopexchange.com
-0.0.0.0 adokutcontextual.com
-0.0.0.0 adpile.net
-0.0.0.0 adportalcloud.com
-0.0.0.0 adpremier.fr
-0.0.0.0 adrebels.net
-0.0.0.0 adscrypto.net
-0.0.0.0 adscloud.net
-0.0.0.0 adsbizarre.com
-0.0.0.0 ads.gold
-0.0.0.0 adserv.online
-0.0.0.0 adserver.pw
-0.0.0.0 adservercheck.net
-0.0.0.0 adserverexchange.in
-0.0.0.0 adshub1.com
-0.0.0.0 adsjoy.com
-0.0.0.0 adsjump.com
-0.0.0.0 adsjump.info
-0.0.0.0 adspt-3615.com
-0.0.0.0 adszx.pro
-0.0.0.0 adswave.co
-0.0.0.0 adstard.com
-0.0.0.0 adsremnant.com
-0.0.0.0 adspt-7005.com
-0.0.0.0 adspt-4250.com
-0.0.0.0 adspt-*.com
-0.0.0.0 adtrackingflow.pro
-0.0.0.0 adtraff.com
-0.0.0.0 adtrafficjam.com
-0.0.0.0 adtriage.com
-0.0.0.0 adtrkr9.com
-0.0.0.0 adunitytracking.mobi
-0.0.0.0 adup.app
-0.0.0.0 adv2cvrt.com
-0.0.0.0 adverster.com
-0.0.0.0 advertagent.eu
-0.0.0.0 advertgoods1.online
-0.0.0.0 advertgoods3.site
-0.0.0.0 adz2you.in
-0.0.0.0 adz2you.net
-0.0.0.0 adzflyer.com
-0.0.0.0 adzmediatrk.com
-0.0.0.0 adzoona.com
-0.0.0.0 adzsx.pro
-0.0.0.0 aerialimpacts.com
-0.0.0.0 affilist.com
-0.0.0.0 affilinet-directory.co.uk
-0.0.0.0 afffarm.com
-0.0.0.0 afftrackr.com
-0.0.0.0 chefnheels.info
-0.0.0.0 afternoon.world
-0.0.0.0 agian.com
-0.0.0.0 uvdesk.com
-0.0.0.0 aj1549.online
-0.0.0.0 an-it-uk-dental-implants-ok.live
-0.0.0.0 analysisable.com
-0.0.0.0 analyticsjs.net
-0.0.0.0 analyticssilo.com
-0.0.0.0 apac-tracker.com
-0.0.0.0 appicmedia.com
-0.0.0.0 appleads-trk.com
-0.0.0.0 applesstext.com
-0.0.0.0 apps4download.club
-0.0.0.0 apps-mobile.xyz
-0.0.0.0 appsuntrack.com
-0.0.0.0 appsworld.online
-0.0.0.0 apptocash.com
-0.0.0.0 apptrackco.com
-0.0.0.0 apptrk.live
-0.0.0.0 articlellkkk1.info
-0.0.0.0 at2.win
-0.0.0.0 atrakr10.com
-0.0.0.0 atrafficreseller.co
-0.0.0.0 adprotect.net
-0.0.0.0 analytics.rayjump.com
-0.0.0.0 ads.erasuper.com
-0.0.0.0 amazonadsi-a.akamaihd.net
-0.0.0.0 ad.nettvservices.com
-0.0.0.0 ad.lgsmartad.com
-0.0.0.0 applog.musical.ly
-0.0.0.0 api.hubspot.com
-0.0.0.0 abtest.goforandroid.com
-0.0.0.0 advshield.goforandroid.com
-0.0.0.0 advshield.goforandroid.com
-0.0.0.0 attr.appsflyer.com
-0.0.0.0 api.appsflyer.com
-0.0.0.0 adviap.goforandroid.com
-0.0.0.0 advshield.goforandroid.com
-0.0.0.0 app.appsflyer.com
-0.0.0.0 api.beaconsinspace.com
-0.0.0.0 airdownload2.adobe.com
-0.0.0.0 api.ticlock.com
-0.0.0.0 aens.belugaboost.com
-0.0.0.0 appad-api-01.perfectcorp.com
-0.0.0.0 ars-dynatrace.allstate.com
-0.0.0.0 aliadvert.ru
-0.0.0.0 adnium.com
-0.0.0.0 affex.org
-0.0.0.0 analytics-ingestion.production-public.tubi.io
-0.0.0.0 acc-hd.de
-0.0.0.0 action.adzcore.com
-0.0.0.0 adzcore.com
-0.0.0.0 ad-cdn.*
-0.0.0.0 adbetclickin.pink
-0.0.0.0 adbetnet.com
-0.0.0.0 adbreak.cdn.ubeei.com
-0.0.0.0 adbreak.cubecdn.net
-0.0.0.0 adtracks.biz
-0.0.0.0 ads1.contentabc.com
-0.0.0.0 ads2.contentabc.com
-0.0.0.0 api.revenuecat.com
-0.0.0.0 appboy.com
-0.0.0.0 amplitude.life360.com
-0.0.0.0 adsansar.com
-0.0.0.0 at-o.net
-0.0.0.0 a.shifen.com
-0.0.0.0 arc.msn.com
-0.0.0.0 asiangfsex.com
-0.0.0.0 aningronbedint.pro
-0.0.0.0 anymad.com
-0.0.0.0 amavirgin.pro
-0.0.0.0 analiud.xyz
-0.0.0.0 analiud.pw
-0.0.0.0 alluringteen.top
-0.0.0.0 adinte.jp
-0.0.0.0 adultlinks.co.za
-0.0.0.0 ac-data.com
-0.0.0.0 axc.nl
-0.0.0.0 awin1.com
-0.0.0.0 adcdnx.com
-0.0.0.0 adult.xyz
-0.0.0.0 ad4mmo.com
-0.0.0.0 accutracking.com
-0.0.0.0 ads.microsoft.com
-0.0.0.0 anonfile.com$domain=anonfiles.com
-0.0.0.0 aimtell.com
-0.0.0.0 azrjdlvlsxihbd.com
-0.0.0.0 aplhabet.applinzi.com
-0.0.0.0 applinzi.com
-0.0.0.0 appsflyer.com
-0.0.0.0 alegrium.helpshift.com
-0.0.0.0 a35945c38b3c4e8c3be964b7786a6a1c.sinasws.com
-0.0.0.0 alliance4creativity.com
-0.0.0.0 ads.freesex.pw
-0.0.0.0 a.es-meetic.club
-0.0.0.0 appsflyer.com
-0.0.0.0 ads2.iid.jp
-0.0.0.0 ad.dmm.com
-0.0.0.0 analytics.kidoz.net
-0.0.0.0 adxadserv.com
-0.0.0.0 adxadtracker.com
-0.0.0.0 adextrem.com
-0.0.0.0 adsanityplugin.com
-0.0.0.0 analytics.icons8.com
-0.0.0.0 *ad.kinstacdn.com
-0.0.0.0 ad.mi.com
-0.0.0.0 aiclean.us.cloud.360safe.com
-0.0.0.0 admqr.com$third-party
-0.0.0.0 allfreecounter.com
-0.0.0.0 afreeca-tag.ad-mapps.com
-0.0.0.0 ad-mapps.com
-0.0.0.0 analytics.qoqa.ninja
-0.0.0.0 analytics-sprint.qoqa.com
-0.0.0.0 analytics.qoqa.ch
-0.0.0.0 analytics.qoqa.com
-0.0.0.0 analytics.snapchat.com
-0.0.0.0 ads.gionee.com
-0.0.0.0 adcore.lenovomm.com
-0.0.0.0 adapi.lenovogame.com
-0.0.0.0 adsfs.oppomobile.com
-0.0.0.0 adx.ads.oppomobile.com
-0.0.0.0 ads.oppomobile.com
-0.0.0.0 analytics.xgimi.com
-0.0.0.0 atlas.torproject.org
-0.0.0.0 adpdx.com
-0.0.0.0 ads.adcloud.net
-0.0.0.0 adcloud.net
-0.0.0.0 ads.usualgirls.com
-0.0.0.0 ads1.brazzers.com
-0.0.0.0 ads2.brazzers.com
-0.0.0.0 ads.adtube.de
-0.0.0.0 adtube.de
-0.0.0.0 ads.adultpopunders.com
-0.0.0.0 amateurmatch.com$third-party
-0.0.0.0 asiafriendfinder.com$third-party
-0.0.0.0 adultpopunders.com
-0.0.0.0 ads.iknowthatgirl.com
-0.0.0.0 adsaturn.com
-0.0.0.0 abhimig.info
-0.0.0.0 affiliaxe.com
-0.0.0.0 adgatemedia.com
-0.0.0.0 adsurge.com
-0.0.0.0 adsfast.com
-0.0.0.0 affiliates.luckybet.com
-0.0.0.0 aragon-advertising.com
-0.0.0.0 affiliatetrading.net
-0.0.0.0 app.redtrack.io
-0.0.0.0 avocado.trtrak.com
-0.0.0.0 anstrex.com
-0.0.0.0 adperiscope.com
-0.0.0.0 app.rtxplatform.com
-0.0.0.0 assets-landingi.com
-0.0.0.0 advertizer.com
-0.0.0.0 adcombo.com
-0.0.0.0 alfaleads.net
-0.0.0.0 affiliates.fxmonetize.com
-0.0.0.0 affmy.com
-0.0.0.0 adfox.ru
-0.0.0.0 advert-technology.*
-0.0.0.0 adshob.com
-0.0.0.0 ali-crm.ru
-0.0.0.0 analytics-v4-poc.ff.avast.com
-0.0.0.0 analytics.msnbc.msn.com
-0.0.0.0 alpha.telemetry.microsft.com
-0.0.0.0 analytics.allovoisins.co
-0.0.0.0 analytics.alternativet.dk
-0.0.0.0 analytics.developer.riotgames.com
-0.0.0.0 analytics.ext.go-tellm.com
-0.0.0.0 androidapi.mxplay.com
-0.0.0.0 androidc.mxplay.com
-0.0.0.0 app.conversiobot.com
-0.0.0.0 analytics.feeder.co
-0.0.0.0 ajjhtetv87.com
-0.0.0.0 awstats.org
-0.0.0.0 agreements.goguardian.com
-0.0.0.0 account.goguardian.com
-0.0.0.0 antburape.club
-0.0.0.0 ailawlani.club
-0.0.0.0 andarcair.club
-0.0.0.0 advisories.review
-0.0.0.0 adzsafe.com
-0.0.0.0 aefd.nelreports.net
+! Start Domain Blocklist
+||smp-device-content.apple.com$important
+||comscoreresearch.com$important
+||init.ess.apple.com$important
+||profile.gc.apple.com$important
+||uts-api.itunes.apple.com$important
+||userpub.itunes.apple.com$important
+||init-p01md.apple.com$important
+||iadsdk.apple.com$important
+||basejumper.apple.com$important
+||cl4.apple.com$important
+||metrics.icloud.com$important
+||api-glb-msp.smoot.apple.com$important
+||time-ios.g.aaplimg.com$important
+||e17437.dscb.akamaiedge.net$important
+||attwifi.apple.com$important
+||parsec.apple.com$important
+||iad.apple.com$important
+||chein-1.apple.com$important
+||albert.apple.com$important
+||search.itunes.apple.com$important
+||sf-api-token-service.itunes.apple.com$important
+||se-edge.itunes.apple.com$important
+||stats.gc.apple.com$important
+||advertising.apple.com$important
+||autolinkmaker.itunes.apple.com$important
+||searchads.apple.com$important
+||securemetrics.apple.com$important
+||xp.apple.com$important
+||mesu.apple.com$important
+||apsu.apple.com$important
+||apfw.apple.com$important
+||daypass.api-aka.smoot.apple.com$important
+||daypass.api-glb-atl.smoot.apple.com$important
+||daypass.api-glb-lon.smoot.apple.com$important
+||daypass.api-glb-sea.smoot.apple.com$important
+||smoot.apple.com$important
+||api.smoot.apple.com$important
+||geo.itunes.apple.com$important
+||gsp-ssl-dynamic.ls-apple.com.akadns.net$important
+||gsp-ssl.ls-apple.com.akadns.net$important
+||gsp-ssl.ls.apple.com$important
+||gsp-ssl.ls2-apple.com.akadns.net$important
+||gsp1.apple.com$important
+||gsp10-ssl.apple.com$important
+||gsp10-ssl.ls-apple.com.akadns.net$important
+||gsp10-ssl.ls.apple.com$important
+||gsp36-ssl.ls-apple.com.akadns.net$important
+||gsp36-ssl.ls.apple.com$important
+||gsp47-ssl.ls-apple.com.akadns.net$important
+||gsp47-ssl.ls.apple.com$important
+||gsp51-ssl.ls-apple.com.akadns.net$important
+||gsp51-ssl.ls.apple.com$important
+||gsp57-ssl-background.ls-apple.com.akadns.net$important
+||gsp57-ssl-background.ls.apple.com$important
+||hls.itunes.apple.com$important
+||hls.itunes.g.aaplimg.com$important
+||gsp57-ssl-locus.ls-apple.com.akadns.net$important
+||gsp57-ssl-locus.ls.apple.com$important
+||gsp57-ssl-revgeo.ls-apple.com.akadns.net$important
+||gsp57-ssl-revgeo.ls.apple.com$important
+||gsp64-ssl.ls-apple.com.akadns.net$important
+||gsp64-ssl.ls.apple.com$important
+||gsp9-ssl.apple.com$important
+||gsp9-ssl.ls-apple.com.akadns.net$important
+||gspe1-ssl.ls.apple.com$important
+||gspe11-ssl.ls.apple.com$important
+||gspe12-ssl.ls.apple.com$important
+||gspe19-ssl-dualstack.ls-apple.com.akadns.net$important
+||gspe19-ssl.ls.apple.com$important
+||gspe21-ssl.ls.apple.com$important
+||gspe35-ssl.ls-apple.com.akadns.net$important
+||gspe35-ssl.ls.apple.com$important
+||guzzoni.apple.com$important
+||health-assets.cdn-apple.com$important
+||gs-loc-new.ls-apple.com.akadns.net$important
+||gs-loc.apple.com$important
+||gs-loc.ls-apple.com.akadns.net$important
+||gs.apple.com.akadns.net$important
+||gsa.apple.com$important
+||gsa.apple.com.akadns.net$important
+||gsas.apple.com$important
+||gsas.apple.com.akadns.net$important
+||pancake.apple.com$important
+||feedback.apple.com$important
+||guzzoni.apple.com$important
+||static.ips.apple.com$important
+||qtpartners.apple.com$important
+||iphonesubmissions.apple.com$important
+||iphone-services.apple.com$important
+||idiagnostics.apple.com$important
+||iphonediags.apple.com$important
+||radarsubmissions.apple.com$important
+||messagetracer-whitelist.apple.com$important
+||icalbridge.apple.com$important
+||bugreport.apple.com$important
+||redcarpet.apple.com$important
+||speedtracer.apple.com$important
+||tracerx-radars.apple.com$important
+||internalcheck.apple.com$important
+||depot.info.apple.com$important
+||idmsauth-uat.corp.apple.com$important
+||appleconnect-uat.apple.com$important
+||appleseed-stage.apple.com$important
+||iforgot-uat.apple.com$important
+||xseedapps.apple.com$important
+||appleseed-temp.apple.com$important
+||crucio.apple.com$important
+||ac-at.apple.com$important
+||iforgott.apple.com$important
+||mobile-uat.corp.apple.com$important
+||idmswt.corp.apple.com$important
+||mobile.apple.com$important
+||mobile-bz-mdn.apple.com$important
+||privftp.apple.com$important
+||mobile-bz-privftp.apple.commdn.apple.com$important
+||cssubmissions-uat.corp.apple.com$important
+||cssubmissions.apple.com$important
+||caldav.icloud.com$important
+||statici.icloud.com$important
+||pancake.apple.com$important
+||pancake.cdn-apple.com.akadns.net$important
+||pancake.g.aaplimg.com$important
+||partiality.itunes-apple.com.akadns.net$important
+||partiality.itunes.apple.com$important
+||pcr.apple.com$important
+||pcr.itunes-apple.com.akadns.net$important
+||pd-nk.itunes-apple.com.akadns.net$important
+||pd-nk.itunes.apple.com$important
+||pd.itunes.apple.com$important
+||pipe.cloudapp.aria.akadns.net$important
+||pipe.prd.skypedata.akadns.net$important
+||play-cdn.itunes-apple.com.akadns.net$important
+||seed.siri.apple.com$important
+||service.gc-apple.com.akadns.net$important
+||service.gc.apple.com$important
+||silverbullet-external-ats.itunes-apple.com.akadns.net$important
+||silverbullet-external-ats.itunes.apple.com$important
+||sjc-courier.push-apple.com.akadns.net$important
+||static.deviceservices.apple.com$important
+||static.ess.apple.com$important
+||static.gc.apple.com$important
+||su.itunes.apple.com$important
+||swscan.apple.com$important
+||tbsc.apple.com$important
+||xp.itunes-apple.com.akadns.net$important
+||zeusmedia.apple.com$important
+||zeusmedia.g.aaplimg.com$important
+||appldnld.apple.com$important
+||adnxtr.com$important
+||adrunnr.com$important
+||adserver.com$important
+||adserversolutions.com$important
+||adservme.com$important
+||adservme.co$important
+||adthor.com$important
+||adtima.vn$important
+||adventori.com$important
+||adzerk.com$important
+||arc.pub$important
+||alps.youversionapi.com$important
+||admo.net$important
+||analytics.webdunia.com$important
+||adbox.lk$important
+||adlink.lk$important
+||ads.korri.fr$important
+||advgoogle.com$important
+||admost.com$important
+||ads.vaguthu.mv$important
+||ads.xyz.ng$important
+||analytics-tracker.$important
+||ablogica.com$important
+||ads-*-nfl.yinzcam.com$important
+||ads-resources.waze.com$important
+||ads.internal.unity3d.com$important
+||analytics.bsgwireless.com$important
+||ams-ads-cornerstone-pda-creatives.s3.amazonaws.com$important
+||analytics.distributednews.com$important
+||awstrack.me$important
+||agle2.me$important
+||amazonappservices.com$important
+||absolutesoftware-email.com$important
+||apptivo.com$important
+||atpclick.com$important
+||affiliateclub.com$important
+||affiliatecruise.com$important
+||affiliate-cruise-mail.com$important
+||affiliates-spinit.com$important
+||annapartners.com$important
+||ads.askgamblers.com$important
+||ads.b10f.jp$important
+||ads.cherrycasino.com$important
+||ads.comeon.com$important
+||ads.dollartree.com$important
+||ads.ellmountgaming.com$important
+||atedra.com$important
+||adserving.unibet.com$important
+||ads.eurogrand.com$important
+||ads.eurolotto.com$important
+||ads.euroslots.com$important
+||adultadworld.com$important
+||adup-tech.com$important
+||adv.blogupp.com$important
+||adv.cr$third-party$important
+||advert-solutions.com$important
+||advert-technology.ru$important
+||advert.ee$important
+||advert.io$important
+||advertio.com$important
+||adverticum.net$important
+||afdah.tv$important
+||affiliate-b.com$important
+||afi-b.com$important
+||affinity.com$important
+||affiz.net$important
+||apvdr.com$important
+||apxlv.com$important
+||adquality.ch$important
+||adshot.de$important
+||adstime.org$important
+||admulti.com$important
+||ad.1k3.com$important
+||abctrack.bid$important
+||acookie.alibaba.com$important
+||activetracker.activehotels.com$important
+||ad-bay.com$important
+||ad-beacon-v01.uliza.jp$important
+||ad-gbn.com$important
+||ad-goi.com$important
+||ad-img.diyidan.net$important
+||ad-indicator.com$important
+||ad-m.asia$important
+||ad-recommend.com$important
+||ad-server.co.za$important
+||ad-sponsor.com$important
+||adreach.co$important
+||adservice.google.$important
+||adsdk.picooapps.com$important
+||adsdk-picooapp*-*.amazonaws.com$important
+||adsdk.picooapp.com$important
+||analytics.ninjakiwi.com$important
+||analytics.bluemosh.com$important
+||ads.dailyfeed.co.uk$important
+||analytics.webgains.io$important
+||astra.commerce.yahoo.com$important
+||adrollgroup.com$important
+||apolloprogram.com$important
+||audiencerate.com$important
+||audigent.com$important
+||apolloprogram.io$important
+||audrte.com$important
+||audiencemanager.de$important
+||a3cloud.net$important
+||ad-srv.net$important$important
+||affec.tv$important$important
+||api.company-target.com$important
+||ads.yap.yahoo.com$important
+||a-ring.msedge.net$important
+||applog.musical.ly.edgekey.net$important
+||apptornado.com$important
+||androidcrosspromoapi.herokuapp.com$important
+||appannie.com$important$important
+||admarketplace.net.akadns.net$important
+||ampxdirect.com$important$important
+||ampfeed.com$important$important
+||analysis.polarisoffice.com$important
+||analysys.cn$important$important
+||analytics.cloud.unity3d.com$important
+||appcpi.net$important$important
+||ads.ebay.com$important$important
+||adventurefeeds.com$important
+||apppcdownload.com$important
+||altmetric.com$important
+||advil.waze.com$important
+||ads-resources-legacy.waze.com
+||api-proxy.nevo.app$important
+||analytics.valuepotion.com$important
+||adpopcorn.com$important
+||analytics.publitas.com$important
+||annualconsumersurvey.com$important
+||amarktflow.com$important
+||analytics-collector-*.amazonaws.com$important
+||a.mafiagameglobal.com$important
+||ana.whisper.sh$important
+||analyticsacademy.withgoogle.com$important
+||a.nytimes.com$important
+||ad2up.com$important
+||adw.wp.pl$important
+||adocean.cz$important
+||ads.linksrequest.com$important
+||ads.yenimedya.com.tr$important
+||advgalaxy.com$important
+||adwiretracker.$important
+||affilate.mercola.com$important
+||affiliate.productreview.com.au$important
+||affiliates.de$important
+||analy.qq.com$important
+||analyticcdn.wlmediahub.com$important
+||appbosh21.wlmediahub.com$important
+||analytic.imlive.com$important
+||analytics.schoolwires.com$important
+||ladipage.com$important
+||purechat.com$important
+||apollo-affiliates.com$important
+||analyze.ly$important
+||ayima.com$important
+||ayi.ma$important
+||absorbingband.com$important
+||affiliation.lws-hosting.com$important
+||a1.by$important
+||abplockutkach.site$important
+||adclickbyte.com$important
+||adcator.com$important
+||adcannybid.com$important
+||adcannyads.com$important
+||adcanny.com$important
+||adastrasol.com$important
+||addropletsrv.com$important
+||adeimptrck.com$important
+||adeanalysis.com$important
+||adex.media$important
+||adleads.space$important
+||adkomo.com$important
+||adkmbc.com$important
+||admeridianads.com$important
+||admida.com$important
+||admidainsight.com$important
+||admozartxml.com$important
+||admuxer.com$important
+||adnexus.mobi$important
+||adpays.net$important
+||adorca.com$important
+||adoptadx.com$important
+||adops.click$important
+||adopexchange.com$important
+||adokutcontextual.com$important
+||adpile.net$important
+||adportalcloud.com$important
+||adpremier.fr$important
+||adrebels.net$important
+||adscrypto.net$important
+||adscloud.net$important
+||adsbizarre.com$important
+||ads.gold$important
+||adserv.online$important
+||adserver.pw$important
+||adservercheck.net$important
+||adserverexchange.in$important
+||adshub1.com$important
+||adsjoy.com$important
+||adsjump.com$important
+||adsjump.info$important
+||adszx.pro$important
+||adswave.co$important
+||adstard.com$important
+||adsremnant.com$important
+||adspt-*.com$important
+||adtrackingflow.pro$important
+||adtraff.com$important
+||adtrafficjam.com$important
+||adtriage.com$important
+||adtrkr9.com$important
+||adunitytracking.mobi$important
+||adup.app$important
+||adv2cvrt.com$important
+||adverster.com$important
+||advertagent.eu$important
+||advertgoods*.online$important
+||advertgoods*.site$important
+||adz2you.in$important
+||adz2you.net$important
+||adzflyer.com$important
+||adzmediatrk.com$important
+||adzoona.com$important
+||adzsx.pro$important
+||aerialimpacts.com$important
+||affilist.com$important
+||affilinet-directory.co.uk$important
+||afffarm.com$important
+||afftrackr.com$important
+||chefnheels.info$important
+||afternoon.world$important
+||agian.com$important
+||uvdesk.com$important
+||aj1549.online$important
+||analysisable.com$important
+||analyticsjs.net$important
+||analyticssilo.com$important
+||apac-tracker.com$important
+||appicmedia.com$important
+||appleads-trk.com$important
+||applesstext.com$important
+||apps4download.club$important
+||apps-mobile.xyz$important
+||appsuntrack.com$important
+||appsworld.online$important
+||apptocash.com$important
+||apptrackco.com$important
+||apptrk.live$important
+||articlellkkk1.info$important
+||at2.win$important
+||atrakr10.com$important
+||atrafficreseller.co$important
+||adprotect.net$important
+||ads.erasuper.com$important
+||amazonadsi-a.akamaihd.net$important
+||ad.nettvservices.com$important
+||applog.musical.ly$important
+||airdownload2.adobe.com$important
+||aens.belugaboost.com$important
+||appad-*.perfectcorp.com$important
+||ars-dynatrace.allstate.com$important
+||aliadvert.ru$important
+||adnium.com$important
+||affex.org$important
+||analytics-ingestion.production-public.tubi.io$important
+||acc-hd.de$important
+||adzcore.com$important
+||ad-cdn.$important
+||adbetclickin.pink$important
+||adbetnet.com$important
+||adbreak.cubecdn.net$important
+||adtracks.biz$important
+||appboy.com$important
+||amplitude.life360.com$important
+||adsansar.com$important
+||at-o.net$important
+||arc.msn.com$important
+||asiangfsex.com$important
+||aningronbedint.pro$important
+||anymad.com$important
+||amavirgin.pro$important
+||analiud.xyz$important
+||analiud.pw$important
+||alluringteen.top$important
+||adinte.jp$important
+||adultlinks.co.za$important
+||ac-data.com$important
+||axc.nl$important
+||awin1.com$important
+||adcdnx.com$important
+||adult.xyz$important
+||ad4mmo.com$important
+||accutracking.com$important
+||ads.microsoft.com$important
+||aimtell.com$important
+||aplhabet.applinzi.com$important
+||applinzi.com$important
+||appsflyer.com$important
+||alliance4creativity.com$important
+||ads.freesex.pw$important
+||ads*.iid.jp$important
+||ad.dmm.com$important
+||adxadserv.com$important
+||adxadtracker.com$important
+||adextrem.com$important
+||adsanityplugin.com$important
+||analytics.icons8.com$important
+||ad.kinstacdn.com$important
+||ad.mi.com$important
+||aiclean.us.cloud.360safe.com$important
+||admqr.com$important
+||allfreecounter.com$important
+||ad-mapps.com$important
+||analytics.qoqa.ninja$important
+||analytics-sprint.qoqa.com$important
+||analytics.qoqa.ch$important
+||analytics.qoqa.com$important
+||analytics.snapchat.com$important
+||ads.gionee.com$important
+||adcore.lenovomm.com$important
+||adapi.lenovogame.com$important
+||adsfs.oppomobile.com$important
+||adx.ads.oppomobile.com$important
+||ads.oppomobile.com$important
+||analytics.xgimi.com$important
+||atlas.torproject.org$important
+||adpdx.com$important
+||adcloud.net$important
+||ads*.brazzers.com$important
+||adtube.de$important
+||amateurmatch.com$third-party,$important
+||asiafriendfinder.com$third-party,$important
+||adultpopunders.com$important
+||ads.iknowthatgirl.com$important
+||adsaturn.com$important
+||abhimig.info$important
+||affiliaxe.com$important
+||adgatemedia.com$important
+||adsurge.com$important
+||adsfast.com$important
+||affiliates.luckybet.com$important
+||aragon-advertising.com$important
+||affiliatetrading.net$important
+||trtrak.com$important
+||anstrex.com$important
+||adperiscope.com$important
+||assets-landingi.com$important
+||advertizer.com$important
+||adcombo.com$important
+||alfaleads.net$important
+||affmy.com$important
+||adfox.ru$important
+||advert-technology.$important
+||adshob.com$important
+||ali-crm.ru$important
+||analytics-v4-poc.ff.avast.com$important
+||analytics.msnbc.msn.com$important
+||alpha.telemetry.microsft.com$important
+||analytics.allovoisins.co$important
+||analytics.alternativet.dk$important
+||analytics.developer.riotgames.com$important
+||analytics.ext.go-tellm.com$important
+||androidapi.mxplay.com$important
+||androidc.mxplay.com$important
+||analytics.feeder.co$important
+||awstats.org$important
+||goguardian.com$important
+||antburape.club$important
+||ailawlani.club$important
+||andarcair.club$important
+||advisories.review$important
+||adzsafe.com$important
+! START HERE
 0.0.0.0 adclick.g-media.com
 0.0.0.0 ads.depositfiles.com
 0.0.0.0 ads.genericlink.com
@@ -1815,7 +954,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a2.chartboost.com
 0.0.0.0 a3.chartboost.com
 0.0.0.0 a3.ogt.jp
-0.0.0.0 a4cdn.contentabc.com
 0.0.0.0 aa-gb.adskeeper.co.uk
 0.0.0.0 aa-nb.adskeeper.co.uk
 0.0.0.0 aa.agkn.com
@@ -2528,9 +1666,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ads.everquote.com
 0.0.0.0 apuja.siencesratify.com
 0.0.0.0 atmosphereoutside.com
-0.0.0.0 adservex.media.net
 0.0.0.0 analytics.localytics.com
-0.0.0.0 app.hubspot.com
 0.0.0.0 assets.casualportals.com
 0.0.0.0 assets.orangegames.com
 0.0.0.0 aam.cz
@@ -2636,10 +1772,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 agoogle.com
 0.0.0.0 ampcid.google.com
 0.0.0.0 adserving-cpxinteractive.google-feed.net
-0.0.0.0 adservice.google.alsace
-0.0.0.0 adservice.google.cat
-0.0.0.0 adservice.google.boats
-0.0.0.0 adservice.google.berlin
 0.0.0.0 ad.googleanalysis.mobi
 0.0.0.0 adsby.webtraffic.se
 0.0.0.0 adsby.de
@@ -2783,7 +1915,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 www.adfrontiers.com
 0.0.0.0 adfrontiers.com
 0.0.0.0 adframesrc.com
-0.0.0.0 adfox.ru
 0.0.0.0 adcombination.com
 0.0.0.0 adclicks.io
 0.0.0.0 www.adclick.lv
@@ -2841,13 +1972,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ancestry.siteintercept.qualtrics.com
 0.0.0.0 analytics.servogram.io
 0.0.0.0 appcues.com
-0.0.0.0 www.appcues.com
 0.0.0.0 *.adiode.com
-0.0.0.0 www.adiode.com
 0.0.0.0 adiode.com
 0.0.0.0 advertising.oriel.io
-0.0.0.0 analytics.kidoz.net
-0.0.0.0 www.app.usekahuna.com
 0.0.0.0 app.usekahuna.com
 0.0.0.0 api.branch.io
 0.0.0.0 analytics.plex.tv
@@ -2888,7 +2015,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 adinnovation.co.jp
 0.0.0.0 a1.adstore.jp
 0.0.0.0 adstore.jp
-0.0.0.0 adservice.google.com.au
 0.0.0.0 ad-cdn.technoratimedia.com
 0.0.0.0 access.adblox.net
 0.0.0.0 adblox.net
@@ -3136,9 +2262,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 adserver.shadow.snapads.com
 0.0.0.0 ad.flipboard.com
 0.0.0.0 ad.api.kaffnet.com
-0.0.0.0 advonline.goforandroid.com
-0.0.0.0 adpush.goforandroid.com
-0.0.0.0 advs2sonline.goforandroid.com
 0.0.0.0 ad.weplayer.cc
 0.0.0.0 anetwork.ir
 0.0.0.0 adzouktech.com
@@ -3350,7 +2473,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ads.svatbata.org
 0.0.0.0 adv.swzone.it
 0.0.0.0 adtag.sympatico.ca
-0.0.0.0 adtlgc.com
 0.0.0.0 ads.sol.no
 0.0.0.0 analytics.soup.io
 0.0.0.0 analytic.spamfighter.com
@@ -3472,7 +2594,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 android.bcfads.com
 0.0.0.0 android-sdk31.transpera.com
 0.0.0.0 android-hilfe.de.intellitxt.com
-0.0.0.0 adserver.goforandroid.com
 0.0.0.0 advertising.microsoft.com
 0.0.0.0 analytics.abacast.com
 0.0.0.0 analytics.ad.daum.net
@@ -3611,16 +2732,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 appanalytics.io
 0.0.0.0 addapptr.com
 0.0.0.0 apptentive.com
-0.0.0.0 ar.umeng.com
-0.0.0.0 alogs.umeng.com
 0.0.0.0 analytics.uber.com
 0.0.0.0 ads.nexage.com
-0.0.0.0 alog.umeng.com
-0.0.0.0 alog.umeng.co
 0.0.0.0 apptimize.com
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 appmetrica.yandex.com
-0.0.0.0 appsflyer.com
 0.0.0.0 ads.unity3d.com
 0.0.0.0 api.alphonso.tv
 0.0.0.0 acuityads.com
@@ -3637,7 +2753,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ads.ac.uk
 0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
-0.0.0.0 adservice.google.com
 0.0.0.0 analytics.com
 0.0.0.0 ads.mobilebet.com
 0.0.0.0 ads.msstate.edu
@@ -3925,13 +3040,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 adrotic.girlonthenet.com
 0.0.0.0 adrta.com
 0.0.0.0 ads-click.com
-0.0.0.0 ads-trk.vidible.tv
 0.0.0.0 ads.4tube.com
 0.0.0.0 ads.5ci.lt
 0.0.0.0 ads.abovetopsecret.com
 0.0.0.0 ads.aceweb.net
 0.0.0.0 ads.activestate.com
-0.0.0.0 ads.adfox.ru
 0.0.0.0 ads.administrator.de
 0.0.0.0 ads.adshareware.net
 0.0.0.0 ads.adultfriendfinder.com
@@ -4014,7 +3127,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ads.co.com
 0.0.0.0 ads.com.com
 0.0.0.0 ads.contactmusic.com
-0.0.0.0 ads.contentabc.com
 0.0.0.0 ads.contextweb.com
 0.0.0.0 ads.crakmedia.com
 0.0.0.0 ads.creative-serving.com
@@ -4317,8 +3429,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 app.monetizze.com.br
 0.0.0.0 app.scanscout.com
 0.0.0.0 a.ads2.msads.net
-
-!B
 0.0.0.0 bugfender.com
 0.0.0.0 bl-1.com
 0.0.0.0 bixel.io
@@ -4403,7 +3513,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 *-bh.pbp.vip.bf1.yahoo.com
 0.0.0.0 bytesignal.com
 0.0.0.0 blocked.com-default.ws
-0.0.0.0 big-go-chune.goguardian.com
 0.0.0.0 balvalur.com
 0.0.0.0 bp1.com
 0.0.0.0 beap.gemini.yahoo.com
@@ -4428,7 +3537,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 beacons.extremereach.io
 0.0.0.0 brightline.tv
 0.0.0.0 b1.nel.goog
-0.0.0.0 beacon-fullpage-predictor.goguardian.com
 0.0.0.0 beverlyhillsmd.com
 0.0.0.0 bit-coin-trader.com
 0.0.0.0 brealtime.com
@@ -4798,7 +3906,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bbcios.2cnt.net
 0.0.0.0 betrad.com
 0.0.0.0 bbciostest.2cnt.net
-0.0.0.0 bbcnewscouk.112.2o7.net
 0.0.0.0 bbf7n.voluumtrk.com
 0.0.0.0 bbn.img.com.ua
 0.0.0.0 bbp.brazzers.com
@@ -4825,7 +3932,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 be.mobsweet.com
 0.0.0.0 be.nedstat.net
 0.0.0.0 be.sitestat.com
-0.0.0.0 be2be2nz.122.2o7.net
 0.0.0.0 bea4.v.fwmrm.net
 0.0.0.0 beacon-1.newrelic.com
 0.0.0.0 beacon-2.newrelic.com
@@ -4871,20 +3977,16 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 begun.ru
 0.0.0.0 behacdn.ksmobile.net
 0.0.0.0 behance.vo.llnwd.net
-0.0.0.0 beiersdorf.122.2o7.net
 0.0.0.0 bekissedxpyno.download
 0.0.0.0 bekleidet.digidip.net
 0.0.0.0 beliesqhmsin.download
-0.0.0.0 bellca.112.2o7.net
 0.0.0.0 bellca.demdex.net
-0.0.0.0 bellserviceeng.112.2o7.net
 0.0.0.0 belole.ru
 0.0.0.0 belstat.be
 0.0.0.0 benchbrands.com
 0.0.0.0 benderswaojb.download
 0.0.0.0 benefique-shiseido.b.appier.net
 0.0.0.0 berater.adition.com
-0.0.0.0 bergenstidende.112.2o7.net
 0.0.0.0 beseen.com
 0.0.0.0 bespatehwxslkoz.download
 0.0.0.0 best-ads.com
@@ -4908,7 +4010,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 betatest.adition.com
 0.0.0.0 betrad.com
 0.0.0.0 better-counter.com
-0.0.0.0 betterhg.112.2o7.net
 0.0.0.0 bettermail.ca
 0.0.0.0 betting.betfair.com
 0.0.0.0 bettraf.com
@@ -4926,7 +4027,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bh.contextweb.com
 0.0.0.0 bh2y3.voluumtrk.com
 0.0.0.0 bhconsulting.go2cloud.org
-0.0.0.0 bhgmarketing.112.2o7.net
 0.0.0.0 bi-three.wooga.com
 0.0.0.0 bi.installcore.com
 0.0.0.0 bi.medscape.com
@@ -5000,8 +4100,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 blindferretmedia.go2cloud.org
 0.0.0.0 blkget6.com
 0.0.0.0 blm.bz
-0.0.0.0 blockbuster.112.2o7.net
-0.0.0.0 blockbustercom.112.2o7.net
 0.0.0.0 blockedf9ojq.voluumtrk.com
 0.0.0.0 blocks.ginotrack.com
 0.0.0.0 blog-hits.com
@@ -5051,14 +4149,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bnbaz.eb2a.com
 0.0.0.0 bncrf.voluumtrk.com
 0.0.0.0 bng3w.voluumtrk.com
-0.0.0.0 bnkr8dev.112.2o7.net
 0.0.0.0 bnr.sys.lv
 0.0.0.0 bo-videos.s3.amazonaws.com
 0.0.0.0 bo.jumptap.com
 0.0.0.0 boaaabsdcsubtends.review
 0.0.0.0 boardreader.us.intellitxt.com
 0.0.0.0 boards2go.com
-0.0.0.0 bodybuilding-com.112.2o7.net
 0.0.0.0 bofa.demdex.net
 0.0.0.0 bogeymanpbbgzoi.download
 0.0.0.0 boh00.voluumtrk.com
@@ -5105,7 +4201,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bos-tapreq18.jumptap.com
 0.0.0.0 bos-tapreq19.jumptap.com
 0.0.0.0 bos-tapreq20.jumptap.com
-0.0.0.0 bosecom.112.2o7.net
 0.0.0.0 boss.berlinonline.de
 0.0.0.0 bossip.us.intellitxt.com
 0.0.0.0 bosslegen.de
@@ -5174,7 +4269,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 brightshare.com
 0.0.0.0 briskads.go2affise.com
 0.0.0.0 british-banners.com
-0.0.0.0 britishtelecom.112.2o7.net
 0.0.0.0 britneyexperts.us.intellitxt.com
 0.0.0.0 broadjump.com
 0.0.0.0 broker.adobe.com
@@ -5303,8 +4397,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 buongiorno.go2cloud.org
 0.0.0.0 burbledchxtg.download
 0.0.0.0 bam.nr-data.net
-
-!C
 0.0.0.0 crptgate.com
 0.0.0.0 cradver.*
 0.0.0.0 clean.gg
@@ -5356,7 +4448,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 c3d1c-3fac1.api.pushwoosh.com
 0.0.0.0 cp.pushwoosh.com
 0.0.0.0 csm.fr.eu.criteo.net
-0.0.0.0 cdn.broadstreetads.com
 0.0.0.0 cdn.getambassador.com
 0.0.0.0 cdn.iwmf.ir
 0.0.0.0 cafe-log.myshoplus.com
@@ -5395,7 +4486,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 collect.analyze.ly
 0.0.0.0 common.radar.imgsmail.ru
 0.0.0.0 clientapi.mail.ru
-0.0.0.0 cdn11.contentabc.com
 0.0.0.0 cb.ksmobile.com
 0.0.0.0 chat.customerly.io
 0.0.0.0 customerly.io
@@ -5420,7 +4510,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 cdn2.hubspot.net
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 cdn.88-f.net
-0.0.0.0 conf.api.hk.goforandroid.com
 0.0.0.0 cognito-identity.ap-northeast-1.amazonaws.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 clad.perfectcorp.com
@@ -5506,7 +4595,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 collect.usefathom.com
 0.0.0.0 caramel.press
-0.0.0.0 checkup.goguardian.com
 0.0.0.0 ct.verticalhealth.net
 0.0.0.0 coinad.com
 0.0.0.0 cpxl.golem.de
@@ -5583,7 +4671,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 confiant-integrations.global.ssl.fastly.net
 0.0.0.0 cdin.me
 0.0.0.0 core.zontera.com
-0.0.0.0 code3.adtlgc.com
 0.0.0.0 cnetcontentsolutions.com
 0.0.0.0 content.webcollage.net
 0.0.0.0 cdn.zidedge.com
@@ -5633,9 +4720,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 connect.podium.com
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 content.flexlinks.com
-0.0.0.0 comscoreresearch.com
 0.0.0.0 captive.apple.com
-0.0.0.0 countvoncount.goguardian.com
 0.0.0.0 cm*-lax1.cm.steampowered.com
 0.0.0.0 crlsets.brave.com
 0.0.0.0 chrome.adtidy.org
@@ -5917,7 +5002,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 click.e.wmg.com
 0.0.0.0 canalsubscrib.com
 0.0.0.0 choppywaves.com
-0.0.0.0 contextual.media.net
 0.0.0.0 contra-virus.com
 0.0.0.0 cb.amazingcounters.com
 0.0.0.0 caideation.secure.force.com
@@ -6071,7 +5155,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 content.tapjoy.com
 0.0.0.0 crisp.chat
 0.0.0.0 client.crisp.chat
-0.0.0.0 cdn.kidoz.net
 0.0.0.0 *.ctoid.net
 0.0.0.0 csm.jp.as.criteo.net
 0.0.0.0 ctoid.net
@@ -6243,7 +5326,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 counter.spylog.com
 0.0.0.0 cnt.sup.com
 0.0.0.0 clix.superclix.de
-0.0.0.0 code3.adtlgc.com
 0.0.0.0 cpabuild.com
 0.0.0.0 code.new.smartcontext.pl
 0.0.0.0 counter.search.bg
@@ -6307,7 +5389,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 c1.microsoft.com
 0.0.0.0 cdn.engine.phn.doublepimp.com
 0.0.0.0 cdn.doublepimpssl.com
-0.0.0.0 cdn.appsflyer.com
 0.0.0.0 counter.nope.dk
 0.0.0.0 cc.webpower.com
 0.0.0.0 clickcash.webpower.com
@@ -6402,7 +5483,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 condenastdigital.com
 0.0.0.0 cdn-images.mailchimp.com
 0.0.0.0 cdn.ywxi.net
-0.0.0.0 cdn.vidible.tv
 0.0.0.0 c1.rfihub.net
 0.0.0.0 capture.condenastdigital.com
 0.0.0.0 cdn.accelerator.arsdev.net
@@ -6513,8 +5593,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn01.basis.net
 0.0.0.0 creative.medialytics.com
-
-!D
 0.0.0.0 dntrx.com
 0.0.0.0 d36aw3ue2ntmsq.cloudfront.net
 0.0.0.0 didtheyreadit.com
@@ -6557,7 +5635,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 devicemessaging.*-*-1.amazon.com
 0.0.0.0 dbbp1.pro$popup
 0.0.0.0 dynamicadx.com
-0.0.0.0 dev.appboy.com
 0.0.0.0 dnsotls-ds.metric.gstatic.com
 0.0.0.0 contentabc.com
 0.0.0.0 cc.xtgreat.com
@@ -6587,8 +5664,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 dsms0mj1bbhn4.cloudfront.net
 0.0.0.0 dynsrvbaa.com
 0.0.0.0 doublepimp.com$popup
-0.0.0.0 deliver.ads2.iid.jp
-0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 device-metrics-us-1.amazon.com
 0.0.0.0 device-metrics-us-2.amazon.com
 0.0.0.0 device-metrics-us-3.amazon.com
@@ -6753,7 +5828,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 d.smopy.com
 0.0.0.0 download-geek.com
 0.0.0.0 digitalriver.com
-0.0.0.0 delivery.vidible.tv
 0.0.0.0 dfw28s04-in-x0a.1e100.net
 0.0.0.0 dfw25s13-in-x0a.1e100.net
 0.0.0.0 dfw28s01-in-x0a.1e100.net
@@ -7023,7 +6097,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 dragzebra.com
 0.0.0.0 driverequest.com
 0.0.0.0 data-monitor.info
-0.0.0.0 detect.rayjump.com
 0.0.0.0 dc.railgun.works
 0.0.0.0 dashboard.privy.com
 0.0.0.0 www.datacaciques.com
@@ -7293,8 +6366,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 data.mobclix.com
 0.0.0.0 dynamicyield.com
 0.0.0.0 downloads.mailchimp.com
-
-!E
 0.0.0.0 e-9741.adzerk.net
 0.0.0.0 ev.surveywall-api.survata.com
 0.0.0.0 exp.wg.spotify.com
@@ -7334,11 +6405,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 eyeviewads.com
 0.0.0.0 edaa.eu
 0.0.0.0 ey9cms.goitcl.com
-0.0.0.0 equuleus.iad.appboy.com
 0.0.0.0 exacttargetapis.com
-0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
-0.0.0.0 events-endpoint-c-394794954.us-east-1.elb.amazonaws.com
-0.0.0.0 eu-srv.apptornado.com
 0.0.0.0 exoclick.com$popup,popunder
 0.0.0.0 e.dr-zh.com
 0.0.0.0 ethn.io
@@ -7387,8 +6454,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 events.api.bosecm.com
 0.0.0.0 edgetipscdn.microsoft.com
 0.0.0.0 exoticads.com
-0.0.0.0 experiments-api.goguardian.com
-0.0.0.0 extapi.goguardian.com
 0.0.0.0 enzxnhimfmnk.com
 0.0.0.0 etrust.pro
 0.0.0.0 eroadvertising.com
@@ -7424,7 +6489,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 emmx.microsoftedgeinsider.com
 0.0.0.0 ec-tpm-404-6948.ac.bcon.ecdns.net
 0.0.0.0 engine.adzerk.net
-0.0.0.0 ext.goguardian.com
 0.0.0.0 e.adguardian.net
 0.0.0.0 expresvpn-private-analytics.net
 0.0.0.0 evgnet.com
@@ -7722,7 +6786,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ec-ns.sascdn.com
 0.0.0.0 egooad.com
 0.0.0.0 elasticad.net
-0.0.0.0 events.appsflyer.com
 0.0.0.0 www.ezec.co.uk
 0.0.0.0 evbeacon.godaddy.com
 0.0.0.0 exosrv.com
@@ -7765,8 +6828,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 exponential.com
 0.0.0.0 ec2-35-163-238-255.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
-
-!F
 0.0.0.0 fractionalmedia.com
 0.0.0.0 fltag.findlawresources.com
 0.0.0.0 friends2follow.com
@@ -7788,7 +6849,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 fls-*.amazon.com
 0.0.0.0 frozen-layer.net
 0.0.0.0 fdroid.tetaneutral.net
-0.0.0.0 forms.hubspot.com
 0.0.0.0 fascinatednosed.club
 0.0.0.0 ffjjti.frl$third-party,domain=~mp3juices.cc
 0.0.0.0 free-browser.co
@@ -7824,7 +6884,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 fireroll.fun
 0.0.0.0 forwrdnow.com
 0.0.0.0 f-log-at.grammarly.io
-0.0.0.0 fleet.goguardian.com
 0.0.0.0 frontalidsp.playoncenter.com
 0.0.0.0 findher2date.com
 0.0.0.0 fp-afd-ccc.com
@@ -7853,7 +6912,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 f-log-extension.grammarly.io
 0.0.0.0 fs.microsoft.com
 0.0.0.0 fbprod.flipboard.com
-0.0.0.0 flipboard.helpshift.com
 0.0.0.0 firebasedynamiclinks-ipv6.googleapis.com
 0.0.0.0 firebasedynamiclinks-ipv4.googleapis.com
 0.0.0.0 fundingchoicesmessages.google.com
@@ -8090,8 +7148,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 frog.wix.com
 0.0.0.0 fyc.heyzap.com
 0.0.0.0 freshmarketer.com
-
-!G
 0.0.0.0 gerlinger.org
 0.0.0.0 graph.microsoft.com
 0.0.0.0 gscounters.eu1.gigya.com
@@ -8190,7 +7246,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 geoip.ubuntu.com
 0.0.0.0 goaccess.io
 0.0.0.0 googletraveladservices.com
-0.0.0.0 gatekeeper.goguardian.com
 0.0.0.0 gsspat.jp
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 godog.shopifycloud.com
@@ -8247,7 +7302,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gs.dailymail.co.uk
 0.0.0.0 goreal.at
 0.0.0.0 gallery.smartadserver.com
-0.0.0.0 gallery.adtima.vn
 0.0.0.0 goodsp.admicro.vn
 0.0.0.0 g.eclick.vn
 0.0.0.0 groupdev.wufoo.com
@@ -8299,10 +7353,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 getip.devehab.com
 0.0.0.0 gopher-buddy-dev.appspot.com
 0.0.0.0 gopher-buddy-prod.appspot.com
-0.0.0.0 *.goguardian.com
-0.0.0.0 www.goguardian.com
-0.0.0.0 goguardian.com
-0.0.0.0 goguardian.*
 0.0.0.0 good.alibaba.com
 0.0.0.0 gj.mmstat.com
 0.0.0.0 ga.clearbit.com
@@ -8358,16 +7408,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 geoads.com
 0.0.0.0 gaspra.iad-03.braze.com
 0.0.0.0 gfxa.sheetmusicplus.com
-0.0.0.0 guc3-accesspoint-b-cb59.ap.spotify.com
-0.0.0.0 guc3-accesspoint-c-dmnl.ap.spotify.com
-0.0.0.0 guc3-accesspoint-b-xss8.ap.spotify.com
-0.0.0.0 guc3-accesspoint-b-xnt9.ap.spotify.com
-0.0.0.0 guc3-accesspoint-b-dd4b.ap.spotify.com
-0.0.0.0 gae2-accesspoint-b-qfwz.ap.spotify.com
-0.0.0.0 gae2-accesspoint-b-1r3q.ap.spotify.com
-0.0.0.0 gae2-accesspoint-b-hcv5.ap.spotify.com
-0.0.0.0 guc3-accesspoint-b-cc4c.ap.spotify.com
-0.0.0.0 github.umeng.com
 0.0.0.0 gist-assets.github.exacttarget.com
 0.0.0.0 gist.github.exacttarget.com
 0.0.0.0 gist-raw.github.exacttarget.com
@@ -8375,9 +7415,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 github.tinypass.com
 0.0.0.0 github.algolia.com
 0.0.0.0 gtssl2-ocsp.geotrust.com
-0.0.0.0 www.groovinads.com
 0.0.0.0 groovinads.com
-0.0.0.0 www.groovingads.com
 0.0.0.0 groovingads.com
 0.0.0.0 googlewebcache.com
 0.0.0.0 google-analytics.bi.owox.com
@@ -8392,10 +7430,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gateway.answerscloud.com
 0.0.0.0 go.americapixel.com
 0.0.0.0 gvt.net.br
-0.0.0.0 www.globalmediagroup.pt
 0.0.0.0 globalmediagroup.pt
 0.0.0.0 gumgum.com
-0.0.0.0 gazeta.adfox.ru
 0.0.0.0 gdpr.internetbrands.com
 0.0.0.0 gdpr.prisa.com
 0.0.0.0 go.trafficrouter.io
@@ -8485,8 +7521,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 goadservices.com
 0.0.0.0 global.adserver.yahoo.com
 0.0.0.0 www.google.com.1.302br.net
-0.0.0.0 gopacket.goforandroid.com
-0.0.0.0 geoip.goforandroid.com
 0.0.0.0 googleads1.g.doubleclick.net
 0.0.0.0 googleads2.g.doubleclick.net
 0.0.0.0 googleads3.g.doubleclick.net
@@ -8542,8 +7576,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 geoip.nekudo.com
 0.0.0.0 gurgle.zdbb.net
 0.0.0.0 gannett.hb.omtrdc.net
-
-!H
 0.0.0.0 hubapi.com
 0.0.0.0 hubspotemail.net
 0.0.0.0 hdfcbank.net
@@ -8580,7 +7612,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 hrtsclmulpwnr.com
 0.0.0.0 heatmap.me
 0.0.0.0 heartbeats.omtrdc.net
-0.0.0.0 harambe.goguardian.com
 0.0.0.0 hioopbhernn.com
 0.0.0.0 healte.de
 0.0.0.0 hilltopads.net
@@ -8795,8 +7826,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 hypertrack.io
 0.0.0.0 hockeyapp.net
 0.0.0.0 helpshift.com
-
-!I
 0.0.0.0 icons8-analytics.herokuapp.com
 0.0.0.0 img1.zergnet.com
 0.0.0.0 i.clean.gg
@@ -8807,7 +7836,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ipv4.tracker.harry.lu
 0.0.0.0 ipv6.tracker.zerobytes.xyz
 0.0.0.0 ipv6.tracker.zerobytes.xyz
-0.0.0.0 ibn.adreach.co
 0.0.0.0 images2.zemanta.com
 0.0.0.0 images.taboola.com
 0.0.0.0 intercom-mail.com
@@ -8920,8 +7948,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 imp-adedge.i-mobile.co.jp
 0.0.0.0 imp-adedge.*
 0.0.0.0 indexhu.adocean.pl
-0.0.0.0 inquisition.goguardian.com
-0.0.0.0 ip.goguardian.com
 0.0.0.0 ipm.bitdefender.com
 0.0.0.0 isrg.trustid.ocsp.identrust.com
 0.0.0.0 ion-ma.turner.com.edgekey.net
@@ -9552,8 +8578,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 i.kissmetrics.com
 0.0.0.0 ionicframework.com
 0.0.0.0 init.supersonicads.com
-
-!J
 0.0.0.0 jload01.info
 0.0.0.0 jumpshot.com
 0.0.0.0 jan-sampark.nic.in
@@ -9675,8 +8699,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 js.adsrvr.org
 0.0.0.0 js.driftt.com
 0.0.0.0 js.users.51.la
-
-!K
 0.0.0.0 katie.dntrx.com
 0.0.0.0 kodand.wildapricot.org
 0.0.0.0 kbmg.com
@@ -9715,7 +8737,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 keytape.fun
 0.0.0.0 keyrich.fun
 0.0.0.0 k12insight.com
-0.0.0.0 kings-hand.goguardian.com
 0.0.0.0 kqzyfj.com
 0.0.0.0 *-kra2007c.net
 0.0.0.0 kitbit.net
@@ -9982,7 +9003,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kandys-pussy-pictures.gocunt.com
 0.0.0.0 kane.oicp.net
 0.0.0.0 kaneirrigation.com
-0.0.0.0 kanevadev1.112.2o7.net
 0.0.0.0 kangsungcs.com
 0.0.0.0 kanguk.com
 0.0.0.0 kangyoung.0pe.kr
@@ -10054,7 +9074,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 karas-xxx.inhit.com
 0.0.0.0 karaszkiewicz.neostrada.pl
 0.0.0.0 karateinkai.ukm.undip.ac.id
-0.0.0.0 karavel.112.2o7.net
 0.0.0.0 karawanmusic.com
 0.0.0.0 karawin.fr
 0.0.0.0 karayurt.nl
@@ -10153,12 +9172,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kaspar.free.fr
 0.0.0.0 kasparpr.cz
 0.0.0.0 kasper.facebook-apps.me
-0.0.0.0 kaspersky.122.2o7.net
 0.0.0.0 kaspersky.d3.sc.omtrdc.net
 0.0.0.0 kasperskyse.widget.criteo.com
 0.0.0.0 kaspersky-security.com
 0.0.0.0 kaspersky-shop.ch
-0.0.0.0 kasperthreatpostprod.112.2o7.net
 0.0.0.0 kassabravo.com
 0.0.0.0 kassamoulantonne.com
 0.0.0.0 kassandra-bibby.us
@@ -10291,7 +9308,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kba.ch
 0.0.0.0 kba.org.pk
 0.0.0.0 kbb.demdex.net
-0.0.0.0 kbbmain.112.2o7.net
 0.0.0.0 kbc.be.institut-blaisepascal.com
 0.0.0.0 kbc.be.qazispecialistclinic.com
 0.0.0.0 kbcleaning.ca
@@ -10347,7 +9363,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kdbrj0psml.bradul.creatory.org
 0.0.0.0 kdc.demdex.net
 0.0.0.0 kddfv.voluumtrk.com
-0.0.0.0 kddi.122.2o7.net
 0.0.0.0 kddphilanthropy.com
 0.0.0.0 kddtri.cn
 0.0.0.0 kdecom.com
@@ -10430,7 +9445,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 keflex.net
 0.0.0.0 kefthymioudevelopment.com
 0.0.0.0 kefu.duba.net
-0.0.0.0 kegerator.com.102.112.2o7.net
 0.0.0.0 keginverness.com
 0.0.0.0 kegulkso.pw
 0.0.0.0 kehfco.com
@@ -10464,7 +9478,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kelkoo-fra.t.domdex.com
 0.0.0.0 kelkoo-gbr.t.domdex.com
 0.0.0.0 keller-gmbh.de
-0.0.0.0 kelleybluebook.112.2o7.net
 0.0.0.0 kellicardoso.com
 0.0.0.0 kellie-eicher.us
 0.0.0.0 kelliethomson.com
@@ -10494,8 +9507,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 kemmassb.com
 0.0.0.0 kemvaleo.ru
 0.0.0.0 krxd.net
-
-!L
 0.0.0.0 logger.c1oudmobi.net
 0.0.0.0 leapmobs.com
 0.0.0.0 linkopp.net
@@ -10522,7 +9533,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 log.mgtv.com
 0.0.0.0 logs.gaana.com
 0.0.0.0 log.avlyun.com
-0.0.0.0 launches.appsflyer.com
 0.0.0.0 log.avlyun.com
 0.0.0.0 lp-push-server-860.lastpass.com
 0.0.0.0 lb-140-82-113-3-iad.github.com
@@ -10723,7 +9733,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 log.optimizely.com
 0.0.0.0 login.groovinads.com
 0.0.0.0 liveinternet.ru
-0.0.0.0 lintv.122.2o7.net
 0.0.0.0 live.activeconversion.com
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
@@ -10814,13 +9823,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 loggly.com
 0.0.0.0 ligatus.com
 0.0.0.0 location.silverpush.com
-
-!M
 0.0.0.0 meedoen.kekmama.nl
 0.0.0.0 mxapis.com
 0.0.0.0 media-api.recosenselabs.com
 0.0.0.0 maxthon.cn
-0.0.0.0 mobile.admost.com
 0.0.0.0 mobile-data.s3.brave.com
 0.0.0.0 match-visualsearch.amazon.com
 0.0.0.0 mailstat.us
@@ -11420,10 +10426,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 mycomputer.superstats.com
 0.0.0.0 media-mc-adrunner.mycomputer.com
 0.0.0.0 media-adrunner.mycomputer.com
-0.0.0.0 microsoftwindows.112.2o7.net
-0.0.0.0 microsoftwga.112.2o7.net
-0.0.0.0 microsoftgamestudio.112.2o7.net
-0.0.0.0 microsofteup.112.2o7.net
 0.0.0.0 microsoft-watch.us.intellitxt.com
 0.0.0.0 myscoop-tracking.googlecode.com
 0.0.0.0 mcc.godaddy.com
@@ -11516,8 +10518,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 mobpartner.mobi
 0.0.0.0 m2m1.inner-active.mobi
 0.0.0.0 memo2.nl
-
-!N
 0.0.0.0 n1272adserv.xyz
 0.0.0.0 nmtracking.netflix.com
 0.0.0.0 net-ad-vantage.com
@@ -11544,8 +10544,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 nexstardigital.com
 0.0.0.0 newoctads.com
 0.0.0.0 newwedads.com
-0.0.0.0 no-cache.hubspot.com
-0.0.0.0 newstoredata.goforandroid.com
 0.0.0.0 nameservice.dolphin-browser.com
 0.0.0.0 nlkdom.com
 0.0.0.0 nativesubscribe.pro
@@ -11826,8 +10824,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 nativex.com
 0.0.0.0 newrelic.com
 0.0.0.0 n149adserv.com
-
-!O
 0.0.0.0 onlineuserscounter.com
 0.0.0.0 opoxv.com
 0.0.0.0 open.demonii.com
@@ -12060,14 +11056,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 optmnstr.com
 0.0.0.0 www.ojrq.net
 0.0.0.0 ojrq.net
-0.0.0.0 oc.umeng.com
-0.0.0.0 oc.umeng.co
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
 0.0.0.0 oclasrv.com
 0.0.0.0 open.ad.yieldmanager.net
-
-!P
 0.0.0.0 pa.rxthdr.com
 0.0.0.0 portal.tinychill.com
 0.0.0.0 parse.townsquaremedia.com
@@ -12119,7 +11111,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 parandaya.com
 0.0.0.0 pslweb.org
 0.0.0.0 purechat.com
-0.0.0.0 prod-grpc-alpha-parent-client-gateway.goguardian.com
 0.0.0.0 popup.taboola.com
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 prebid.adnxs.com
@@ -12185,10 +11176,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 px.spiceworks.com
 0.0.0.0 pr-bh.pbp.vip.bf1.yahoo.com
 0.0.0.0 pulsar.ebay.com
-0.0.0.0 potato-juice.goguardian.com
-0.0.0.0 polyjuice-api.goguardian.com
 0.0.0.0 p3a.brave.com
-0.0.0.0 p2-iemmhkvlemspu-efful6gj327yvhst-if-v6exp3-v4.metric.gstatic.com
+0.0.0.0 metric.gstatic.com
 0.0.0.0 policityseriod.info
 0.0.0.0 presence-heartbeat.xboxlive.com
 0.0.0.0 pix.revjet.com
@@ -12253,7 +11242,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 pub-images.gourmetads.com
 0.0.0.0 pxlgnpgecom-a.akamaihd.net
 0.0.0.0 p33-ckdevice.icloud.com
-0.0.0.0 panther.goguardian.com
 0.0.0.0 postback.applinzi.com
 0.0.0.0 *-prod.do.*.microsoft.com
 0.0.0.0 ping.yoyogames.com
@@ -12314,7 +11302,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 publisher.admicro.vn
 0.0.0.0 pubmine.com
 0.0.0.0 postrelease.com
-0.0.0.0 plbslog.umeng.com
 0.0.0.0 platformapi.metadata.io
 0.0.0.0 pixel.mintigo.com
 0.0.0.0 promotions.newegg.com
@@ -12414,7 +11401,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 px.owneriq.net
 0.0.0.0 preview.diigo.com
 0.0.0.0 px.airpr.com
-0.0.0.0 paypal.112.2o7.net
 0.0.0.0 protection.lspolice.com
 0.0.0.0 pioneeringad.com
 0.0.0.0 pixel-sync.sitescout.com
@@ -12740,8 +11726,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 phonograph2.voxmedia.com
 0.0.0.0 pixel.condenastdigital.com
 0.0.0.0 p.typekit.net
-
-!Q
 0.0.0.0 q1connect.com
 0.0.0.0 quantum-advertising.com
 0.0.0.0 qejvh5yd.pw
@@ -12751,7 +11735,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 qwerty24.net
 0.0.0.0 q4i.co
 0.0.0.0 quickkoala.io
-0.0.0.0 quiddity.goguardian.com
 0.0.0.0 qposhka.com
 0.0.0.0 qryuumwmiupy.com
 0.0.0.0 quantcast.com
@@ -12830,8 +11813,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 quantcast.mgr.consensu.org
 0.0.0.0 qubit.com
 0.0.0.0 qnsr.com
-
-!R
 0.0.0.0 recosenselabs.com
 0.0.0.0 readpeak.com
 0.0.0.0 rlog_sem.vizio.com
@@ -12851,7 +11832,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 rta2.metro.co.uk
 0.0.0.0 remain.appcpi.net
 0.0.0.0 rqmob.com
-0.0.0.0 red.broadstreetads.com
 0.0.0.0 robotornotcheckonline.icu
 0.0.0.0 rsalchk.com
 0.0.0.0 receivetipstricks.com
@@ -12859,7 +11839,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 redirectingat.com
 0.0.0.0 redirect.geo.kaspersky.com
 0.0.0.0 raintwig.com
-0.0.0.0 roomapi-signalr.prod-aws.purechat.com
 0.0.0.0 reklama.mail.ru
 0.0.0.0 radar.imgsmail.ru
 0.0.0.0 redirdomain.ru
@@ -13088,7 +12067,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 robustbelieve.com
 0.0.0.0 rulerabbit.com
 0.0.0.0 rtk.io
-0.0.0.0 www.rayjump.com
 0.0.0.0 rayjump.com
 0.0.0.0 rs.fullstory.com
 0.0.0.0 *.redshell.io
@@ -13162,7 +12140,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 www.revenuehits.com
 0.0.0.0 revenuehits.com
 0.0.0.0 retiremely.com
-0.0.0.0 register.appsflyer.com
 0.0.0.0 req.startappservice.com
 0.0.0.0 rum-static.pingdom.net
 0.0.0.0 r1.computerbild.de
@@ -13204,8 +12181,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 richrelevance.com
 0.0.0.0 rt.udmserve.net
 0.0.0.0 r.skimresources.com
-
-!S
 0.0.0.0 survata.net
 0.0.0.0 static.truex.com
 0.0.0.0 safeurl.maxthon.cn
@@ -13216,7 +12191,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 seguno.com
 0.0.0.0 stats.waterfox.net
 0.0.0.0 s.opoxv.com
-0.0.0.0 stc.adtima.vn
 0.0.0.0 st.linkfire.com
 0.0.0.0 sendgrid.com
 0.0.0.0 stat-pulse.com
@@ -13304,13 +12278,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 scripts.webcontentassessor.com
 0.0.0.0 searchformsonline.com
 0.0.0.0 stats.vk-portal.net
-0.0.0.0 setting.rayjump.com
 0.0.0.0 stats.hbbtv.smartclip.net
 0.0.0.0 sukebei.tracker.wf
 0.0.0.0 stats.coronalabs.com
 0.0.0.0 sdk-assets.localytics.com
 0.0.0.0 service.fyber.com
-0.0.0.0 supercell.helpshift.com
 0.0.0.0 stats-proto.pandora.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
 0.0.0.0 sanalytics.verizon.com
@@ -13396,9 +12368,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 stats.jamwtds.co
 0.0.0.0 siteheatmaps.com
 0.0.0.0 statsy.net
-0.0.0.0 smart-alerts.goguardian.com
-0.0.0.0 shylock.goguardian.com
-0.0.0.0 static.goguardian.com
 0.0.0.0 syndication.twimg.com
 0.0.0.0 sentry.ghostmonitor.net
 0.0.0.0 shy.elfsight.com
@@ -13422,7 +12391,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 sock53-goguardian.pusher.com
 0.0.0.0 sockjs-goguardian.pusher.com
 0.0.0.0 sl-h-statistics-ch-1.storeland.ru
-0.0.0.0 screenshots.goguardian.com
 0.0.0.0 source.mmi.bemobile.ua
 0.0.0.0 static-v.tawk.to
 0.0.0.0 s.zmctrack.net
@@ -13456,7 +12424,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 skypromotion.ru
 0.0.0.0 sn00.net
 0.0.0.0 staticcache.org
-0.0.0.0 sakura.goguardian.com
 0.0.0.0 stats.ibtimes.co.uk
 0.0.0.0 spoor-api.ft.com
 0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
@@ -13511,7 +12478,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 shareasale.com
 0.0.0.0 sb-ssl.google.com
 0.0.0.0 s-pijg97ih.chv6tzb9kvxhzeoj1.com
-0.0.0.0 snat.goguardian.com
 0.0.0.0 services.disconnect.me.herokudns.com
 0.0.0.0 services.disconnect.me
 0.0.0.0 stats.norton.com
@@ -13609,8 +12575,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 stats.zaloapp.com
 0.0.0.0 shop.zalo.me
 0.0.0.0 sp.zalo.me
-0.0.0.0 static.adtima.vn
-0.0.0.0 stc.adtima.vn
 0.0.0.0 st-au.ants.vn
 0.0.0.0 st.polyad.net
 0.0.0.0 st.html.polyad.net
@@ -13863,10 +12827,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 statistics.2miners.com
 0.0.0.0 statistics.afasonline.com
 0.0.0.0 statistics.aldi-international.com
-0.0.0.0 statisticsapi.prod.vidible.tv
-0.0.0.0 statisticsapi-stage.vidible.tv
-0.0.0.0 statisticsapi.stage.vidible.tv
-0.0.0.0 statisticsapi.vidible.tv
 0.0.0.0 statistics.appjop.com
 0.0.0.0 statistics.crowdynews.com
 0.0.0.0 statistics-cyberpank.co.cc
@@ -14124,22 +13084,17 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 superficialsink.com
 0.0.0.0 swordgoose.com
 0.0.0.0 static.tidiochat.com
-0.0.0.0 stats.appsflyer.com
 0.0.0.0 sdk-cdn.beeketing.com
 0.0.0.0 scs.webtrends.com
 0.0.0.0 sync.rtk.io
-0.0.0.0 *.stats.avast.com
 0.0.0.0 stats.avast.com
 0.0.0.0 statgw2.devtodev.com
 0.0.0.0 sofia.trustx.org
 0.0.0.0 single.upsight-api.com
-0.0.0.0 static.zotabox.com
-0.0.0.0 sdk.kidoz.net
+0.0.0.0 static.zotabox.co
 0.0.0.0 summerhamster.com
-0.0.0.0 www.summerhamster.com
 0.0.0.0 serve.adtrackers.net
 0.0.0.0 serve.bannertrack.net
-0.0.0.0 sdk.appsflyer.com
 0.0.0.0 saber.srvcs.tumblr.com
 0.0.0.0 services.adblox.net
 0.0.0.0 servs.adblox.net
@@ -14487,15 +13442,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 static.olark.com
 0.0.0.0 smartadserver.com
 0.0.0.0 sekindo.com
-0.0.0.0 www.smartadserver.com
 0.0.0.0 smart-ip.net
 0.0.0.0 springserve.com
 0.0.0.0 secure-au.imrworldwide.com
 0.0.0.0 www.stupidwebtools.com
-0.0.0.0 www2.smartadserver.com
-0.0.0.0 www3.smartadserver.com
-0.0.0.0 www4.smartadserver.com
-0.0.0.0 ww14.smartadserver.com
 0.0.0.0 st.a-link.co.kr
 0.0.0.0 sprout-ad.com
 0.0.0.0 server.cpmstar.com
@@ -14541,7 +13491,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 surfgalleries.com
 0.0.0.0 surfingonmyown.info
 0.0.0.0 surfingprizes.com
-0.0.0.0 surfline.112.2o7.net
 0.0.0.0 surflinksmedical.com
 0.0.0.0 surfmatch.com
 0.0.0.0 surfmusik-adserver.de
@@ -14644,8 +13593,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 sbnationbidder-d.openx.net
 0.0.0.0 sejs.moatads.com
 0.0.0.0 scripts.kissmetrics.com
-
-!T
 0.0.0.0 triggers.wfxtriggers.com
 0.0.0.0 tcx-live-chat.appspot.com
 0.0.0.0 trk.ablogica.com
@@ -14713,15 +13660,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 toolkits.mobi
 0.0.0.0 t.irtyf.com
 0.0.0.0 titpus.com
-0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 tvpage.com
 0.0.0.0 trak.rbxcdn.com
 0.0.0.0 traffictrader.net
 0.0.0.0 t.propbn.com
 0.0.0.0 tanx.com
 0.0.0.0 touchsplash.radar.imgsmail.ru
-0.0.0.0 t.growingio.com
-0.0.0.0 tags.growingio.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 tracksrv.zdf.de
 0.0.0.0 tracker.wf
@@ -14730,7 +13674,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 tracker.torrentyorg.pl
 0.0.0.0 tracker.yoshi210.com
 0.0.0.0 tr.bangumi.moe
-0.0.0.0 t.appsflyer.com
 0.0.0.0 ticlock.com
 0.0.0.0 track-n-trace.net
 0.0.0.0 trustaffs.com
@@ -14913,7 +13856,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 trafyield.com
 0.0.0.0 tlnk.io
 0.0.0.0 tracker.pandora.com
-0.0.0.0 track.hubspot.com
 0.0.0.0 thunderhead-media.s3.eu-west-2.amazonaws.com
 0.0.0.0 thunderhead.com
 0.0.0.0 trktnc.com
@@ -15391,8 +14333,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 tags.bluekai.com
 0.0.0.0 telize.com
 0.0.0.0 tt.omtrdc.net
-
-!U
 0.0.0.0 ultra-rv.com
 0.0.0.0 uparpu.com
 0.0.0.0 urlsec.qq.com
@@ -15445,7 +14385,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 usapi2.xirsys.com
 0.0.0.0 usapi3.xirsys.com
 0.0.0.0 udc.yahoo.com
-0.0.0.0 ulogs.umeng.com
 0.0.0.0 ui.staples-sparx.com
 0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
 0.0.0.0 ultimatelicense.com
@@ -15550,11 +14489,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 update.sdk.jiguang.cn
 0.0.0.0 unknowntray.com
 0.0.0.0 unrulymedia.com
-0.0.0.0 uop.umeng.com
 0.0.0.0 unity3d.ads.com
 0.0.0.0 ua.supersonicads.com
 0.0.0.0 us.supersonicads.com
 0.0.0.0 umeng.com
+0.0.0.0 umeng.co
 0.0.0.0 umeng.fb
 0.0.0.0 untd.com
 0.0.0.0 urbanairship.com
@@ -15575,8 +14514,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ubm.tt.omtrdc.net
 0.0.0.0 userzoom.com
 0.0.0.0 us.adserver.yahoo.com
-
-!V
 0.0.0.0 voodoo-analytics.io
 0.0.0.0 vgorzfcz.tk
 0.0.0.0 vmiua.com
@@ -15601,9 +14538,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 vxfjgkhy.goitcl.com
 0.0.0.0 voicefive.com
 0.0.0.0 vtemaaftwexu.com
-0.0.0.0 vz-cdn2.contentabc.com
-0.0.0.0 vg-setting.rayjump.com
-0.0.0.0 vg-old-setting.rayjump.com
 0.0.0.0 vip0x04e.ssl.rncdn5.com
 0.0.0.0 vcen.dolphin-browser.com
 0.0.0.0 verifycaptcha.com
@@ -15788,8 +14722,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 v.shopify.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 v.admaster.com.cn
-
-!W
 0.0.0.0 wfxtriggers.com
 0.0.0.0 widget.criteo.com
 0.0.0.0 webwerks.learnvibes.net
@@ -15814,7 +14746,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 weekly-prizes.co
 0.0.0.0 wap.com
 0.0.0.0 wh.ip-adress.com
-0.0.0.0 widgetapi.purechat.com
 0.0.0.0 widget.customerly.io
 0.0.0.0 webcontentassessor.com
 0.0.0.0 wt4xd.bemobpath.com
@@ -16095,8 +15026,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 whos.amung.us
 0.0.0.0 www.exacttarget.com
 0.0.0.0 exacttarget.com
-0.0.0.0 www4.smartadserver.com
-0.0.0.0 ww1510.smartadserver.com
 0.0.0.0 widget-v4.tidiochat.com
 0.0.0.0 wwwabrokegamercom.imageshack.host
 0.0.0.0 wearesmartertravel.com
@@ -16174,12 +15103,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 www.woopra.com
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
-0.0.0.0 windstream.com
-0.0.0.0 windstreamenterprise.com
 0.0.0.0 webads.nl
 0.0.0.0 wv.inner-active.mobi
-
-!X
 0.0.0.0 xpostmail.com
 0.0.0.0 x-us.appbaqend.com
 0.0.0.0 xaxis.com
@@ -16206,9 +15131,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 xplosion.de
 0.0.0.0 xml.boffoadsfeeds.com
 0.0.0.0 xinvites.com
-0.0.0.0 x3-predictor.goguardian.com
 0.0.0.0 xxxad.net
-0.0.0.0 x3-policy-maker.goguardian.com
 0.0.0.0 xpressunblock.com
 0.0.0.0 xboxab.com
 0.0.0.0 xmediaserve.com
@@ -16216,7 +15139,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 xp2.zedo.com
 0.0.0.0 x.castanet.net
 0.0.0.0 x.bidswitch.net
-0.0.0.0 xp-krapp.picooapp.com
 0.0.0.0 xirsys.com
 0.0.0.0 xml.adright.co
 0.0.0.0 x.heyzap.com
@@ -16264,8 +15186,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 xads.zedo.com
 0.0.0.0 xslt.alexa.com
 0.0.0.0 xxxwebtraffic.com
-
-!Y
 0.0.0.0 yournewtab.com
 0.0.0.0 yjtag.jp
 0.0.0.0 yieldlove-ad-serving.net
@@ -16313,7 +15233,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 www.yipes.com
 0.0.0.0 yipes.com
 0.0.0.0 yaspsd.ir
-0.0.0.0 yorkstatebank.com.102.112.2o7.net
 0.0.0.0 yume.com
 0.0.0.0 yext.com
 0.0.0.0 yciuyrlw.ml
@@ -16440,8 +15359,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ytqihang.com
 0.0.0.0 ytqm.org
 0.0.0.0 y-track.com
-
-!Z
 0.0.0.0 zeemail.in
 0.0.0.0 zer0day.ch
 0.0.0.0 zcbyoqylllxe.com
@@ -16672,8 +15589,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 zxqeycvsetkh.com
 0.0.0.0 zycvyudt.com
 0.0.0.0 zyqlfplqdgxu.com
-
-!Misc
 0.0.0.0 5rocks.io
 0.0.0.0 99counters.com
 0.0.0.0 45.79.223.161
@@ -16828,7 +15743,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 0516bm.com
 0.0.0.0 0516pcw.com
 0.0.0.0 0517.org
-0.0.0.0 052.122.2o7.net
 0.0.0.0 05221.jsm68.com
 0.0.0.0 0523st.com
 0.0.0.0 052607e20606.kathell.com
@@ -17114,7 +16028,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 0516bm.com
 0.0.0.0 0516pcw.com
 0.0.0.0 0517.org
-0.0.0.0 052.122.2o7.net
 0.0.0.0 05221.jsm68.com
 0.0.0.0 0523st.com
 0.0.0.0 052607e20606.kathell.com
@@ -17147,11 +16060,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 0-act.channel.facebook.com
 0.0.0.0 0.beta.facebook.com
 0.0.0.0 2-dot-mod-ads-dot-house-ads-server.appspot.com
-0.0.0.0 102.122.2o7.net
-0.0.0.0 102.112.2o7.net
 0.0.0.0 123.fluxads.com
 0.0.0.0 14713804a.l2m.net
-0.0.0.0 192.168.112.2o7.net
 0.0.0.0 1-se.com
 0.0.0.0 7adpower.com
 0.0.0.0 7art-screensavers.com
@@ -17850,7 +16760,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 176.122.130.225.16clouds.com
 0.0.0.0 97.64.36.222.16clouds.com
 0.0.0.0 193.198.186.35.bc.googleusercontent.com
-0.0.0.0 *.2o7.net
 0.0.0.0 2o7.net
 0.0.0.0 1-9-90.com
 0.0.0.0 www.1-2-free.com
@@ -18032,7 +16941,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 2405.api.swrve.com
 0.0.0.0 232.44.185.35.bc.googleusercontent.com
 0.0.0.0 2mdn.net
-0.0.0.0 112.2o7.net
 0.0.0.0 6to4.ipv6.microsoft.com
 0.0.0.0 a-0001.a-msedge.net
 0.0.0.0 a-0002.a-msedge.net
@@ -18908,15 +17816,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 093105201193.skierniewice.vectranet.pl
 0.0.0.0 093105219198.rybnik.vectranet.pl
 0.0.0.0 093105253184.raciborz.vectranet.pl
-0.0.0.0 10x1375900.112.2o7.net
-0.0.0.0 10x1404832.112.2o7.net
-0.0.0.0 10x1407207.112.2o7.net
-0.0.0.0 10x1417205.112.2o7.net
-0.0.0.0 10x1425424.112.2o7.net
-0.0.0.0 10x1439114.112.2o7.net
-0.0.0.0 10x1494403.112.2o7.net
-0.0.0.0 10x1515744.112.2o7.net
-0.0.0.0 10xhellometro.112.2o7.net
 0.0.0.0 1100ad.com
 0.0.0.0 1100i.com
 0.0.0.0 2542116.fls.doubleclick.net
@@ -19576,16 +18475,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 19.ptp22.com
 0.0.0.0 190.6.87.194.dynamic.dol.ru
 0.0.0.0 191.6.87.194.dynamic.dol.ru
-0.0.0.0 192.168.112.2o7.net
-0.0.0.0 192.168.ads.trafficjunky.net
-0.0.0.0 192.168.ads2.contentabc.com
-0.0.0.0 192.168.cdn-a2.contentabc.com
-0.0.0.0 192.168.cdn11.contentabc.com
-0.0.0.0 192.168.media.trafficjunky.net
 0.0.0.0 192.168.ss.xxxmyself.com
 0.0.0.0 192.6.87.194.dynamic.dol.ru
 0.0.0.0 192.com
-0.0.0.0 192com.112.2o7.net
 0.0.0.0 193.6.87.194.dynamic.dol.ru
 0.0.0.0 194.6.87.194.dynamic.dol.ru
 0.0.0.0 1940.bitterstrawberry.com
@@ -19773,8 +18665,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 57.6.87.194.dynamic.dol.ru
 0.0.0.0 6901690.fls.doubleclick.net
 0.0.0.0 1e100.net
-
-! Fake Bitdefender Sites
 0.0.0.0 mybitdefender-central.com
 0.0.0.0 my-bitdefender.com
 0.0.0.0 bitdefender-login.com
@@ -19793,8 +18683,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bitdefendercentral.support
 0.0.0.0 bitdefendermyanmar.com
 0.0.0.0 bitdefenderonline.com
+! End Domain Blocklist
 
-# Filtered Blocking / Filter List
+! Start Content Blocklist
 duckduckgo.com#@#.has-ad
 iprvl.co###pref-label
 iprvl.co##.footer > span
@@ -24386,17 +23277,7 @@ www.orangutan.org.uk##.sqs-cookie-banner-v2
 ||eyeo.com/wp-content/*/jquery.mousewheel.min.js
 www.comodoca.com###sleeknote-cover
 ||discordapp.com/api/v6/users/@me?with_analytics_token=true$domain=discordapp.com
-
-! Nano Adblocker Stuffs
-dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
-businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
-anonfile.com,anonfiles.com##+js(nano-grant-fake-notification.js)
-
-!#if (!ext_adguard && !ext_ublock)
-! Extra Crap For AdBlock Plus Because It's A Little Retarded
-rightwingtribune.com##a[href*="rs-stripe.com"]
-rightwingtribune.com##a[href*="bytesignal.com"]
-!#endif
+! End Content Blocklist
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -24436,13 +23317,6 @@ wpad.home
 ! AdGuard (Extension/Apps)
 
 ! Extra Blocking Of Common Ad/Tracking Domains
-doubleclick.net|
-googletagservices.com|
-scorecardresearch.com|
-scorecardresearch.net|
-andomedia.com|
-crashlytics.com|
-1e100.net|
 
 ! Whitelist
 @@||sourceforge.net$generichide,genericblock
@@ -24648,7 +23522,6 @@ premiumyva.appspot.com$app=com.google.android.youtube
 195.201.74.178:4222$network,app=com.softwarelint.darkops
 52.216.93.173$network,app=com.alegrium.cong2
 198.50.238.156$network,app=com.alegrium.cong2
-clad.perfectcorp.com$app=com.cyberlink.youperfect
 perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 72.30.35.89$network,app=com.kayac.park_master
 99.192.182.100$network,app=com.tenta.android
@@ -25680,8 +24553,6 @@ _statsonlineinfo
 ##a[href*="/avt/"]
 ##a[href*="/adrotate-out.php?"]
 ##a[href*="/adServe/"]
-! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
-! ##[onclick^="ga('send', 'event', 'outbound', 'click',"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
@@ -25690,83 +24561,3 @@ _statsonlineinfo
 ##a[h$="Advert"]
 ##a[h$="Advertisement"]
 ##a[href$="_banner"]
-! Prevent IP Grabber Links From Being Seen
-*#?#a:-abp-contains(www.spylink.net)
-*#?#a:-abp-contains(spylink.net)
-*#?#a:-abp-contains(ipstat.com)
-*#?#a:-abp-contains(ipstatp.com)
-*#?#a:-abp-contains(grabify.link)
-*#?#a:-abp-contains(bmwforum.co)
-*#?#a:-abp-contains(leancoding.co)
-*#?#a:-abp-contains(quickmessage.io)
-*#?#a:-abp-contains(spottyfly.com)
-*#?#a:-abp-contains(spötify.com)
-*#?#a:-abp-contains(stopify.co)
-*#?#a:-abp-contains(yoütu.be)
-*#?#a:-abp-contains(yoütübe.co)
-*#?#a:-abp-contains(yoütübe.com)
-*#?#a:-abp-contains(xda-developers.io)
-*#?#a:-abp-contains(starbucksiswrong.com)
-*#?#a:-abp-contains(starbucksisbadforyou.com)
-*#?#a:-abp-contains(bucks.as)
-*#?#a:-abp-contains(discörd.com)
-*#?#a:-abp-contains(minecräft.com)
-*#?#a:-abp-contains(cyberh1.xyz)
-*#?#a:-abp-contains(discördapp.com)
-*#?#a:-abp-contains(freegiftcards.co)
-*#?#a:-abp-contains(disçordapp.com)
-*#?#a:-abp-contains(rëddït.com)
-*#?#a:-abp-contains(iplogger.org)
-*#?#a:-abp-contains(iplogger.com)
-*#?#a:-abp-contains(iplogger.ru)
-*#?#a:-abp-contains(2no.co)
-*#?#a:-abp-contains(yip.su)
-*#?#a:-abp-contains(youramonkey.com)
-*#?#a:-abp-contains(whatstheirip.com)
-*#?#a:-abp-contains(IP-Grabber.com)
-*#?#a:-abp-contains(ip-grabber.com)
-*#?#a:-abp-contains(blasze.tk)
-*#?#a:-abp-contains(ps3cfw.com)
-*#?#a:-abp-contains(freegeoip.net)
-*#?#a:-abp-contains(ipstack.com)
-*#?#a:-abp-contains(ipstack.net)
-*#?#a:-abp-contains(tracemyip.org)
-*#?#a:-abp-contains(www.tracemyip.org)
-*#?#a:-abp-contains(xn--yotu-1ra.be)
-*#?#a:-abp-contains(xn--discrd-zxa.com)
-*#?#a:-abp-contains(xn--srahah-bua.eu)
-*#?#a:-abp-contains(xn--minecrft-5za.com)
-*#?#a:-abp-contains(xn--disordapp-s3a.com)
-*#?#a:-abp-contains(xn--srahah-bua.pl)
-*#?#a:-abp-contains(xda-developers.us)
-*#?#a:-abp-contains(quickmessage.us)
-*#?#a:-abp-contains(fortnight.space)
-*#?#a:-abp-contains(fortnitechat.site)
-*#?#a:-abp-contains(youshouldclick.us)
-*#?#a:-abp-contains(joinmy.site)
-*#?#a:-abp-contains(watches-my.stream)
-*#?#a:-abp-contains(www.apple.com-fasting.live)
-*#?#a:-abp-contains(apple.com-fasting.live)
-*#?#a:-abp-contains(parentelement.tk)
-*#?#a:-abp-contains(com-fasting.live)
-*#?#a:-abp-contains(crabrave.pw)
-*#?#a:-abp-contains(särahah.eu)
-*#?#a:-abp-contains(särahah.pl)
-*#?#a:-abp-contains(mapper.info)
-*#?#a:-abp-contains(ezstat.ru)
-*#?#a:-abp-contains(blasze.com)
-*#?#a:-abp-contains(myiptest.com/img.php)
-*#?#a:-abp-contains(spÃ¶tify.com)
-*#?#a:-abp-contains(yoÃ¼tÃ¼be.co)
-*#?#a:-abp-contains(yoÃ¼tÃ¼be.com)
-*#?#a:-abp-contains(yoÃ¼tu.be)
-*#?#a:-abp-contains(hackfÈ¯rums.com)
-*#?#a:-abp-contains(hackfÈ¯rums.net)
-*#?#a:-abp-contains(discÃ¶rd.com)
-*#?#a:-abp-contains(battlÄ—.net)
-*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.com)
-*#?#a:-abp-contains(xn--sptify-4ka37a.com)
-*#?#a:-abp-contains(xn--discrd-6ka37a.com)
-*#?#a:-abp-contains(xn--yo14tu-4ta9735d.be)
-*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.co)
-*#?#a:-abp-contains(xn--battl-kra2007c.net)
