@@ -802,85 +802,66 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||andarcair.club$important
 ||advisories.review$important
 ||adzsafe.com$important
+||adclick.g-media.com$important
+||ads.depositfiles.com$important
+||ads.genericlink.com$important
+||ad.onyx7.com$important
+||ads.golem.de$important
+||affirm.com$important
+||adst.fwdcdn.com$important
+||aswpsdkus.com$important
+||aka.ms$important
+||adaranth.com$important
+||apimg.net$important
+||adsrevia.com$important
+||apppromotionsummit.com$important
+||array*.prod.do.dsp.mp.microsoft.com$important
+||analytics.snidigital.com$important
+||adsales.snidigital.com$important
+||advertising.yahoo.com$important
+||adclixx.net$important
+||as.inbox.com$important
+||a.livesportmedia.eu$important
+||ataijeeg.net$important
+||apikeys.civiccomputing.com$important
+||anonymous-net.com$important
+||adhref.com$important
+||afcpatrk.com$important
+||affiliatenetwork.co.za$important
+||affbuzzads.com$important
+||adabra.com$important
+||adbot.tw$important
+||adgainersolutions.com$important
+||a.montwam.top$important
+||aivalabs.com$important
+||albacross.com$important
+||appcast.io$important
+||auditedmedia.com$important
+||augur.io$important
+||azetklik.sk$important
+||ad.bitmedia.io$important
+||a.breaktime.com.tw$important
+||api-identification.hotmart.com$important
+||affasi.com$important
+||amazinggiftcardforyou.us$important
+||androidcheatsonline.com$important
+||akk.li$important
+||associates-amazon.com$important
+||api.sms.intl.miui.com$important
+||actnx.com$important
+||adtwbjs.com$important
+||adncdnend.azureedge.net$important
+||albertonne.com$important
+||adserver.pressboard.ca$important
+||aivdesk.com$important
+||autoid.com$important
+||af.opera.com$important
+||autoupdate.geo.opera.com$important
+||adbooks.ru$important
+||a0.nic.payu$important
+||aax-us-iad.amazon.com$important
+||advertising.amazon.com$important
 ! START HERE
-0.0.0.0 adclick.g-media.com
-0.0.0.0 ads.depositfiles.com
-0.0.0.0 ads.genericlink.com
-0.0.0.0 ad.onyx7.com
-0.0.0.0 ads.golem.de
-0.0.0.0 affirm.com
-0.0.0.0 adst.fwdcdn.com
-0.0.0.0 aswpsdkus.com
-0.0.0.0 aka.ms
-0.0.0.0 adaranth.com
-0.0.0.0 apimg.net
-0.0.0.0 adsrevia.com
-0.0.0.0 apppromotionsummit.com
-0.0.0.0 api.gamearter.com
-0.0.0.0 array613.prod.do.dsp.mp.microsoft.com
-0.0.0.0 array*.prod.do.dsp.mp.microsoft.com
-0.0.0.0 analytics.snidigital.com
-0.0.0.0 adsales.snidigital.com
-0.0.0.0 advertising.yahoo.com
-0.0.0.0 crunchyroll.adclixx.net
-0.0.0.0 adclixx.net
-0.0.0.0 as.inbox.com
-0.0.0.0 a.livesportmedia.eu
-0.0.0.0 ataijeeg.net
-0.0.0.0 a.o333o.com
-0.0.0.0 apikeys.civiccomputing.com
-0.0.0.0 anonymous-net.com
-0.0.0.0 adhref.com
-0.0.0.0 afcpatrk.com
-0.0.0.0 affiliatenetwork.co.za
-0.0.0.0 affbuzzads.com
-0.0.0.0 adabra.com
-0.0.0.0 adbot.tw
-0.0.0.0 adgainersolutions.com
-0.0.0.0 a.montwam.top
-0.0.0.0 aivalabs.com
-0.0.0.0 albacross.com
-0.0.0.0 appcast.io
-0.0.0.0 auditedmedia.com
-0.0.0.0 augur.io
-0.0.0.0 azetklik.sk
-0.0.0.0 ad.bitmedia.io
-0.0.0.0 a.breaktime.com.tw
-0.0.0.0 api-identification.hotmart.com
-0.0.0.0 assets.poool.fr
-0.0.0.0 app.clixtell.com
-0.0.0.0 assets-us-u11ncmyydwz.stackpathdns.com
-0.0.0.0 ai.leadtrackingdata.com
-0.0.0.0 ad-specs.guoshipartners.com
-0.0.0.0 api.prismapp.io
-0.0.0.0 app.viral-loops.com
-0.0.0.0 affasi.com
-0.0.0.0 amazinggiftcardforyou.us
-0.0.0.0 androidcheatsonline.com
-0.0.0.0 akk.li
-0.0.0.0 aj1616.online
-0.0.0.0 ads.themoneytizer.com
-0.0.0.0 api.placed.com
-0.0.0.0 associates-amazon.com
-0.0.0.0 api.sms.intl.miui.com
-0.0.0.0 actnx.com
-0.0.0.0 adtwbjs.com
-0.0.0.0 ads-west-colo.adsymptotic.com
-0.0.0.0 adncdnend.azureedge.net
-0.0.0.0 albertonne.com
-0.0.0.0 adserver.pressboard.ca
-0.0.0.0 aivdesk.com
-0.0.0.0 ai.autoid.com
-0.0.0.0 api.autoid.com
-0.0.0.0 autoid.com
-0.0.0.0 af.opera.com
-0.0.0.0 autoupdate.geo.opera.com
-0.0.0.0 adbooks.ru
-0.0.0.0 a0.nic.payu
-0.0.0.0 ag.innovid.com
-0.0.0.0 aax-us-iad.amazon.com
-0.0.0.0 api.trakt.tv
-0.0.0.0 advertising.amazon.com
 0.0.0.0 att.hb.omtrdc.net
 0.0.0.0 aeg-ov-client-prod.secure.footprint.net
 0.0.0.0 ads.roblox.com
@@ -1265,13 +1246,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 az416426.vo.msecnd.net
 0.0.0.0 adme-net.com
 0.0.0.0 api-cdn.chatlio.com
-0.0.0.0 array610-prod.do.dsp.mp.microsoft.com
 0.0.0.0 adplugg.com
 0.0.0.0 a.klaviyo.com
 0.0.0.0 analytics.getshogun.com
 0.0.0.0 adm.shinobi.jp
 0.0.0.0 an.facebook.com
-0.0.0.0 array602-prod.do.dsp.mp.microsoft.com
 0.0.0.0 api.postknight.com
 0.0.0.0 awin.com
 0.0.0.0 ailiyou1999.com
@@ -1653,7 +1632,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 api.salemove.com
 0.0.0.0 api.sailthru.com
 0.0.0.0 api.sail-personalize.com
-0.0.0.0 apis.adsymptotic.com
 0.0.0.0 adsymptotic.com
 0.0.0.0 api.safedk.com
 0.0.0.0 a23-4-119-50.deploy.static.akamaitechnologies.com
@@ -2535,7 +2513,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 assets.vidora.com
 0.0.0.0 analytics.shorte.st
 0.0.0.0 ads.shorte.st
-0.0.0.0 array605-prod.do.dsp.mp.microsoft.com
 0.0.0.0 app-sj16.marketo.com
 0.0.0.0 analytics.moat.com
 0.0.0.0 api.fyber.com
@@ -6014,47 +5991,22 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dl.episerver.net
 0.0.0.0 dinthiningonred.info
 0.0.0.0 dtj2lavc.gq
-0.0.0.0 ww1.digitaltelemarketinghub.com
-0.0.0.0 ww2.digitaltelemarketinghub.com
-0.0.0.0 ww3.digitaltelemarketinghub.com
-0.0.0.0 ww4.digitaltelemarketinghub.com
-0.0.0.0 ww5.digitaltelemarketinghub.com
-0.0.0.0 ww6.digitaltelemarketinghub.com
-0.0.0.0 ww7.digitaltelemarketinghub.com
-0.0.0.0 ww8.digitaltelemarketinghub.com
-0.0.0.0 ww9.digitaltelemarketinghub.com
-0.0.0.0 ww10.digitaltelemarketinghub.com
-0.0.0.0 ww11.digitaltelemarketinghub.com
-0.0.0.0 ww1.decadecompany.com
-0.0.0.0 ww2.decadecompany.com
-0.0.0.0 ww3.decadecompany.com
-0.0.0.0 ww4.decadecompany.com
-0.0.0.0 ww5.decadecompany.com
-0.0.0.0 ww6.decadecompany.com
-0.0.0.0 ww7.decadecompany.com
-0.0.0.0 ww8.decadecompany.com
-0.0.0.0 ww9.decadecompany.com
-0.0.0.0 ww10.decadecompany.com
-0.0.0.0 ww11.decadecompany.com
-0.0.0.0 www.downloads.info
+0.0.0.0 digitaltelemarketinghub.com
+0.0.0.0 decadecompany.com
 0.0.0.0 downloads.info
 0.0.0.0 downloadmanager.xyz
 0.0.0.0 data-cash.net
 0.0.0.0 dfcki.info
-0.0.0.0 www.download3000.com
 0.0.0.0 download3000.com
 0.0.0.0 d.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 du1k.com
-0.0.0.0 www.dratio.com
 0.0.0.0 dratio.com
-0.0.0.0 www.drip.com
 0.0.0.0 drip.com
 0.0.0.0 discordresolver.c99.nl
 0.0.0.0 downloads.openwebanalytics.com
 0.0.0.0 demo-web.matomo.org
 0.0.0.0 developers.autopilothq.com
 0.0.0.0 delivery.optimatic.com
-0.0.0.0 demo.innovid.com
 0.0.0.0 dm.demdex.net
 0.0.0.0 dni.agcdn.com
 0.0.0.0 display.provenpixel.com
@@ -8087,7 +8039,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 www.informer.com
 0.0.0.0 informer.com
 0.0.0.0 id.maxis.com.my
-0.0.0.0 www.infoarmor.net
 0.0.0.0 infoarmor.net
 0.0.0.0 instructions.winsysdev.com
 0.0.0.0 iplocation.zoho.com
@@ -8095,20 +8046,14 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ime.cootek.com
 0.0.0.0 ifeng.wrating.com
 0.0.0.0 iplogger.blog
-0.0.0.0 www.innocraft.cloud
 0.0.0.0 innocraft.cloud
 0.0.0.0 insights.newscred.com
 0.0.0.0 inviziads.com
-0.0.0.0 www.intellisuggest.com
 0.0.0.0 intellisuggest.com
-0.0.0.0 www.innovid.com
 0.0.0.0 innovid.com
-0.0.0.0 ir-de.amazon-adsystem.com
-0.0.0.0 ir-uk.amazon-adsystem.com
 0.0.0.0 intelliad.de
 0.0.0.0 izea.com
 0.0.0.0 impes.tradedoubler.com
-0.0.0.0 www.indiaantivirus.com
 0.0.0.0 indiaantivirus.com
 0.0.0.0 iad-03.braze.com
 0.0.0.0 images.omaze.com
@@ -12907,7 +12852,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 store.adaware.com
 0.0.0.0 salesforceliveagent.com
 0.0.0.0 salesiq.zoho.com
-0.0.0.0 www.surfbouncer.com
 0.0.0.0 surfbouncer.com
 0.0.0.0 server-99-84-168-95.ord52.r.cloudfront.net
 0.0.0.0 static.hupso.com
@@ -12917,29 +12861,20 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 streams.ghost.org
 0.0.0.0 s.206ads.com
 0.0.0.0 syndication.twitter.com
-0.0.0.0 www.seevolution.com
 0.0.0.0 seevolution.com
 0.0.0.0 static.matomo.org
 0.0.0.0 static.wingify.com
 0.0.0.0 static.clickfunnels.com
-0.0.0.0 www.smartlook.com
 0.0.0.0 smartlook.com
-0.0.0.0 www.stathat.com
 0.0.0.0 stathat.com
-0.0.0.0 www.securedvisit.com
 0.0.0.0 securedvisit.com
-0.0.0.0 www.spectate.com
 0.0.0.0 spectate.com
 0.0.0.0 seg.sharethis.com
 0.0.0.0 sharethis.com
-0.0.0.0 www.shareaholic.com
 0.0.0.0 shareaholic.com
-0.0.0.0 www.sellmeyourtraffic.com
 0.0.0.0 sellmeyourtraffic.com
 0.0.0.0 s23832.pcdn.co
 0.0.0.0 s16002.pcdn.co
-0.0.0.0 s.innovid.com
-0.0.0.0 sx.innovid.com
 0.0.0.0 seewhy.com
 0.0.0.0 saas.seewhy.com
 0.0.0.0 srv.uk.znaptag.com
@@ -14778,7 +14713,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webmecanik.com
 0.0.0.0 webmine.cz
 0.0.0.0 w55c.net
-0.0.0.0 walter.trakt.tv
 0.0.0.0 wimi5.com
 0.0.0.0 wyspaofert.com
 0.0.0.0 wydawca.lead.network
@@ -15565,7 +15499,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zona.video
 0.0.0.0 zonearmour4u.work
 0.0.0.0 zonog.mobilesatisfy.com
-0.0.0.0 zoover.adclixx.net
 0.0.0.0 zoover.adnetasia.com
 0.0.0.0 zoover.bannertrack.net
 0.0.0.0 zp1.november-lax.com
