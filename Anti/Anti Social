@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 29
+! Version: 30
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -336,15 +336,9 @@ pandora.com$generichide
 ##[href*="twitter.com"]
 ##[href*="telegram.me"]
 ##[href*="whatsapp.com"]
+##[href*="flipboard.com"]
+##[href*="mailto:"]
 ##[href*="fb-messenger://share/"]
-##[onclick^="window.open('reddit.com"]
-##[onclick^="window.open('linkedin.com"]
-##[onclick^="window.open('facebook.com"]
-##[onclick^="window.open('fb-messenger://"]
-##[onclick^="window.open('facebook.com"]
-##[onclick^="window.open('twitter.com"]
-##[onclick^="window.open('telegram.me"]
-##[onclick^="window.open('whatsapp.com"]
 ##[data-sm^="instagram"]
 ##[data-sm^="facebook"]
 ##[data-sm^="twitter"]
@@ -617,7 +611,8 @@ pandora.com$generichide
 ##.social
 ##.shopify-social-icon-instagram
 ##.social-media-tiv
-##[href^="mailto:"]
+##.social-media-buttons
+##.SocialSharingCompact
 -facebook
 -fb
 -twitter
@@ -643,10 +638,6 @@ www.dailymail.co.uk##.dms-puff
 www.htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
 foxnews.com##.social-icons
 app.tradeoff.com##.trading-results__header-actions
-www.gallup.com##[href="https://www.facebook.com/"]
-www.gallup.com##[href="https://twitter.com/"]
-www.gallup.com##[href="https://www.linkedin.com/"]
-www.gallup.com##[href="https://www.youtube.com"]
 yahoo.com##.canvas-share-buttons, .left-share-buttons
 wordpress.com##a[href*="wordpress.com/feed/"]
 wordpress.com##a[href*="wordpress.com/comment/feed/"]
