@@ -1,66 +1,67 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-!||cloudfront.net^$all
-||bit.ly^$all
-||bitly.com^$all
-||microsoftonline.com^$all
-||mirmay.com^$all
+!||cloudfront.net^$all,important
+||bit.ly^$all,important
+||bitly.com^$all,important
+||microsoftonline.com^$all,important
+||mirmay.com^$all,important
+||tenor.com^$all,important
 
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
-!||cloudflare.*^$all
-||cloudflare-dns.com^$all
-||cloudflareinsights.com^$all
-||cloudflarestream.com^$all
-||cloudflareresolve.com^$all
-||cloudflareclient.com^$all
-||cloudflarebolt.com^$all
-||cloudflarestatus.com^$all
-||one.one^$all
-||warp.plus^$all
-||one.one.one.one^$all
-||1.1.1.1^$all
-||1.0.0.1^$all
+!||cloudflare.*^$all,important
+||cloudflare-dns.com^$all,important
+||cloudflareinsights.com^$all,important
+||cloudflarestream.com^$all,important
+||cloudflareresolve.com^$all,important
+||cloudflareclient.com^$all,important
+||cloudflarebolt.com^$all,important
+||cloudflarestatus.com^$all,important
+||one.one^$all,important
+||warp.plus^$all,important
+||one.one.one.one^$all,important
+||1.1.1.1^$all,important
+||1.0.0.1^$all,important
 
 ! No Scripts On .Gov Domains
 ||*.gov$script,inline-script
 ||*.gov.*$script,inline-script
 ! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
-||*.cn^$all
-||*.mo^$all
-||*.tw^$all
-||*.hk^$all
-||*.wang^$all
-||*.unicom^$all
+||*.cn^$all,important
+||*.mo^$all,important
+||*.tw^$all,important
+||*.hk^$all,important
+||*.wang^$all,important
+||*.unicom^$all,important
 
 ! Chinese Crap
-||cnvid.net^$all
-||dnspod.net^$all
-||dnspod.cn^$all
-||inshotapp.com^$all
-||qq.com^$all
-||gtimg.cn^$all
-||baidu.com^$all
-||bdstatic.com^$all
-||weibo.com^$all
-||crrepa.com^$all
-||qiniudns.com^$all
+||cnvid.net^$all,important
+||dnspod.net^$all,important
+||dnspod.cn^$all,important
+||inshotapp.com^$all,important
+||qq.com^$all,important
+||gtimg.cn^$all,important
+||baidu.com^$all,important
+||bdstatic.com^$all,important
+||weibo.com^$all,important
+||crrepa.com^$all,important
+||qiniudns.com^$all,important
 47.246.43.204$network
 
 ! Extra
-||refer.walmart.com^$all
-||ak-us.wal.co^$all
-||ec-us.wal.co^$all
-||zy-us.wal.co^$all
-||ll-us.wal.co^$all
-||us.tb.wal.co^$all
-||cf-us.wal.co^$all
-||ak-us-dyn.wal.co^$all
-||us-dyn.tb.wal.co^$all
-||ll-us-dyn.wal.co^$all
-||ec-us-dyn.wal.co^$all
-||cf-us-dyn.wal.co^$all
-||zy-us-dyn.wal.co^$all
+||refer.walmart.com^$all,important
+||ak-us.wal.co^$all,important
+||ec-us.wal.co^$all,important
+||zy-us.wal.co^$all,important
+||ll-us.wal.co^$all,important
+||us.tb.wal.co^$all,important
+||cf-us.wal.co^$all,important
+||ak-us-dyn.wal.co^$all,important
+||us-dyn.tb.wal.co^$all,important
+||ll-us-dyn.wal.co^$all,important
+||ec-us-dyn.wal.co^$all,important
+||cf-us-dyn.wal.co^$all,important
+||zy-us-dyn.wal.co^$all,important
 walmartimages.com$script
 docs.google.com$font,xhr
 youtube.com$third-party
