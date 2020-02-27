@@ -7,6 +7,7 @@
 ||microsoftonline.com^$all,important
 ||mirmay.com^$all,important
 ||tenor.com^$all,important
+||amazonalexa.com^$all,important
 
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
 !||cloudflare.*^$all,important
