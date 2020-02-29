@@ -3,3 +3,124 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+! Save For After Rewrite Is Finished
+google.com$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com
+
+! YouTube
+||youtube.com/api/stats/
+||youtube.com/set_awesome
+||youtube.com/ad_data
+||youtube.com/youtubei/*/log_event
+youtube.com###masthead-ad
+youtube.com##.ytd-primetime-promo-renderer
+youtube.com##.ytd-mealbar-promo-renderer
+youtube.com##.vidiq-social-stats-upsell
+youtube.com##.ytd-promoted-sparkles-text-search-renderer
+youtube.com###alert-banner > .ytd-browse.style-scope
+youtube.com##.ytd-compact-promoted-video-renderer
+youtube.com##a[href*="googleadservices.com"]
+
+! Google
+||chrome.google.com/webstore/ajax/logreferrerchain
+||chrome.google.com/webstore/ajax/eventlog
+||google.com/dfp/
+||news.google.com/_/DotsSplashUi/jserror
+||news.google.com/_/DotsSplashUi/browserinfo
+||google.com/maps/preview/vp
+||google.com/maps/preview/log204
+||google.com/maps/preview/lp
+||shopping.google.com/logbounceevent
+||play.google.com/log
+||translate.google.com/gen204
+||google.com/adsense/
+||google.com/imgevent?
+||google.com/gen_204
+||google.com/async/irc
+||clients6.google.com/drive/v2internal/viewerimpressions
+||clients4.google.com/invalidation/lcs/request
+||clients4.google.com/chrome-sync/experimentstatus
+||apis.google.com/js/platform.js
+||docs.google.com/document/*/logImpressions?
+||google.com/insights/
+||google.com/analytics/
+||google.com/intl/*/ads
+||apis.google.com/js/additnow.js
+||google.*/api/stats/
+||gsuite.google.com/_/AdditnowStoreUi/browserinfo
+||pay.google.com*/gen204/
+google.com###tads
+google.com###tadsb
+google.com###taw
+
+! Yahoo
+yahoo.com/_td_api/beacon/
+yahoo.com/_td_api?_appletType=viewer
+||mail.yahoo.com/d/video_api/getVideos
+||mail.yahoo.com/d/log
+mail.yahoo.com###theAd
+yahoo.com###mega-banner
+yahoo.com##.darla
+search.yahoo.com###browserExtensionPromotionBanner
+yahoo.com##.ads_reserve_space
+yahoo.com###LeadAd-0-ComboAd-Proxy
+yahoo.com##li[data-test-id="infinite-scroll-AD"]
+mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
+
+! Amazon
+||amazon.*/empty.gif
+||music.amazon.com/NA/api/muse/legacy/getSimilarityRecommendations/
+||s3.amazonaws.com/ssl-intgr-net/prebid/
+||amazon.*/gp/redirection/*.html
+||amazon.*/gp/cerberus/gv
+||amazon.*/gp/overlay/display.html
+||amazon.*/gp/aq-feedback/
+||amazon.*/gp/page/
+||amazon.*/ah/ajax/counter
+||amazon.*/gp/uedata
+||coin.amazonpay.com/rb/checkStatus
+||images-na.ssl-images-amazon.com/images/*/grey-pixel.gif
+||*.amazonaws.com/ssl-intgr-net/tags/
+||images-na.ssl-images-amazon.com/*/transparent-pixel.*.gif
+amazon.com###heroQuickPromo_feature_div
+
+! Microsoft
+||microsoft.com/fp/
+answers.microsoft.com###threadfooter
+
+! Yandex
+||yandex.*/metrika/
+||yandex.*/clck/
+||browser.yandex.com/goodbye
+yandex.ua##.promo-popup__content
+
+! Pandora
+||pandora.com/web-client-assets/displayAdFrame/
+||pandora.com/util/mediaserverPublicRedirect.jsp?type=file&file=ads
+||mediaserver-cont-*.pandora.com/*/*/devicead
+||mediaserver-cont-*.pandora.com/public/ads
+||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio
+||pandora.com/web-client-assets/ads.json
+||pandora.com/api/v1/ad/registerImpression
+||pandora.com/static/promo
+||pandora.com/*/ad/getAdList
+pandora.com##.DisplayAdController__rightRail--active
+pandora.com##.DisplayAdController__rightRail
+pandora.com###ad
+pandora.com###DisplayAdController__adContainerTwo
+pandora.com##.region-adBanner.region-adBanner--double_wide.region-adBanner--active.adSkin-banner--20_pink
+pandora.com##.region-adSkin__primary
+pandora.com##.region-adSkin__secondary
+pandora.com##.region-adSkin.region-adSkin--double_wide.region-adSkin--20_pink.region-adSkin--active.region-adSkin--rightRail
+pandora.com##.AppBg
+pandora.com##div#adContainer
+pandora.com##div#googleDCMTagContainer
+pandora.com###leader_board_container
+
+! Github
+||github.com/_private/browser/
+||github.com/*/used_by_count
+github.com###js-flash-container
+github.com##meta.js-octo-ga-ide
+
+
