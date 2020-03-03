@@ -1759,42 +1759,28 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||media6degrees.com$important
 ||alb.reddit.com$important
 ||ad-score.com$important
-0.0.0.0 auth.gfx.ms
-0.0.0.0 a.ads1.msads.net
-0.0.0.0 acdn.adnxs.com
-0.0.0.0 ads.exdynsrv.com
-0.0.0.0 adtrack.king.com
-0.0.0.0 ams1-ib.adnxs.com
-0.0.0.0 apprepsvc-ch1p.smartscreen.microsoft.com
-0.0.0.0 apps.skype.com
-0.0.0.0 agkn.com
-0.0.0.0 applicationinsights.microsoft.com
-0.0.0.0 api.demandbase.com
-0.0.0.0 developermedia.com
-0.0.0.0 apps.developermedia.com
-0.0.0.0 a.ns.facebook.com
-0.0.0.0 api.gameanalytics.com
-0.0.0.0 adv.speednet.bg
-0.0.0.0 analytics.spongecell.com
-0.0.0.0 ads.stackoverflow.com
-0.0.0.0 anchor.stailamedia.com
-0.0.0.0 adn.static-files.com
-0.0.0.0 ads.stardoll.com
-0.0.0.0 ads.sun.com
-0.0.0.0 ads.sup.com
-0.0.0.0 analytics.sutterhealth.org
-0.0.0.0 ads.svatbata.org
-0.0.0.0 adv.swzone.it
-0.0.0.0 adtag.sympatico.ca
-0.0.0.0 ads.sol.no
-0.0.0.0 analytics.soup.io
-0.0.0.0 analytic.spamfighter.com
-0.0.0.0 ad.360yield.com
-0.0.0.0 ads.tripod.spray.se
-0.0.0.0 ads.smartshoppingads.de
-0.0.0.0 ads.smartdevicemedia.com
-0.0.0.0 ad.smaclick.com
-0.0.0.0 ads.slava.bg
+||adtrack.king.com$important
+||agkn.com$important
+||applicationinsights.microsoft.com$important
+||developermedia.com$important
+||a.ns.facebook.com$important
+||adv.speednet.bg$important
+||spongecell.com$important
+||ads.stackoverflow.com$important
+||stailamedia.com$important
+||adn.static-files.com$important
+||ads.stardoll.com$important
+||ads.sun.com$important
+||ads.sup.com$important
+||analytics.sutterhealth.org$important
+||ads.svatbata.org$important
+||adv.swzone.it$important
+||adtag.sympatico.ca$important
+||ads.sol.no$important
+||analytics.soup.io$important
+||analytic.spamfighter.com$important
+||spray.se$important
+||ads.slava.bg$important
 0.0.0.0 ads.sladur.com
 0.0.0.0 ads.skelbiu.lt
 0.0.0.0 ads.sina.com
@@ -2691,7 +2677,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ad.mediatoday.co.kr
 0.0.0.0 app.monetizze.com.br
 0.0.0.0 app.scanscout.com
-0.0.0.0 a.ads2.msads.net
 0.0.0.0 bugfender.com
 0.0.0.0 bl-1.com
 0.0.0.0 bixel.io
@@ -3101,7 +3086,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 browser-update.org
 0.0.0.0 bestfwdservice.com
 0.0.0.0 b.6sc.co
-0.0.0.0 b.ads2.msads.net
 0.0.0.0 banner.casinotropez.com
 0.0.0.0 bat.bing.com
 0.0.0.0 bluekai.com
@@ -4348,8 +4332,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 cdn.blueconic.net
 0.0.0.0 c.urs.microsoft.com
 0.0.0.0 cache.datamart.windows.com
-0.0.0.0 candycrushsoda.king.com
-0.0.0.0 cdn.adnxs.com
 0.0.0.0 cdn.at.atwola.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdpcs.microsoft.com
@@ -4364,7 +4346,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 config.edge.skype.com
 0.0.0.0 cnt.tyxo.bg
-0.0.0.0 cdn1.developermedia.com
 0.0.0.0 cbox.ws
 0.0.0.0 count.spiegel.de
 0.0.0.0 c.spiegel.de
@@ -5087,111 +5068,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 device-api.urbanairship.com
 0.0.0.0 digidip.net
 0.0.0.0 databerries.com
-0.0.0.0 desgao1zt7irn.cloudfront.net
-0.0.0.0 d4ngwggzm3w7j.cloudfront.net
-0.0.0.0 dkm6b5q0h53z4.cloudfront.net
-0.0.0.0 ds02gfqy6io6i.cloudfront.net
-0.0.0.0 ds6y5vhqiduvy.cloudfront.net
-0.0.0.0 dlrgul5p0v0ut.cloudfront.net
-0.0.0.0 docj27ko03fnu.cloudfront.net
-0.0.0.0 dff7tx5c2qbxc.cloudfront.net
-0.0.0.0 daks2k3a4ib2z.cloudfront.net
-0.0.0.0 d3rt1990lpmkn.cloudfront.net
-0.0.0.0 d5bygqdtbohob.cloudfront.net
-0.0.0.0 dnn506yrbagrg.cloudfront.net
-0.0.0.0 ddfnmo6ev4fd.cloudfront.net
-0.0.0.0 d36mpcpuzc4ztk.cloudfront.net
-0.0.0.0 d1v3uce98qr32f.cloudfront.net
-0.0.0.0 d3sjgucddk68ji.cloudfront.net
-0.0.0.0 ds9bjnn93rsnp.cloudfront.net
-0.0.0.0 d1f8f9xcsvx3ha.cloudfront.net
-0.0.0.0 d20ubqycd8ynev.cloudfront.net
-0.0.0.0 d1wcopahj6rhb7.cloudfront.net
-0.0.0.0 d258j801nsw1p7.cloudfront.net
-0.0.0.0 dg21i27f0zp22.cloudfront.net
-0.0.0.0 dgkxwewtzsnml.cloudfront.net
-0.0.0.0 d3ff8olul1r3ot.cloudfront.net
-0.0.0.0 dap2y8k6nefku.cloudfront.net
-0.0.0.0 dl6fh5ptkejqa.cloudfront.net
-0.0.0.0 dw26xg4lubooo.cloudfront.net
-0.0.0.0 dalusewymm5m7.cloudfront.net
-0.0.0.0 do7nu6l5erzu3.cloudfront.net
-0.0.0.0 d3chm37gkupvsm.cloudfront.net
-0.0.0.0 d10lpsik1i8c69.cloudfront.net
-0.0.0.0 d1hi41nc56pmug.cloudfront.net
-0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
-0.0.0.0 d1zkz3k4cclnv6.cloudfront.net
-0.0.0.0 d38nbbai6u794i.cloudfront.net
-0.0.0.0 d3g06ond37uyun.cloudfront.net
-0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
-0.0.0.0 d2uw8atheo4gqj.cloudfront.net
-0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
-0.0.0.0 d3alqb8vzo7fun.cloudfront.net
-0.0.0.0 d2gi7ultltnc2u.cloudfront.net
-0.0.0.0 d1tdp7z6w94jbb.cloudfront.net
-0.0.0.0 d35fgcharv2shj.cloudfront.net
-0.0.0.0 d1y2wi6psz2t9a.cloudfront.net
-0.0.0.0 d3hmp0045zy3cs.cloudfront.net
-0.0.0.0 d29usylhdk1xyu.cloudfront.net
-0.0.0.0 d20i5e3rqc90ne.cloudfront.net
-0.0.0.0 d16s8pqtk4uodx.cloudfront.net
-0.0.0.0 d2ol1xxy6u64sa.cloudfront.net
-0.0.0.0 d2zfqthxsdq309.cloudfront.net
-0.0.0.0 d32wqyuo10o653.cloudfront.net
-0.0.0.0 d32z5ni8t5127x.cloudfront.net
-0.0.0.0 d1zkodo2u3p4pe.cloudfront.net
-0.0.0.0 d1lxhc4jvstzrp.cloudfront.net
-0.0.0.0 d2v02itv0y9u9t.cloudfront.net
-0.0.0.0 d12ulf131zb0yj.cloudfront.net
-0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
-0.0.0.0 d31qbv1cthcecs.cloudfront.net
-0.0.0.0 d2zjd612oq0w0l.cloudfront.net
-0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
-0.0.0.0 d2na2p72vtqyok.cloudfront.net
-0.0.0.0 d2np5nlsc31ci5.cloudfront.net
-0.0.0.0 d36fjmz5qqu02b.cloudfront.net
-0.0.0.0 d226aj4ao1t61q.cloudfront.net
-0.0.0.0 d3rxaij56vjege.cloudfront.net
-0.0.0.0 d3hwh14livah35.cloudfront.net
-0.0.0.0 d2lo2tipcl3aii.cloudfront.net
-0.0.0.0 d2dq2ahtl5zl1z.cloudfront.net
-0.0.0.0 d283cy82q96avo.cloudfront.net
-0.0.0.0 d24n15hnbwhuhn.cloudfront.net
-0.0.0.0 d31vxm9ubutrmw.cloudfront.net
-0.0.0.0 d16fvbyxlcp1p1.cloudfront.net
-0.0.0.0 d36wtdrdo22bqa.cloudfront.net
-0.0.0.0 d2c8v52ll5s99u.cloudfront.net
-0.0.0.0 d2c8v52ll5s99u.cloudfront.net
-0.0.0.0 d3nq5jrakcyw1w.cloudfront.net
-0.0.0.0 d15shllkswkct0.cloudfront.net
-0.0.0.0 d1su7676ffyt2e.cloudfront.net
-0.0.0.0 d26x5ounzdjojj.cloudfront.net
-0.0.0.0 d2j3qa5nc37287.cloudfront.net
-0.0.0.0 d2ok2u3bz752mp.cloudfront.net
-0.0.0.0 d3ezl4ajpp2zy8.cloudfront.net
-0.0.0.0 d31s10tn3clc14.cloudfront.net
-0.0.0.0 d2vxvnufz8f5c5.cloudfront.net
-0.0.0.0 d1fc8wv8zag5ca.cloudfront.net
-0.0.0.0 d3fjrnfgbgznt3.cloudfront.net
-0.0.0.0 d3iz6lralvg77g.cloudfront.net
-0.0.0.0 d17wd0umvxxjds.cloudfront.net
-0.0.0.0 d1u5p3l4wpay3k.cloudfront.net
-0.0.0.0 d1gkberomxrum0.cloudfront.net
-0.0.0.0 d35mridaos0l3l.cloudfront.net
-0.0.0.0 dooe3vx785zy.cloudfront.net
-0.0.0.0 d1l6p2sc9645hc.cloudfront.net
-0.0.0.0 d1v3uce98qr32f.cloudfront.net
-0.0.0.0 d3sjgucddk68ji.cloudfront.net
-0.0.0.0 du3vkre908mr5.cloudfront.net
-0.0.0.0 damt7w3yoa0t2.cloudfront.net
-0.0.0.0 dr5dymrsxhdzh.cloudfront.net
-0.0.0.0 djtflbt20bdde.cloudfront.net
-0.0.0.0 dwgyu36up6iuz.cloudfront.net
-0.0.0.0 dwgyu36up6iuz.cloudfront.net
-0.0.0.0 dk98ddgl0znzm.cloudfront.net
-0.0.0.0 d2c8v52ll5s99u.cloudfront.net
-0.0.0.0 d3c3cq33003psk.cloudfront.net
-0.0.0.0 d1upw2736fa7mu.cloudfront.net
 0.0.0.0 doubleverify.com
 0.0.0.0 ds.reson8.com
 0.0.0.0 dw.cbsi.com
@@ -6188,7 +6064,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 geocities.yahoo.co
 0.0.0.0 getfree-vpn.com
 0.0.0.0 gum.criteo.com
-0.0.0.0 global.msads.net
 0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
 0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
 0.0.0.0 g.microsoft.com
@@ -7108,7 +6983,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 intellitxt.com
 0.0.0.0 ir2.beap.gemini.yahoo.com
 0.0.0.0 im.ov.yahoo.co.jp
-0.0.0.0 ib.adnxs.com
 0.0.0.0 in.getclicky.com
 0.0.0.0 i3.putags.com
 0.0.0.0 imasdk.googleapis.com
@@ -8828,13 +8702,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 memcache.clients6.google.com
 0.0.0.0 ml.clients6.google.com
 0.0.0.0 mobilecrashreporting.clients6.google.com
-0.0.0.0 main.exdynsrv.com
 0.0.0.0 media-rep.com
 0.0.0.0 men.mittenscissors.pw
 0.0.0.0 mybestmv.com
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 metric.gstatic.com
-0.0.0.0 www1.mpnrs.com
+0.0.0.0 mpnrs.com
 0.0.0.0 met.vgwort.de
 0.0.0.0 msads.net
 0.0.0.0 match.adsrvr.org
@@ -8927,7 +8800,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mybbc-analytics.files.bbci.co.uk
 0.0.0.0 mktoresp.com
 0.0.0.0 media.complex.com
-0.0.0.0 m.adnxs.com
 0.0.0.0 mtrx.go.sonobi.com
 0.0.0.0 mystat-in.net
 0.0.0.0 media.msg.dotomi.com
@@ -9473,7 +9345,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pslweb.org
 0.0.0.0 purechat.com
 0.0.0.0 ping.chartbeat.net
-0.0.0.0 prebid.adnxs.com
 0.0.0.0 protect.ppmobiles.com
 0.0.0.0 pushapi.dolphin.com
 0.0.0.0 pointer2.cloudmosa.net
@@ -10231,7 +10102,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 referralfrenzy.com
 0.0.0.0 rapiddownline.com
 0.0.0.0 redstagmailer.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 remarketstats.com
 0.0.0.0 reson8.com
 0.0.0.0 reckintersupwas.info
@@ -10424,7 +10294,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 relap.io
 0.0.0.0 rtstats.com
 0.0.0.0 reporo.net
-0.0.0.0 rb.adnxs.com
 0.0.0.0 rtax.criteo.com
 0.0.0.0 rules.quantcount.com
 0.0.0.0 rlcdn.com
@@ -11346,7 +11215,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 server-99-84-168-38.ord52.r.cloudfront.net
 0.0.0.0 ssl-heise.met.vgwort.de
 0.0.0.0 stags.bluekai.com
-0.0.0.0 sharethrough.adnxs.com
 0.0.0.0 sharethrough.com
 0.0.0.0 sail-horizon.com
 0.0.0.0 services.social.microsoft.com
@@ -11379,7 +11247,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stat.it168.com
 0.0.0.0 stats.canalblog.com
 0.0.0.0 srv.carbonads.net
-0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 storage.trafic.ro
 0.0.0.0 s.clickiocdn.com
 0.0.0.0 seal.godaddy.com
@@ -11541,7 +11408,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 s11.cnzz.com
 0.0.0.0 static.zdbb.net
-0.0.0.0 secure.adnxs.com
 0.0.0.0 spshared.5min.com
 0.0.0.0 s3.buysellads.com
 0.0.0.0 static.olark.com
@@ -11554,7 +11420,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 st.a-link.co.kr
 0.0.0.0 sprout-ad.com
 0.0.0.0 server.cpmstar.com
-0.0.0.0 scripts.demandbase.com
 0.0.0.0 srv.main.ebayrtm.com
 0.0.0.0 sp.zalo.me
 0.0.0.0 spoxy-shard4.spot.im
@@ -12115,7 +11980,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tealand.cmcm.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 track.tenjin.io
-0.0.0.0 tag.demandbase.com
 0.0.0.0 tblsft.com
 0.0.0.0 tableau.com
 0.0.0.0 test-statistics.2miners.com
