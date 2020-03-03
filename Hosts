@@ -899,7 +899,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||leadboltapps.net$important
 ||adsnavigator.mobi$important
 ||hubxt.com$important
-|||analytics.paxful.com$important
+|analytics.paxful.com$important
 ||ads.feedly.com$important
 ||adblockdetector.com$important
 ||crittercism.com$important
@@ -1781,105 +1781,73 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||analytic.spamfighter.com$important
 ||spray.se$important
 ||ads.slava.bg$important
-0.0.0.0 ads.sladur.com
-0.0.0.0 ads.skelbiu.lt
-0.0.0.0 ads.sina.com
-0.0.0.0 adserve.shopzilla.com
-0.0.0.0 advertising.seenews.com
-0.0.0.0 adv.powertracker.org
-0.0.0.0 ads.periodistadigital.com
-0.0.0.0 ads.sapo.pt
-0.0.0.0 ads.search.bg
-0.0.0.0 ad.searchhound.com
-0.0.0.0 ad.payclick.it
-0.0.0.0 ads.partystars.bg
-0.0.0.0 ad.mylook.ee
-0.0.0.0 ads.monetize-me.com
-0.0.0.0 adtracker.meinungsstudie.de
-0.0.0.0 app.medyanetads.com
-0.0.0.0 ad.mcminteractive.com
-0.0.0.0 action.metaffiliation.com
-0.0.0.0 ads.mezimedia.com
-0.0.0.0 adshow.it168.com
-0.0.0.0 adserver.hardwareanalysis.com
-0.0.0.0 ads.garga.biz
-0.0.0.0 ads.gateway.bg
-0.0.0.0 ads.gather.com
-0.0.0.0 a3.cdnpark.com
-0.0.0.0 adserve.canadawidemagazines.com
-0.0.0.0 ads.cars.com
-0.0.0.0 ads.buzzcity.net
-0.0.0.0 ads.businessclick.pl
-0.0.0.0 ads.businessclick.com
-0.0.0.0 ads.buljobs.bg
-0.0.0.0 ads.btv.bg
-0.0.0.0 ads.bta.bg
-0.0.0.0 ads.bsplayer.com
-0.0.0.0 analytics.androidandme.com
-0.0.0.0 app-usa-modeast-prod-a01239f.s3.amazonaws.com
-0.0.0.0 addthis.com
-0.0.0.0 awltovhc.com
-0.0.0.0 analytics.ghostery.com
-0.0.0.0 atlassolutions.com
-0.0.0.0 analytics.podtrac.com
-0.0.0.0 akadns.com
-0.0.0.0 apprep.smartscreen.microsoft.com
-0.0.0.0 adx.com.ru
-0.0.0.0 api.sypexgeo.net
-0.0.0.0 api.geoipcloud.com
-0.0.0.0 assets.vidora.com
-0.0.0.0 analytics.shorte.st
-0.0.0.0 ads.shorte.st
-0.0.0.0 analytics.moat.com
-0.0.0.0 api.fyber.com
-0.0.0.0 a.idio.co
-0.0.0.0 app_usa_prod_eqffnyamdzrb.s3.amazonaws.com
-0.0.0.0 analytics.usa.gov
-0.0.0.0 analytics.twitter.com
-0.0.0.0 analytics.net
-0.0.0.0 analytics.teksystems.com
-0.0.0.0 accenture.com
-0.0.0.0 adservices.net
-0.0.0.0 adservice.com
-0.0.0.0 analytic.herokuapp.com
-0.0.0.0 admanmedia.com
-0.0.0.0 www7.addfreestats.com
-0.0.0.0 addfreestats.com
-0.0.0.0 ad.wsod.com
-0.0.0.0 adsenseguard.com
-0.0.0.0 advnet.xyz
-0.0.0.0 adsrv4k.com
-0.0.0.0 adserwer.xwords.pl
-0.0.0.0 amadagasca.com
-0.0.0.0 adrino.pl
-0.0.0.0 adbitty.com
-0.0.0.0 admp.io
-0.0.0.0 advertnative.com
-0.0.0.0 adcalm.com
-0.0.0.0 adscpm.site
-0.0.0.0 adcaser.pl
-0.0.0.0 adtify.pl
-0.0.0.0 ad.linkprice.com
-0.0.0.0 adleadevent.com
-0.0.0.0 adtrack.adleadevent.com
-0.0.0.0 adserver.juicyads.com
-0.0.0.0 ads.juicyads.com
-0.0.0.0 aaxads.com
-0.0.0.0 adhigh.net
-0.0.0.0 aweme.snssdk.com
-0.0.0.0 aan.amazon.com
-0.0.0.0 adclerks.com
-0.0.0.0 abmr.org
-0.0.0.0 ads.computer.org
-0.0.0.0 adrunner.mycomputer.com
-0.0.0.0 ads.mp.mydas.mobi
-0.0.0.0 androidsdk.ads.mp.mydas.mobi
-0.0.0.0 androidsk.ads.mp.mydas.mobi
-0.0.0.0 androidquery.appspot.com
-0.0.0.0 androidads20.adcolony.com
-0.0.0.0 androidads21.adcolony.com
-0.0.0.0 android.revmob.com
-0.0.0.0 android.reporo.net
+||ads.sladur.com$important
+||ads.skelbiu.lt$important
+||ads.sina.com$important
+||adserve.shopzilla.com$important
+||advertising.seenews.com$important
+||ads.periodistadigital.com$important
+||ads.sapo.pt$important
+||ads.search.bg$important
+||ads.partystars.bg$important
+||ad.mylook.ee$important
+||adtracker.meinungsstudie.de$important
+||mezimedia.com$important
+||adshow.it168.com$important
+||adserver.hardwareanalysis.com$important
+||ads.garga.biz$important
+||ads.gateway.bg$important
+||ads.gather.com$important
+||adserve.canadawidemagazines.com$important
+||ads.cars.com$important
+||businessclick.pl$important
+||ads.buljobs.bg$important
+||ads.btv.bg$important
+||ads.bta.bg$important
+||ads.bsplayer.com$important
+||analytics.androidandme.com$important
+||addthis.com$important
+||awltovhc.com$important
+||analytics.ghostery.com$important
+||atlassolutions.com$important
+||akadns.com$important
+||adx.com.ru$important
+||sypexgeo.net$important
+||geoipcloud.com$important
+||analytics.shorte.st$important
+||ads.shorte.st$important
+||app_usa_prod_eqffnyamdzrb.s3.amazonaws.com$important
+||analytics.usa.gov$important
+||analytics.twitter.com$important
+||analytics.net$important
+||analytics.teksystems.com$important
+||accenture.com$important
+||adservices.net$important
+||adservice.com$important
+||analytic.herokuapp.com$important
+||admanmedia.com$important
+||addfreestats.com$important
+||adsenseguard.com$important
+||advnet.xyz$important
+||adsrv4k.com$important
+||adserwer.xwords.pl$important
+||amadagasca.com$important
+||adrino.pl$important
+||adbitty.com$important
+||admp.io$important
+||advertnative.com$important
+||adcalm.com$important
+||adscpm.site$important
+||adcaser.pl$important
+||adtify.pl$important
+||adleadevent.com$important
+||aaxads.com$important
+||adhigh.net$important
+||aan.amazon.com$important
+||adclerks.com$important
+||abmr.org$important
+||ads.computer.org$important
+||androidquery.appspot.com$important
 0.0.0.0 android.mobpartner.mobi
 0.0.0.0 android.bcfads.com
 0.0.0.0 android-sdk31.transpera.com
@@ -2905,7 +2873,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 browsealoud.com
 0.0.0.0 banners.loylty.com
 0.0.0.0 banki.mirtesen.ru
-0.0.0.0 bank-12.ads.mp.mydas.mobi
 0.0.0.0 bannerbank.ru
 0.0.0.0 b1img.com
 0.0.0.0 branding.revenuestripe.com
@@ -3071,7 +3038,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 bodelen.com
 0.0.0.0 bingads.microsoft.com
 0.0.0.0 beaverads.com
-0.0.0.0 bannerexchange.mycomputer.com
 0.0.0.0 bb8de7de67cf32727f11-15fc5251a791315c6701a6c0ad757ff3.ssl.cf5.rackcdn.com
 0.0.0.0 beacon.walmart.com
 0.0.0.0 bizrate.com
@@ -3108,7 +3074,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 bizographics.com
 0.0.0.0 bb.connextra.com
 0.0.0.0 b-code.liadm.com
-0.0.0.0 bbb7-bfec-9a0b-58ba.reporo.net
 0.0.0.0 bbca.channelfinder.net
 0.0.0.0 bounceads.net
 0.0.0.0 bbcandroid.2cnt.net
@@ -3128,7 +3093,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 bbvj6.voluumtrk.com
 0.0.0.0 beacon.riskified.com
 0.0.0.0 bc2.fivecdm.com
-0.0.0.0 bc84-88b8-96b7-6515.reporo.net
 0.0.0.0 bcanalytics.bigcommerce.com
 0.0.0.0 bcast.pw
 0.0.0.0 bcfads.com
@@ -3220,7 +3184,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 bettraf.com
 0.0.0.0 beyourownaffiliate.com
 0.0.0.0 bfd.secureintl.com
-0.0.0.0 bfe9-0d31-18b3-7493.reporo.net
 0.0.0.0 bfiqlohtombic.review
 0.0.0.0 bfpildlmcolatitude.review
 0.0.0.0 bgn0f.voluumtrk.com
@@ -4397,7 +4360,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 c2.popads.net
 0.0.0.0 cdn.adclerks.com
 0.0.0.0 clearwebstats.com
-0.0.0.0 counter.mycomputer.com
 0.0.0.0 computershopper.zdnet.com
 0.0.0.0 computerwoche.de.intellitxt.com
 0.0.0.0 computershopper.uk.intellitxt.com
@@ -4996,24 +4958,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 doubleclick.ne.jp
 0.0.0.0 de.ioam.de
 0.0.0.0 dumb-waiter.sharethrough.com
-0.0.0.0 db5sch101101001.wns.windows.com
-0.0.0.0 db5sch101100831.wns.windows.com
-0.0.0.0 db5sch101101221.wns.windows.com
-0.0.0.0 db5sch101101031.wns.windows.com
-0.0.0.0 db5sch101101430.wns.windows.com
-0.0.0.0 db5sch101101338.wns.windows.com
-0.0.0.0 db5sch101101231.wns.windows.com
-0.0.0.0 db5sch101101640.wns.windows.com
-0.0.0.0 db5sch101101941.wns.windows.com
-0.0.0.0 db5sch101110331.wns.windows.com
-0.0.0.0 db5sch101110929.wns.windows.com
-0.0.0.0 db5sch101110821.wns.windows.com
-0.0.0.0 db5sch101110810.wns.windows.com
-0.0.0.0 db5sch101110740.wns.windows.com
-0.0.0.0 db5sch101110541.wns.windows.com
-0.0.0.0 db5sch101110510.wns.windows.com
-0.0.0.0 db5sch101110438.wns.windows.com
-0.0.0.0 db5sch101110343.wns.windows.com
+0.0.0.0 *.wns.windows.com
 0.0.0.0 dc.services.visualstudio.com
 0.0.0.0 dc.applicationinsights.microsoft.com
 0.0.0.0 diagnostics.support.microsoft.com
@@ -5032,7 +4977,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dianomi.com
 0.0.0.0 dps.bing.com
 0.0.0.0 destinationurl.com
-0.0.0.0 dts.podtrac.com
 0.0.0.0 ds-aksb-a.akamaihd.net
 0.0.0.0 delivery.adrecover.com
 0.0.0.0 datafest.com
@@ -5362,7 +5306,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 educationcenter.janrain.com
 0.0.0.0 e5019.e2.akamaiedge.net
 0.0.0.0 evolveplatform.net
-0.0.0.0 engine.fyber.com
 0.0.0.0 evengparme.com
 0.0.0.0 eu.geo.yahoo.com
 0.0.0.0 email.teamsnap.com
@@ -5635,7 +5578,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 filegoogle.com
 0.0.0.0 fundingchoices.google.com
 0.0.0.0 fcmatch.google.com
-0.0.0.0 ffca-c436-9d2a-bea1.reporo.net
 0.0.0.0 feedback.adrecover.com
 0.0.0.0 fromru.su
 0.0.0.0 fordscene.de.intellitxt.com
@@ -6308,7 +6250,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 hs-analytics.net
 0.0.0.0 histats.com
 0.0.0.0 hitadsmedia.com
-0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 h1.0.138.40.static.ip.windstream.net
 0.0.0.0 h2.0.138.40.static.ip.windstream.net
 0.0.0.0 h3.0.138.40.static.ip.windstream.net
@@ -6682,7 +6623,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 igld-84-229-42-70.inter.net.il
 0.0.0.0 igld-84-229-43-157.inter.net.il
 0.0.0.0 iframe.sponsorpay.com
-0.0.0.0 iframe.fyber.com
 0.0.0.0 iframe2.adxxx.com
 0.0.0.0 idp.adsrvr.org
 0.0.0.0 idox.it
@@ -6690,208 +6630,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 id.localsearch.ch
 0.0.0.0 idll44.ph
 0.0.0.0 id.l.google.com
-0.0.0.0 id.google.ac
-0.0.0.0 id.google.ad
-0.0.0.0 id.google.ae
-0.0.0.0 id.google.al
-0.0.0.0 id.google.am
-0.0.0.0 id.google.as
-0.0.0.0 id.google.at
-0.0.0.0 id.google.az
-0.0.0.0 id.google.ba
-0.0.0.0 id.google.be
-0.0.0.0 id.google.bf
-0.0.0.0 id.google.bg
-0.0.0.0 id.google.bi
-0.0.0.0 id.google.bj
-0.0.0.0 id.google.bs
-0.0.0.0 id.google.bt
-0.0.0.0 id.google.by
-0.0.0.0 id.google.ca
-0.0.0.0 id.google.cat
-0.0.0.0 id.google.cc
-0.0.0.0 id.google.cd
-0.0.0.0 id.google.cf
-0.0.0.0 id.google.cg
-0.0.0.0 id.google.ch
-0.0.0.0 id.google.ci
-0.0.0.0 id.google.cl
-0.0.0.0 id.google.cm
-0.0.0.0 id.google.cn
-0.0.0.0 id.google.co.ao
-0.0.0.0 id.google.co.bw
-0.0.0.0 id.google.co.ck
-0.0.0.0 id.google.co.cr
-0.0.0.0 id.google.co.id
-0.0.0.0 id.google.co.il
-0.0.0.0 id.google.co.jp
-0.0.0.0 id.google.co.ke
-0.0.0.0 id.google.co.kr
-0.0.0.0 id.google.co.ls
-0.0.0.0 id.google.co.ma
-0.0.0.0 id.google.com.af
-0.0.0.0 id.google.com.ag
-0.0.0.0 id.google.com.ai
-0.0.0.0 id.google.com.ar
-0.0.0.0 id.google.com.au
-0.0.0.0 id.google.com.bd
-0.0.0.0 id.google.com.bh
-0.0.0.0 id.google.com.bn
-0.0.0.0 id.google.com.bo
-0.0.0.0 id.google.com.br
-0.0.0.0 id.google.com.bz
-0.0.0.0 id.google.com.co
-0.0.0.0 id.google.com.cu
-0.0.0.0 id.google.com.cy
-0.0.0.0 id.google.com.do
-0.0.0.0 id.google.com.ec
-0.0.0.0 id.google.com.eg
-0.0.0.0 id.google.com.et
-0.0.0.0 id.google.com.fj
-0.0.0.0 id.google.com.gh
-0.0.0.0 id.google.com.gi
-0.0.0.0 id.google.com.gt
-0.0.0.0 id.google.com.hk
+0.0.0.0 id.google.*
 0.0.0.0 id.google.comin.getclicky.com
-0.0.0.0 id.google.com.jm
-0.0.0.0 id.google.com.kh
-0.0.0.0 id.google.com.kw
-0.0.0.0 id.google.com.lb
-0.0.0.0 id.google.com.lc
-0.0.0.0 id.google.com.ly
-0.0.0.0 id.google.com.mm
-0.0.0.0 id.google.com.mt
-0.0.0.0 id.google.com.mx
-0.0.0.0 id.google.com.my
-0.0.0.0 id.google.com.na
-0.0.0.0 id.google.com.nf
-0.0.0.0 id.google.com.ng
-0.0.0.0 id.google.com.ni
-0.0.0.0 id.google.com.np
-0.0.0.0 id.google.com.om
-0.0.0.0 id.google.com.pa
-0.0.0.0 id.google.com.pe
-0.0.0.0 id.google.com.pg
-0.0.0.0 id.google.com.ph
-0.0.0.0 id.google.com.pk
-0.0.0.0 id.google.com.pr
-0.0.0.0 id.google.com.py
-0.0.0.0 id.google.com.qa
-0.0.0.0 id.google.com.sa
-0.0.0.0 id.google.com.sb
-0.0.0.0 id.google.com.sg
-0.0.0.0 id.google.com.sl
-0.0.0.0 id.google.com.sv
-0.0.0.0 id.google.com.tj
-0.0.0.0 id.google.com.tr
-0.0.0.0 id.google.com.tw
-0.0.0.0 id.google.com.ua
-0.0.0.0 id.google.com.uy
-0.0.0.0 id.google.com.vc
-0.0.0.0 id.google.com.vn
-0.0.0.0 id.google.co.mz
-0.0.0.0 id.google.co.nz
-0.0.0.0 id.google.co.th
-0.0.0.0 id.google.co.tz
-0.0.0.0 id.google.co.ug
-0.0.0.0 id.google.co.uk
-0.0.0.0 id.google.co.uz
-0.0.0.0 id.google.co.ve
-0.0.0.0 id.google.co.vi
-0.0.0.0 id.google.co.za
-0.0.0.0 id.google.co.zm
-0.0.0.0 id.google.co.zw
-0.0.0.0 id.google.cv
-0.0.0.0 id.google.cz
-0.0.0.0 id.google.de
-0.0.0.0 id.google.dj
-0.0.0.0 id.google.dk
-0.0.0.0 id.google.dm
-0.0.0.0 id.google.dz
-0.0.0.0 id.google.ee
-0.0.0.0 id.google.es
-0.0.0.0 id.google.fi
-0.0.0.0 id.google.fm
-0.0.0.0 id.google.fr
-0.0.0.0 id.google.ga
-0.0.0.0 id.google.ge
-0.0.0.0 id.google.gf
-0.0.0.0 id.google.gg
-0.0.0.0 id.google.gl
-0.0.0.0 id.google.gm
-0.0.0.0 id.google.gp
-0.0.0.0 id.google.gr
-0.0.0.0 id.google.gy
-0.0.0.0 id.google.hn
-0.0.0.0 id.google.hr
-0.0.0.0 id.google.ht
-0.0.0.0 id.google.hu
-0.0.0.0 id.google.ie
-0.0.0.0 id.google.im
-0.0.0.0 id.google.io
-0.0.0.0 id.google.iq
-0.0.0.0 id.google.is
-0.0.0.0 id.google.it
-0.0.0.0 id.google.je
-0.0.0.0 id.google.jo
-0.0.0.0 id.google.kg
-0.0.0.0 id.google.ki
-0.0.0.0 id.google.kz
-0.0.0.0 id.google.la
-0.0.0.0 id.google.li
-0.0.0.0 id.google.lk
-0.0.0.0 id.google.lt
-0.0.0.0 id.google.lu
-0.0.0.0 id.google.lv
-0.0.0.0 id.google.md
-0.0.0.0 id.google.me
-0.0.0.0 id.google.mg
-0.0.0.0 id.google.mk
-0.0.0.0 id.google.ml
-0.0.0.0 id.google.mn
-0.0.0.0 id.google.ms
-0.0.0.0 id.google.mu
-0.0.0.0 id.google.mv
-0.0.0.0 id.google.mw
-0.0.0.0 id.google.ne
-0.0.0.0 id.google.nl
-0.0.0.0 id.google.no
-0.0.0.0 id.google.nr
-0.0.0.0 id.google.nu
-0.0.0.0 id.google.pl
-0.0.0.0 id.google.pn
-0.0.0.0 id.google.ps
-0.0.0.0 id.google.pt
-0.0.0.0 id.google.ro
-0.0.0.0 id.google.rs
-0.0.0.0 id.google.ru
-0.0.0.0 id.google.rw
-0.0.0.0 id.google.sc
-0.0.0.0 id.google.se
-0.0.0.0 id.google.sh
-0.0.0.0 id.google.si
-0.0.0.0 id.google.sk
-0.0.0.0 id.google.sm
-0.0.0.0 id.google.sn
-0.0.0.0 id.google.so
-0.0.0.0 id.google.sr
-0.0.0.0 id.google.st
-0.0.0.0 id.google.td
-0.0.0.0 id.google.tg
-0.0.0.0 id.google.tk
-0.0.0.0 id.google.tl
-0.0.0.0 id.google.tm
-0.0.0.0 id.google.tn
-0.0.0.0 id.google.to
-0.0.0.0 id.google.tt
-0.0.0.0 id.google.vg
-0.0.0.0 id.google.vu
-0.0.0.0 id.google.ws
 0.0.0.0 i.owox.com
 0.0.0.0 intercom.com
 0.0.0.0 intercom.io
 0.0.0.0 insight*.m-pathy.com
-0.0.0.0 i.cdnpark.com
 0.0.0.0 interstitial-ads-prod-fusepowered.netdna-ssl.com
 0.0.0.0 itim.vn
 0.0.0.0 inter.net.il
@@ -8745,8 +8489,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 m2.webstats.motigo.com
 0.0.0.0 m1.webstats4u.com
 0.0.0.0 mycomputer.superstats.com
-0.0.0.0 media-mc-adrunner.mycomputer.com
-0.0.0.0 media-adrunner.mycomputer.com
 0.0.0.0 microsoft-watch.us.intellitxt.com
 0.0.0.0 myscoop-tracking.googlecode.com
 0.0.0.0 mcc.godaddy.com
@@ -9834,8 +9576,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 popads.net
 0.0.0.0 px.adhigh.net
 0.0.0.0 pstatp.com
-0.0.0.0 phoenix-mc-adrunner.mycomputer.com
-0.0.0.0 phoenix-adrunner.mycomputer.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 pclick.internal.yahoo.com
 0.0.0.0 pclick.europe.yahoo.com
@@ -10285,10 +10025,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 0.0.0.0 r1.zedo.com
-0.0.0.0 reward-video.fyber.com
 0.0.0.0 rv-gateway.supersonicads.com
 0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
-0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 roosterfirework.com
 0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 relap.io
@@ -10400,7 +10138,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stats.vk-portal.net
 0.0.0.0 sukebei.tracker.wf
 0.0.0.0 stats.coronalabs.com
-0.0.0.0 service.fyber.com
 0.0.0.0 stats-proto.pandora.com
 0.0.0.0 sanalytics.verizon.com
 0.0.0.0 sdk.out.usbla.net
@@ -11271,7 +11008,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 searchguide.windstream.net
 0.0.0.0 sigmaad.com
 0.0.0.0 snssdk.com
-0.0.0.0 siteminer.mycomputer.com
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
 0.0.0.0 sqm.telemetry.microsoft.com
@@ -11478,7 +11214,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 script.rtbclick.net
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 stats.pandora.com
-0.0.0.0 s7.addthis.com
 0.0.0.0 s95.research.de.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 spywarenuker.com
@@ -12824,7 +12559,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 watson.ppe.telemetry.microsoft.com
 0.0.0.0 watson.microsoft.com
-0.0.0.0 www18.officedepot.com
+0.0.0.0 officedepot.com
 0.0.0.0 webclients.net
 0.0.0.0 websponsors.com
 0.0.0.0 webleads-tracker.com
@@ -12836,7 +12571,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 web4.realtracker.com
 0.0.0.0 wixlabs-countdown.appspot.com
 0.0.0.0 wixlabs-hcounter.appspot.com
-0.0.0.0 wd.adcolony.com
 0.0.0.0 widget.intercom.io
 0.0.0.0 wblt.oui.sncf
 0.0.0.0 w.usabilla.com
@@ -12911,7 +12645,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 xpressunblock.com
 0.0.0.0 xboxab.com
 0.0.0.0 xmediaserve.com
-0.0.0.0 x.dlx.addthis.com
 0.0.0.0 xp2.zedo.com
 0.0.0.0 x.castanet.net
 0.0.0.0 x.bidswitch.net
@@ -15160,7 +14893,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 0aawdqzh4f.centade.com
 0.0.0.0 0aazzbrrpn.centade.com
 0.0.0.0 0absky82nl.centade.com
-0.0.0.0 0ab8-98d1-e900-9391.reporo.net
 0.0.0.0 000lk3v.wcomhost.com
 0.0.0.0 000lkub.rcomhost.com
 0.0.0.0 000ll4q.rcomhost.com
@@ -15527,16 +15259,10 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 8.dramafeverw2.appspot.com
 0.0.0.0 8.ptp22.com
 0.0.0.0 80.6.87.194.dynamic.dol.ru
-0.0.0.0 8097-c493-8fbf-0dc2.reporo.net
 0.0.0.0 81.6.87.194.dynamic.dol.ru
-0.0.0.0 810f3f9dde63ae3.com
-0.0.0.0 811b-7d4e-7abb-a29e.reporo.net
-0.0.0.0 81d9-e62d-0d23-6259.reporo.net
 0.0.0.0 81ynv.voluumtrk.com
 0.0.0.0 82.6.87.194.dynamic.dol.ru
-0.0.0.0 8233fa03a40c92d.com
 0.0.0.0 824le.voluumtrk.com
-0.0.0.0 82d914.se
 0.0.0.0 82sn9.voluumtrk.com
 0.0.0.0 83.6.87.194.dynamic.dol.ru
 0.0.0.0 8328.bapi.adsafeprotected.com
@@ -15545,13 +15271,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 85.6.87.194.dynamic.dol.ru
 0.0.0.0 859-events.olark.com
 0.0.0.0 86.6.87.194.dynamic.dol.ru
-0.0.0.0 863c4c0c521.se
 0.0.0.0 865.bitterstrawberry.com
 0.0.0.0 87.6.87.194.dynamic.dol.ru
 0.0.0.0 8796.tctm.co
 0.0.0.0 88.6.87.194.dynamic.dol.ru
 0.0.0.0 881.engine.mobileapptracking.com
-0.0.0.0 8889-38b3-9b87-03a8.reporo.net
 0.0.0.0 89.6.87.194.dynamic.dol.ru
 0.0.0.0 89jw3.voluumtrk.com
 0.0.0.0 8bdnl.voluumtrk.com
@@ -15676,32 +15400,25 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 006.free-adult-counters.x-xtra.com
 0.0.0.0 006.free-counter.co.uk
 0.0.0.0 007.free-counter.co.uk
-0.0.0.0 0075-7112-e7eb-f9b9.reporo.net
 0.0.0.0 008.free-counter.co.uk
-0.0.0.0 00zasdf.pw
 0.0.0.0 011i5.voluumtrk.com
 0.0.0.0 0124498474f7c13ac9a2-6b191446002b31342189d56cabcf5227.r11.cf2.rackcdn.com
 0.0.0.0 02gzx.voluumtrk.com
-0.0.0.0 0427d7.se
-0.0.0.0 04fd-74b3-b2f6-c645.reporo.net
 0.0.0.0 050003.voodoo.com
 0.0.0.0 050005.voodoo.com
 0.0.0.0 05ni7.voluumtrk.com
 0.0.0.0 0602v.voluumtrk.com
 0.0.0.0 060810131024.c.mystat-in.net
-0.0.0.0 06c5-dbbd-eb79-4cd4.reporo.net
 0.0.0.0 06rph.voluumtrk.com
 0.0.0.0 123advertising.nl
 0.0.0.0 123banners.com
 0.0.0.0 123count.com
-0.0.0.0 123counter.mycomputer.com
 0.0.0.0 123counter.superstats.com
 0.0.0.0 123counts.com
 0.0.0.0 01-dc-den2.ad.corp.appnexus.com
 0.0.0.0 01-dc-nym1.test.corp.appnexus.com
 0.0.0.0 01-ddpe-fe-nym2.corp.appnexus.com
 0.0.0.0 01-ddpe-nym2.ad.corp.appnexus.com
-0.0.0.0 01e7-6f86-e035-c4b6.reporo.net
 0.0.0.0 01-exchange.test.corp.appnexus.com
 0.0.0.0 01-exch-den2.ad.corp.appnexus.com
 0.0.0.0 01-exch-lax1.ad.corp.appnexus.com
@@ -15749,16 +15466,13 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 020.moro.tv
 0.0.0.0 020zz.com
 0.0.0.0 021.moro.tv
-0.0.0.0 0218-8f89-7967-768b.reporo.net
 0.0.0.0 021ycjc.com
 0.0.0.0 022club.com.cn
 0.0.0.0 022sy.com
 0.0.0.0 023-ezk-120.mktoresp.com
 0.0.0.0 023qiangzhi.com
-0.0.0.0 024f-c409-1d64-9c88.reporo.net
 0.0.0.0 024xuyisheng.com
 0.0.0.0 026-yoz-259.mktoresp.com
-0.0.0.0 0271-842d-5a8b-d2c9.reporo.net
 0.0.0.0 027i.com
 0.0.0.0 028-mbr-250.mktoresp.com
 0.0.0.0 0-29.com
@@ -15888,7 +15602,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 30klc.voluumtrk.com
 0.0.0.0 31.6.87.194.dynamic.dol.ru
 0.0.0.0 32.6.87.194.dynamic.dol.ru
-0.0.0.0 32d1d3b9c.se
 0.0.0.0 33.6.87.194.dynamic.dol.ru
 0.0.0.0 33qx.secoptim.com
 0.0.0.0 34.6.87.194.dynamic.dol.ru
@@ -15901,7 +15614,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 360popunder.com
 0.0.0.0 360switch.net
 0.0.0.0 36222.seu.cleverreach.com
-0.0.0.0 3689-7dbc-ddf7-a45f.reporo.net
 0.0.0.0 36igq.voluumtrk.com
 0.0.0.0 37.6.87.194.dynamic.dol.ru
 0.0.0.0 37dyq.voluumtrk.com
@@ -15911,7 +15623,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 360redirect.com
 0.0.0.0 360switch.net
 0.0.0.0 36222.seu.cleverreach.com
-0.0.0.0 3689-7dbc-ddf7-a45f.reporo.net
 0.0.0.0 36igq.voluumtrk.com
 0.0.0.0 37.6.87.194.dynamic.dol.ru
 0.0.0.0 37dyq.voluumtrk.com
@@ -15928,7 +15639,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 3dc265e90c6d9fa3cc0c-3f982316dc17e6e99fe1b47483239d63.r95.cf2.rackcdn.com
 0.0.0.0 3ds.ero-advertising.com
 0.0.0.0 3dstats.com
-0.0.0.0 3ece-5608-732a-5bbd.reporo.net
 0.0.0.0 3flv2.voluumtrk.com
 0.0.0.0 3grs6.voluumtrk.com
 0.0.0.0 3hfag.voluumtrk.com
@@ -15969,7 +15679,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 51.6.87.194.dynamic.dol.ru
 0.0.0.0 51yes.com
 0.0.0.0 52.6.87.194.dynamic.dol.ru
-0.0.0.0 5234-259b-588d-41c6.reporo.net
 0.0.0.0 526633146.redpop.pro
 0.0.0.0 53.6.87.194.dynamic.dol.ru
 0.0.0.0 535225459.keywordblocks.com
