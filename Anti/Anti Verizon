@@ -488,6 +488,7 @@
 0.0.0.0 ss73.vzw.com
 0.0.0.0 anscorporate.com
 0.0.0.0 anscorpstaging.wpengine.com
+0.0.0.0 gemini.yahoo.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
@@ -523,6 +524,7 @@ track-n-trace.net|
 vznavigator.net|
 anscorporate.com|
 anscorpstaging.wpengine.com|
+gemini.yahoo.com|
 ! AdGuard For Android
 69.78.235.114$network
 151.101.186.110$network
