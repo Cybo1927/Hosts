@@ -17,15 +17,6 @@
 * uBlock Origin
 * uMatrix
 
-#### Anti CDN
-* AdBlock
-* Adblock Plus 3.0+
-* AdGuard
-* AdNauseam
-* Nano Adblocker
-* Slimjet
-* uBlock Origin
-
 #### Anti Everything
 * AdAway
 * AdGuard Home
