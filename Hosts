@@ -66,7 +66,6 @@ pandora.com$genericblock
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
 @@||yospace-directv.akamaized.net
-@@||yospace.com
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
 @@||android.clients.google.com
@@ -2577,7 +2576,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||bcloudhost.com$important
 ||brandmetrics.com$important
 ||bannerhits.info$important
-||bongacams.com$important
 ||brandmetool.com$important
 ||buildmyincomedaily.com$important
 ||bloxtraffic.com$important
@@ -3143,306 +3141,180 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||clearlink.com$important
 ||clickguard.com$important
 ||clixtell.com$important
-0.0.0.0 common.ecsanalytics.com
-0.0.0.0 cdn.fuelx.com
-0.0.0.0 cdn.simility.com
-0.0.0.0 cdn.ppcprotect.com
-0.0.0.0 cdn.dep-x.com
-0.0.0.0 call.chatra.io
-0.0.0.0 chat.chatra.io
-0.0.0.0 chatra.io
-0.0.0.0 combine.urbanairship.com
-0.0.0.0 counter.ukr.net
-0.0.0.0 cmp.network-n.com
-0.0.0.0 chatlivewith.me
-0.0.0.0 cdn.jeapie.com
-0.0.0.0 conde.io
-0.0.0.0 collector-pxofrh1wnk.perimeterx.net
-0.0.0.0 cdn.petametrics.com
-0.0.0.0 connexity.net
-0.0.0.0 contentive.com
-0.0.0.0 convertkit.com
-0.0.0.0 coxmediagroup.com
-0.0.0.0 creativecdn.com
-0.0.0.0 colossusssp.com
-0.0.0.0 cm.eyereturn.com
-0.0.0.0 c-5uwzmx78pmca90x24eeex2enikmjwwsx2ekwu.g00.cnet.com
-0.0.0.0 cws-hulu.conviva.com
-0.0.0.0 cdn-media.brightline.tv
-0.0.0.0 cdn.media.brightline.tv
-0.0.0.0 client.messaging.adobe.com
-0.0.0.0 csm-e-cedtuswxaws204j8-7in78inll629.tls1.yospace.com
-0.0.0.0 csm-e-dfwprd.tls1.yospace.com
-0.0.0.0 client.teamviewer.com
-0.0.0.0 client-teamviewer-com.trafficmanager.com
-0.0.0.0 cdn.ustatik.com
-0.0.0.0 cbsig.net
-0.0.0.0 confiant-integrations.global.ssl.fastly.net
-0.0.0.0 cdin.me
-0.0.0.0 core.zontera.com
-0.0.0.0 cnetcontentsolutions.com
-0.0.0.0 content.webcollage.net
-0.0.0.0 cdn.zidedge.com
-0.0.0.0 chartbeat.com
-0.0.0.0 cdn2.ghostery.com
-0.0.0.0 cookieq.eu
-0.0.0.0 contaxe.com
-0.0.0.0 cision.com
-0.0.0.0 crowdgather.com
-0.0.0.0 collector-medium.lightstep.com
-0.0.0.0 content.mql5.com
-0.0.0.0 cdn.wootric.com
-0.0.0.0 cdn.adtrue.com
-0.0.0.0 collect.sas.com
-0.0.0.0 collect1.sas.com
-0.0.0.0 collect2.sas.com
-0.0.0.0 clientlog.portal.office.com
-0.0.0.0 click.aliexpress.com
-0.0.0.0 cdn.liftoff.io
-0.0.0.0 cadreon.com
-0.0.0.0 collector-*.perimeterx.net
-0.0.0.0 castle.io
-0.0.0.0 cdnwidget.com
-0.0.0.0 cfzu.net
-0.0.0.0 choozle.com
-0.0.0.0 clearbrain.com
-0.0.0.0 clickability.com
-0.0.0.0 cluep.com
-0.0.0.0 const.website
-0.0.0.0 cdn.rutarget.ru
-0.0.0.0 c.index.ru
-0.0.0.0 code.giraff.io
-0.0.0.0 center.io
-0.0.0.0 cdn.snippet.abtshield.com
-0.0.0.0 cdn.protecttechietopapplication.pw
-0.0.0.0 click.trk-indexmobi.com
-0.0.0.0 cbdaffiliate.club
-0.0.0.0 cbdamericax.com
-0.0.0.0 commander1.com
-0.0.0.0 c212.net
-0.0.0.0 c-ctrip.com
-0.0.0.0 c3tag.com
-0.0.0.0 cnevids.com
-0.0.0.0 crownpeak.net
-0.0.0.0 cdn.native.ai
-0.0.0.0 cdn.gubagoo.io
-0.0.0.0 connect.podium.com
-0.0.0.0 cdn.cookielaw.org
-0.0.0.0 content.flexlinks.com
-0.0.0.0 captive.apple.com
-0.0.0.0 cm*-lax1.cm.steampowered.com
-0.0.0.0 crlsets.brave.com
-0.0.0.0 chrome.adtidy.org
-0.0.0.0 cs1143.wpc.chicdn.net
-0.0.0.0 crl.certum.pl
-0.0.0.0 crl.pki.goog
-0.0.0.0 clients4.brave.com
-0.0.0.0 crl.comodoca4.com
-0.0.0.0 crl.sca1b.amazontrust.com
-0.0.0.0 checkappexec.microsoft.com
-0.0.0.0 client.wns.windows.com
-0.0.0.0 cdn-magiclinks.trackonomics.net
-0.0.0.0 cse.avlyun.com
-0.0.0.0 crbug.com
-0.0.0.0 cdn.permutive.com
-0.0.0.0 cdn.concert.io
-0.0.0.0 convertplug.com
-0.0.0.0 criticalmention.com
-0.0.0.0 c00.adobe.com
-0.0.0.0 c.spolecznosci.net
-0.0.0.0 ceehimur.uk
-0.0.0.0 cobalten.com
-0.0.0.0 clickshield.net
-0.0.0.0 carpediem.fr
-0.0.0.0 connectivity-check.ubuntu.com
-0.0.0.0 connectad.io
-0.0.0.0 collector-hpn.ghostery.net
-0.0.0.0 cp.cbbp1.com
-0.0.0.0 cbbp1.com
-0.0.0.0 cs9.wpc.v0cdn.net
-0.0.0.0 chimera.ch
-0.0.0.0 chatlio.com
-0.0.0.0 cdn.justuno.com
-0.0.0.0 cs936.wpc.chicdn.net
-0.0.0.0 chocolateplatform.com
-0.0.0.0 clickterra.net
-0.0.0.0 click-plus.net
-0.0.0.0 crta.dailymail.co.uk
-0.0.0.0 cdn.report-uri.com
-0.0.0.0 concertads-configs.*.
-0.0.0.0 cdn.trialfire.com
-0.0.0.0 circularhub.com
-0.0.0.0 cpagrip.com
-0.0.0.0 contentlockingnetworks.com
-0.0.0.0 credomobile.com
-0.0.0.0 cdn.feedbackify.com
-0.0.0.0 cstream.wi-fi.ru
-0.0.0.0 cbs.wondershare.com
-0.0.0.0 clickvalue.com.cn
-0.0.0.0 chinawomendating.asia
-0.0.0.0 control.kochava.com
-0.0.0.0 click.m.ambientplatform.vn
-0.0.0.0 cp.polyad.net
-0.0.0.0 core.polyad.net
-0.0.0.0 catalog.qc.coccoc.com
-0.0.0.0 cdn.comedia.coccoc.com
-0.0.0.0 cdn.qc.coccoc.com
-0.0.0.0 cdn-qc.coccoc.com
-0.0.0.0 context.qc.coccoc.com
-0.0.0.0 cp.qc.coccoc.com
-0.0.0.0 cdn-eb.syndication.twitter.com
-0.0.0.0 cdn.syndication.twitter.com
-0.0.0.0 cdn.installationsafe.net.s3.amazonaws.com
-0.0.0.0 campaign-tapad.s3.amazonaws.com
-0.0.0.0 c.lytics.io
-0.0.0.0 cdn.inspectlet.com
-0.0.0.0 counters.freewebs.com
-0.0.0.0 cointopay.freshdesk.com
-0.0.0.0 cdn.plus500.com
-0.0.0.0 cdnpub.info
-0.0.0.0 cryptobrowser.space
-0.0.0.0 cdn.cryptobrowser.space
-0.0.0.0 csstatic.com
-0.0.0.0 c.happyfoxchat.com
-0.0.0.0 cdn.brandmetrics.com
-0.0.0.0 clixsense.com
-0.0.0.0 copynpastecash.com
-0.0.0.0 cryptopros.biz
-0.0.0.0 clicktrackprofit.com
-0.0.0.0 cashinonbanners.com
-0.0.0.0 count2.51yes.com
-0.0.0.0 cashjuice.com
-0.0.0.0 cashjuice.link
-0.0.0.0 cherami-cloud.com
-0.0.0.0 crowdskout.com
-0.0.0.0 content-ad.net
-0.0.0.0 cdn.adglare.net
-0.0.0.0 connect.ongage.net
-0.0.0.0 c.rmbl.ws
-0.0.0.0 cdn.thisiswaldo.com
-0.0.0.0 cdn2.lockerdomecdn.com
-0.0.0.0 cdn.gotraffic.net
-0.0.0.0 cdn.vuukle.com
-0.0.0.0 commercialvalue.org
-0.0.0.0 csp.yahoo.com
-0.0.0.0 cackle.me
-0.0.0.0 crsspxl.com
-0.0.0.0 conrep.com
-0.0.0.0 converto.com
-0.0.0.0 collector.leaddyno.com
-0.0.0.0 cleverslackbot.cleverppc.com
-0.0.0.0 cleverppc.com
-0.0.0.0 captaingrowth.ai
-0.0.0.0 contextsmith.com
-0.0.0.0 cocospy.com
-0.0.0.0 cdn1.adexprts.com
-0.0.0.0 cdn2.adexprts.com
-0.0.0.0 cdn3.adexprts.com
-0.0.0.0 context.ly
-0.0.0.0 cdn.commento.io
-0.0.0.0 commento.io
-0.0.0.0 cityspark.com
-0.0.0.0 comcasttechnologysolutions.com
-0.0.0.0 cf.adxcel.com
-0.0.0.0 clicktripz.com
-0.0.0.0 concheck.adsafety.net
-0.0.0.0 count.shopping.t-online.de
-0.0.0.0 cp.abbp1.com
-0.0.0.0 ctnetpass2.com
-0.0.0.0 clickwork7secure.com
-0.0.0.0 clksc.com
-0.0.0.0 cdn.isitelab.io
-0.0.0.0 cartodb-libs.global.ssl.fastly.net
-0.0.0.0 carto.com
-0.0.0.0 cts.businesswire.com
-0.0.0.0 ch.dynadmic.com
-0.0.0.0 cybba.com
-0.0.0.0 carbondmp.com
-0.0.0.0 clipcentric.com
-0.0.0.0 colpirio.com
-0.0.0.0 contactimpact.de
-0.0.0.0 converge-digital.com
-0.0.0.0 conversantmedia.eu
-0.0.0.0 consentag.eu
-0.0.0.0 ctnsnet.com
-0.0.0.0 crimtan.com
-0.0.0.0 cablato.com
-0.0.0.0 capitaldata.fr
-0.0.0.0 cerebroad.pastor.media
-0.0.0.0 cerebroad.com
-0.0.0.0 callback.onlinepbx.ru
-0.0.0.0 crashlogs.whatsapp.net
-0.0.0.0 cyber-hub.net
-0.0.0.0 collect-eu-fy2015.myhomescreen.tv
-0.0.0.0 collect-us-fy2016.myhomescreen.tv
-0.0.0.0 collect-eu-fy2017.myhomescreen.tv
-0.0.0.0 collect-eu-fy2018.myhomescreen.tv
-0.0.0.0 collect-eu-fy2019.myhomescreen.tv
-0.0.0.0 certona.net
-0.0.0.0 contextlysitescripts.contextly.com
-0.0.0.0 contextly.com
-0.0.0.0 convertro.com
-0.0.0.0 com.s3.amazonaws.com
-0.0.0.0 cdn.mypcbackup.com
-0.0.0.0 cdn.msdwnld.com
-0.0.0.0 cdn.download.sweetpacks.com
-0.0.0.0 cdn.appround.biz
-0.0.0.0 ccp.ac
-0.0.0.0 csgo-gam.xyz
-0.0.0.0 clmbtech.com
-0.0.0.0 clownplay.com
-0.0.0.0 chatpath.com
-0.0.0.0 compass.alibaba.com
-0.0.0.0 chat50.realperson.de
-0.0.0.0 cdn.sajari.com
-0.0.0.0 collector.cloudmosa.net
-0.0.0.0 cloudmosa.net
-0.0.0.0 code.jivosite.com
-0.0.0.0 coin.scribol.com
-0.0.0.0 canlongcom.com
-0.0.0.0 cdn.clearbit.com
-0.0.0.0 customer.io
-0.0.0.0 ce6dc509e27b404fb6a59c83db881214.js.ubembed.com
-0.0.0.0 clearbit.com
-0.0.0.0 clouderrorreporting.googleapis.com
-0.0.0.0 c.evidon.com
-0.0.0.0 cdn-api.arcpublishing.com
-0.0.0.0 cdn1.bablic.com
-0.0.0.0 cdn2.bablic.com
-0.0.0.0 c.bablic.com
-0.0.0.0 config.hquickmapsanddirections.com
-0.0.0.0 cdn.exmarketplace.com
-0.0.0.0 cds21281.lon.llnw.net
-0.0.0.0 cds20424.lcy.llnw.net
-0.0.0.0 cds1269.lon.llnw.net
-0.0.0.0 cds1143.lon.llnw.net
-0.0.0.0 cds339.lcy.llnw.net
-0.0.0.0 clancy.spiceworks.com
-0.0.0.0 c.in-addr-servers.arpa
-0.0.0.0 ce.akamaiedge.net
-0.0.0.0 cbtb.clickbank.net
-0.0.0.0 ct.pinterest.com
-0.0.0.0 conversations.app-us1.com
-0.0.0.0 cdn.ttgtmedia.com
-0.0.0.0 cdn.avmws.com
-0.0.0.0 cloud.maptiler.com
-0.0.0.0 cdn0.forter.com
-0.0.0.0 cdn1.forter.com
-0.0.0.0 cdn2.forter.com
-0.0.0.0 cdn3.forter.com
-0.0.0.0 cdn4.forter.com
-0.0.0.0 cdn1.f-cdn.com
-0.0.0.0 contentstack.com
-0.0.0.0 contentstack.io
-0.0.0.0 coolchura.blogspot.com
-0.0.0.0 clixmarketing.com
-0.0.0.0 createsend.com
-0.0.0.0 css.createsend1.com
-0.0.0.0 createsend1.com
-0.0.0.0 cqcounter.com
+||simility.com$important
+||chatra.io$important
+||counter.ukr.net$important
+||chatlivewith.me$important
+||conde.io$important
+||connexity.net$important
+||contentive.com$important
+||convertkit.com$important
+||coxmediagroup.com$important
+||creativecdn.com$important
+||colossusssp.com$important
+||client.messaging.adobe.com$important
+||client.teamviewer.com$important
+||trafficmanager.com$important
+||cbsig.net$important
+||cdin.me$important
+||cnetcontentsolutions.com$important
+||chartbeat.com$important
+||cdn2.ghostery.com$important
+||cookieq.eu$important
+||contaxe.com$important
+||cision.com$important
+||crowdgather.com$important
+||clientlog.portal.office.com$important
+||click.aliexpress.com$important
+||cadreon.com$important
+||castle.io$important
+||cdnwidget.com$important
+||cfzu.net$important
+||choozle.com$important
+||clearbrain.com$important
+||clickability.com$important
+||cluep.com$important
+||const.website$important
+||c.index.ru$important
+||center.io$important
+||abtshield.com$important
+||cbdaffiliate.club$important
+||cbdamericax.com$important
+||commander1.com$important
+||c212.net$important
+||c-ctrip.com$important
+||c3tag.com$important
+||cnevids.com$important
+||crownpeak.net$important
+||podium.com$important
+||captive.apple.com$important
+||crlsets.brave.com$important
+||chrome.adtidy.org$important
+||crl.certum.pl$important
+||crl.pki.goog$important
+||clients4.brave.com$important
+||comodoca4.com$important
+||crl.sca1b.amazontrust.com$important
+||checkappexec.microsoft.com$important
+||client.wns.windows.com$important
+||cse.avlyun.com$important
+||crbug.com$important
+||concert.io$important
+||convertplug.com$important
+||criticalmention.com$important
+||c00.adobe.com$important
+||ceehimur.uk$important
+||cobalten.com$important
+||clickshield.net$important
+||carpediem.fr$important
+||connectivity-check.ubuntu.com$important
+||connectad.io$important
+||collector-hpn.ghostery.net$important
+||cbbp1.com$important
+||cs9.wpc.v0cdn.net$important
+||chimera.ch$important
+||chatlio.com$important
+||chocolateplatform.com$important
+||clickterra.net$important
+||click-plus.net$important
+||crta.dailymail.co.uk$important
+||concertads-configs.*.$important
+||circularhub.com$important
+||cpagrip.com$important
+||contentlockingnetworks.com$important
+||credomobile.com$important
+||cstream.wi-fi.ru$important
+||cbs.wondershare.com$important
+||clickvalue.com.cn$important
+||chinawomendating.asia$important
+||catalog.qc.coccoc.com$important
+||cdn.comedia.coccoc.com$important
+||cdn.qc.coccoc.com$important
+||cdn-qc.coccoc.com$important
+||context.qc.coccoc.com$important
+||cp.qc.coccoc.com$important
+||cdn-eb.syndication.twitter.com$important
+||cdn.syndication.twitter.com$important
+||*-tapad.s3.amazonaws.com$important
+||counters.freewebs.com$important
+||cdnpub.info$important
+||cryptobrowser.space$important
+||csstatic.com$important
+||clixsense.com$important
+||copynpastecash.com$important
+||cryptopros.biz$important
+||clicktrackprofit.com$important
+||cashinonbanners.com$important
+||cashjuice.com$important
+||cashjuice.link$important
+||cherami-cloud.com$important
+||crowdskout.com$important
+||content-ad.net$important
+||c.rmbl.ws$important
+||commercialvalue.org$important
+||csp.yahoo.com$important
+||cackle.me$important
+||crsspxl.com$important
+||conrep.com$important
+||converto.com$important
+||cleverppc.com$important
+||captaingrowth.ai$important
+||contextsmith.com$important
+||cocospy.com$important
+|| context.ly$important
+||commento.io$important
+||cityspark.com$important
+||comcasttechnologysolutions.com$important
+||clicktripz.com$important
+||count.shopping.t-online.de$important
+||ctnetpass2.com$important
+||clickwork7secure.com$important
+||clksc.com$important
+||carto.com$important
+||cts.businesswire.com$important
+||cybba.com$important
+||carbondmp.com$important
+||clipcentric.com$important
+||colpirio.com$important
+||contactimpact.de$important
+||converge-digital.com$important
+||conversantmedia.eu$important
+||onsentag.eu$important
+||tnsnet.com$important
+||rimtan.com$important
+||ablato.com$important
+||apitaldata.fr$important
+||erebroad.com$important
+||allback.onlinepbx.ru$important
+||rashlogs.whatsapp.net$important
+||yber-hub.net$important
+||ertona.net$important
+||contextly.com$important
+||onvertro.com$important
+||com.s3.amazonaws.com$important
+||cp.ac$important
+||sgo-gam.xyz$important
+||lmbtech.com$important
+||cwnplay.com$important
+||hatpath.com$important
+||ompass.alibaba.com$important
+||loudmosa.net$important
+||clongcom.com$important
+||ustomer.io$important
+||learbit.com$important
+||louderrorreporting.googleapis.com$important
+||bablic.com$important
+||clancy.spiceworks.com$important
+||ce.akamaiedge.net$important
+||t.pinterest.com$important
+||ontentstack.com$important
+||ontentstack.io$important
+||lixmarketing.com$important
+||reatesend.com$important
+||createsend1.com$important
+||cqcounter.com$important
 0.0.0.0 cryweb.github.io
 0.0.0.0 cmp-cdn.ghostery.com
-0.0.0.0 cdn.petametrics.com
 0.0.0.0 cootlogix.com
 0.0.0.0 clickagy.com
 0.0.0.0 c.deployads.com
@@ -3602,7 +3474,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 c.bigmir.net
 0.0.0.0 click.hotlog.ru
 0.0.0.0 conviva.com
-0.0.0.0 cws.conviva.com
 0.0.0.0 collector.abc-host.net.au
 0.0.0.0 c0.adalyser.com
 0.0.0.0 c1.adalyser.com
@@ -3704,7 +3575,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 countess.twitch.tv
 0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 canonicalizer.ucsuri.tcs
-0.0.0.0 collector-pxhyx10rg3.perimeterx.net
 0.0.0.0 channel.facebook.com
 0.0.0.0 cdn.revcontent.com
 0.0.0.0 criteo.com
@@ -3850,7 +3720,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 c1.rfihub.net
 0.0.0.0 capture.condenastdigital.com
 0.0.0.0 cdn.accelerator.arsdev.net
-0.0.0.0 client.perimeterx.net
 0.0.0.0 condenast.com
 0.0.0.0 ced.sascdn.com
 0.0.0.0 cdn.ziffstatic.com
@@ -3863,7 +3732,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 cxense.com
 0.0.0.0 cdn.tinypass.com
 0.0.0.0 cdn.connatix.com
-0.0.0.0 count*.51yes.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 clickability.com
 0.0.0.0 cdn1.inner-active.mobi
@@ -3960,7 +3828,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 data.aws-qa.rnatest.brightcove.com
 0.0.0.0 dnsdelegation.io
 0.0.0.0 defaultsearch.co
-0.0.0.0 db-ip.com
 0.0.0.0 dr.yandex.net
 0.0.0.0 districtm.io
 0.0.0.0 dwatngkas.xyz
@@ -4012,13 +3879,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dbbp1.com
 0.0.0.0 deloplen.com
 0.0.0.0 daurifek.net
-0.0.0.0 d3hio2lma4yp51.cloudfront.net
-0.0.0.0 dngifvs4oa22x.cloudfront.net
 0.0.0.0 delivery.trafficfabrik.com
 0.0.0.0 dep-x.com
-0.0.0.0 d3m83gvgzupli.cloudfront.net
-0.0.0.0 d2hya7iqhf5w3h.cloudfront.net
-0.0.0.0 d2fbkzyicji7c4.cloudfront.net
 0.0.0.0 datacygnal.io
 0.0.0.0 deqwas.net
 0.0.0.0 distiltag.com
@@ -4056,14 +3918,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dy.bild.de
 0.0.0.0 dnscheck-parental.adguard.com
 0.0.0.0 d41.co
-0.0.0.0 d3n6i6eorggdxk.cloudfront.net
-0.0.0.0 d2badvwg0mti9p.cloudfront.net
-0.0.0.0 d2yh8t8mdj4l9x.cloudfront.net
-0.0.0.0 dow068lag04cv.cloudfront.net
-0.0.0.0 d3lvalyq6xmerg.cloudfront.net
-0.0.0.0 d3aiy6aqoa3ykz.cloudfront.net
-0.0.0.0 d3cv4a9a9wh0bt.cloudfront.net
-0.0.0.0 detwzgl8cvciv.cloudfront.net
 0.0.0.0 discord.co
 0.0.0.0 discord.gifts
 0.0.0.0 discord.gift
@@ -4080,8 +3934,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dealer.spotify.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 d.href.asia
-0.0.0.0 delivery.m.ambientplatform.vn
-0.0.0.0 ds.polyad.net
 0.0.0.0 display.qc.coccoc.com
 0.0.0.0 digital-ads.s3.amazonaws.com
 0.0.0.0 dynamic.12306.cn
@@ -4119,7 +3971,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 deviantartt.ml
 0.0.0.0 ddos.city
 0.0.0.0 discordcrypt.xyz
-0.0.0.0 download.sweetpacks.com
 0.0.0.0 devehab.com
 0.0.0.0 dragonparking.com
 0.0.0.0 dragonstatic.com
@@ -4128,7 +3979,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 dododuo.com
 0.0.0.0 dododu.com
 0.0.0.0 ddoo.com
-0.0.0.0 datacollector.coin.scribol.com
 0.0.0.0 dsn-fishki.ru
 0.0.0.0 d.bablic.com
 0.0.0.0 downloadmyinboxhelper.com
@@ -4328,7 +4178,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dotcomsecrets.com
 0.0.0.0 dmvorg.s3.amazonaws.com
-0.0.0.0 device-api.urbanairship.com
 0.0.0.0 digidip.net
 0.0.0.0 databerries.com
 0.0.0.0 doubleverify.com
@@ -4457,9 +4306,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 emeter-nam.mppapi.io
 0.0.0.0 elsevier.com
 0.0.0.0 *.engine.mobileapptracking.com
-0.0.0.0 events.brightline.tv
 0.0.0.0 ephemeralcounters.api.roblox.com
-0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
 0.0.0.0 ever3trk.com
 0.0.0.0 emfbroadcasting.com
 0.0.0.0 edba.brealtime.com
@@ -4500,13 +4347,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 engagebay.com
 0.0.0.0 extremetracking.com
 0.0.0.0 ecomm.events
-0.0.0.0 explodie.org:6969
 0.0.0.0 error.facebook.com
 0.0.0.0 easygamepromo.com
-0.0.0.0 engine.adglare.net
 0.0.0.0 e-planning.net
-0.0.0.0 en.dynadmic.com
-0.0.0.0 eu.dynadmic.com
 0.0.0.0 effiliation.com
 0.0.0.0 etarget.sk
 0.0.0.0 ew3.io
@@ -4664,7 +4507,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 eu1.snoobi.com
 0.0.0.0 et.twyn.com
 0.0.0.0 estat.com
-0.0.0.0 engage.commander1.com
 0.0.0.0 exdynsrv.com
 0.0.0.0 eu-gmtdmp.gd1.mookie1.com
 0.0.0.0 ensighten.com
@@ -4768,7 +4610,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ftv-smp.ntp-fireos.com
 0.0.0.0 franecki.net
 0.0.0.0 fuelx.com
-0.0.0.0 f5v1x3kgv5.com
 0.0.0.0 facebook-info.co
 0.0.0.0 freeskreen.com
 0.0.0.0 fd-geo-ec.gy1.b.yahoodns.net
@@ -5045,7 +4886,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 googletagmanager.com
 0.0.0.0 get.geo.opera.com.global.prod.fastly.net
 0.0.0.0 get.geo.opera.com
-0.0.0.0 gd10.cloudmosa.net
 0.0.0.0 google-analytics.com
 0.0.0.0 googletagservices.com
 0.0.0.0 ghtenbritingso.com
@@ -5185,7 +5025,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 gopher-buddy-prod.appspot.com
 0.0.0.0 good.alibaba.com
 0.0.0.0 gj.mmstat.com
-0.0.0.0 ga.clearbit.com
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
 0.0.0.0 ground2.wipersoft.revenuewire.net
@@ -5434,7 +5273,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 homeitmaster.com
 0.0.0.0 hasoffers.com
 0.0.0.0 hits.blog.sina.com.cn
-0.0.0.0 html.polyad.net
 0.0.0.0 htmlads.s3.amazonaws.com
 0.0.0.0 html5adkit.plusmo.s3.amazonaws.com
 0.0.0.0 highspeedbackbone.net
@@ -5467,7 +5305,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 homebusinessourway.com
 0.0.0.0 hubs.vidyard.com
 0.0.0.0 hittail.com
-0.0.0.0 https-68-142-75-6.ord.llnw.net
 0.0.0.0 herokucdn.com
 0.0.0.0 hisimply.com
 0.0.0.0 ht4m3jc8f47out.wa4-1.aoakb3e.ml
@@ -5491,10 +5328,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 h83.80.82.166.static.ip.windstream.net
 0.0.0.0 h93.205.102.166.static.ip.windstream.net
 0.0.0.0 hitbox.com
-0.0.0.0 https-208-111-178-186.ord.llnw.net
 0.0.0.0 henanfs.com
-0.0.0.0 hivps.xyz
-0.0.0.0 h78xb.pw
 0.0.0.0 handleteeth.com
 0.0.0.0 handyfield.com
 0.0.0.0 headyhook.com
@@ -5722,7 +5556,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 indieclick.com
 0.0.0.0 iclick.cm.admaster.com.cn
 0.0.0.0 img.vietnamnetad.vn
-0.0.0.0 img.polyad.net
 0.0.0.0 inneractive-assets.s3.amazonaws.com
 0.0.0.0 iacpromotion.s3.amazonaws.com
 0.0.0.0 igoogle.com
@@ -5791,14 +5624,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 iwanttodeliver.com
 0.0.0.0 invocacdn.com
 0.0.0.0 influ2.com
-0.0.0.0 imp.hquickmapsanddirections.com
 0.0.0.0 imp.onesearch.org
 0.0.0.0 imp.mt48.net
 0.0.0.0 infonline.de
 0.0.0.0 ipnet.de
 0.0.0.0 images.contentstack.io
 0.0.0.0 ingest.machinify.com
-0.0.0.0 img.createsend1.com
 0.0.0.0 ib.mookie1.com
 0.0.0.0 ib-ibi.com
 0.0.0.0 iperceptions.com
@@ -6091,10 +5922,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 jscache.com
 0.0.0.0 justpremium.com
 0.0.0.0 ja-in-f100.1e100.net
-0.0.0.0 js.ubembed.com
 0.0.0.0 js.chargebee.com
 0.0.0.0 jammarketinginc.com
-0.0.0.0 js.createsend1.com
 0.0.0.0 j.pioneeringad.com
 0.0.0.0 jabmo.com
 0.0.0.0 jquerystatistics.org
@@ -6156,7 +5985,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ksn-crypto-info-geo.kas-labs.com
 0.0.0.0 ksn-cinfo-geo.kas-labs.com
 0.0.0.0 ksn-crypto-whocalls-geo.kaspersky-labs.com
-0.0.0.0 kvinit-prod.api.kochava.com
 0.0.0.0 kikinteractive.zendesk.com
 0.0.0.0 keepmydevicesafe.com
 0.0.0.0 keapeiros.xyz
@@ -6250,7 +6078,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kad.kaskus.com
 0.0.0.0 kadampra.in
 0.0.0.0 kadashihotel.com
-0.0.0.0 kvinit-prod.api.kochava.com
 0.0.0.0 kadem.com.tr
 0.0.0.0 kade-project.de
 0.0.0.0 kadesuitungenfunhandesuin.com
@@ -6398,7 +6225,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kanarya.com
 0.0.0.0 kancelaria24online.pl
 0.0.0.0 kancelarieprenajom.sk
-0.0.0.0 kancit512.ipodpsp.hop.clickbank.net
 0.0.0.0 kandex.si
 0.0.0.0 kandidatov.net
 0.0.0.0 kandidos.com
@@ -6498,7 +6324,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 karliny9.bget.ru
 0.0.0.0 karlodelalic.com
 0.0.0.0 karlshouse.com
-0.0.0.0 karlstrom.fapturbo.hop.clickbank.net
 0.0.0.0 karma.mdpcdn.com
 0.0.0.0 karma18.com
 0.0.0.0 karma-bodrum.com
@@ -6682,13 +6507,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kbc.be.qazispecialistclinic.com
 0.0.0.0 kbcleaning.ca
 0.0.0.0 kbdrain.com
-0.0.0.0 kbgkbg.sdsuccess.hop.clickbank.net
 0.0.0.0 kbkperm.ru
 0.0.0.0 kbmindia.com
 0.0.0.0 kbnbusinesssolutions.com
 0.0.0.0 kbndkqi61yiej6gv3wkcmve4alapa1510358821.nuid.imrworldwide.com
 0.0.0.0 kbnetworkz.s3.amazonaws.com
-0.0.0.0 kbond.fapturbo.hop.clickbank.net
 0.0.0.0 kbr-builder.dev.kargo.com
 0.0.0.0 kbr-builder.production.us-east-1.kops.kargo.com
 0.0.0.0 kbr-builder.staging.kargo.com
@@ -6969,7 +6792,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 leadsleap.com
 0.0.0.0 ladsdown.com
 0.0.0.0 lookips.com
-0.0.0.0 lopsolutions.cdn.adglare.net
 0.0.0.0 location.bloomberg.com
 0.0.0.0 localhost.ptlogin2.weiyun.com
 0.0.0.0 l.ooyala.com
@@ -7013,7 +6835,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 loading-delivery2.com
 0.0.0.0 link.iwanttodeliver.com
 0.0.0.0 libs.baidu.com
-0.0.0.0 logo.clearbit.com
 0.0.0.0 listenloop.com
 0.0.0.0 loxodo-ct.ext.nile.works
 0.0.0.0 link.safecart.com
@@ -7159,7 +6980,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mmtro.com
 0.0.0.0 myntelligence.com
 0.0.0.0 mynsystems.com
-0.0.0.0 mab.chartbeat.com
 0.0.0.0 mktoweb.com
 0.0.0.0 mktossl.com
 0.0.0.0 mdmserver.mobidia.com
@@ -7368,9 +7188,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 madadsmedia.com
 0.0.0.0 media.sportsbetaffiliates.com.au
 0.0.0.0 media.gssp.asia
-0.0.0.0 m.ambientplatform.vn
-0.0.0.0 media.ambientplatform.vn
-0.0.0.0 media.m.ambientplatform.vn
 0.0.0.0 metrics.coccoc.com
 0.0.0.0 mondoads.s3.amazonaws.com
 0.0.0.0 mobileanalytics.*.amazonaws.com
@@ -7429,7 +7246,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 move2usa.net
 0.0.0.0 myemailsimplified.com
 0.0.0.0 maxymiser.net
-0.0.0.0 media.ttgtmedia.com
 0.0.0.0 maptiler.com
 0.0.0.0 machinify.com
 0.0.0.0 mangler1.generals.ea.com
@@ -8002,7 +7818,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 offers-tracking.com
 0.0.0.0 onclickads.net
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
-0.0.0.0 occ-0-1189-92.1.nflxso.net
 0.0.0.0 optinchat.com
 0.0.0.0 o333o.com
 0.0.0.0 orange2258.com
@@ -8212,7 +8027,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 protect.ppmobiles.com
 0.0.0.0 pushapi.dolphin.com
-0.0.0.0 pointer2.cloudmosa.net
 0.0.0.0 pc-gizmos.com
 0.0.0.0 pathlime.com
 0.0.0.0 ps.pndsn.com
@@ -8458,7 +8272,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 privacy.digimedia.com
 0.0.0.0 plavxml.com
 0.0.0.0 par2.he.net
-0.0.0.0 prism.app-us1.com
 0.0.0.0 powerreviews.com
 0.0.0.0 public.newsharecounts.com
 0.0.0.0 prod.trendemon.com
@@ -8801,7 +8614,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 regstat.betfair.com
 0.0.0.0 rlogs.youdao.com
 0.0.0.0 ru.com
-0.0.0.0 remote-data.urbanairship.com
 0.0.0.0 rfihub.com
 0.0.0.0 retargetly.com
 0.0.0.0 runads.com
@@ -8884,7 +8696,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 referrer.disqus.com
 0.0.0.0 rum.conde.io
 0.0.0.0 revboostprocdnadsprod.azureedge.net
-0.0.0.0 resources.eyereturn.com
 0.0.0.0 res-x.com
 0.0.0.0 rvty.net
 0.0.0.0 river-mobile.data.ea.com
@@ -8944,7 +8755,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 rtbmarkt.de
 0.0.0.0 rtb-cdn.net
 0.0.0.0 restaurant.teamlava.com
-0.0.0.0 rest.contextly.com
 0.0.0.0 rad.live.com
 0.0.0.0 rjmetrics.com
 0.0.0.0 relateiq.com
@@ -8954,9 +8764,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 rcdn.pro
 0.0.0.0 rich.worldpush.co
 0.0.0.0 rtb.adp3.net
-0.0.0.0 reveal.clearbit.com
-0.0.0.0 risk.clearbit.com
-0.0.0.0 resources.arcpublishing.com
 0.0.0.0 revenuewire.net
 0.0.0.0 rhinosupport.com
 0.0.0.0 reactful.com
@@ -9378,7 +9185,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 salesmanago.pl
 0.0.0.0 startapp.com
 0.0.0.0 soomla.com
-0.0.0.0 s.spolecznosci.net
 0.0.0.0 s.click.aliexpress.com
 0.0.0.0 staticstuff.net
 0.0.0.0 stats.drivetheweb.com
@@ -9433,7 +9239,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 snrcdn.net
 0.0.0.0 smitionsory.co
 0.0.0.0 splitoptimizer.com
-0.0.0.0 scripttags.justuno.com
 0.0.0.0 staticw2.yotpo.com
 0.0.0.0 secure.rating-widget.com
 0.0.0.0 shermore.info
@@ -9477,9 +9282,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stats.zaloapp.com
 0.0.0.0 shop.zalo.me
 0.0.0.0 sp.zalo.me
-0.0.0.0 st.polyad.net
-0.0.0.0 st.html.polyad.net
-0.0.0.0 st.core.polyad.net
 0.0.0.0 searcher.qc.coccoc.com
 0.0.0.0 scribe.twitter.com
 0.0.0.0 s.ads-twitter.com
@@ -9526,19 +9328,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 scroll.com
 0.0.0.0 stazumik.net
 0.0.0.0 shouxaum.net
-0.0.0.0 server-99-84-168-29.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-169-124.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-46.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-31.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-26.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-24.ord52.r.cloudfront.net
 0.0.0.0 sohu.com.cn
 0.0.0.0 sgwidget.leaderapps.co
 0.0.0.0 sgwidget.com
 0.0.0.0 stat.adskiller.me
 0.0.0.0 stun.dnsleak.net
 0.0.0.0 stats.privacytools.io
-0.0.0.0 static.leaddyno.com
 0.0.0.0 service.bananatag.com
 0.0.0.0 snov.io
 0.0.0.0 surveygizmo.com
@@ -10214,7 +10009,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 secure.insightexpressai.com
 0.0.0.0 adexpert.cz
 0.0.0.0 s.adexpert.cz
-0.0.0.0 static.chartbeat.com
 0.0.0.0 sonobi.com
 0.0.0.0 script.rtbclick.net
 0.0.0.0 static.ads-twitter.com
@@ -10669,7 +10463,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 theparkingplace.com
 0.0.0.0 tqn.com
 0.0.0.0 tags.srv.stackadapt.com
-0.0.0.0 tagcontrol-cdn.evidon.com
 0.0.0.0 telemetry.appex.bing.com
 0.0.0.0 ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au
 0.0.0.0 *.t-ipnet.de
@@ -11006,14 +10799,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 usapi3.xirsys.com
 0.0.0.0 udc.yahoo.com
 0.0.0.0 ui.staples-sparx.com
-0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
 0.0.0.0 ultimatelicense.com
 0.0.0.0 uptimecdn.com
 0.0.0.0 unbouncepages.com
 0.0.0.0 upeer.me
 0.0.0.0 unityads.us
 0.0.0.0 unityads.com
-0.0.0.0 utraffic.engine.adglare.net
 0.0.0.0 ultimedia.com
 0.0.0.0 us.ynuf.aliapp.org
 0.0.0.0 u.alicdn.com
@@ -11190,7 +10981,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 viewerstats.docstoc.com.s3.amazonaws.com
 0.0.0.0 vtrk.me
 0.0.0.0 vice-staging-web-statics-cdn.viceops.net
-0.0.0.0 v.happyfoxchat.com
 0.0.0.0 vip052.ssl.hwcdn.net
 0.0.0.0 vod-server.wix.com
 0.0.0.0 viafoura.co
@@ -11237,7 +11027,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vinbet.biz
 0.0.0.0 vip.clickzzs.nl
 0.0.0.0 viaarena.com
-0.0.0.0 visit.urbanairship.com
 0.0.0.0 videoplaza.tv
 0.0.0.0 vidassets.terminus.services
 0.0.0.0 video.totalmediasolutions.com
@@ -11375,7 +11164,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 whatbrowser.org
 0.0.0.0 wufoo.com
 0.0.0.0 wildhogmailer.com
-0.0.0.0 widget.happyfoxchat.com
 0.0.0.0 wz.8286777.com
 0.0.0.0 widget.supercounters.com
 0.0.0.0 weblinks247.com
@@ -12271,7 +12059,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 039ad0897e6da.com
 0.0.0.0 039da14c.ngrok.io
 0.0.0.0 039e377h3b.com
-0.0.0.0 03aa881627a1.cdn4.forter.com
 0.0.0.0 03e.info
 0.0.0.0 03g.net
 0.0.0.0 03mwz2923rcp.xyz
@@ -12444,7 +12231,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 000.angryshark.cn
 0.0.0.0 0.tqn.com
 0.0.0.0 0.moikrug.ru
-0.0.0.0 0.datacollector.coin.scribol.com
 0.0.0.0 568cai.top
 0.0.0.0 45tu1c0.com
 0.0.0.0 112-tzm-766.mktoresp.com
@@ -12453,7 +12239,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 10ge15-1.core1.ash1.he.net
 0.0.0.0 100ge13-1.core1.lax1.he.net
 0.0.0.0 100ge11-1.core1.lax2.he.net
-0.0.0.0 286c5cf3b035.cdn4.forter.com
 0.0.0.0 52blackberry.com
 0.0.0.0 8x8.inbenta.com
 0.0.0.0 73477.tctm.co
@@ -12465,7 +12250,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 1rx.io
 0.0.0.0 105627.hittail.com
 0.0.0.0 40nuggets.com
-0.0.0.0 52211b02c9874cb5b3c1108e8cf66aa0.js.ubembed.com
 0.0.0.0 2miners.com
 0.0.0.0 6sc.co
 0.0.0.0 xpj29977.com
