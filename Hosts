@@ -2830,7 +2830,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||adknowledge.com^$important
 ||easyhitcounters.com^$important
 ||betaffs.com^$important
-||betrad.com^$important
 ||better-counter.com^$important
 ||bettermail.ca^$important
 ||betting.betfair.com^$important
@@ -3646,33 +3645,18 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||condenastdigital.com^$important
 ||condenast.com^$important
 ||carambo.la^$important
-0.0.0.0 cdn.static.zdbb.net
-0.0.0.0 complex.com
-0.0.0.0 consent.cmp.oath.com
-0.0.0.0 cxense.com
-0.0.0.0 cdn.tinypass.com
-0.0.0.0 cdn.connatix.com
-0.0.0.0 collector.githubapp.com
-0.0.0.0 clickability.com
-0.0.0.0 cdn1.inner-active.mobi
-0.0.0.0 cdn2.inner-active.mobi
-0.0.0.0 coconuts.boy.jp
-0.0.0.0 cdn.ajillionmax.com
-0.0.0.0 cdn01.mzbcdn.net
-0.0.0.0 cpmstar.com
-0.0.0.0 cdn.mxpnl.com
-0.0.0.0 chimpstatic.com
-0.0.0.0 celtra.com
-0.0.0.0 clicktale.net
-0.0.0.0 channeladvisor.com
-0.0.0.0 cdn.bizible.com
-0.0.0.0 c.betrad.com
-0.0.0.0 cdn.livefyre.com
-0.0.0.0 cdn.windstream.com
-0.0.0.0 cdn.quantummetric.com
-0.0.0.0 crazyegg.com
-0.0.0.0 cdn.auth0.com
-0.0.0.0 cdn.flipboard.com
+||complex.com^$important
+||cxense.com^$important
+||clickability.com^$important
+||coconuts.boy.jp^$important
+||collect.ptengine.jp^$important
+||ajillionmax.com^$important
+||cpmstar.com^$important
+||chimpstatic.com^$important
+||celtra.com^$important
+||clicktale.net^$important
+||channeladvisor.com^$important
+||crazyegg.com^$important
 0.0.0.0 cdn.segment.com
 0.0.0.0 conversantmedia.com
 0.0.0.0 cdn.carbonads.com
@@ -4427,7 +4411,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 enter.sexlist.com
 0.0.0.0 events.evie.com
 0.0.0.0 eviltracker.net
-0.0.0.0 experience.tinypass.com
 0.0.0.0 ezoic.net
 0.0.0.0 exelator.com
 0.0.0.0 edigitalsurvey.com
@@ -4962,7 +4945,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 getresponse.com
 0.0.0.0 geoads.com
 0.0.0.0 gfxa.sheetmusicplus.com
-0.0.0.0 github.tinypass.com
 0.0.0.0 github.algolia.com
 0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 groovinads.com
@@ -5099,7 +5081,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 geoiplookup.io
 0.0.0.0 geoplugin.net
 0.0.0.0 geoip.nekudo.com
-0.0.0.0 gurgle.zdbb.net
 0.0.0.0 hubapi.com
 0.0.0.0 hubspotemail.net
 0.0.0.0 hdfcbank.net
@@ -6782,7 +6763,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 logentries.com
 0.0.0.0 lp4.io
 0.0.0.0 livefyre.com
-0.0.0.0 l.betrad.com
 0.0.0.0 livechatoo.com
 0.0.0.0 load.instinctiveads.com
 0.0.0.0 localytics.com
@@ -7367,7 +7347,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mdotm.com
 0.0.0.0 mobclix.com
 0.0.0.0 mobpartner.mobi
-0.0.0.0 m2m1.inner-active.mobi
 0.0.0.0 memo2.nl
 0.0.0.0 n1272adserv.xyz
 0.0.0.0 nmtracking.netflix.com
@@ -9739,7 +9718,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 s11.cnzz.com
-0.0.0.0 static.zdbb.net
 0.0.0.0 spshared.5min.com
 0.0.0.0 s3.buysellads.com
 0.0.0.0 static.olark.com
@@ -11122,7 +11100,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
 0.0.0.0 webads.nl
-0.0.0.0 wv.inner-active.mobi
 0.0.0.0 xpostmail.com
 0.0.0.0 xaxis.com
 0.0.0.0 xad.com
@@ -12923,6 +12900,23 @@ slava.bg###ad
 newsnow.co.uk###pmbar
 okazii.ro##.Ad-Block
 okazii.ro##.top-promo
+||support.startpage.com/cron/index.php?
+||startpage.com/assets/js/index.js?
+||startpage.com/*/jserr
+||startpage.com/english/pics/?
+||startpage.com/do/showimage?
+||startpage.com/english/web/?
+||startpage.com/do/get_map_info
+||startpage.com/assets/js/util.js?
+||startpage.com/do/smt?
+||startpage.com/js/abp.js
+||startpage.com/sp/tst2/english/?
+||startpage.com/do/instantanswers/iaservice
+||startpage.com/do/avtc?
+||startpage.com/elp?
+||startpage.com/sp/adsense
+||startpage.com/elt.gif
+||startpage.com/pelp?
 
 !#if (adguard && !ext_ublock)
 
