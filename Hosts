@@ -3645,7 +3645,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||carambo.la^$important
 ||complex.com^$important
 ||cxense.com^$important
-||clickability.com^$important
 ||coconuts.boy.jp^$important
 ||collect.ptengine.jp^$important
 ||ajillionmax.com^$important
@@ -3840,93 +3839,71 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||darkness.su^$important
 ||drumrollsolos.com^$important
 ||dlcache.com^$important
-0.0.0.0 dynya-may.github.io
-0.0.0.0 dl-debug.dropbox.comdsp.videostat.com
-0.0.0.0 dl-debug.dropbox.com
-0.0.0.0 d.ghostery.com
-0.0.0.0 deliverimp.com
-0.0.0.0 diigo.cn
-0.0.0.0 dc.ads.linkedin.com
-0.0.0.0 data.fctablesmedia.com
-0.0.0.0 digitalprivacyalert.org
-0.0.0.0 digitaloptout.com
-0.0.0.0 digitaldsp.com
-0.0.0.0 diamondmedia.click
-0.0.0.0 diamondeal.click
-0.0.0.0 df-srv.de
-0.0.0.0 deployads.com
-0.0.0.0 departapp.com
-0.0.0.0 dn-growing.qbox.me
-0.0.0.0 dc.webtrends.com
-0.0.0.0 dmx.sync.yume.com
-0.0.0.0 sdk.stats-locations.com
-0.0.0.0 duba.net
-0.0.0.0 dh1.cmcmcdn.com
-0.0.0.0 dl.episerver.net
-0.0.0.0 dinthiningonred.info
-0.0.0.0 dtj2lavc.gq
-0.0.0.0 digitaltelemarketinghub.com
-0.0.0.0 decadecompany.com
-0.0.0.0 downloads.info
-0.0.0.0 downloadmanager.xyz
-0.0.0.0 data-cash.net
-0.0.0.0 dfcki.info
-0.0.0.0 download3000.com
-0.0.0.0 du1k.com
-0.0.0.0 dratio.com
-0.0.0.0 drip.com
-0.0.0.0 discordresolver.c99.nl
-0.0.0.0 downloads.openwebanalytics.com
-0.0.0.0 demo-web.matomo.org
-0.0.0.0 delivery.optimatic.com
-0.0.0.0 dni.agcdn.com
-0.0.0.0 display.provenpixel.com
-0.0.0.0 dapper.net
-0.0.0.0 dot.wp.pl
-0.0.0.0 deltadna.net
-0.0.0.0 desktop.spotify.com
-0.0.0.0 doubleclick.cn.com 
-0.0.0.0 desktop.google.com
-0.0.0.0 dev.clickability.com
-0.0.0.0 d-cache.microadinc.com
-0.0.0.0 dk-sbs.cdn.videoplaza.tv
-0.0.0.0 domdex.com
-0.0.0.0 dqna.com
-0.0.0.0 dashingdirt.com
-0.0.0.0 dashingsweater.com
-0.0.0.0 deadpantruck.com
-0.0.0.0 debonairway.com
-0.0.0.0 decisivedrawer.com
-0.0.0.0 decisiveducks.com
-0.0.0.0 decoycreation.com
-0.0.0.0 delightdriving.com
-0.0.0.0 desertedbreath.com
-0.0.0.0 detailedglue.com
-0.0.0.0 detectdiscovery.com
-0.0.0.0 differentdesk.com
-0.0.0.0 discreetfield.com
-0.0.0.0 dispensablestranger.com
-0.0.0.0 dk4ywix.com
-0.0.0.0 docksalmon.com
-0.0.0.0 dolphindispute.com
-0.0.0.0 donkeyleaf.com
-0.0.0.0 doubtfulrainstorm.com
-0.0.0.0 dq95d35.com
-0.0.0.0 dragzebra.com
-0.0.0.0 driverequest.com
-0.0.0.0 data-monitor.info
-0.0.0.0 dc.railgun.works
-0.0.0.0 datacaciques.com
-0.0.0.0 deliver.oztam.com.au
-0.0.0.0 dashboard.janrain.com
-0.0.0.0 dashboard.evolveplatform.net
-0.0.0.0 docs.jiguang.cn
-0.0.0.0 districtm.net
-0.0.0.0 districtm.com
-0.0.0.0 districtm.ca
-0.0.0.0 decisioncloud.marketshare.com
-0.0.0.0 doublemax.net
-0.0.0.0 doubleclickbygoogle.com
+||dynya-may.github.io^$important
+||d.ghostery.com^$important
+||deliverimp.com^$important
+||diigo.cn^$important
+||digitalprivacyalert.org^$important
+||digitaloptout.com^$important
+||digitaldsp.com^$important
+||diamondmedia.click^$important
+||diamondeal.click^$important
+||df-srv.de^$important
+||deployads.com^$important
+||departapp.com^$important
+||duba.net^$important
+||dh1.cmcmcdn.com^$important
+||dinthiningonred.info^$important
+||dtj2lavc.gq^$important
+||digitaltelemarketinghub.com^$important
+||decadecompany.com^$important
+||downloads.info^$important
+||downloadmanager.xyz^$important
+||data-cash.net^$important
+||dfcki.info^$important
+||download3000.com^$important
+||du1k.com^$important
+||dratio.com^$important
+||drip.com^$important
+||discordresolver.c99.nl^$important
+||dapper.net^$important
+||dot.wp.pl^$important
+||deltadna.net^$important
+||doubleclick.cn.com^$important
+||desktop.google.com^$important
+||domdex.com^$important
+||dqna.com^$important
+||dashingdirt.com^$important
+||dashingsweater.com^$important
+||deadpantruck.com^$important
+||debonairway.com^$important
+||decisivedrawer.com^$important
+||decisiveducks.com^$important
+||decoycreation.com^$important
+||delightdriving.com^$important
+||desertedbreath.com^$important
+||detailedglue.com^$important
+||detectdiscovery.com^$important
+||differentdesk.com^$important
+||discreetfield.com^$important
+||dispensablestranger.com^$important
+||dk4ywix.com^$important
+||docksalmon.com^$important
+||dolphindispute.com^$important
+||donkeyleaf.com^$important
+||doubtfulrainstorm.com^$important
+||dq95d35.com^$important
+||dragzebra.com^$important
+||driverequest.com^$important
+||data-monitor.info^$important
+||railgun.works^$important
+||datacaciques.com^$important
+||districtm.net^$important
+||districtm.com^$important
+||districtm.ca^$important
+||marketshare.com^$important
+||doublemax.net^$important
+||doubleclickbygoogle.com
 0.0.0.0 dev.cryptobara.com
 0.0.0.0 digger.cryptobara.com
 0.0.0.0 dable.io
@@ -4194,16 +4171,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 exmarketplace.com
 0.0.0.0 evi.com
 0.0.0.0 edge.spiceworksstatic.com
-0.0.0.0 emvm-gh1-uea01.nsa.gov
-0.0.0.0 emvm-gh1-uea02.nsa.gov
-0.0.0.0 emvm-gh1-uea03.nsa.gov
-0.0.0.0 emvm-gh1-uea04.nsa.gov
-0.0.0.0 emvm-gh1-uea05.nsa.gov
-0.0.0.0 emvm-gh1-uea06.nsa.gov
-0.0.0.0 emvm-gh1-uea07.nsa.gov
-0.0.0.0 emvm-gh1-uea08.nsa.gov
-0.0.0.0 emvm-gh1-uea09.nsa.gov
-0.0.0.0 emvm-gh1-uea10.nsa.gov
+0.0.0.0 emvm-gh1-uea*.nsa.gov
 0.0.0.0 e.in-addr-servers.arpa
 0.0.0.0 etracker.com
 0.0.0.0 e7502.ce.akamaiedge.net
@@ -4211,20 +4179,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 e8218.ce.akamaiedge.net
 0.0.0.0 e2835.dspb.akamaiedge.net
 0.0.0.0 ebs*.telekom.de
-0.0.0.0 ebs01.telekom.de
-0.0.0.0 ebs02.telekom.de
-0.0.0.0 ebs03.telekom.de
-0.0.0.0 ebs04.telekom.de
-0.0.0.0 ebs05.telekom.de
-0.0.0.0 ebs06.telekom.de
-0.0.0.0 ebs07.telekom.de
-0.0.0.0 ebs08.telekom.de
-0.0.0.0 ebs09.telekom.de
-0.0.0.0 ebs10.telekom.de
-0.0.0.0 ebs11.telekom.de
-0.0.0.0 ebs12.telekom.de
-0.0.0.0 ebs13.telekom.de
-0.0.0.0 ebs14.telekom.de
 0.0.0.0 edge-oculus-shv-01-frt3.fbcdn.net
 0.0.0.0 edge-mqtt-shv-01-frt3.facebook.com
 0.0.0.0 edge-star-shv-01-frt3.facebook.com
@@ -4281,7 +4235,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 errortablet.com
 0.0.0.0 exclusivebrass.com
 0.0.0.0 experienceeggs.com
-0.0.0.0 educationcenter.janrain.com
 0.0.0.0 e5019.e2.akamaiedge.net
 0.0.0.0 evolveplatform.net
 0.0.0.0 evengparme.com
@@ -4635,13 +4588,13 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 fyre.co
 0.0.0.0 force.com
 0.0.0.0 fo-api.omnitagjs.com
-0.0.0.0 fastclick.net
-0.0.0.0 flurry.com
-0.0.0.0 fidzup.com
-0.0.0.0 frog.wix.com
-0.0.0.0 freshmarketer.com
-0.0.0.0 gerlinger.org
-0.0.0.0 graph.microsoft.com
+||fastclick.net^$important
+||flurry.com^$important
+||fidzup.com^$important
+||frog.wix.com^$important
+||freshmarketer.com^$important
+||gerlinger.org^$important
+||graph.microsoft.com^$important
 0.0.0.0 gscounters.eu1.gigya.com
 0.0.0.0 genesis.malwarebytes.com
 0.0.0.0 glishais.net
@@ -5059,7 +5012,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 hootsuite.com
 0.0.0.0 hellobar.com
 0.0.0.0 hvtd.s3.amazonaws.com
-0.0.0.0 hpde.peerius.episerver.net
 0.0.0.0 hyprmx.com
 0.0.0.0 hscta.net
 0.0.0.0 hello.staticstuff.net
@@ -5405,7 +5357,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 iplis.ru
 0.0.0.0 iplo.ru
 0.0.0.0 ivwbox.de
-0.0.0.0 in-viacom18.videoplaza.tv
 0.0.0.0 installer.betterinstaller.com
 0.0.0.0 inno.bisrv.com
 0.0.0.0 infusionsoft.com
@@ -7631,7 +7582,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 optimatic.com
 0.0.0.0 o1.inviziads.com
 0.0.0.0 optimonk.com
-0.0.0.0 ots.optimize.webtrends.com
 0.0.0.0 omaze.com
 0.0.0.0 omniture.com
 0.0.0.0 owox.com
@@ -9144,17 +9094,14 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 svc.ms
 0.0.0.0 sitescout.com
 0.0.0.0 smartlinksv2.mediresource.com
-0.0.0.0 static.fctablesmedia.com
 0.0.0.0 searchlock.com
 0.0.0.0 saymedia.com
 0.0.0.0 static-42andpark-com.s3.amazonaws.com
 0.0.0.0 streamstats.prd.dlive.tv
 0.0.0.0 stripe.rs-stripe.com
-0.0.0.0 sync.yume.com
 0.0.0.0 sync.adotmob.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
-0.0.0.0 sdks.stats-locations.com
 0.0.0.0 stats-locations.com
 0.0.0.0 support.walkme.com
 0.0.0.0 stats.abbi.io
@@ -9234,7 +9181,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 s.206ads.com
 0.0.0.0 syndication.twitter.com
 0.0.0.0 seevolution.com
-0.0.0.0 static.matomo.org
 0.0.0.0 static.wingify.com
 0.0.0.0 smartlook.com
 0.0.0.0 stathat.com
@@ -9370,7 +9316,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 swordgoose.com
 0.0.0.0 static.tidiochat.com
 0.0.0.0 sdk-cdn.beeketing.com
-0.0.0.0 scs.webtrends.com
 0.0.0.0 sync.rtk.io
 0.0.0.0 stats.avast.com
 0.0.0.0 sofia.trustx.org
@@ -9959,7 +9904,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 timeline*-clientstats*.pusher.com
 0.0.0.0 the.honoluluadvertiser.com
 0.0.0.0 t.rainide.com
-0.0.0.0 tr-vidyoda.videoplaza.tv
 0.0.0.0 tracking.synthasite.net
 0.0.0.0 tag.rmp.rakuten.com
 0.0.0.0 tercept.com
@@ -10277,7 +10221,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 telemetry.nvidia.com
 0.0.0.0 top100.ru
 0.0.0.0 top100.rambler.ru
-0.0.0.0 trust.janrain.com
 0.0.0.0 thefilter.com
 0.0.0.0 tracking.ad360.vn
 0.0.0.0 traffic.club
@@ -10509,7 +10452,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 uttermosthobbies.com
 0.0.0.0 update.aut5.com
 0.0.0.0 usekahuna.com
-0.0.0.0 ud-staging.janrain.com
 0.0.0.0 us.js2.yimg.com
 0.0.0.0 updates.easycounter.com
 0.0.0.0 uk-advertising.yahoo.com
@@ -10544,7 +10486,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ultramercial.com
 0.0.0.0 unarmedindustry.com
 0.0.0.0 undertone.com
-0.0.0.0 update.sdk.jiguang.cn
 0.0.0.0 unknowntray.com
 0.0.0.0 unrulymedia.com
 0.0.0.0 unity3d.ads.com
