@@ -535,6 +535,8 @@ gemini.yahoo.com|
 54.236.3.168$network
 [2001:428:1404:2::2:11]$network
 [2001:4860:4806:8::]$network
+! Verizon WiFi Calling
+141.207.0.0$network
 ! https://who.is/whois-ip/ip-address/152.195.53.200
 152.195.53.200$network
 ! App Specific
