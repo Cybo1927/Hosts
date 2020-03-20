@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 30
+! Version: 31
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -634,25 +634,26 @@ share_
 /pluso-like/
 
 ! Specific
-www.dailymail.co.uk##.dms-puff
-www.htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
+dailymail.co.uk##.dms-puff
+htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
 foxnews.com##.social-icons
 app.tradeoff.com##.trading-results__header-actions
 yahoo.com##.canvas-share-buttons, .left-share-buttons
 wordpress.com##a[href*="wordpress.com/feed/"]
 wordpress.com##a[href*="wordpress.com/comment/feed/"]
 wordpress.com##a[href*="wordpress.com/comments/feed/"]
-www.breitbart.com###bsocial
-www.breitbart.com###bbvb
+breitbart.com###bsocial
+breitbart.com###bbvb
 dailycaller.com##.xl\:pr-6.lg\:mx-4.lg\:mb-0.mb-6.article-column > .pt-10.mb-4.flex.list-none
 dailycaller.com##.article-footer > .pt-10.mb-4.flex.list-none
-www.dailywire.com##a.es81y9m5.css-oe3sn5
+dailywire.com##a.es81y9m5.css-oe3sn5
 thehackernews.com##.cf.f-menu-cl-4
-www.britannica.com##.middle-xs.center-xs.ui-icon
+britannica.com##.middle-xs.center-xs.ui-icon
 freebeacon.com##.mt-8.lg\:ml-8.items-center.justify-between.flex
 frenreport.com##.ed-social-share-icons.social-icons
 frenreport.com##.social-share-link
-www.privacytools.io###participate
+privacytools.io###participate
 freebeacon.com##.hide-print
 freebeacon.com##.md\:block.flex.justify-center.list-inline
 premiumleech.eu###d-spc > .inside
+youtube.com###chat
