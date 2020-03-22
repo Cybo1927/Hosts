@@ -854,7 +854,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||aivdesk.com^$important
 ||autoid.com^$important
 ||af.opera.com^$important
-||autoupdate.geo.opera.com^$important
 ||adbooks.ru^$important
 ||a0.nic.payu^$important
 ||aax-us-iad.amazon.com^$important
@@ -2605,7 +2604,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||bombora.com^$important
 ||bouncex.com^$important
 ||bucksense.com^$important
-||bandsintown.com^$important
 ||beachfrontmedia.com^$important
 ||beachfront.io^$important
 ||beachfront.com^$important
@@ -4361,170 +4359,151 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||freesalesleads4u.com^$important
 ||forfollow.net^$important
 ||freefollower.eu^$important
-0.0.0.0 forms.zohopublic.com
-0.0.0.0 floratraffic.com
-0.0.0.0 fileice.us
-0.0.0.0 fengkongcloud.com
-0.0.0.0 findminecraft.com
-0.0.0.0 freeminecrafthost.com
-0.0.0.0 fanoutcdn.com
-0.0.0.0 flipmass.com
-0.0.0.0 free-phone-trackers.phonelookupzjq.com
-0.0.0.0 free-email-tracker.com
-0.0.0.0 freshdesk.com
-0.0.0.0 free-track.net
-0.0.0.0 firstpromoter.com
-0.0.0.0 filesusr.com
-0.0.0.0 fessoovy.com
-0.0.0.0 formstack.com
-0.0.0.0 fqtag.com
-0.0.0.0 fastly-insights.com
-0.0.0.0 fusedit.com
-0.0.0.0 fusedit.com.au
-0.0.0.0 fpctraffic3.com
-0.0.0.0 fucktrio.info
-0.0.0.0 factual.com
-0.0.0.0 flexoffers.com
-0.0.0.0 fidelity-media.com
-0.0.0.0 fortvision.com
-0.0.0.0 feynmanhopeful.eu
-0.0.0.0 fuglekos.com
-0.0.0.0 fortnite-stats.site
-0.0.0.0 flingo.tv
-0.0.0.0 fun.clownplay.com
-0.0.0.0 fourier.alibaba.com
-0.0.0.0 footprintpredict.com
-0.0.0.0 f.in-addr-servers.arpa
-0.0.0.0 fra1.he.net
-0.0.0.0 forms.aweber.com
-0.0.0.0 freegeoip.klokantech.com
-0.0.0.0 fastleadads.com
-0.0.0.0 fe.sitedataprocessing.com
-0.0.0.0 farm2.zynga.com
-0.0.0.0 flychatbot.fatergroup.com
-0.0.0.0 follow.maribacaberita.com
-0.0.0.0 fctablesmedia.com
-0.0.0.0 fdplttrk.com
-0.0.0.0 free-website-traffic.com
-0.0.0.0 free-website-statistics.com
-0.0.0.0 free-website-hit-counters.com
-0.0.0.0 freewebsites.com
-0.0.0.0 freewebsite.biz
-0.0.0.0 files.upscore.com
-0.0.0.0 freeweb.siol.net
-0.0.0.0 freewebs.getclicky.com
-0.0.0.0 footprint.net
-0.0.0.0 f1-na.readspeaker.com
-0.0.0.0 fave.co
-0.0.0.0 freevirusprotection.org
-0.0.0.0 fonts.zohowebstatic.com
-0.0.0.0 fingerprintjs.com
-0.0.0.0 fpjs.io
-0.0.0.0 flyspy.co
-0.0.0.0 fc-use1-00-pics-bkt-00.s3.amazonaws.com
-0.0.0.0 freshworks.com
-0.0.0.0 freshdesk.freshsales.io
-0.0.0.0 freshsales.io
-0.0.0.0 freshchat.com
-0.0.0.0 fortifi.io
-0.0.0.0 forecast.analytiall.com
-0.0.0.0 free-counter.co.uk
-0.0.0.0 filegoogle.com
-0.0.0.0 fundingchoices.google.com
-0.0.0.0 fcmatch.google.com
-0.0.0.0 fromru.su
-0.0.0.0 fashion-tube.be
-0.0.0.0 fr.a2dfp.net
-0.0.0.0 fluct.jp
-0.0.0.0 fibonad.com
-0.0.0.0 fun-hits.de
-0.0.0.0 fun-pages.net
-0.0.0.0 fullqurandownload.com
-0.0.0.0 futuristicfifth.com
-0.0.0.0 facilitategrandfather.com
-0.0.0.0 fanaticalfly.com
-0.0.0.0 farethief.com
-0.0.0.0 farmergoldfish.com
-0.0.0.0 faultycanvas.com
-0.0.0.0 flakyfeast.com
-0.0.0.0 flavordecision.com
-0.0.0.0 flimsycircle.com
-0.0.0.0 floodprincipal.com
-0.0.0.0 floweryoperation.com
-0.0.0.0 foamybox.com
-0.0.0.0 fourarithmetic.com
-0.0.0.0 frailoffer.com
-0.0.0.0 functionalclam.com
-0.0.0.0 futuristicapparatus.com
-0.0.0.0 futuristicfairies.com
-0.0.0.0 fuzzyflavor.com
-0.0.0.0 fuzzyweather.com
-0.0.0.0 fly.beeketing.com
-0.0.0.0 file-cdn.beeketing.com
-0.0.0.0 fast-nc.appcues.com
-0.0.0.0 fusepowered.com
-0.0.0.0 feature.fm
-0.0.0.0 fd-fp3.wg1.b.yahoo.com
-0.0.0.0 forter.com
-0.0.0.0 fabric.io
-0.0.0.0 freecontent.bid
-0.0.0.0 freecontent.date
-0.0.0.0 freecontent.faith
-0.0.0.0 freecontent.loan
-0.0.0.0 freecontent.racing
-0.0.0.0 freecontent.win
-0.0.0.0 flare-analytics.com
-0.0.0.0 flocdn.com
-0.0.0.0 fuckadblock.sitexw.fr
-0.0.0.0 foxurl.net
-0.0.0.0 freebytecoin.cf
-0.0.0.0 filesonic.in
-0.0.0.0 facetickle.com
-0.0.0.0 factucare.com
-0.0.0.0 foxarmedia.com
-0.0.0.0 flytraff.com
-0.0.0.0 freeindoapp.com
-0.0.0.0 foxpush.com
-0.0.0.0 forex-tv-online.com
-0.0.0.0 fastcpm.ru
-0.0.0.0 falobo.ru
-0.0.0.0 fouoh.com
-0.0.0.0 freexxxdownload.net
-0.0.0.0 forum.globusevent.ru
-0.0.0.0 faktty.com
-0.0.0.0 fafc5ra5.ru
-0.0.0.0 fout.jp
-0.0.0.0 fam-ad.com
-0.0.0.0 *-sonar.xx.fbcdn.net
-0.0.0.0 fbcdn-photos.akamaihd.net
-0.0.0.0 fbcdn-profile-a.akamaihd.net
-0.0.0.0 fullstory.com
-0.0.0.0 fe2.update.microsoft.com.akadns.net
-0.0.0.0 fbstatic-a.akamaihd.net
-0.0.0.0 fbexternal-a.akamaihd.net
-0.0.0.0 fbcdn-static-b-a.akamaihd.net
-0.0.0.0 fbcdn-creative-a.akamaihd.net
-0.0.0.0 functionalclam.com
-0.0.0.0 feedbacksite-bn2b.smartscreen.microsoft.com
-0.0.0.0 feedback.windows.com
-0.0.0.0 feedback.search.microsoft.com
-0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-0.0.0.0 freeresultsguide.com
-0.0.0.0 foresee.com
-0.0.0.0 friendfeed.com
-0.0.0.0 factset.com
-0.0.0.0 feedback.microsoft-hohm.com
-0.0.0.0 fyber.com
-0.0.0.0 fttcj.com
-0.0.0.0 freenom.link
-0.0.0.0 flexytalk.net
-0.0.0.0 fls-na.amazon.com
-0.0.0.0 floridat.app.ur.gcion.com
-0.0.0.0 freewarefreedownload.com
-0.0.0.0 feedads.googleadservices.com
-0.0.0.0 fyre.co
-0.0.0.0 force.com
-0.0.0.0 fo-api.omnitagjs.com
+||zohopublic.com^$important
+||floratraffic.com^$important
+||fileice.us^$important
+||fengkongcloud.com^$important
+||findminecraft.com^$important
+||freeminecrafthost.com^$important
+||fanoutcdn.com^$important
+||flipmass.com^$important
+||phonelookupzjq.com^$important
+||free-email-tracker.com^$important
+||freshdesk.com^$important
+||free-track.net^$important
+||firstpromoter.com^$important
+||filesusr.com^$important
+||fessoovy.com^$important
+||formstack.com^$important
+||fqtag.com^$important
+||fastly-insights.com^$important
+||fusedit.com^$important
+||fusedit.com.au^$important
+||fpctraffic3.com^$important
+||fucktrio.info^$important
+||factual.com^$important
+||flexoffers.com^$important
+||fidelity-media.com^$important
+||fortvision.com^$important
+||feynmanhopeful.eu^$important
+||fuglekos.com^$important
+||fortnite-stats.site^$important
+||flingo.tv^$important
+||clownplay.com^$important
+||fourier.alibaba.com^$important
+||footprintpredict.com^$important
+||fra1.he.net^$important
+||fastleadads.com^$important
+||sitedataprocessing.com^$important
+||flychatbot.fatergroup.com^$important
+||maribacaberita.com^$important
+||fctablesmedia.com^$important
+||fdplttrk.com^$important
+||free-website-traffic.com^$important
+||free-website-statistics.com^$important
+||free-website-hit-counters.com^$important
+||freewebsites.com^$important
+||freewebsite.biz^$important
+||upscore.com^$important
+||freeweb.siol.net^$important
+||getclicky.com^$important
+||footprint.net^$important
+||f1-na.readspeaker.com^$important
+||fave.co^$important
+||freevirusprotection.org^$important
+||zohowebstatic.com^$important
+||fingerprintjs.com^$important
+||fpjs.io^$important
+||flyspy.co^$important
+||freshworks.com^$important
+||freshsales.io^$important
+||freshchat.com^$important
+||fortifi.io^$important
+||free-counter.co.uk^$important
+||filegoogle.com^$important
+||fundingchoices.google.com^$important
+||fcmatch.google.com^$important
+||fromru.su^$important
+||fashion-tube.be^$important
+||fluct.jp^$important
+||fibonad.com^$important
+||fun-hits.de^$important
+||fun-pages.net^$important
+||fullqurandownload.com^$important
+||futuristicfifth.com^$important
+||facilitategrandfather.com^$important
+||fanaticalfly.com^$important
+||farethief.com^$important
+||farmergoldfish.com^$important
+||faultycanvas.com^$important
+||flakyfeast.com^$important
+||flavordecision.com^$important
+||flimsycircle.com^$important
+||floodprincipal.com^$important
+||floweryoperation.com^$important
+||foamybox.com^$important
+||fourarithmetic.com^$important
+||frailoffer.com^$important
+||functionalclam.com^$important
+||futuristicapparatus.com^$important
+||futuristicfairies.com^$important
+||fuzzyflavor.com^$important
+||fuzzyweather.com^$important
+||fusepowered.com^$important
+||feature.fm^$important
+||fd-fp3.wg1.b.yahoo.com^$important
+||forter.com^$important
+||fabric.io^$important
+||freecontent.bid^$important
+||freecontent.date^$important
+||freecontent.faith^$important
+||freecontent.loan^$important
+||freecontent.racing^$important
+||freecontent.win^$important
+||flare-analytics.com^$important
+||flocdn.com^$important
+||fuckadblock.sitexw.fr^$important
+||foxurl.net^$important
+||freebytecoin.cf^$important
+||filesonic.in^$important
+||facetickle.com^$important
+||factucare.com^$important
+||foxarmedia.com^$important
+||flytraff.com^$important
+||freeindoapp.com^$important
+||foxpush.com^$important
+||forex-tv-online.com^$important
+||fastcpm.ru^$important
+||falobo.ru^$important
+||fouoh.com^$important
+||freexxxdownload.net^$important
+||faktty.com^$important
+||fafc5ra5.ru^$important
+||fout.jp^$important
+||fam-ad.com^$important
+||*-sonar.xx.fbcdn.net^$important
+||fullstory.com^$important
+||fbexternal-a.akamaihd.net^$important
+||functionalclam.com^$important
+||feedbacksite-bn2b.smartscreen.microsoft.com^$important
+||feedback.windows.com^$important
+||feedback.search.microsoft.com^$important
+||fe3.delivery.dsp.mp.microsoft.com.nsatc.net^$important
+||freeresultsguide.com^$important
+||foresee.com^$important
+||friendfeed.com^$important
+||factset.com^$important
+||microsoft-hohm.com^$important
+||fyber.com^$important
+||fttcj.com^$important
+||flexytalk.net^$important
+||fls-na.amazon.com^$important
+||floridat.app.ur.gcion.com^$important
+||freewarefreedownload.com^$important
+||googleadservices.com^$important
+||fyre.co^$important
+||force.com^$important
+||omnitagjs.com^$important
 ||fastclick.net^$important
 ||flurry.com^$important
 ||fidzup.com^$important
@@ -4532,196 +4511,178 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||freshmarketer.com^$important
 ||gerlinger.org^$important
 ||graph.microsoft.com^$important
-0.0.0.0 gscounters.eu1.gigya.com
-0.0.0.0 genesis.malwarebytes.com
-0.0.0.0 glishais.net
-0.0.0.0 gromairt.net
-0.0.0.0 geoip.youversionapi.com
-0.0.0.0 goodskins.space
-0.0.0.0 gigya.com
-0.0.0.0 gigya-ext.com
-0.0.0.0 getnotify.com
-0.0.0.0 getbase.com
-0.0.0.0 genesisaffiliates.com
-0.0.0.0 gambling-affiliation.com
-0.0.0.0 game-advertising-online.com
-0.0.0.0 game-clicks.com
-0.0.0.0 gameads.com
-0.0.0.0 gamersad.com
-0.0.0.0 g-stats.openhost.es
-0.0.0.0 go.jumpshot.com
-0.0.0.0 go.toutapp.com
-0.0.0.0 gscounters.us1.gigya.com
-0.0.0.0 getintent.com
-0.0.0.0 gpshopper.com
-0.0.0.0 geolocation.forbes.com
-0.0.0.0 g2insights-cdn.azureedge.net
-0.0.0.0 geoedge.be
-0.0.0.0 gdi-loyaltymobile-lb-prod.galepartners.com
-0.0.0.0 gdi-mobile-server-prod.us-west-2.elasticbeanstalk.com
-0.0.0.0 go.pushwoosh.com
-0.0.0.0 go.appannie.com
-0.0.0.0 geo.ampxdirect.com
-0.0.0.0 gnar.grammarly.com
-0.0.0.0 getambassador.com
-0.0.0.0 gameanalisys.appcpi.net
-0.0.0.0 go.redirectingat.com
-0.0.0.0 g.luckfun.vip
-0.0.0.0 g.luckywinnervip.com
-0.0.0.0 geo.iplocation.com
-0.0.0.0 g4mz.com
-0.0.0.0 geo-media.beatport.com
-0.0.0.0 gingie.com
-0.0.0.0 gamestats.gs.nintendowifi.net
-0.0.0.0 gamestats2.gs.nintendowifi.net
-0.0.0.0 gifts.stkfree.xyz
-0.0.0.0 gstsvc.webcamwiz.com
-0.0.0.0 growingio.com
-0.0.0.0 getpushmonkey.com
-0.0.0.0 go.click10.online
-0.0.0.0 go.redirdomain.ru
-0.0.0.0 geo.choice.faktor.io
-0.0.0.0 googletagmanager.com
-0.0.0.0 get.geo.opera.com.global.prod.fastly.net
-0.0.0.0 get.geo.opera.com
+||gigya.com^$important
+||genesis.malwarebytes.com^$important
+||glishais.net^$important
+||gromairt.net^$important
+||geoip.youversionapi.com^$important
+||goodskins.space^$important
+||gigya-ext.com^$important
+||getnotify.com^$important
+||getbase.com^$important
+||genesisaffiliates.com^$important
+||gambling-affiliation.com^$important
+||game-advertising-online.com^$important
+||game-clicks.com^$important
+||gameads.com^$important
+||gamersad.com^$important
+||*-stats.openhost.es^$important
+||jumpshot.com^$important
+||toutapp.com^$important
+||getintent.com^$important
+||gpshopper.com^$important
+||geolocation.forbes.com^$important
+||g2insights-cdn.azureedge.net^$important
+||geoedge.be^$important^$important
+||galepartners.com$third-party,important
+||gale.agency$third-party,important
+||go.pushwoosh.com^$important
+||gnar.grammarly.com^$important
+||getambassador.com^$important
+||redirectingat.com^$important
+||g.luckfun.vip^$important
+||luckywinnervip.com^$important
+||geo.iplocation.com^$important
+||g4mz.com^$important
+||geo-media.beatport.com^$important
+||gingie.com^$important
+||gamestats*.gs.nintendowifi.net^$important
+||stkfree.xyz^$important
+||gstsvc.webcamwiz.com^$important
+||partners.webcamwiz.com^$important
+||growingio.com^$important
+||getpushmonkey.com^$important
+||click10.online^$important
+||redirdomain.ru^$important
+||faktor.io^$important
+||googletagmanager.com^$important
+||get.geo.opera.com.global.prod.fastly.net^$important
 ||google-analytics.com^$important
 ||googletagservices.com^$important
-0.0.0.0 ghtenbritingso.com
-0.0.0.0 goguardian.
-0.0.0.0 gse.io
-0.0.0.0 gamingadult.com$third-party
-0.0.0.0 go.trafficshop.com
-0.0.0.0 gunnepaa.xyz
-0.0.0.0 getscriptjs.com
-0.0.0.0 gallerynude.eu
-0.0.0.0 greedseed.world
-0.0.0.0 galeon.com$third-party
-0.0.0.0 g.cash-ads.com
-0.0.0.0 go.nordvpn.*$third-party
-0.0.0.0 gstatic-us.pro
-0.0.0.0 gpswox.com
-0.0.0.0 ga-dev-tools.appspot.com
-0.0.0.0 georiot.com
-0.0.0.0 geni.us
-0.0.0.0 g2afse.com
-0.0.0.0 gtm.oasisfeng.com
-0.0.0.0 go.referralcandy.com
-0.0.0.0 googleclubstore.com
-0.0.0.0 geo.shtranssion.com
-0.0.0.0 grtyv.com
-0.0.0.0 gstatic-as.pro
-0.0.0.0 go.strpjmp.com
-0.0.0.0 gaps.com
-0.0.0.0 geohawk.co.uk
-0.0.0.0 gloussuz.com
-0.0.0.0 grooksom.com
-0.0.0.0 g4offers.com
-0.0.0.0 globaxy.com
-0.0.0.0 globalwidemedia.com
-0.0.0.0 goeris.com
-0.0.0.0 g.msn.com
-0.0.0.0 goprediction.com
-0.0.0.0 geoip.ubuntu.com
-0.0.0.0 goaccess.io
-0.0.0.0 googletraveladservices.com
-0.0.0.0 gsspat.jp
-0.0.0.0 glitter.services.disqus.com
-0.0.0.0 godog.shopifycloud.com
-0.0.0.0 geo.poki.io
-0.0.0.0 guoshipartners.com
-0.0.0.0 graphenedigitalanalytics.in
-0.0.0.0 gridcash.net
-0.0.0.0 geo1.ggpht.com
-0.0.0.0 geo2.ggpht.com
-0.0.0.0 geo3.ggpht.com
-0.0.0.0 geo*.ggpht.com
-0.0.0.0 gannettdigital.com
-0.0.0.0 geo.opera.com
-0.0.0.0 games.wimi5.com
-0.0.0.0 good-traf.ru
-0.0.0.0 grv.media
-0.0.0.0 grvmedia.com
-0.0.0.0 geoscripts.meredith.services
-0.0.0.0 geni.us
-0.0.0.0 garry.windscribe.com
-0.0.0.0 ga.kvideo.io
-0.0.0.0 graviton-news-gateway.media.yahoo.com
-0.0.0.0 giraff.io
-0.0.0.0 get.optad360.io
-0.0.0.0 gazeta.hit.gemius.pl
-0.0.0.0 get.popplunder.com
-0.0.0.0 getchipbot.com
-0.0.0.0 gtrk.s3.amazonaws.com
-0.0.0.0 gahu.hit.gemius.pl
-0.0.0.0 gourmetads.com
-0.0.0.0 googleapis.l.google.com
-0.0.0.0 gsacollections-pa.googleapis.com
-0.0.0.0 gwrtdp-tn690bfadt.tclclouds.com
-0.0.0.0 goaffpro.com
-0.0.0.0 gsp-binaries.s3.eu-west-1.amazonaws.com
-0.0.0.0 go.padst.com
-0.0.0.0 go.padsdel.com
-0.0.0.0 geotrust.com
-0.0.0.0 grahamdigital.com
-0.0.0.0 g1.tagtic.cn
-0.0.0.0 geoservice.curse.com
-0.0.0.0 get.mysecurify.com
-0.0.0.0 geranew.info
-0.0.0.0 googlee.com
-0.0.0.0 gamingadult.biz
-0.0.0.0 go.adovr.com
-0.0.0.0 getgobot.com
-0.0.0.0 getshogun.com
-0.0.0.0 go.mobtrks.com
-0.0.0.0 global-dealer-ssl.spotify.com
-0.0.0.0 gs.dailymail.co.uk
-0.0.0.0 goreal.at
-0.0.0.0 groupdev.wufoo.com
-0.0.0.0 gsolos.com
-0.0.0.0 giganticsolos.com
-0.0.0.0 ganon.yahoo.com
-0.0.0.0 growth-pa.googleapis.com
-0.0.0.0 gdpr500.com
-0.0.0.0 gvosupport.com
-0.0.0.0 gorillamarketingpro.com
-0.0.0.0 giantdigitalmarketing.com
-0.0.0.0 getadditionaloffer.com
-0.0.0.0 gotraffic.net
-0.0.0.0 getadmiral.com
-0.0.0.0 gma8il.com
-0.0.0.0 gridserver.com
-0.0.0.0 geotrack.email
-0.0.0.0 gender-decoder.katmatfield.com
-0.0.0.0 growsumo.com
-0.0.0.0 grsm.io
-0.0.0.0 gumroad.com
-0.0.0.0 gum.co
-0.0.0.0 grademyads.com
-0.0.0.0 gpswox.com
-0.0.0.0 getgist.com
-0.0.0.0 globetoday.com
-0.0.0.0 gmmail.com
-0.0.0.0 gmg.io
-0.0.0.0 geoapi.indiatimes.com
-0.0.0.0 globaloffersnow.com
-0.0.0.0 groundtruth.com
-0.0.0.0 gemius.com
-0.0.0.0 gamned.com
-0.0.0.0 gbucket.ch
-0.0.0.0 goldbach.com
-0.0.0.0 goldenbees.fr
-0.0.0.0 goodwaygroup.com
-0.0.0.0 groupm.com
-0.0.0.0 getblue.io
-0.0.0.0 gyazo.nl
-0.0.0.0 gap.sp1.convertro.com
-0.0.0.0 gettally.com
-0.0.0.0 getsidekick.com
-0.0.0.0 gml.email
-0.0.0.0 getip.devehab.com
-0.0.0.0 gopher-buddy-dev.appspot.com
-0.0.0.0 gopher-buddy-prod.appspot.com
-0.0.0.0 good.alibaba.com
+||ghtenbritingso.com^$important
+||goguardian.^$important
+||gse.io^$important
+||gamingadult.com$third-party,important
+||trafficshop.com^$important
+||gunnepaa.xyz^$important
+||getscriptjs.com^$important
+||gallerynude.eu^$important
+||greedseed.world^$important
+||galeon.com$third-party,important
+||go.nordvpn.*$third-party,important
+||gstatic-us.pro^$important
+||gpswox.com^$important
+||ga-dev-tools.appspot.com^$important
+||georiot.com^$important
+||geni.us^$important
+||g2afse.com^$important
+||gtm.oasisfeng.com^$important
+||referralcandy.com^$important
+||googleclubstore.com^$important
+||geo.shtranssion.com^$important
+||grtyv.com^$important
+||gstatic-as.pro^$important
+||strpjmp.com^$important
+||gaps.com^$important
+||geohawk.co.uk^$important
+||gloussuz.com^$important
+||grooksom.com^$important
+||g4offers.com^$important
+||globaxy.com^$important
+||globalwidemedia.com^$important
+||goeris.com^$important
+||g.msn.com^$important
+||goprediction.com^$important
+||geoip.ubuntu.com^$important
+||goaccess.io^$important
+||googletraveladservices.com^$important
+||gsspat.jp^$important
+||glitter.services.disqus.com^$important
+||godog.shopifycloud.com^$important
+||geo.poki.io^$important
+||guoshipartners.com^$important
+||graphenedigitalanalytics.in^$important
+||gridcash.net^$important
+||geo*.ggpht.com^$important
+||gannettdigital.com^$important
+||geo.opera.com^$important
+||wimi5.com^$important
+||good-traf.ru^$important
+||grv.media^$important
+||grvmedia.com^$important
+||geoscripts.meredith.services^$important
+||geni.us^$important
+||garry.windscribe.com^$important
+||kvideo.io^$important
+||graviton-news-gateway.media.yahoo.com^$important
+||giraff.io^$important
+||optad360.io^$important
+||gemius.pl^$important
+||popplunder.com^$important
+||getchipbot.com^$important
+||gtrk.s3.amazonaws.com^$important
+||gourmetads.com^$important
+||gsacollections-pa.googleapis.com^$important
+||goaffpro.com^$important
+||padst.com^$important
+||padsdel.com^$important
+||geotrust.com^$important
+||grahamdigital.com^$important
+||tagtic.cn^$important
+||geoservice.curse.com^$important
+||geranew.info^$important
+||googlee.com^$important
+||gamingadult.biz^$important
+||getgobot.com^$important
+||getshogun.com^$important
+||mobtrks.com^$important
+||global-dealer-ssl.spotify.com^$important
+||gs.dailymail.co.uk^$important
+||goreal.at^$important
+||wufoo.com^$important
+||gsolos.com^$important
+||giganticsolos.com^$important
+||ganon.yahoo.com^$important
+||growth-pa.googleapis.com^$important
+||gdpr500.com^$important
+||gvosupport.com^$important
+||gorillamarketingpro.com^$important
+||giantdigitalmarketing.com^$important
+||getadditionaloffer.com^$important
+||gotraffic.net^$important
+||getadmiral.com^$important
+||gma8il.com^$important
+||gridserver.com^$important
+||geotrack.email^$important
+||growsumo.com^$important
+||grsm.io^$important
+||gumroad.com^$important
+||gum.co^$important
+||grademyads.com^$important
+||gpswox.com^$important
+||getgist.com^$important
+||globetoday.com^$important
+||gmmail.com^$important
+||gmg.io^$important
+||geoapi.indiatimes.com^$important
+||globaloffersnow.com^$important
+||groundtruth.com^$important
+||gemius.com^$important
+||gamned.com^$important
+||gbucket.ch^$important
+||goldbach.com^$important
+||goldenbees.fr^$important
+||goodwaygroup.com^$important
+||groupm.com^$important
+||getblue.io^$important
+||gyazo.nl^$important
+||convertro.com^$important
+||gettally.com^$important
+||getsidekick.com^$important
+||gml.email^$important
+||gopher-buddy-dev.appspot.com^$important
+||gopher-buddy-prod.appspot.com^$important
+||good.alibaba.com^$important
 0.0.0.0 gj.mmstat.com
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
@@ -4851,8 +4812,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 geoip.securitetotale.com
 0.0.0.0 geoip.p24.hu
 0.0.0.0 goku.brightcove.com
-0.0.0.0 gapt.hit.gemius.pl
-0.0.0.0 gemius.pl
 0.0.0.0 go.xhamsterlive.com
 0.0.0.0 govws.audioeye.com
 0.0.0.0 gwallet.com
@@ -4863,12 +4822,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 go.pub2srv.com
 0.0.0.0 goadservices.com
 0.0.0.0 gg.google.com
-0.0.0.0 getclicky.com
 0.0.0.0 geo.query.yahoo.com
 0.0.0.0 gd.ads.vip.gq1.yahoo.com
 0.0.0.0 go.oclasrv.com
-0.0.0.0 googleadservices.com
-0.0.0.0 googletagmanager.com
 0.0.0.0 googlewordpad.info
 0.0.0.0 getsitecontrol.com
 0.0.0.0 gscontxt.net
@@ -5048,16 +5004,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 he2d.com
 0.0.0.0 hb.vntsm.com
 0.0.0.0 hitx.statistics.ro
-0.0.0.0 hit.gemius.pl
 0.0.0.0 hyfnlocal.com
 0.0.0.0 hs-analytics.net
 0.0.0.0 histats.com
 0.0.0.0 hitadsmedia.com
 0.0.0.0 h1.analytics.126.net
-0.0.0.0 h2.analytics.126.net
-0.0.0.0 h3.analytics.126.net
-0.0.0.0 h4.analytics.126.net
-0.0.0.0 h5.analytics.126.net
 0.0.0.0 hubt.pornhub.com
 0.0.0.0 http.edge.ru4.com
 0.0.0.0 https.edge.ru4.com
@@ -5071,7 +5022,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 hm.baidu.com
 0.0.0.0 hotjar.com
 0.0.0.0 h-bid.com
-0.0.0.0 hb-api.omnitagjs.com
 0.0.0.0 htl.bid
 0.0.0.0 heatmap.it
 0.0.0.0 heapanalytics.com
@@ -5174,7 +5124,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 internetaudioads.com
 0.0.0.0 impactradius.com
 0.0.0.0 informer.yandex.ru
-0.0.0.0 img.fam-ad.com
 0.0.0.0 inmarket.com
 0.0.0.0 inrix.com
 0.0.0.0 instreamatic.com
@@ -5379,7 +5328,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 idll44.ph
 0.0.0.0 id.l.google.com
 0.0.0.0 id.google.*
-0.0.0.0 id.google.comin.getclicky.com
 0.0.0.0 i.owox.com
 0.0.0.0 intercom.com
 0.0.0.0 intercom.io
@@ -5471,7 +5419,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ininmacerad.pro
 0.0.0.0 intellitxt.com
 0.0.0.0 im.ov.yahoo.co.jp
-0.0.0.0 in.getclicky.com
 0.0.0.0 i3.putags.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 infolinks.com
@@ -5515,7 +5462,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 i.kissmetrics.com
 0.0.0.0 ionicframework.com
 0.0.0.0 jload01.info
-0.0.0.0 jumpshot.com
 0.0.0.0 jan-sampark.nic.in
 0.0.0.0 jurqfivc.ml
 0.0.0.0 jaduda.com
@@ -5664,7 +5610,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 klaviyo.com
 0.0.0.0 krk.kargo.com
 0.0.0.0 kvz7327.com
-0.0.0.0 kvideo.io
 0.0.0.0 kdata.fr
 0.0.0.0 k.googlevideo.com
 0.0.0.0 keap.com
@@ -6207,20 +6152,17 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 keciorenkoltukyikama.net
 0.0.0.0 kecksesualnfr.download
 0.0.0.0 kecselangor.org
-0.0.0.0 kecwxhifheyestalks.review
 0.0.0.0 kedg4h.kal.wkcengland.com
 0.0.0.0 kedjcfkxuhg.cc
 0.0.0.0 kedtise.com
 0.0.0.0 kee6862.codns.com
 0.0.0.0 keeate.com
 0.0.0.0 keecompany.com
-0.0.0.0 keeganzazx506blog.mybjjblog.com
 0.0.0.0 keemy.butlerelectricsupply.com
 0.0.0.0 keen.io
 0.0.0.0 keeneyephotographybyshae.com
 0.0.0.0 keenvalue.com
 0.0.0.0 keep.kidsonboats.net
-0.0.0.0 keepaneyeadmk.hit.gemius.pl
 0.0.0.0 keepaneyemk.adocean.pl
 0.0.0.0 keepass.fr
 0.0.0.0 keepcolletive.com
@@ -6758,7 +6700,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 my.wickedreports.com
 0.0.0.0 mms.cnn.com
 0.0.0.0 muw1-shasta-rrs-prod01.westus.cloudapp.azure.com
-0.0.0.0 mobtrks.com
 0.0.0.0 moments.youversionapi.com
 0.0.0.0 mkt*1.com
 0.0.0.0 mkt*2.com
@@ -6848,12 +6789,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 move2usa.net
 0.0.0.0 myemailsimplified.com
 0.0.0.0 maxymiser.net
-0.0.0.0 maptiler.com
 0.0.0.0 machinify.com
-0.0.0.0 mangler1.generals.ea.com
-0.0.0.0 mangler2.generals.ea.com
-0.0.0.0 mangler3.generals.ea.com
-0.0.0.0 mangler4.generals.ea.com
+0.0.0.0 mangler*.generals.ea.com
 0.0.0.0 mylivechat.com
 0.0.0.0 marketing-mojo.com
 0.0.0.0 marketing.dropbox.com
@@ -6866,8 +6803,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mirtesen.ru
 0.0.0.0 medialink.mobi
 0.0.0.0 mcdn.adspeed.com
-0.0.0.0 maps.gstatic.com
-0.0.0.0 maribacaberita.com
 0.0.0.0 myownemail.com
 0.0.0.0 mtree.com
 0.0.0.0 mmstat.com
@@ -6912,8 +6847,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 meapk.com
 0.0.0.0 mibet.mobi
 0.0.0.0 media.adfrontiers.com
-0.0.0.0 mfr.a2dfp.net
-0.0.0.0 m.fr.a2dfp.net
 0.0.0.0 mswindows1.com
 0.0.0.0 my.shemedia.com
 0.0.0.0 mso-digital.de
@@ -7044,14 +6977,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mona.admanmedia.com
 0.0.0.0 mywebstats.org
 0.0.0.0 mywebstats.com.au
-0.0.0.0 m9.webstats.motigo.com
-0.0.0.0 m8.webstats.motigo.com
-0.0.0.0 m7.webstats.motigo.com
-0.0.0.0 m6.webstats.motigo.com
-0.0.0.0 m5.webstats.motigo.com
-0.0.0.0 m4.webstats.motigo.com
-0.0.0.0 m3.webstats.motigo.com
-0.0.0.0 m2.webstats.motigo.com
+0.0.0.0 webstats.motigo.com
 0.0.0.0 m1.webstats4u.com
 0.0.0.0 myscoop-tracking.googlecode.com
 0.0.0.0 mcc.godaddy.com
@@ -7061,7 +6987,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 my.adtegrity.net
 0.0.0.0 my.aim4media.com
 0.0.0.0 munchkin.marketo.net
-0.0.0.0 m4.afs.googleadservices.com
 0.0.0.0 merchantapp.com
 0.0.0.0 metrics.sdkbox.com
 0.0.0.0 mediavine.com
@@ -7069,17 +6994,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mb104.com
 0.0.0.0 multipops.com
 0.0.0.0 m.servedby-buysellads.com
-0.0.0.0 mimageads.googleadservices.com
-0.0.0.0 mimageads1.googleadservices.com
-0.0.0.0 mimageads2.googleadservices.com
-0.0.0.0 mimageads3.googleadservices.com
-0.0.0.0 mimageads4.googleadservices.com
-0.0.0.0 mimageads5.googleadservices.com
-0.0.0.0 mimageads6.googleadservices.com
-0.0.0.0 mimageads7.googleadservices.com
-0.0.0.0 mimageads8.googleadservices.com
-0.0.0.0 mimageads9.googleadservices.com
-0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mpsnare.iesnare.com
 0.0.0.0 myroitracking.com
 0.0.0.0 mobileapptracker.com
@@ -7190,7 +7104,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 network-n.com
 0.0.0.0 notifychheck.com
 0.0.0.0 na.gmtdmp.com
-0.0.0.0 net.geo.opera.com
 0.0.0.0 ns*.p16.dynect.net
 0.0.0.0 ntp1.glb.nist.gov
 0.0.0.0 nav-it.ru
@@ -7514,7 +7427,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 o2.co.uk
 0.0.0.0 optimizely.com
 0.0.0.0 onepush.query.yahoo.com
-0.0.0.0 optad360.io
 0.0.0.0 ov.yahoo.co.jp
 0.0.0.0 optimizely.s3.amazonaws.com
 0.0.0.0 oxinads.com
@@ -7533,7 +7445,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 online-metrix.net
 0.0.0.0 opentag-stats.qubit.com
 0.0.0.0 optimize-stats.voxmedia.com
-0.0.0.0 omnitagjs.com
 0.0.0.0 one-count.com
 0.0.0.0 onecount.net
 0.0.0.0 onscroll.com
@@ -7703,7 +7614,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pbsrv.playbuzz.co
 0.0.0.0 plengistat.info
 0.0.0.0 protecttechietopapplication.pw
-0.0.0.0 popplunder.com
 0.0.0.0 pb.sogou.com
 0.0.0.0 pagefair.com
 0.0.0.0 plugins.help.com
@@ -7721,9 +7631,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 permutive.com
 0.0.0.0 ping-meta-prd.jwpltx.com
 0.0.0.0 p-n.io
-0.0.0.0 padsdel.com
-0.0.0.0 padst.com
-0.0.0.0 pandoramedia.home
 0.0.0.0 pandoramedia-mkt-prod1-t.campaign.adobe.com
 0.0.0.0 piwik.hidester.com
 0.0.0.0 phar.gu-web.net
@@ -7777,12 +7684,10 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 polyfill.io
 0.0.0.0 polldaddy.com
 0.0.0.0 pushmejs.com
-0.0.0.0 pzgptftyy5bh7lbnk2ee5frsqm.appsync-api.us-east-1.amazonaws.com
 0.0.0.0 powerad.ai
 0.0.0.0 pingfore.qq.com
 0.0.0.0 perfdrive.com
 0.0.0.0 platform.adstage.io
-0.0.0.0 phonelookupzjq.com
 0.0.0.0 poplink.io
 0.0.0.0 praetox.com
 0.0.0.0 premiumdownloads.info
@@ -8051,9 +7956,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pa.yahoo.com
 0.0.0.0 plista.com
 0.0.0.0 pf.newegg.com
-0.0.0.0 partner.googleadservices.com
 0.0.0.0 pix.news.at
-0.0.0.0 pmetrics.getclicky.com
 0.0.0.0 pmetrics.performancing.com
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 phish-error.mozilla.com
@@ -8164,16 +8067,13 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 rakutenmarketing.com
 0.0.0.0 rundsp.com
 0.0.0.0 rta2.metro.co.uk
-0.0.0.0 remain.appcpi.net
 0.0.0.0 rqmob.com
 0.0.0.0 robotornotcheckonline.icu
 0.0.0.0 rsalchk.com
 0.0.0.0 receivetipstricks.com
 0.0.0.0 rtpdn11.com
-0.0.0.0 redirectingat.com
 0.0.0.0 raintwig.com
 0.0.0.0 reklama.mail.ru
-0.0.0.0 redirdomain.ru
 0.0.0.0 r0.mradx.net
 0.0.0.0 r.my.com
 0.0.0.0 reef.vk-cdn.net
@@ -8201,7 +8101,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ra.poringa.net
 0.0.0.0 routetracko.com
 0.0.0.0 redirect.com
-0.0.0.0 referralcandy.com
 0.0.0.0 rsvph.xyz
 0.0.0.0 ringlead.com
 0.0.0.0 resonate.com
@@ -8368,7 +8267,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 rulerabbit.com
 0.0.0.0 rtk.io
 0.0.0.0 rayjump.com
-0.0.0.0 rs.fullstory.com
 0.0.0.0 redshell.io
 0.0.0.0 rpxnow.com
 0.0.0.0 rules.noadblock.org
@@ -8535,7 +8433,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stats.monohost.com
 0.0.0.0 share-apps.xyz
 0.0.0.0 social-thunder.com
-0.0.0.0 stkfree.xyz
 0.0.0.0 static.olymptrade.com
 0.0.0.0 static.trafficjunky.com
 0.0.0.0 syndication.site.yahoo.net
@@ -8599,7 +8496,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 sitecheck2.opera.com
 0.0.0.0 suggestv.io
 0.0.0.0 stripst.com
-0.0.0.0 strpjmp.com
 0.0.0.0 stat.networkmanag.com
 0.0.0.0 statisgeek.com
 0.0.0.0 syndicpop.com
@@ -8901,7 +8797,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 samsungadhub.com
 0.0.0.0 sessioncam.com
 0.0.0.0 steadfastsystem.com
-0.0.0.0 sp1.convertro.com
 0.0.0.0 stats.net
 0.0.0.0 serve.adworldmedia.com
 0.0.0.0 special-offers.online
@@ -8948,7 +8843,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 servebom.com
 0.0.0.0 s3xified.com
 0.0.0.0 slowplay.tv
-0.0.0.0 sitedataprocessing.com
 0.0.0.0 sovrn.com
 0.0.0.0 ssc.33across.com
 0.0.0.0 share-staging.viewedit.com
@@ -9081,8 +8975,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 softserve.8ch.net
 0.0.0.0 spinbox.techtracker.com
 0.0.0.0 siftscience.com
-0.0.0.0 sdk.analytiall.com
-0.0.0.0 stat.analytiall.com
 0.0.0.0 sponsorpay.com
 0.0.0.0 studads.com
 0.0.0.0 srv.adengage.com
@@ -9177,7 +9069,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 superficialsink.com
 0.0.0.0 swordgoose.com
 0.0.0.0 static.tidiochat.com
-0.0.0.0 sdk-cdn.beeketing.com
 0.0.0.0 sync.rtk.io
 0.0.0.0 stats.avast.com
 0.0.0.0 sofia.trustx.org
@@ -9350,7 +9241,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stats.omg.com.au
 0.0.0.0 stats2.omg.com.au
 0.0.0.0 s.tagsrvcs.com
-0.0.0.0 static.getclicky.com
 0.0.0.0 stats.webleads-tracker.com
 0.0.0.0 statse.webtrendslive.com
 0.0.0.0 spylog.com
@@ -9424,9 +9314,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 static.woopra.com
 0.0.0.0 sailthru.com
 0.0.0.0 smaato.net
-0.0.0.0 sdk.beeketing.com
 0.0.0.0 skimresources.com
-0.0.0.0 slate.bootstrap.fyre.co
 0.0.0.0 steepto.com
 0.0.0.0 sa.bbc.co.uk
 0.0.0.0 sa.bbc.com
@@ -9656,7 +9544,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 traffic-media.co.uk
 0.0.0.0 x-troy.com
 0.0.0.0 trafficholder.com
-0.0.0.0 trafficshop.com
 0.0.0.0 trustyfine.com
 0.0.0.0 top-nudism.eu
 0.0.0.0 teen-nudist.top
@@ -9799,7 +9686,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracking.bi.psafe.com
 0.0.0.0 tdtalliance.com  ! Fake Fox News 'Facebook' Page
 0.0.0.0 trackcmp.net
-0.0.0.0 tagtic.cn
 0.0.0.0 t.paypal.com
 0.0.0.0 tracking.smartselling.cz
 0.0.0.0 trafyield.com
@@ -9919,7 +9805,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 te.about.com
 0.0.0.0 theannoyingsite.com
 0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
-0.0.0.0 toutapp.com
 0.0.0.0 trymask.com
 0.0.0.0 taiwhups.net
 0.0.0.0 tailwhups.net
@@ -10296,7 +10181,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 updates.easycounter.com
 0.0.0.0 uk-advertising.yahoo.com
 0.0.0.0 urh.easyshoopingenligne.com
-0.0.0.0 upscore.com
 0.0.0.0 ulco.tv
 0.0.0.0 unsoldexchange.com
 0.0.0.0 uod2quk646.com
@@ -10455,7 +10339,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 v.printfriendly.com
 0.0.0.0 verifyability.com
 0.0.0.0 vipadsnet.info
-0.0.0.0 vts.zohopublic.com
 0.0.0.0 v1.77tracking.com
 0.0.0.0 vwo-analytics.com
 0.0.0.0 vwo.com
@@ -10570,7 +10453,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webmecanik.com
 0.0.0.0 webmine.cz
 0.0.0.0 w55c.net
-0.0.0.0 wimi5.com
 0.0.0.0 wyspaofert.com
 0.0.0.0 wydawca.lead.network
 0.0.0.0 webql-redesign.cnbcfm.com
@@ -10595,7 +10477,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webchat.hammer-corp.com
 0.0.0.0 waust.at
 0.0.0.0 whatbrowser.org
-0.0.0.0 wufoo.com
 0.0.0.0 wildhogmailer.com
 0.0.0.0 wz.8286777.com
 0.0.0.0 widget.supercounters.com
@@ -10653,7 +10534,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webcompanion.com
 0.0.0.0 winsysdev.com
 0.0.0.0 widgets.zohosalesiq.com
-0.0.0.0 webfonts.zohowebstatic.com
 0.0.0.0 wrating.com
 0.0.0.0 website-assets-fw.freshworks.com
 0.0.0.0 wingify.com
@@ -11071,9 +10951,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zoho.com
 0.0.0.0 zoho.eu
 0.0.0.0 zoho.in
-0.0.0.0 zohopublic.com
 0.0.0.0 zohostatic.com
-0.0.0.0 zohowebstatic.com
 0.0.0.0 zh-cn.ime.cootek.com
 0.0.0.0 zarget.com
 0.0.0.0 znaptag.com
@@ -11576,7 +11454,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 *.blueseek.com
 0.0.0.0 3151.77152.blueseek.com
 0.0.0.0 77152.blueseek.com
-0.0.0.0 4.afs.googleadservices.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
 0.0.0.0 103.sub-70-222-213.myvzw.com
 0.0.0.0 103.sub-75-236-210.myvzw.com
@@ -12214,6 +12091,9 @@ youtube.com##.vidiq-social-stats-upsell
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com###alert-banner > .ytd-browse.style-scope
 youtube.com##.ytd-compact-promoted-video-renderer
+youtube.com##.sparkles-light-cta
+youtube.com##.ytd-promoted-video-renderer
+youtube.com###clarify-box
 youtube.com##a[href*="googleadservices.com"]
 
 ! Google
@@ -12587,6 +12467,13 @@ okazii.ro##.top-promo
 ||startpage.com/sp/adsense
 ||startpage.com/elt.gif
 ||startpage.com/pelp?
+genius.com##.apple_music_player_iframe
+genius.com##.dfp_unit, .dfp_unit--in_read
+joyn.de##.CookieNotificationContainer-sc-1giggae-0
+minecraft.net##.cc-container
+null-byte.wonderhowto.com##.whtaph
+||omegle.com/typing
+||taskernet.com/shares/countstats.js
 
 !#if (adguard && !ext_ublock)
 
