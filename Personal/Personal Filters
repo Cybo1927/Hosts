@@ -4,18 +4,18 @@
 ! Pain
 !#if (adguard_app_android)
 ! Unblock GCM Notifications
-@@||mtalk.google.com
-@@||alt*-mtalk.google.com
+@@||gvt1.com
+@@||android.googleapis.com
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
 !#endif
-google.com|
-android.com|
-googleapis.com|
-gstatic.com|
-gmail.com|
-withgoogle.com|
+||google.com^$domain=~mtalk.google.com
+||android.com^$all,important
+||googleapis.com^$all,important
+||gstatic.com^$all,important
+||gmail.com^$all,important
+||withgoogle.com^$all,important
 ||googleusercontent.com$domain=~youtube.com
 ||ytimg.com$domain=~youtube.com
 ||googlevideo.com$domain=~youtube.com
