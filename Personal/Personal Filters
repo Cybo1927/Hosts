@@ -5,6 +5,9 @@
 !#if (adguard_app_android)
 ! Unblock GCM Notifications
 @@||mtalk.google.com
+@@||alt*-mtalk.google.com
+@@||feelinsonice.l.google.com
+@@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
 !#endif
 google.com|
