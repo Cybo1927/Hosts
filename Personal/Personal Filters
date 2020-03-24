@@ -2,19 +2,23 @@
 ! Expires: 1 hours
 
 ! Pain
-! Unblock GCM Notifications
 !#if (adguard_app_android)
+! Unblock GCM Notifications
 @@||mtalk.google.com
-@@||accounts.google.com
+@@||accounts.google.com$domain=accounts.google.com
 !#endif
 ||google.^$all,important
 ||googleapis.com^$all,important
 ||gstatic.com^$all,important
 ||gmail.com^$all,important
 ||withgoogle.com^$all,important
-||googleusercontent.com$domain=~youtube.com,all,important
-||ytimg.com$domain=~youtube.com,all,important
-||googlevideo.com$domain=~youtube.com,all,important
+||googleusercontent.com$domain=~youtube.com
+||ytimg.com$domain=~youtube.com
+||googlevideo.com$domain=~youtube.com
+||youtube.com$domain=~youtube.com
+
+! Doesn't need to query all the time
+||ntp.org^$all,important
 
 !||cloudfront.net^$all,important
 ||bit.ly^$all,important
