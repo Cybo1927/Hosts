@@ -4,49 +4,51 @@
 ! Pain
 !#if (adguard_app_android)
 ! Unblock GCM Notifications
+@@||mtalk.google.com
+@@||alt*-mtalk.google.com
 @@||gvt1.com
 @@||android.googleapis.com
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
 !#endif
-||google.com^$domain=~mtalk.google.com
-||android.com^$all,important
-||googleapis.com^$all,important
-||gstatic.com^$all,important
-||gmail.com^$all,important
-||withgoogle.com^$all,important
+||google.com|
+||android.com|
+||googleapis.com|
+||gstatic.com|
+||gmail.com|
+||withgoogle.com|
 ||googleusercontent.com$domain=~youtube.com
 ||ytimg.com$domain=~youtube.com
 ||googlevideo.com$domain=~youtube.com
 ||youtube.com$domain=~youtube.com
 
 ! Doesn't need to query all the time
-||ntp.org^$all,important
+ntp.org|
 
 !||cloudfront.net^$all,important
-||bit.ly^$all,important
-||bitly.com^$all,important
-||microsoftonline.com^$all,important
-||mirmay.com^$all,important
-||tenor.com^$all,important
-||tenor.googleapis.com^$all,important
-||amazonalexa.com^$all,important
+bit.ly|
+bitly.com|
+microsoftonline.com|
+mirmay.com|
+tenor.com|
+tenor.googleapis.com|
+amazonalexa.com|
 
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
 !||cloudflare.*^$all,important
-||cloudflare-dns.com^$all,important
-||cloudflareinsights.com^$all,important
-||cloudflarestream.com^$all,important
-||cloudflareresolve.com^$all,important
-||cloudflareclient.com^$all,important
-||cloudflarebolt.com^$all,important
-||cloudflarestatus.com^$all,important
-||one.one^$all,important
-||warp.plus^$all,important
-||one.one.one.one^$all,important
-||1.1.1.1^$all,important
-||1.0.0.1^$all,important
+cloudflare-dns.com|
+cloudflareinsights.com|
+cloudflarestream.com|
+cloudflareresolve.com|
+cloudflareclient.com|
+cloudflarebolt.com|
+cloudflarestatus.com|
+one.one|
+warp.plus|
+one.one.one.one|
+1.1.1.1|
+1.0.0.1|
 
 ! No Scripts On .Gov Domains
 ||*.gov$script,inline-script
@@ -60,36 +62,36 @@
 ||*.unicom^$all,important
 
 ! Chinese Crap
-||cnvid.net^$all,important
-||dnspod.net^$all,important
-||dnspod.cn^$all,important
-||inshotapp.com^$all,important
-||qq.com^$all,important
-||gtimg.cn^$all,important
-||baidu.com^$all,important
-||bdstatic.com^$all,important
-||weibo.com^$all,important
-||crrepa.com^$all,important
-||qiniudns.com^$all,important
+cnvid.net|
+dnspod.net|
+dnspod.cn|
+inshotapp.com|
+qq.com|
+gtimg.cn|
+baidu.com|
+bdstatic.com|
+weibo.com|
+crrepa.com|
+qiniudns.com|
 47.246.43.204$network
 4.53.160.75$network
 4.53.160.75$network
 
 ! Extra
-||refer.walmart.com^$all,important
-||ak-us.wal.co^$all,important
-||ec-us.wal.co^$all,important
-||zy-us.wal.co^$all,important
-||ll-us.wal.co^$all,important
-||us.tb.wal.co^$all,important
-||cf-us.wal.co^$all,important
-||ak-us-dyn.wal.co^$all,important
-||us-dyn.tb.wal.co^$all,important
-||ll-us-dyn.wal.co^$all,important
-||ec-us-dyn.wal.co^$all,important
-||cf-us-dyn.wal.co^$all,important
-||zy-us-dyn.wal.co^$all,important
-||darken.eu^$all,important
+refer.walmart.com|
+ak-us.wal.co|
+ec-us.wal.co|
+zy-us.wal.co|
+ll-us.wal.co|
+us.tb.wal.co|
+cf-us.wal.co|
+ak-us-dyn.wal.co|
+us-dyn.tb.wal.co|
+ll-us-dyn.wal.co|
+ec-us-dyn.wal.co|
+cf-us-dyn.wal.co|
+zy-us-dyn.wal.co|
+darken.eu|
 walmartimages.com$script
 docs.google.com$font,xhr
 youtube.com$third-party
@@ -105,19 +107,6 @@ youtube.com$third-party
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Specific
-!||cloudflare.*^$network,all
-||cloudflare-dns.com^$network,all
-||cloudflareinsights.com^$network,all
-||cloudflarestream.com^$network,all
-||cloudflareresolve.com^$network,all
-||cloudflareclient.com^$network,all
-||cloudflarebolt.com^$network,all
-||cloudflarestatus.com^$network,all
-||one.one^$network,all
-||warp.plus^$network,all
-||one.one.one.one^$network,all
-||1.1.1.1^$network,all
-||1.0.0.1^$network,all
 !*cloudfront.*|
 *aws.amazon.*|
 *elasticbeanstalk.*|
