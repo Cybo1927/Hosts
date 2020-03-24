@@ -7,11 +7,11 @@
 @@||mtalk.google.com
 @@||accounts.google.com$domain=accounts.google.com
 !#endif
-||google.^$all,important
-||googleapis.com^$all,important
-||gstatic.com^$all,important
-||gmail.com^$all,important
-||withgoogle.com^$all,important
+google.|
+googleapis.com|
+gstatic.com|
+gmail.com|
+withgoogle.com|
 ||googleusercontent.com$domain=~youtube.com
 ||ytimg.com$domain=~youtube.com
 ||googlevideo.com$domain=~youtube.com
