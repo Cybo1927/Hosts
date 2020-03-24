@@ -11,6 +11,7 @@
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
+@@||youtube-ui.l.google.com
 *:5228$network,app=com.google.android.gms
 !#endif
 google.com|
@@ -19,10 +20,10 @@ googleapis.com|
 gstatic.com|
 gmail.com|
 withgoogle.com|
-googleusercontent.com$domain=~youtube.com
-ytimg.com$domain=~youtube.com
-googlevideo.com$domain=~youtube.com
-youtube.com$domain=~youtube.com
+||googleusercontent.com$domain=~youtube.com
+||ytimg.com$domain=~youtube.com
+||googlevideo.com$domain=~youtube.com
+||youtube.com$third-party
 
 ! Doesn't need to query all the time
 ntp.org|
