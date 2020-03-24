@@ -11,18 +11,18 @@
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
-*:*$network,app=com.google.android.gms
+*:5228$network,app=com.google.android.gms
 !#endif
-||google.com|
-||android.com|
-||googleapis.com|
-||gstatic.com|
-||gmail.com|
-||withgoogle.com|
-||googleusercontent.com$domain=~youtube.com
-||ytimg.com$domain=~youtube.com
-||googlevideo.com$domain=~youtube.com
-||youtube.com$domain=~youtube.com
+google.com|
+android.com|
+googleapis.com|
+gstatic.com|
+gmail.com|
+withgoogle.com|
+googleusercontent.com$domain=~youtube.com
+ytimg.com$domain=~youtube.com
+googlevideo.com$domain=~youtube.com
+youtube.com$domain=~youtube.com
 
 ! Doesn't need to query all the time
 ntp.org|
