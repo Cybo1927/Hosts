@@ -8,13 +8,13 @@
 @@||accounts.google.com
 !#endif
 ||google.^$all,important
-||googleapis.com
-||gstatic.com
-||gmail.com
-||googleusercontent.com$domain=~youtube.com
-||ytimg.com$domain=~youtube.com
-||googlevideo.com$domain=~youtube.com
-||withgoogle.com
+||googleapis.com^$all,important
+||gstatic.com^$all,important
+||gmail.com^$all,important
+||withgoogle.com^$all,important
+||googleusercontent.com$domain=~youtube.com,all,important
+||ytimg.com$domain=~youtube.com,all,important
+||googlevideo.com$domain=~youtube.com,all,important
 
 !||cloudfront.net^$all,important
 ||bit.ly^$all,important
