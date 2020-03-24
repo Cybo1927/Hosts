@@ -11,6 +11,7 @@
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
+*:*$network,app=com.google.android.gms
 !#endif
 ||google.com|
 ||android.com|
