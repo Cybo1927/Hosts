@@ -25,6 +25,13 @@ withgoogle.com|
 ||googlevideo.com$domain=~youtube.com
 ||youtube.com$third-party
 
+! My Friends Sadly Use TikTok
+isnssdk.com|
+||frontier.musical.ly^$all,important
+||log*.musical.ly^$all,important
+||log*-*.musical.ly^$all,important
+||dm*.musical.ly^$all,important
+
 ! Doesn't need to query all the time
 ntp.org|
 
