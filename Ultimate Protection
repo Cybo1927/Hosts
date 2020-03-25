@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 34
+! Version: 35
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 60K (Give Or Take A Few Thousand)
-! Last Modified: Friday, February 21, 2020
+! Last Modified: Wednesday, March 25, 2020
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -160,6 +160,8 @@ waterfox.net|
 
 ! Third-Party cookies
 /.+/^$third-party,cookie
+! Prevent Cross-Site Cookie Tracking (Will Break Most Logins)
+*^$cookie=/.+/;sameSite=Strict
 
 ! Adblock Plus Logs Your IP - https://adblockplus.org/en/privacy
 ||adblockplus.org^
