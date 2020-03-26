@@ -5100,97 +5100,89 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||intergram.xyz^
 ||ipredictive.com^
 ||mediatraffic.com.ua^
-0.0.0.0 imp-adedge.i-mobile.co.jp
-0.0.0.0 imp-adedge.*
-0.0.0.0 indexhu.adocean.pl
-0.0.0.0 ipm.bitdefender.com
-0.0.0.0 isrg.trustid.ocsp.identrust.com
-0.0.0.0 ion-ma.turner.com.edgekey.net
-0.0.0.0 inform.com
-0.0.0.0 inter1ads.com
-0.0.0.0 it-ando-fe-lb-145112096.us-east-1.elb.amazonaws.com
-0.0.0.0 imedia.cz
-0.0.0.0 infosniper.net
-0.0.0.0 ibytedtos.com
-0.0.0.0 intl-feedback.oppomobile.com
-0.0.0.0 i5.weather.oppomobile.com
-0.0.0.0 ip.babybus.com
-0.0.0.0 install.notify-service.com
-0.0.0.0 install1.notify-service.com
-0.0.0.0 iyfnzgb.com
-0.0.0.0 intg.snapchat.com
-0.0.0.0 isboost.co.jp
-0.0.0.0 id5-sync.com
-0.0.0.0 ims.vz.ne
-0.0.0.0 ip4.seeip.org
-0.0.0.0 ip.seeip.org
-0.0.0.0 industrybrains.com
-0.0.0.0 indieclick.com
-0.0.0.0 iclick.cm.admaster.com.cn
-0.0.0.0 img.vietnamnetad.vn
-0.0.0.0 inneractive-assets.s3.amazonaws.com
-0.0.0.0 iacpromotion.s3.amazonaws.com
-0.0.0.0 igoogle.com
+||advp.apple.com^
+||geoip.alm.com^
+||bark.us^
+||i-mobile.co.jp
+||imp-adedge.*
+||adocean.pl
+||ipm.bitdefender.com
+||isrg.trustid.ocsp.identrust.com
+||ion-ma.turner.com.edgekey.net
+||inform.com
+||inter1ads.com
+||imedia.cz
+||infosniper.net
+||ibytedtos.com
+||intl-feedback.oppomobile.com
+||i5.weather.oppomobile.com
+||ip.babybus.com
+||notify-service.com
+||iyfnzgb.com
+||intg.snapchat.com
+||isboost.co.jp
+||id5-sync.com
+||seeip.org
+||industrybrains.com
+||indieclick.com
+||admaster.com.cn
+||vietnamnetad.vn
+||iacpromotion.s3.amazonaws.com
+||igoogle.com
 ||inner-active.mobi^$important
-0.0.0.0 inspectlet.io
-0.0.0.0 inspectlet.com
-0.0.0.0 invitebox.com
-0.0.0.0 inside-graph.com
-0.0.0.0 instantbannerads.com
-0.0.0.0 imloop.com
-0.0.0.0 images01.iqoption.com
-0.0.0.0 ilovehits.com
-0.0.0.0 is.gd
-0.0.0.0 instapage.com
-0.0.0.0 infinitytrafficboost.com
-0.0.0.0 instantleadsandincome.com
-0.0.0.0 ipaddress.is
-0.0.0.0 irs01.com
-0.0.0.0 intercomcdn.com
-0.0.0.0 introbar.com
-0.0.0.0 iubenda.com
-0.0.0.0 impeachdjtnow.com
-0.0.0.0 iyfsearch.com
-0.0.0.0 ibario.com
-0.0.0.0 ic-dc.deliverystockpackage.com
-0.0.0.0 instant.page
-0.0.0.0 ipv4.tracker.harry.lu
-0.0.0.0 iteratehq.com
-0.0.0.0 isitelab.io
-0.0.0.0 io1g.net
-0.0.0.0 infogram.com
-0.0.0.0 infogr.am
-0.0.0.0 ignitionone.com
-0.0.0.0 impactify.io
-0.0.0.0 innity.com
-0.0.0.0 ibillboard.com
-0.0.0.0 instytut-pollster.pl
-0.0.0.0 ip.jlynx.net
-0.0.0.0 iknowwhatyoudownload.com
-0.0.0.0 ikwyd.com
-0.0.0.0 ipgraber.ru
-0.0.0.0 ipgrabber.ru
-0.0.0.0 iplogger.info
-0.0.0.0 iplis.ru
-0.0.0.0 iplo.ru
-0.0.0.0 ivwbox.de
-0.0.0.0 installer.betterinstaller.com
-0.0.0.0 inno.bisrv.com
-0.0.0.0 icontact.com
-0.0.0.0 imarketsmart.com
-0.0.0.0 image.ledu.cfile
-0.0.0.0 i.alicdn.com
-0.0.0.0 installw.com
-0.0.0.0 iwanttodeliver.com
-0.0.0.0 invocacdn.com
-0.0.0.0 influ2.com
-0.0.0.0 imp.onesearch.org
-0.0.0.0 imp.mt48.net
-0.0.0.0 infonline.de
-0.0.0.0 ipnet.de
+||inspectlet.io
+||inspectlet.com
+||invitebox.com
+||inside-graph.com
+||instantbannerads.com
+||imloop.com
+||event.iqoption.com
+||ilovehits.com
+||is.gd
+||instapage.com
+||infinitytrafficboost.com
+||instantleadsandincome.com
+||ipaddress.is
+||irs01.com
+||intercomcdn.com
+||introbar.com
+||iubenda.com
+||iyfsearch.com
+||ibario.com
+||instant.page
+||iteratehq.com
+||isitelab.io
+||io1g.net
+||infogram.com
+||infogr.am
+||ignitionone.com
+||impactify.io
+||innity.com
+||ibillboard.com
+||instytut-pollster.pl
+||ip.jlynx.net
+||iknowwhatyoudownload.com
+||ikwyd.com
+||ipgraber.ru
+||ipgrabber.ru
+||iplogger.info
+||iplis.ru
+||iplo.ru
+||ivwbox.de
+||icontact.com
+||imarketsmart.com
+||i.alicdn.com
+||installw.com
+||iwanttodeliver.com
+||invocacdn.com
+||influ2.com
+||onesearch.org
+||mt48.net
+||infonline.de
+||ipnet.de
 0.0.0.0 images.contentstack.io
 0.0.0.0 ingest.machinify.com
-||iperceptions.com^$important
+||iperceptions.com^
 0.0.0.0 instabug.com
 0.0.0.0 inputs.alooma.com
 0.0.0.0 imp.startappservice.com
@@ -5283,7 +5275,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 impressionsme.net
 0.0.0.0 ieuhd.com
 0.0.0.0 inmobi-jp.com
-0.0.0.0 i-mobile.co.jp
 0.0.0.0 irtya.com
 0.0.0.0 ioam.de
 0.0.0.0 ieonlinews.microsoft.com
@@ -6054,7 +6045,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 keeneyephotographybyshae.com
 0.0.0.0 keenvalue.com
 0.0.0.0 keep.kidsonboats.net
-0.0.0.0 keepaneyemk.adocean.pl
 0.0.0.0 keepass.fr
 0.0.0.0 keepcolletive.com
 0.0.0.0 keeper.press
@@ -6231,7 +6221,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 log.api.zaloapp.com
 0.0.0.0 log.news.zing.vn
 0.0.0.0 logv2.mp3.zing.vn
-0.0.0.0 log.vietnamnetad.vn
 0.0.0.0 lavanetwork.net
 0.0.0.0 load.s3.amazonaws.com
 0.0.0.0 lytics.io
@@ -6774,7 +6763,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 miner.pr0gramm.com
 0.0.0.0 mailerlite.com
 0.0.0.0 myvouchers.ie
-0.0.0.0 mt48.net
 0.0.0.0 mrm.lt
 0.0.0.0 molly.thememove.com
 0.0.0.0 mpdpro.sk
@@ -7240,7 +7228,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 olark.com
 0.0.0.0 onetrust.chargebee.com
 0.0.0.0 onetrust.chargebeestatic.com
-0.0.0.0 onesearch.org
 0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
 0.0.0.0 owneriq.net
@@ -8533,14 +8520,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 serve.vdopia.com
 0.0.0.0 servedby.hrnorth.se
 0.0.0.0 srv.bebi.com
-0.0.0.0 spnet.i-mobile.co.jp
-0.0.0.0 spnet1.i-mobile.co.jp
-0.0.0.0 spnet2.i-mobile.co.jp
-0.0.0.0 spnet3.i-mobile.co.jp
-0.0.0.0 spnet4.i-mobile.co.jp
-0.0.0.0 spnet5.i-mobile.co.jp
-0.0.0.0 spdeliver.i-mobile.co.jp
-0.0.0.0 spcdnsp.i-mobile.co.jp
 0.0.0.0 snap.snapmobile.asia
 0.0.0.0 snapmobile.asia
 0.0.0.0 st-hatena.com
@@ -8554,7 +8533,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 shasta-mrs.symantec.com
 0.0.0.0 spc.myvzw.com
 0.0.0.0 srepdata.azcentral.com
-0.0.0.0 seeip.org
 0.0.0.0 sellpoint.net
 0.0.0.0 searchiq.co
 0.0.0.0 segment-pixel.invitemedia.com
@@ -9561,7 +9539,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 track.tap4joy.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 tracking.playzing.g6.zing.vn
-0.0.0.0 tracking.vietnamnetad.vn
 0.0.0.0 tap.ads-twitter.com
 0.0.0.0 targetemsecure.blob.core.windows.net
 0.0.0.0 triggeredmail.appspot.com
@@ -10252,7 +10229,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vice-useast.gscontxt.net
 0.0.0.0 v.shopify.com
 0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 v.admaster.com.cn
 0.0.0.0 wfxtriggers.com
 0.0.0.0 webwerks.learnvibes.net
 0.0.0.0 weblogger-dynamic-lb.playdom.com
@@ -12099,6 +12075,7 @@ wattpad.com##.dismissible.bottom-banner
 @@||accounts.google.*^$stealth
 @@||gab.com$cookie
 @@||amazon.com$cookie
+@@||youtube.com$cookie,first-party
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
