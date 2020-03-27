@@ -20,6 +20,7 @@ googleapis.com|
 gstatic.com|
 gmail.com|
 withgoogle.com|
+samsung.com|
 ||googleusercontent.com$domain=~youtube.com
 ||ytimg.com$domain=~youtube.com
 ||googlevideo.com$domain=~youtube.com
