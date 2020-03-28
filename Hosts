@@ -4,7 +4,7 @@
 ! Unbreak
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
-www.cnn.com#@#[class*="gdpr"]
+cnn.com#@#[class*="gdpr"]
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
@@ -3966,7 +3966,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||visualwebsiteoptimizer.com^
 ||sharelive.net^
 ||dup.baidustatic.com^
-|| driftt.com^
+||driftt.com^
 ||rlcdn.com^
 ||dotcomsecrets.com^
 ||dmvorg.s3.amazonaws.com^
@@ -5318,218 +5318,195 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||imrworldwide.com^
 ||infinityads.com^
 ||iesnare.com^
-0.0.0.0 img.bleacherreport.net
-0.0.0.0 ironsrc.com
-0.0.0.0 ima3vpaid.appspot.com
-0.0.0.0 img.jizzads.com
-0.0.0.0 images.webads.nl
-0.0.0.0 instinctiveads.com
-0.0.0.0 investingchannel.com
-0.0.0.0 ironsource.com
-0.0.0.0 intergi.com
-0.0.0.0 img.adecorp.co.kr
-0.0.0.0 img.ads1.mocean.mobi
-0.0.0.0 img.ads2.mojiva.com
-0.0.0.0 img.ads3.mojiva.com
-0.0.0.0 iyfubh.com
-0.0.0.0 img.ads4.mocean.mobi
-0.0.0.0 idealmedia.com
-0.0.0.0 inmobi.com
-0.0.0.0 ipinfodb.com
-0.0.0.0 ipapi.co
-0.0.0.0 ip-api.com
-0.0.0.0 ipdata.co
-0.0.0.0 ipfind.co
-0.0.0.0 ipgeolocation.io
-0.0.0.0 ipify.org
-0.0.0.0 ipinfo.io
-0.0.0.0 ipcalf.com
-0.0.0.0 i.kissmetrics.com
-0.0.0.0 ionicframework.com
-0.0.0.0 jload01.info
-0.0.0.0 jan-sampark.nic.in
-0.0.0.0 jurqfivc.ml
-0.0.0.0 jaduda.com
-0.0.0.0 journey.unicef.de
-0.0.0.0 jvzwcgobd.com
-0.0.0.0 jads.co
-0.0.0.0 justads.link
-0.0.0.0 js.hsleadflows.net
-0.0.0.0 js.usemessages.com
-0.0.0.0 jump-your-bones.com
-0.0.0.0 jrnudistfilm.eu
-0.0.0.0 juicegirls.info
-0.0.0.0 jrnudefilm.eu
-0.0.0.0 justmineit.com
-0.0.0.0 jetm-tech.net
-0.0.0.0 ji41ioe3r4addb.w1.bvyhcusz.cf
-0.0.0.0 jbrpciuloi.com
-0.0.0.0 jaavpuhxrsryk.com
-0.0.0.0 jungletap.com
-0.0.0.0 jsrc.icu
-0.0.0.0 jsn.24smi.net
-0.0.0.0 js.affasi.com
-0.0.0.0 jeapie.com
-0.0.0.0 jivox.com
-0.0.0.0 journal.blokada.org
-0.0.0.0 js.center.io
-0.0.0.0 js.hscta.net
-0.0.0.0 j.ophan.co.uk
-0.0.0.0 js.matheranalytics.com
-0.0.0.0 justuno.com
-0.0.0.0 js.rating-widget.com
-0.0.0.0 js.click-plus.net
-0.0.0.0 js.sportsbetaffiliates.com.au
-0.0.0.0 js.bronto.com
-0.0.0.0 jumbosolos.com
-0.0.0.0 jollow.com
-0.0.0.0 js.passport.qihucdn.com
-0.0.0.0 js.sohu.com
-0.0.0.0 join.octaneai.com
-0.0.0.0 jsso.indiatimes.com
-0.0.0.0 jscache.com
-0.0.0.0 justpremium.com
-0.0.0.0 js.chargebee.com
-0.0.0.0 jammarketinginc.com
-0.0.0.0 j.pioneeringad.com
-0.0.0.0 jabmo.com
-0.0.0.0 jquerystatistics.org
-0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
-0.0.0.0 jaleco.com
-0.0.0.0 js.zohostatic.com
-0.0.0.0 js.out.sh
-0.0.0.0 js.gleam.io
-0.0.0.0 jornaya.com
-0.0.0.0 js.geoads.com
-0.0.0.0 js11.clickzzs.nl
-0.0.0.0 jadeitite.com
-0.0.0.0 jamexistence.com
-0.0.0.0 jewelcheese.com
-0.0.0.0 justicejudo.com
-0.0.0.0 jita.rtk.io
-0.0.0.0 janrain.com
-0.0.0.0 jpush.cn
-0.0.0.0 jiguang.cn
-0.0.0.0 js.hnscom.com
-0.0.0.0 jiggyconnect.com
-0.0.0.0 jaspinformatica.com
-0.0.0.0 jagwaradsmedia.com
-0.0.0.0 js.mobojoy.baidu.com
-0.0.0.0 js.foxpush.com
-0.0.0.0 jsecoin.com
-0.0.0.0 jopd.ru
-0.0.0.0 jsc.idealmedia.io
-0.0.0.0 jeculdfores.ru
-0.0.0.0 jivosite.com
-0.0.0.0 jiawen88.com
-0.0.0.0 js.isboost.co.jp
-0.0.0.0 js.ad-score.com
-0.0.0.0 js.bunchofads.com
-0.0.0.0 js.intercomcdn.com
-0.0.0.0 juicyads.com
-0.0.0.0 jsn.dt07.net
-0.0.0.0 js-sec.indexww.com
-0.0.0.0 js.honeybadger.io
-0.0.0.0 js.hs-analytics.net
-0.0.0.0 js.hs-scripts.com
-0.0.0.0 js.hsforms.net
-0.0.0.0 jumptap.com
-0.0.0.0 justicejudo.com
-0.0.0.0 json.geoiplookup.io
-0.0.0.0 jsonip.com
-0.0.0.0 js.driftt.com
-0.0.0.0 js.users.51.la
-0.0.0.0 katie.dntrx.com
-0.0.0.0 kodand.wildapricot.org
-0.0.0.0 kbmg.com
-0.0.0.0 kupona.de
-0.0.0.0 kinesis.us-east-1.amazonaws.com
-0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
-0.0.0.0 ksn-fr-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-info-geo.kas-labs.com
-0.0.0.0 ksn-cinfo-geo.kas-labs.com
-0.0.0.0 ksn-crypto-whocalls-geo.kaspersky-labs.com
-0.0.0.0 kikinteractive.zendesk.com
-0.0.0.0 keepmydevicesafe.com
-0.0.0.0 keapeiros.xyz
-0.0.0.0 killsironmentord.com
-0.0.0.0 k-ring.msedge.net
-0.0.0.0 kethinwi.ru
-0.0.0.0 keilaparius.com
-0.0.0.0 kts.visitstats.com
-0.0.0.0 klsdee.com
-0.0.0.0 konferencje-eventy.eu
-0.0.0.0 kitties-collection.xyz
-0.0.0.0 kindnudist.eu
-0.0.0.0 k1.justmineit.com
-0.0.0.0 k.keyade.com
-0.0.0.0 keyade.com
-0.0.0.0 ключель.рф
-0.0.0.0 kn3.net
-0.0.0.0 kfutdsjwtcvnpx.com
-0.0.0.0 kaltura.com
-0.0.0.0 krunkerkr.xyz
-0.0.0.0 kintura.com
-0.0.0.0 kma.biz
-0.0.0.0 klclick.com
-0.0.0.0 keytape.fun
-0.0.0.0 keyrich.fun
-0.0.0.0 k12insight.com
-0.0.0.0 kqzyfj.com
-0.0.0.0 *-kra2007c.net
-0.0.0.0 kitbit.net
-0.0.0.0 keywordblocks.com
-0.0.0.0 ketobodytone.com
-0.0.0.0 kayako.com
-0.0.0.0 kayako.net
-0.0.0.0 kayakocdn.com
-0.0.0.0 kostprice.com
-0.0.0.0 kontakt.io
-0.0.0.0 knl.mntzrlt.net
-0.0.0.0 klickthru.com
-0.0.0.0 klivetv.co
-0.0.0.0 kv601-prod.do.dsp.mp.microsoft.com
-0.0.0.0 kansascity1.cabospeed.com
-0.0.0.0 klaviyo.com
-0.0.0.0 krk.kargo.com
-0.0.0.0 kvz7327.com
-0.0.0.0 kdata.fr
-0.0.0.0 k.googlevideo.com
-0.0.0.0 keap.com
-0.0.0.0 kickme.to
-0.0.0.0 kahuna.com
-0.0.0.0 kano.is
-0.0.0.0 ksmobile.com
-0.0.0.0 ksmobile.net
-0.0.0.0 kontera.com
-0.0.0.0 kona.kontera.com
-0.0.0.0 koi-3qndw5fgbw.marketingautomation.services
-0.0.0.0 kck3hlb9.dashlane.com
-0.0.0.0 k54nw.pw
-0.0.0.0 karisimbi.net
-0.0.0.0 kontagent.net
-0.0.0.0 kidoz.net
-0.0.0.0 kissinsights.com
-0.0.0.0 krb.devphp.org.ua
-0.0.0.0 kos.interseek.si
-0.0.0.0 kshitijinfra.com
-0.0.0.0 kurzal.ru
-0.0.0.0 kndesign.com.br
-0.0.0.0 khbl.com
-0.0.0.0 kelp4less.com
-0.0.0.0 kline.rizon.net
-0.0.0.0 kimia.mobi
-0.0.0.0 kaban-media.com
-0.0.0.0 kds.media
-0.0.0.0 kingsoft-office-service.com
-0.0.0.0 kaffnet.com
-0.0.0.0 kaprila.com
-0.0.0.0 kibaneba.ru
-0.0.0.0 knopka.trade
-0.0.0.0 kdsk32lfa.xyz
-0.0.0.0 kukuplay.com
-0.0.0.0 knowledge.verizon.com
+||ironsrc.com
+||ima3vpaid.appspot.com^
+||jizzads.com^
+||web-view.net^$domain=gmail.com
+||convead.io^
+||ipcicken.com^
+||getsecuredsearch.com^
+||ptawe.com^
+||webads.nl^
+||instinctiveads.com^
+||investingchannel.com^
+||ironsource.com^
+||intergi.com^
+||mocean.mobi^
+||mojiva.com^
+||iyfubh.com^
+||idealmedia.com^
+||inmobi.com^
+||ipinfodb.com^
+||ipapi.co^
+||ip-api.com^
+||ipdata.co^
+||ipfind.co^
+||ipgeolocation.io^
+||ipify.org^
+||ipinfo.io^
+||ipcalf.com^
+||kissmetrics.com^
+||ionicframework.com^
+||jload01.info^
+||jan-sampark.nic.in^
+||jurqfivc.ml^
+||jaduda.com^
+||journey.unicef.de^
+||jvzwcgobd.com^
+||jads.co^
+||justads.link^
+||hsleadflows.net^
+||usemessages.com^
+||jump-your-bones.com^
+||jrnudistfilm.eu^
+||juicegirls.info^
+||jrnudefilm.eu^
+||justmineit.com^
+||jetm-tech.net^
+||jbrpciuloi.com^
+||jaavpuhxrsryk.com^
+||jungletap.com^
+||jsrc.icu^
+||24smi.net^
+||jeapie.com^
+||jivox.com^
+||journal.blokada.org^
+||j.ophan.co.uk^
+||matheranalytics.com^
+||justuno.com^
+||rating-widget.com^
+||sportsbetaffiliates.com.au^
+||jumbosolos.com^
+||jollow.com^
+||qihucdn.com^
+||js.sohu.com^
+||octaneai.com^
+||jsso.indiatimes.com^
+||jscache.com^
+||justpremium.com^
+||chargebee.com^
+||jammarketinginc.com^
+||pioneeringad.com^
+||jabmo.com^
+||jquerystatistics.org^
+||dpvmeuqd.ga^
+||jaleco.com^
+||zohostatic.com^
+||out.sh^
+||jornaya.com^
+||geoads.com^
+||jadeitite.com^
+||jamexistence.com^
+||jewelcheese.com^
+||justicejudo.com^
+||rtk.io^
+||janrain.com^
+||jpush.cn^
+||jiguang.cn^
+||js.hnscom.com^
+||jiggyconnect.com^
+||jaspinformatica.com^
+||jagwaradsmedia.com^
+||js.mobojoy.baidu.com^
+||jsecoin.com^
+||jopd.ru^
+||jeculdfores.ru^
+||jivosite.com^
+||jiawen88.com^
+||juicyads.com^
+||dt07.net^
+||hs-scripts.com^
+||hsforms.net^
+||jumptap.com^
+||justicejudo.com^
+||jsonip.com^
+||driftt.com^
+||51.la^
+||kodand.wildapricot.org^
+||kbmg.com^
+||kupona.de^
+||kinesis.us-east-1.amazonaws.com^
+||ksn-cinfo-geo.kaspersky-labs.com^
+||ksn-crypto-info-geo.kaspersky-labs.com^
+||ksn-fr-geo.kaspersky-labs.com^
+||ksn-crypto-info-geo.kas-labs.com^
+||ksn-cinfo-geo.kas-labs.com^
+||ksn-crypto-whocalls-geo.kaspersky-labs.com^
+||zendesk.com^
+||keepmydevicesafe.com^
+||keapeiros.xyz^
+||killsironmentord.com^
+||k-ring.msedge.net^
+||kethinwi.ru^
+||keilaparius.com^
+||klsdee.com^
+||konferencje-eventy.eu^
+||kitties-collection.xyz^
+||kindnudist.eu^
+||keyade.com^
+||ключель.рф^
+||kn3.net^
+||kfutdsjwtcvnpx.com^
+||kaltura.com^
+||krunkerkr.xyz^
+||kintura.com^
+||kma.biz^
+||klclick.com^
+||keytape.fun^
+||keyrich.fun^
+||k12insight.com^
+||kqzyfj.com^
+||*-kra2007c.net^
+||kitbit.net^
+||keywordblocks.com^
+||ketobodytone.com^
+||kayako.com^
+||kayako.net^
+||kayakocdn.com^
+||kostprice.com^
+||kontakt.io^
+||knl.mntzrlt.net^
+||klickthru.com^
+||klivetv.co^
+||kv601-prod.do.dsp.mp.microsoft.com^
+||klaviyo.com^
+||kargo.com^
+||kvz7327.com^
+||kdata.fr^
+||k.googlevideo.com^
+||keap.com^
+||kickme.to^
+||kahuna.com^
+||kano.is^
+||ksmobile.com^
+||ksmobile.net^
+||kontera.com^
+||marketingautomation.services^
+||kck3hlb9.dashlane.com^
+||k54nw.pw^
+||karisimbi.net^
+||kontagent.net^
+||kidoz.net^
+||kissinsights.com^
+||krb.devphp.org.ua^
+||kos.interseek.si^
+||kshitijinfra.com^
+||kurzal.ru^
+||kndesign.com.br^
+||khbl.com^
+||kelp4less.com^
+||kline.rizon.net^
+||kimia.mobi^
+||kaban-media.com^
+||kds.media^
+||kingsoft-office-service.com^
+||kaffnet.com^
+||kaprila.com^
+||kibaneba.ru^
+||knopka.trade^
+||kdsk32lfa.xyz^
+||kukuplay.com^
+||knowledge.verizon.com^
 0.0.0.0 kropka.onet.pl
 0.0.0.0 ktrackdata.com
 0.0.0.0 kyad88.com
@@ -5551,7 +5528,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kadirzerey.com
 0.0.0.0 kadiyles.ru
 0.0.0.0 kadman.net
-0.0.0.0 kissmetrics.com
 0.0.0.0 kadmixer.ge
 0.0.0.0 kadobonspel.com
 0.0.0.0 kads.k-network.com
@@ -5767,8 +5743,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kareliatobacco.ru
 0.0.0.0 karenrowe.com
 0.0.0.0 karespade.com
-0.0.0.0 kargo.com
-0.0.0.0 kargonaut.dev.stage.us-east-1.kops.kargo.com
 0.0.0.0 karinacurriexxx.com
 0.0.0.0 karinarohde.com.br
 0.0.0.0 karinashop.com.ua
@@ -5803,7 +5777,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 karoo.blogsky.com
 0.0.0.0 karownxatpbd.com
 0.0.0.0 karpagamengkitchen.com
-0.0.0.0 karpet.cloud.kargo.com
 0.0.0.0 karpi.in
 0.0.0.0 karpun-iris.ru
 0.0.0.0 karrefurs.ru
@@ -5901,7 +5874,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kaukabphysiatry.com
 0.0.0.0 kaumudi.in
 0.0.0.0 kaunieciams.lt
-0.0.0.0 k-auth-dev.staging.us-east-1.kops.kargo.com
 0.0.0.0 kavala-wedding.gr
 0.0.0.0 kavanga.ru
 0.0.0.0 kaviar-dreams.be.tc
@@ -5972,12 +5944,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kbmindia.com
 0.0.0.0 kbnbusinesssolutions.com
 0.0.0.0 kbnetworkz.s3.amazonaws.com
-0.0.0.0 kbr-builder.dev.kargo.com
-0.0.0.0 kbr-builder.production.us-east-1.kops.kargo.com
-0.0.0.0 kbr-builder.staging.kargo.com
-0.0.0.0 kbr-builder.staging.us-east-1.kops.kargo.com
-0.0.0.0 kbr-builder-dev.staging.us-east-1.kops.kargo.com
-0.0.0.0 kbr-builder-staging.staging.us-east-1.kops.kargo.com
 0.0.0.0 kbsceyleonkq.com
 0.0.0.0 kbta.kr
 0.0.0.0 kbthai.com
@@ -6006,7 +5972,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kddphilanthropy.com
 0.0.0.0 kddtri.cn
 0.0.0.0 kdecom.com
-0.0.0.0 kdev.kargo.com
 0.0.0.0 kdex001.deqwas.net
 0.0.0.0 kdfhfh.idol-s.com
 0.0.0.0 kdhwebsolutions.com
@@ -6018,7 +5983,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 kdr6jmomc5yuoqhv9x95.maherstcottage.com.au
 0.0.0.0 kdrhb.com
 0.0.0.0 kds-miit.ru
-0.0.0.0 kds-pixel-dev.stage.us-east-1.kops.kargo.com
 0.0.0.0 kdt4all.com
 0.0.0.0 kdtponjc.net
 0.0.0.0 kdvzonneschijn.be
@@ -6559,7 +6523,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mobinsight.symantec.com
 0.0.0.0 mediadc.brightspotcn.com
 0.0.0.0 my.rtmark.net
-0.0.0.0 matheranalytics.com
 0.0.0.0 mytop-in.net
 0.0.0.0 millionairetrader.net
 0.0.0.0 mysaferesult.net
@@ -6604,7 +6567,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 mtrcs.samba.tv
 0.0.0.0 madadsmedia.com
-0.0.0.0 media.sportsbetaffiliates.com.au
 0.0.0.0 media.gssp.asia
 0.0.0.0 metrics.coccoc.com
 0.0.0.0 mondoads.s3.amazonaws.com
@@ -6694,7 +6656,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mkt.chubao.cn
 0.0.0.0 marketing3.chubao.cn
 0.0.0.0 mostwantedhf.info
-0.0.0.0 marketingautomation.services
 0.0.0.0 media.go2speed.org
 0.0.0.0 matomo.org
 0.0.0.0 my.hellobar.com
@@ -6878,8 +6839,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 mobileapptracking.com
 0.0.0.0 mydas.mobi
 0.0.0.0 mises-media.s3.amazonaws.com
-0.0.0.0 mocean.mobi
-0.0.0.0 mojiva.com
 0.0.0.0 media.net
 0.0.0.0 mixi.media
 0.0.0.0 mftracking.imfast.io
@@ -7209,7 +7168,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 opinionstage.com
 0.0.0.0 opmnstr.com
 0.0.0.0 oukrocky.com
-0.0.0.0 octaneai.com
 0.0.0.0 omnisrc.com
 0.0.0.0 onclickclear.com
 0.0.0.0 open.acgnxtracker.com
@@ -7234,7 +7192,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 oascentral.medbroadcast.com
 0.0.0.0 omni-ads.omni.news
 0.0.0.0 opt.vpadn.com
-0.0.0.0 out.sh
 0.0.0.0 openwebanalytics.com
 0.0.0.0 optanon.blob.core.windows.net
 0.0.0.0 optimatic.com
@@ -7606,7 +7563,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 preview.diigo.com
 0.0.0.0 px.airpr.com
 0.0.0.0 protection.lspolice.com
-0.0.0.0 pioneeringad.com
 0.0.0.0 pixel-sync.sitescout.com
 0.0.0.0 powerinbox.com
 0.0.0.0 pps-log.op-mobile.opera.com
@@ -7892,7 +7848,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 qvnpt.supervid.pro
 0.0.0.0 q.tvnet.lv
 0.0.0.0 qxyam.com
-0.0.0.0 qihucdn.com
 0.0.0.0 qls.qsstats.com
 0.0.0.0 qsstats.com
 0.0.0.0 qawiman.com
@@ -8015,8 +7970,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 recommendedforyou.xyz
 0.0.0.0 redretarget.com
 0.0.0.0 ratingwidget.com
-0.0.0.0 rating-widget.com
-0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
 0.0.0.0 report-uri.cloudflare.com
 0.0.0.0 report-uri.com
 0.0.0.0 rgmgocplioed.com
@@ -8025,7 +7978,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 redirect2719.ws
 0.0.0.0 r.remarketingpixel.com
 0.0.0.0 reddollars.com
-0.0.0.0 record.sportsbetaffiliates.com.au
 0.0.0.0 rocket-mailz.com
 0.0.0.0 referralfrenzy.com
 0.0.0.0 rapiddownline.com
@@ -8114,7 +8066,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 resonantrock.com
 0.0.0.0 robustbelieve.com
 0.0.0.0 rulerabbit.com
-0.0.0.0 rtk.io
 ||rayjump.com^
 0.0.0.0 redshell.io
 0.0.0.0 rpxnow.com
@@ -8505,7 +8456,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 smitionsory.co
 0.0.0.0 splitoptimizer.com
 0.0.0.0 staticw2.yotpo.com
-0.0.0.0 secure.rating-widget.com
 0.0.0.0 shermore.info
 0.0.0.0 smarteucookiebanner.upsell-apps.com
 0.0.0.0 sbc.com
@@ -8545,7 +8495,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 spyhunter-download.s3.amazonaws.com
 0.0.0.0 slate-ad-scripts.s3.amazonaws.com
 0.0.0.0 sa.edit.yahoo.com
-0.0.0.0 snip.bronto.com
 0.0.0.0 static.quriobot.com
 0.0.0.0 staples-sparx.com
 0.0.0.0 s.ml-attr.com
@@ -8899,7 +8848,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 superficialsink.com
 0.0.0.0 swordgoose.com
 0.0.0.0 static.tidiochat.com
-0.0.0.0 sync.rtk.io
 0.0.0.0 stats.avast.com
 0.0.0.0 sofia.trustx.org
 0.0.0.0 static.zotabox.co
@@ -9260,7 +9208,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 swan-swan-goose.com
 0.0.0.0 swordfishdc.com
 0.0.0.0 sx.trhnt.com
-0.0.0.0 scripts.kissmetrics.com
 0.0.0.0 triggers.wfxtriggers.com
 0.0.0.0 tcx-live-chat.appspot.com
 0.0.0.0 trk.ablogica.com
@@ -9748,7 +9695,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 typicalteeth.com
 0.0.0.0 tzwaw.pw
 0.0.0.0 tidiochat.com
-0.0.0.0 thor.rtk.io
 0.0.0.0 thor.blindferret.media
 0.0.0.0 track.mmsvc.io
 0.0.0.0 trustx.org
@@ -9992,14 +9938,12 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 unityads.unity3d.com
 0.0.0.0 usp1.baidu.com
 0.0.0.0 ufz.doesxyz.com
-0.0.0.0 usemessages.com
 0.0.0.0 uryle.ru
 0.0.0.0 usstero.com
 0.0.0.0 undleftranver.ru
 0.0.0.0 ubfhq.top
 0.0.0.0 u1tshop.ru
 0.0.0.0 u2tshop.ru
-0.0.0.0 users.51.la
 0.0.0.0 urchin.com
 0.0.0.0 ui.userlocal.jp
 0.0.0.0 use.typekit.net
@@ -10062,8 +10006,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vcen.dolphin-browser.com
 0.0.0.0 verifycaptcha.com
 0.0.0.0 visualvisitor.com
-0.0.0.0 visitstats.com
-0.0.0.0 visitstats.com$popup,popunder,important
+||visitstats.com^
+||visitstats.com^$popup,popunder
 0.0.0.0 v.mediahits.club
 0.0.0.0 vpfadnueru.com
 0.0.0.0 visistat.com
@@ -10147,7 +10091,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vwo.com
 0.0.0.0 vpaid.mathtag.com
 0.0.0.0 vinbet.biz
-0.0.0.0 vip.clickzzs.nl
 0.0.0.0 viaarena.com
 0.0.0.0 videoplaza.tv
 0.0.0.0 vidassets.terminus.services
@@ -10452,7 +10395,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 wisepops.com
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
-0.0.0.0 webads.nl
 0.0.0.0 xpostmail.com
 0.0.0.0 xaxis.com
 0.0.0.0 xad.com
@@ -10735,7 +10677,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zoho.com
 0.0.0.0 zoho.eu
 0.0.0.0 zoho.in
-0.0.0.0 zohostatic.com
 0.0.0.0 zarget.com
 0.0.0.0 znaptag.com
 0.0.0.0 zbwp6ghm.com
@@ -10883,7 +10824,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 3snet.ru
 0.0.0.0 3snet.co
 0.0.0.0 4pleb.org
-0.0.0.0 24smi.net
 0.0.0.0 2girls1cup.com
 0.0.0.0 420yolo.com
 0.0.0.0 2ndhalfplays.com
@@ -11637,7 +11577,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 643226.com
 0.0.0.0 652748.com
 0.0.0.0 5jcom.com.cn
-0.0.0.0 51.la
 0.0.0.0 7895983.cn
 0.0.0.0 60095256.adoric-om.com
 0.0.0.0 135.sub-198-224-148.myvzw.com
