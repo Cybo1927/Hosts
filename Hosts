@@ -5287,32 +5287,37 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sendsay.ru^
 ||itrack.it^
 ||ingameads.gameloft.com^
-0.0.0.0 images.cashfiesta.com
-0.0.0.0 igodigital.com
-0.0.0.0 incoming.telementary.mozilla.org
-0.0.0.0 infowars.iljmp.com
-0.0.0.0 ipapi.com
-0.0.0.0 i.simpli.fi
-0.0.0.0 invitemedia.com
-0.0.0.0 idms.foxbusiness.com
-0.0.0.0 improving.duckduckgo.com
-0.0.0.0 impact.com
-0.0.0.0 img.mobusi.com
-0.0.0.0 ininmacerad.pro
-0.0.0.0 intellitxt.com
-0.0.0.0 im.ov.yahoo.co.jp
-0.0.0.0 i3.putags.com
-0.0.0.0 imasdk.googleapis.com
-0.0.0.0 infolinks.com
-0.0.0.0 i.po.st
-0.0.0.0 izatcloud.net
-0.0.0.0 id.google.com
-0.0.0.0 inmobi.info
-0.0.0.0 inmobi.us
-0.0.0.0 indexww.com
-0.0.0.0 imrworldwide.com
-0.0.0.0 infinityads.com
-0.0.0.0 iesnare.com
+||wbinsights.com^
+||swrve.com^
+||igodigital.com^
+||telementary.mozilla.org^
+||iljmp.com^
+||improvely.com^
+||ipapi.com^
+||simpli.fi^
+||invitemedia.com^
+||idms.foxbusiness.com^
+||improving.duckduckgo.com^
+||impact.com^
+||supersonicads.com^
+||supersonic.com^
+||ssacdn.com^
+||mobusi.com^
+||ininmacerad.pro^
+||intellitxt.com^
+||im.ov.yahoo.co.jp^
+||tapjoy.com^
+||datarouter.ol.epicgames.com^
+||imasdk.googleapis.com^
+||infolinks.com^
+||po.st^
+||izatcloud.net^
+||inmobi.info^
+||inmobi.us^
+||indexww.com^
+||imrworldwide.com^
+||infinityads.com^
+||iesnare.com^
 0.0.0.0 img.bleacherreport.net
 0.0.0.0 ironsrc.com
 0.0.0.0 ima3vpaid.appspot.com
@@ -6835,7 +6840,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 marinanalytic.com
 0.0.0.0 moat.com
 0.0.0.0 mobalytics.gg
-0.0.0.0 mobusi.com
 0.0.0.0 mona.admanmedia.com
 0.0.0.0 mywebstats.org
 0.0.0.0 mywebstats.com.au
@@ -7455,7 +7459,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pc3ads.com
 0.0.0.0 packet-clearing-house.github.io
 0.0.0.0 propelad.com
-0.0.0.0 po.st
 0.0.0.0 popin.cc
 0.0.0.0 pushclect.info
 0.0.0.0 platform.bidgear.com
@@ -7831,7 +7834,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pub.network
 0.0.0.0 p.skimresources.com
 0.0.0.0 proxy.softonicads.com
-0.0.0.0 po.st
 0.0.0.0 pixel.wp.
 0.0.0.0 platform.stumbleupon.com
 0.0.0.0 pp.lp4.io
@@ -9032,7 +9034,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 storage.trafic.ro
 0.0.0.0 s.clickiocdn.com
 0.0.0.0 seal.godaddy.com
-0.0.0.0 simpli.fi
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 static-ssl.responsetap.com
 0.0.0.0 segment.com
@@ -9073,7 +9074,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 shavar.services.mozilla.com
 0.0.0.0 snippets.cdn.mozilla.net
-0.0.0.0 swrve.com
 0.0.0.0 stats.indextools.com
 0.0.0.0 stats.indexstats.com
 0.0.0.0 secure.indexstats.com
@@ -9100,7 +9100,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 static.yieldmo.com
 0.0.0.0 sleepcartoon.com
 0.0.0.0 sc-analytics.appspot.com
-0.0.0.0 supersonic.com
 0.0.0.0 snapads.com
 0.0.0.0 silverpush.location.com
 0.0.0.0 saspreview.com
@@ -9115,8 +9114,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 silverpush.com
 0.0.0.0 serving-sys.com
 0.0.0.0 singlespot.com
-0.0.0.0 s.po.st
-0.0.0.0 supersonicads.com
 0.0.0.0 singlespot
 0.0.0.0 segment-data.zqtk.net
 0.0.0.0 s.dpmsrv.com
@@ -9755,7 +9752,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 thor.blindferret.media
 0.0.0.0 track.mmsvc.io
 0.0.0.0 trustx.org
-0.0.0.0 tapjoy.com
 0.0.0.0 telemetry.malwarebytes.com
 0.0.0.0 telemetry.gfe.nvidia.com
 0.0.0.0 telemetry.nvidia.com
@@ -9859,7 +9855,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 trackersimulator.org
 0.0.0.0 tracker.nbcuas.com
 0.0.0.0 t2.softonicads.com
-0.0.0.0 tag-mediation.supersonic.com
 0.0.0.0 tracking.callmeasurement.com
 0.0.0.0 tqlkg.com
 0.0.0.0 tencent.mm.plugin.location_soso.com
