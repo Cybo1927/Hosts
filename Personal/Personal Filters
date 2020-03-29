@@ -12,6 +12,9 @@
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com$domain=accounts.google.com
 @@||youtube-ui.l.google.com
+@@||m.youtube.com^$app=org.mozilla.firefox_beta,important
+@@||i.ytimg.com^$app=org.mozilla.firefox_beta,important
+@@||yt3.ggpht.com^$app=org.mozilla.firefox_beta,important
 *:5228$network,app=com.google.android.gms
 !#endif
 google.com|
@@ -20,6 +23,7 @@ googleapis.com|
 gstatic.com|
 gmail.com|
 withgoogle.com|
+ggpht.com|
 samsung.com|
 ||googleusercontent.com$domain=~youtube.com
 ||ytimg.com$domain=~youtube.com
