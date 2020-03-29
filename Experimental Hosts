@@ -18,4 +18,10 @@
 ||connectivitycheck.gstatic.com^$badfilter,ctag=os_android
 ||mobile-gtalk.l.google.com^$badfilter,ctag=os_android
 
-||cf-st.sc-cdn.net/d/*^$important
+||https://cf-st.sc-cdn.net/d/*^$important
+
+! AdGuard Only
+youtube.com#%#navigator.getBattery = undefined;
+youtube.com#%#navigator.plugins = undefined;
+!
+taskernet.com#%#function CountStats() {}
