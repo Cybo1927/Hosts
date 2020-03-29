@@ -10,7 +10,7 @@
 @@||android.googleapis.com
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
-@@||accounts.google.com$domain=accounts.google.com
+@@||accounts.google.com
 @@||youtube-ui.l.google.com
 @@||m.youtube.com^$app=org.mozilla.firefox_beta,important
 @@||i.ytimg.com^$app=org.mozilla.firefox_beta,important
