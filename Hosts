@@ -106,6 +106,7 @@ pandora.com$genericblock
 ||akamaihd.net/prerolls$media,redirect=noopmp4-1s,domain=hulu.com
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
+||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
 
 ! Remove Attribute (uBlock Origin)
 *##+js(ra.js, ping)
@@ -11934,7 +11935,6 @@ happymoddownload.com##.fot-fixd
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
-||taskernet.com/shares/countstats.js^$empty,important
 
 ! Set Cookies
 dailycaller.com#%#document.cookie = "__adblocker = false"
