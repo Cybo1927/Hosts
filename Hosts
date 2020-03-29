@@ -6121,21 +6121,20 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||llnk.eu^
 ||loox.io^
 ||leadlab.click^
-0.0.0.0 live.rezync.com
-0.0.0.0 leo.gov
-0.0.0.0 lptracker.io
-0.0.0.0 leadtrackingdata.com
-0.0.0.0 learning.adbot.tw
-0.0.0.0 lg.ecorebates.com
-0.0.0.0 link-page.info
-0.0.0.0 loc.sc-jpl.com
-0.0.0.0 lead.network
-0.0.0.0 lt*.tritondigital.com
-0.0.0.0 lets.cdin.me
-0.0.0.0 live.demand.supply
-0.0.0.0 lightstep.com
-0.0.0.0 log.prezi.com
-0.0.0.0 log.china.cn
+||rezync.com^
+||leo.gov^
+||lptracker.io^
+||leadtrackingdata.com^
+||link-page.info^
+||sc-jpl.com^
+||lead.network^
+||tritondigital.com^
+||demand.supply^
+||pixability.com^
+||openslate.com^
+||lightstep.com^
+||log.prezi.com^
+||log.china.cn^
 0.0.0.0 leadconnect.ipmaxi.se
 0.0.0.0 leadconnect.se
 0.0.0.0 lockbox.clever.com
@@ -6288,8 +6287,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 libs.coremetrics.com
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 loadbalancer.visitor-analytics.io
-0.0.0.0 lt500.tritondigital.com
-0.0.0.0 tritondigital.com
 0.0.0.0 logentries.com
 0.0.0.0 lp4.io
 0.0.0.0 livefyre.com
@@ -7895,7 +7892,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 research.de.com
 0.0.0.0 restaurants.infcdn.net
 0.0.0.0 rt.gsspat.jp
-0.0.0.0 rezync.com
 0.0.0.0 run.crtx.info
 0.0.0.0 retargetcore.com
 0.0.0.0 report-uri.highwebmedia.com
@@ -8478,8 +8474,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 st.top100.ru
 0.0.0.0 saygames.io
 0.0.0.0 saygames.sfo2.cdn.digitaloceanspaces.com
-0.0.0.0 scm.sc-jpl.com
-0.0.0.0 sc-jpl.com
 0.0.0.0 simpleautomatedmarketingsystem.com
 0.0.0.0 surftocashformula.com
 0.0.0.0 surf-to-earn.com
