@@ -6135,56 +6135,52 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||lightstep.com^
 ||log.prezi.com^
 ||log.china.cn^
-0.0.0.0 leadconnect.ipmaxi.se
-0.0.0.0 leadconnect.se
-0.0.0.0 lockbox.clever.com
-0.0.0.0 live-f351468gBSWz.ws.gamesparks.net
-0.0.0.0 lumberamount.com
-0.0.0.0 log.ncaudienceexchange.com
-0.0.0.0 load.instinctiveads.com
-0.0.0.0 l2m.net
-0.0.0.0 lincassa.com
-0.0.0.0 look.ufinkln.com
-0.0.0.0 localfusion.secure.ownlocal.com
-0.0.0.0 loxtk.com
-0.0.0.0 logging.trakingpixel.com
-0.0.0.0 linkcash.co
-0.0.0.0 log.analytics-logs.club
-0.0.0.0 log.api.zaloapp.com
-0.0.0.0 log.news.zing.vn
-0.0.0.0 logv2.mp3.zing.vn
-0.0.0.0 lavanetwork.net
-0.0.0.0 load.s3.amazonaws.com
-0.0.0.0 lytics.io
-0.0.0.0 lgbttech.org
-0.0.0.0 listbonus.com
-0.0.0.0 listjoe.com
-0.0.0.0 legacyteamcoop.com
-0.0.0.0 legacyhits.com
-0.0.0.0 leadsleap.com
-0.0.0.0 ladsdown.com
-0.0.0.0 lookips.com
-0.0.0.0 location.bloomberg.com
-0.0.0.0 localhost.ptlogin2.weiyun.com
-0.0.0.0 l.ooyala.com
-0.0.0.0 leaderapps.co
-0.0.0.0 landing.adstage.io
-0.0.0.0 landbot.io
-0.0.0.0 logger.mobi
-0.0.0.0 log.getadblock.com
-0.0.0.0 levelaccess.net
-0.0.0.0 lepodownload.mediatek.com
-0.0.0.0 leadzu.com
-0.0.0.0 logger.foxitcloud.com
-0.0.0.0 logging.groupon.com
-0.0.0.0 log.go.com
-0.0.0.0 log.gns.go.com
-0.0.0.0 logs.locarta.co
-0.0.0.0 locarta.co
-0.0.0.0 locationsmart.com
-0.0.0.0 lemonpi.io
-0.0.0.0 letsrebold.com
-0.0.0.0 leanplum.com
+||ipmaxi.se^
+||leadconnect.se^
+||lockbox.clever.com^
+||lumberamount.com^
+||ncaudienceexchange.com^
+||l2m.net^
+||lincassa.com^
+||ownlocal.com^
+||loxtk.com^
+||trakingpixel.com^
+||linkcash.co^
+||log.api.zaloapp.com^
+||log.news.zing.vn^
+||logv*.mp3.zing.vn^
+||lavanetwork.net^
+||load.s3.amazonaws.com^
+||lytics.io^
+||lgbttech.org^
+||listbonus.com^
+||listjoe.com^
+||legacyteamcoop.com^
+||legacyhits.com^
+||leadsleap.com^
+||ladsdown.com^
+||lookips.com^
+||location.bloomberg.com^
+||localhost.ptlogin2.weiyun.com^
+||ooyala.com^
+||ooyala.dalet.com^
+||leaderapps.co^
+||landbot.io^
+||logger.mobi^
+||log.getadblock.com^
+||levelaccess.net^
+||lepodownload.mediatek.com^
+||benchmarkemail.com^
+||leadzu.com^
+||foxitcloud.com^
+||logging.groupon.com^
+||log.go.com^
+||log.gns.go.com^
+||locarta.co^
+||locationsmart.com^
+||lemonpi.io^
+||letsrebold.com^
+||leanplum.com^
 0.0.0.0 log-1.samsungacr.com
 0.0.0.0 log-2.samsungacr.com
 0.0.0.0 log-3.samsungacr.com
@@ -6291,7 +6287,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 lp4.io
 0.0.0.0 livefyre.com
 0.0.0.0 livechatoo.com
-0.0.0.0 load.instinctiveads.com
 0.0.0.0 localytics.com
 0.0.0.0 liveadvert.com
 0.0.0.0 lightboxcdn.com
@@ -6907,7 +6902,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 news-events.news.apple-dns.net
 0.0.0.0 noscript-csp.invalid
 0.0.0.0 no-thanks.invalid
-0.0.0.0 ncaudienceexchange.com
 0.0.0.0 newtab-media.com
 0.0.0.0 newtab-mediasearch.com
 0.0.0.0 ngads.com
@@ -7124,7 +7118,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 offers-api.ghostery.net
 0.0.0.0 oexbdfnbentzd.com
 0.0.0.0 our.antutu.net
-0.0.0.0 ownlocal.com
 0.0.0.0 offers.t-mobile.com
 0.0.0.0 onfiretoretire.net
 0.0.0.0 ongage.net
@@ -7462,7 +7455,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 powerad.ai
 0.0.0.0 pingfore.qq.com
 0.0.0.0 perfdrive.com
-0.0.0.0 platform.adstage.io
 0.0.0.0 poplink.io
 0.0.0.0 praetox.com
 0.0.0.0 premiumdownloads.info
@@ -8433,7 +8425,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 symbc.com
 0.0.0.0 sbaffiliates.com
 0.0.0.0 samizdat-graphql.nytimes.com
-0.0.0.0 secure.ownlocal.com
 0.0.0.0 shasta-mrs.symantec.com
 0.0.0.0 spc.myvzw.com
 0.0.0.0 srepdata.azcentral.com
@@ -9406,7 +9397,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 trialfire.com
 0.0.0.0 tse1.mm.bing.net
 0.0.0.0 thikraik.net
-0.0.0.0 trakingpixel.com
 0.0.0.0 track.tap4joy.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 tracking.playzing.g6.zing.vn
