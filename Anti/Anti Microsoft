@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Microsoft
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 ! Block Microsoft and their services
 
@@ -30,6 +30,7 @@
 0.0.0.0 11509.playfabapi.com
 0.0.0.0 playfabapi.com
 0.0.0.0 trafficmanager.net
+0.0.0.0 img-s-msn-com.akamaized.net
 
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1809-endpoints
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1803-endpoints
