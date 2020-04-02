@@ -1,17 +1,37 @@
 ! Title: Cybo's Experimental Hosts
 ! Expires: 8 hours
 
+@@||static.trafficjunky.com/ab/ads_test.js
+
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
 
-||4dsply.com^$important
-||adclear.net^$important
-||adrtx.net^$important
-||advangelists.com^$important
-||ainads.ru^$important
-||airgrow.com^$important
-||allmyverygreatlife.com^$important
-||tracker.arc.io^$important
+duckduckgo.com$cookie=/p|ntp_s/
+*$cookie=/_client_tz|geoCC/
+
+&campaign=*&site=*
+*/events?app_id=
+*/revive/www/
+*/foresee/
+*.php?oaparams=2__bannerid=*__zoneid=*
+
+! change -ad- to
+-ad-$domain=~github.com,~gitlab.com
+
+! Google Doesn't Need to Run on These Domains
+||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
+||gstatic.com^$domain=demos.net|demos.ru
+
+||4dsply.com^
+||adclear.net^
+||adrtx.net^
+||advangelists.com^
+||ainads.ru^
+||airgrow.com^
+||allmyverygreatlife.com^
+||tracker.arc.io^
+||ilovejuju.be^
+||upapi.net^$empty
 
 ! New/Cool AdGuard Home Stuff From Update v0.101.0
 ||android.clients.google.com^$badfilter,ctag=os_android
@@ -26,3 +46,17 @@ groupon.com#%#navigator.getBattery = undefined;
 youtube.com,android.com,blogger.com,blogspot.com,withgoogle.com,googlesource.com,gstatic.com,ytimg.com,g.co,googleblog.com,googleusercontent.com,googledrive.com,googlezip.net,googlevideo.com,ggpht.com,firebase.io,googlehosted.com,blogblog.com,gvt1.com,gvt2.com,gmail.com,appspot.com,googleapis.com,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws#%#navigator.plugins = undefined; navigator.plugins.length = undefined; navigator.mimeTypes = undefined; navigator.mimeTypes.length = undefined; navigator.platform = undefined; a.navigator.platform = undefined;
 !
 taskernet.com#%#function CountStats() {}
+
+###cookiePopupContainer
+###cookieInfo
+
+||duckduckgo.com/t/
+||duckduckgo.com/t.js
+realclearpolitics.com##.RC-AD, .RC-AD-SHOW-NOW, .RC-AD-BOX-TOP, #oraPlayer, .gcwp-carousel
+android.com##.cookie-banner--show.cookie-banner
+maps.me##.cookies-policy_fixed.cookies-policy_show.cookies-policy
+||macromedia.com/images/pixel.gif
+armslist.com##.sponsor-frame
+minehut.com##.v-snack__content
+spanishdict.com##.ReactModal__Overlay, #adTopLarge
+thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-content > form
