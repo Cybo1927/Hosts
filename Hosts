@@ -2356,7 +2356,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ads.twitter.com^
 ||ads.nordichardware.com^
 ||ads.nordichardware.se^
-||ads.nwsource.com^
 ||ads.nyi.net^
 ||ads.nytimes.com^
 ||ads.nyx.cz^
@@ -6603,131 +6602,118 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||metric.kleientertainment.com^
 ||monsido.com^
 ||msmetrics.ws.sonos.com^
-0.0.0.0 metrics.plex.tv
-0.0.0.0 metrika.yandex.ru
-0.0.0.0 moatads.com.edgekey.net
-0.0.0.0 marketing.neustar
-0.0.0.0 metrics.hsbc.com.au
-0.0.0.0 metrics.mozilla.com
-0.0.0.0 marketingplatform.google.com
-0.0.0.0 mine.torrent.pw
-0.0.0.0 multiad.com
-0.0.0.0 marchex.com
-0.0.0.0 metrica.yandex.com
-0.0.0.0 mixpanel.com
-0.0.0.0 meek-reflect.appspot.com
-0.0.0.0 mining.best
-0.0.0.0 mutuza.win
-0.0.0.0 miner.nablabee.com
-0.0.0.0 m.anyfiles.ovh
-0.0.0.0 marketgid.com
-0.0.0.0 monerominer.rocks
-0.0.0.0 minemytraffic.com
-0.0.0.0 miner.pr0gramm.com
-0.0.0.0 mailerlite.com
-0.0.0.0 myvouchers.ie
-0.0.0.0 mrm.lt
-0.0.0.0 molly.thememove.com
-0.0.0.0 mpdpro.sk
-0.0.0.0 mimiabner.com
-0.0.0.0 miamifloridainvestigator.com
-0.0.0.0 mashina.com
-0.0.0.0 marketingonline.vn
-0.0.0.0 meseva.in
-0.0.0.0 matongcaocap.vn
-0.0.0.0 misophoniatreatment.com
-0.0.0.0 my.ppcmate.com
-0.0.0.0 mediamobassets.com
-0.0.0.0 mobipromote.com
-0.0.0.0 mediawayss.com
-0.0.0.0 mediacpm.pl
-0.0.0.0 mediablam.com
-0.0.0.0 monumetric.com
-0.0.0.0 mediarithmics.com
-0.0.0.0 main.dynsrvazg.com
-0.0.0.0 myphonesupport.com
-0.0.0.0 m-shes.ru
-0.0.0.0 mistat.intl.xiaomi.com
-0.0.0.0 mail.cocamobile.com
-0.0.0.0 mo.freeindoapp.com
-0.0.0.0 mobile-campaigns.avast.com
-0.0.0.0 m.yap.yahoo.com
-0.0.0.0 miarroba.com
-0.0.0.0 myownads.space
-0.0.0.0 megapopads.com
-0.0.0.0 minecrunch.co
-0.0.0.0 millionairedream.co
-0.0.0.0 mmoframes.com
-0.0.0.0 m-aeti-bocieva.info
-0.0.0.0 m-aeti-bocieva.info
-0.0.0.0 m0zdeb.ru
-0.0.0.0 mdvkn.com
-0.0.0.0 mypictures-onlinegood.info
-0.0.0.0 molefefiseranis.ru
-0.0.0.0 medtiz.com
-0.0.0.0 mynikolaev.vn.ua
-0.0.0.0 megapu.sh
-0.0.0.0 megapu.ru
-0.0.0.0 mobiads.ru
-0.0.0.0 money-in-net.ru
-0.0.0.0 mbzl-pro.xyz
-0.0.0.0 mega-polza.ru
-0.0.0.0 medicineteaser.ru
-0.0.0.0 maio.jp
-0.0.0.0 maist.jp
-0.0.0.0 mediad.co.jp
-0.0.0.0 mediaglacier.com
-0.0.0.0 mobile.pipe.aria.microsoft.com
-0.0.0.0 memcache.clients6.google.com
-0.0.0.0 ml.clients6.google.com
-0.0.0.0 mobilecrashreporting.clients6.google.com
-0.0.0.0 media-rep.com
-0.0.0.0 men.mittenscissors.pw
-0.0.0.0 mybestmv.com
-0.0.0.0 mpnrs.com
-0.0.0.0 met.vgwort.de
-0.0.0.0 msads.net
-0.0.0.0 ml314.com
-0.0.0.0 my.surveypopups.com
-0.0.0.0 monetize-me.com
-0.0.0.0 messagetag.com
-0.0.0.0 medyanetads.com
-0.0.0.0 metaffiliation.com
-0.0.0.0 metavertising.com
-0.0.0.0 mcmads.mediacapital.pt
-0.0.0.0 monetate.net
-0.0.0.0 medialytics.io
-0.0.0.0 microsoft-sql-server.wp-club.net
-0.0.0.0 mixpo.com
-0.0.0.0 marchex.io
-0.0.0.0 metamarkets.com
-0.0.0.0 marinanalytic.com
-0.0.0.0 moat.com
-0.0.0.0 mobalytics.gg
-0.0.0.0 mona.admanmedia.com
-0.0.0.0 mywebstats.org
-0.0.0.0 mywebstats.com.au
-0.0.0.0 webstats.motigo.com
-0.0.0.0 m1.webstats4u.com
-0.0.0.0 myscoop-tracking.googlecode.com
-0.0.0.0 mcc.godaddy.com
-0.0.0.0 mjx.ads.nwsource.com
-0.0.0.0 mgid.com
-0.0.0.0 mi.adinterax.com
-0.0.0.0 my.adtegrity.net
-0.0.0.0 my.aim4media.com
-0.0.0.0 munchkin.marketo.net
-0.0.0.0 merchantapp.com
-0.0.0.0 metrics.sdkbox.com
-0.0.0.0 mediavine.com
-0.0.0.0 malware-error.mozilla.com
-0.0.0.0 mb104.com
-0.0.0.0 multipops.com
-0.0.0.0 m.servedby-buysellads.com
-0.0.0.0 myroitracking.com
-0.0.0.0 mobileapptracker.com
-0.0.0.0 mc.yandex.ru
-0.0.0.0 mobvista.com
+||metrics.plex.tv^
+||metrika.yandex.^
+||metrica.yandex.^
+||moatads.com.edgekey.net^
+||marketing.neustar^
+||metrics.hsbc.com.au^
+||metrics.mozilla.com^
+||marketingplatform.google.com^
+||multiad.com^
+||marchex.com^
+||mixpanel.com^
+||meek-reflect.appspot.com^
+||mining.best^
+||mutuza.win^
+||marketgid.com^
+||monerominer.rocks^
+||minemytraffic.com^
+||miner.pr0gramm.com^
+||mailerlite.com^
+||myvouchers.ie^
+||mrm.lt^
+||molly.thememove.com^
+||mpdpro.sk^
+||mimiabner.com^
+||miamifloridainvestigator.com^
+||mashina.com^
+||marketingonline.vn^
+||meseva.in^
+||matongcaocap.vn^
+||misophoniatreatment.com^
+||ppcmate.com^
+||mediamobassets.com^
+||mobipromote.com^
+||mediawayss.com^
+||mediacpm.pl^
+||mediablam.com^
+||monumetric.com^
+||mediarithmics.com^
+||dynsrvazg.com^
+||myphonesupport.com^
+||m-shes.ru^
+||mistat.intl.xiaomi.com^
+||mobile-campaigns.avast.com^
+||m.yap.yahoo.com^
+||miarroba.com^
+||myownads.space^
+||megapopads.com^
+||minecrunch.co^
+||millionairedream.co^
+||mmoframes.com^
+||m-aeti-bocieva.info^
+||m0zdeb.ru^
+||mdvkn.com^
+||mypictures-onlinegood.info^
+||molefefiseranis.ru^
+||medtiz.com^
+||mynikolaev.vn.ua^
+||megapu.sh^
+||megapu.ru^
+||mobiads.ru^
+||money-in-net.ru^
+||mbzl-pro.xyz^
+||mega-polza.ru^
+||medicineteaser.ru^
+||maio.jp^
+||maist.jp^
+||mediad.co.jp^
+||mediaglacier.com^
+||mobile.pipe.aria.microsoft.com^
+||memcache.clients6.google.com^
+||ml.clients6.google.com^
+||media-rep.com^
+||mybestmv.com^
+||mpnrs.com^
+||msads.net^
+||ml314.com^
+||surveypopups.com^
+||monetize-me.com^
+||messagetag.com^
+||medyanetads.com^
+||metaffiliation.com^
+||metavertising.com^
+||mcmads.mediacapital.pt^
+||monetate.net^
+||medialytics.io^
+||microsoft-sql-server.wp-club.net^
+||mixpo.com^
+||marchex.io^
+||metamarkets.com^
+||marinanalytic.com^
+||moat.com^
+||mobalytics.gg^
+||mywebstats.org^
+||mywebstats.com.au^
+||webstats4u.com^
+||myscoop-tracking.googlecode.com^
+||mcc.godaddy.com^
+||mgid.com^
+||adtegrity.net^
+||aim4media.com^
+||marketo.net^
+||merchantapp.com^
+||metrics.sdkbox.com^
+||mediavine.com^
+||malware-error.mozilla.com^
+||mb104.com^
+||multipops.com^
+||servedby-buysellads.com^
+||myroitracking.com^
+||mobileapptracker.com^
+||mc.yandex.ru^
+||mobvista.com^
 ||mopub.com^
 0.0.0.0 mobileads.com
 0.0.0.0 mailchimp.com
@@ -7557,7 +7543,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 pluralsight-static.s3.amazonaws.com
 0.0.0.0 pushible.com
 0.0.0.0 pickro.pk
-0.0.0.0 ppcmate.com
 0.0.0.0 placeofentertainment.org
 0.0.0.0 promonotes.com
 0.0.0.0 proxy.dlf.lt
@@ -8030,7 +8015,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
 0.0.0.0 roosterfirework.com
-0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 relap.io
 0.0.0.0 rtstats.com
 0.0.0.0 reporo.net
@@ -8941,7 +8925,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 speedcurve.com
 0.0.0.0 stack-sonar.com
-0.0.0.0 servedby-buysellads.com
 0.0.0.0 s22.cnzz.com
 0.0.0.0 stats.nextcloud.com
 0.0.0.0 stats.popcap.com
@@ -10182,7 +10165,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webstats.sapo.pt
 0.0.0.0 webstats.perfectworld.com
 0.0.0.0 webstats.com.br
-0.0.0.0 webstats4u.com
 0.0.0.0 web-stats.org
 0.0.0.0 watson.microsoft.com
 0.0.0.0 officedepot.com
