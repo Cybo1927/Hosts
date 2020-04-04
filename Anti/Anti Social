@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 32
+! Version: 33
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -658,4 +658,4 @@ privacytools.io###participate
 freebeacon.com##.hide-print
 freebeacon.com##.md\:block.flex.justify-center.list-inline
 premiumleech.eu###d-spc > .inside
-youtube.com###chat
+youtube.com/live_chat/
