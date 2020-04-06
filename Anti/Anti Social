@@ -1,17 +1,17 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 33
+! Version: 34
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
 
 ! AddToAny
-||addtoany.com
+||addtoany.com^
 */plugins/add-to-any
 
 ! AddThis
-||addthis.com
+||addthis.com^
 ##.addthis_button_facebook
 ##.addthis_button_twitter
 ##.addthis_button_instagram
@@ -19,275 +19,180 @@ pandora.com$generichide
 
 ! Facebook
 ||facebook.com/plugins/like.php
-||static.xx.fbcdn.net
-||connect.facebook.net
-||facebook.net
-||connect.facebook.com
-||facebook.com
-||instagram.com
+||fbcdn-video-*.akamaihd.net^
+||fbcdn-vthumb-*.akamaihd.net^
+||fbexternal-*.akamaihd.net^
+||fbstatic-*.akamaihd.net^
+||fbcdn.net^
+||fb.me^
+||fbsbx.com^
+||fbcdn-photos-*.^
+||fbcdn-sphotos-*.^
+||fbcdn-profile-*.^
+||fbexternal-*.^
+||facebook.^
+||instagram.com^
+||whatsapp.net^
+||workplace.com^
+||reactjs.org^
 
 ! Twitter
-||platform.twitter.com
-||twitter.com
-||t.co
-||twitter.github.io
+||platform.twitter.com^
+||twitter.com^
+||t.co^
+||twitter.github.io^
 
 ! Reddit
-||reddit.com
-||redd.it
-||redditmedia.com
-||redditstatic.com
+||reddit.com^
+||redd.it^
+||redditmedia.com^
+||redditstatic.com^
 
 ! Discord
-||cdn.discordapp.com
-||discordapp.com
+||discordapp.com^
 
 ! Flickr
-||flickr.com
-||staticflickr.com
+||flickr.com^
+||staticflickr.com^
 
 ! LinkedIn
-||linkedin.com
-||licdn.com
+||linkedin.com^
+||licdn.com^
 
 ! Live
-||live.com
-||skypeassets.com
-||skype.com
+||live.com^
+||skypeassets.com^
+||skype.com^
 
 ! WhatsApp
-||whatsapp.com
-||whatsapp.net
+||whatsapp.com^
+||whatsapp.net^
 
 ! WeChat
-||wechat.com
+||wechat.com^
 
 ! QQ
-||qzone.qq.com
+||qzone.qq.com^
 
 ! DeviantArt
-||deviantart.com
-||da-ads.com
-||dapxl.com
-||deviantart.net
+||deviantart.com^
+||da-ads.com^
+||dapxl.com^
+||deviantart.net^
 
 ! TikTok
-||tiktok.com
-||tiktokcdn.com
+||tiktok.com^
+||tiktokcdn.com^
 
 ! Baidu
-||tieba.baidu.com
+||tieba.baidu.com^
 
 ! Tumblr
-||tumblr.com
+||tumblr.com^
 
 ! Line
-||line.me
-||line-scdn.net
+||line.me^
+||line-scdn.net^
 
 ! Viber
-||viber.com
+||viber.com^
 
 ! RenRen
-||renren.com
+||renren.com^
 
 ! Foursquare
-||foursquare.com
+||foursquare.com^
 
 ! TARINGA!
-||taringa.net
+||taringa.net^
 
 ! Telegram
-||telegram.org
+||telegram.org^
 
 ! Pinterest
-||pinterest.com
+||pinterest.com^
 
 ! VKontakte
-||vk.com
+||vk.com^
 
 ! Tagged
-||tagged.com
+||tagged.com^
 
 ! Snapchat
-||snapchat.com
 ! From /Anti/Anti Snapchat
-||snap.com
-||sc-cdn.net
-||sc-static.net
-||snapchat-proxy.appspot.com
-||snapchat.appspot.com
-||snapchat-webfonts.storage.googleapis.com
-||snapnet-cdn.storage.googleapis.com
-||feelinsonice.appspot.com
-||feelinsonice-hrd.appspot.com
-||feelinsonice.com
-||snapads.com
-||feelinsonice.l.google.com
-||appspot.l.google.com
-||app.snapchat.com
-||data.flurry.com
-||snap-storage-cdn.l.google.com
-||sc-gw.com
-||sc-prod.ne
-||snap.api.mapbox.com
-||snap.events.mapbox.com
-||snapkit.com
-||sc-jpl.com
-||sc-prod.net
-||bitmoji.com
+|||snapchat.com^
+||snap.com^
+||sc-cdn.net^
+||sc-static.net^
+||snapchat-proxy.appspot.com^
+||snapchat.appspot.com^
+||snapchat-webfonts.storage.googleapis.com^
+||snapnet-cdn.storage.googleapis.com^
+||snap-storage-cdn.l.google.com^
+||sc-gw.com^
+||sc-prod.ne^
+||snap.api.mapbox.com^
+||snap.events.mapbox.com^
+||snapkit.com^
+||sc-jpl.com^
+||sc-prod.net^
+||bitmoji.com^
+||feelinsonice.appspot.com^
+||feelinsonice-hrd.appspot.com^
+||feelinsonice.com^
+||snapads.com^
+||feelinsonice.l.google.com^
+||appspot.l.google.com^
 
 ! Myspace
-||myspace.com
-||myspacecdn.com
+||myspace.com^
+||myspacecdn.com^
 
 ! Badoo
-||badoo.com
-||badoocdn.com
+||badoo.com^
+||badoocdn.com^
 
 ! We Heart It
-||weheartit.com
-||whicdn.com
+||weheartit.com^
+||whicdn.com^
 
 ! Vine
-||vine.co
+||vine.co^
 
 ! Douban
-||douban.com
-||doubanio.com
+||douban.com^
+||doubanio.com^
 
 ! Meetup
-||meetup.com
-||meetupstatic.com
+||meetup.com^
+||meetupstatic.com^
 
 ! MeetMe
-||meetme.com
-||meetmecdna.com
-||mtmei18n.com
+||meetme.com^
+||meetmecdna.com^
+||mtmei18n.com^
 
 ! Yandex
 ||yastatic.net/share/
 
 ! Disqus
-||disqus.com
+||disqus.com^
 ||disqus.com/embed/$subdocument
 
 ! Mail
-||gmail.com
-||mail.ru
-||mail.yahoo.com
-||mail.163.com
-||webmail.earthlink.net
-||mail.com
+||gmail.com^
+||mail.ru^
+||mail.yahoo.com^
+||mail.163.com^
+||webmail.earthlink.net^
+||mail.com^
 ||zoho.com/mail
-||my.juno.com
+||my.juno.com^
 
 ! Extra
-||chat.yellw.co
-||yellw.co
-||share.pluso.ru
-
-!----- AdGuard Specific -----!
-
-||addtoany.com$cookie
-||addthis.com$cookie
-||static.xx.fbcdn.net$cookie
-||connect.facebook.net$cookie
-||facebook.net$cookie
-||connect.facebook.com$cookie
-||facebook.com$cookie
-||instagram.com$cookie
-||platform.twitter.com$cookie
-||twitter.com$cookie
-||t.co$cookie
-||twitter.github.io$cookie
-||reddit.com$cookie
-||redd.it$cookie
-||redditmedia.com$cookie
-||redditstatic.com$cookie
-||cdn.discordapp.com$cookie
-||discordapp.com$cookie
-||flickr.com$cookie
-||staticflickr.com$cookie
-||linkedin.com$cookie
-||licdn.com$cookie
-||live.com$cookie
-||skypeassets.com$cookie
-||skype.com$cookie
-||whatsapp.com$cookie
-||whatsapp.net$cookie
-||wechat.com$cookie
-||qzone.qq.com$cookie
-||deviantart.com$cookie
-||da-ads.com$cookie
-||dapxl.com$cookie
-||deviantart.net$cookie
-||tiktok.com$cookie
-||tiktokcdn.com$cookie
-||tieba.baidu.com$cookie
-||tumblr.com$cookie
-||line.me$cookie
-||line-scdn.net$cookie
-||viber.com$cookie
-||renren.com$cookie
-||foursquare.com$cookie
-||taringa.net$cookie
-||telegram.org$cookie
-||pinterest.com$cookie
-||vk.com$cookie
-||tagged.com$cookie
-||snapchat.com$cookie
-||snap.com$cookie
-||sc-cdn.net$cookie
-||sc-static.net$cookie
-||snapchat-proxy.appspot.com$cookie
-||snapchat.appspot.com$cookie
-||snapchat-webfonts.storage.googleapis.com$cookie
-||snapnet-cdn.storage.googleapis.com$cookie
-||feelinsonice.appspot.com$cookie
-||feelinsonice-hrd.appspot.com$cookie
-||feelinsonice.com$cookie
-||snapads.com$cookie
-||feelinsonice.l.google.com$cookie
-||appspot.l.google.com$cookie
-||app.snapchat.com$cookie
-||data.flurry.com$cookie
-||snap-storage-cdn.l.google.com$cookie
-||sc-gw.com$cookie
-||sc-prod.ne$cookie
-||snap.api.mapbox.com$cookie
-||snap.events.mapbox.com$cookie
-||snapkit.com$cookie
-||sc-jpl.com$cookie
-||sc-prod.net$cookie
-||bitmoji.com$cookie
-||myspace.com$cookie
-||myspacecdn.com$cookie
-||badoo.com$cookie
-||badoocdn.com$cookie
-||weheartit.com$cookie
-||whicdn.com$cookie
-||vine.co$cookie
-||douban.com$cookie
-||doubanio.com$cookie
-||meetup.com$cookie
-||meetupstatic.com$cookie
-||meetme.com$cookie
-||meetmecdna.com$cookie
-||mtmei18n.com$cookie
-||disqus.com$cookie
-||gmail.com$cookie
-||mail.ru$cookie
-||mail.yahoo.com$cookie
-||mail.163.com$cookie
-||webmail.earthlink.net$cookie
-||mail.com$cookie
-||my.juno.com$cookie
-||chat.yellw.co$cookie
-||yellw.co$cookie
-||share.pluso.ru$cookie
-
-!----------------------------!
+||chat.yellw.co^
+||yellw.co^
+||share.pluso.ru^
 
 ! Comments
 ||facebook.com/plugins/comments.php
@@ -658,4 +563,5 @@ privacytools.io###participate
 freebeacon.com##.hide-print
 freebeacon.com##.md\:block.flex.justify-center.list-inline
 premiumleech.eu###d-spc > .inside
+youtube.com###chat
 youtube.com/live_chat/
