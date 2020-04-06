@@ -1,8 +1,7 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
-! Adblockers
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
 ||fbexternal-*.akamaihd.net^
