@@ -6715,100 +6715,93 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||mc.yandex.ru^
 ||mobvista.com^
 ||mopub.com^
-0.0.0.0 mobileads.com
-0.0.0.0 mailchimp.com
-0.0.0.0 myfinance.com
-0.0.0.0 mybbc-analytics.files.bbci.co.uk
-0.0.0.0 mktoresp.com
-0.0.0.0 media.complex.com
-0.0.0.0 mystat-in.net
-0.0.0.0 mngads.com
-0.0.0.0 millennialmedia.com
-0.0.0.0 mobileapptracking.com
-0.0.0.0 mydas.mobi
-0.0.0.0 mises-media.s3.amazonaws.com
-0.0.0.0 media.net
-0.0.0.0 mixi.media
-0.0.0.0 mftracking.imfast.io
-0.0.0.0 mathtag.com
-0.0.0.0 mediamath.com
-0.0.0.0 marketo.com
-0.0.0.0 mxpnl.com
-0.0.0.0 metrics.brightcove.com
-0.0.0.0 mediavoice.com
-0.0.0.0 medialytics.com
-0.0.0.0 met.adwhirl.com
-0.0.0.0 mob.adwhirl.com
-0.0.0.0 mdotm.com
-0.0.0.0 mobclix.com
-0.0.0.0 mobpartner.mobi
-0.0.0.0 memo2.nl
-0.0.0.0 n1272adserv.xyz
-0.0.0.0 nmtracking.netflix.com
-0.0.0.0 net-ad-vantage.com
-0.0.0.0 newmarads.com
-0.0.0.0 newmayads.com
-0.0.0.0 newnovads.com
-0.0.0.0 newmonads.com
-0.0.0.0 netecart.com
-0.0.0.0 ngmaclayer.com
-0.0.0.0 ns.exitgames.com
-0.0.0.0 nugg.ad
-0.0.0.0 nextroll.com
-0.0.0.0 narrativ.com
-0.0.0.0 nxtck.com
-0.0.0.0 next14.com
-0.0.0.0 neory.com
-0.0.0.0 neodatagroup.com
-0.0.0.0 nanointeractive.com
-0.0.0.0 nielsencollections.com
-0.0.0.0 ninja.onap.io
-0.0.0.0 nativendo.de
-0.0.0.0 nativo.com
-0.0.0.0 nexstardigital.com
-0.0.0.0 newoctads.com
-0.0.0.0 newwedads.com
-0.0.0.0 nameservice.dolphin-browser.com
-0.0.0.0 nlkdom.com
-0.0.0.0 nativesubscribe.pro
-0.0.0.0 neboley.site
-0.0.0.0 nakedteen.top
-0.0.0.0 net.cleverjp.com
-0.0.0.0 ntvk1.ru
-0.0.0.0 nakedreel.com
-0.0.0.0 nextmovs.com
-0.0.0.0 noamicaseros.pro
-0.0.0.0 netcpms.com
-0.0.0.0 nudistvid.eu
-0.0.0.0 nudistgallery.eu
-0.0.0.0 noowho.com
-0.0.0.0 nudepixel.eu
-0.0.0.0 nudistgirls.eu
-0.0.0.0 nudist-movies.top
-0.0.0.0 nudevideos.eu
-0.0.0.0 nudistspics.xyz
-0.0.0.0 nudemovies.eu
-0.0.0.0 nudist4colony.eu
-0.0.0.0 nudist-video.top
-0.0.0.0 nudistsmall.eu
-0.0.0.0 nydus.org$third-party
-0.0.0.0 no-minimum.club
-0.0.0.0 nvikgaormj.com
-0.0.0.0 navixy.com
-0.0.0.0 notifyvisitors.com
-0.0.0.0 noxagile.bceapp.com
-0.0.0.0 newsunads.com
-0.0.0.0 newthuads.com
-0.0.0.0 netmng.com
-0.0.0.0 nogerefron.info
-0.0.0.0 networkmanag.com
-0.0.0.0 newad.ifeng.com
-0.0.0.0 nojsstats.appspot.com
-0.0.0.0 notifybrowser.com
-0.0.0.0 netminers.dk
-0.0.0.0 n0ve1st0ry.gameloft.com
-0.0.0.0 nelreports.net
-0.0.0.0 noclef.com
+||mobileads.com^
+||mailchimp.com^
+||myfinance.com^
+||mybbc-analytics.files.bbci.co.uk^
+||mktoresp.com^
+||mystat-in.net^
+||mngads.com^
+||millennialmedia.com^
+||mobileapptracking.com^
+||mydas.mobi^
+||mises-media.s3.amazonaws.com^
+||media.net^
+||mixi.media^
+||mftracking.imfast.io^
+||mathtag.com^
+||mediamath.com^
+||marketo.com^
+||mxpnl.com^
+||metrics.brightcove.com^
+||mediavoice.com^
+||medialytics.com^
+||mdotm.com^
+||mobclix.com^
+||mobpartner.mobi^
+||memo2.nl^
+||n1272adserv.xyz^
+||nmtracking.netflix.com^
+||net-ad-vantage.com^
+||newmarads.com^
+||newmayads.com^
+||newnovads.com^
+||newmonads.com^
+||netecart.com^
+||ngmaclayer.com^
+||nugg.ad^
+||nextroll.com^
+||narrativ.com^
+||nxtck.com^
+||next14.com^
+||neory.com^
+||neodatagroup.com^
+||nanointeractive.com^
+||nielsencollections.com^
+||onap.io^
+||nativendo.de^
+||nativo.com^
+||nexstardigital.com^
+||newoctads.com^
+||newwedads.com^
+||nlkdom.com^
+||nativesubscribe.pro^
+||neboley.site^
+||nakedteen.top^
+||ntvk1.ru^
+||nakedreel.com^
+||nextmovs.com^
+||noamicaseros.pro^
+||netcpms.com^
+||nudistvid.eu^
+||nudistgallery.eu^
+||noowho.com^
+||nudepixel.eu^
+||nudistgirls.eu^
+||nudist-movies.top^
+||nudevideos.eu^
+||nudistspics.xyz^
+||nudemovies.eu^
+||nudist4colony.eu^
+||nudist-video.top^
+||nudistsmall.eu^
+||nydus.org^$third-party
+||no-minimum.club^
+||nvikgaormj.com^
+||navixy.com^
+||notifyvisitors.com^
+||newsunads.com^
+||newthuads.com^
+||netmng.com^
+||nogerefron.info
+||networkmanag.com^
+||newad.ifeng.com^
+||nojsstats.appspot.com^
+||notifybrowser.com^
+||netminers.dk^
+||n0ve1st0ry.gameloft.com^
+||nelreports.net^
+||noclef.com^
 0.0.0.0 ns*.dynamicnetworkservices.net
 0.0.0.0 negishim.com
 0.0.0.0 nerohut.com
@@ -6895,7 +6888,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ngineered.co.uk
 0.0.0.0 newsmaxfeednetwork.com
 0.0.0.0 npario-inc.net
-0.0.0.0 ninja.onap.io
 0.0.0.0 ns7.statisticsmanager.com
 0.0.0.0 npmcdn.com
 0.0.0.0 nomanatif.net
@@ -6985,7 +6977,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 oath.com
 0.0.0.0 orangeads.fr
 0.0.0.0 ow1.res.office365.com
-0.0.0.0 onap.io
 0.0.0.0 optimized-by.4wnetwork.com
 0.0.0.0 oghub.io
 0.0.0.0 onclkds.com
@@ -9645,7 +9636,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 tracker.marinsm.com
 0.0.0.0 tag.marinsm.com
-0.0.0.0 toolbar.complex.com
 0.0.0.0 tru.am
 0.0.0.0 textads.adultadworld.com
 0.0.0.0 tag.onscroll.com
