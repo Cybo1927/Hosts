@@ -10,6 +10,7 @@ duckduckgo.com$cookie=/p|ntp_s/
 *$cookie=/_client_tz|geoCC/
 
 &campaign=*&site=*
+*/adEvent.do
 */events?app_id=
 */revive/www/
 */foresee/
@@ -60,3 +61,7 @@ armslist.com##.sponsor-frame
 minehut.com##.v-snack__content
 spanishdict.com##.ReactModal__Overlay, #adTopLarge
 thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-content > form
+||jsapi.login.yahoo.com/w/device_users?.crumb=
+||mail.yahoo.com/astra/v1/user/sources/quotient/retailers?
+||yahoo.com/admax/
+||mail.yahoo.com/psearch/v*/recentSearches?&
