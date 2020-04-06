@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1193
+! Version: 1194
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.6K
-! Last Modified: Saturday, February 22, 2020
+! Last Modified: Monday, April 6, 2020
 
 ! Unbreak
 @@||*/showads.js$domain=softgames.de|softgames.com
@@ -3553,14 +3553,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 adjax.flickr.yahoo.com
 0.0.0.0 activations.cdn.mozilla.net
 0.0.0.0 aus5.mozilla.org
-0.0.0.0 alt1-mtalk.google.com
-0.0.0.0 alt2-mtalk.google.com
-0.0.0.0 alt3-mtalk.google.com
-0.0.0.0 alt4-mtalk.google.com
-0.0.0.0 alt5-mtalk.google.com
-0.0.0.0 alt6-mtalk.google.com
-0.0.0.0 alt7-mtalk.google.com
-0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 ad.hi5.com
 0.0.0.0 ad.creafi.com
 0.0.0.0 ad.foxnetworks.com
@@ -10910,10 +10902,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 mainstrat.com
 0.0.0.0 madspms.com
 0.0.0.0 maidesqueen.pro
-0.0.0.0 mtalk4.google.com
-0.0.0.0 mtalk3.google.com
-0.0.0.0 mtalk2.google.com
-0.0.0.0 mtalk1.google.com
 0.0.0.0 main.dynsrvbaa.com
 0.0.0.0 mini5-1.opera-mini.net
 0.0.0.0 mdlhzknv.com
@@ -11430,7 +11418,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 media.trafficjunky.net
 0.0.0.0 mjx.ads.nwsource.com
 0.0.0.0 mgid.com
-0.0.0.0 mtalk.google.com
 0.0.0.0 mi.adinterax.com
 0.0.0.0 my.adtegrity.net
 0.0.0.0 my.aim4media.com
