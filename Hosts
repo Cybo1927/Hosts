@@ -2193,7 +2193,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ads.alt.com^
 ||ads.amdmb.com^
 ||ads.amigos.com^
-|| ads.aol.co.uk^
+||ads.aol.co.uk^
 ||ads.aol.com^
 ||ads.appsgeyser.com^
 ||ads.as4x.tmcs.net^
@@ -5343,7 +5343,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ipfind.co^
 ||ipgeolocation.io^
 ||ipify.org^
-||ipinfo.io^
 ||ipcalf.com^
 ||kissmetrics.com^
 ||ionicframework.com^
@@ -6802,234 +6801,192 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||n0ve1st0ry.gameloft.com^
 ||nelreports.net^
 ||noclef.com^
-0.0.0.0 ns*.dynamicnetworkservices.net
-0.0.0.0 negishim.com
-0.0.0.0 nerohut.com
-0.0.0.0 network-n.com
-0.0.0.0 notifychheck.com
-0.0.0.0 na.gmtdmp.com
-0.0.0.0 ns*.p16.dynect.net
-0.0.0.0 ntp1.glb.nist.gov
-0.0.0.0 nav-it.ru
-0.0.0.0 notify.medicalnewstoday.com
-0.0.0.0 nielsen.com
-0.0.0.0 nv.veta.naver.com
-0.0.0.0 novelty.media
-0.0.0.0 native.ai
-0.0.0.0 npttech.com
-0.0.0.0 nuggad.net
-0.0.0.0 native-x.io
-0.0.0.0 ns*.comcastbusiness.net
-0.0.0.0 ns*-auth.windstream.net
-0.0.0.0 news-events.news.apple-dns.net
-0.0.0.0 noscript-csp.invalid
-0.0.0.0 no-thanks.invalid
-0.0.0.0 newtab-media.com
-0.0.0.0 newtab-mediasearch.com
-0.0.0.0 ngads.com
-0.0.0.0 ntyamcfwxkubrdv.rambler.ru
-0.0.0.0 nt-cdn.coccoc.com
-0.0.0.0 ntrb.qc.coccoc.com
-0.0.0.0 novanet.vn
-0.0.0.0 ncads.s3.amazonaws.com
-0.0.0.0 ninjasurf.net
-0.0.0.0 netease.com
-0.0.0.0 nowlifestyle.com
-0.0.0.0 newhacks.pro
-0.0.0.0 nachoanalytics.com
-0.0.0.0 stats.noblogs.org
-0.0.0.0 nprapps.org
-0.0.0.0 notifydomain.com
-0.0.0.0 nlt.recognified.com
-0.0.0.0 ninthdecimal.com
-0.0.0.0 nanovisor.io
-0.0.0.0 na56.salesforce.com
-0.0.0.0 nitropay.com
-0.0.0.0 ntv.io
-0.0.0.0 nmhfiles.com
-0.0.0.0 nieveni.com
-0.0.0.0 notification.alibaba.com
-0.0.0.0 netflixbuynowdiscount.com
-0.0.0.0 node.ads-blocker.ru
-0.0.0.0 newspush.xyz
-0.0.0.0 navigateto.net
-0.0.0.0 ns1.p31.dynect.net
-0.0.0.0 ns2.p31.dynect.net
-0.0.0.0 ns3.p31.dynect.net
-0.0.0.0 ns4.p31.dynect.net
-0.0.0.0 ns.infonline.de
-0.0.0.0 ns2.infonline.de
-0.0.0.0 ns3.infonline.de
-0.0.0.0 ns4.infonline.de
-0.0.0.0 ns1.digitalocean.com
-0.0.0.0 ns2.digitalocean.com
-0.0.0.0 ns3.digitalocean.com
-0.0.0.0 ns1.digimedia.com
-0.0.0.0 ns2.digimedia.com
-0.0.0.0 ns1.bankofamerica.com
-0.0.0.0 ns2.bankofamerica.com
-0.0.0.0 ns3.bankofamerica.com
-0.0.0.0 ns4.bankofamerica.com
-0.0.0.0 ns2.dc-ratingen.de
-0.0.0.0 ns2.vodafone.com
-0.0.0.0 ns2.yipes.com
-0.0.0.0 ns1.google.com
-0.0.0.0 ns2.google.com
-0.0.0.0 ns3.google.com
-0.0.0.0 ns4.google.com
-0.0.0.0 netzathleten-media.de
-0.0.0.0 newsharecounts.com
-0.0.0.0 nds-network-nav.ea.com
-0.0.0.0 nordicpartner-ea.com
-0.0.0.0 newsinc.com
-0.0.0.0 nanohexstudio.com
-0.0.0.0 nextyourcontent.com
-0.0.0.0 nui.media
-0.0.0.0 ngineered.co.uk
-0.0.0.0 newsmaxfeednetwork.com
-0.0.0.0 npario-inc.net
-0.0.0.0 ns7.statisticsmanager.com
-0.0.0.0 npmcdn.com
-0.0.0.0 nomanatif.net
-0.0.0.0 new.data-cash.net
-0.0.0.0 nr-data.net
-0.0.0.0 ngxd-tv.de
-0.0.0.0 newscgp.com
-0.0.0.0 newscred.com
-0.0.0.0 netprotector.co.in
-0.0.0.0 npav.net
-0.0.0.0 newgam.es
-0.0.0.0 netsprint.eu
-0.0.0.0 n.admagnet.net
-0.0.0.0 np176.com
-0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
-0.0.0.0 numberly.com
-0.0.0.0 netlink.vn
-0.0.0.0 necessarywax.com
-0.0.0.0 neighborlywatch.com
-0.0.0.0 nervoussummer.com
-0.0.0.0 nondescriptcrowd.com
-0.0.0.0 nostalgicknot.com
-0.0.0.0 nexage.com
-0.0.0.0 neustarlocaleze.biz
-0.0.0.0 neustar.biz
-0.0.0.0 nathetsof.com
-0.0.0.0 nfwebminer.com
-0.0.0.0 native.propellerclick.com
-0.0.0.0 nt-kmv.ru
-0.0.0.0 newpush.support
-0.0.0.0 nami.com.uy
-0.0.0.0 nathandale.com
-0.0.0.0 netserv19.com
-0.0.0.0 naughtysearch.xyz
-0.0.0.0 news-host.pw
-0.0.0.0 nominaltechno.com
-0.0.0.0 nominaltechno.ru
-0.0.0.0 nominaltechno.by
-0.0.0.0 neskaties.lv
-0.0.0.0 net-bz74.stream
-0.0.0.0 net-cb15.stream
-0.0.0.0 noxagile.duapp.com
-0.0.0.0 new.cetrk.com
-0.0.0.0 newd.cetrk.com
-0.0.0.0 noadblock.org
-0.0.0.0 niceduckies.com
-0.0.0.0 nqs.nice264.com
-0.0.0.0 namogemi.ru
-0.0.0.0 nztrt.top
-0.0.0.0 nethatriheg.ru
-0.0.0.0 nnavigation.info
-0.0.0.0 nsvip*.windstream.net
-0.0.0.0 nextoptim.com
-0.0.0.0 n2.smartyads.com
-0.0.0.0 netsr.softonicads.com
-0.0.0.0 nakanohito.jp
-0.0.0.0 nanigans.com
-0.0.0.0 nexus.ensighten.com
-0.0.0.0 naj.sk
-0.0.0.0 nlbanner.nl
-0.0.0.0 nowstat.com
-0.0.0.0 ntkrnlpa.info
-0.0.0.0 nol.yahoo.com
-0.0.0.0 net.softonicads.com
-0.0.0.0 nsg.symantec.com
-0.0.0.0 no-ip.info
-0.0.0.0 nextmillennium.liqwid.net
-0.0.0.0 net.ipcalf.com
-0.0.0.0 nativeads.com
-0.0.0.0 nativeroll.tv
-0.0.0.0 nervoussummer.com
-0.0.0.0 nativex.com
-0.0.0.0 newrelic.com
-0.0.0.0 n149adserv.com
-0.0.0.0 onlineuserscounter.com
-0.0.0.0 opoxv.com
-0.0.0.0 open.demonii.com
-0.0.0.0 opentor.org
-0.0.0.0 opentrackr.org
-0.0.0.0 ortermodown.ru
-0.0.0.0 olc0.cn
-0.0.0.0 openbracket.co
-0.0.0.0 opens.responder.co.il
-0.0.0.0 offroadoutlaws.online
-0.0.0.0 owneriq.com
-0.0.0.0 orangeadvertising.fr
-0.0.0.0 oath.com
-0.0.0.0 orangeads.fr
-0.0.0.0 ow1.res.office365.com
-0.0.0.0 optimized-by.4wnetwork.com
-0.0.0.0 oghub.io
-0.0.0.0 onclkds.com
-0.0.0.0 olymptrade.com
-0.0.0.0 outbrainimg.com
-0.0.0.0 oct8ne.com
-0.0.0.0 opentracker.*
-0.0.0.0 opentracker.acgnx.se
-0.0.0.0 opsen.dolphin-browser.com
-0.0.0.0 onesignal.com
-0.0.0.0 oem.twimg.com
-0.0.0.0 ocsp.pki.goog
-0.0.0.0 ownfeed.com
-0.0.0.0 oipcqenejq.com
-0.0.0.0 oopt.fr
-0.0.0.0 oevltdvzl.com
-0.0.0.0 octopuspop.com
-0.0.0.0 opexanalytics.com
-0.0.0.0 o3sndvzo25.com
-0.0.0.0 ogrfi3uyt7.com
-0.0.0.0 onelink.me
-0.0.0.0 optinmonster.com
-0.0.0.0 origin.ih.constantcontact.com
-0.0.0.0 offerseven.com
-0.0.0.0 offers-tracking.com
-0.0.0.0 onclickads.net
-0.0.0.0 onecollector.cloudapp.aria.akadns.net
-0.0.0.0 optinchat.com
-0.0.0.0 o333o.com
-0.0.0.0 orange2258.com
-0.0.0.0 outbid.io
-0.0.0.0 opolen.com.br
-0.0.0.0 outbrain.com
-0.0.0.0 ovp.iris.tv
-0.0.0.0 online-chat-support.com
-0.0.0.0 orjzy.com
-0.0.0.0 osimg.nbcuni.com
-0.0.0.0 oascentral.honoluluadvertiser.com
-0.0.0.0 onesettings-windowsservices-tas.msedge.net
-0.0.0.0 osservice.vmos.com
-0.0.0.0 optimisemedia.com
-0.0.0.0 opentracker.net
-0.0.0.0 oimg.nbcuni.com
-0.0.0.0 olytics.cygnus.com
-0.0.0.0 ocsp.msocsp.com
-0.0.0.0 ocsp.comodoca.com
-0.0.0.0 ocsp.sectigo.com
-0.0.0.0 ocsp.rootg2.amazontrust.com
-0.0.0.0 ocsp-ds.ws.symantec.com.edgekey.net
-0.0.0.0 ocsp.verisign.com
-0.0.0.0 ocsp.identrust.com
+||ns*.dynamicnetworkservices.net^
+||negishim.com^
+||nerohut.com^
+||network-n.com^
+||notifychheck.com^
+||gmtdmp.com^
+||ns*.p16.dynect.net^
+||ntp1.glb.nist.gov^
+||nav-it.ru^
+||notify.medicalnewstoday.com^
+||nielsen.com^
+||nv.veta.naver.com^
+||novelty.media^
+||native.ai^
+||npttech.com^
+||nuggad.net^
+||native-x.io^
+||ns*.comcastbusiness.net^
+||ns*-auth.windstream.net^
+||news-events.news.apple-dns.net^
+||noscript-csp.invalid^
+||no-thanks.invalid^
+||newtab-media.com^
+||newtab-mediasearch.com^
+||ngads.com^
+||nt-cdn.coccoc.com^
+||ntrb.qc.coccoc.com^
+||novanet.vn^
+||ncads.s3.amazonaws.com^
+||ninjasurf.net^
+||netease.com^
+||nowlifestyle.com^
+||newhacks.pro^
+||nachoanalytics.com^
+||stats.noblogs.org^
+||nprapps.org^
+||notifydomain.com^
+||recognified.com^
+||ninthdecimal.com^
+||nanovisor.io^
+||salesforce.com^
+||nitropay.com^
+||ntv.io^
+||nmhfiles.com^
+||nieveni.com^
+||netflixbuynowdiscount.com^
+||newspush.xyz^
+||navigateto.net^
+||ns*.digitalocean.com^
+||ns*.bankofamerica.com^
+||ns*.vodafone.com^
+||yipes.com^
+||ns*.google.^
+||netzathleten-media.de^
+||newsharecounts.com^
+||nds-network-nav.ea.com^
+||nordicpartner-ea.com^
+||newsinc.com^
+||nanohexstudio.com^
+||nextyourcontent.com^
+||nui.media^
+||ngineered.co.uk^
+||newsmaxfeednetwork.com^
+||npario-inc.net^
+||statisticsmanager.com^
+||npmcdn.com^
+||nomanatif.net^
+||nr-data.net^
+||ngxd-tv.de^
+||newscgp.com^
+||newscred.com^
+||netprotector.co.in^
+||npav.net^
+||newgam.es^
+||netsprint.eu^
+||np176.com^
+||nyorbgdinet101-ns-rdd-e.verizonwireless.com^
+||numberly.com^
+||netlink.vn^
+||necessarywax.com^
+||neighborlywatch.com^
+||nervoussummer.com^
+||nondescriptcrowd.com^
+||nostalgicknot.com^
+||nexage.com^
+||neustarlocaleze.biz^
+||neustar.biz^
+||nathetsof.com^
+||nfwebminer.com^
+||propellerclick.com^
+||nt-kmv.ru^
+||newpush.support^
+||nami.com.uy^
+||nathandale.com^
+||netserv19.com^
+||naughtysearch.xyz^
+||news-host.pw^
+||nominaltechno.com^
+||nominaltechno.ru^
+||nominaltechno.by^
+||neskaties.lv^
+||net-bz74.stream^
+||net-cb15.stream^
+||noxagile.duapp.com^
+||noadblock.org^
+||niceduckies.com^
+||nqs.nice264.com^
+||namogemi.ru^
+||nztrt.top^
+||nethatriheg.ru^
+||nnavigation.info^
+||nsvip*.windstream.net^
+||nextoptim.com^
+||smartyads.com^
+||softonicads.com^
+||nakanohito.jp^
+||nanigans.com^
+||naj.sk^
+||nlbanner.nl^
+||nowstat.com^
+||ntkrnlpa.info^
+||nol.yahoo.com^
+||nsg.symantec.com^
+||no-ip.info^
+||nativeads.com^
+||nativeroll.tv^
+||nervoussummer.com^
+||nativex.com^
+||newrelic.com^
+||n149adserv.com^
+||onlineuserscounter.com^
+||opoxv.com^
+||demonii.com^
+||opentor.org^
+||opentrackr.org^
+||ortermodown.ru^
+||olc0.cn^
+||openbracket.co^
+||responder.co.il^
+||offroadoutlaws.online^
+||owneriq.com^
+||orangeadvertising.fr^
+||oath.com^
+||orangeads.fr^
+||ow1.res.office365.com^
+||4wnetwork.com^
+||oghub.io^
+||onclkds.com^
+||olymptrade.com^
+||outbrainimg.com^
+||oct8ne.com^
+||opentracker.^
+||opentracker.acgnx.se^
+||opsen.dolphin-browser.com^
+||onesignal.com^
+||oem.twimg.com^
+||ownfeed.com^
+||oipcqenejq.com^
+||oopt.fr^
+||oevltdvzl.com^
+||octopuspop.com^
+||opexanalytics.com^
+||o3sndvzo25.com^
+||ogrfi3uyt7.com^
+||onelink.me^
+||optinmonster.com^
+||constantcontact.com^
+||offerseven.com^
+||offers-tracking.com^
+||onclickads.net^
+||onecollector.cloudapp.aria.akadns.net^
+||optinchat.com^
+||o333o.com^
+||orange2258.com^
+||outbid.io^
+||opolen.com.br^
+||outbrain.com^
+||online-chat-support.com^
+||orjzy.com^
+||osimg.nbcuni.com^
+||onesettings-windowsservices-tas.msedge.net^
+||osservice.vmos.com^
+||optimisemedia.com^
+||opentracker.net^
+||oimg.nbcuni.com^
 0.0.0.0 offers-api.myoffrz.io
-0.0.0.0 ocsp.init-x3.letsencrypt.org
 0.0.0.0 ophan.theguardian.com
 0.0.0.0 o.ss2.us
 0.0.0.0 o12zs3u2n.com
@@ -7412,7 +7369,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 peomulogj7.execute-api.us-east-1.amazonaws.com
 0.0.0.0 p.ziffdavisb2b.com
 0.0.0.0 pupscanarc.submissionplatform.com
-0.0.0.0 privacy.digimedia.com
 0.0.0.0 plavxml.com
 0.0.0.0 par2.he.net
 0.0.0.0 powerreviews.com
@@ -7526,7 +7482,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 prxonline.com
 0.0.0.0 prizeemail.info
 0.0.0.0 px.srvcs.tumblr.com
-0.0.0.0 propellerclick.com
 0.0.0.0 push-notifications.top
 0.0.0.0 prisma.fp.ub.ac.id
 0.0.0.0 pbxsystems.ae
@@ -7656,7 +7611,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 play.bestapp.com
 0.0.0.0 pub.network
 0.0.0.0 p.skimresources.com
-0.0.0.0 proxy.softonicads.com
 0.0.0.0 pixel.wp.
 0.0.0.0 platform.stumbleupon.com
 0.0.0.0 pp.lp4.io
@@ -8157,7 +8111,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 statisgeek.com
 0.0.0.0 syndicpop.com
 0.0.0.0 social.com
-0.0.0.0 salesforce.com
 0.0.0.0 sap.com
 0.0.0.0 sspinc.io
 0.0.0.0 scgraph.facebook.com
@@ -8440,7 +8393,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 special-offers.online
 0.0.0.0 stats.esomniture.com
 0.0.0.0 staticset.com
-0.0.0.0 salesforce.com
 0.0.0.0 sfdcstatic.com
 0.0.0.0 streak.com
 0.0.0.0 securybrowse.com
@@ -8528,7 +8480,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 statistics.ziegeler-medien.de
 0.0.0.0 sa.unionstatistics.com
 0.0.0.0 sandstorm-statistics-player-api.newworldinteractive.com
-0.0.0.0 statisticsmanager.com
 0.0.0.0 statistics.maps.me
 0.0.0.0 samplicio.us
 0.0.0.0 saltarsmart.biz
@@ -8811,7 +8762,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 s1.srtk.net
 0.0.0.0 s2.srtk.net
 0.0.0.0 surveynetworks.com
-0.0.0.0 smartyads.com
 0.0.0.0 sacdcad02.salon.com
 0.0.0.0 softonic-analytics.net
 0.0.0.0 smartshoppingads.de
@@ -9225,7 +9175,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tapnetwork.ru
 0.0.0.0 timeline55-clientstats1.pusher.com
 0.0.0.0 timeline*-clientstats*.pusher.com
-0.0.0.0 the.honoluluadvertiser.com
 0.0.0.0 t.rainide.com
 0.0.0.0 tracking.synthasite.net
 0.0.0.0 tag.rmp.rakuten.com
@@ -9618,11 +9567,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 teads.tv
 0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tracking-opi.fonpit.de
-0.0.0.0 t1.softonicads.com
 0.0.0.0 trck.at
 0.0.0.0 trackersimulator.org
 0.0.0.0 tracker.nbcuas.com
-0.0.0.0 t2.softonicads.com
 0.0.0.0 tracking.callmeasurement.com
 0.0.0.0 tqlkg.com
 0.0.0.0 tencent.mm.plugin.location_soso.com
@@ -10313,7 +10260,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
 0.0.0.0 ynuf.aliapp.org
-0.0.0.0 yipes.com
 0.0.0.0 yaspsd.ir
 0.0.0.0 yume.com
 0.0.0.0 yext.com
@@ -10584,7 +10530,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 3czf6pxue8-3.algolianet.com
 0.0.0.0 3czf6pxue8-2.algolianet.com
 0.0.0.0 3czf6pxue8-dsn.algolia.net
-0.0.0.0 4wnetwork.com
 0.0.0.0 4.sophosxl.net
 0.0.0.0 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com
 0.0.0.0 4.sophosxl.net
