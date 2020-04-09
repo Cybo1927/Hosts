@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 7
+! Version: 8
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -9,11 +9,11 @@
 ||fbcdn.net^
 ||fb.me^
 ||fbsbx.com^
-||fbcdn-photos-*.^
-||fbcdn-sphotos-*.^
-||fbcdn-profile-*.^
-||fbexternal-*.^
-||facebook.^
+||fbcdn-photos-*.*^
+||fbcdn-sphotos-*.*^
+||fbcdn-profile-*.*^
+||fbexternal-*.*^
+||facebook.com^
 ||instagram.com^
 ||whatsapp.net^
 ||workplace.com^
