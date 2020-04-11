@@ -1,9 +1,10 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 20
+! Version: 21
 
 ! Block maps, location analytics, and GPS services
 
+||arcgis.com^
 ||locuslabs.com^
 ||api.mapbox.com^
 ||mapbox.com^
