@@ -12,3 +12,7 @@
 .g00.
 .g01.
 */g00/
+
+! e00 for domains like marca.com
+e00.
+e00-*
