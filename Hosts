@@ -26,33 +26,24 @@ pandora.com$genericblock
 @@||apis.google.com/js/platform.js$domain=graspablemath.com
 @@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
 @@||facebook.com/settings/*/?ref=settings
-@@||google.com/recaptcha/api*
-@@||dailycaller.com/files/images/1x1.trans.gif
+@@||dailycaller.com/files/images/1x1.trans.gif^$image
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||encrypted-tbn*.gstatic.com$domain=google.
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
-@@||*-dnsotls-ds.metric.gstatic.com
-@@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.*,gmail.*
-@@||abs.twimg.com/responsive-web/web/*
 @@||content-images.p-cdn.com/images^$image
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
 @@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
 @@||ssl.gstatic.com/*/common/netcheck.gif?
-@@||encrypted.google.com/recaptcha/api/
-@@||google.com/recaptcha/api.js
-@@||youtube.com/embed$third-party
-@@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+@@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
 @@||adobedtm.com/launch-*
 @@||apis.google.com/_/scs/*
-@@||link.theplatform.com$xmlhttprequest
+@@||link.theplatform.com^$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
-@@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
-@@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
 @@||fedex.com/Tracking$badfilter
 !
@@ -70,7 +61,7 @@ pandora.com$genericblock
 @@||android.clients.google.com
 ! Seems to deliver ads but also legit content on cnet
 @@||sdad.guru
-! CAN BREAK TIKTOK LOGIN
+! Breaks TikTok Login
 ||log2.musical.ly$badfilter
 
 ! RegEX Stuffs
@@ -7567,592 +7558,531 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||readpeak.com^
 ||rlog_sem.vizio.com^
 ||replymsg.com^
-0.0.0.0 rio.mailcoral.com
-0.0.0.0 rs6.net
-0.0.0.0 regstat.betfair.com
-0.0.0.0 rlogs.youdao.com
-0.0.0.0 ru.com
-0.0.0.0 rfihub.com
-0.0.0.0 retargetly.com
-0.0.0.0 runads.com
-0.0.0.0 rakutenmarketing.com
-0.0.0.0 rundsp.com
-0.0.0.0 rta2.metro.co.uk
-0.0.0.0 rqmob.com
-0.0.0.0 robotornotcheckonline.icu
-0.0.0.0 rsalchk.com
-0.0.0.0 receivetipstricks.com
-0.0.0.0 rtpdn11.com
-0.0.0.0 raintwig.com
-0.0.0.0 reklama.mail.ru
-0.0.0.0 r0.mradx.net
-0.0.0.0 r.my.com
-0.0.0.0 reef.vk-cdn.net
-0.0.0.0 receiver.habby.mobi
-0.0.0.0 redirector.googlevideo.com
-0.0.0.0 report.newsgenious.com
-0.0.0.0 receiver.habby.mobi
-0.0.0.0 reports.protonmail.ch
-0.0.0.0 refer.ccbill.com
-0.0.0.0 revenuecat.com
-0.0.0.0 rtbmedia.org
-0.0.0.0 ramirocampos.pro
-0.0.0.0 rdsb2.club
-0.0.0.0 rapidscansecure.com
-0.0.0.0 reasonporn.com$popup
-0.0.0.0 riverhit.com
-0.0.0.0 richcult.com
-0.0.0.0 r.e-l.me
-0.0.0.0 restights.pro
-0.0.0.0 royalads.net
-0.0.0.0 redirectbuzz.club
-0.0.0.0 russianvirginz.com
-0.0.0.0 redlele.com
-0.0.0.0 ra.poringa.net
-0.0.0.0 routetracko.com
-0.0.0.0 redirect.com
-0.0.0.0 rsvph.xyz
-0.0.0.0 ringlead.com
-0.0.0.0 resonate.com
-0.0.0.0 razeraqrassm.info
-0.0.0.0 ru.essayprofit.com
-0.0.0.0 richpush.co
-0.0.0.0 refpa.top
-0.0.0.0 richpush.co
-0.0.0.0 redtrack.io
-0.0.0.0 rtxplatform.com
-0.0.0.0 reklamstore.com
-0.0.0.0 rocketprofit.com
-0.0.0.0 rulead.com
-0.0.0.0 regularimptracker.xyz
-0.0.0.0 rek.savefrom.net
-0.0.0.0 rtrlseqbudrzfd.com
-0.0.0.0 rollhome.fun
-0.0.0.0 rollcup.fun
-0.0.0.0 rollnice.fun
-0.0.0.0 rad.msn.com
-0.0.0.0 r.msn.com
-0.0.0.0 research.de.com
-0.0.0.0 restaurants.infcdn.net
-0.0.0.0 rt.gsspat.jp
-0.0.0.0 run.crtx.info
-0.0.0.0 retargetcore.com
-0.0.0.0 report-uri.highwebmedia.com
-0.0.0.0 realtime.services.disqus.com
-0.0.0.0 richducks.com
-0.0.0.0 rarbg*.*
-0.0.0.0 rekoverr.com
-0.0.0.0 rsz.sk
-0.0.0.0 referrer.disqus.com
-0.0.0.0 rum.conde.io
-0.0.0.0 revboostprocdnadsprod.azureedge.net
-0.0.0.0 res-x.com
-0.0.0.0 rvty.net
-0.0.0.0 river-mobile.data.ea.com
-0.0.0.0 rmp.rakuten.com
-0.0.0.0 rakuten.com
-0.0.0.0 rukminim1.flixcart.com
-0.0.0.0 relay42.com
-0.0.0.0 radiumone.com
-0.0.0.0 rutarget.ru
-0.0.0.0 r3.mail.ru
-0.0.0.0 rs.mail.ru
-0.0.0.0 runative-syndicate.com
-0.0.0.0 rlogs.youdao.com
-0.0.0.0 rem-track.bild.de
-0.0.0.0 rosetta.prod.ps.bild.de
-0.0.0.0 rdd.vzw.com
-0.0.0.0 rdmhllq.x.incapdns.net
-0.0.0.0 rtam-collector.snapchat.com
-0.0.0.0 rg3.github.io
-0.0.0.0 rejoiner.com
-0.0.0.0 r.adport.io
-0.0.0.0 runative.com
-0.0.0.0 ryke4peep.com
-0.0.0.0 recommendedforyou.xyz
-0.0.0.0 redretarget.com
-0.0.0.0 ratingwidget.com
-0.0.0.0 report-uri.cloudflare.com
-0.0.0.0 report-uri.com
-0.0.0.0 rgmgocplioed.com
-0.0.0.0 rinsouxy.com
-0.0.0.0 redirect2719.ws
-0.0.0.0 r.remarketingpixel.com
-0.0.0.0 reddollars.com
-0.0.0.0 rocket-mailz.com
-0.0.0.0 referralfrenzy.com
-0.0.0.0 rapiddownline.com
-0.0.0.0 redstagmailer.com
-0.0.0.0 remarketstats.com
-0.0.0.0 raygun.io
-0.0.0.0 revealbot.com
-0.0.0.0 repixel.co
-0.0.0.0 refersion.com
-0.0.0.0 recurly.com
-0.0.0.0 rekovers.ru
-0.0.0.0 recognified.net
-0.0.0.0 rads.recognified.net
-0.0.0.0 rebelai.com
-0.0.0.0 rebel.ai
-0.0.0.0 radar.io
-0.0.0.0 rtbmarkt.de
-0.0.0.0 rtb-cdn.net
-0.0.0.0 restaurant.teamlava.com
-0.0.0.0 rad.live.com
-0.0.0.0 rjmetrics.com
-0.0.0.0 relateiq.com
-0.0.0.0 ryllae.com
-0.0.0.0 realperson.de
-0.0.0.0 redirect.com
-0.0.0.0 rcdn.pro
-0.0.0.0 rich.worldpush.co
-0.0.0.0 rtb.adp3.net
-0.0.0.0 rhinosupport.com
-0.0.0.0 reactful.com
-0.0.0.0 rondom.ir
-0.0.0.0 rootech.ir
-0.0.0.0 realtextads.com
-0.0.0.0 rejectclick.com
-0.0.0.0 rtclx.com
-0.0.0.0 rtb.nui.media
-0.0.0.0 rewardz.sbi
-0.0.0.0 recorder-assets-staging.getjaco.com
-0.0.0.0 rapi-staging.getjaco.com
-0.0.0.0 rapi.getjaco.com
-0.0.0.0 revenuestripe.com
-0.0.0.0 rs-stripe.com
-0.0.0.0 rddywd.com
-0.0.0.0 resize.rbl.ms
-0.0.0.0 rbl.ms
-0.0.0.0 rich-content.thescore.com
-0.0.0.0 rhythmone.com
-0.0.0.0 return.uk.uniregistry.com
-0.0.0.0 rofevlfk.ga
-0.0.0.0 rudy.adsnative.com
-0.0.0.0 rnml5fbt.ga
-0.0.0.0 richeropportunity.com
-0.0.0.0 raik.hisimply.com
-0.0.0.0 ruddle.org
-0.0.0.0 reallyconfide.com
-0.0.0.0 ridesonbits.com
-0.0.0.0 recsys-api.buzzfeed.com
-0.0.0.0 research.vwo.com
-0.0.0.0 r.yieldkit.com
-0.0.0.0 rcm.amazon.com
-0.0.0.0 rb-typeahead.appspot.com
-0.0.0.0 realify.com
-0.0.0.0 req.tidaltv.com
-0.0.0.0 rsc.cdn77.org
-0.0.0.0 redirector.gvt1.com
-0.0.0.0 revenuedirect.com
-0.0.0.0 removalmalware.servecounterstrike.com
-0.0.0.0 reklama.neg.bg
-0.0.0.0 ru.theswiftones.com
-0.0.0.0 richmetrics.com
-0.0.0.0 rc.de.adlink.net
-0.0.0.0 re.givemeofferlnk.com
-0.0.0.0 rwadx.com
-0.0.0.0 rapidkittens.com
-0.0.0.0 raresummer.com
-0.0.0.0 readgoldfish.com
-0.0.0.0 readingguilt.com
-0.0.0.0 readingopera.com
-0.0.0.0 readymoon.com
-0.0.0.0 rebelsubway.com
-0.0.0.0 receptiveink.com
-0.0.0.0 receptivereaction.com
-0.0.0.0 reflectivereward.com
-0.0.0.0 resolutekey.com
-0.0.0.0 resonantrock.com
-0.0.0.0 robustbelieve.com
-0.0.0.0 rulerabbit.com
+||mailcoral.com^
+||rs6.net^
+||regstat.betfair.com^
+||rlogs.youdao.com^
+||ru.com^
+||rfihub.com^
+||retargetly.com^
+||runads.com^
+||rakutenmarketing.com^
+||rundsp.com^
+||rta2.metro.co.uk^
+||rqmob.com^
+||robotornotcheckonline.icu^
+||rsalchk.com^
+||receivetipstricks.com^
+||rtpdn11.com^
+||raintwig.com^
+||reklama.mail.ru^
+||mradx.net^
+||r.my.com^
+||reef.vk-cdn.net^
+||receiver.habby.mobi^
+||redirector.googlevideo.com^
+||report.newsgenious.com^
+||reports.protonmail.ch^
+||refer.ccbill.com^
+||revenuecat.com^
+||rtbmedia.org^
+||ramirocampos.pro^
+||rdsb2.club^
+||rapidscansecure.com^
+||reasonporn.com^$popup,popunder
+||riverhit.com^
+||richcult.com^
+||restights.pro^
+||royalads.net^
+||redirectbuzz.club^
+||russianvirginz.com^
+||redlele.com^
+||ra.poringa.net^
+||routetracko.com^
+||redirect.com^
+||rsvph.xyz^
+||ringlead.com^
+||resonate.com^
+||razeraqrassm.info^
+||richpush.co^
+||refpa.top^
+||richpush.co^
+||redtrack.io^
+||rtxplatform.com^
+||reklamstore.com^
+||rocketprofit.com^
+||rulead.com^
+||regularimptracker.xyz^
+||rek.savefrom.net^
+||rtrlseqbudrzfd.com^
+||rollhome.fun^
+||rollcup.fun^
+||rollnice.fun^
+||rad.msn.com^
+||r.msn.com^
+||research.de.com^
+||restaurants.infcdn.net^
+||retargetcore.com^
+||report-uri.highwebmedia.com^
+||realtime.services.disqus.com^
+||richducks.com^
+||rarbg*.^
+||rekoverr.com^
+||rsz.sk^
+||referrer.disqus.com^
+||revboostprocdnadsprod.azureedge.net^
+||res-x.com^
+||rvty.net^
+||river-mobile.data.ea.com^
+||rakuten.com^
+||rukminim1.flixcart.com^
+||relay42.com^
+||radiumone.com^
+||rutarget.ru^
+||r3.mail.ru^
+||rs.mail.ru^
+||runative-syndicate.com^
+||rlogs.youdao.com^
+||rem-track.bild.de^
+||rosetta.prod.ps.bild.de^
+||rdd.vzw.com^
+||rdmhllq.x.incapdns.net^
+||rtam-collector.snapchat.com^
+||rg3.github.io^
+||rejoiner.com^
+||runative.com^
+||ryke4peep.com^
+||recommendedforyou.xyz^
+||redretarget.com^
+||ratingwidget.com^
+||report-uri.cloudflare.com^
+||report-uri.com^
+||rgmgocplioed.com^
+||rinsouxy.com^
+||redirect2719.ws^
+||remarketingpixel.com^
+||reddollars.com^
+||rocket-mailz.com^
+||referralfrenzy.com^
+||rapiddownline.com^
+||redstagmailer.com^
+||remarketstats.com^
+||raygun.io^
+||revealbot.com^
+||repixel.co^
+||refersion.com^
+||recurly.com^
+||rekovers.ru^
+||recognified.net^
+||rebelai.com^
+||rebel.ai^
+||radar.io^
+||rtbmarkt.de^
+||rtb-cdn.net^
+||teamlava.com^
+||rad.live.com^
+||rjmetrics.com^
+||relateiq.com^
+||ryllae.com^
+||realperson.de^
+||redirect.com^
+||rcdn.pro^
+||worldpush.co^
+||adp3.net^
+||rhinosupport.com^
+||reactful.com^
+||rondom.ir^
+||rootech.ir^
+||realtextads.com^
+||rejectclick.com^
+||rtclx.com^
+||rewardz.sbi^
+||getjaco.com^
+||revenuestripe.com^
+||rs-stripe.com^
+||rddywd.com^
+||rbl.ms^
+||rich-content.thescore.com^
+||rhythmone.com^
+||return.uk.uniregistry.com^
+||rofevlfk.ga^
+||rnml5fbt.ga^
+||richeropportunity.com^
+||ruddle.org^
+||reallyconfide.com^
+||ridesonbits.com^
+||recsys-api.buzzfeed.com^
+||vwo.com^
+||yieldkit.com^
+||rcm.amazon.com^
+||rb-typeahead.appspot.com^
+||realify.com^
+||tidaltv.com^
+||rsc.cdn77.org^
+||redirector.gvt1.com^
+||revenuedirect.com^
+||servecounterstrike.com^
+||neg.bg^
+||theswiftones.com^
+||richmetrics.com^
+||rwadx.com^
+||rapidkittens.com^
+||raresummer.com^
+||readgoldfish.com^
+||readingguilt.com^
+||readingopera.com^
+||readymoon.com^
+||rebelsubway.com^
+||receptiveink.com^
+||receptivereaction.com^
+||reflectivereward.com^
+||resolutekey.com^
+||resonantrock.com^
+||robustbelieve.com^
+||rulerabbit.com^
 ||rayjump.com^
-0.0.0.0 redshell.io
-0.0.0.0 rpxnow.com
-0.0.0.0 rules.noadblock.org
-0.0.0.0 rumblefish.com
-0.0.0.0 realsecuredredirect.com
-0.0.0.0 realclick.co.kr
-0.0.0.0 review.easycounter.com
-0.0.0.0 royalacecampaign.com
-0.0.0.0 royalacelinks.com
-0.0.0.0 remarketingpixel.com
-0.0.0.0 roksmmnr.kozow.com
-0.0.0.0 rubylux.vn
-0.0.0.0 radiohunter.com.br
-0.0.0.0 rembi.lv
-0.0.0.0 roimarketplace.com
-0.0.0.0 r.inbox.lv
-0.0.0.0 reimage-pc-repair.com
-0.0.0.0 reimage-app-manager.en.aptoide.com
-0.0.0.0 reimage-cleaner.en.9apps.com
-0.0.0.0 reimage-app-manager.en.9apps.com
-0.0.0.0 reimage-cleaner.droidinformer.org
-0.0.0.0 reimagemac.com
-0.0.0.0 reimage.us.com
-0.0.0.0 reimage.org
-0.0.0.0 reimage-plus.com
-0.0.0.0 reimageplus.com
-0.0.0.0 reimage-pc-repair.en.uptodown.com
-0.0.0.0 rtb.kds.media
-0.0.0.0 rtapi.abbi.io
-0.0.0.0 rtb.appbid.com
-0.0.0.0 raychat.io
-0.0.0.0 rzb.ir
-0.0.0.0 retargeting.biz
-0.0.0.0 rpgmasterleague.com
-0.0.0.0 runtnc.net
-0.0.0.0 re.gtosite7.com
-0.0.0.0 redemw.com
-0.0.0.0 rtbmedia.org
-0.0.0.0 revart.trade
-0.0.0.0 rekl1.com
-0.0.0.0 realbig.media
-0.0.0.0 roistat.com
-0.0.0.0 rbrxg.com
-0.0.0.0 rinwasmahis.ru
-0.0.0.0 retsiti.ru
-0.0.0.0 rotator.promokrot.com
-0.0.0.0 reseireejoch.info
-0.0.0.0 rd.yahoo.co.jp
-0.0.0.0 rd.yahoo.co
-0.0.0.0 rp1.esat.kuleuven.be
-0.0.0.0 trafficfactory.biz
-0.0.0.0 rpc-php.trafficfactory.biz
-0.0.0.0 revcontent.com
-0.0.0.0 r.offnews.bg
-0.0.0.0 reklama.onet.pl
-0.0.0.0 recreativ.ru
-0.0.0.0 responsetap.com
-0.0.0.0 rs.gwallet.com
-0.0.0.0 rcm-images.amazon.com
-0.0.0.0 revenuehits.com
-0.0.0.0 retiremely.com
-0.0.0.0 rum-static.pingdom.net
-0.0.0.0 r1.computerbild.de
-0.0.0.0 revmob.com
-0.0.0.0 redir.metaservices.microsoft.com
-0.0.0.0 rusads.toysrus.com
-0.0.0.0 realtracker.com
-0.0.0.0 reporting.cpxinteractive.com
-0.0.0.0 router.infolinks.com
-0.0.0.0 resources.infolinks.com
-0.0.0.0 rubiconproject.com
-0.0.0.0 router.googlecom.biz
-0.0.0.0 ranks.sextracker.com
-0.0.0.0 req.appads.com
-0.0.0.0 roosterfirework.com
-0.0.0.0 relap.io
-0.0.0.0 rtstats.com
-0.0.0.0 reporo.net
-0.0.0.0 rules.quantcount.com
-0.0.0.0 rfihub.net
-0.0.0.0 richrelevance.com
-0.0.0.0 rt.udmserve.net
-0.0.0.0 survata.net
-0.0.0.0 static.truex.com
-0.0.0.0 safeurl.maxthon.cn
-0.0.0.0 static.ultra-rv.com
-0.0.0.0 sgc.io
-0.0.0.0 stats.t-online.de
-0.0.0.0 static.adzerk.com
-0.0.0.0 seguno.com
-0.0.0.0 stats.waterfox.net
-0.0.0.0 s.opoxv.com
-0.0.0.0 st.linkfire.com
-0.0.0.0 stat-pulse.com
-0.0.0.0 sendpulse.email
-0.0.0.0 smartad.ee
-0.0.0.0 smartcookies.it
-0.0.0.0 searchpowerapp.com
-0.0.0.0 stat.alibaba.com
-0.0.0.0 sendibm3.com
-0.0.0.0 sendibm4.com
-0.0.0.0 saferoute.ru
-0.0.0.0 sptrack.trello.com
-0.0.0.0 sync1.intentiq.com
-0.0.0.0 search.downloadpartytab.com
-0.0.0.0 sublytics-*.com
-0.0.0.0 sublytics.com
-0.0.0.0 sonar.fedex.epsihost.com
-0.0.0.0 sonar.fedex.com
-0.0.0.0 smetrics.fedex.com
-0.0.0.0 sail-personalize.com
-0.0.0.0 smartocto.com
-0.0.0.0 storygize.net
-0.0.0.0 synacor.com
-0.0.0.0 sf.ezoiccdn.com
-0.0.0.0 shepherd.ff.avast.com
-0.0.0.0 shepherd.ns1.ff.avast.com
-0.0.0.0 sypi.gpshopper.com
-0.0.0.0 swoop.com
-0.0.0.0 semasio.com
-0.0.0.0 semasio.net
-0.0.0.0 specificmedia.com
-0.0.0.0 swpsvc.com
-0.0.0.0 scoota.com
-0.0.0.0 signalsdata.com
-0.0.0.0 scoota.co
-0.0.0.0 smart-dmp.com
-0.0.0.0 sojern.com
-0.0.0.0 sb.voicefive.com
-0.0.0.0 smart-sense.org
-0.0.0.0 sia.socialblade.com
-0.0.0.0 static.surfe.pro
-0.0.0.0 surfe.pro
-0.0.0.0 stat.m.360.cn
-0.0.0.0 stats-a.maxthon.com
-0.0.0.0 stats.wpmudev.com
-0.0.0.0 stats1.wpmudev.com
-0.0.0.0 statistics.news1.kr
-0.0.0.0 smartadtags.com
-0.0.0.0 searchult.com
-0.0.0.0 searchnu.com
-0.0.0.0 taobao.com.gds.alibabadns.com
-0.0.0.0 smetrics.discover.com
-0.0.0.0 smetrics.cbc.ca
-0.0.0.0 sla-intl.trustlook.com
-0.0.0.0 szmg.qq.com
-0.0.0.0 sspi.adpopcorn.com
-0.0.0.0 s3-iad-ww.cf.videorolls.row.aiv-cdn.net
-0.0.0.0 serverable.com
-0.0.0.0 s1.static.cfgr2.com
-0.0.0.0 s2.static.cfgr2.com
-0.0.0.0 static.cfgr2.com
-0.0.0.0 sexad.net$popup
-0.0.0.0 speed-route.com
-0.0.0.0 scorecard.wspisp.net
-0.0.0.0 stats.monohost.com
-0.0.0.0 share-apps.xyz
-0.0.0.0 social-thunder.com
-0.0.0.0 static.olymptrade.com
-0.0.0.0 static.trafficjunky.com
-0.0.0.0 syndication.site.yahoo.net
-0.0.0.0 s-usc1c-nss-236.firebaseio.com
-0.0.0.0 scripts.webcontentassessor.com
-0.0.0.0 stats.vk-portal.net
-0.0.0.0 sukebei.tracker.wf
-0.0.0.0 stats.coronalabs.com
-0.0.0.0 stats-proto.pandora.com
-0.0.0.0 sanalytics.verizon.com
-0.0.0.0 sdk.out.usbla.net
-0.0.0.0 sur.telemetry.intel.com
-0.0.0.0 sv.symcd.com
-0.0.0.0 stat.hackedonlinegames.com
-0.0.0.0 stat.ripe.net
-0.0.0.0 storetail.io
-0.0.0.0 shifen.com
-0.0.0.0 subca.ocsp-certum.com
-0.0.0.0 storage.ape.yandex.net
-0.0.0.0 static-mon.yandex.net
-0.0.0.0 storage.mds.yandex.net
-0.0.0.0 super-route.com
-0.0.0.0 sextoysgfs.com
-0.0.0.0 sevenporn.com$popup
-0.0.0.0 smartcj.com
-0.0.0.0 securecloud-smart.com
-0.0.0.0 sexyfashion.top
-0.0.0.0 sexcas.xyz
-0.0.0.0 sex-porn.site
-0.0.0.0 sexy-counter.com$third-party
-0.0.0.0 sexrank.ch
-0.0.0.0 sexkabi.net
-0.0.0.0 startwebpromo.com
-0.0.0.0 slvcwiabpgyxa.com
-0.0.0.0 sonyqiratoza.tk
-0.0.0.0 suregauzi.info
-0.0.0.0 sexxdate.net
-0.0.0.0 sffmctrnimk.com
-0.0.0.0 strefa18.pl
-0.0.0.0 secure.accutracking.com
-0.0.0.0 sas.com
-0.0.0.0 server1.firstwellness.info
-0.0.0.0 server2.firstwellness.info
-0.0.0.0 server3.firstwellness.info
-0.0.0.0 seeawhale.com
-0.0.0.0 sexad.com$popup
-0.0.0.0 shalltry.com
-0.0.0.0 sniff.visistat.com
-0.0.0.0 stats-new.smugmug.com
-0.0.0.0 subscribers.click
-0.0.0.0 sift.com
-0.0.0.0 srmdata.com
-0.0.0.0 shen5511.com
-0.0.0.0 stripchat.com$third-party
-0.0.0.0 servingmillions.com
-0.0.0.0 sancdn.net
-0.0.0.0 spotx.tv
-0.0.0.0 spotx.tv
-0.0.0.0 sitecheck1.opera.com
-0.0.0.0 sitecheck2.opera.com
-0.0.0.0 suggestv.io
-0.0.0.0 stripst.com
-0.0.0.0 stat.networkmanag.com
-0.0.0.0 statisgeek.com
-0.0.0.0 syndicpop.com
-0.0.0.0 social.com
-0.0.0.0 sap.com
-0.0.0.0 sspinc.io
-0.0.0.0 scgraph.facebook.com
-0.0.0.0 susapi.lenovomm.com
-0.0.0.0 stats.mokeedev.com
-0.0.0.0 sextracker.com$third-party
-0.0.0.0 sevootie.com
-0.0.0.0 selligent.com
-0.0.0.0 slgnt.us
-0.0.0.0 sirenltd.com
-0.0.0.0 slaviamobile.com
-0.0.0.0 spypush.com
-0.0.0.0 spyover.com
-0.0.0.0 sabotageads.com
-0.0.0.0 supertracker.flashget.com
-0.0.0.0 spocs.getpocket.com
-0.0.0.0 searchads.msn.net
-0.0.0.0 spinlucky.fun
-0.0.0.0 secure.perk0mean.com
-0.0.0.0 stats.jamwtds.co
-0.0.0.0 siteheatmaps.com
-0.0.0.0 statsy.net
-0.0.0.0 syndication.twimg.com
-0.0.0.0 sentry.ghostmonitor.net
-0.0.0.0 shy.elfsight.com
-0.0.0.0 softfree4u.xyz
-0.0.0.0 slimspots.com
-0.0.0.0 shortpixel.ai
-0.0.0.0 speedyads.com
-0.0.0.0 sanalytics.verizonwireless.com
-0.0.0.0 stateresolver.link
-0.0.0.0 supplier.clickyab.com
-0.0.0.0 stat-track.com
-0.0.0.0 sonar.semantiqo.com
-0.0.0.0 semantiqo.com
-0.0.0.0 static.opolen.com.br
-0.0.0.0 stats.lptracker.io
-0.0.0.0 static.brandcrumb.com
-0.0.0.0 serve.albacross.com
-0.0.0.0 sock*-goguardian.pusher.com
-0.0.0.0 sock53-goguardian.pusher.com
-0.0.0.0 sockjs-goguardian.pusher.com
-0.0.0.0 sl-h-statistics-ch-1.storeland.ru
-0.0.0.0 source.mmi.bemobile.ua
-0.0.0.0 s.zmctrack.net
-0.0.0.0 softek.ucoz.ru
-0.0.0.0 schnittberichte.com
-0.0.0.0 squadata.net
-0.0.0.0 secure.ebis.ne.jp
-0.0.0.0 s.pixsrvcs.com
-0.0.0.0 sensityimmit.club
-0.0.0.0 srv.tonefuse.com
-0.0.0.0 static.freeskreen.com
-0.0.0.0 secure-ecsd.elsevier.com
-0.0.0.0 shareaholic.net
-0.0.0.0 servedby.ammoland.com
-0.0.0.0 sp-20190806072658941500000005-2017189556.us-east-1.elb.amazonaws.com
-0.0.0.0 stream192.forexpros.com
-0.0.0.0 smetrics.att.com
-0.0.0.0 server-52-85-115-127.ind6.r.cloudfront.net
-0.0.0.0 server-52-85-115-234.ind6.r.cloudfront.net
-0.0.0.0 salesdoubler.com.ua
-0.0.0.0 saferedirrect.com
-0.0.0.0 saferedd.com
-0.0.0.0 sad2tizer.ru
-0.0.0.0 skyad.video
-0.0.0.0 skyad5.ru
-0.0.0.0 skyadsvideo1.ru
-0.0.0.0 skyadvideo.ru
-0.0.0.0 skycdnhost.com
-0.0.0.0 sape.ru
-0.0.0.0 skypromotion.ru
-0.0.0.0 sn00.net
-0.0.0.0 staticcache.org
-0.0.0.0 stats.ibtimes.co.uk
-0.0.0.0 spoor-api.ft.com
-0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
-0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net
-0.0.0.0 st-n.pc3ads.com
-0.0.0.0 simple-cdn.s3.amazonaws.com
-0.0.0.0 safe-browsing.ghostery.net
-0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
-0.0.0.0 sb-ssl.brave.com
-0.0.0.0 stats.windscribe.com
-0.0.0.0 signal.co
-0.0.0.0 seesmic.com
-0.0.0.0 socialminer.com
-0.0.0.0 socialinterface.com
-0.0.0.0 s.dolphincdn.xyz
-0.0.0.0 stats.wwitv.com
-0.0.0.0 smart-tds.info
-0.0.0.0 supplyframe.com
-0.0.0.0 sourcepoint.vice.com
-0.0.0.0 snapchat-proxy.appspot.com
-0.0.0.0 servt.playbuzz.co
-0.0.0.0 smi2.net
-0.0.0.0 segmento.ru
-0.0.0.0 same.chinadaily.com.cn
-0.0.0.0 safegraph.com
-0.0.0.0 shallwead.com
-0.0.0.0 signal360.com
-0.0.0.0 sizmek.com
-0.0.0.0 salesmanago.pl
-0.0.0.0 startapp.com
-0.0.0.0 soomla.com
-0.0.0.0 s.click.aliexpress.com
-0.0.0.0 stats.drivetheweb.com
-0.0.0.0 soflopxl.com
-0.0.0.0 sophi.io
-0.0.0.0 seaofads.com
-0.0.0.0 smartsupp-widget-161959.c.cdn77.org
-0.0.0.0 small.chat
-0.0.0.0 static.small.chat
-0.0.0.0 static.getchipbot.com
-0.0.0.0 stomy.eklablog.com
-0.0.0.0 sdk.privacy-center.org
-0.0.0.0 static-trackers.adtarget.me
-0.0.0.0 s2-prod.birminghammail.co.uk
-0.0.0.0 static.shareasale.com
-0.0.0.0 shareasale.com
-0.0.0.0 sb-ssl.google.com
-0.0.0.0 s-pijg97ih.chv6tzb9kvxhzeoj1.com
-0.0.0.0 services.disconnect.me.herokudns.com
-0.0.0.0 services.disconnect.me
-0.0.0.0 stats.norton.com
-0.0.0.0 shasta-sfg.norton.com
-0.0.0.0 sa02in01.sa02.crsi.symantec.com
-0.0.0.0 supporttool-shasta-rrs.symantec.com
-0.0.0.0 static.brave.com
-0.0.0.0 stats.qalabs.symantec.com
-0.0.0.0 slscr.update.microsoft.com
-0.0.0.0 slscr.update.microsoft.com.akadns.net
-0.0.0.0 sf.symcd.com
-0.0.0.0 safebrowsing.brave.com
-0.0.0.0 stage31.net
-0.0.0.0 smetrics.boston.com
-0.0.0.0 s3c6.adj.st
-0.0.0.0 schibsted.media
-0.0.0.0 szn.cz
-0.0.0.0 sexad.net
-0.0.0.0 serverbid.com
-0.0.0.0 stats.clutch.co
-0.0.0.0 smartemailing.cz
-0.0.0.0 search.spotxchange.com
-0.0.0.0 spotxchange.com
-0.0.0.0 socdm.com
-0.0.0.0 socio-1267.appspot.com
-0.0.0.0 spolecznosci.pl
-0.0.0.0 spolecznosci.net
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 statsfe2.update.microsoft.com
-0.0.0.0 synerise.com
-0.0.0.0 snrbox.com
-0.0.0.0 snrcdn.net
-0.0.0.0 smitionsory.co
-0.0.0.0 splitoptimizer.com
-0.0.0.0 shermore.info
-0.0.0.0 smarteucookiebanner.upsell-apps.com
-0.0.0.0 sbc.com
-0.0.0.0 sentitlement2.mobile.att.net
-0.0.0.0 spicyoffers.com
-0.0.0.0 script.tailsweep.com
+||redshell.io^
+||rpxnow.com^
+||rumblefish.com^
+||realsecuredredirect.com^
+||realclick.co.kr^
+||royalacecampaign.com^
+||royalacelinks.com^
+||roksmmnr.kozow.com^
+||rubylux.vn^
+||radiohunter.com.br^
+||rembi.lv^
+||roimarketplace.com^
+||r.inbox.lv^
+||reimage-pc-repair.com^
+||reimage-app-manager.en.aptoide.com^
+||reimage-cleaner.en.9apps.com^
+||reimage-app-manager.en.9apps.com^
+||reimage-cleaner.droidinformer.org^
+||reimagemac.com^
+||reimage.us.com^
+||reimage.org^
+||reimage-plus.com^
+||reimageplus.com^
+||reimage-pc-repair.en.uptodown.com^
+||appbid.com^
+||raychat.io^
+||rzb.ir^
+||retargeting.biz^
+||rpgmasterleague.com^
+||runtnc.net^
+||redemw.com^
+||rtbmedia.org^
+||revart.trade^
+||rekl1.com^
+||realbig.media^
+||roistat.com^
+||rbrxg.com^
+||rinwasmahis.ru^
+||retsiti.ru^
+||promokrot.com^
+||reseireejoch.info^
+||rd.yahoo.co.jp^
+||rd.yahoo.co^
+||rp1.esat.kuleuven.be^
+||trafficfactory.biz^
+||revcontent.com^
+||r.offnews.bg^
+||offmedia.bg^
+||reklama.onet.pl^
+||recreativ.ru^
+||responsetap.com^
+||rcm-images.amazon.com^
+||revenuehits.com^
+||retiremely.com^
+||r1.computerbild.de^
+||sp-prod.net^
+||revmob.com^
+||redir.metaservices.microsoft.com^
+||rusads.toysrus.com^
+||realtracker.com^
+||cpxinteractive.com^
+||rubiconproject.com^
+||googlecom.biz^
+||roosterfirework.com^
+||relap.io^
+||rtstats.com^
+||reporo.net^
+||rfihub.net^
+||richrelevance.com^
+||udmserve.net^
+||survata.net^
+||truex.com^
+||ultra-rv.com^
+||sgc.io^
+||stats.t-online.de^
+||seguno.com^
+||stats.waterfox.net^
+||st.linkfire.com^
+||stat-pulse.com^
+||sendpulse.email^
+||smartad.ee^
+||smartcookies.it^
+||searchpowerapp.com^
+||stat.alibaba.com^
+||sendibm3.com^
+||sendibm4.com^
+||saferoute.ru^
+||sptrack.trello.com^
+||intentiq.com^
+||sublytics-*.com^
+||sublytics.com^
+||sonar.fedex.epsihost.com^
+||sonar.fedex.com^
+||smetrics.fedex.com^
+||sail-personalize.com^
+||smartocto.com^
+||storygize.net^
+||synacor.com^
+||shepherd.ff.avast.com^
+||shepherd.ns1.ff.avast.com^
+||swoop.com^
+||semasio.com^
+||semasio.net^
+||specificmedia.com^
+||swpsvc.com^
+||scoota.com^
+||signalsdata.com^
+||scoota.co^
+||smart-dmp.com^
+||sojern.com^
+||voicefive.com^
+||smart-sense.org^
+||sia.socialblade.com^
+||surfe.pro^
+||stat.m.360.cn^
+||baomitu.com^
+||stats.wpmudev.com^
+||stats1.wpmudev.com^
+||statistics.news1.kr^
+||smartadtags.com^
+||searchult.com^
+||searchnu.com^
+||taobao.com.gds.alibabadns.com^
+||smetrics.discover.com^
+||smetrics.cbc.ca^
+||sla-intl.trustlook.com^
+||szmg.qq.com^
+||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
+||serverable.com^
+||sexad.net^
+||sexad.net^$popup,popunder
+||speed-route.com^
+||wspisp.net^
+||stats.monohost.com^
+||geo.monohost.com^
+||share-apps.xyz^
+||social-thunder.com^
+||trafficjunky.com^
+||syndication.site.yahoo.net^
+||s-usc1c-nss-236.firebaseio.com^
+||webcontentassessor.com^
+||stats.vk-portal.net^
+||tracker.wf^
+||stats.coronalabs.com^
+||stats-proto.pandora.com^
+||sanalytics.verizon.com^
+||sdk.out.usbla.net^
+||telemetry.intel.com^
+||sv.symcd.com^
+||stat.hackedonlinegames.com^
+||stat.ripe.net^
+||storetail.io^
+||shifen.com^
+||storage.ape.yandex.net^
+||static-mon.yandex.net^
+||storage.mds.yandex.net^
+||super-route.com^
+||sextoysgfs.com^
+||sevenporn.com^$popup,popunder
+||smartcj.com^
+||securecloud-smart.com^
+||sexyfashion.top^
+||sexcas.xyz^
+||sex-porn.site^
+||sexy-counter.com^$third-party
+||sexrank.ch^
+||sexkabi.net^
+||startwebpromo.com^
+||slvcwiabpgyxa.com^
+||sonyqiratoza.tk^
+||suregauzi.info^
+||sexxdate.net^
+||sffmctrnimk.com^
+||strefa18.pl^
+||sas.com^
+||seeawhale.com^
+||sexad.com^$popup,popuner
+||sexad.com^
+||shalltry.com^
+||visistat.com^
+||stats-new.smugmug.com^
+||subscribers.click^
+||sift.com^
+||srmdata.com^
+||shen5511.com^
+||stripchat.com^$third-party
+||servingmillions.com^
+||sancdn.net^
+||spotx.tv^
+||spotx.tv^
+||sitecheck1.opera.com^
+||sitecheck2.opera.com^
+||suggestv.io^
+||stripst.com^
+||statisgeek.com^
+||syndicpop.com^
+||social.com^
+||sap.com^
+||sspinc.io^
+||scgraph.facebook.com^
+||susapi.lenovomm.com^
+||stats.mokeedev.com^
+||sextracker.com^$third-party
+||sevootie.com^
+||selligent.com^
+||slgnt.us^
+||sirenltd.com^
+||slaviamobile.com^
+||spypush.com^
+||spyover.com^
+||sabotageads.com^
+||supertracker.flashget.com^
+||spocs.getpocket.com^
+||searchads.msn.net^
+||spinlucky.fun^
+||stats.jamwtds.co^
+||siteheatmaps.com^
+||statsy.net^
+||syndication.twimg.com^
+||elfsight.com^
+||softfree4u.xyz^
+||slimspots.com^
+||shortpixel.ai^
+||speedyads.com^
+||sanalytics.verizonwireless.com^
+||stateresolver.link^
+||stat-track.com^
+||semantiqo.com^
+||sock*-goguardian.pusher.com^
+||sl-h-statistics-ch-1.storeland.ru^
+||source.mmi.bemobile.ua^
+||zmctrack.net^
+||softek.ucoz.ru^
+||schnittberichte.com^
+||squadata.net^
+||sensityimmit.club^
+||tonefuse.com^
+||shareaholic.net^
+||servedby.ammoland.com^
+||stream192.forexpros.com^
+||smetrics.att.com^
+||salesdoubler.com.ua^
+||saferedirrect.com^
+||saferedd.com^
+||sad2tizer.ru^
+||skyad.video^
+||skyad5.ru^
+||skyadsvideo1.ru^
+||skyadvideo.ru^
+||skycdnhost.com^
+||sape.ru^
+||skypromotion.ru^
+||sn00.net^
+||staticcache.org^
+||stats.ibtimes.co.uk^
+||spoor-api.ft.com^
+||statics-marketingsites-wcus-ms-com.akamaized.net^
+||simple-cdn.s3.amazonaws.com^
+||safe-browsing.ghostery.net^
+||safe-browsing-quorum.privacy.ghostery.net^
+||sb-ssl.brave.com^
+||stats.windscribe.com^
+||signal.co^
+||seesmic.com^
+||socialminer.com^
+||socialinterface.com^
+||stats.wwitv.com^
+||smart-tds.info^
+||supplyframe.com^
+||sourcepoint.vice.com^
+||snapchat-proxy.appspot.com^
+||vi-serve.com^
+||cloudflare.com^$domain=gitlab.com
+||tencentbaidu.info^
+||areametrics.com^
+||logmatic.io^
+||datadoghq.com^
+||adfalcon.com^
+||digitalturbine.com^
+||appia.com^
+||applause.com^
+||applytics.nordvpn.com^
+||polarmobile.com^
+||polar.me^
+||ad.tomshardware.com^
+||app.link^
+||servt.playbuzz.co^
+||smi2.net^
+||segmento.ru^
+||same.chinadaily.com.cn^
+||safegraph.com^
+||shallwead.com^
+||signal360.com^
+||sizmek.com^
+||salesmanago.pl^
+||startapp.com^
+||soomla.com^
+||s.click.aliexpress.com^
+||stats.drivetheweb.com^
+||soflopxl.com^
+||sophi.io^
+||seaofads.com^
+||smartsupp-widget-161959.c.cdn77.org^
+||small.chat^
+||stomy.eklablog.com^
+||shareasale.com^
+||sb-ssl.google.com^
+||stats.norton.com^
+||shasta-sfg.norton.com^
+||sa02in01.sa02.crsi.symantec.com^
+||supporttool-shasta-rrs.symantec.com^
+||static.brave.com^
+||stats.qalabs.symantec.com^
+||slscr.update.microsoft.com^
+||slscr.update.microsoft.com.akadns.net^
+||sf.symcd.com^
+||safebrowsing.brave.com^
+||stage31.net^
+||smetrics.boston.com^
+||schibsted.media^
+||szn.cz^
+||serverbid.com^
+||stats.clutch.co^
+||smartemailing.cz^
+||spotxchange.com^
+||socdm.com^
+||socio-1267.appspot.com^
+||spolecznosci.pl^
+||spolecznosci.net^
+||safebrowsing.googleapis.com^
+||statsfe2.update.microsoft.com^
+||synerise.com^
+||snrbox.com^
+||snrcdn.net^
+||smitionsory.co^
+||splitoptimizer.com^
+||shermore.info^
+||smarteucookiebanner.upsell-apps.com^
+||sbc.com^
+||sentitlement2.mobile.att.net^
+||spicyoffers.com^
+||tailsweep.com^
 0.0.0.0 serve.vdopia.com
 0.0.0.0 servedby.hrnorth.se
 0.0.0.0 srv.bebi.com
@@ -8322,7 +8252,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
 0.0.0.0 stats-locations.com
-0.0.0.0 stats.abbi.io
 0.0.0.0 statistics.005.free-counters.co.uk
 0.0.0.0 statistics.006.free-counters.co.uk
 0.0.0.0 statistics.007.free-counters.co.uk
@@ -8734,7 +8663,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 stack-sonar.com
 0.0.0.0 stats.nextcloud.com
 0.0.0.0 stats.popcap.com
-0.0.0.0 static.adsnative.com
 0.0.0.0 s.pubmine.com
 0.0.0.0 static.h-bid.com
 0.0.0.0 sjs.bizographics.com
@@ -8747,7 +8675,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 scdn.cxense.com
 0.0.0.0 securetoolext.com
 0.0.0.0 s0.2mdn.net
-0.0.0.0 sync.search.spotxchange.com
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 spshared.5min.com
@@ -8860,7 +8787,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 sx.trhnt.com
 0.0.0.0 tcx-live-chat.appspot.com
 0.0.0.0 trk.ablogica.com
-0.0.0.0 truex.com
 0.0.0.0 tkup.uparpu.com
 0.0.0.0 t.sgc.io
 0.0.0.0 tracking.unrealengine.com
@@ -8909,7 +8835,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 t.propbn.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 tracksrv.zdf.de
-0.0.0.0 tracker.wf
 0.0.0.0 tracker.frozen-layer.net
 0.0.0.0 tracker.gbitt.info
 0.0.0.0 tracker.torrentyorg.pl
@@ -8923,8 +8848,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 trbas.com
 0.0.0.0 t-ring.msedge.net
 0.0.0.0 t.mobtyb.com
-0.0.0.0 telemetry.intel.com
-0.0.0.0 telemetry-in.*
+||telemetry-in.^
 0.0.0.0 terrapsps.com
 0.0.0.0 terrasdsdstd.com
 0.0.0.0 top-nudism.eu
@@ -9022,7 +8946,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracker.affirm.com
 0.0.0.0 trk.appthis.io
 0.0.0.0 trk.adtwbjs.com
-0.0.0.0 tonefuse.com
 0.0.0.0 tvadsync.com
 0.0.0.0 time.nist.gov
 0.0.0.0 trakt.tv
@@ -9032,7 +8955,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 timeline*-clientstats*.pusher.com
 0.0.0.0 t.rainide.com
 0.0.0.0 tracking.synthasite.net
-0.0.0.0 tag.rmp.rakuten.com
 0.0.0.0 tercept.com
 0.0.0.0 tiads.timeinc.net
 0.0.0.0 tracker.icerocket.com
@@ -9086,7 +9008,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracking-sales-pop.carecart.io
 0.0.0.0 track.klickly.com
 0.0.0.0 toponclick.com
-0.0.0.0 tailsweep.com
 0.0.0.0 terraclicks.com
 0.0.0.0 time.microsoft.akadns.net
 0.0.0.0 trafficmanager.net
@@ -9183,7 +9104,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 timeinc.net
 0.0.0.0 ti-media.com
 0.0.0.0 track.dictionary.com
-0.0.0.0 teamlava.com
 0.0.0.0 telemetry.art19.com
 0.0.0.0 traffic.omny.fm
 0.0.0.0 thisiswaldo.com
@@ -9268,7 +9188,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracker.leadenhancer.com
 0.0.0.0 track.yieldsoftware.com
 0.0.0.0 tracking202.com
-0.0.0.0 tidaltv.com
 0.0.0.0 tracking.percentmobile.com
 0.0.0.0 trackedweb.net
 0.0.0.0 tracking.websitealive.com
@@ -9278,7 +9197,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tinypass.com
 0.0.0.0 tr.prospecteye.com
 0.0.0.0 taggify.net
-0.0.0.0 theswiftones.com
 0.0.0.0 top.proext.com
 0.0.0.0 trv.upperbooking.com
 0.0.0.0 trl.upperbooking.com
@@ -9290,7 +9208,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 trafficmp.com
 0.0.0.0 tacoda.net
 0.0.0.0 traffic.adxprtz.com
-0.0.0.0 tr.de.adlink.net
 0.0.0.0 totalmediasolutions.com
 0.0.0.0 traffective.com
 0.0.0.0 talentedsteel.com
@@ -9443,7 +9360,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 track.adrpanel.es
 0.0.0.0 tns-counter.ru
 0.0.0.0 trk.tracksys55.com
-0.0.0.0 trafficjunky.com
 0.0.0.0 tags.expo9.exponential.com
 0.0.0.0 todo-ta-g7g.amazon.com
 0.0.0.0 t.channeladvisor.com
@@ -9452,7 +9368,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracker.com
 0.0.0.0 track.spots.im
 0.0.0.0 telize.com
-0.0.0.0 ultra-rv.com
 0.0.0.0 uparpu.com
 0.0.0.0 urlsec.qq.com
 0.0.0.0 uxcam.com
@@ -9587,7 +9502,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 utarget.co.uk
 0.0.0.0 utils.mediageneral.net
 0.0.0.0 ugdturner.com
-0.0.0.0 udmserve.net
 0.0.0.0 us0.adlibr.com
 0.0.0.0 u.heatmap.it
 0.0.0.0 userzoom.com
@@ -9612,7 +9526,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vmweb.net
 0.0.0.0 vtracy.de
 0.0.0.0 vpndefender.com
-0.0.0.0 voicefive.com
 0.0.0.0 vtemaaftwexu.com
 0.0.0.0 vip0x04e.ssl.rncdn5.com
 0.0.0.0 vcen.dolphin-browser.com
@@ -9622,7 +9535,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||visitstats.com^$popup,popunder
 0.0.0.0 v.mediahits.club
 0.0.0.0 vpfadnueru.com
-0.0.0.0 visistat.com
 0.0.0.0 vidsrev.com
 0.0.0.0 videodelivery.net$domain=reuters.com
 0.0.0.0 virtuagirl.com$third-party
@@ -9697,7 +9609,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vipadsnet.info
 0.0.0.0 v1.77tracking.com
 0.0.0.0 vwo-analytics.com
-0.0.0.0 vwo.com
 0.0.0.0 vinbet.biz
 0.0.0.0 viaarena.com
 0.0.0.0 videoplaza.tv
@@ -9742,7 +9653,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 visualrevenue.com
 0.0.0.0 vidora.com
 0.0.0.0 vmmpxl.com
-0.0.0.0 voicefive.com
 0.0.0.0 voicevegetable.com
 0.0.0.0 vpon.com
 0.0.0.0 velti.com
@@ -9767,11 +9677,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 web-networking.com
 0.0.0.0 wudiads.s3.amazonaws.com
 0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 wspisp.net
 0.0.0.0 weekly-prizes.co
 0.0.0.0 wap.com
 0.0.0.0 wh.ip-adress.com
-0.0.0.0 webcontentassessor.com
 0.0.0.0 wt4xd.bemobpath.com
 0.0.0.0 webstats.arxiv.org
 0.0.0.0 wizaly.com
@@ -9842,7 +9750,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wwatmserver.alibaba.com
 0.0.0.0 wywy.com
-0.0.0.0 worldpush.co
 0.0.0.0 wiper.wipersoft.com
 0.0.0.0 webcam-ratingen.de
 0.0.0.0 widgets.trustedshops.com
@@ -10099,7 +10006,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yciuyrlw.ml
 0.0.0.0 yahu99.vip
 0.0.0.0 yvzgazds6d.com
-0.0.0.0 yieldkit.com
 0.0.0.0 yieldsoftware.com
 0.0.0.0 yourhitstats.com
 0.0.0.0 yallboen.com
@@ -10242,7 +10148,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zapto.org
 0.0.0.0 zangqu.cn
 0.0.0.0 zhanzhang.baidu.com
-0.0.0.0 zmctrack.net
 0.0.0.0 ziffstatic.com
 0.0.0.0 zz.cqcounter.com
 0.0.0.0 ztrf.net
@@ -10384,7 +10289,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 *.pixel.archive.is
 0.0.0.0 *-ring.msedge.net
 0.0.0.0 *.logs.roku.com
-0.0.0.0 *.telemetry.intel.com
 0.0.0.0 *.keilaparius.com
 0.0.0.0 *-analytics.com
 0.0.0.0 5ijo.01net.com
