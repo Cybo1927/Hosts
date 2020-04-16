@@ -3250,7 +3250,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||captaingrowth.ai^
 ||contextsmith.com^
 ||cocospy.com^
-|| context.ly^
+||context.ly^
 ||commento.io^
 ||cityspark.com^
 ||comcasttechnologysolutions.com^
@@ -7834,7 +7834,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sublytics.com^
 ||sonar.fedex.epsihost.com^
 ||sonar.fedex.com^
-||smetrics.fedex.com^
 ||sail-personalize.com^
 ||smartocto.com^
 ||storygize.net^
@@ -7864,8 +7863,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||searchult.com^
 ||searchnu.com^
 ||taobao.com.gds.alibabadns.com^
-||smetrics.discover.com^
-||smetrics.cbc.ca^
 ||sla-intl.trustlook.com^
 ||szmg.qq.com^
 ||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
@@ -7981,7 +7978,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||shareaholic.net^
 ||servedby.ammoland.com^
 ||stream192.forexpros.com^
-||smetrics.att.com^
 ||salesdoubler.com.ua^
 ||saferedirrect.com^
 ||saferedd.com^
@@ -8059,7 +8055,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sf.symcd.com^
 ||safebrowsing.brave.com^
 ||stage31.net^
-||smetrics.boston.com^
 ||schibsted.media^
 ||szn.cz^
 ||serverbid.com^
@@ -8083,159 +8078,121 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sentitlement2.mobile.att.net^
 ||spicyoffers.com^
 ||tailsweep.com^
-0.0.0.0 serve.vdopia.com
-0.0.0.0 servedby.hrnorth.se
-0.0.0.0 srv.bebi.com
-0.0.0.0 snap.snapmobile.asia
-0.0.0.0 snapmobile.asia
-0.0.0.0 st-hatena.com
-0.0.0.0 smaato.com
-0.0.0.0 ssw.live.com
-0.0.0.0 s2.symbc.com
-0.0.0.0 symbc.com
-0.0.0.0 samizdat-graphql.nytimes.com
-0.0.0.0 shasta-mrs.symantec.com
-0.0.0.0 spc.myvzw.com
-0.0.0.0 srepdata.azcentral.com
-0.0.0.0 sellpoint.net
-0.0.0.0 searchiq.co
-0.0.0.0 smartadserver.ru
-0.0.0.0 static-ads.zaloapp.com
-0.0.0.0 stats.zaloapp.com
-0.0.0.0 shop.zalo.me
-0.0.0.0 sp.zalo.me
-0.0.0.0 searcher.qc.coccoc.com
-0.0.0.0 scribe.twitter.com
-0.0.0.0 s.ads-twitter.com
-0.0.0.0 sync.cmedia.s3.amazonaws.com
-0.0.0.0 strikeadcdn.s3.amazonaws.com
-0.0.0.0 springclick-ads.s3.amazonaws.com
-0.0.0.0 spyhunter-download.s3.amazonaws.com
-0.0.0.0 slate-ad-scripts.s3.amazonaws.com
-0.0.0.0 sa.edit.yahoo.com
-0.0.0.0 static.quriobot.com
-0.0.0.0 staples-sparx.com
-0.0.0.0 s.ml-attr.com
-0.0.0.0 soaring4traffic.com
-0.0.0.0 static1.freebitco.in
-0.0.0.0 stats.coinpayments.net
-0.0.0.0 state-of-the-art-mailer.com
-0.0.0.0 stats.extsrv.com
-0.0.0.0 serv.markets.com
-0.0.0.0 static.cdnpub.info
-0.0.0.0 socialsurf4u.com
-0.0.0.0 sevendollarclick.com
-0.0.0.0 socialadsurf.com
-0.0.0.0 startxchange.com
-0.0.0.0 static.profitclicking.com
-0.0.0.0 sfippa.com
-0.0.0.0 sfimg.com
-0.0.0.0 st.top100.ru
-0.0.0.0 saygames.io
-0.0.0.0 saygames.sfo2.cdn.digitaloceanspaces.com
-0.0.0.0 simpleautomatedmarketingsystem.com
-0.0.0.0 surftocashformula.com
-0.0.0.0 surf-to-earn.com
-0.0.0.0 surfingguard.com
-0.0.0.0 sponsorads.de
-0.0.0.0 supercounters.com
-0.0.0.0 search.mysaferesult.com
-0.0.0.0 s.crowdskout.com
-0.0.0.0 sptus.evolok.net
-0.0.0.0 secure.polldaddy.com
-0.0.0.0 scroll.com
-0.0.0.0 stazumik.net
-0.0.0.0 shouxaum.net
-0.0.0.0 sohu.com.cn
-0.0.0.0 sgwidget.leaderapps.co
-0.0.0.0 sgwidget.com
-0.0.0.0 stat.adskiller.me
-0.0.0.0 stun.dnsleak.net
-0.0.0.0 stats.privacytools.io
-0.0.0.0 service.bananatag.com
-0.0.0.0 snov.io
-0.0.0.0 surveygizmo.com
-0.0.0.0 survey.sson-analytics.com
-0.0.0.0 soundest.net
-0.0.0.0 sat-gps-tracker.com
-0.0.0.0 soda.adserver-pro.net
-0.0.0.0 sitewit.com
-0.0.0.0 services.iamhansen.xyz
-0.0.0.0 sx.leadzu.com
-0.0.0.0 spiroox.com
-0.0.0.0 showad.host
-0.0.0.0 sunmaker.com
-0.0.0.0 smopy.com
-0.0.0.0 smpop.icfcdn.com
-0.0.0.0 statsfe1.ws.microsoft.com
-0.0.0.0 samsungads.com
-0.0.0.0 stats.glb.paypal.com
-0.0.0.0 s6.io
-0.0.0.0 ssix.io
-0.0.0.0 smetric.hilton.com
-0.0.0.0 smetrics.bestbuy.com
-0.0.0.0 smetrics.cnn.com
-0.0.0.0 smetrics.costco.com
-0.0.0.0 smetrics.delta.com
-0.0.0.0 smetrics.marriott.com
-0.0.0.0 smetrics.mastercard.com
-0.0.0.0 smetrics.nfl.com
-0.0.0.0 smetrics.people.com
-0.0.0.0 smetrics.redbox.com
-0.0.0.0 smart-data-systems.com
-0.0.0.0 sociomantic.com
-0.0.0.0 selfcampaign.com
-0.0.0.0 sc.cdnma.com
-0.0.0.0 starbucks.bio
-0.0.0.0 s.googlevideo.com
-0.0.0.0 servicesupport.hicloud.com
-0.0.0.0 skypegrab.net
-0.0.0.0 samsungadhub.com
-0.0.0.0 sessioncam.com
-0.0.0.0 steadfastsystem.com
-0.0.0.0 stats.net
-0.0.0.0 serve.adworldmedia.com
-0.0.0.0 special-offers.online
-0.0.0.0 stats.esomniture.com
-0.0.0.0 staticset.com
-0.0.0.0 sfdcstatic.com
-0.0.0.0 streak.com
-0.0.0.0 securybrowse.com
-0.0.0.0 search.xyz
-0.0.0.0 sc-static.net
-0.0.0.0 sso.myconsolidated.net
-0.0.0.0 swiftfling.com
-0.0.0.0 surewest.net
-0.0.0.0 solutions.invocacdn.com
-0.0.0.0 sajari.com
-0.0.0.0 stats.sa-as.com
-0.0.0.0 sa-as.com
-0.0.0.0 scribol.com
-0.0.0.0 safariadblock.com
-0.0.0.0 satismeter.com
-0.0.0.0 srv.stackadapt.com
-0.0.0.0 sub-cdn.washingtonpost.com
-0.0.0.0 sub.washingtonpost.com
-0.0.0.0 search.hdownloadmyinboxhelper.com
-0.0.0.0 static-artifact.heg-cp.com
-0.0.0.0 stadtverwaltung-ratingen.de
-0.0.0.0 static.etracker.com
-0.0.0.0 service.maxymiser.net
-0.0.0.0 s.adadapter.netzathleten-media.de
-0.0.0.0 sp-js-releases.s3.amazonaws.com
-0.0.0.0 seal.digicert.com
-0.0.0.0 s.joinhoney.com
-0.0.0.0 static.audienceinsights.net
-0.0.0.0 servserv.generals.ea.com
-0.0.0.0 simpletextadz.com
-0.0.0.0 snapengage2018.wpengine.com
-0.0.0.0 snapengage.com
-0.0.0.0 solounion.com
-0.0.0.0 ssl.cqcounter.com
-0.0.0.0 servebom.com
-0.0.0.0 s3xified.com
-0.0.0.0 slowplay.tv
-0.0.0.0 sovrn.com
+||vdopia.com^
+||snapmobile.asia^
+||st-hatena.com^
+||smaato.com^
+||ssw.live.com^
+||s2.symbc.com^
+||symbc.com^
+||samizdat-graphql.nytimes.com^
+||shasta-mrs.symantec.com^
+||spc.myvzw.com^
+||srepdata.azcentral.com^
+||sellpoint.net^
+||searchiq.co^
+||smartadserver.ru^
+||static-ads.zaloapp.com^
+||stats.zaloapp.com^
+||shop.zalo.me^
+||sp.zalo.me^
+||searcher.qc.coccoc.com^
+||scribe.twitter.com^
+||s.ads-twitter.com^
+||sync.cmedia.s3.amazonaws.com^
+||strikeadcdn.s3.amazonaws.com^
+||springclick-ads.s3.amazonaws.com^
+||spyhunter-download.s3.amazonaws.com^
+||slate-ad-scripts.s3.amazonaws.com^
+||sa.edit.yahoo.com^
+||staples-sparx.com^
+||soaring4traffic.com^
+||stats.coinpayments.net^
+||state-of-the-art-mailer.com^
+||extsrv.com^
+||serv.markets.com^
+||tracking.markets.com^
+||socialsurf4u.com^
+||sevendollarclick.com^
+||socialadsurf.com
+||startxchange.com^
+||sfippa.com^
+||sfimg.com^
+||st.top100.ru^
+||saygames.io^
+||saygames.sfo2.cdn.digitaloceanspaces.com^
+||simpleautomatedmarketingsystem.com^
+||surftocashformula.com^
+||surf-to-earn.com^
+||surfingguard.com^
+||sponsorads.de^
+||supercounters.com^
+||scroll.com^
+||stazumik.net^
+||shouxaum.net^
+||sohu.com.cn^
+||sgwidget.com^
+||stat.adskiller.me^
+||stun.dnsleak.net^
+||stats.privacytools.io^
+||snov.io^
+||surveygizmo.com^
+||sson-analytics.com^
+||soundest.net^
+||sat-gps-tracker.com^
+||sitewit.com^
+||spiroox.com^
+||showad.host^
+||sunmaker.com^
+||smopy.com^
+||smpop.icfcdn.com^
+||statsfe1.ws.microsoft.com^
+||samsungads.com^
+||stats.glb.paypal.com^
+||s6.io^
+||ssix.io^
+||smart-data-systems.com^
+||sociomantic.com^
+||selfcampaign.com^
+||sc.cdnma.com^
+||starbucks.bio^
+||s.googlevideo.com^
+||servicesupport.hicloud.com^
+||skypegrab.net^
+||samsungadhub.com^
+||sessioncam.com^
+||steadfastsystem.com^
+||stats.net^
+||special-offers.online^
+||staticset.com^
+||sfdcstatic.com^
+||streak.com^
+||securybrowse.com^
+||search.xyz^
+||sc-static.net^
+||swiftfling.com^
+||surewest.net^
+||sajari.com^
+||sa-as.com^
+||scribol.com^
+||safariadblock.com^
+||satismeter.com^
+||stackadapt.com^
+||static-artifact.heg-cp.com^
+||stadtverwaltung-ratingen.de^
+||sp-js-releases.s3.amazonaws.com^
+||seal.digicert.com^
+||s.joinhoney.com^
+||servserv.generals.ea.com^
+||simpletextadz.com^
+||snapengage2018.wpengine.com^
+||snapengage.com^
+||solounion.com^
+||ssl.cqcounter.com^
+||servebom.com^
+||s3xified.com^
+||slowplay.tv^
+||sovrn.com^
 0.0.0.0 share-staging.viewedit.com
 0.0.0.0 share.viewedit.test
 0.0.0.0 statebankrewardz.com
@@ -8339,7 +8296,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 static-shareaholic.s3.amazonaws.com
 0.0.0.0 sokratidisplay-res.cloudinary.com
 0.0.0.0 sokrati.com
-0.0.0.0 smetrics.foxnews.com
 0.0.0.0 stats.zmags.com
 0.0.0.0 static.tracking202.com
 0.0.0.0 socialspark.com
@@ -8452,8 +8408,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 serve.adtrackers.net
 0.0.0.0 serve.bannertrack.net
 0.0.0.0 saber.srvcs.tumblr.com
-0.0.0.0 smetrics.midatlantic.aaa.com
-0.0.0.0 smetrics.aa.com
 0.0.0.0 sdk.a4.tl
 0.0.0.0 stats.jpush.cn
 0.0.0.0 s.jpush.cn
@@ -8487,7 +8441,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 shmokiads.com
 0.0.0.0 science-media-group.com
 0.0.0.0 skyadmedia.com
-0.0.0.0 stackadapt.com
 0.0.0.0 solvemedia.com
 0.0.0.0 safelinking.net
 0.0.0.0 ssp-3-9f58.trnox.com
@@ -8690,7 +8643,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 smartclick.net
 0.0.0.0 ssl.cdn.turner.com
 0.0.0.0 se.monetate.net
-0.0.0.0 st.bebi.com
 0.0.0.0 secure.statcounter.com
 0.0.0.0 snap.licdn.com
 0.0.0.0 s.ntv.io
@@ -9116,7 +9068,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tailwhups.net
 0.0.0.0 theparkingplace.com
 0.0.0.0 tqn.com
-0.0.0.0 tags.srv.stackadapt.com
 0.0.0.0 telemetry.appex.bing.com
 0.0.0.0 ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au
 0.0.0.0 *.t-ipnet.de
@@ -9562,7 +9513,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 valor.c.hotheadgames.com
 0.0.0.0 valor-api-alb-1080470264.us-east-1.elb.amazonaws.com
 0.0.0.0 vzwdm.com
-0.0.0.0 vdopia.com
 0.0.0.0 vzims.com
 0.0.0.0 vc-mvt-pixel-80.vc-networks.com
 0.0.0.0 vietad.vn
@@ -11698,6 +11648,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! Wildcard
 ! /analytics/ (breaks sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
+||smetric.
+||smetrics.
 */clickPerformance
 */smarttag
 */smarttagJwPlayerPlugin
