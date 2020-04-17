@@ -5,7 +5,6 @@
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
 @@||redirector.gvt1.com/*/android/studio/
-cnn.com#@#[class*="gdpr"]
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
@@ -18,11 +17,7 @@ cnn.com#@#[class*="gdpr"]
 @@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com/assessment?
 @@||pandora.com/web-version/*/ads.json?
-pandora.com#@#[class$="Ads"]:not(html):not(body)
-@@$generichide,domain=reddit.com
-reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||external-preview.redd.it/*.gif
-pandora.com$genericblock
 @@||apis.google.com/js/platform.js$domain=graspablemath.com
 @@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
 @@||facebook.com/settings/*/?ref=settings
@@ -44,9 +39,6 @@ pandora.com$genericblock
 @@||nbc.com/generetic/scripts/ads.js
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||totaljerkface.com/adplayer/ads.js
-! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
-@@||fedex.com/Tracking$badfilter
-!
 @@||player.theplatform.com
 @@||media-cdn.tripadvisor.com
 @@||iheart.com
@@ -59,10 +51,19 @@ pandora.com$genericblock
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
 @@||android.clients.google.com
+! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
+@@||fedex.com/Tracking$badfilter
+!
 ! Seems to deliver ads but also legit content on cnet
 @@||sdad.guru
 ! Breaks TikTok Login
 ||log2.musical.ly$badfilter
+!
+pandora.com$genericblock
+pandora.com#@#[class$="Ads"]:not(html):not(body)
+cnn.com#@#[class*="gdpr"]
+youtube.com#@#offer-module
+reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 
 ! RegEX Stuffs
 ! Block Insecure Third-Party IP Addresses
@@ -8193,10 +8194,10 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||s3xified.com^
 ||slowplay.tv^
 ||sovrn.com^
-0.0.0.0 share-staging.viewedit.com
-0.0.0.0 share.viewedit.test
-0.0.0.0 statebankrewardz.com
-0.0.0.0 solocpm.com
+||viewedit.com^
+||viewedit.test^
+||statebankrewardz.com^
+||solocpm.com^
 0.0.0.0 stat.discogs.com
 0.0.0.0 svc.ms
 0.0.0.0 smartlinksv2.mediresource.com
@@ -9550,8 +9551,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 voodooparking.com
 0.0.0.0 videostat.com
 0.0.0.0 videohub.tv
-0.0.0.0 viewedit.com
-0.0.0.0 viewedit.test
 0.0.0.0 vjs.zencdn.net
 0.0.0.0 verytraffic.com
 0.0.0.0 v.printfriendly.com
