@@ -3,6 +3,8 @@
 
 @@||static.trafficjunky.com/ab/ads_test.js
 
+pandora.com##+js(addEventListener-defuser.js, /mousedown|pagehide|pageshow|hashchange/)
+
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
 
