@@ -51,19 +51,23 @@
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
 @@||android.clients.google.com
-! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
-@@||fedex.com/Tracking$badfilter
-!
 ! Seems to deliver ads but also legit content on cnet
 @@||sdad.guru
-! Breaks TikTok Login
-||log2.musical.ly$badfilter
-!
 pandora.com$genericblock
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
+
+! Badfilter
+! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
+@@||fedex.com/Tracking$badfilter
+
+! Local News Station - Blocked Under "Malware domains"
+@@||ksibradio.com$badfilter,important
+
+! Breaks TikTok Login
+||log2.musical.ly$badfilter
 
 ! RegEX Stuffs
 ! Block Insecure Third-Party IP Addresses
@@ -152,6 +156,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 ||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
+
+! Email Trackers Redirect to URLS Like This
+&group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
 
 ! Ping is never anything but analytics/trackers
 *$ping
@@ -2767,7 +2774,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||voluumtrk.com^
 ||img.com.ua^
 ||bbp.brazzers.com^
-||bizographics.com^
 ||bbpntg3.homestead.com^
 ||bizible.com^
 ||beacon.riskified.com^
@@ -8099,7 +8105,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sp.zalo.me^
 ||searcher.qc.coccoc.com^
 ||scribe.twitter.com^
-||s.ads-twitter.com^
 ||sync.cmedia.s3.amazonaws.com^
 ||strikeadcdn.s3.amazonaws.com^
 ||springclick-ads.s3.amazonaws.com^
@@ -8198,509 +8203,430 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||viewedit.test^
 ||statebankrewardz.com^
 ||solocpm.com^
-0.0.0.0 stat.discogs.com
-0.0.0.0 svc.ms
-0.0.0.0 smartlinksv2.mediresource.com
-0.0.0.0 searchlock.com
-0.0.0.0 saymedia.com
-0.0.0.0 static-42andpark-com.s3.amazonaws.com
-0.0.0.0 streamstats.prd.dlive.tv
-0.0.0.0 stripe.rs-stripe.com
-0.0.0.0 sync.adotmob.com
-0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 storeconfig.mistat.intl.xiaomi.com
-0.0.0.0 stats-locations.com
-0.0.0.0 statistics.005.free-counters.co.uk
-0.0.0.0 statistics.006.free-counters.co.uk
-0.0.0.0 statistics.007.free-counters.co.uk
-0.0.0.0 statistics.008.free-counters.co.uk
-0.0.0.0 statistics.11880.com
-0.0.0.0 statistics.2miners.com
-0.0.0.0 statistics.afasonline.com
-0.0.0.0 statistics.aldi-international.com
-0.0.0.0 statistics.appjop.com
-0.0.0.0 statistics.crowdynews.com
-0.0.0.0 statistics-cyberpank.co.cc
-0.0.0.0 statistics.elsevier.nl
-0.0.0.0 statistics.flurrydata.com
-0.0.0.0 statistics.klicktel.de
-0.0.0.0 statistics.krone.mindtake.com
-0.0.0.0 statistics.liusha.info
-0.0.0.0 statistics.mailerlite.com
-0.0.0.0 statistics.piwik.pro
-0.0.0.0 statistics.q42.nl
-0.0.0.0 statistics.raiffeisen.ch
-0.0.0.0 statistics.rbi-nl.com
-0.0.0.0 statistics.riskommunal.net
-0.0.0.0 statistics.theonion.com
-0.0.0.0 statisticsv2.yinyuetai.com
-0.0.0.0 statistics.wibiya.com
-0.0.0.0 statistics.ziegeler-medien.de
-0.0.0.0 sa.unionstatistics.com
-0.0.0.0 sandstorm-statistics-player-api.newworldinteractive.com
-0.0.0.0 statistics.maps.me
-0.0.0.0 samplicio.us
-0.0.0.0 saltarsmart.biz
-0.0.0.0 salmonads.com
-0.0.0.0 salesrep.ai
-0.0.0.0 salesmachine.io
-0.0.0.0 salesloft.com
-0.0.0.0 saleshandy.com
-0.0.0.0 salesflare.com
-0.0.0.0 salemove.com
-0.0.0.0 saberfeedback.com
-0.0.0.0 safedk.com
-0.0.0.0 server-99-84-168-106.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-40.ord52.r.cloudfront.net
-0.0.0.0 server-99-84-168-22.ord52.r.cloudfront.net
-0.0.0.0 subscrib.com
-0.0.0.0 static.248.118.203.116.clients.your-server.de
-0.0.0.0 smartrcdn.s3.amazonaws.com
-0.0.0.0 subscrib.
-0.0.0.0 sastrk.com
-0.0.0.0 siencesratify.com
-0.0.0.0 skimlinks.com
-0.0.0.0 sendgrid.info
-0.0.0.0 simpleopptys.com
-0.0.0.0 sjremetrics.java.com
-0.0.0.0 sharebitstower.com
-0.0.0.0 spysherrif-anti-spyware.apponic.com
-0.0.0.0 sqxqz.dfcki.info
-0.0.0.0 static.hsappstatic.net
-0.0.0.0 szzero.livechatvalue.com
-0.0.0.0 south32.com
-0.0.0.0 spywareonline.org
-0.0.0.0 systemexplorer.net
-0.0.0.0 store.adaware.com
-0.0.0.0 salesforceliveagent.com
-0.0.0.0 surfbouncer.com
-0.0.0.0 static.hupso.com
-0.0.0.0 sitestats.com
-0.0.0.0 stadig.ifeng.com
-0.0.0.0 streams.ghost.org
-0.0.0.0 s.206ads.com
-0.0.0.0 syndication.twitter.com
-0.0.0.0 seevolution.com
-0.0.0.0 static.wingify.com
-0.0.0.0 smartlook.com
-0.0.0.0 stathat.com
-0.0.0.0 securedvisit.com
-0.0.0.0 seg.sharethis.com
-0.0.0.0 sharethis.com
-0.0.0.0 sellmeyourtraffic.com
-0.0.0.0 s23832.pcdn.co
-0.0.0.0 s16002.pcdn.co
-0.0.0.0 seewhy.com
-0.0.0.0 srv.uk.znaptag.com
-0.0.0.0 smartclip.net
-0.0.0.0 shop2market.com
-0.0.0.0 static-shareaholic.s3.amazonaws.com
-0.0.0.0 sokratidisplay-res.cloudinary.com
-0.0.0.0 sokrati.com
-0.0.0.0 stats.zmags.com
-0.0.0.0 static.tracking202.com
-0.0.0.0 socialspark.com
-0.0.0.0 sourceknowledge.com
-0.0.0.0 static.brsrvr.com
-0.0.0.0 server1.beaconpush.com
-0.0.0.0 static.trackedweb.net
-0.0.0.0 shield.sitelock.com
-0.0.0.0 seal-houston.bbb.org
-0.0.0.0 stats.scanguard.com
-0.0.0.0 stats.totalav.com
-0.0.0.0 softserve.8ch.net
-0.0.0.0 spinbox.techtracker.com
-0.0.0.0 siftscience.com
-0.0.0.0 studads.com
-0.0.0.0 srv.adengage.com
-0.0.0.0 success.act-on.com
-0.0.0.0 skip-ads.net
-0.0.0.0 s.360safe.com
-0.0.0.0 spider.ad
-0.0.0.0 spell.itim.vn
-0.0.0.0 supernet.com.bo
-0.0.0.0 screechingfurniture.com
-0.0.0.0 stats1.porntrack.com
-0.0.0.0 snackly.co
-0.0.0.0 static.36.82.99.88.clients.your-server.de
-0.0.0.0 s25.host-food.ru
-0.0.0.0 statsweb.proxad.net
-0.0.0.0 seskeu3zk7.com
-0.0.0.0 s.adframesrc.com
-0.0.0.0 servedby.adcombination.com
-0.0.0.0 specificmedia.co.uk
-0.0.0.0 static.adclick.lt
-0.0.0.0 start.bz
-0.0.0.0 solistic.co
-0.0.0.0 sortable.com
-0.0.0.0 semseoymas.com
-0.0.0.0 support.acceleration.biz
-0.0.0.0 svc.ezoic.com
-0.0.0.0 safety.apple.com.*.download
-0.0.0.0 safety.apple.com.*.trade
-0.0.0.0 safety.apple.com.*.review
-0.0.0.0 safety.apple.com.*.stream
-0.0.0.0 safety.apple.com.*.science
-0.0.0.0 safety.apple.com.*.bid
-0.0.0.0 safety.microsoft.com.*.download
-0.0.0.0 safety.microsoft.com.*.trade
-0.0.0.0 safety.microsoft.com.*.review
-0.0.0.0 safety.microsoft.com.*.stream
-0.0.0.0 safety.microsoft.com.*.science
-0.0.0.0 safety.microsoft.com.*.bid
-0.0.0.0 savorystructure.com
-0.0.0.0 saysidewalk.com
-0.0.0.0 scarcesign.com
-0.0.0.0 scarcestream.com
-0.0.0.0 scintillatingspace.com
-0.0.0.0 scrubsky.com
-0.0.0.0 scrubswim.com
-0.0.0.0 selectivesummer.com
-0.0.0.0 separatesilver.com
-0.0.0.0 shakesea.com
-0.0.0.0 shakesuggestion.com
-0.0.0.0 shakytaste.com
-0.0.0.0 shallowschool.com
-0.0.0.0 sharppatch.com
-0.0.0.0 shelterstraw.com
-0.0.0.0 shiveringsail.com
-0.0.0.0 shockingship.com
-0.0.0.0 shockingswing.com
-0.0.0.0 sillyscrew.com
-0.0.0.0 similarsabine.com
-0.0.0.0 simplisticnose.com
-0.0.0.0 sinceresofa.com
-0.0.0.0 sincerespy.com
-0.0.0.0 slaysweater.com
-0.0.0.0 sleepcartoon.com
-0.0.0.0 smilingwaves.com
-0.0.0.0 snakesort.com
-0.0.0.0 sneaklevel.com
-0.0.0.0 sneakystamp.com
-0.0.0.0 sorethunder.com
-0.0.0.0 spectacularsnail.com
-0.0.0.0 spidersboats.com
-0.0.0.0 spiffymachine.com
-0.0.0.0 spillvacation.com
-0.0.0.0 spookyslope.com
-0.0.0.0 spottysense.com
-0.0.0.0 spurioussteam.com
-0.0.0.0 squeamishscarecrow.com
-0.0.0.0 steadfastsound.com
-0.0.0.0 stickssheep.com
-0.0.0.0 storesurprise.com
-0.0.0.0 stormyachiever.com
-0.0.0.0 stormyshock.com
-0.0.0.0 stormysponge.com
-0.0.0.0 straightnest.com
-0.0.0.0 straightschool.com
-0.0.0.0 strivesidewalk.com
-0.0.0.0 structuresofa.com
-0.0.0.0 succeedscene.com
-0.0.0.0 suddensidewalk.com
-0.0.0.0 sugarcurtain.com
-0.0.0.0 superficialsink.com
-0.0.0.0 swordgoose.com
-0.0.0.0 static.tidiochat.com
-0.0.0.0 stats.avast.com
-0.0.0.0 sofia.trustx.org
-0.0.0.0 static.zotabox.co
-0.0.0.0 summerhamster.com
-0.0.0.0 serve.adtrackers.net
-0.0.0.0 serve.bannertrack.net
-0.0.0.0 saber.srvcs.tumblr.com
-0.0.0.0 sdk.a4.tl
-0.0.0.0 stats.jpush.cn
-0.0.0.0 s.jpush.cn
-0.0.0.0 sf14g.com
-0.0.0.0 support.neustar
-0.0.0.0 security.neustar
-0.0.0.0 safe.txmblr.com
-0.0.0.0 sascdn.com
-0.0.0.0 s02.savando.de
-0.0.0.0 sparechange.io
-0.0.0.0 static.sparechange.io
-0.0.0.0 swingpaints.com
-0.0.0.0 s5.flashget.com
-0.0.0.0 source.youxiaoad.com
-0.0.0.0 surveysampling.com
-0.0.0.0 sp1.jssearch.net
-0.0.0.0 sosa.semanticrep.com
-0.0.0.0 sieure.asia
-0.0.0.0 sinagogart.org
-0.0.0.0 sd5doozry8.com
-0.0.0.0 saltworld.net
-0.0.0.0 spaceforslums.com
-0.0.0.0 stablinost.ug
-0.0.0.0 supported-center.16mb.com
-0.0.0.0 srst.in
-0.0.0.0 security-customer-verification.com
-0.0.0.0 serwer1954085.home.pl
-0.0.0.0 ssp.yottads.com
-0.0.0.0 sentry-cdn.com
-0.0.0.0 soda.media
-0.0.0.0 shmokiads.com
-0.0.0.0 science-media-group.com
-0.0.0.0 skyadmedia.com
-0.0.0.0 solvemedia.com
-0.0.0.0 safelinking.net
-0.0.0.0 ssp-3-9f58.trnox.com
-0.0.0.0 sec.tclclouds.com
-0.0.0.0 supporthello.com
-0.0.0.0 softwillinfotech.in
-0.0.0.0 support.pcvark.com
-0.0.0.0 sumatoad.com
-0.0.0.0 splicky.com
-0.0.0.0 sdk.adtiming.com
-0.0.0.0 speee-ad.akamaized.net
-0.0.0.0 sc.smardroid.com
-0.0.0.0 sitemaji.com
-0.0.0.0 sync.mobojoy.baidu.com
-0.0.0.0 ssads.net
-0.0.0.0 sabavision.com
-0.0.0.0 s.hitplus.ir
-0.0.0.0 samandehi.ir
-0.0.0.0 st.ad.adnow.com
-0.0.0.0 secure.trafic.ro
-0.0.0.0 s.atemda.com
-0.0.0.0 smartdreamers.ro
-0.0.0.0 smartdreamers.com
-0.0.0.0 storage.icorp.ro
-0.0.0.0 supportcorner.co
-0.0.0.0 sorteos.cf
-0.0.0.0 solidopinion.com
-0.0.0.0 sulvo.com
-0.0.0.0 sunmedia.tv
-0.0.0.0 subdo.tumejortorrent.com
-0.0.0.0 subdo.torrentrapid.com
-0.0.0.0 server-99-84-41-80.ewr52.r.cloudfront.net
-0.0.0.0 server-13-32-250-122.phl50.r.cloudfront.net
-0.0.0.0 server-143-204-181-81.lhr50.r.cloudfront.net
-0.0.0.0 server-99-84-127-114.ewr52.r.cloudfront.net
-0.0.0.0 server-13-32-250-89.phl50.r.cloudfront.net
-0.0.0.0 server-13-32-250-227.phl50.r.cloudfront.net
-0.0.0.0 smiinformer1.com
-0.0.0.0 sedoparking.com
-0.0.0.0 st.astraone.io
-0.0.0.0 sexohme.ru
-0.0.0.0 static.awempire.com
-0.0.0.0 smiinformer.online
-0.0.0.0 sdv-m.ru
-0.0.0.0 stat360.net
-0.0.0.0 smiinform.zone
-0.0.0.0 sendpulse.com
-0.0.0.0 steambets.net
-0.0.0.0 sedorobma.ru
-0.0.0.0 syndn.net
-0.0.0.0 s-onetag.com
-0.0.0.0 static-dmp.mediaglacier.com
-0.0.0.0 sdqoi2d.com
-0.0.0.0 smartads.mobile.yahoo.co.jp
-0.0.0.0 smartads.mobile.yahoo.co
-0.0.0.0 statsforads.com
-0.0.0.0 service.t.sina.com.cn
-0.0.0.0 static.ak.fbcdn.net
-0.0.0.0 spot.im
-0.0.0.0 ssl-heise.met.vgwort.de
-0.0.0.0 sharethrough.com
-0.0.0.0 sail-horizon.com
-0.0.0.0 services.social.microsoft.com
-0.0.0.0 static.cbox.ws
-0.0.0.0 secure-vtrack.com
-0.0.0.0 speedcount.de
-0.0.0.0 s1.srtk.net
-0.0.0.0 s2.srtk.net
-0.0.0.0 surveynetworks.com
-0.0.0.0 sacdcad02.salon.com
-0.0.0.0 softonic-analytics.net
-0.0.0.0 smartshoppingads.de
-0.0.0.0 smartdevicemedia.com
-0.0.0.0 smartcontext.pl
-0.0.0.0 smaclick.com
-0.0.0.0 sitestatslive.com
-0.0.0.0 scanscout.com
-0.0.0.0 samtrack1.com
-0.0.0.0 searchmagnified.com
-0.0.0.0 stat.pchome.net
-0.0.0.0 stats.partypoker.com
-0.0.0.0 stat.p24.hu
-0.0.0.0 stat.it168.com
-0.0.0.0 stats.canalblog.com
-0.0.0.0 srv.carbonads.net
-0.0.0.0 storage.trafic.ro
-0.0.0.0 s.clickiocdn.com
-0.0.0.0 seal.godaddy.com
-0.0.0.0 siteimproveanalytics.com
-0.0.0.0 static-ssl.responsetap.com
-0.0.0.0 segment.com
-0.0.0.0 smtad.net
-0.0.0.0 segment.io
-0.0.0.0 silverpush.co
-0.0.0.0 statsfe2.ws.microsoft.com
-0.0.0.0 schemas.microsoft.akadns.net
-0.0.0.0 s.spoutable.com
-0.0.0.0 spoutable.com
-0.0.0.0 sstatic1.histats.com
-0.0.0.0 static.mywebstats.com.au
-0.0.0.0 searchguide.windstream.net
-0.0.0.0 sigmaad.com
-0.0.0.0 snssdk.com
-0.0.0.0 spynet.microsoft.com
-0.0.0.0 spynet1.microsoft.com
-0.0.0.0 spynet2.microsoft.com
-0.0.0.0 static-uk.plista.com
-0.0.0.0 sedo.cachefly.net
-0.0.0.0 sponsoredlinks.nationalgeographic.com
-0.0.0.0 script.netminers.dk
-0.0.0.0 secure-cdn.mplxtms.com
-0.0.0.0 servedby.orn-adserver.nl
-0.0.0.0 stats.media.onet.pl
-0.0.0.0 stats0.one.ru
-0.0.0.0 stats1.one.ru
-0.0.0.0 stats2.one.ru
-0.0.0.0 stat.onestat.com
-0.0.0.0 stats.omg.com.au
-0.0.0.0 stats2.omg.com.au
-0.0.0.0 s.tagsrvcs.com
-0.0.0.0 stats.webleads-tracker.com
-0.0.0.0 statse.webtrendslive.com
-0.0.0.0 spylog.com
-0.0.0.0 smartad.mercadolibre.com.ar
-0.0.0.0 smartad.mercadolivre.com.br
-0.0.0.0 search.services.mozilla.com
-0.0.0.0 shavar.services.mozilla.com
-0.0.0.0 snippets.cdn.mozilla.net
-0.0.0.0 stats.indextools.com
-0.0.0.0 stats.indexstats.com
-0.0.0.0 secure.indexstats.com
-0.0.0.0 sentry.io
-0.0.0.0 sspservice.ad-survey.com
-0.0.0.0 s201.indexstats.com
-0.0.0.0 syndication.streamads.yahoo.com
-0.0.0.0 srv*.wa.marketingsolutions.yahoo.com
-0.0.0.0 sync2ad.com
-0.0.0.0 servedbyadbutler.com
-0.0.0.0 stickylogic.com
-0.0.0.0 serw.myroitracking.com
-0.0.0.0 service.multi-pops.com
-0.0.0.0 schibsted.com
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 schibsted.io
-0.0.0.0 snapchat-webfonts.storage.googleapis.com
-0.0.0.0 simpleanalytics.io
-0.0.0.0 scripts.mediavine.com
-0.0.0.0 stats.lotlinx.com
-0.0.0.0 suggestqueries.google.com
-0.0.0.0 subscription-assets.timeinc.com
-0.0.0.0 snowplowanalytics.com
-0.0.0.0 static.yieldmo.com
-0.0.0.0 sleepcartoon.com
-0.0.0.0 sc-analytics.appspot.com
-0.0.0.0 snapads.com
-0.0.0.0 silverpush.location.com
-0.0.0.0 saspreview.com
-0.0.0.0 s1258972516.t.eloqua.com
-0.0.0.0 sensoro.com
-0.0.0.0 sam4m.com
-0.0.0.0 s4m.io
-0.0.0.0 static-www.ec.popcap.com
-0.0.0.0 staticxx.facebook.com
-0.0.0.0 s.btstatic.com
-0.0.0.0 sptproximitykit.com
-0.0.0.0 serving-sys.com
-0.0.0.0 singlespot.com
-0.0.0.0 singlespot
-0.0.0.0 segment-data.zqtk.net
-0.0.0.0 s.dpmsrv.com
-0.0.0.0 startup.mobile.yandex.net
-0.0.0.0 speedcurve.com
-0.0.0.0 stack-sonar.com
-0.0.0.0 stats.nextcloud.com
-0.0.0.0 stats.popcap.com
-0.0.0.0 s.pubmine.com
-0.0.0.0 static.h-bid.com
-0.0.0.0 sjs.bizographics.com
-0.0.0.0 static.adziff.com
-0.0.0.0 static.woopra.com
-0.0.0.0 sailthru.com
-0.0.0.0 smaato.net
-0.0.0.0 sa.bbc.co.uk
-0.0.0.0 sa.bbc.com
-0.0.0.0 scdn.cxense.com
-0.0.0.0 securetoolext.com
-0.0.0.0 s0.2mdn.net
-0.0.0.0 secure.gaug.es
-0.0.0.0 s.newsmaxfeednetwork.com
-0.0.0.0 spshared.5min.com
-0.0.0.0 s3.buysellads.com
-0.0.0.0 smartadserver.com
-0.0.0.0 smart-ip.net
-0.0.0.0 springserve.com
-0.0.0.0 stupidwebtools.com
-0.0.0.0 st.a-link.co.kr
-0.0.0.0 sprout-ad.com
-0.0.0.0 srv.main.ebayrtm.com
-0.0.0.0 sp.zalo.me
-0.0.0.0 smartclick.net
-0.0.0.0 ssl.cdn.turner.com
-0.0.0.0 se.monetate.net
-0.0.0.0 secure.statcounter.com
-0.0.0.0 snap.licdn.com
-0.0.0.0 s.ntv.io
-0.0.0.0 suppoet.me
-0.0.0.0 surf.11r.biz
-0.0.0.0 surf.org.pl
-0.0.0.0 surf.rollmob.com
-0.0.0.0 surf100sites.com
-0.0.0.0 surf7.info
-0.0.0.0 surfaccuracy.com
-0.0.0.0 surfacedesigners.us
-0.0.0.0 surfbuyermac.com
-0.0.0.0 surfenhance.com
-0.0.0.0 surfer.secure.la
-0.0.0.0 surfer1900.kozow.com
-0.0.0.0 surfers.ro
-0.0.0.0 surfersuitesoftware.com
-0.0.0.0 surfertools.com
-0.0.0.0 surfeurdor.free.fr
-0.0.0.0 surfforsure.com
-0.0.0.0 surfgalleries.com
-0.0.0.0 surfingonmyown.info
-0.0.0.0 surfingprizes.com
-0.0.0.0 surflinksmedical.com
-0.0.0.0 surfmatch.com
-0.0.0.0 surfmusik-adserver.de
-0.0.0.0 supercellinfo.ml
-0.0.0.0 secure.trust-guard.com
-0.0.0.0 s10.histats.com
-0.0.0.0 shop.pe
-0.0.0.0 adexpert.cz
-0.0.0.0 s.adexpert.cz
-0.0.0.0 sonobi.com
-0.0.0.0 script.rtbclick.net
-0.0.0.0 static.ads-twitter.com
-0.0.0.0 stats.pandora.com
-0.0.0.0 s95.research.de.com
-0.0.0.0 spywarenuker.com
-0.0.0.0 s3.phluant.com
-0.0.0.0 stats.wp.com
-0.0.0.0 static.hotjar.com
-0.0.0.0 srwww1.com
-0.0.0.0 starffa.com
-0.0.0.0 start.freeze.com
-0.0.0.0 stat.cliche.se
-0.0.0.0 stat.dealtime.com
-0.0.0.0 stat.dyna.ultraweb.hu
-0.0.0.0 stat.pl
-0.0.0.0 stat.webmedia.pl
-0.0.0.0 stat.zenon.net
-0.0.0.0 stat24.com
-0.0.0.0 stat24.meta.ua
-0.0.0.0 statcounter.com
-0.0.0.0 static.fmpub.net
+||stat.discogs.com^
+||svc.ms^
+||smartlinksv2.mediresource.com^
+||searchlock.com^
+||saymedia.com^
+||static-42andpark-com.s3.amazonaws.com^
+||streamstats.prd.dlive.tv^
+||sdkconfig.ad.intl.xiaomi.com^
+||storeconfig.mistat.intl.xiaomi.com^
+||stats-locations.com^
+||statistics.*.free-counters.co.uk^
+||statistics.11880.com^
+||2miners.com^
+||statistics.afasonline.com^
+||statistics.aldi-international.com^
+||appjop.com^
+||statistics.crowdynews.com^
+||statistics-cyberpank.co.cc^
+||elsevier.nl^
+||flurrydata.com^
+||statistics.klicktel.de^
+||mindtake.com^
+||iab-austria.at^
+||statistics.q42.nl^
+||statistics.raiffeisen.ch^
+||statistics.riskommunal.net^
+||britepool.com^
+||sponsored.theonion.com^
+||wibiya.com^
+||tealdit.com^
+||statistics.ziegeler-medien.de^
+||unionstatistics.com^
+||sandstorm-statistics-player-api.newworldinteractive.com^
+||statistics.maps.me^
+||samplicio.us^
+||saltarsmart.biz^
+||salmonads.com^
+||salesrep.ai^
+||salesmachine.io^
+||salesloft.com^
+||saleshandy.com^
+||salesflare.com^
+||salemove.com^
+||saberfeedback.com^
+||safedk.com^
+||subscrib.com^
+||smartrcdn.s3.amazonaws.com^
+||subscrib.^
+||sastrk.com^
+||siencesratify.com^
+||skimlinks.com^
+||sendgrid.info^
+||simpleopptys.com^
+||sjremetrics.java.com^
+||sharebitstower.com^
+||spysherrif-anti-spyware.apponic.com^
+||south32.com^
+||spywareonline.org^
+||systemexplorer.net^
+||salesforceliveagent.com^
+||surfbouncer.com^
+||sitestats.com^
+||stadig.ifeng.com^
+||streams.ghost.org^
+||linkmink.com^
+||206ads.com^
+||syndication.twitter.com^
+||seevolution.com^
+||wingify.com^
+||smartlook.com^
+||stathat.com^
+||securedvisit.com^
+||sharethis.com^
+||sellmeyourtraffic.com^
+||s23832.pcdn.co^
+||s16002.pcdn.co^
+||seewhy.com^
+||znaptag.com^
+||smartclip.net^
+||shop2market.com^
+||static-shareaholic.s3.amazonaws.com^
+||sokratidisplay-res.cloudinary.com^
+||sokrati.com^
+||stats.zmags.com^
+||tracking202.com^
+||socialspark.com^
+||sourceknowledge.com^
+||brsrvr.com^
+||trackedweb.net^
+||shield.sitelock.com^
+||seal-houston.bbb.org^
+||stats.scanguard.com^
+||stats.totalav.com^
+||techtracker.com^
+||siftscience.com^
+||studads.com^
+||skip-ads.net^
+||s.360safe.com^
+||spider.ad^
+||supernet.com.bo^
+||screechingfurniture.com^
+||snackly.co^
+||seskeu3zk7.com^
+||specificmedia.co.uk^
+||start.bz^
+||solistic.co^
+||sortable.com^
+||semseoymas.com^
+||safety.apple.com.*.download^
+||safety.apple.com.*.trade^
+||safety.apple.com.*.review^
+||safety.apple.com.*.stream^
+||safety.apple.com.*.science^
+||safety.apple.com.*.bid^
+||safety.microsoft.com.*.download^
+||safety.microsoft.com.*.trade^
+||safety.microsoft.com.*.review^
+||safety.microsoft.com.*.stream^
+||safety.microsoft.com.*.science^
+||safety.microsoft.com.*.bid^
+||savorystructure.com^
+||saysidewalk.com^
+||scarcesign.com^
+||scarcestream.com^
+||scintillatingspace.com^
+||scrubsky.com^
+||scrubswim.com^
+||selectivesummer.com^
+||separatesilver.com^
+||shakesea.com^
+||shakesuggestion.com^
+||shakytaste.com^
+||shallowschool.com^
+||sharppatch.com^
+||shelterstraw.com^
+||shiveringsail.com^
+||shockingship.com^
+||shockingswing.com^
+||sillyscrew.com^
+||similarsabine.com^
+||simplisticnose.com^
+||sinceresofa.com^
+||sincerespy.com^
+||slaysweater.com^
+||sleepcartoon.com^
+||smilingwaves.com^
+||snakesort.com^
+||sneaklevel.com^
+||sneakystamp.com^
+||sorethunder.com^
+||spectacularsnail.com^
+||spidersboats.com^
+||spiffymachine.com^
+||spillvacation.com^
+||spookyslope.com^
+||spottysense.com^
+||spurioussteam.com^
+||squeamishscarecrow.com^
+||steadfastsound.com^
+||stickssheep.com^
+||storesurprise.com^
+||stormyachiever.com^
+||stormyshock.com^
+||stormysponge.com^
+||straightnest.com^
+||straightschool.com^
+||strivesidewalk.com^
+||structuresofa.com^
+||succeedscene.com^
+||suddensidewalk.com^
+||sugarcurtain.com^
+||superficialsink.com^
+||swordgoose.com^
+||tidiochat.com^
+||stats.avast.com^
+||trustx.org^
+||summerhamster.com^
+||adtrackers.net^
+||saber.srvcs.tumblr.com^
+||sdk.a4.tl^
+||sf14g.com^
+||support.neustar^
+||security.neustar^
+||safe.txmblr.com^
+||sascdn.com^
+||sparechange.io^
+||swingpaints.com^
+||youxiaoad.com^
+||surveysampling.com^
+||jssearch.net^
+||sosa.semanticrep.com^
+||sieure.asia^
+||sinagogart.org^
+||sd5doozry8.com^
+||saltworld.net^
+||spaceforslums.com^
+||stablinost.ug^
+||srst.in^
+||security-customer-verification.com^
+||yottads.com^
+||sentry-cdn.com^
+||soda.media^
+||shmokiads.com^
+||science-media-group.com^
+||skyadmedia.com^
+||solvemedia.com^
+||safelinking.net^
+||trnox.com^
+||sec.tclclouds.com^
+||supporthello.com^
+||softwillinfotech.in^
+||sumatoad.com^
+||splicky.com^
+||speee-ad.akamaized.net^
+||sc.smardroid.com^
+||sitemaji.com^
+||sync.mobojoy.baidu.com^
+||ssads.net^
+||sabavision.com^
+||samandehi.ir^
+||trafic.ro^
+||smartdreamers.ro^
+||smartdreamers.com^
+||storage.icorp.ro^
+||supportcorner.co^
+||sorteos.cf^
+||solidopinion.com^
+||sulvo.com^
+||sunmedia.tv^
+||subdo.tumejortorrent.com^
+||subdo.torrentrapid.com^
+||smiinformer1.com^
+||sedoparking.com^
+||astraone.io^
+||sexohme.ru^
+||smiinformer.online^
+||sdv-m.ru^
+||stat360.net^
+||smiinform.zone^
+||sendpulse.com^
+||steambets.net^
+||sedorobma.ru^
+||syndn.net^
+||s-onetag.com^
+||sdqoi2d.com^
+||smartads.mobile.yahoo.co^
+||statsforads.com^
+||service.t.sina.com.cn^
+||static.ak.fbcdn.net^
+||spot.im^
+||ssl-heise.met.vgwort.de^
+||sharethrough.com^
+||sail-horizon.com^
+||services.social.microsoft.com^
+||secure-vtrack.com^
+||speedcount.de^
+||s1.srtk.net^
+||s2.srtk.net^
+||surveynetworks.com^
+||sacdcad*.salon.com^
+||softonic-analytics.net^
+||smartshoppingads.de^
+||smartdevicemedia.com^
+||smartcontext.pl^
+||smaclick.com^
+||sitestatslive.com^
+||scanscout.com^
+||samtrack1.com^
+||searchmagnified.com^
+||stat.pchome.net^
+||stats.partypoker.com^
+||stat.p24.hu^
+||stat.it168.com^
+||stats.canalblog.com^
+||seal.godaddy.com^
+||siteimproveanalytics.com^
+||segment.com^
+||smtad.net^
+||segment.io^
+||silverpush.co^
+||statsfe2.ws.microsoft.com^
+||schemas.microsoft.akadns.net^
+||spoutable.com^
+||searchguide.windstream.net^
+||sigmaad.com^
+||snssdk.com^
+||spynet*.microsoft.com^
+||sponsoredlinks.nationalgeographic.com^
+||mplxtms.com^
+||adserver.nl^
+||orn-adserver.nl^
+||stats.media.onet.pl^
+||stats*.one.ru^
+||stats*.omg.com.au^
+||tagsrvcs.com^
+||webleads-tracker.com^
+||statse.webtrendslive.com^
+||spylog.com^
+||smartad.mercadolibre.com.ar^
+||smartad.mercadolivre.com.br^
+||search.services.mozilla.com^
+||snippets.cdn.mozilla.net^
+||stats.indextools.com^
+||indexstats.com^
+||sentry.io^
+||streamads.yahoo.com^
+||marketingsolutions.yahoo.com^
+||sync2ad.com^
+||servedbyadbutler.com^
+||stickylogic.com^
+||multi-pops.com^
+||schibsted.com^
+||safebrowsing.googleapis.com^
+||schibsted.io^
+||snapchat-webfonts.storage.googleapis.com
+||simpleanalytics.io^
+||stats.lotlinx.com^
+||suggestqueries.google.com^
+||snowplowanalytics.com^
+||yieldmo.com^
+||sleepcartoon.com^
+||sc-analytics.appspot.com^
+||snapads.com^
+||location.com^
+||saspreview.com^
+||sensoro.com^
+||sam4m.com^
+||s4m.io^
+||static-www.ec.popcap.com^
+||staticxx.facebook.com^
+||sptproximitykit.com^
+||serving-sys.com^
+||singlespot.com^
+||singlespot^
+||zqtk.net^
+||startup.mobile.yandex.net^
+||speedcurve.com^
+||stack-sonar.com^
+||stats.nextcloud.com^
+||stats.popcap.com^
+||woopra.com^
+||sailthru.com^
+||smaato.net^
+||sa.bbc.co.uk^
+||sa.bbc.com^
+||securetoolext.com^
+||2mdn.net^
+||5min.com^
+||smartadserver.com^
+||smart-ip.net^
+||springserve.com^
+||stupidwebtools.com^
+||st.a-link.co.kr^
+||sprout-ad.com^
+||srv.main.ebayrtm.com^
+||sp.zalo.me^
+||smartclick.net^
+||statcounter.com^
+||snap.licdn.com^
+||suppoet.me^
+||surf.org.pl^
+||rollmob.com^
+||surf100sites.com^
+||surf7.info^
+||surfaccuracy.com^
+||surfacedesigners.us^
+||surfbuyermac.com^
+||surfenhance.com^
+||surfer.secure.la^
+||surfer1900.kozow.com^
+||surfers.ro^
+||surfersuitesoftware.com^
+||surfertools.com^
+||surfeurdor.free.fr^
+||surfforsure.com^
+||surfgalleries.com^
+||surfingonmyown.info^
+||surfingprizes.com^
+||surflinksmedical.com^
+||surfmatch.com^
+||surfmusik-adserver.de^
+||supercellinfo.ml^
+||secure.trust-guard.com^
+||shop.pe^
+||adexpert.cz^
+||sonobi.com^
+||rtbclick.net^
+||stats.pandora.com^
+||s95.research.de.com^
+||spywarenuker.com^
+||phluant.com^
+||stats.wp.com^
+||srwww1.com^
+||starffa.com^
+||start.freeze.com^
+||stat.dealtime.com^
+||stat.dyna.ultraweb.hu^
+||stat.pl^
+||stat.webmedia.pl^
+||stat.zenon.net^
+||stat24.com^
+||stat24.meta.ua^
+||fmpub.net^
 ||scorecardresearch.com^
-0.0.0.0 staticads.btopenworld.com
-0.0.0.0 statistik-gallup.net
+||staticads.btopenworld.com^
+||statistik-gallup.net^
+||cooktracking.com^
+||offer-notavailable.com^
+||advertiserpages.com^
+||treeupdate.com^
+||finalfantasiez.com^
+||humanrightsandrules.com^
+||brunoalamo.com^
+||providesupport.com^
+||mewtenhah.com^
+||cawsodpet.club^
+||joyekepus.online^
+||todayopportunities.com^
+||semitrained.com^
+||saveperks.com^
+||ragingbullslotscampaign.com^
+||roofcemetery.com^
+||kirtuka.com^
+||beberuby.com^
 0.0.0.0 statm.the-adult-company.com
 0.0.0.0 stats.blogger.com
 0.0.0.0 stats.directnic.com
@@ -8936,7 +8862,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tidio.com
 0.0.0.0 telemetry.caddyserver.com
 0.0.0.0 telemetry-experiment.cdn.mozilla.net
-0.0.0.0 tracking.trnox.com
 0.0.0.0 townsquareblogs.com
 0.0.0.0 tool-avpg.crsi.symantec.com
 0.0.0.0 tool-avpg.crsi.symantec.com
@@ -8969,7 +8894,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 thikraik.net
 0.0.0.0 track.tap4joy.com
 0.0.0.0 tracking.playzing.g6.zing.vn
-0.0.0.0 tap.ads-twitter.com
 0.0.0.0 targetemsecure.blob.core.windows.net
 0.0.0.0 triggeredmail.appspot.com
 0.0.0.0 transithits.com
@@ -9098,9 +9022,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tsyndicate.com
 0.0.0.0 taobao.com
 0.0.0.0 tce.alicdn.com
-0.0.0.0 tracker.adotmob.com
-0.0.0.0 trnox.com
-0.0.0.0 tracking.trnox.com
 0.0.0.0 tkrecorder.aotter.net
 0.0.0.0 tktracker.aotter.net
 0.0.0.0 tracking.intl.miui.com
@@ -9109,8 +9030,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tr.snapchat.com
 0.0.0.0 track.tenjin.io
 0.0.0.0 tblsft.com
-0.0.0.0 test-statistics.2miners.com
-0.0.0.0 tag.unionstatistics.com
 0.0.0.0 terminus.com
 0.0.0.0 terminus.services
 0.0.0.0 tribl.io
@@ -9139,9 +9058,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 t23.intelliad.de
 0.0.0.0 tracker.leadenhancer.com
 0.0.0.0 track.yieldsoftware.com
-0.0.0.0 tracking202.com
 0.0.0.0 tracking.percentmobile.com
-0.0.0.0 trackedweb.net
 0.0.0.0 tracking.websitealive.com
 0.0.0.0 track.scanguard.com
 0.0.0.0 track.totalav.com
@@ -9153,7 +9070,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 trv.upperbooking.com
 0.0.0.0 trl.upperbooking.com
 0.0.0.0 tracking.lqm.io
-0.0.0.0 techtracker.com
 0.0.0.0 tracking.tidalhifi.com
 0.0.0.0 track.did-it.com
 0.0.0.0 tribalfusion.com
@@ -9184,10 +9100,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 truckstomatoes.com
 0.0.0.0 typicalteeth.com
 0.0.0.0 tzwaw.pw
-0.0.0.0 tidiochat.com
 0.0.0.0 thor.blindferret.media
 0.0.0.0 track.mmsvc.io
-0.0.0.0 trustx.org
 0.0.0.0 telemetry.malwarebytes.com
 0.0.0.0 telemetry.gfe.nvidia.com
 0.0.0.0 telemetry.nvidia.com
@@ -9257,7 +9171,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracking.cdiscount.com
 0.0.0.0 topqualitylink.com
 0.0.0.0 txads.buzzcity.com
-0.0.0.0 trafic.ro
 0.0.0.0 tag.perfectaudience.com
 0.0.0.0 tags.us.onscroll.com
 0.0.0.0 top-fwz1.mail.ru
@@ -9282,7 +9195,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tags.bkrtx.com
 0.0.0.0 track.visitorpath.com
 0.0.0.0 teads.tv
-0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tracking-opi.fonpit.de
 0.0.0.0 trck.at
 0.0.0.0 trackersimulator.org
@@ -9290,7 +9202,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 tracking.callmeasurement.com
 0.0.0.0 tqlkg.com
 0.0.0.0 tencent.mm.plugin.location_soso.com
-0.0.0.0 tencent.mm.plugin.location.com
 0.0.0.0 tencent.map.geolocation.com
 0.0.0.0 thinknear-hosted.thinknearhub.com
 0.0.0.0 teemo.co
@@ -9388,7 +9299,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 userreport.com
 0.0.0.0 uodoo.com
 0.0.0.0 ue.flipboard.com
-0.0.0.0 unionstatistics.com
 0.0.0.0 ultrawave.everquote.com
 0.0.0.0 updownload.com
 0.0.0.0 upload.iheima.com
@@ -9427,7 +9337,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 ui.userlocal.jp
 0.0.0.0 use.typekit.net
 0.0.0.0 uedata.amazon.com
-0.0.0.0 uk.plista.com
 0.0.0.0 uarating.com
 0.0.0.0 ublock.org
 0.0.0.0 ukbanners.com
@@ -9590,7 +9499,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 video-stats.video.google.com
-0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
 0.0.0.0 visit.webhosting.yahoo.com
@@ -9725,7 +9633,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webcompanion.com
 0.0.0.0 widgets.zohosalesiq.com
 0.0.0.0 website-assets-fw.freshworks.com
-0.0.0.0 wingify.com
 0.0.0.0 wishabi.com
 0.0.0.0 websitealive3.com
 0.0.0.0 websitealive.com
@@ -9787,7 +9694,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 webservices.sub2tech.com
 0.0.0.0 web.softonic-analytics.net
 0.0.0.0 exacttarget.com
-0.0.0.0 widget-v4.tidiochat.com
 0.0.0.0 wwwabrokegamercom.imageshack.host
 0.0.0.0 wearesmartertravel.com
 0.0.0.0 wsod.com
@@ -9800,7 +9706,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 watson.microsoft.com
 0.0.0.0 officedepot.com
 0.0.0.0 webclients.net
-0.0.0.0 webleads-tracker.com
 0.0.0.0 webtrekk.net
 0.0.0.0 wt.o.nytimes.com
 0.0.0.0 wixlabs-countdown.appspot.com
@@ -9823,7 +9728,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 weborama.com
 0.0.0.0 weborama.net
 0.0.0.0 weborama.fr
-0.0.0.0 ws.sharethis.com
 0.0.0.0 webmasterplan.de
 0.0.0.0 weborama.fr
 0.0.0.0 webpower.com
@@ -9842,7 +9746,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 window.nixnet.cz
 0.0.0.0 wintricksbanner.googlepages.com
 0.0.0.0 wisepops.com
-0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
 0.0.0.0 xpostmail.com
 0.0.0.0 xaxis.com
@@ -9961,12 +9864,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yttz113.com
 0.0.0.0 yourbow.com
 0.0.0.0 youngmarble.com
-0.0.0.0 yasni.bannertrack.net
-0.0.0.0 youxiaoad.com
 0.0.0.0 y7mna.com
 0.0.0.0 yui-s.yahooapis.com
 0.0.0.0 youreasyforms.com
-0.0.0.0 yottads.com
 0.0.0.0 yourfreesoftonline.com
 0.0.0.0 yashi.com
 0.0.0.0 yu987.com
@@ -10010,7 +9910,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yieldlab.net
 0.0.0.0 yieldmanager.com
 0.0.0.0 yieldmanager.net
-0.0.0.0 yieldmo.com
 0.0.0.0 yieldtraffic.com
 0.0.0.0 yldbt.com
 0.0.0.0 yoggrt.com
@@ -10117,10 +10016,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zoho.eu
 0.0.0.0 zoho.in
 0.0.0.0 zarget.com
-0.0.0.0 znaptag.com
 0.0.0.0 zbwp6ghm.com
 0.0.0.0 zealousfield.com
-0.0.0.0 zoover.adtrackers.net
 0.0.0.0 zonatorrent.es
 0.0.0.0 zurgerya.ru
 0.0.0.0 zewkj.com
@@ -10138,7 +10035,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zdbb.net
 0.0.0.0 zeusclicks.com
 0.0.0.0 zmedia.com
-0.0.0.0 zqtk.net
 0.0.0.0 zopim.com
 0.0.0.0 z.track136.com
 0.0.0.0 za1.zeroredirect12.com
@@ -10174,7 +10070,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zonearmour4u.work
 0.0.0.0 zonog.mobilesatisfy.com
 0.0.0.0 zoover.adnetasia.com
-0.0.0.0 zoover.bannertrack.net
 0.0.0.0 zp1.november-lax.com
 0.0.0.0 zpctncydojjh.com
 0.0.0.0 zpe.november-lax.com
@@ -10232,7 +10127,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 0rg.online
 0.0.0.0 0ut.click
 0.0.0.0 0sntp7dnrr.com
-0.0.0.0 *-adnow.com
 0.0.0.0 *-identity.doubledutch.me
 0.0.0.0 *-dynatrace.allstate.com
 0.0.0.0 *.pixel.archive.is
@@ -10325,7 +10219,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 06.bd-pcgame.720582.com
 0.0.0.0 06.bd-pcgame.xiazai24.com
 0.0.0.0 06.creativecdn.com
-0.0.0.0 06.proxy.us-east-1.world.rw.yieldmo.com
 0.0.0.0 06.sharedsource.org
 0.0.0.0 06.video-ak.cdn.spotify.com
 0.0.0.0 06.zoekvinden.nl
@@ -10362,7 +10255,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 07-ladyluck.com
 0.0.0.0 07.8c.d12c.cidr.airmail.net
 0.0.0.0 07.bd-pcgame.xiazai24.com
-0.0.0.0 07.proxy.us-east-1.world.rw.yieldmo.com
 0.0.0.0 07.sharedsource.org
 0.0.0.0 07.sk
 0.0.0.0 07.super5566.com
@@ -10381,7 +10273,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 03.creativecdn.com
 0.0.0.0 03.hiveon.net
 0.0.0.0 03.node.hiveon.net
-0.0.0.0 03.proxy.us-east-1.world.rw.yieldmo.com
 0.0.0.0 03.sharedsource.org
 0.0.0.0 03.video-ak.cdn.spotify.com
 0.0.0.0 030.com
@@ -10419,7 +10310,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 04.bd-pcgame.720582.com
 0.0.0.0 04.bd-pcgame.xiazai24.com
 0.0.0.0 04.creativecdn.com
-0.0.0.0 04.proxy.us-east-1.world.rw.yieldmo.com
 0.0.0.0 04.static.xsf.ximxim.com
 0.0.0.0 04.video-ak.cdn.spotify.com
 0.0.0.0 0400msc.com
@@ -10462,7 +10352,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 05.bd-pcgame.xiazai24.com
 0.0.0.0 05.creativecdn.com
 0.0.0.0 05.microsoftcloudserver.com
-0.0.0.0 05.proxy.us-east-1.world.rw.yieldmo.com
 0.0.0.0 05.sharedsource.org
 0.0.0.0 05.video-ak.cdn.spotify.com
 0.0.0.0 0511zfhl.com
@@ -10555,7 +10444,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 1rx.io
 0.0.0.0 105627.hittail.com
 0.0.0.0 40nuggets.com
-0.0.0.0 2miners.com
 0.0.0.0 6sc.co
 0.0.0.0 xpj29977.com
 0.0.0.0 601703.com
@@ -10935,7 +10823,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 247realmedia.com
 0.0.0.0 247.ai
 0.0.0.0 247-inc.com
-0.0.0.0 206ads.com
 0.0.0.0 200summit.com
 0.0.0.0 1orange-u.com
 0.0.0.0 103bees.com
@@ -11010,7 +10897,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 7895983.cn
 0.0.0.0 60095256.adoric-om.com
 0.0.0.0 135.sub-198-224-148.myvzw.com
-0.0.0.0 2mdn.net
 0.0.0.0 6to4.ipv6.microsoft.com
 0.0.0.0 a-000*.a-msedge.net
 0.0.0.0 360yield.com
@@ -11030,7 +10916,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 4dsply.com
 0.0.0.0 11f976743800.com
 0.0.0.0 11hour.com
-0.0.0.0 5min.com
 0.0.0.0 11167236.adscreendirect.com
 0.0.0.0 123ads.nl
 0.0.0.0 123advertising.nl
@@ -11416,7 +11301,7 @@ happymoddownload.com##.fot-fixd
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
+*$cookie=/_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
 ! The Cookie Doesn't Need To Be Stored For 4 Month - This Sets It To One
 amiunique.org$cookie=AmIUniqueId;maxAge=43200
 !
