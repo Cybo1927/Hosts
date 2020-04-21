@@ -35,6 +35,22 @@ duckduckgo.com$cookie=/p|ntp_s/
 ||tracker.arc.io^
 ||ilovejuju.be^
 ||upapi.net^$empty
+||mc-nat-t.cloudapp.net^
+||piwik.tapatalk.com^
+||search-log.tapatalk.com^
+||audio-sp-sea.spotifycdn.net^
+||heads-ak-spotify-com.akamaized.net^
+||audio-akp-bbr-spotify-com.akamaized.net^
+@@||best.discord.media^
+||video-fa.scdn.co^
+||video-ak.cdn.spotify.com.akahost.net^
+||video-ak.cdn.spotify.com.eip.akadns.net^
+||adstudio-assets.scdn.co^
+||bloodhound.spotify.com^
+||https://cf-st.sc-cdn.net/c/*?uc=*
+|log.happymod.com^
+||seeded-session-images.scdn.co^$app=com.spotify.music
+||apresolve.spotify.com^$app=com.spotify.music
 
 ! New/Cool AdGuard Home Stuff From Update v0.101.0
 ||android.clients.google.com^$badfilter,ctag=os_android
