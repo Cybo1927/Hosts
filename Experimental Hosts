@@ -2,8 +2,9 @@
 ! Expires: 8 hours
 
 @@||static.trafficjunky.com/ab/ads_test.js
+@@||best.discord.media^
 
-pandora.com##+js(addEventListener-defuser.js, /mousedown|pagehide|pageshow|hashchange/)
+pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
@@ -41,16 +42,14 @@ duckduckgo.com$cookie=/p|ntp_s/
 ||audio-sp-sea.spotifycdn.net^
 ||heads-ak-spotify-com.akamaized.net^
 ||audio-akp-bbr-spotify-com.akamaized.net^
-@@||best.discord.media^
 ||video-fa.scdn.co^
 ||video-ak.cdn.spotify.com.akahost.net^
 ||video-ak.cdn.spotify.com.eip.akadns.net^
 ||adstudio-assets.scdn.co^
 ||bloodhound.spotify.com^
-||https://cf-st.sc-cdn.net/c/*?uc=*
-|log.happymod.com^
+||log.happymod.com^
 ||seeded-session-images.scdn.co^$app=com.spotify.music
-||apresolve.spotify.com^$app=com.spotify.music
+||apresolve.spotify.com
 
 ! New/Cool AdGuard Home Stuff From Update v0.101.0
 ||android.clients.google.com^$badfilter,ctag=os_android
@@ -68,6 +67,9 @@ taskernet.com#%#function CountStats() {}
 
 ###cookiePopupContainer
 ###cookieInfo
+##.clearfix.adContainer
+###content-ad-top-zone
+###ad-header-mobile
 
 ||duckduckgo.com/t/
 ||duckduckgo.com/t.js
@@ -84,3 +86,4 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||yahoo.com/admax/
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
+||https://cf-st.sc-cdn.net/c/*?uc=*
