@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -25,3 +25,14 @@
 ||reactjs.org^
 */react.$script
 */react-$script
+
+! facebook.com
+||157.240.14.35^$network
+! a.ns.facebook.com
+||129.134.30.12^$network
+! b.ns.facebook.com
+||129.134.31.12^$network
+! c.ns.facebook.com
+||185.89.218.12^$network
+! d.ns.facebook.com
+||185.89.219.12^$network
