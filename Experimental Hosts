@@ -50,6 +50,37 @@ duckduckgo.com$cookie=/p|ntp_s/
 ||log.happymod.com^
 ||seeded-session-images.scdn.co^$app=com.spotify.music
 ||apresolve.spotify.com
+||analytics.picsart.com^
+||cuebiq.com^
+||events.mapbox.com^
+||taboola.com^
+||moatadr.com^
+||braze.eu^
+||getsocial.im^
+||clickadilla.com^
+||titanads*.com^
+||jpush.io^
+||easytomessage.com^
+||predictor.yandex.net^
+||*-akp-bbr-spotify-com.akamaized.net^
+||neonplay.io^
+||singular.net^
+||video-*-cdn-spotify-com.akamaized.net^
+||video-fa.scdn.co^
+||*-ak.cdn.spotify.com.eip.akadns.net^
+||*-ak.cdn.spotify.com.akahost.net^
+||*-ak-spotify-com.akamaized.net^
+||vanheim.ff.avast.com^
+||samedceylan.com^
+||analytics.jumboprivacy.com^
+||px-cloud.net^
+||soom.la^
+||funwarcab.club^
+||ragyukjaw.club^
+||ribnixand.online^
+||beiven.pw^
+||sosohmmen.club^
+||stats.redditmedia.com^
 
 ! New/Cool AdGuard Home Stuff From Update v0.101.0
 ||android.clients.google.com^$badfilter,ctag=os_android
@@ -87,3 +118,4 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
 ||https://cf-st.sc-cdn.net/c/*?uc=*
+||https://bolt-gcdn.sc-cdn.net/2/*&uc=*
