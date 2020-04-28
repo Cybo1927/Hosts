@@ -4,6 +4,9 @@
 @@||static.trafficjunky.com/ab/ads_test.js
 @@||best.discord.media^
 
+! Make all COM and NET domains think you came from YouTube.com
+com,net#%#Object.defineProperty(document, 'referrer', { get: function() { return 'youtube.com'; } });
+
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 
 ! Needs a lot of testing
