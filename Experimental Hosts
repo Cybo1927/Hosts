@@ -5,7 +5,7 @@
 @@||best.discord.media^
 
 ! Make all COM and NET domains think you came from YouTube.com (only for document.referrer)
-com,net#%#Object.defineProperty(document, 'referrer', { get: function() { return 'youtube.com'; } });
+com,net#%#Object.defineProperty(document, 'referrer', { get: function() { return 'youtube.com'; } });$domain=~github.com
 
 ! Prevent some browser fingerprinting (JavaScript)
 ! Navigator API
