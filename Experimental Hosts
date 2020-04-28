@@ -14,11 +14,11 @@ com,net#%#Object.defineProperty(navigator, 'appCodeName', { get: function() { re
 com,net#%#Object.defineProperty(navigator, 'appName', { get: function() { return 'Netscape'; } });
 com,net#%#Object.defineProperty(navigator, 'appVersion', { get: function() { return 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.62 Mobile Safari/537.36'; } });
 com,net#%#Object.defineProperty(navigator, 'productSub', { get: function() { return '20030107'; } });
-com,net#%#Object.defineProperty(navigator, 'buildID', { get: function() { return ''; } });
+com,net#%#Object.defineProperty(navigator, 'buildID', { get: function() { return 'undefined'; } });
 com,net#%#Object.defineProperty(navigator, 'platform', { get: function() { return 'Linux armv8l'; } });
-com,net#%#Object.defineProperty(navigator, 'oscpu', { get: function() { return ''; } });
+com,net#%#Object.defineProperty(navigator, 'oscpu', { get: function() { return 'undefined'; } });
 com,net#%#Object.defineProperty(navigator, 'deviceMemory', { get: function() { return '4'; } });
-com,net#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
+com,net#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } });
 com,net#%#Object.defineProperty(navigator, 'userAgent', { get: function() { return 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.62 Mobile Safari/537.36'; } });
 com,net#%#Object.defineProperty(navigator, 'vendor', { get: function() { return 'Google Inc.'; } });
 com,net#%#Object.defineProperty(navigator, 'product', { get: function() { return 'Gecko'; } });
