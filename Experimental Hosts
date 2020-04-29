@@ -25,6 +25,8 @@ com,net#%#Object.defineProperty(navigator, 'product', { get: function() { return
 com,net#%#Object.defineProperty(navigator, 'hardwareConcurrency', { get: function() { return '4'; } });
 com,net#%#Object.defineProperty(navigator, 'onLine', { get: function() { return 'true'; } });
 
+com,net,~github.com#%#Object.defineProperty(document, 'referrer', { get: function() { return '' + window.location.href; } });
+
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 
 ! Needs a lot of testing
