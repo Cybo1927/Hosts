@@ -22,7 +22,7 @@ com,net#%#Object.defineProperty(navigator, 'getBattery', { get: function() { ret
 com,net#%#Object.defineProperty(navigator, 'userAgent', { get: function() { return 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.62 Mobile Safari/537.36'; } });
 com,net#%#Object.defineProperty(navigator, 'vendor', { get: function() { return 'Google Inc.'; } });
 com,net#%#Object.defineProperty(navigator, 'product', { get: function() { return 'Gecko'; } });
-com,net#%#Object.defineProperty(navigator, 'hardwareConcurrency', { get: function() { return '4'; } });
+com,net#%#Object.defineProperty(navigator, 'hardwareConcurrency', { get: function() { return '8'; } });
 com,net#%#Object.defineProperty(navigator, 'onLine', { get: function() { return 'true'; } });
 
 com,net,~github.com#%#Object.defineProperty(document, 'referrer', { get: function() { return '' + window.location.hostname; } });
