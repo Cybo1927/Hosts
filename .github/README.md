@@ -1,6 +1,4 @@
-## *Notice: I don't plan any time soon to abandon the list but it might only get one update or less a week as the list is getting big and very hard for me to maintain by myself (hard to keep stable & school) so any and all help is appreciated*
-
-## *I am also working to rewrite the main host file to make it smaller while more effective; there will be little, or no updates until that is done*
+## *I am working to rewrite the main host file to make it smaller while more effective; there will be little, or no updates until that is done*
 
 <br>
 
