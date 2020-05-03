@@ -943,7 +943,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||afkp.net^
 ||agilemeasure.com^
 ||aimediagroup.com^
-||aliapp.org^
 ||analytics-sm.com^
 ||actionbutton.co^
 ||adligature.com^
@@ -2537,7 +2536,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||bloximages.^
 ||brand-display.com^
 ||bestcontentfare.top^
-||browser.events.data.microsoft.com^
 ||brightedge.com^
 ||bunchbox.co^
 ||bouncex.net^
@@ -3193,7 +3191,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||crl.sca1b.amazontrust.com^
 ||checkappexec.microsoft.com^
 ||client.wns.windows.com^
-||cse.avlyun.com^
 ||crbug.com^
 ||concert.io^
 ||convertplug.com^
@@ -3400,6 +3397,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||clearadnetwork.com^
 ||exdynsrv.com^$popup,popunder
 ||propbn.com^$popup,popunder
+||propbn.com^
 ||phoenixnewtimes.com^$inline-script
 ||adv.pilseta24.lv^
 ||pmo.ee^
@@ -6068,7 +6066,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||latestwebbrowsers.com^
 ||log.mgtv.com^
 ||logs.gaana.com^
-||log.avlyun.com^
 ||live-playphoto.servers.kwalee.com^
 ||light-client-log.getapk.cn^
 ||yunshipei.com^
@@ -7058,7 +7055,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||osrones.ru^
 ||telemetry.microsoft.com.nsatc.net^
 ||one.ru^
-||o2.co.uk^
+! ||o2.co.uk^ (UK ISP)
 ||optimizely.com^
 ||onepush.query.yahoo.com^
 ||ov.yahoo.co.jp^
@@ -8627,1163 +8624,1003 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||roofcemetery.com^
 ||kirtuka.com^
 ||beberuby.com^
-0.0.0.0 statm.the-adult-company.com
-0.0.0.0 stats.blogger.com
-0.0.0.0 stats.directnic.com
-0.0.0.0 stats.hyperinzerce.cz
-0.0.0.0 stats.merriam-webster.com
-0.0.0.0 stats.mirrorfootball.co.uk
-0.0.0.0 stats.pusher.com
-0.0.0.0 stats.self.com
-0.0.0.0 stats.townnews.com
-0.0.0.0 searchinquire.com
-0.0.0.0 stats.unwired-i.net
-0.0.0.0 stats.wordpress.com
-0.0.0.0 stats.x14.eu
-0.0.0.0 stats2.self.com
-0.0.0.0 stats4all.com
-0.0.0.0 statsie.com
-0.0.0.0 statxpress.com
-0.0.0.0 steelhouse.com
-0.0.0.0 stickyadstv.com
-0.0.0.0 storesurprise.com
-0.0.0.0 stormyachiever.com
-0.0.0.0 stormyshock.com
-0.0.0.0 stormysponge.com
-0.0.0.0 straightnest.com
-0.0.0.0 stream4fun.com
-0.0.0.0 strivesidewalk.com
-0.0.0.0 succeedscene.com
-0.0.0.0 sugoicounter.com
-0.0.0.0 superclix.de
-0.0.0.0 superficialsink.com
-0.0.0.0 superstats.com
-0.0.0.0 supertop.ru
-0.0.0.0 supertop100.com
-0.0.0.0 surfmusik-adserver.de
-0.0.0.0 swan-swan-goose.com
-0.0.0.0 swordfishdc.com
-0.0.0.0 sx.trhnt.com
-0.0.0.0 tcx-live-chat.appspot.com
-0.0.0.0 trk.ablogica.com
-0.0.0.0 tkup.uparpu.com
-0.0.0.0 t.sgc.io
-0.0.0.0 tracking.unrealengine.com
-0.0.0.0 tapdaq.com
-0.0.0.0 trackers.voodoo-analytics.io
-0.0.0.0 tracking.porndoelabs.com
-0.0.0.0 tracking.pornhd.com
-0.0.0.0 townsquare.media
-0.0.0.0 targeting.perso.aws.arc.pub
-0.0.0.0 t.info.adobesystems.com
-0.0.0.0 tracking.vcommission.com
-0.0.0.0 tags.aljazeera.com
-0.0.0.0 tracelog.www.alibaba.com
-0.0.0.0 track.opicle.com
-0.0.0.0 trk.365offers.trade
-0.0.0.0 trackapp.io
-0.0.0.0 trk.email.dynect.net
-0.0.0.0 tree.com$domain=cnn.com
-0.0.0.0 tr.cloudmagic.com
-0.0.0.0 t.hubspotemail.net
-0.0.0.0 tracking.cirrusinsight.com
-0.0.0.0 trk.paytmemail.com
-0.0.0.0 trellian.com
-0.0.0.0 talkmarine.com
-0.0.0.0 trk.pinterest.com
-0.0.0.0 throtle.io
-0.0.0.0 tentaculos.net
-0.0.0.0 thebrighttag.com
-0.0.0.0 thrtle.com
-0.0.0.0 temelio.com
-0.0.0.0 t8webware.com
-0.0.0.0 tracker.mtrtb.com
-0.0.0.0 tracking.ws.eurosport.com
-0.0.0.0 tracker.rqmob.com
-0.0.0.0 tracking.prd.mz.internal.unity3d.com
-0.0.0.0 track.berliner-kurier.de
-0.0.0.0 tncrun.net
-0.0.0.0 trace.qq.com
-0.0.0.0 t.huvlemobile.com
-0.0.0.0 toolkits.mobi
-0.0.0.0 t.irtyf.com
-0.0.0.0 titpus.com
-0.0.0.0 tvpage.com
-0.0.0.0 trak.rbxcdn.com
-0.0.0.0 traffictrader.net
-0.0.0.0 t.propbn.com
-0.0.0.0 tracker-api.my.com
-0.0.0.0 tracksrv.zdf.de
-0.0.0.0 tracker.frozen-layer.net
-0.0.0.0 tracker.gbitt.info
-0.0.0.0 tracker.torrentyorg.pl
-0.0.0.0 tracker.yoshi210.com
-0.0.0.0 tr.bangumi.moe
-0.0.0.0 ticlock.com
-0.0.0.0 trustaffs.com
-0.0.0.0 tracedock.com
-0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
-0.0.0.0 trafficshaping.dsp.mp.microsoft.com
-0.0.0.0 trbas.com
-0.0.0.0 t-ring.msedge.net
-0.0.0.0 t.mobtyb.com
+||statm.the-adult-company.com^
+||stats.blogger.com^
+||stats.directnic.com^
+||stats.hyperinzerce.cz^
+||stats.merriam-webster.com^
+||stats.mirrorfootball.co.uk^
+||stats.pusher.com^
+||stats.self.com^
+||stats.townnews.com^
+||searchinquire.com^
+||stats.unwired-i.net^
+||stats.wordpress.com^
+||stats.x14.eu^
+||stats2.self.com^
+||stats4all.com^
+||statsie.com^
+||statxpress.com^
+||steelhouse.com^
+||stickyadstv.com^
+||storesurprise.com^
+||stormyachiever.com^
+||stormyshock.com^
+||stormysponge.com^
+||straightnest.com^
+||stream4fun.com^
+||strivesidewalk.com^
+||succeedscene.com^
+||sugoicounter.com^
+||superclix.de^
+||superficialsink.com^
+||superstats.com^
+||supertop.ru^
+||supertop100.com^
+||surfmusik-adserver.de^
+||swan-swan-goose.com^
+||swordfishdc.com^
+||trhnt.com^
+||tcx-live-chat.appspot.com^
+||uparpu.com^
+||tracking.unrealengine.com^
+||tapdaq.com^
+||voodoo-analytics.io^
+||tracking.porndoelabs.com^
+||tracking.pornhd.com^
+||townsquare.media^
+||t.info.adobesystems.com^
+||vcommission.com^
+||tags.aljazeera.com^
+||tracelog.www.alibaba.com^
+||opicle.com^
+||365offers.trade^
+||trackapp.io^
+||trk.email.dynect.net^
+||tree.com^$domain=cnn.com
+||tr.cloudmagic.com^
+||paytmemail.com^
+||trellian.com^
+||talkmarine.com^
+||trk.pinterest.com^
+||throtle.io^
+||tentaculos.net^
+||thebrighttag.com^
+||thrtle.com^
+||temelio.com^
+||t8webware.com^
+||tracking.ws.eurosport.com^
+||tracking.prd.mz.internal.unity3d.com^
+||track.berliner-kurier.de^
+||tncrun.net^
+||trace.qq.com^
+||huvlemobile.com^
+||toolkits.mobi^
+||titpus.com^
+||tvpage.com^
+||trak.rbxcdn.com^
+||traffictrader.net^
+||tracker-api.my.com^
+||tracksrv.zdf.de^
+||tracker.yoshi210.com^
+||tr.bangumi.moe^
+||ticlock.com^
+||trustaffs.com^
+||tracedock.com^
+||tsfe.trafficshaping.dsp.mp.microsoft.com^
+||trafficshaping.dsp.mp.microsoft.com^
+||trbas.com^
+||t-ring.msedge.net^
 ||telemetry-in.^
-0.0.0.0 terrapsps.com
-0.0.0.0 terrasdsdstd.com
-0.0.0.0 top-nudism.eu
-0.0.0.0 tubecorporate.com
-0.0.0.0 tag.audience.acpm.fr
-0.0.0.0 tpv-analytics.com
-0.0.0.0 track.lt
-0.0.0.0 traffic-media.co.uk
-0.0.0.0 x-troy.com
-0.0.0.0 trafficholder.com
-0.0.0.0 trustyfine.com
-0.0.0.0 top-nudism.eu
-0.0.0.0 teen-nudist.top
-0.0.0.0 teensexfolder.com
-0.0.0.0 tpmr.com
-0.0.0.0 t7strip.com
-0.0.0.0 trafficundercontrol.com
-0.0.0.0 traffic-buchen.de
-0.0.0.0 tm.tradetracker.net
-0.0.0.0 tradetracker.net
-0.0.0.0 t26.net
-0.0.0.0 tracking.minitool.com
-0.0.0.0 tionscofferent.info
-0.0.0.0 taptica.com
-0.0.0.0 track.tenjin.com
-0.0.0.0 tenjin.com
-0.0.0.0 t.grtyv.com
-0.0.0.0 tcwcsaddht.com
-0.0.0.0 traffichaus.com
-0.0.0.0 tracking-plan.herokuapp.com
-0.0.0.0 tempo.inc.com
-0.0.0.0 triblio.com
-0.0.0.0 tribl.io
-0.0.0.0 tls.telemetry.swe.quicinc.com
-0.0.0.0 telemetry.swe.quicinc.com
-0.0.0.0 tigger-citadel.touchtype-fluency.com
-0.0.0.0 trac.torproject.org
-0.0.0.0 touchtype-fluency.com
-0.0.0.0 thedoctopdf.com
-0.0.0.0 talkwalker.com
-0.0.0.0 thepromoexperts.com
-0.0.0.0 targeleon.com
-0.0.0.0 trafficforce.com
-0.0.0.0 terraleads.com
-0.0.0.0 tapgerine.com
-0.0.0.0 tradetracker.com
-0.0.0.0 trackrevenue.com
-0.0.0.0 trkur.com
-0.0.0.0 tonic.com
-0.0.0.0 theoptimizer.io
-0.0.0.0 trackingdesk.com
-0.0.0.0 traffichunt.com
-0.0.0.0 topoffers.com
-0.0.0.0 tapgerine.com
-0.0.0.0 trafforsrv.com
-0.0.0.0 tracker.winudf.com
-0.0.0.0 traq.li
-0.0.0.0 thefreesite.com
-0.0.0.0 trafficsan.com
-0.0.0.0 track.rediff.com
-0.0.0.0 terttalkinhitin.pro
-0.0.0.0 tracking.opinionoutpost.com
-0.0.0.0 tri247ads.com
-0.0.0.0 trcklks.com
-0.0.0.0 title.mgt.xboxlive.com
-0.0.0.0 targetednotifications.azurewebsites.net
-0.0.0.0 tradelab.fr
-0.0.0.0 twittermobi.com
-0.0.0.0 track.bruceleadx2.com
-0.0.0.0 tapresearch.com
-0.0.0.0 traffic-shop.com
-0.0.0.0 taiphaib.net
-0.0.0.0 t.poki.io
-0.0.0.0 trk.mdrtrck.com
-0.0.0.0 trafficfabrik.com
-0.0.0.0 traffic.tc-clicks.com
-0.0.0.0 tc-clicks.com
-0.0.0.0 toroadvertising.com
-0.0.0.0 tracking.deltamediallc.com
-0.0.0.0 tracking.crazylead.com
-0.0.0.0 tracker.mybroadband.co.za
-0.0.0.0 track.trkvluum.com
-0.0.0.0 trkvluum.com
-0.0.0.0 track.incognitovpn.com
-0.0.0.0 track.affiliatenetwork.co.za
-0.0.0.0 tour.affbuzzads.com
-0.0.0.0 tracker-client.carts.guru
-0.0.0.0 tracker.carts.guru
-0.0.0.0 track.adabra.com
-0.0.0.0 timeline47-clientstats1.pusher.com
-0.0.0.0 trafmag.com
-0.0.0.0 themoneytizer.com
-0.0.0.0 t1.daumcdn.net
-0.0.0.0 trackalyzer.com
-0.0.0.0 tracker.affirm.com
-0.0.0.0 trk.appthis.io
-0.0.0.0 trk.adtwbjs.com
-0.0.0.0 tvadsync.com
-0.0.0.0 time.nist.gov
-0.0.0.0 trakt.tv
-0.0.0.0 t2.hulu.com
-0.0.0.0 tapnetwork.ru
-0.0.0.0 timeline55-clientstats1.pusher.com
-0.0.0.0 timeline*-clientstats*.pusher.com
-0.0.0.0 t.rainide.com
-0.0.0.0 tracking.synthasite.net
-0.0.0.0 tercept.com
-0.0.0.0 tiads.timeinc.net
-0.0.0.0 tracker.icerocket.com
-0.0.0.0 tagman.com
-0.0.0.0 tealium.com
-0.0.0.0 t.9gag.com
-0.0.0.0 tracker.yougov.com
-0.0.0.0 ted.dailymail.co.uk
-0.0.0.0 target.smi2.net
-0.0.0.0 target.my.com
-0.0.0.0 taplytics.com
-0.0.0.0 tools.services.tvn.pl
-0.0.0.0 tracking.klickthru.com
-0.0.0.0 trk.mobiletop2018techie.xyz
-0.0.0.0 trk.brother-root-rich-of.xyz
-0.0.0.0 trk-indexmobi.com
-0.0.0.0 trk.wlrtrack.live
-0.0.0.0 tslomhfys.com
-0.0.0.0 tradeexpert.net
-0.0.0.0 tiledesk.com
-0.0.0.0 tva3.sinaimg.cn
-0.0.0.0 tracking.3ds.com
-0.0.0.0 tagger.opecloud.com
-0.0.0.0 trace.51jingying.com
-0.0.0.0 truste.com
-0.0.0.0 tidio.com
-0.0.0.0 telemetry.caddyserver.com
-0.0.0.0 telemetry-experiment.cdn.mozilla.net
-0.0.0.0 townsquareblogs.com
-0.0.0.0 tool-avpg.crsi.symantec.com
-0.0.0.0 tool-avpg.crsi.symantec.com
-0.0.0.0 ton.smf1.twitter.com
-0.0.0.0 time.windows.com
-0.0.0.0 t-*.wc.yahoodns.net
-0.0.0.0 t0.gstatic.com
-0.0.0.0 telemetry-incoming.r*-*.services.mozilla.com
-0.0.0.0 telemetry-incoming.r53-2.services.mozilla.com
-0.0.0.0 trackonomics.net
-0.0.0.0 tracking.bi.psafe.com
-0.0.0.0 tdtalliance.com  ! Fake Fox News 'Facebook' Page
-0.0.0.0 trackcmp.net
-0.0.0.0 t.paypal.com
-0.0.0.0 tracking.smartselling.cz
-0.0.0.0 trafyield.com
-0.0.0.0 tlnk.io
-0.0.0.0 tracker.pandora.com
-0.0.0.0 thunderhead-media.s3.eu-west-2.amazonaws.com
-0.0.0.0 trktnc.com
-0.0.0.0 trackifyx.redretarget.com
-0.0.0.0 tracking-sales-pop.carecart.io
-0.0.0.0 track.klickly.com
-0.0.0.0 toponclick.com
-0.0.0.0 terraclicks.com
-0.0.0.0 time.microsoft.akadns.net
-0.0.0.0 trafficmanager.net
-0.0.0.0 trialfire.com
-0.0.0.0 tse1.mm.bing.net
-0.0.0.0 thikraik.net
-0.0.0.0 track.tap4joy.com
-0.0.0.0 tracking.playzing.g6.zing.vn
-0.0.0.0 targetemsecure.blob.core.windows.net
-0.0.0.0 triggeredmail.appspot.com
-0.0.0.0 transithits.com
-0.0.0.0 traffichogadvertising.com
-0.0.0.0 themoneylistmailer.com
-0.0.0.0 trackit.link
-0.0.0.0 trafficwave.net
-0.0.0.0 truckloadofads.com
-0.0.0.0 thumbvu.com
-0.0.0.0 tezzers.com
-0.0.0.0 tas.ezwealth4life.com
-0.0.0.0 tiyu2019.com
-0.0.0.0 teprofits.com
-0.0.0.0 tell.yumimobi.com
-0.0.0.0 tracker1.yumimobi.com
-0.0.0.0 tracker2.yumimobi.com
-0.0.0.0 tch451940.tch.quora.com
-0.0.0.0 trafficadbar.com
-0.0.0.0 trendmails.com
-0.0.0.0 trks.us
-0.0.0.0 tadst.com
-0.0.0.0 themarketersedge.net
-0.0.0.0 testly.com
-0.0.0.0 thetrafficexchangescript.com
-0.0.0.0 trafficexchangelist.com
-0.0.0.0 trwv.net
-0.0.0.0 teamatlantis.net
-0.0.0.0 trck.me
-0.0.0.0 theersoa.net
-0.0.0.0 tinymce.com
-0.0.0.0 track.sohu.com
-0.0.0.0 ty.captcha.qq.com
-0.0.0.0 tajs.qq.com
-0.0.0.0 todo.vu
-0.0.0.0 twilio-catalyst.herokuapp.com
-0.0.0.0 topvid.com
-0.0.0.0 tapfiliate.com
-0.0.0.0 tryadhawk.com
-0.0.0.0 track.g2crowd.com
-0.0.0.0 trackapp.g2.com
-0.0.0.0 trackme.lk
-0.0.0.0 timecamp.com
-0.0.0.0 traccar.org
-0.0.0.0 tracker-software.com
-0.0.0.0 tracker-free.com
-0.0.0.0 tagbucket.cc
-0.0.0.0 tubeplus.me
-0.0.0.0 twoolbox.com
-0.0.0.0 turngrind.com
-0.0.0.0 t.myvisualiq.net
-0.0.0.0 theplatform.com
-0.0.0.0 tail.digital
-0.0.0.0 tamgrt.com
-0.0.0.0 tracker.iamhansen.xyz
-0.0.0.0 tracker.supertracker.net
-0.0.0.0 tracker.trackton.ga
-0.0.0.0 tracker.harry.lu
-0.0.0.0 tracker.tiny-vps.com
-0.0.0.0 tracker.cyberia.is
-0.0.0.0 tracker.torrent.eu
-0.0.0.0 torrent.eu
-0.0.0.0 tracker.opentrackr.org
-0.0.0.0 tracker.leechers-paradise.org
-0.0.0.0 tracker.open-internet.nl
-0.0.0.0 tracker.coppersurfer.tk
-0.0.0.0 tracker.openbittorrent.com
-0.0.0.0 telemetry.api.swiftkey.com
-0.0.0.0 telemetry-in.battle.net
-0.0.0.0 tracking.epicgames.com
-0.0.0.0 tracking.drillisch.de
-0.0.0.0 tracking.finanzen.net
-0.0.0.0 t.strmtrk.com
-0.0.0.0 tracking.media-advertising.org
-0.0.0.0 telemetry.appex.bing.net
-0.0.0.0 tremorhub.com
-0.0.0.0 tagmanager.google.com
-0.0.0.0 thinknear.com
-0.0.0.0 totaljobs.com
-0.0.0.0 tradelab.com
-0.0.0.0 travelaudience.com
-0.0.0.0 tresensa.com
-0.0.0.0 telaria.com
-0.0.0.0 telecoming.com
-0.0.0.0 theadex.com
-0.0.0.0 timeinc.net
-0.0.0.0 ti-media.com
-0.0.0.0 track.dictionary.com
-0.0.0.0 telemetry.art19.com
-0.0.0.0 traffic.omny.fm
-0.0.0.0 thisiswaldo.com
-0.0.0.0 track.special-offers.online
-0.0.0.0 te.about.com
-0.0.0.0 theannoyingsite.com
-0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
-0.0.0.0 trymask.com
-0.0.0.0 taiwhups.net
-0.0.0.0 tailwhups.net
-0.0.0.0 theparkingplace.com
-0.0.0.0 tqn.com
-0.0.0.0 telemetry.appex.bing.com
-0.0.0.0 ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au
-0.0.0.0 *.t-ipnet.de
-0.0.0.0 t-ipnet.de
-0.0.0.0 trackcmp.net
-0.0.0.0 ttgtmedia.com
-0.0.0.0 t.freelancer.com
-0.0.0.0 t-online.hu
-0.0.0.0 trafficg.com
-0.0.0.0 tctm.co
-0.0.0.0 txt180.com
-0.0.0.0 textlinksads.com
-0.0.0.0 textadsgoldmine.com
-0.0.0.0 trustlogo.com
-0.0.0.0 trafficmaxnow.com
-0.0.0.0 traffictunes.com
-0.0.0.0 twitter-badges.s3.amazonaws.com
-0.0.0.0 tap-nexus.appspot.com
-0.0.0.0 toolbar3.diigo.cn
-0.0.0.0 texthelpkentico.blob.core.windows.net
-0.0.0.0 tl813.com
-0.0.0.0 t.solocpm.com
-0.0.0.0 track.mobi-haterz.com
-0.0.0.0 treassurebank.org
-0.0.0.0 track.legalbaitpass.com
-0.0.0.0 t2-1.p-cdn.us
-0.0.0.0 tsyndicate.com
-0.0.0.0 taobao.com
-0.0.0.0 tce.alicdn.com
-0.0.0.0 tkrecorder.aotter.net
-0.0.0.0 tktracker.aotter.net
-0.0.0.0 tracking.intl.miui.com
-0.0.0.0 tracking.i2w.io
-0.0.0.0 tealand.cmcm.com
-0.0.0.0 tr.snapchat.com
-0.0.0.0 track.tenjin.io
-0.0.0.0 tblsft.com
-0.0.0.0 terminus.com
-0.0.0.0 terminus.services
-0.0.0.0 tribl.io
-0.0.0.0 trackjs.com
-0.0.0.0 tag.brandcdn.com
-0.0.0.0 thescopeto.com
-0.0.0.0 tpx.everquote.com
-0.0.0.0 takersgains.com
-0.0.0.0 travel.richeropportunity.com
-0.0.0.0 track.bqumo.com
-0.0.0.0 trustybulletins.com
-0.0.0.0 time-osx.g.aaplimg.com
-0.0.0.0 tradownload.uk
-0.0.0.0 tradownload.ws
-0.0.0.0 tokaripupsi.com
-0.0.0.0 track.lt
-0.0.0.0 t.sf14g.com
-0.0.0.0 tk.politico.com
-0.0.0.0 typography.com
-0.0.0.0 tent.network
-0.0.0.0 track.securedvisit.com
-0.0.0.0 tracker.vinsight.de
-0.0.0.0 track.shop2market.com
-0.0.0.0 track.popmog.com
-0.0.0.0 t13.intelliad.de
-0.0.0.0 t23.intelliad.de
-0.0.0.0 tracker.leadenhancer.com
-0.0.0.0 track.yieldsoftware.com
-0.0.0.0 tracking.percentmobile.com
-0.0.0.0 tracking.websitealive.com
-0.0.0.0 track.scanguard.com
-0.0.0.0 track.totalav.com
-0.0.0.0 track.voluum.bid
-0.0.0.0 tinypass.com
-0.0.0.0 tr.prospecteye.com
-0.0.0.0 taggify.net
-0.0.0.0 top.proext.com
-0.0.0.0 trv.upperbooking.com
-0.0.0.0 trl.upperbooking.com
-0.0.0.0 tracking.lqm.io
-0.0.0.0 tracking.tidalhifi.com
-0.0.0.0 track.did-it.com
-0.0.0.0 tribalfusion.com
-0.0.0.0 trafficmp.com
-0.0.0.0 tacoda.net
-0.0.0.0 traffic.adxprtz.com
-0.0.0.0 totalmediasolutions.com
-0.0.0.0 traffective.com
-0.0.0.0 talentedsteel.com
-0.0.0.0 tangibleteam.com
-0.0.0.0 tarttendency.com
-0.0.0.0 teenyvolcano.com
-0.0.0.0 terribleturkey.com
-0.0.0.0 teschenite.com
-0.0.0.0 thinkablerice.com
-0.0.0.0 thinkabletrick.com
-0.0.0.0 thirdrespect.com
-0.0.0.0 thirstytwig.com
-0.0.0.0 thomastorch.com
-0.0.0.0 threechurch.com
-0.0.0.0 throattrees.com
-0.0.0.0 ticklesign.com
-0.0.0.0 tidytrail.com
-0.0.0.0 tracedesire.com
-0.0.0.0 tranquilside.com
-0.0.0.0 trickycelery.com
-0.0.0.0 tritetongue.com
-0.0.0.0 truckstomatoes.com
-0.0.0.0 typicalteeth.com
-0.0.0.0 tzwaw.pw
-0.0.0.0 thor.blindferret.media
-0.0.0.0 track.mmsvc.io
-0.0.0.0 telemetry.malwarebytes.com
-0.0.0.0 telemetry.gfe.nvidia.com
-0.0.0.0 telemetry.nvidia.com
-0.0.0.0 top100.ru
-0.0.0.0 top100.rambler.ru
-0.0.0.0 thefilter.com
-0.0.0.0 traffic.club
-0.0.0.0 tag.researchnow.com
-0.0.0.0 tokyodrift.ga
-0.0.0.0 totdorancaltert.club
-0.0.0.0 tkqlhce.com
-0.0.0.0 trackpprofile.com
-0.0.0.0 trhunt.com
-0.0.0.0 trhnt.com
-0.0.0.0 tingecatalogue.club
-0.0.0.0 toplist.cz
-0.0.0.0 track.pcgrh.com
-0.0.0.0 tv3.lt
-0.0.0.0 tl.tc
-0.0.0.0 trafficplan.pl
-0.0.0.0 tunicalabs.trackneo.com
-0.0.0.0 tunicalabs.com
-0.0.0.0 thinkclevermedia.com
-0.0.0.0 thetradedesk.com
-0.0.0.0 tvplst.com
-0.0.0.0 tharbadir.com
-0.0.0.0 tkmftc.aotter.net
-0.0.0.0 tnkfactory.com
-0.0.0.0 tkportal.aotter.net
-0.0.0.0 tkmedia-cache.aotter.net
-0.0.0.0 tkmedia.aotter.net
-0.0.0.0 tkcatwalk.aotter.net
-0.0.0.0 tveta.naver.net
-0.0.0.0 tapdaq-adverts.global.ssl.fastly.net
-0.0.0.0 tapsell.ir
-0.0.0.0 track.atom-data.io
-0.0.0.0 tesseradigital.com
-0.0.0.0 tvoy-million.co
-0.0.0.0 traffic.getmyads.com
-0.0.0.0 the-ufo.com
-0.0.0.0 t-fb-w-sv-bn-7j.ru
-0.0.0.0 tnevota.ru
-0.0.0.0 traffikx.info
-0.0.0.0 toroptotrab.ru
-0.0.0.0 teasers.mobi
-0.0.0.0 trevoltas.pro
-0.0.0.0 tizerbox.net
-0.0.0.0 ts-ads.info
-0.0.0.0 towithdureb.ru
-0.0.0.0 tranzitstar.ru
-0.0.0.0 twrank.com
-0.0.0.0 tunnl.com
-0.0.0.0 tibaco.net
-0.0.0.0 t.irtya.com
-0.0.0.0 tracker.internetwarriors.net
-0.0.0.0 track.pricespider.com
-0.0.0.0 trowel.twitch.tv
-0.0.0.0 tyxo.bg
-0.0.0.0 tracking.synthasite.net
-0.0.0.0 tracking.searchmarketing.com
-0.0.0.0 tracking.peopletomysite.com
-0.0.0.0 tracking.metalyzer.com
-0.0.0.0 tracking.mdxdata.com
-0.0.0.0 ts.istrack.com
-0.0.0.0 tracking.gameforge.de
-0.0.0.0 track.gawker.com
-0.0.0.0 tracking.cdiscount.com
-0.0.0.0 topqualitylink.com
-0.0.0.0 txads.buzzcity.com
-0.0.0.0 tag.perfectaudience.com
-0.0.0.0 tags.us.onscroll.com
-0.0.0.0 top-fwz1.mail.ru
-0.0.0.0 teracent.net
-0.0.0.0 tune.com
-0.0.0.0 tenjin.io
-0.0.0.0 tubemogul.com
-0.0.0.0 tracker.lgcontent.cl
-0.0.0.0 telemetry.urs.microsoft.com
-0.0.0.0 trakksocial.googlecode.com
-0.0.0.0 tpc.googlesyndication.com.proxy.c9w.net
-0.0.0.0 tracker.netklix.com
-0.0.0.0 tracking.onefeed.co.uk
-0.0.0.0 track.omguk.com
-0.0.0.0 tracking.oe24.at
-0.0.0.0 tracking.247search.com
-0.0.0.0 trafficstars.com
-0.0.0.0 toroadvertisingmedia.com
-0.0.0.0 tiles.services.mozilla.com
-0.0.0.0 tags.tiqcdn.com
-0.0.0.0 tiqcdn.com
-0.0.0.0 tags.bkrtx.com
-0.0.0.0 track.visitorpath.com
-0.0.0.0 teads.tv
-0.0.0.0 tracking-opi.fonpit.de
-0.0.0.0 trck.at
-0.0.0.0 trackersimulator.org
-0.0.0.0 tracker.nbcuas.com
-0.0.0.0 tracking.callmeasurement.com
-0.0.0.0 tqlkg.com
-0.0.0.0 tencent.mm.plugin.location_soso.com
-0.0.0.0 tencent.map.geolocation.com
-0.0.0.0 thinknear-hosted.thinknearhub.com
-0.0.0.0 teemo.co
-0.0.0.0 tagcommander.com
-0.0.0.0 t.insigit.com
-0.0.0.0 tag.yoc-adserver.com
-0.0.0.0 tracker.marinsm.com
-0.0.0.0 tag.marinsm.com
-0.0.0.0 tru.am
-0.0.0.0 textads.adultadworld.com
-0.0.0.0 tag.onscroll.com
-0.0.0.0 tag.crsspxl.com
-0.0.0.0 taboola.com
-0.0.0.0 tynt.com
-0.0.0.0 testapp.adhood.com
-0.0.0.0 adhood.com
-0.0.0.0 tracking.musixmatch.com
-0.0.0.0 turn.com
-0.0.0.0 track.adrpanel.es
-0.0.0.0 tns-counter.ru
-0.0.0.0 trk.tracksys55.com
-0.0.0.0 tags.expo9.exponential.com
-0.0.0.0 todo-ta-g7g.amazon.com
-0.0.0.0 t.channeladvisor.com
-0.0.0.0 tr.datanyze.com
-0.0.0.0 tracking.g2crowd.com
-0.0.0.0 tracker.com
-0.0.0.0 track.spots.im
-0.0.0.0 telize.com
-0.0.0.0 uparpu.com
-0.0.0.0 urlsec.qq.com
-0.0.0.0 uxcam.com
-0.0.0.0 userreporting.cloud.unity3d.com
-0.0.0.0 uc.jh1230.com
-0.0.0.0 usage-*-*.myhomescreen.tv
-0.0.0.0 us-identity.doubledutch.me
-0.0.0.0 ubeei.com
-0.0.0.0 useproof.com
-0.0.0.0 unibetasia.org
-0.0.0.0 usenetmodelsindex.com
-0.0.0.0 us.to$third-party
-0.0.0.0 uw.hu$third-party
-0.0.0.0 urtirepor.com
-0.0.0.0 uqelijcu.com
-0.0.0.0 ud-prd.geohawk.co.uk
-0.0.0.0 usualgirls.com
-0.0.0.0 unbounce.com
-0.0.0.0 usefathom.com
-0.0.0.0 utv.co
-0.0.0.0 uf.noclef.com
-0.0.0.0 utoumine.net
-0.0.0.0 uscollector.tealeaf.ibmcloud.com
-0.0.0.0 utarget.ru
-0.0.0.0 urldata.net
-0.0.0.0 ublockerext.com
-0.0.0.0 us1-api.mppglobal.com
-0.0.0.0 upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net
-0.0.0.0 ustatik.com
-0.0.0.0 us-chi-anx-r001.teamviewer.com
-0.0.0.0 udp.ping.teamviewer.com
-0.0.0.0 ubertags.com
-0.0.0.0 usercollection.chinadaily.com.cn
-0.0.0.0 usemaxserver.de
-0.0.0.0 urswebzj.nosdn.127.net
-0.0.0.0 user.com
-0.0.0.0 usagoals.co
-0.0.0.0 upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
-0.0.0.0 urs.microsoft.com
-0.0.0.0 us-east-1-a.route.herokuapp.com
-0.0.0.0 updatesdk.avlyun.com
-0.0.0.0 up2date.mob.psafe.com
-0.0.0.0 usapi1.xirsys.com
-0.0.0.0 usapi2.xirsys.com
-0.0.0.0 usapi3.xirsys.com
-0.0.0.0 udc.yahoo.com
-0.0.0.0 ui.staples-sparx.com
-0.0.0.0 ultimatelicense.com
-0.0.0.0 uptimecdn.com
-0.0.0.0 unbouncepages.com
-0.0.0.0 upeer.me
-0.0.0.0 unityads.us
-0.0.0.0 unityads.com
-0.0.0.0 ultimedia.com
-0.0.0.0 us.ynuf.aliapp.org
-0.0.0.0 u.alicdn.com
-0.0.0.0 uimserv.net
-0.0.0.0 ubembed.com
-0.0.0.0 usabilla.com
-0.0.0.0 useragentstring.com
-0.0.0.0 UltraDNS.org
-0.0.0.0 ultradns.org
-0.0.0.0 ui.powerreviews.com
-0.0.0.0 uid.mavencoalition.io
-0.0.0.0 upandup.agency
-0.0.0.0 userreport.com
-0.0.0.0 uodoo.com
-0.0.0.0 ue.flipboard.com
-0.0.0.0 ultrawave.everquote.com
-0.0.0.0 updownload.com
-0.0.0.0 upload.iheima.com
-0.0.0.0 unid.go.com
-0.0.0.0 us.iplogger.blog
-0.0.0.0 us-ws.gr-cdn.com
-0.0.0.0 us.tags.newscgp.com
-0.0.0.0 usercentrics.eu
-0.0.0.0 ucweb.com
-0.0.0.0 uservoice.com
-0.0.0.0 unarmedindustry.com
-0.0.0.0 unknowntray.com
-0.0.0.0 untidyquestion.com
-0.0.0.0 unusualtitle.com
-0.0.0.0 uttermosthobbies.com
-0.0.0.0 usekahuna.com
-0.0.0.0 us.js2.yimg.com
-0.0.0.0 updates.easycounter.com
-0.0.0.0 uk-advertising.yahoo.com
-0.0.0.0 urh.easyshoopingenligne.com
-0.0.0.0 ulco.tv
-0.0.0.0 unsoldexchange.com
-0.0.0.0 uod2quk646.com
-0.0.0.0 upsight.com
-0.0.0.0 upsight-api.com
-0.0.0.0 unityads.unity3d.com
-0.0.0.0 usp1.baidu.com
-0.0.0.0 ufz.doesxyz.com
-0.0.0.0 uryle.ru
-0.0.0.0 usstero.com
-0.0.0.0 undleftranver.ru
-0.0.0.0 ubfhq.top
-0.0.0.0 u1tshop.ru
-0.0.0.0 u2tshop.ru
-0.0.0.0 urchin.com
-0.0.0.0 ui.userlocal.jp
-0.0.0.0 use.typekit.net
-0.0.0.0 uedata.amazon.com
-0.0.0.0 uarating.com
-0.0.0.0 ublock.org
-0.0.0.0 ukbanners.com
-0.0.0.0 ultimateclixx.com
-0.0.0.0 unagi-na.amazon.com
-0.0.0.0 ultramercial.com
-0.0.0.0 unarmedindustry.com
-0.0.0.0 undertone.com
-0.0.0.0 unknowntray.com
-0.0.0.0 unrulymedia.com
-0.0.0.0 unity3d.ads.com
-0.0.0.0 umeng.com
-0.0.0.0 umeng.co
-0.0.0.0 umeng.fb
-0.0.0.0 untd.com
-0.0.0.0 urbanairship.com
-0.0.0.0 unusualtitle.com
-0.0.0.0 urlcash.net
-0.0.0.0 us.a1.yimg.com
-0.0.0.0 usapromotravel.com
-0.0.0.0 useriq.com
-0.0.0.0 userreplay.com
-0.0.0.0 userreplay.net
-0.0.0.0 utarget.co.uk
-0.0.0.0 utils.mediageneral.net
-0.0.0.0 ugdturner.com
-0.0.0.0 us0.adlibr.com
-0.0.0.0 u.heatmap.it
-0.0.0.0 userzoom.com
-0.0.0.0 voodoo-analytics.io
-0.0.0.0 vgorzfcz.tk
-0.0.0.0 vmiua.com
-0.0.0.0 vas.samsungapps.com
-0.0.0.0 vmgursrv0424.maxlife.max.com
-0.0.0.0 vcommission.com
-0.0.0.0 verified-extensions.com
-0.0.0.0 vertamedia.com
-0.0.0.0 vi.ai
-0.0.0.0 velocitycdn.com
-0.0.0.0 velocitycdn.com$popup,popunder
-0.0.0.0 vibrantmedia.com
-0.0.0.0 viantinc.com
-0.0.0.0 varick.co
-0.0.0.0 vindicosuite.com
-0.0.0.0 vivalu.com
-0.0.0.0 visualdna.com
-0.0.0.0 vi-tag.net
-0.0.0.0 vmweb.net
-0.0.0.0 vtracy.de
-0.0.0.0 vpndefender.com
-0.0.0.0 vtemaaftwexu.com
-0.0.0.0 vip0x04e.ssl.rncdn5.com
-0.0.0.0 vcen.dolphin-browser.com
-0.0.0.0 verifycaptcha.com
-0.0.0.0 visualvisitor.com
+||terrapsps.com^
+||terrasdsdstd.com^
+||top-nudism.eu^
+||tubecorporate.com^
+||audience.acpm.fr^
+||tpv-analytics.com^
+||track.lt^
+||traffic-media.co.uk^
+||x-troy.com^
+||trafficholder.com^
+||trustyfine.com^
+||top-nudism.eu^
+||teen-nudist.top^
+||teensexfolder.com^
+||tpmr.com^
+||t7strip.com^
+||trafficundercontrol.com^
+||traffic-buchen.de^
+||tradetracker.net^
+||t26.net^
+||tracking.minitool.com^
+||tionscofferent.info^
+||taptica.com^
+||tenjin.com^
+||tcwcsaddht.com^
+||traffichaus.com^
+||tracking-plan.herokuapp.com^
+||tempo.inc.com^
+||triblio.com^
+||tribl.io^
+||telemetry.*.quicinc.com^
+||trac.torproject.org^
+||touchtype-fluency.com^
+||thedoctopdf.com^
+||talkwalker.com^
+||thepromoexperts.com^
+||targeleon.com^
+||trafficforce.com^
+||terraleads.com^
+||tapgerine.com^
+||tradetracker.com^
+||trackrevenue.com^
+||trkur.com^
+||tonic.com^
+||theoptimizer.io^
+||trackingdesk.com^
+||traffichunt.com^
+||topoffers.com^
+||tapgerine.com^
+||trafforsrv.com^
+||winudf.com^
+||traq.li^
+||thefreesite.com^
+||trafficsan.com^
+||track.rediff.com^
+||terttalkinhitin.pro^
+||tracking.opinionoutpost.com^
+||ssisurveys.com^
+||tri247ads.com^
+||trcklks.com^
+||title.mgt.xboxlive.com^
+||targetednotifications.azurewebsites.net^
+||tradelab.fr^
+||twittermobi.com^
+||evidon.com^
+||evidon.oneopinion.com^
+||tapresearch.com^
+||traffic-shop.com^
+||taiphaib.net^
+||t.poki.io^
+||trafficfabrik.com^
+||tc-clicks.com^
+||toroadvertising.com^
+||tracking.deltamediallc.com^
+||tracker.mybroadband.co.za^
+||trkvluum.com^
+||track.incognitovpn.com^
+||carts.guru^
+||*-clientstats*.pusher.com^
+||trafmag.com^
+||themoneytizer.com^
+||t1.daumcdn.net^
+||trackalyzer.com^
+||trk.appthis.io^
+||tvadsync.com^
+||time.nist.gov^
+||trakt.tv^
+||t2.hulu.com^
+||tapnetwork.ru^
+||timeline*-clientstats*.pusher.com^
+||t.rainide.com^
+||tracking.synthasite.net^
+||tercept.com^
+||timeinc.net^
+||tagman.com^
+||tealium.com^
+||t.9gag.com^
+||tracker.yougov.com^
+||ted.dailymail.co.uk^
+||target.my.com^
+||taplytics.com^
+||mobiletop2018techie.xyz^
+||brother-root-rich-of.xyz^
+||trk-indexmobi.com^
+||wlrtrack.live^
+||tslomhfys.com^
+||tradeexpert.net^
+||tiledesk.com^
+||tva3.sinaimg.cn^
+||tracking.3ds.com^
+||tagger.opecloud.com^
+||trace.51jingying.com^
+||truste.com^
+||tidio.com^
+||telemetry.caddyserver.com^
+||telemetry-experiment.cdn.mozilla.net^
+||townsquareblogs.com^
+||tool-avpg.crsi.symantec.com^
+||ton.smf1.twitter.com^
+||time.windows.com^
+||t-*.wc.yahoodns.net^
+||t0.gstatic.com^
+||telemetry-incoming.r*-*.services.mozilla.com^
+||trackonomics.net^
+||tracking.bi.psafe.com^
+||tdtalliance.com^
+||trackcmp.net^
+||t.paypal.com^
+||smartselling.cz^
+||trafyield.com^
+||tlnk.io^
+||tracker.pandora.com^
+||thunderhead-media.s3.eu-west-2.amazonaws.com^
+||trktnc.com^
+||tracking-sales-pop.carecart.io^
+||klickly.com^
+||toponclick.com^
+||terraclicks.com^
+||time.microsoft.akadns.net^
+||trafficmanager.net^
+||trialfire.com^
+||tse1.mm.bing.net^
+||thikraik.net^
+||track.tap4joy.com^
+||tracking.playzing.g6.zing.vn^
+||targetemsecure.blob.core.windows.net^
+||triggeredmail.appspot.com^
+||transithits.com^
+||traffichogadvertising.com^
+||themoneylistmailer.com^
+||trackit.link^
+||trafficwave.net^
+||truckloadofads.com^
+||thumbvu.com^
+||tezzers.com^
+||tiyu2019.com^
+||teprofits.com^
+||yumimobi.com^
+||tch451940.tch.quora.com^
+||trafficadbar.com^
+||trendmails.com^
+||trks.us^
+||tadst.com^
+||themarketersedge.net^
+||testly.com^
+||thetrafficexchangescript.com^
+||trafficexchangelist.com^
+||trwv.net^
+||teamatlantis.net^
+||trck.me^
+||theersoa.net^
+||tinymce.com^
+||track.sohu.com^
+||ty.captcha.qq.com^
+||tajs.qq.com^
+||todo.vu^
+||twilio-catalyst.herokuapp.com^
+||topvid.com^
+||tapfiliate.com^
+||tryadhawk.com^
+||trackapp.g2.com^
+||trackme.lk^
+||timecamp.com^
+||traccar.org^
+||tracker-software.com^
+||tracker-free.com^
+||tagbucket.cc^
+||tubeplus.me^
+||twoolbox.com^
+||turngrind.com^
+||theplatform.com^
+||tail.digital^
+||tamgrt.com^
+||telemetry.api.swiftkey.com^
+||telemetry-in.battle.net^
+||tracking.epicgames.com^
+||tracking.drillisch.de^
+||tracking.finanzen.net^
+||strmtrk.com^
+||telemetry.appex.bing.net^
+||tremorhub.com^
+||tagmanager.google.com^
+||thinknear.com^
+||totaljobs.com^
+||tradelab.com^
+||travelaudience.com^
+||tresensa.com^
+||telaria.com^
+||telecoming.com^
+||theadex.com^
+||ti-media.com^
+||track.dictionary.com^
+||traffic.omny.fm^
+||thisiswaldo.com^
+||track.special-offers.online^
+||theannoyingsite.com^
+||tracking.opencandy.com.s3.amazonaws.com^
+||trymask.com^
+||taiwhups.net^
+||tailwhups.net^
+||theparkingplace.com^
+||tqn.com^
+||telemetry.appex.bing.com^
+||ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au^
+||t-ipnet.de^
+||trackcmp.net^
+||ttgtmedia.com^
+||t.freelancer.com^
+||t-online.hu^
+||trafficg.com^
+||tctm.co^
+||txt180.com^
+||textlinksads.com^
+||textadsgoldmine.com^
+||trustlogo.com^
+||trafficmaxnow.com^
+||traffictunes.com^
+||twitter-badges.s3.amazonaws.com^
+||tap-nexus.appspot.com^
+||texthelpkentico.blob.core.windows.net^
+||tl813.com^
+||track.mobi-haterz.com^
+||treassurebank.org^
+||track.legalbaitpass.com^
+||t2-1.p-cdn.us^
+||tsyndicate.com^
+||taobao.com^
+||tce.alicdn.com^
+||tracking.intl.miui.com^
+||tracking.i2w.io^
+||tealand.cmcm.com^
+||tr.snapchat.com^
+||tenjin.io^
+||tblsft.com^
+||terminus.com^
+||terminus.services^
+||tribl.io^
+||trackjs.com^
+||tag.brandcdn.com^
+||thescopeto.com^
+||tpx.everquote.com^
+||takersgains.com^
+||track.bqumo.com^
+||trustybulletins.com^
+||time-osx.g.aaplimg.com^
+||tradownload.uk^
+||tradownload.ws^
+||tokaripupsi.com^
+||track.lt^
+||tk.politico.com^
+||typography.com^
+||tent.network^
+||vinsight.de^
+||yieldsoftware.com^
+||websitealive.com^
+||track.scanguard.com^
+||track.totalav.com^
+||voluum.bid^
+||tinypass.com^
+||taggify.net^
+||trv.upperbooking.com^
+||trl.upperbooking.com^
+||tracking.lqm.io^
+||tracking.tidalhifi.com^
+||did-it.com^
+||didit.com^
+||tribalfusion.com^
+||trafficmp.com^
+||tacoda.net^
+||totalmediasolutions.com^
+||traffective.com^
+||talentedsteel.com^
+||tangibleteam.com^
+||tarttendency.com^
+||teenyvolcano.com^
+||terribleturkey.com^
+||teschenite.com^
+||thinkablerice.com^
+||thinkabletrick.com^
+||thirdrespect.com^
+||thirstytwig.com^
+||thomastorch.com^
+||threechurch.com^
+||throattrees.com^
+||ticklesign.com^
+||tidytrail.com^
+||tracedesire.com^
+||tranquilside.com^
+||trickycelery.com^
+||tritetongue.com^
+||truckstomatoes.com^
+||typicalteeth.com^
+||tzwaw.pw^
+||blindferret.media^
+||blindferret.com^
+||track.mmsvc.io^
+||telemetry.malwarebytes.com^
+||telemetry.gfe.nvidia.com^
+||telemetry.nvidia.com^
+||top100.ru^
+||top100.*.ru^
+||stats.seedr.com^
+||thefilter.com^
+||traffic.club^
+||researchnow.com^
+||tokyodrift.ga^
+||totdorancaltert.club^
+||tkqlhce.com^
+||trackpprofile.com^
+||trhunt.com^
+||tingecatalogue.club^
+||toplist.cz^
+||track.pcgrh.com^
+||tv3.lt^
+||tl.tc^
+||trafficplan.pl^
+||trackneo.com^
+||tunicalabs.com^
+||thinkclevermedia.com^
+||thetradedesk.com^
+||tvplst.com^
+||tharbadir.com^
+||tnkfactory.com^
+||tveta.naver.net^
+||tapdaq-adverts.global.ssl.fastly.net^
+||tapsell.ir^
+||track.atom-data.io^
+||tesseradigital.com^
+||tvoy-million.co^
+||the-ufo.com^
+||t-fb-w-sv-bn-7j.ru^
+||tnevota.ru^
+||traffikx.info^
+||toroptotrab.ru^
+||teasers.mobi^
+||trevoltas.pro^
+||tizerbox.net^
+||ts-ads.info^
+||towithdureb.ru^
+||tranzitstar.ru^
+||twrank.com^
+||tunnl.com^
+||tibaco.net^
+||pricespider.com^
+||trowel.twitch.tv^
+||tyxo.bg^
+||tracking.synthasite.net^
+||searchmarketing.com^
+||peopletomysite.com^
+||theshipyard.com^
+||metalyzer.com^
+||tracking.mdxdata.com^
+||istrack.com^
+||tracking.gameforge.de^
+||track.gawker.com^
+||tracking.cdiscount.com^
+||topqualitylink.com^
+||txads.buzzcity.com^
+||top-fwz1.mail.ru^
+||teracent.net^
+||tune.com^
+||tubemogul.com^
+||tracker.lgcontent.cl^
+||telemetry.*.microsoft.com^
+||trakksocial.googlecode.com^
+||googlesyndication.com.proxy.c9w.net^
+||netklix.com^
+||tracking.onefeed.co.uk^
+||track.omguk.com^
+||tracking.oe24.at^
+||247search.com^
+||trafficstars.com^
+||toroadvertisingmedia.com^
+||tiles.services.mozilla.com^
+||tiqcdn.com^
+||track.visitorpath.com^
+||teads.tv^
+||tracking-opi.fonpit.de^
+||trck.at^
+||trackersimulator.org^
+||tracker.nbcuas.com^
+||tracking.callmeasurement.com^
+||tqlkg.com^
+||location_soso.com^
+||tencent.map.geolocation.com^
+||geolocation.com^$third-party
+||ip2location.com^$third-party
+||geodatasource.com^$third-party
+||fraudlabspro.com^$third-party
+||hexasoft.com.my^$third-party
+||thinknear-hosted.thinknearhub.com^
+||teemo.co^
+||tagcommander.com^
+||insigit.com^
+||yoc-adserver.com^
+||tru.am^
+||taboola.com^
+||tynt.com^
+||adhood.com^
+||tracking.musixmatch.com^
+||turn.com^
+||tns-counter.ru^
+||trk.tracksys55.com^
+||todo-ta-g7g.amazon.com^
+||tracker.com^
+||track.spots.im^
+||telize.com^
+||urlsec.qq.com^
+||uxcam.com^
+||userreporting.cloud.unity3d.com^
+||usage-*-*.myhomescreen.tv^
+||*-identity.doubledutch.me^
+||ubeei.com^
+||useproof.com^
+||unibetasia.org^
+||usenetmodelsindex.com^
+||us.to^$third-party
+||uw.hu^$third-party
+||urtirepor.com^
+||uqelijcu.com^
+||usualgirls.com^
+||unbounce.com^
+||usefathom.com^
+||utv.co^
+||utoumine.net^
+||uscollector.tealeaf.ibmcloud.com^
+||utarget.ru^
+||urldata.net^
+||ublockerext.com^
+||upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net^
+||ustatik.com^
+||us-chi-anx-r001.teamviewer.com^
+||ping.teamviewer.com^
+||ubertags.com^
+||usercollection.chinadaily.com.cn^
+||usemaxserver.de^
+||127.net^
+||user.com^
+||usagoals.co^
+||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net^
+||urs.microsoft.com^
+||us-east-1-a.route.herokuapp.com^
+||avlyun.com^
+||up2date.mob.psafe.com^
+||xirsys.com^
+||udc.yahoo.com^
+||ultimatelicense.com^
+||uptimecdn.com^
+||unbouncepages.com^
+||upeer.me^
+||unityads.us^
+||unityads.com^
+||ultimedia.com^
+||u.alicdn.com^
+||uimserv.net^
+||ubembed.com^
+||usabilla.com^
+||useragentstring.com^
+||ultradns.org^
+||upandup.agency^
+||userreport.com^
+||uodoo.com^
+||ue.flipboard.com^
+||ultrawave.everquote.com^
+||updownload.com^
+||upload.iheima.com^
+||unid.go.com^
+||usercentrics.eu^
+||ucweb.com^
+||uservoice.com^
+||unarmedindustry.com^
+||unknowntray.com^
+||untidyquestion.com^
+||unusualtitle.com^
+||uttermosthobbies.com^
+||usekahuna.com^
+||us.js2.yimg.com^
+||easycounter.com^
+||*-advertising.yahoo.com^
+||urh.easyshoopingenligne.com^
+||profesionalcar.com^
+||ulco.tv^
+||unsoldexchange.com^
+||uod2quk646.com^
+||upsight.com^
+||upsight-api.com^
+||unityads.unity3d.com^
+||usp1.baidu.com^
+||uryle.ru^
+||usstero.com^
+||undleftranver.ru^
+||ubfhq.top^
+||u1tshop.ru^
+||u2tshop.ru^
+||urchin.com^
+||userlocal.jp^
+||typekit.net^
+||uedata.amazon.com^
+||uarating.com^
+||ublock.org^
+||ukbanners.com^
+||ultimateclixx.com^
+||unagi-na.amazon.com^
+||ultramercial.com^
+||unarmedindustry.com^
+||undertone.com^
+||unknowntray.com^
+||unrulymedia.com^
+||unity3d.ads.com^
+||umeng.com^
+||umeng.co^
+||umeng.fb^
+||untd.com^
+||urbanairship.com^
+||unusualtitle.com^
+||urlcash.net^
+||usapromotravel.com^
+||useriq.com^
+||userreplay.com^
+||userreplay.net^
+||utarget.co.uk^
+||utils.mediageneral.net^
+||ugdturner.com^
+||userzoom.com^
+||vgorzfcz.tk^
+||vmiua.com^
+||vas.samsungapps.com^
+||vmgursrv0424.maxlife.max.com^
+||verified-extensions.com^
+||vertamedia.com^
+||vi.ai^
+||velocitycdn.com^
+||velocitycdn.com^$popup,popunder
+||vibrantmedia.com^
+||viantinc.com^
+||varick.co^
+||vindicosuite.com^
+||vivalu.com^
+||visualdna.com^
+||vi-tag.net^
+||vmweb.net^
+||vtracy.de^
+||vpndefender.com^
+||vtemaaftwexu.com^
+||vip0x04e.ssl.rncdn5.com^
+||vcen.dolphin-browser.com^
+||verifycaptcha.com^
+||visualvisitor.com^
 ||visitstats.com^
 ||visitstats.com^$popup,popunder
-0.0.0.0 v.mediahits.club
-0.0.0.0 vpfadnueru.com
-0.0.0.0 vidsrev.com
-0.0.0.0 videodelivery.net$domain=reuters.com
-0.0.0.0 virtuagirl.com$third-party
-0.0.0.0 virtuaguy.com$third-party
-0.0.0.0 virtuagirlhd.com$third-party
-0.0.0.0 virtuaguyhd.com$third-party
-0.0.0.0 viatepigan.com
-0.0.0.0 viceoffers.com
-0.0.0.0 vipoffers.com
-0.0.0.0 vulkanbet.partners
-0.0.0.0 vpn-anbieter-vergleich-test.de
-0.0.0.0 vodafone.com-gift-winner-lucky-day.vip
-0.0.0.0 viewers.nighteye.app
-0.0.0.0 viral-loops.com
-0.0.0.0 v.lkqd.net
-0.0.0.0 vortex.hulu.com
-0.0.0.0 viphealthhelper.com
-0.0.0.0 vintage-ads-are.cool
-0.0.0.0 viralmint.com
-0.0.0.0 vlscppe.microsoft.com
-0.0.0.0 veta.naver.com
-0.0.0.0 velti.com
-0.0.0.0 vss.norton.com
-0.0.0.0 vzwwo.com
-0.0.0.0 valor.c.hotheadgames.com
-0.0.0.0 valor-api-alb-1080470264.us-east-1.elb.amazonaws.com
-0.0.0.0 vzwdm.com
-0.0.0.0 vzims.com
-0.0.0.0 vc-mvt-pixel-80.vc-networks.com
-0.0.0.0 vietad.vn
-0.0.0.0 vcmedia.com
-0.0.0.0 vml1.s3.amazonaws.com
-0.0.0.0 viewerstats.docstoc.com.s3.amazonaws.com
-0.0.0.0 vtrk.me
-0.0.0.0 vice-staging-web-statics-cdn.viceops.net
-0.0.0.0 vip052.ssl.hwcdn.net
-0.0.0.0 vod-server.wix.com
-0.0.0.0 viafoura.co
-0.0.0.0 viafoura.com
-0.0.0.0 viafoura.net
-0.0.0.0 vkcdnservice.com
-0.0.0.0 vidible.tv
-0.0.0.0 vuukle-analytics.appspot.com
-0.0.0.0 vuukle.com
-0.0.0.0 verve.com
-0.0.0.0 vertmarkets.com
-0.0.0.0 videmob.com
-0.0.0.0 voluum.com
-0.0.0.0 voluumdsp.com
-0.0.0.0 vistohub.com
-0.0.0.0 v3.selfcampaign.com
-0.0.0.0 v3.adhood.com
-0.0.0.0 vmg.nyc
-0.0.0.0 vibecdn.forkcdn.com
-0.0.0.0 v10c.events.data.microsoft.com
-0.0.0.0 v10.events.data.microsoft.com
-0.0.0.0 vxml4.plavxml.com
-0.0.0.0 visitor.reactful.com
-0.0.0.0 vcc-na7b.8x8.com
-0.0.0.0 videopal.io
-0.0.0.0 videopal.me
-0.0.0.0 voodooparking.com
-0.0.0.0 videostat.com
-0.0.0.0 videohub.tv
-0.0.0.0 vjs.zencdn.net
-0.0.0.0 verytraffic.com
-0.0.0.0 v.printfriendly.com
-0.0.0.0 verifyability.com
-0.0.0.0 vipadsnet.info
-0.0.0.0 v1.77tracking.com
-0.0.0.0 vwo-analytics.com
-0.0.0.0 vinbet.biz
-0.0.0.0 viaarena.com
-0.0.0.0 videoplaza.tv
-0.0.0.0 vidassets.terminus.services
-0.0.0.0 video.totalmediasolutions.com
-0.0.0.0 vanfireworks.com
-0.0.0.0 voicevegetable.com
-0.0.0.0 v7event.stats.avast.com
-0.0.0.0 volantix.com
-0.0.0.0 vungle.com
-0.0.0.0 vipmember.cu.ma
-0.0.0.0 vipmember.acoxi.com
-0.0.0.0 vipmember-cpanelcheatcocc.blogspot.com
-0.0.0.0 vortexads.media
-0.0.0.0 vashoot.com
-0.0.0.0 visit.net-cb15.stream
-0.0.0.0 valshara.com
-0.0.0.0 vitalads.net
-0.0.0.0 vatafapac.ru
-0.0.0.0 vam-nado.ru
-0.0.0.0 viewmypdf.com
-0.0.0.0 verblife-3.co
-0.0.0.0 vtrack.com
-0.0.0.0 viewer.peer39.com
-0.0.0.0 vitals.tracking.mdxdata.com
-0.0.0.0 viglink.com
-0.0.0.0 v2.zopim.com
-0.0.0.0 v10.vortex-win.data.microsoft.com
-0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 vortex-win.data.microsoft.com
-0.0.0.0 vortex-sandbox.data.microsoft.com
-0.0.0.0 video-stats.video.google.com
-0.0.0.0 v10.xmlsearch.miva.com
-0.0.0.0 visitor-track.com
-0.0.0.0 visit.webhosting.yahoo.com
-0.0.0.0 visitbox.de
-0.0.0.0 visitpath.com
-0.0.0.0 visual-pagerank.fr
-0.0.0.0 vrt.news
-0.0.0.0 vlc.de
-0.0.0.0 visualrevenue.com
-0.0.0.0 vidora.com
-0.0.0.0 vmmpxl.com
-0.0.0.0 voicevegetable.com
-0.0.0.0 vpon.com
-0.0.0.0 velti.com
-0.0.0.0 vserv.mobi
-0.0.0.0 vkontakte.ru
-0.0.0.0 video.unrulymedia.com
-0.0.0.0 veinteractive.com
-0.0.0.0 vice-useast.gscontxt.net
-0.0.0.0 v.shopify.com
-0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 webwerks.learnvibes.net
-0.0.0.0 weblogger-dynamic-lb.playdom.com
-0.0.0.0 wrison-subustall.com
-0.0.0.0 webtrends.yccdn.com
-0.0.0.0 ws.tapjoyads.com
-0.0.0.0 www-googletagmanager.l.google.com
-0.0.0.0 wwwlog.thebell.co.kr
-0.0.0.0 webserver.smartadtags.com
-0.0.0.0 webserver-nala.smartadtags.com
-0.0.0.0 wt-eu02.net
-0.0.0.0 waws-prod-bay-011.sip.azurewebsites.windows.net
-0.0.0.0 web-networking.com
-0.0.0.0 wudiads.s3.amazonaws.com
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 weekly-prizes.co
-0.0.0.0 wap.com
-0.0.0.0 wh.ip-adress.com
-0.0.0.0 wt4xd.bemobpath.com
-0.0.0.0 webstats.arxiv.org
-0.0.0.0 wizaly.com
-0.0.0.0 wbd.ms
-0.0.0.0 whiteboard.ms
-0.0.0.0 windowssearch-exp.com
-0.0.0.0 wshifen.com
-0.0.0.0 wildxxxhardcore.com
-0.0.0.0 webtraxs.com
-0.0.0.0 wep.wf
-0.0.0.0 whhxnz.com
-0.0.0.0 wowmodels.info
-0.0.0.0 web1.xaijo.com
-0.0.0.0 wpadkigwiazd.pl
-0.0.0.0 wpnjs.com
-0.0.0.0 wzismevwhqixlq.com
-0.0.0.0 watchingthat.net
-0.0.0.0 webclicks24.com
-0.0.0.0 wpu.sh
-0.0.0.0 wowtrk.com
-0.0.0.0 whalecash.com
-0.0.0.0 web.vortex.data.msn.com
-0.0.0.0 webalizer.org
-0.0.0.0 web42.com
-0.0.0.0 ws-goguardian.pusher.com
-0.0.0.0 webmine.cz
-0.0.0.0 w55c.net
-0.0.0.0 wyspaofert.com
-0.0.0.0 wydawca.lead.network
-0.0.0.0 webql-redesign.cnbcfm.com
-0.0.0.0 webcollage.net
-0.0.0.0 webstats.
-0.0.0.0 webstats.thesoul-publishing.com
-0.0.0.0 wootric.com
-0.0.0.0 webd.home.news.cn
-0.0.0.0 wlrtrack.live
-0.0.0.0 wisteria-js.excite.co.jp
-0.0.0.0 wal.wolfram.com
-0.0.0.0 w.o0bc.com
-0.0.0.0 websdk.accengage.net
-0.0.0.0 walsalladvertiser.co.uk
-0.0.0.0 wdcp.microsoft.com
-0.0.0.0 wdcpalt.microsoft.com
-0.0.0.0 wo.vzwwo.com
-0.0.0.0 whatismyip.akamai.com
-0.0.0.0 www-a22.vip
-0.0.0.0 webchat.hammer-corp.com
-0.0.0.0 waust.at
-0.0.0.0 whatbrowser.org
-0.0.0.0 wildhogmailer.com
-0.0.0.0 wz.8286777.com
-0.0.0.0 widget.supercounters.com
-0.0.0.0 weblinks247.com
-0.0.0.0 webseed.com
-0.0.0.0 whizzco.com
-0.0.0.0 wordtracker.com
-0.0.0.0 web-api.getgist.com
-0.0.0.0 wdfl.co
-0.0.0.0 wikia-services.com
-0.0.0.0 whatsyourflower.com
-0.0.0.0 wrison-subustall.com
-0.0.0.0 wlbetathome.adsrv.eacdn.com
-0.0.0.0 whiteops.com
-0.0.0.0 web.getblue.io
-0.0.0.0 we-are-adot.com
-0.0.0.0 webprofile.me
-0.0.0.0 webresolver.nl
-0.0.0.0 wc-tracking.lavasoft.com
-0.0.0.0 wwatmserver.alibaba.com
-0.0.0.0 wywy.com
-0.0.0.0 wiper.wipersoft.com
-0.0.0.0 webcam-ratingen.de
-0.0.0.0 widgets.trustedshops.com
-0.0.0.0 walt.ns.cloudflare.com
-0.0.0.0 linksprotection.com
-0.0.0.0 webglearth.com
-0.0.0.0 wfpscripts.homeunix.com
-0.0.0.0 webconversiononline.com
-0.0.0.0 w.soundcloud.com
-0.0.0.0 worldprofit.com
-0.0.0.0 worldprofittube.com
-0.0.0.0 worldprofitadvertising.com
-0.0.0.0 wordstream.com
-0.0.0.0 weblogtracker.net
-0.0.0.0 webhostingcounter.com
-0.0.0.0 web-analytics-collector.thescore.com
-0.0.0.0 wzrkt.com
-0.0.0.0 website.ws
-0.0.0.0 wwwsaltarsmartbi-a.akamaihd.net
-0.0.0.0 wn8i8o.exnrcvcamcoj.net
-0.0.0.0 world-gen.g.aaplimg.com
-0.0.0.0 winfixer.com
-0.0.0.0 winsite.com
-0.0.0.0 webcompanion.com
-0.0.0.0 widgets.zohosalesiq.com
-0.0.0.0 website-assets-fw.freshworks.com
-0.0.0.0 wishabi.com
-0.0.0.0 websitealive3.com
-0.0.0.0 websitealive.com
-0.0.0.0 wpa.qq.com
-0.0.0.0 watchdog.energized.pro
-0.0.0.0 windstreambusiness.net
-0.0.0.0 wwwal.com
-0.0.0.0 web-frontend-dot-sc-analytics.appspot.com
-0.0.0.0 web-analytics.engagio.com
-0.0.0.0 wad.adbasket.net
-0.0.0.0 1010data.com
-0.0.0.0 ww17.01daa.luytr.com
-0.0.0.0 waryfog.com
-0.0.0.0 wateryvan.com
-0.0.0.0 wellgroomedbat.com
-0.0.0.0 wellmadefrog.com
-0.0.0.0 whirlwealth.com
-0.0.0.0 whiskyqueue.com
-0.0.0.0 wirecomic.com
-0.0.0.0 worrybutter.com
-0.0.0.0 wrongpotato.com
-0.0.0.0 wryfinger.com
-0.0.0.0 webtrends.com
-0.0.0.0 wildcard.moatads.com.edgekey.net
-0.0.0.0 www-googletagmanager.l.google.com
-0.0.0.0 webapp2.targusinfo.com
-0.0.0.0 webmetrics.com
-0.0.0.0 witthethim.com
-0.0.0.0 webassembly.stream
-0.0.0.0 webminepool.com
-0.0.0.0 webminepool.tk
-0.0.0.0 wsp.marketgid.com
-0.0.0.0 witbe.net
-0.0.0.0 witbe.app
-0.0.0.0 webonflex.com
-0.0.0.0 webeatyouradblocker.com
-0.0.0.0 wildcard.insafmalaysia.org
-0.0.0.0 wlneteller.adsrv.eacdn.com
-0.0.0.0 whiteadmedia.com
-0.0.0.0 waardex.com
-0.0.0.0 web-set.com
-0.0.0.0 withdromnit.pro
-0.0.0.0 winnerkur.com
-0.0.0.0 w.clubf07.date
-0.0.0.0 weplayer.cc
-0.0.0.0 wofana.com
-0.0.0.0 witholiced.info
-0.0.0.0 wekiss.co
-0.0.0.0 webvideomarketing.ru
-0.0.0.0 wap.men
-0.0.0.0 wapclick.guru
-0.0.0.0 wapclick.com
-0.0.0.0 wap.click
-0.0.0.0 webmoney.ru
-0.0.0.0 web.money
-0.0.0.0 widget.market-place.su
-0.0.0.0 wer.glib-cough.fun
-0.0.0.0 wgplayer.com
-0.0.0.0 webservices.sub2tech.com
-0.0.0.0 web.softonic-analytics.net
-0.0.0.0 exacttarget.com
-0.0.0.0 wwwabrokegamercom.imageshack.host
-0.0.0.0 wearesmartertravel.com
-0.0.0.0 wsod.com
-0.0.0.0 wtg-ads.com
-0.0.0.0 webstats.seoinc.com
-0.0.0.0 webstats.sapo.pt
-0.0.0.0 webstats.perfectworld.com
-0.0.0.0 webstats.com.br
-0.0.0.0 web-stats.org
-0.0.0.0 watson.microsoft.com
-0.0.0.0 officedepot.com
-0.0.0.0 webclients.net
-0.0.0.0 webtrekk.net
-0.0.0.0 wt.o.nytimes.com
-0.0.0.0 wixlabs-countdown.appspot.com
-0.0.0.0 wixlabs-hcounter.appspot.com
-0.0.0.0 wblt.oui.sncf
-0.0.0.0 w.usabilla.com
-0.0.0.0 webengage.co
-0.0.0.0 webengage.com
-0.0.0.0 wcs.naver.net
-0.0.0.0 wurfl.io
-0.0.0.0 wms.assoc-amazon.com
-0.0.0.0 winprizesapp.com
-0.0.0.0 web.vortex.data.microsoft.com
-0.0.0.0 w.uptolike.com
-0.0.0.0 widget.weibo.com
-0.0.0.0 winaproduct.com
-0.0.0.0 winadiscount.com
-0.0.0.0 wa.and.co.uk
-0.0.0.0 widget.engageya.com
-0.0.0.0 weborama.com
-0.0.0.0 weborama.net
-0.0.0.0 weborama.fr
-0.0.0.0 webmasterplan.de
-0.0.0.0 weborama.fr
-0.0.0.0 webpower.com
-0.0.0.0 webreseau.com
-0.0.0.0 webseoanalytics.com
-0.0.0.0 widgets.getsitecontrol.com
-0.0.0.0 ww2.qfind.net
-0.0.0.0 webstat.channel4.com
-0.0.0.0 whispa.com
-0.0.0.0 whoisonline.net
-0.0.0.0 wholesaletraffic.info
-0.0.0.0 widdit.com
-0.0.0.0 widespace.com
-0.0.0.0 widgetbucks.com
-0.0.0.0 wikia-ads.wikia.com
-0.0.0.0 window.nixnet.cz
-0.0.0.0 wintricksbanner.googlepages.com
-0.0.0.0 wisepops.com
-0.0.0.0 worldwide-cash.net
-0.0.0.0 xpostmail.com
-0.0.0.0 xaxis.com
-0.0.0.0 xad.com
-0.0.0.0 xlbbhdarc.com
-0.0.0.0 xeptek.pro
-0.0.0.0 xlog-va.musical.ly
-0.0.0.0 xtgreat.com
-0.0.0.0 xxxstats.pro
-0.0.0.0 xtraffstat.com
-0.0.0.0 xtraffme.pro
-0.0.0.0 xnxxcomvideos.com
-0.0.0.0 xbc8fsvo5w75wwx8.pro
-0.0.0.0 xwayx.net
-0.0.0.0 xxdjmuekj.com
-0.0.0.0 xidrus.com
-0.0.0.0 xup.to$third-party
-0.0.0.0 xxe2.com
-0.0.0.0 xnylfcp.com
-0.0.0.0 xclick24.com
-0.0.0.0 xineday.com
-0.0.0.0 xxxbannerswap.com
-0.0.0.0 xtremeserve.xyz
-0.0.0.0 xplosion.de
-0.0.0.0 xml.boffoadsfeeds.com
-0.0.0.0 xinvites.com
-0.0.0.0 xxxad.net
-0.0.0.0 xpressunblock.com
-0.0.0.0 xboxab.com
-0.0.0.0 xmediaserve.com
-0.0.0.0 x.castanet.net
-0.0.0.0 x.bidswitch.net
-0.0.0.0 xirsys.com
-0.0.0.0 xx975.com
-0.0.0.0 xverify.com
-0.0.0.0 xxx-tracker.com
-0.0.0.0 xdwan.cn
-0.0.0.0 xand.mixhits.com
+||vpfadnueru.com^
+||vidsrev.com^
+||videodelivery.net^$domain=reuters.com
+||virtuagirl.com^$third-party
+||virtuaguy.com^$third-party
+||virtuagirlhd.com^$third-party
+||virtuaguyhd.com^$third-party
+||viatepigan.com^
+||viceoffers.com^
+||vipoffers.com^
+||vulkanbet.partners^
+||vpn-anbieter-vergleich-test.de^
+||com-gift-winner-lucky-day.vip^
+||viewers.nighteye.app^
+||viral-loops.com^
+||vortex.hulu.com^
+||viphealthhelper.com^
+||vintage-ads-are.cool^
+||viralmint.com^
+||vlscppe.microsoft.com^
+||veta.naver.com^
+||velti.com^
+||vss.norton.com^
+||vzwwo.com^
+||valor.c.hotheadgames.com^
+||valor-api-alb-1080470264.us-east-1.elb.amazonaws.com^
+||vzwdm.com^
+||vzims.com^
+||*-*-pixel-*.vc-networks.com^
+||vietad.vn^
+||vcmedia.com^
+||vml1.s3.amazonaws.com^
+||viewerstats.docstoc.com.s3.amazonaws.com^
+||docstoc.com^
+||vtrk.me^
+||vice-staging-web-statics-cdn.viceops.net^
+||vip052.ssl.hwcdn.net^
+||vod-server.wix.com^
+||viafoura.co^
+||viafoura.com^
+||viafoura.net^
+||vkcdnservice.com^
+||vidible.tv^
+||vuukle-analytics.appspot.com^
+||vuukle.com^
+||verve.com^
+||vertmarkets.com^
+||videmob.com^
+||voluum.com^
+||voluumdsp.com^
+||vistohub.com^
+||vmg.nyc^
+||vibecdn.forkcdn.com^
+||events.data.microsoft.com^
+||vcc-na7b.8x8.com^
+||videopal.io^
+||videopal.me^
+||voodooparking.com^
+||videostat.com^
+||videohub.tv^
+||zencdn.net^
+||verytraffic.com^
+||v.printfriendly.com^
+||verifyability.com^
+||vipadsnet.info^
+||77tracking.com^
+||vwo-analytics.com^
+||vinbet.biz^
+||viaarena.com^
+||videoplaza.tv^
+||vanfireworks.com^
+||voicevegetable.com^
+||volantix.com^
+||vungle.com^
+||vipmember.cu.ma^
+||vipmember-cpanelcheatcocc.blogspot.com^
+||vortexads.media^
+||vashoot.com^
+||valshara.com^
+||vitalads.net^
+||vatafapac.ru^
+||vam-nado.ru^
+||viewmypdf.com^
+||verblife-3.co^
+||vtrack.com^
+||viglink.com^
+||zopim.com^
+||vortex.data.microsoft.com^
+||vortex-*.data.microsoft.com^
+||video-stats.video.google.com^
+||v10.xmlsearch.miva.com^
+||visitor-track.com^
+||visit.webhosting.yahoo.com^
+||visitbox.de^
+||visitpath.com^
+||visual-pagerank.fr^
+||vrt.news^
+||vlc.de^
+||visualrevenue.com^
+||vidora.com^
+||vmmpxl.com^
+||voicevegetable.com^
+||vpon.com^
+||velti.com^
+||vserv.mobi^
+||veinteractive.com^
+||v.shopify.com^
+||weblogger-dynamic-lb.playdom.com^
+||wrison-subustall.com^
+||webtrends.yccdn.com^
+||tapjoyads.com^
+||www-googletagmanager.l.google.com
+||wwwlog.thebell.co.kr^
+||wt-eu02.net^
+||waws-prod-bay-011.sip.azurewebsites.windows.net^
+||web-networking.com^
+||wudiads.s3.amazonaws.com^
+||www-google-analytics.l.google.com^
+||weekly-prizes.co^
+||wap.com^
+||wh.ip-adress.com^
+||wizaly.com^
+||wbd.ms^
+||whiteboard.ms^
+||windowssearch-exp.com^
+||wshifen.com^
+||wildxxxhardcore.com^
+||webtraxs.com^
+||wep.wf^
+||whhxnz.com^
+||wowmodels.info^
+||web1.xaijo.com^
+||wpadkigwiazd.pl^
+||wpnjs.com^
+||wzismevwhqixlq.com^
+||watchingthat.net^
+||webclicks24.com^
+||wpu.sh^
+||wowtrk.com^
+||whalecash.com^
+||web.vortex.data.msn.com^
+||webalizer.org^
+||web42.com^
+||ws-goguardian.pusher.com^
+||webmine.cz^
+||w55c.net^
+||wyspaofert.com^
+||webql-redesign.cnbcfm.com^
+||webcollage.net^
+||wootric.com^
+||webd.home.news.cn^
+||wisteria-js.excite.co.jp^
+||wal.wolfram.com^
+||w.o0bc.com^
+||walsalladvertiser.co.uk^
+||wdcp.microsoft.com^
+||wdcpalt.microsoft.com^
+||whatismyip.akamai.com^
+||www-a22.vip^
+||hammer-corp.com^
+||waust.at^
+||whatbrowser.org^
+||wildhogmailer.com^
+||wz.8286777.com^
+||weblinks247.com^
+||webseed.com^
+||whizzco.com^
+||wordtracker.com^
+||wdfl.co^
+||wikia-services.com^
+||whatsyourflower.com^
+||wrison-subustall.com^
+||whiteops.com^
+||we-are-adot.com^
+||webprofile.me^
+||webresolver.nl^
+||wwatmserver.alibaba.com^
+||wywy.com^
+||wiper.wipersoft.com^
+||webcam-ratingen.de^
+||widgets.trustedshops.com^
+||walt.ns.cloudflare.com^
+||linksprotection.com^
+||webglearth.com^
+||wfpscripts.homeunix.com^
+||webconversiononline.com^
+||w.soundcloud.com^
+||worldprofit.com^
+||worldprofittube.com^
+||worldprofitadvertising.com^
+||wordstream.com^
+||weblogtracker.net^
+||webhostingcounter.com^
+||web-analytics-collector.thescore.com^
+||wzrkt.com^
+||website.ws^
+||wwwsaltarsmartbi-a.akamaihd.net^
+||exnrcvcamcoj.net^
+||infopicked.com^
+||ttnrd.com^
+||proasdf.com^
+||searchcapitol.com^
+||world-gen.g.aaplimg.com^
+||winfixer.com^
+||winsite.com^
+||webcompanion.com^
+||zohosalesiq.com^
+||freshworks.com^
+||wishabi.com^
+||websitealive3.com^
+||wpa.qq.com^
+||watchdog.energized.pro^
+||wwwal.com^
+||web-frontend-dot-sc-analytics.appspot.com^
+||adbasket.net^
+||1010data.com^
+||luytr.com^
+||waryfog.com^
+||wateryvan.com^
+||wellgroomedbat.com^
+||wellmadefrog.com^
+||whirlwealth.com^
+||whiskyqueue.com^
+||wirecomic.com^
+||worrybutter.com^
+||wrongpotato.com^
+||wryfinger.com^
+||webtrends.com^
+||wildcard.moatads.com.edgekey.net^
+||www-googletagmanager.l.google.com^
+||targusinfo.com^
+||webmetrics.com^
+||witthethim.com^
+||webassembly.stream^
+||webminepool.com^
+||webminepool.tk^
+||witbe.net^
+||witbe.app^
+||webonflex.com^
+||webeatyouradblocker.com^
+||wildcard.insafmalaysia.org^
+||whiteadmedia.com^
+||waardex.com^
+||web-set.com^
+||withdromnit.pro^
+||winnerkur.com^
+||clubf07.date^
+||weplayer.cc^
+||wofana.com^
+||witholiced.info^
+||wekiss.co^
+||webvideomarketing.ru^
+||wap.men^
+||wapclick.guru^
+||wapclick.com^
+||wap.click^
+||webmoney.ru^
+||web.money^
+||market-place.su^
+||glib-cough.fun^
+||wgplayer.com^
+||sub2tech.com^
+||exacttarget.com^
+||imageshack.host^
+||wearesmartertravel.com^
+||wsod.com^
+||wtg-ads.com^
+||web-stats.org^
+||watson.microsoft.com^
+||officedepot.com^
+||webclients.net^
+||webtrekk.net^
+||wt.o.nytimes.com^
+||wixlabs-countdown.appspot.com^
+||wixlabs-hcounter.appspot.com^
+||wblt.oui.sncf^
+||webengage.co^
+||wcs.naver.net^
+||wurfl.io^
+||winprizesapp.com^
+||uptolike.com^
+||widget.weibo.com^
+||winaproduct.com^
+||winadiscount.com^
+||engageya.com^
+||weborama.com^
+||weborama.net^
+||weborama.fr^
+||webmasterplan.de^
+||weborama.fr^
+||webpower.com^
+||webreseau.com^
+||webseoanalytics.com^
+||webstat.channel4.com^
+||whispa.com^
+||whoisonline.net^
+||wholesaletraffic.info^
+||widdit.com^
+||widespace.com^
+||widgetbucks.com^
+||wikia-ads.wikia.com^
+||window.nixnet.cz^
+||wintricksbanner.googlepages.com^
+||wisepops.com^
+||worldwide-cash.net^
+||xpostmail.com^
+||xaxis.com^
+||xad.com^
+||xlbbhdarc.com^
+||xeptek.pro^
+||xlog-va.musical.ly^
+||xtgreat.com^
+||xxxstats.pro^
+||xtraffstat.com^
+||xtraffme.pro^
+||xnxxcomvideos.com^
+||xbc8fsvo5w75wwx8.pro^
+||xwayx.net^
+||xxdjmuekj.com^
+||xidrus.com^
+||xup.to^$third-party
+||xxe2.com^
+||xnylfcp.com^
+||xclick24.com^
+||xineday.com^
+||xxxbannerswap.com^
+||xtremeserve.xyz^
+||xplosion.de^
+||xinvites.com^
+||xxxad.net^
+||xpressunblock.com^
+||xboxab.com^
+||xmediaserve.com^
+||x.castanet.net^
+||xx975.com^
+||xverify.com^
+||xxx-tracker.com^
+||xdwan.cn^
+||xand.mixhits.com^
 0.0.0.0 xbs.mtree.com
 0.0.0.0 xovq5nemr.com
 0.0.0.0 xmr.mining.best
@@ -9844,21 +9681,18 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yourofferpro.com
 0.0.0.0 yarn.ideaeggs.press
 0.0.0.0 yb.163yun.com
-0.0.0.0 yumimobi.com
 0.0.0.0 yollamedia.com
 0.0.0.0 y0.cn
 0.0.0.0 ylqbiljjlyq.com
 0.0.0.0 yllix.com
 0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
-0.0.0.0 ynuf.aliapp.org
 0.0.0.0 yaspsd.ir
 0.0.0.0 yume.com
 0.0.0.0 yext.com
 0.0.0.0 yciuyrlw.ml
 0.0.0.0 yahu99.vip
 0.0.0.0 yvzgazds6d.com
-0.0.0.0 yieldsoftware.com
 0.0.0.0 yourhitstats.com
 0.0.0.0 yallboen.com
 0.0.0.0 yttz113.com
@@ -9937,7 +9771,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 yssads.ddc.com
 0.0.0.0 ystat.biz
 0.0.0.0 yt-adblocker.com
-0.0.0.0 yt-adp.nosdn.127.net
 0.0.0.0 ytafer.site90.net
 0.0.0.0 ytapi1.nagezan.net
 0.0.0.0 ytaujxmxxxmm.com
@@ -10005,13 +9838,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zorbikala.com
 0.0.0.0 zorosrv.com
 0.0.0.0 zoom.zynga.com
-0.0.0.0 zencdn.net
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zoneprotect.com
 0.0.0.0 zoneprotect-antispyware.updatestar.com
 0.0.0.0 zoneprotect-antispyware.soft32.com
 0.0.0.0 zoneprotect-antispyware.updatestar.com
-0.0.0.0 zohosalesiq.com
 0.0.0.0 zoho.com
 0.0.0.0 zoho.eu
 0.0.0.0 zoho.in
@@ -10035,7 +9866,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 zdbb.net
 0.0.0.0 zeusclicks.com
 0.0.0.0 zmedia.com
-0.0.0.0 zopim.com
 0.0.0.0 z.track136.com
 0.0.0.0 za1.zeroredirect12.com
 0.0.0.0 zm232.com
@@ -10409,7 +10239,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 4u2explore.com
 0.0.0.0 7dollarads.com
 0.0.0.0 163yun.com
-0.0.0.0 127.net
 0.0.0.0 12secondcommute.com
 0.0.0.0 12lib.org
 0.0.0.0 88-f.net
@@ -10455,7 +10284,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 163nvren.com
 0.0.0.0 育毛シャンプー.tk
 0.0.0.0 7bpeople.com
-0.0.0.0 77tracking.com
 0.0.0.0 4affiliate.net
 0.0.0.0 24pm-affiliation.com
 0.0.0.0 24pm-affiliation.com
@@ -10830,7 +10658,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 0.0.0.0 1000mercis.com
 0.0.0.0 1-cl0ud.com
 0.0.0.0 1-creative-1.com
-0.0.0.0 01daa.luytr.com
 0.0.0.0 0.up.qingdaonews.com
 0.0.0.0 163.com
 0.0.0.0 3waynetworks.com
@@ -11532,8 +11359,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! Wildcard
 ! /analytics/ (breaks sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
-||smetric.
-||smetrics.
+||smetric.^
+||smetrics.^
+||webstats.^
 */clickPerformance
 */smarttag
 */smarttagJwPlayerPlugin
