@@ -71,8 +71,6 @@ duckduckgo.com$cookie=/p|ntp_s/
 ||adstudio-assets.scdn.co^
 ||bloodhound.spotify.com^
 ||log.happymod.com^
-||seeded-session-images.scdn.co^$app=com.spotify.music
-||apresolve.spotify.com
 ||analytics.picsart.com^
 ||cuebiq.com^
 ||events.mapbox.com^
@@ -106,6 +104,9 @@ duckduckgo.com$cookie=/p|ntp_s/
 ||stats.redditmedia.com^
 ! Fake Bitcoin "giveaway"
 ||paubit.com^
+
+||seeded-session-images.scdn.co^$app=com.spotify.music
+||apresolve.spotify.com^$app=com.spotify.music
 
 ! New/Cool AdGuard Home Stuff From Update v0.101.0
 ||android.clients.google.com^$badfilter,ctag=os_android
