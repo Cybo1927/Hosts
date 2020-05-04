@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 35
+! Version: 36
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -114,6 +114,8 @@ pandora.com$generichide
 
 ! VKontakte
 ||vk.com^
+||vkcdnservice.appspot.com.storage.googleapis.com^
+||cdn-s11.vkcache.com^
 
 ! Tagged
 ||tagged.com^
