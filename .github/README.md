@@ -14,8 +14,6 @@ https://i.imgur.com/2mqyp6b.png
 
 * [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains.
 
-* [`Other Formats`](https://github.com/Cybo1927/Hosts/tree/master/Other%20Formats) - This is a folder for extra blocklist formats. Specifically made to help block things on archive.org as the normal way of blocking with 0.0.0.0, 127.0.0.1, and || wont get the trackers due to the weird way they use the archived sites URLs.
-
 <br>
 
 ## Contribution
