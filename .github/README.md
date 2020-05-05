@@ -1,5 +1,9 @@
 ## The rewrite of my main hosts file is finished! It's now in filter list format; I will not change the name of the repository or file because it would cause problems with people who are already using the list.
 
+Before and after image (not embeded for privacy resons)
+<br>
+https://imgur.com/a/aVKqNvB
+
 <br>
 
 ## Main Lists
