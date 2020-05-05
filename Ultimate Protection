@@ -1,9 +1,8 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 36
+! Version: 37
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 60K (Give Or Take A Few Thousand)
-! Last Modified: Thursday, April 2, 2020
+! Last Modified: Monday, May 4, 2020
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -55,6 +54,7 @@ mistersaad.com$script,inline-script
 thinkmobiles.com$script,inline-script
 techiespad.com$script,inline-script
 brave.com$script,inline-script
+01net.com$script,inline-script
 
 ! Can Break Some Things Making It Not Suitable For Normal Hosts File
 ! Block possibly suspicious top-level domains from running as third-party on sites
