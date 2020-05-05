@@ -3001,7 +3001,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||count.romwe.com^
 ||collect.vuevideo.net^
 ||cd-down.com^
-||cp.pushwoosh.com^
 ||cafe-log.myshoplus.com^
 ||collection-endpoint-*.herokuapp.com^
 ||consent.berliner-kurier.de^
@@ -4524,10 +4523,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||gpshopper.com^
 ||geolocation.forbes.com^
 ||g2insights-cdn.azureedge.net^
-||geoedge.be^^
+||geoedge.be^
 ||galepartners.com$third-party
 ||gale.agency$third-party
-||go.pushwoosh.com^
 ||gnar.grammarly.com^
 ||getambassador.com^
 ||redirectingat.com^
@@ -4813,7 +4811,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||hubspotemail.net^
 ||hdfcbank.net^
 ||history-world.org^
-||ha-api.pushwoosh.com^
 ||hwstats.unity3d.com^
 ||hope-of-israel.org^
 ||hstry.eu^
@@ -8191,7 +8188,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||snapengage2018.wpengine.com^
 ||snapengage.com^
 ||solounion.com^
-||ssl.cqcounter.com^
 ||servebom.com^
 ||s3xified.com^
 ||slowplay.tv^
@@ -8207,10 +8203,9 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||saymedia.com^
 ||static-42andpark-com.s3.amazonaws.com^
 ||streamstats.prd.dlive.tv^
-||sdkconfig.ad.intl.xiaomi.com^
 ||storeconfig.mistat.intl.xiaomi.com^
 ||stats-locations.com^
-||statistics.*.free-counters.co.uk^
+||free-counters.co.uk^
 ||statistics.11880.com^
 ||2miners.com^
 ||statistics.afasonline.com^
@@ -9571,7 +9566,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||weborama.net^
 ||weborama.fr^
 ||webmasterplan.de^
-||weborama.fr^
 ||webpower.com^
 ||webreseau.com^
 ||webseoanalytics.com^
@@ -9621,678 +9615,623 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||xxx-tracker.com^
 ||xdwan.cn^
 ||xand.mixhits.com^
-0.0.0.0 xbs.mtree.com
-0.0.0.0 xovq5nemr.com
-0.0.0.0 xmr.mining.best
-0.0.0.0 xpg.com.br
-0.0.0.0 xa.net
-0.0.0.0 xentracking.com
-0.0.0.0 xdrig.com
-0.0.0.0 xlnuj.com
-0.0.0.0 x-lift.jp
-0.0.0.0 xml.explorads.com
-0.0.0.0 xtrapath1.izatcloud.net
-0.0.0.0 xtrapath2.izatcloud.net
-0.0.0.0 xtrapath3.izatcloud.net
-0.0.0.0 x-traceur.com
-0.0.0.0 x6.yakiuchi.com
-0.0.0.0 xchange.ro
-0.0.0.0 xclicks.net
-0.0.0.0 xertive.com
-0.0.0.0 xg4ken.com
-0.0.0.0 xiti.com
-0.0.0.0 xplusone.com
-0.0.0.0 xponsor.com
-0.0.0.0 xq1.net
-0.0.0.0 xtendmedia.com
-0.0.0.0 xtremetop100.com
-0.0.0.0 xxxcounter.com
-0.0.0.0 xxxmyself.com
-0.0.0.0 xg4ken.com
-0.0.0.0 xslt.alexa.com
-0.0.0.0 xxxwebtraffic.com
-0.0.0.0 yournewtab.com
-0.0.0.0 yjtag.jp
-0.0.0.0 yieldlove-ad-serving.net
-0.0.0.0 yepshare.com
-0.0.0.0 yahoo.uservoice.com
-0.0.0.0 yieldoptimizer.com
-0.0.0.0 yieldr.com
-0.0.0.0 yepdownload.com
-0.0.0.0 yastroka.yandex.net
-0.0.0.0 youwins.mobi
-0.0.0.0 yandex.ocsp-responder.com
-0.0.0.0 yabs.yandex.ru
-0.0.0.0 youngkitties.com
-0.0.0.0 youngpussy.xyz
-0.0.0.0 youngestpetite.com
-0.0.0.0 youngnudists.xyz
-0.0.0.0 youngnudism.eu
-0.0.0.0 ymkol.sexxdate.net
-0.0.0.0 ya-counter.ru
-0.0.0.0 youview.io
-0.0.0.0 yengo.com
-0.0.0.0 yavli.com
-0.0.0.0 yieldlove.com
-0.0.0.0 youtube.gq
-0.0.0.0 youutube.ga
-0.0.0.0 yospace-directv.akamaized.net
-0.0.0.0 yospace.com
-0.0.0.0 yourofferpro.com
-0.0.0.0 yarn.ideaeggs.press
-0.0.0.0 yb.163yun.com
-0.0.0.0 yollamedia.com
-0.0.0.0 y0.cn
-0.0.0.0 ylqbiljjlyq.com
-0.0.0.0 yllix.com
-0.0.0.0 yȯutube.com
-0.0.0.0 yesware.com
-0.0.0.0 yaspsd.ir
-0.0.0.0 yume.com
-0.0.0.0 yext.com
-0.0.0.0 yciuyrlw.ml
-0.0.0.0 yahu99.vip
-0.0.0.0 yvzgazds6d.com
-0.0.0.0 yourhitstats.com
-0.0.0.0 yallboen.com
-0.0.0.0 yttz113.com
-0.0.0.0 yourbow.com
-0.0.0.0 youngmarble.com
-0.0.0.0 y7mna.com
-0.0.0.0 yui-s.yahooapis.com
-0.0.0.0 youreasyforms.com
-0.0.0.0 yourfreesoftonline.com
-0.0.0.0 yashi.com
-0.0.0.0 yu987.com
-0.0.0.0 ywhnh.top
-0.0.0.0 ysowy.com
-0.0.0.0 yndxstat.ru
-0.0.0.0 youngrul.pro
-0.0.0.0 ya.vteplom.ru
-0.0.0.0 yqkpt.com
-0.0.0.0 ylkkp.com
-0.0.0.0 yu0123456.com
-0.0.0.0 yjaxc.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co
-0.0.0.0 yads.yjtag.yahoo.co.jp
-0.0.0.0 yads.yjtag.yahoo.co
-0.0.0.0 yjtag.yahoo.co.jp
-0.0.0.0 yjtag.yahoo.co
-0.0.0.0 yads.yahoo.co.jp
-0.0.0.0 yads.yahoo.co
-0.0.0.0 yeas.yahoo.co.jp
-0.0.0.0 yeas.yahoo.co
-0.0.0.0 yceml.net
-0.0.0.0 ytsa.net
-0.0.0.0 yebadu.com
-0.0.0.0 ym.bannerconnect.net
-0.0.0.0 yourstats.net
-0.0.0.0 yourstats.net
-0.0.0.0 you2mail.com
-0.0.0.0 your.365advert.com
-0.0.0.0 youradchoices.com
-0.0.0.0 y.ibsys.com
-0.0.0.0 yab-adimages.s3.amazonaws.com
-0.0.0.0 yabuka.com
-0.0.0.0 yandexadexchange.net
-0.0.0.0 yadro.ru
-0.0.0.0 ybinst3.ec.yimg.com
-0.0.0.0 yesads.com
-0.0.0.0 yandex.mobile.ads.com
-0.0.0.0 yesadvertising.com
-0.0.0.0 yieldads.com
-0.0.0.0 yieldlab.net
-0.0.0.0 yieldmanager.com
-0.0.0.0 yieldmanager.net
-0.0.0.0 yieldtraffic.com
-0.0.0.0 yldbt.com
-0.0.0.0 yoggrt.com
-0.0.0.0 youarewinner.com
-0.0.0.0 ys.actnx.com
-0.0.0.0 ys5egue.dteted7f7r.et4.4656.5.t65.5.5875.dhirt.4989.rgkhr.594k.e.clearpointsupplies.com
-0.0.0.0 ywxi.net
-0.0.0.0 ysance.com
-0.0.0.0 ysance.net
-0.0.0.0 ysance-labs.com
-0.0.0.0 ysbbcrypsc.com
-0.0.0.0 ysbweb.com
-0.0.0.0 ysearchus.com
-0.0.0.0 ysej.code.weddingeeos.com
-0.0.0.0 yserch.com
-0.0.0.0 y-sex.com
-0.0.0.0 ysfppkzlef0hqofnsbts.businessrulesanalysis.com
-0.0.0.0 ysiu.freenation.com
-0.0.0.0 ysjoo.com
-0.0.0.0 yskletnice.com
-0.0.0.0 ysless.f3322.net
-0.0.0.0 ysm.hauchi.com.tw
-0.0.0.0 ysolutions.fr
-0.0.0.0 ysqdjkermxyt.com
-0.0.0.0 yssads.ddc.com
-0.0.0.0 ystat.biz
-0.0.0.0 yt-adblocker.com
-0.0.0.0 ytafer.site90.net
-0.0.0.0 ytapi1.nagezan.net
-0.0.0.0 ytaujxmxxxmm.com
-0.0.0.0 ytbpmzbabph.com
-0.0.0.0 ytbrmaxjwiietcwdsa.com
-0.0.0.0 ytdhshoutidai.com
-0.0.0.0 ytdownloader.com
-0.0.0.0 ytf8i5ce.top
-0.0.0.0 ytgame.cc
-0.0.0.0 ytgame.cn
-0.0.0.0 ytgame.com.cn
-0.0.0.0 ytjiasu.cn
-0.0.0.0 ytlive.xyz
-0.0.0.0 ytmnd.com
-0.0.0.0 ytqihang.com
-0.0.0.0 ytqm.org
-0.0.0.0 y-track.com
-0.0.0.0 zeemail.in
-0.0.0.0 zer0day.ch
-0.0.0.0 zcbyoqylllxe.com
-0.0.0.0 zendplace.pro
-0.0.0.0 zdravo.neboley.site
-0.0.0.0 zog.link
-0.0.0.0 zeroxxx.club
-0.0.0.0 zoee.xyz
-0.0.0.0 ziyun.com.cn$third-party
-0.0.0.0 zeropark.com
-0.0.0.0 zilliontoolkitusa.info
-0.0.0.0 zymerget.bid
-0.0.0.0 ze-fir.com
-0.0.0.0 zaf.services.zam.com
-0.0.0.0 zam.com
-0.0.0.0 zap.buzz
-0.0.0.0 zontera.com
-0.0.0.0 zidedge.com
-0.0.0.0 zenaps.com
-0.0.0.0 zepteo.com
-0.0.0.0 zhongzifuli.com
-0.0.0.0 zhongzishenqi.com
-0.0.0.0 ziffdavisinternational.com
-0.0.0.0 zoomanalytics.co
-0.0.0.0 zzhengre.com
-0.0.0.0 zzword.com
-0.0.0.0 zplayer.trk.zapps.vn
-0.0.0.0 zminer.zaloapp.com
-0.0.0.0 znaptag-us.s3.amazonaws.com
-0.0.0.0 zubeezone.com
-0.0.0.0 zeekrewards.com
-0.0.0.0 zdcommerce.io
-0.0.0.0 zononi.com
-0.0.0.0 zighzag.com
-0.0.0.0 ziffdavis.com
-0.0.0.0 zetaglobal.com
-0.0.0.0 zeotap.com
-0.0.0.0 z.googlevideo.com
-0.0.0.0 zapto.org
-0.0.0.0 zangqu.cn
-0.0.0.0 zhanzhang.baidu.com
-0.0.0.0 ziffstatic.com
-0.0.0.0 zz.cqcounter.com
-0.0.0.0 ztrf.net
-0.0.0.0 ztrack.net
-0.0.0.0 zeroredirect.com
-0.0.0.0 zeroredirect1.com
-0.0.0.0 zorbikala.com
-0.0.0.0 zorosrv.com
-0.0.0.0 zoom.zynga.com
-0.0.0.0 zeus.ad.intl.xiaomi.com
-0.0.0.0 zoneprotect.com
-0.0.0.0 zoneprotect-antispyware.updatestar.com
-0.0.0.0 zoneprotect-antispyware.soft32.com
-0.0.0.0 zoneprotect-antispyware.updatestar.com
-0.0.0.0 zoho.com
-0.0.0.0 zoho.eu
-0.0.0.0 zoho.in
-0.0.0.0 zarget.com
-0.0.0.0 zbwp6ghm.com
-0.0.0.0 zealousfield.com
-0.0.0.0 zonatorrent.es
-0.0.0.0 zurgerya.ru
-0.0.0.0 zewkj.com
-0.0.0.0 zhkzt.com
-0.0.0.0 z5x.net
-0.0.0.0 zangocash.com
-0.0.0.0 zanox-affiliate.de
-0.0.0.0 zanox.com
-0.0.0.0 zantracker.com
-0.0.0.0 zedo.com
-0.0.0.0 zencudo.co.uk
-0.0.0.0 zenkreka.com
-0.0.0.0 zenzuu.com
-0.0.0.0 zeus.developershed.com
-0.0.0.0 zdbb.net
-0.0.0.0 zeusclicks.com
-0.0.0.0 zmedia.com
-0.0.0.0 z.track136.com
-0.0.0.0 za1.zeroredirect12.com
-0.0.0.0 zm232.com
-0.0.0.0 zahonero.com
-0.0.0.0 zansceeifcmm.com
-0.0.0.0 zavfvuooiqvepj.com
-0.0.0.0 zbrkywjutuxu.com
-0.0.0.0 zbxzcrldzzgv.com
-0.0.0.0 zc1.zeroredirect12.com
-0.0.0.0 zd1.november-lax.com
-0.0.0.0 zdizakf.ibifa.biz
-0.0.0.0 zebestof.com
-0.0.0.0 zedplays.com
-0.0.0.0 zemanta.com
-0.0.0.0 zenad.net
-0.0.0.0 zeromine.pro
-0.0.0.0 zeroredirect12.com
-0.0.0.0 zeusclicks.com
-0.0.0.0 zlx.com.br
-0.0.0.0 zm1.november-lax.com
-0.0.0.0 zm5d.lexpress.fr
-0.0.0.0 zmnqoymznwng.com
-0.0.0.0 zmsndy.com
-0.0.0.0 zn1.november-lax.com
-0.0.0.0 zn2.november-lax.com
-0.0.0.0 zn3.november-lax.com
-0.0.0.0 zn5.november-lax.com
-0.0.0.0 zn6.november-lax.com
-0.0.0.0 znvctmolksaj.com
-0.0.0.0 zoileyozfexv.com
-0.0.0.0 zona.video
-0.0.0.0 zonearmour4u.work
-0.0.0.0 zonog.mobilesatisfy.com
-0.0.0.0 zoover.adnetasia.com
-0.0.0.0 zp1.november-lax.com
-0.0.0.0 zpctncydojjh.com
-0.0.0.0 zpe.november-lax.com
-0.0.0.0 zpmbsivi.com
-0.0.0.0 zprlpkabqlth.com
-0.0.0.0 zptncsir.com
-0.0.0.0 zqaxaqqqutrx.com
-0.0.0.0 zr1.zeroredirect12.com
-0.0.0.0 zs1.november-lax.com
-0.0.0.0 zsisk.com
-0.0.0.0 zt1.delta-boa.com
-0.0.0.0 zt1.zeroredirect12.com
-0.0.0.0 ztsrv.com
-0.0.0.0 zu1.november-lax.com
-0.0.0.0 zuuwfrphdgxk.com
-0.0.0.0 zvuespzsdgdq.com
-0.0.0.0 zw1.zeroredirect12.com
-0.0.0.0 zwcuvwssfydj.com
-0.0.0.0 zxqeycvsetkh.com
-0.0.0.0 zycvyudt.com
-0.0.0.0 zyqlfplqdgxu.com
-0.0.0.0 5rocks.io
-0.0.0.0 99counters.com
-0.0.0.0 45.79.223.161
-0.0.0.0 411.appriver.com
-0.0.0.0 46.148.18.250
-0.0.0.0 9.rarbg.me
-0.0.0.0 1k3.com
-0.0.0.0 4wmarketplace.com
-0.0.0.0 254a.com
-0.0.0.0 4wnet.com
-0.0.0.0 1c818-29521.api.pushwoosh.com
-0.0.0.0 1154669279.rsc.cdn77.org
-0.0.0.0 62971.bodis.com
-0.0.0.0 3czf6pxue8-1.algolianet.com
-0.0.0.0 3czf6pxue8-3.algolianet.com
-0.0.0.0 3czf6pxue8-2.algolianet.com
-0.0.0.0 3czf6pxue8-dsn.algolia.net
-0.0.0.0 4.sophosxl.net
-0.0.0.0 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com
-0.0.0.0 4.sophosxl.net
-0.0.0.0 5eb.cc
-0.0.0.0 9icmzvn6.website
-0.0.0.0 894de8bb784.com
-0.0.0.0 7112992.com
-0.0.0.0 360mobileapp.xyz
-0.0.0.0 *-client-log.getapk.cn
-0.0.0.0 12xlwin2.net
-0.0.0.0 166hdtv.com
-0.0.0.0 123clk.com
-0.0.0.0 123cls.com
-0.0.0.0 12gate.site
-0.0.0.0 0k.click
-0.0.0.0 0n.click
-0.0.0.0 0rg.online
-0.0.0.0 0ut.click
-0.0.0.0 0sntp7dnrr.com
-0.0.0.0 *-identity.doubledutch.me
-0.0.0.0 *-dynatrace.allstate.com
-0.0.0.0 *.pixel.archive.is
-0.0.0.0 *-ring.msedge.net
-0.0.0.0 *.logs.roku.com
-0.0.0.0 *.keilaparius.com
-0.0.0.0 *-analytics.com
-0.0.0.0 5ijo.01net.com
-0.0.0.0 2013download.com
-0.0.0.0 8nc8shot.txxx.com
-0.0.0.0 9eb10b7a3d04a.com
-0.0.0.0 18teensex.club
-0.0.0.0 7-7-7-partner.com$third-party
-0.0.0.0 777-partner.com$third-party
-0.0.0.0 777partner.com$third-party
-0.0.0.0 l9bjkkhaycw6f8f4.soundcloud.com
-0.0.0.0 *-ads.google.com
-0.0.0.0 5fac97b397a336397f0f528ec95699c6.sinasws.com
-0.0.0.0 4exlkjnngs.com
-0.0.0.0 3b82.com
-0.0.0.0 22366.com
-0.0.0.0 80.211.148.176
-0.0.0.0 01counter.com
-0.0.0.0 8ixrxa2tnr.com
-0.0.0.0 3snet.ru
-0.0.0.0 3snet.co
-0.0.0.0 4pleb.org
-0.0.0.0 2girls1cup.com
-0.0.0.0 420yolo.com
-0.0.0.0 2ndhalfplays.com
-0.0.0.0 3p.ampproject.net
-0.0.0.0 1.f.ix.de
-0.0.0.0 00bloggers.ru
-0.0.0.0 05.video-ak.cdn.spotify.com
-0.0.0.0 0511zfhl.com
-0.0.0.0 0512dn.com
-0.0.0.0 0512px.net
-0.0.0.0 0512s.com
-0.0.0.0 05168.com.tw
-0.0.0.0 0516bm.com
-0.0.0.0 0516pcw.com
-0.0.0.0 0517.org
-0.0.0.0 05221.jsm68.com
-0.0.0.0 0523st.com
-0.0.0.0 052607e20606.kathell.com
-0.0.0.0 0527zp.com
-0.0.0.0 0531hwsw.com
-0.0.0.0 0531kt.com
-0.0.0.0 0531mnk.net
-0.0.0.0 0532a9.r.axf8.net
-0.0.0.0 0532ci.com.cn
-0.0.0.0 0532dna.com
-0.0.0.0 0532fw.com
-0.0.0.0 0532lx.com
-0.0.0.0 0537sms.cn
-0.0.0.0 0538ly.cn
-0.0.0.0 0539wp.ewok.cl
-0.0.0.0 053z0colym.top
-0.0.0.0 0542227333.com
-0.0.0.0 055-362-4444.pkt114.com
-0.0.0.0 055.zzz.com.ua
-0.0.0.0 0551lf.com
-0.0.0.0 0551zgz.com
-0.0.0.0 05553138.com
-0.0.0.0 0557jy76t2.com
-0.0.0.0 0559edu.com
-0.0.0.0 055pk.com
-0.0.0.0 05673138.com
-0.0.0.0 056789.cn
-0.0.0.0 05711.cn
-0.0.0.0 0571hy.com
-0.0.0.0 0571jjw.com
-0.0.0.0 0571yy.com
-0.0.0.0 0571zxw.com
-0.0.0.0 0579dna.cn
-0.0.0.0 0591101.com
-0.0.0.0 05916.com
-0.0.0.0 0592weixin.com
-0.0.0.0 0595fushi.cn
-0.0.0.0 059e025e7484.com
-0.0.0.0 059sexshop.com.ar
-0.0.0.0 05ee3a24ed11df058c8.com
-0.0.0.0 05f4e2756f290.com
-0.0.0.0 05h7omae7rbwbpktx2tk.xsitedleadpages.com
-0.0.0.0 05hshcw997ty.xyz
-0.0.0.0 05p.com
-0.0.0.0 05tz2e9.com
-0.0.0.0 05y2dxmr.top
-0.0.0.0 06.bd-pcgame.104089.com
-0.0.0.0 06.bd-pcgame.720582.com
-0.0.0.0 06.bd-pcgame.xiazai24.com
-0.0.0.0 06.creativecdn.com
-0.0.0.0 06.sharedsource.org
-0.0.0.0 06.video-ak.cdn.spotify.com
-0.0.0.0 06.zoekvinden.nl
-0.0.0.0 0608451123.byethost10.com
-0.0.0.0 0618.cn
-0.0.0.0 061a1632d773-amazon.com
-0.0.0.0 06204v.136sa.com
-0.0.0.0 062737.com
-0.0.0.0 0629.123unlock.nl
-0.0.0.0 062bifa.com
-0.0.0.0 0632qyw.com
-0.0.0.0 0633.ru
-0.0.0.0 06362.com
-0.0.0.0 0638.info
-0.0.0.0 0648116b.hullapp.io
-0.0.0.0 064bdf.r.axf8.net
-0.0.0.0 065fa80c32780.com
-0.0.0.0 066000d2cb07.com
-0.0.0.0 0663jy.com
-0.0.0.0 0664ic555p.com
-0.0.0.0 06663138.com
-0.0.0.0 0668.com
-0.0.0.0 067.ru
-0.0.0.0 069maninstockings.over-blog.com
-0.0.0.0 06ac496437f1.com
-0.0.0.0 06f09b1008ae993a5a.com
-0.0.0.0 06f24f3d0b.com
-0.0.0.0 06image.com
-0.0.0.0 06kgdxwcr2.top
-0.0.0.0 06q8ff33w4dr.xyz
-0.0.0.0 06uy.tlnk.io
-0.0.0.0 06works-plus.com
-0.0.0.0 07-074.031.popsite.net
-0.0.0.0 07-ladyluck.com
-0.0.0.0 07.8c.d12c.cidr.airmail.net
-0.0.0.0 07.bd-pcgame.xiazai24.com
-0.0.0.0 07.sharedsource.org
-0.0.0.0 07.sk
-0.0.0.0 07.super5566.com
-0.0.0.0 07.video-ak.cdn.spotify.com
-0.0.0.0 07.xiao2012-xyx-pcgame.xiazai28.com
-0.0.0.0 070.us
-0.0.0.0 0700swingerclub.de
-0.0.0.0 0702.de
-0.0.0.0 07176.com
-0.0.0.0 071899.com
-0.0.0.0 072.com
-0.0.0.0 0721.com
-0.0.0.0 0723b9jkk8.com
-0.0.0.0 07346e971b1ec7f.com
-0.0.0.0 03.by
-0.0.0.0 03.creativecdn.com
-0.0.0.0 03.hiveon.net
-0.0.0.0 03.node.hiveon.net
-0.0.0.0 03.sharedsource.org
-0.0.0.0 03.video-ak.cdn.spotify.com
-0.0.0.0 030.com
-0.0.0.0 0300.ddns.net
-0.0.0.0 03000.ddns.net
-0.0.0.0 0313413.com
-0.0.0.0 0315tst.com
-0.0.0.0 0318smartoffice.com
-0.0.0.0 03196688.com
-0.0.0.0 032.com
-0.0.0.0 032387.com
-0.0.0.0 032439.com
-0.0.0.0 033.com
-0.0.0.0 03333138.com
-0.0.0.0 0336app.com
-0.0.0.0 0339106262.co.jp
-0.0.0.0 033xndtfzd.top
-0.0.0.0 0343gg.com
-0.0.0.0 035918.ga
-0.0.0.0 037201.glycyl.pw
-0.0.0.0 037xxx.com
-0.0.0.0 038bbb.com
-0.0.0.0 039026.com
-0.0.0.0 0391mz.com
-0.0.0.0 039574501.com
-0.0.0.0 039ad0897e6da.com
-0.0.0.0 039da14c.ngrok.io
-0.0.0.0 039e377h3b.com
-0.0.0.0 03e.info
-0.0.0.0 03g.net
-0.0.0.0 03mwz2923rcp.xyz
-0.0.0.0 03p.info
-0.0.0.0 03vologda.ru
-0.0.0.0 03y60n.ru
-0.0.0.0 04.bd-pcgame.720582.com
-0.0.0.0 04.bd-pcgame.xiazai24.com
-0.0.0.0 04.creativecdn.com
-0.0.0.0 04.static.xsf.ximxim.com
-0.0.0.0 04.video-ak.cdn.spotify.com
-0.0.0.0 0400msc.com
-0.0.0.0 040134816381437token.com
-0.0.0.0 04080.com
-0.0.0.0 04084.cn
-0.0.0.0 0419f.com
-0.0.0.0 0427d7.se
-0.0.0.0 042techsupport.com
-0.0.0.0 0446.org
-0.0.0.0 044wbsack3frpgweakaos-customers-netflix.info
-0.0.0.0 0451106.com
-0.0.0.0 0451mt.com
-0.0.0.0 0452ddh.com
-0.0.0.0 0452jhw.com
-0.0.0.0 045590.cn
-0.0.0.0 0456hh.com
-0.0.0.0 0459js.com
-0.0.0.0 046.221132170.m-net.ne.jp
-0.0.0.0 047.com
-0.0.0.0 0472js.com
-0.0.0.0 047617855.superu2.com
-0.0.0.0 047688888.com
-0.0.0.0 047855sphr.com
-0.0.0.0 049864ac5e806f903e13b6558e846f87.udagwebspace.de
-0.0.0.0 04cgvyrzct.top
-0.0.0.0 04i.saniketaoci.com
-0.0.0.0 04marcherror000.usa.cc
-0.0.0.0 04marcherror001.usa.cc
-0.0.0.0 04marcherror002.usa.cc
-0.0.0.0 04marcherror003.usa.cc
-0.0.0.0 04marcherror004.usa.cc
-0.0.0.0 04marcherror005.usa.cc
-0.0.0.0 04n86.sa076.com
-0.0.0.0 04pxgjkzb0.top
-0.0.0.0 04stream.com
-0.0.0.0 04t5.app.link
-0.0.0.0 04zl.cn
-0.0.0.0 05.bd-pcgame.720582.com
-0.0.0.0 05.bd-pcgame.xiazai24.com
-0.0.0.0 05.creativecdn.com
-0.0.0.0 05.microsoftcloudserver.com
-0.0.0.0 05.sharedsource.org
-0.0.0.0 05.video-ak.cdn.spotify.com
-0.0.0.0 0511zfhl.com
-0.0.0.0 0512dn.com
-0.0.0.0 0512px.net
-0.0.0.0 0512s.com
-0.0.0.0 05168.com.tw
-0.0.0.0 0516bm.com
-0.0.0.0 0516pcw.com
-0.0.0.0 0517.org
-0.0.0.0 05221.jsm68.com
-0.0.0.0 0523st.com
-0.0.0.0 052607e20606.kathell.com
-0.0.0.0 0527zp.com
-0.0.0.0 0531hwsw.com
-0.0.0.0 0531kt.com
-0.0.0.0 0531mnk.net
-0.0.0.0 0532a9.r.axf8.net
-0.0.0.0 0532ci.com.cn
-0.0.0.0 0532dna.com
-0.0.0.0 0532fw.com
-0.0.0.0 0532lx.com
-0.0.0.0 0537sms.cn
-0.0.0.0 0538ly.cn
-0.0.0.0 0539wp.ewok.cl
-0.0.0.0 0004970.xyz
-0.0.0.0 0914.global.ssl.fastly.net
-0.0.0.0 1dmp.io
-0.0.0.0 15gifts.com
-0.0.0.0 247-inc.net
-0.0.0.0 71360.com
-0.0.0.0 50bang.org
-0.0.0.0 4dle.info
-0.0.0.0 1phads.com
-0.0.0.0 5gdehku0feb-7lf6ve5e.t6jcbjxdxg2ohku83.com
-0.0.0.0 2.android.pool.ntp.org
-0.0.0.0 20429.dialer.lincassa.com
-0.0.0.0 0-act.channel.facebook.com
-0.0.0.0 0.beta.facebook.com
-0.0.0.0 2-dot-mod-ads-dot-house-ads-server.appspot.com
-0.0.0.0 123.fluxads.com
-0.0.0.0 14713804a.l2m.net
-0.0.0.0 1-se.com
-0.0.0.0 7adpower.com
-0.0.0.0 7art-screensavers.com
-0.0.0.0 4g2.vzwdm.com
-0.0.0.0 2go7v1nes8.com
-0.0.0.0 13vm73vbmp.com
-0.0.0.0 715699.com
-0.0.0.0 176-103-133-133.flops.ru
-0.0.0.0 11165151.searchiq.co
-0.0.0.0 1.allyes.com.cn
-0.0.0.0 466453.com
-0.0.0.0 2prosperu.webs.com
-0.0.0.0 4u2explore.com
-0.0.0.0 7dollarads.com
-0.0.0.0 163yun.com
-0.0.0.0 12secondcommute.com
-0.0.0.0 12lib.org
-0.0.0.0 88-f.net
-0.0.0.0 4c.9oo91e.com
-0.0.0.0 15cb56ff71b8406b21.wtahsapp.com
-0.0.0.0 1plusx.com
-0.0.0.0 7.googlevideo.com
-0.0.0.0 02ip.ru
-0.0.0.0 24hwebsex.com
-0.0.0.0 2ch.net
-0.0.0.0 144.dragonparking.com
-0.0.0.0 164d.joypush.cn
-0.0.0.0 164c.mnwan.com
-0.0.0.0 161.xdwan.cn
-0.0.0.0 10221.kickme.to
-0.0.0.0 102291.kickme.to
-0.0.0.0 00002009.zapto.org
-0.0.0.0 000.angryshark.cn
-0.0.0.0 0.tqn.com
-0.0.0.0 0.moikrug.ru
-0.0.0.0 568cai.top
-0.0.0.0 45tu1c0.com
-0.0.0.0 100ge*.core1.lax2.he.net
-0.0.0.0 52blackberry.com
-0.0.0.0 8x8.inbenta.com
-0.0.0.0 73477.tctm.co
-0.0.0.0 42skyfiregce-vimeo.akamaized.net
-0.0.0.0 1zz.cqcounter.com
-0.0.0.0 1us.cqcounter.com
-0.0.0.0 0.nextyourcontent.com
-0.0.0.0 360yeild.com
-0.0.0.0 1rx.io
-0.0.0.0 105627.hittail.com
-0.0.0.0 40nuggets.com
-0.0.0.0 6sc.co
-0.0.0.0 xpj29977.com
-0.0.0.0 601703.com
-0.0.0.0 29977xpj.com
-0.0.0.0 www-0012.com
-0.0.0.0 0012.com
-0.0.0.0 2-spyware.com
-0.0.0.0 3n8u4a2kr6qf2tyhur24ejeq.wpengine.netdna-cdn.com
-0.0.0.0 163nvren.com
-0.0.0.0 育毛シャンプー.tk
-0.0.0.0 7bpeople.com
-0.0.0.0 4affiliate.net
-0.0.0.0 24pm-affiliation.com
-0.0.0.0 24pm-affiliation.com
-0.0.0.0 180searchassistant.com
-0.0.0.0 180hits.de
-0.0.0.0 123found.com
-0.0.0.0 1355028186.rsc.cdn77.org
-0.0.0.0 79423.analytics.edgekey.net
-0.0.0.0 1992444518.rsc.cdn77.org
+||xovq5nemr.com
+||xpg.com.br
+||xa.net
+||xentracking.com
+||xdrig.com
+||xlnuj.com
+||x-lift.jp
+||x-traceur.com
+||x6.yakiuchi.com
+||xchange.ro
+||xclicks.net
+||xertive.com
+||xg4ken.com
+||xiti.com
+||xplusone.com
+||xponsor.com
+||xq1.net
+||xtendmedia.com
+||xtremetop100.com
+||xxxcounter.com
+||xxxmyself.com
+||xslt.alexa.com
+||xxxwebtraffic.com
+||yournewtab.com
+||yjtag.jp
+||yieldlove-ad-serving.net
+||yepshare.com
+||yieldoptimizer.com
+||yieldr.com
+||yepdownload.com
+||yastroka.yandex.net
+||youwins.mobi
+||yabs.yandex.ru
+||youngkitties.com
+||youngpussy.xyz
+||youngestpetite.com
+||youngnudists.xyz
+||youngnudism.eu
+||ymkol.sexxdate.net
+||ya-counter.ru
+||youview.io
+||yengo.com
+||yavli.com
+||yieldlove.com
+||youtube.gq
+||youutube.ga
+||yospace-directv.akamaized.net
+||yospace.com
+||yourofferpro.com
+||ideaeggs.press
+||163yun.com
+||yollamedia.com
+||y0.cn
+||ylqbiljjlyq.com
+||yllix.com
+||yȯutube.com
+||yesware.com
+||yaspsd.ir
+||yume.com
+||yext.com
+||yciuyrlw.ml
+||yahu99.vip
+||yvzgazds6d.com
+||yourhitstats.com
+||yallboen.com
+||yttz113.com
+||yourbow.com
+||youngmarble.com
+||y7mna.com
+||yui-s.yahooapis.com
+||youreasyforms.com
+||yourfreesoftonline.com
+||yashi.com
+||yu987.com
+||ywhnh.top
+||ysowy.com
+||yndxstat.ru
+||youngrul.pro
+||ya.vteplom.ru
+||yqkpt.com
+||ylkkp.com
+||yu0123456.com
+||yjaxc.yahoo.co.jp
+||yjaxc.yahoo.co
+||yads.yjtag.yahoo.co.jp
+||yads.yjtag.yahoo.co
+||yjtag.yahoo.co.jp
+||yjtag.yahoo.co
+||yads.yahoo.co.jp
+||yads.yahoo.co
+||yeas.yahoo.co.jp
+||yeas.yahoo.co
+||yceml.net
+||ytsa.net
+||yebadu.com
+||bannerconnect.net
+||yourstats.net
+||you2mail.com
+||365advert.com
+||youradchoices.com
+||ibsys.com
+||yab-adimages.s3.amazonaws.com
+||yabuka.com
+||yandexadexchange.net
+||yadro.ru
+||ybinst3.ec.yimg.com
+||yesads.com
+||yesadvertising.com
+||yieldads.com
+||yieldlab.net
+||yieldmanager.com
+||yieldmanager.net
+||yieldtraffic.com
+||yldbt.com
+||yoggrt.com
+||youarewinner.com
+||ys.actnx.com
+||clearpointsupplies.com
+||ywxi.net
+||ysance.com
+||ysance.net
+||ysance-labs.com
+||ysbbcrypsc.com
+||ysbweb.com
+||ysearchus.com
+||yserch.com
+||y-sex.com
+||businessrulesanalysis.com
+||ysjoo.com
+||yskletnice.com
+||f3322.net
+||ysm.hauchi.com.tw
+||ysolutions.fr
+||ysqdjkermxyt.com
+||ddc.com
+||ystat.biz
+||yt-adblocker.com
+||ytafer.site90.net
+||nagezan.net
+||ytaujxmxxxmm.com
+||ytbpmzbabph.com
+||ytbrmaxjwiietcwdsa.com
+||ytdhshoutidai.com
+||ytdownloader.com
+||ytf8i5ce.top
+||ytgame.cc
+||ytgame.cn
+||ytgame.com.cn
+||ytjiasu.cn
+||ytlive.xyz
+||ytmnd.com
+||ytqihang.com
+||ytqm.org
+||y-track.com
+||zeemail.in
+||zer0day.ch
+||zcbyoqylllxe.com
+||zendplace.pro
+||zdravo.neboley.site
+||zog.link
+||zeroxxx.club
+||zoee.xyz
+||ziyun.com.cn^$third-party
+||zeropark.com
+||zilliontoolkitusa.info
+||zymerget.bid
+||ze-fir.com
+||zam.com
+||zap.buzz
+||zontera.com
+||zidedge.com
+||zenaps.com
+||zepteo.com
+||zhongzifuli.com
+||zhongzishenqi.com
+||ziffdavisinternational.com
+||zoomanalytics.co
+||zzhengre.com
+||zzword.com
+||trk.zapps.vn
+||zminer.zaloapp.com
+||znaptag-us.s3.amazonaws.com
+||zubeezone.com
+||zeekrewards.com
+||zdcommerce.io
+||zononi.com
+||zighzag.com
+||ziffdavis.com
+||zetaglobal.com
+||zeotap.com
+||z.googlevideo.com
+||zapto.org
+||zangqu.cn
+||zhanzhang.baidu.com
+||ziffstatic.com
+||ztrf.net
+||ztrack.net
+||zeroredirect.com
+||zeroredirect*.com
+||zorbikala.com
+||zorosrv.com
+||zoom.zynga.com
+||zoneprotect.com
+||zoneprotect-antispyware.updatestar.com
+||zoneprotect-antispyware.soft32.com
+||zoho.com
+||zoho.eu
+||zoho.in
+||zarget.com
+||zbwp6ghm.com
+||zealousfield.com
+||zonatorrent.es
+||zurgerya.ru
+||zewkj.com
+||zhkzt.com
+||z5x.net
+||zangocash.com
+||zanox-affiliate.de
+||zanox.com
+||zantracker.com
+||zedo.com
+||zencudo.co.uk
+||zenkreka.com
+||zenzuu.com
+||zeus.developershed.com
+||zdbb.net
+||zeusclicks.com
+||zmedia.com
+||track136.com
+||zm232.com
+||zahonero.com
+||zansceeifcmm.com
+||zavfvuooiqvepj.com
+||zbrkywjutuxu.com
+||zbxzcrldzzgv.com
+||november-lax.com
+||zebestof.com
+||zedplays.com
+||zemanta.com
+||zenad.net
+||zeromine.pro
+||zeusclicks.com
+||zlx.com.br
+||zm5d.lexpress.fr
+||zmnqoymznwng.com
+||zmsndy.com
+||znvctmolksaj.com
+||zoileyozfexv.com
+||zona.video
+||zonearmour4u.work
+||mobilesatisfy.com
+||adnetasia.com
+||zpctncydojjh.com
+||zpmbsivi.com
+||zprlpkabqlth.com
+||zptncsir.com
+||zqaxaqqqutrx.com
+||zsisk.com
+||delta-boa.com
+||ztsrv.com
+||zuuwfrphdgxk.com
+||zvuespzsdgdq.com
+||zwcuvwssfydj.com
+||zxqeycvsetkh.com
+||zycvyudt.com
+||zyqlfplqdgxu.com
+||5rocks.io
+||99counters.com
+||411.appriver.com
+||1k3.com
+||4wmarketplace.com
+||254a.com
+||4wnet.com
+||pushwoosh.com
+||bodis.com
+||algolia.net
+||sophosxl.net
+||5eb.cc
+||9icmzvn6.website
+||894de8bb784.com
+||7112992.com
+||360mobileapp.xyz
+||*-client-log.getapk.cn
+||12xlwin2.net
+||166hdtv.com
+||123clk.com
+||123cls.com
+||12gate.site
+||0k.click
+||0n.click
+||0rg.online
+||0ut.click
+||0sntp7dnrr.com
+||*-identity.doubledutch.me
+||*-dynatrace.allstate.com
+||*-ring.msedge.net
+||*-analytics.com
+||2013download.com
+||4dsply.com^
+||adclear.net^
+||adrtx.net^
+||advangelists.com^
+||ainads.ru^
+||airgrow.com^
+||allmyverygreatlife.com^
+||tracker.arc.io^
+||ilovejuju.be^
+||upapi.net^$empty
+||mc-nat-t.cloudapp.net^
+||piwik.tapatalk.com^
+||search-log.tapatalk.com^
+||audio-sp-sea.spotifycdn.net^
+||heads-ak-spotify-com.akamaized.net^
+||audio-akp-bbr-spotify-com.akamaized.net^
+||video-fa.scdn.co^
+||video-ak.cdn.spotify.com.akahost.net^
+||video-ak.cdn.spotify.com.eip.akadns.net^
+||video-*-cdn-spotify-com.akamaized.net^
+||video-fa.scdn.co^
+||*-ak.cdn.spotify.com.eip.akadns.net^
+||*-ak.cdn.spotify.com.akahost.net^
+||*-ak-spotify-com.akamaized.net^
+||*-akp-bbr-spotify-com.akamaized.net^
+||adstudio-assets.scdn.co^
+||bloodhound.spotify.com^
+||log.happymod.com^
+||analytics.picsart.com^
+||cuebiq.com^
+||events.mapbox.com^
+||taboola.com^
+||moatadr.com^
+||braze.eu^
+||getsocial.im^
+||clickadilla.com^
+||titanads*.com^
+||jpush.io^
+||easytomessage.com^
+||predictor.yandex.net^
+||neonplay.io^
+||singular.net^
+||vanheim.ff.avast.com^
+||samedceylan.com^
+||analytics.jumboprivacy.com^
+||px-cloud.net^
+||soom.la^
+||funwarcab.club^
+||ragyukjaw.club^
+||ribnixand.online^
+||beiven.pw^
+||sosohmmen.club^
+||stats.redditmedia.com^
+||8nc8shot.txxx.com^
+||9eb10b7a3d04a.com^
+||18teensex.club^
+||7-7-7-partner.com^$third-party
+||777-partner.com^$third-party
+||777partner.com^$third-party
+||*-ads.google.com^
+||4exlkjnngs.com^
+||3b82.com^
+||22366.com^
+||01counter.com^
+||8ixrxa2tnr.com^
+||3snet.ru^
+||3snet.co^
+||4pleb.org^
+||2girls1cup.com^
+||420yolo.com^
+||2ndhalfplays.com^
+||3p.ampproject.net^
+||1.f.ix.de^
+||00bloggers.ru^
+||0511zfhl.com^
+||0512dn.com^
+||0512px.net^
+||0512s.com^
+||05168.com.tw^
+||0516bm.com^
+||0516pcw.com^
+||0517.org^
+||jsm68.com^
+||0523st.com^
+||kathell.com^
+||0527zp.com^
+||0531hwsw.com^
+||0531kt.com^
+||0531mnk.net^
+||axf8.net^
+||0532ci.com.cn^
+||0532dna.com^
+||0532fw.com^
+||0532lx.com^
+||0537sms.cn^
+||0538ly.cn^
+||ewok.cl^
+||053z0colym.top^
+||0542227333.com^
+||055-362-4444.pkt114.com^
+||055.zzz.com.ua^
+||0551lf.com^
+||0551zgz.com^
+||05553138.com^
+||0557jy76t2.com^
+||0559edu.com^
+||055pk.com^
+||05673138.com^
+||056789.cn^
+||05711.cn^
+||0571hy.com^
+||0571jjw.com^
+||0571yy.com^
+||0571zxw.com^
+||0579dna.cn^
+||0591101.com^
+||05916.com^
+||0592weixin.com^
+||0595fushi.cn^
+||059e025e7484.com^
+||059sexshop.com.ar^
+||05ee3a24ed11df058c8.com^
+||05f4e2756f290.com^
+||05hshcw997ty.xyz^
+||05p.com^
+||05tz2e9.com^
+||05y2dxmr.top^
+||104089.com^
+||0618.cn^
+||061a1632d773-amazon.com^
+||062737.com^
+||0629.123unlock.nl^
+||062bifa.com^
+||0632qyw.com^
+||0633.ru^
+||06362.com^
+||0638.info^
+||hullapp.io^
+||065fa80c32780.com^
+||066000d2cb07.com^
+||0663jy.com^
+||0664ic555p.com^
+||06663138.com^
+||0668.com^
+||067.ru^
+||069maninstockings.over-blog.com^
+||06ac496437f1.com^
+||06f09b1008ae993a5a.com^
+||06f24f3d0b.com^
+||06image.com^
+||06kgdxwcr2.top^
+||06q8ff33w4dr.xyz^
+||06works-plus.com^
+||popsite.net^
+||07-ladyluck.com^
+||07.sk^
+||07.super5566.com^
+||xiazai28.com^
+||070.us^
+||0700swingerclub.de^
+||0702.de^
+||07176.com^
+||071899.com^
+||072.com^
+||0721.com^
+||0723b9jkk8.com^
+||07346e971b1ec7f.com^
+||03.by^
+||03.hiveon.net^
+||03.node.hiveon.net^
+||030.com^
+||0300.ddns.net^
+||03000.ddns.net^
+||0313413.com^
+||0315tst.com^
+||0318smartoffice.com^
+||03196688.com^
+||032.com^
+||032387.com^
+||032439.com^
+||033.com^
+||03333138.com^
+||0336app.com^
+||0339106262.co.jp^
+||033xndtfzd.top^
+||0343gg.com^
+||035918.ga^
+||037xxx.com^
+||038bbb.com^
+||039026.com^
+||0391mz.com^
+||039574501.com^
+||039ad0897e6da.com^
+||039da14c.ngrok.io^
+||039e377h3b.com^
+||03e.info^
+||03g.net^
+||03mwz2923rcp.xyz^
+||03p.info^
+||03vologda.ru^
+||03y60n.ru^
+||04.static.xsf.ximxim.com^
+||0400msc.com^
+||040134816381437token.com^
+||04080.com^
+||04084.cn^
+||0419f.com^
+||0427d7.se^
+||042techsupport.com^
+||0446.org^
+||044wbsack3frpgweakaos-customers-netflix.info^
+||0451106.com^
+||0451mt.com^
+||0452ddh.com^
+||0452jhw.com^
+||045590.cn^
+||0456hh.com^
+||0459js.com^
+||046.221132170.m-net.ne.jp^
+||047.com^
+||0472js.com^
+||047617855.superu2.com^
+||047688888.com^
+||047855sphr.com^
+||udagwebspace.de^
+||04cgvyrzct.top^
+||04i.saniketaoci.com^
+||04n86.sa076.com^
+||04pxgjkzb0.top^
+||04stream.com^
+||04t5.app.link^
+||04zl.cn^
+||05.microsoftcloudserver.com^
+||0511zfhl.com^
+||0512dn.com^
+||0512px.net^
+||0512s.com^
+||05168.com.tw^
+||0516bm.com^
+||0516pcw.com^
+||0517.org^
+||0523st.com^
+||0527zp.com^
+||0531hwsw.com^
+||0531kt.com^
+||0531mnk.net^
+||0532ci.com.cn^
+||0532dna.com^
+||0532fw.com^
+||0532lx.com^
+||0537sms.cn^
+||0538ly.cn^
+||0004970.xyz^
+||0914.global.ssl.fastly.net^
+||1dmp.io^
+||15gifts.com^
+||247-inc.net^
+||71360.com^
+||50bang.org^
+||4dle.info^
+||1phads.com^
+||t6jcbjxdxg2ohku83.com^
+||2.android.pool.ntp.org^
+||20429.dialer.lincassa.com^
+||0-act.channel.facebook.com^
+||0.beta.facebook.com^
+||2-dot-mod-ads-dot-house-ads-server.appspot.com^
+||1-se.com^
+||7adpower.com^
+||7art-screensavers.com^
+||2go7v1nes8.com^
+||13vm73vbmp.com^
+||715699.com^
+||1.allyes.com.cn^
+||466453.com^
+||2prosperu.webs.com^
+||4u2explore.com^
+||7dollarads.com^
+||12secondcommute.com^
+||12lib.org^
+||88-f.net^
+||4c.9oo91e.com^
+||15cb56ff71b8406b21.wtahsapp.com^
+||1plusx.com^
+||7.googlevideo.com^
+||02ip.ru^
+||24hwebsex.com^
+||2ch.net^
+||joypush.cn^
+||0.moikrug.ru^
+||568cai.top^
+||45tu1c0.com^
+||100ge*.core1.lax2.he.net^
+||52blackberry.com^
+||inbenta.com^
+||42skyfiregce-vimeo.akamaized.net^
+||360yeild.com^
+||1rx.io^
+||40nuggets.com^
+||6sc.co^
+||xpj29977.com^
+||601703.com^
+||29977xpj.com^
+||www-0012.com^
+||0012.com^
+||2-spyware.com^
+||3n8u4a2kr6qf2tyhur24ejeq.wpengine.netdna-cdn.com^
+||163nvren.com^
+||育毛シャンプー.tk^
+||7bpeople.com^
+||4affiliate.net^
+||24pm-affiliation.com^
+||24pm-affiliation.com^
+||180searchassistant.com^
+||180hits.de^
+||123found.com^
+||1355028186.rsc.cdn77.org^
+||79423.analytics.edgekey.net^
+||1992444518.rsc.cdn77.org^
 ||101.sub-75-199-205.myvzw.com^
 ||103.sub-70-222-213.myvzw.com^
 ||103.sub-75-236-210.myvzw.com^
@@ -10600,7 +10539,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||80.sub-97-194-229.myvzw.com^
 ||81.sub-70-218-129.myvzw.com^
 ||81.sub-75-212-93.myvzw.com^
-||81.video-ak.cdn.spotify.com^
 ||82.sub-75-195-46.myvzw.com^
 ||85.sub-70-208-55.myvzw.com^
 ||85.sub-97-41-119.myvzw.com^
@@ -10627,237 +10565,192 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||105.sub-75-223-94.myvzw.com^
 ||106.sub-75-215-93.myvzw.com^
 ||108.sub-70-210-70.myvzw.com^
-0.0.0.0 4.whereinlazio.com
-0.0.0.0 176.122.130.225.16clouds.com
-0.0.0.0 97.64.36.222.16clouds.com
-0.0.0.0 2o7.net
-0.0.0.0 06works-plus.com
-0.0.0.0 0.start.bz
-0.0.0.0 52zfu.com
-0.0.0.0 5293.com
-0.0.0.0 4nabs.com
-0.0.0.0 360yieldplatform.com
-0.0.0.0 34.gs
-0.0.0.0 45.gs
-0.0.0.0 304br.net
-0.0.0.0 305br.net
-0.0.0.0 306br.net
-0.0.0.0 307br.net
-0.0.0.0 308br.net
-0.0.0.0 309br.net
-0.0.0.0 2cobrowse.com
-0.0.0.0 258ydh.com
-0.0.0.0 247realmedia.org
-0.0.0.0 247realmedia.com
-0.0.0.0 247.ai
-0.0.0.0 247-inc.com
-0.0.0.0 200summit.com
-0.0.0.0 1orange-u.com
-0.0.0.0 103bees.com
-0.0.0.0 1010data.com
-0.0.0.0 1000mercis.com
-0.0.0.0 1-cl0ud.com
-0.0.0.0 1-creative-1.com
-0.0.0.0 0.up.qingdaonews.com
-0.0.0.0 163.com
-0.0.0.0 3waynetworks.com
-0.0.0.0 0n-line.tv
-0.0.0.0 136-144-204-121.colo.transip.net
-0.0.0.0 19tv.top
-0.0.0.0 7vauw8000kmqcshek.bmi.scandalousscarecrow.com
-0.0.0.0 1yqbp.com
-0.0.0.0 2bp.blogspot.com
-0.0.0.0 22apple.com
-0.0.0.0 1337x.pl
-0.0.0.0 1337x.to
-0.0.0.0 l2r.xz.lt
-0.0.0.0 l2j.lt
-0.0.0.0 7proof.com
-0.0.0.0 23433aa.xyz
-0.0.0.0 247rtb.com
-0.0.0.0 1advertising.com
-0.0.0.0 180chan.pk
-0.0.0.0 30nama.fun
-0.0.0.0 1000click.ir
-0.0.0.0 4yonder.net
-0.0.0.0 2parale.ro
-0.0.0.0 2performant.com
-0.0.0.0 7w.ro
-0.0.0.0 777-888.ru
-0.0.0.0 7offers.ru
-0.0.0.0 100.admin5.com
-0.0.0.0 189.cn
-0.0.0.0 1.hao123.com
-0.0.0.0 062616.com
-0.0.0.0 9dtiny.cn
-0.0.0.0 99pps.com
-0.0.0.0 941adu.com
-0.0.0.0 9377aa.com
-0.0.0.0 9377bh.com
-0.0.0.0 9377co.com
-0.0.0.0 9377hi.com
-0.0.0.0 9377if.com
-0.0.0.0 9377ku.com
-0.0.0.0 9377or.com
-0.0.0.0 9377os.com
-0.0.0.0 911.cc
-0.0.0.0 89h8.com
-0.0.0.0 88shu.cn
-0.0.0.0 88818122.cn
-0.0.0.0 8800271.com.cn
-0.0.0.0 81c.cn
-0.0.0.0 7xi9g1.com1.z0.glb.clouddn.com
-0.0.0.0 7wen.cn
-0.0.0.0 7dlm.cn
-0.0.0.0 7891655.cn
-0.0.0.0 6789.net
-0.0.0.0 6728812.com
-0.0.0.0 6666lm.com
-0.0.0.0 66san.com
-0.0.0.0 6612152.cn
-0.0.0.0 6604.org
-0.0.0.0 6612151.cn
-0.0.0.0 626uc.com
-0.0.0.0 643226.com
-0.0.0.0 652748.com
-0.0.0.0 5jcom.com.cn
-0.0.0.0 7895983.cn
-0.0.0.0 60095256.adoric-om.com
-0.0.0.0 135.sub-198-224-148.myvzw.com
-0.0.0.0 6to4.ipv6.microsoft.com
-0.0.0.0 a-000*.a-msedge.net
-0.0.0.0 360yield.com
-0.0.0.0 404.online.net
-0.0.0.0 207.net
-0.0.0.0 360adshost.com
-0.0.0.0 1696908298.rsc.cdn77.org
-0.0.0.0 0c4uuexarf.usa.cc
-0.0.0.0 6322.web-stats.org
-0.0.0.0 centade.com
-0.0.0.0 00game.net
-0.0.0.0 10148.tlnk.io
-0.0.0.0 101623.sprout-ad.com
-0.0.0.0 1100ad.com
-0.0.0.0 1100i.com
-0.0.0.0 123-tracker.com
-0.0.0.0 4dsply.com
-0.0.0.0 11f976743800.com
-0.0.0.0 11hour.com
-0.0.0.0 11167236.adscreendirect.com
-0.0.0.0 123ads.nl
-0.0.0.0 123advertising.nl
-0.0.0.0 20d625b48e.se
-0.0.0.0 00.video-ak.cdn.spotify.com
-0.0.0.0 01.video-ak.cdn.spotify.com
-0.0.0.0 02.video-ak.cdn.spotify.com
-0.0.0.0 03.video-ak.cdn.spotify.com
-0.0.0.0 04.video-ak.cdn.spotify.com
-0.0.0.0 05.video-ak.cdn.spotify.com
-0.0.0.0 1c.video-ak.cdn.spotify.com
-0.0.0.0 l2.io
-0.0.0.0 00fun.com
-0.0.0.0 1-1ads.com
-0.0.0.0 www258com.b0.upaiyun.com
-0.0.0.0 01.gxso.net
-0.0.0.0 042707d90914.agrigid.com
-0.0.0.0 005.free-counter.co.uk
-0.0.0.0 005.free-counters.co.uk
-0.0.0.0 101order.com
-0.0.0.0 123freeavatars.com
-0.0.0.0 000free.us
-0.0.0.0 192.com
-0.0.0.0 24log.com
-0.0.0.0 24log.de
-0.0.0.0 999fitness.com
-0.0.0.0 101com.com
-0.0.0.0 7search.com
-0.0.0.0 7sultans.com
-0.0.0.0 8.dramafeverw2.appspot.com
-0.0.0.0 8.ptp22.com
-0.0.0.0 8796.tctm.co
-0.0.0.0 005.free-counter.co.uk
-0.0.0.0 006.free-adult-counters.x-xtra.com
-0.0.0.0 006.free-counter.co.uk
-0.0.0.0 007.free-counter.co.uk
-0.0.0.0 008.free-counter.co.uk
-0.0.0.0 123advertising.nl
-0.0.0.0 123banners.com
-0.0.0.0 123count.com
-0.0.0.0 123counts.com
-0.0.0.0 01gems.com
-0.0.0.0 01i.info
-0.0.0.0 01l.xyz
-0.0.0.0 01net.eulerian.net
-0.0.0.0 01netanalytics.solution.weborama.fr
-0.0.0.0 01-photos-porno.info
-0.0.0.0 01-sex-amateur.info
-0.0.0.0 01sexe.com
-0.0.0.0 01viral.com
-0.0.0.0 020.moro.tv
-0.0.0.0 020zz.com
-0.0.0.0 021.moro.tv
-0.0.0.0 021ycjc.com
-0.0.0.0 022club.com.cn
-0.0.0.0 02to.cn
-0.0.0.0 0-2u.com
-0.0.0.0 02zps9iimwo9gukluvz8.littlematchagirl.com.au
-0.0.0.0 02zps9iimwo9gukluvz8.maherstcottage.com.au
-0.0.0.0 03.sharedsource.org
-0.0.0.0 032439.com
-0.0.0.0 123spill.no
-0.0.0.0 123srv.com
-0.0.0.0 123stat.com
-0.0.0.0 123webmarketing.com
-0.0.0.0 126.xg4ken.com
-0.0.0.0 12place.com
-0.0.0.0 13.ptp22.com
-0.0.0.0 14.ptp22.com
-0.0.0.0 140proof.com
-0.0.0.0 18.ptp22.com
-0.0.0.0 18439.rejectclick.com
-0.0.0.0 18clicks.com
-0.0.0.0 19.ptp22.com
-0.0.0.0 192.168.ss.xxxmyself.com
-0.0.0.0 192.com
-0.0.0.0 1ad.de
-0.0.0.0 1app.blob.core.windows.net
-0.0.0.0 1au.cqcounter.com
-0.0.0.0 1bm.cqcounter.com
-0.0.0.0 1ca.cqcounter.com
-0.0.0.0 1cash.net
-0.0.0.0 00webcams.com
-0.0.0.0 00z70az77mnsa-00swj1zzprh.com
-0.0.0.0 00zasdf.pw
-0.0.0.0 3.ptp22.com
-0.0.0.0 303net.net
-0.0.0.0 33qx.secoptim.com
-0.0.0.0 34245.hittail.com
-0.0.0.0 350media.com
-0.0.0.0 360popunder.com
-0.0.0.0 360switch.net
-0.0.0.0 360.yahoo.com
-0.0.0.0 360popunder.com
-0.0.0.0 360redirect.com
-0.0.0.0 360switch.net
-0.0.0.0 3cinteractive.com
-0.0.0.0 3cnce854.com
-0.0.0.0 3dstats.com
-0.0.0.0 4info.com
-0.0.0.0 4mads.com
-0.0.0.0 4qsurvey.com
-0.0.0.0 4see.mobi
-0.0.0.0 4seeresults.com
-0.0.0.0 4ur.click
-0.0.0.0 4web.cz
-0.0.0.0 5.ptp22.com
-0.0.0.0 51yes.com
-0.0.0.0 526633146.redpop.pro
-0.0.0.0 535225459.keywordblocks.com
-0.0.0.0 555fe0fa.qqc.co
-0.0.0.0 55624-3.popunder.loading-delivery1.com
-0.0.0.0 560183740bc38303d0000248.maestroad.checkm8.com
-0.0.0.0 5623.web-stats.org
+||whereinlazio.com^
+||176.122.130.225.16clouds.com^
+||97.64.36.222.16clouds.com^
+||2o7.net^
+||06works-plus.com^
+||52zfu.com^
+||5293.com^
+||4nabs.com^
+||360yieldplatform.com^
+||34.gs^
+||45.gs^
+||3*br.net^
+||2cobrowse.com^
+||258ydh.com^
+||247realmedia.org^
+||247realmedia.com^
+||247.ai^
+||247-inc.com^
+||200summit.com^
+||1orange-u.com^
+||103bees.com^
+||1010data.com^
+||1000mercis.com^
+||1-cl0ud.com^
+||1-creative-1.com^
+||163.com^
+||3waynetworks.com^
+||0n-line.tv^
+||136-144-204-121.colo.transip.net^
+||19tv.top^
+||scandalousscarecrow.com^
+||1yqbp.com^
+||2bp.blogspot.com^
+||22apple.com^
+||1337x.pl^
+||1337x.to^
+||l2r.xz.lt^
+||l2j.lt^
+||7proof.com^
+||23433aa.xyz^
+||247rtb.com^
+||1advertising.com^
+||180chan.pk^
+||30nama.fun^
+||1000click.ir^
+||4yonder.net^
+||2parale.ro^
+||2performant.com^
+||7w.ro^
+||777-888.ru^
+||7offers.ru^
+||100.admin5.com^
+||189.cn^
+||062616.com^
+||9dtiny.cn^
+||99pps.com^
+||941adu.com^
+||9377aa.com^
+||9377bh.com^
+||9377co.com^
+||9377hi.com^
+||9377if.com^
+||9377ku.com^
+||9377or.com^
+||9377os.com^
+||911.cc^
+||89h8.com^
+||88shu.cn^
+||88818122.cn^
+||8800271.com.cn^
+||81c.cn^
+||7wen.cn^
+||7dlm.cn^
+||7891655.cn^
+||6789.net^
+||6728812.com^
+||6666lm.com^
+||66san.com^
+||6612152.cn^
+||6604.org^
+||6612151.cn^
+||626uc.com^
+||643226.com^
+||652748.com^
+||5jcom.com.cn^
+||7895983.cn^
+||135.sub-198-224-148.myvzw.com^
+||6to4.ipv6.microsoft.com^
+||a-000*.a-msedge.net^
+||360yield.com^
+||404.online.net^
+||207.net^
+||360adshost.com^
+||1696908298.rsc.cdn77.org^
+||centade.com^
+||00game.net^
+||1100ad.com^
+||1100i.com^
+||123-tracker.com^
+||4dsply.com^
+||11f976743800.com^
+||11hour.com^
+||123ads.nl^
+||123advertising.nl^
+||20d625b48e.se^
+||l2.io^
+||00fun.com^
+||1-1ads.com^
+||www258com.b0.upaiyun.com^
+||zhugeio.com^
+||01.gxso.net^
+||101order.com^
+||123freeavatars.com^
+||000free.us^
+||192.com^
+||24log.com^
+||24log.de^
+||999fitness.com^
+||101com.com^
+||7search.com^
+||7sultans.com^
+||8.dramafeverw2.appspot.com^
+||ptp22.com^
+||free-adult-counters.x-xtra.com^
+||123advertising.nl^
+||123banners.com^
+||123count.com^
+||123counts.com^
+||01gems.com^
+||01i.info^
+||01l.xyz^
+||01-photos-porno.info^
+||01-sex-amateur.info^
+||01sexe.com^
+||01viral.com^
+||020zz.com^
+||021ycjc.com^
+||022club.com.cn^
+||02to.cn^
+||0-2u.com^
+||littlematchagirl.com.au^
+||02zps9iimwo9gukluvz8.maherstcottage.com.au^
+||joomexp.com^
+||032439.com^
+||123spill.no^
+||123srv.com^
+||123stat.com^
+||123webmarketing.com^
+||12place.com^
+||140proof.com^
+||18clicks.com^
+||192.com^
+||1ad.de^
+||1app.blob.core.windows.net^
+||1cash.net^
+||00webcams.com^
+||00z70az77mnsa-00swj1zzprh.com^
+||00zasdf.pw^
+||303net.net^
+||350media.com^
+||360popunder.com^
+||360switch.net^
+||360.yahoo.com^
+||360popunder.com^
+||360redirect.com^
+||360switch.net^
+||3cinteractive.com^
+||3cnce854.com^
+||3dstats.com^
+||4info.com^
+||4mads.com^
+||4qsurvey.com^
+||4see.mobi^
+||4seeresults.com^
+||4ur.click^
+||4web.cz^
+||51yes.com^
+||redpop.pro^
+||555fe0fa.qqc.co^
+||loading-delivery1.com^
+||checkm8.com^
 ||1e100.net^
+||log-config.^
+||log-ingestion-*.^
+||targetedconfig-prod.*-*-*.elasticbeanstalk.com^
+! Fake Bitdefender logins
 ||mybitdefender-central.com^
 ||my-bitdefender.com^
 ||bitdefender-login.com^
@@ -10876,6 +10769,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||bitdefendercentral.support^
 ||bitdefendermyanmar.com^
 ||bitdefenderonline.com^
+! Fake Bitcoin "giveaway"
+||paubit.com^
+! IPs
+||46.148.18.250^
+||80.211.148.176^
 ! End Domain Blocklist
 
 ! Ad/Content Blocker Specific
@@ -10972,7 +10870,7 @@ pandora.com##.DisplayAdController__rightRail--active, .DisplayAdController__righ
 ! Github
 ||github.com/_private/browser/
 ||github.com/*/used_by_count
-github.com###js-flash-container, .js-octo-ga-ide
+github.com###js-flash-container, .js-octo-ga-ide, .signup-prompt
 ! End Top Domain
 
 developer.android.com##devsite-snackbar
@@ -11125,6 +11023,10 @@ happymoddownload.com##.fot-fixd
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
+
+! Block browser plugin readouts
+com,net#%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
+com,net#%#Object.defineProperty(navigator, 'mimeTypes', { get: function() { return '0'; } });
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
