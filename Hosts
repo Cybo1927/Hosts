@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1195
+! Version: 1196
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 11.9K
-! Last Modified: Monday, May 4, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12K
+! Last Modified: Tuesday, May 5, 2020
 
 ! Unbreak
 @@||*/showads.js$domain=softgames.de|softgames.com
@@ -109,15 +109,30 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
 
 ! Remove Attribute (uBlock Origin)
-*##+js(ra.js, ping)
-*##+js(ra.js, referrerpolicy)
-*##+js(ra.js, rel, link[rel*="pingback"])
+*##+js(ra, ping)
+*##+js(ra, referrerpolicy)
+*##+js(ra, rel, link[rel*="pingback"])
 *##+js(ra, onclick, a[onclick*="ga"])
 *##+js(ra, onclick, a[onclick*="_gaq.push"])
 *##+js(ra, onclick, a[onclick*="dataLayer.push"])
 *##+js(ra, data-google-query-id, a[data-google-query-id])
 *##+js(ra, data-obtrack, a[data-obtrack])
 *##+js(ra, data-oburl, a[data-oburl])
+! Based on InnoScorpio's "iOS_AND_WIN_Bypass_Mitigation" (https://github.com/InnoScorpio/Public_Adblock_Filters/blob/cc2163038a319a2a181091bf0c1bc448dee6bafa/Enforcement/Adguard/iOS_AND_WIN_Bypass_Mitigation.txt)
+! These two rules replicate the same privacy settings for blocking prefetching from uBlock Origin or Nano Defender for Adguard for Desktop and Adguard for Android. 
+*##+js(ra, rel, link[rel*="next"])
+*##+js(ra, rel, link[rel*="prefetch"])
+! These rules are relevant for Adguard for Desktop, Android, and iOS, work on all domains, not just blocked domains.
+*##+js(ra, rel, link[rel*="preconnect"])
+*##+js(ra, rel, link[rel*="preload"])
+*##+js(ra, rel, link[rel*="dns-prefetch"])
+! Associated with pings
+! *##+js(ra, rel, link[rel*="pingback"])
+! Other prefetching techniques
+*##+js(ra, rel, link[rel*="subresource"])
+*##+js(ra, rel, link[rel*="prev"])
+*##+js(ra, rel, link[rel*="prerender"])
+!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ! Specific
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
@@ -154,9 +169,10 @@ zoomowl.co#$#body { overflow-x: hidden !important; overflow-y: scroll !important
 helpfulprofessor.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Content Security Policies
+||*^$csp=prefetch-src 'none'; 'upgrade-insecure-requests';
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 ||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
@@ -288,6 +304,112 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||xn--battl-kra2007c.net^$important
 
 ! Start Domain Blocklist
+! Start domains with modifiers ($)
+! Domain modifier
+||ffjjti.frl$third-party,domain=~mp3juices.cc
+||gotchosen.com^$domain=realclearpolitics.com
+||platform.linkedin.com^$domain=realclearpolitics.com
+||export.tvnet.lv^$domain=zl.lv
+||web-view.net^$domain=gmail.com
+||tree.com^$domain=cnn.com
+||cloudflare.com^$domain=gitlab.com
+||videodelivery.net^$domain=reuters.com
+!
+||funwarcab.club^$popup,popunder
+||phoenixnewtimes.com^$inline-script
+||exdynsrv.com^$popup,popunder
+||propbn.com^$popup,popunder
+||misdoers.com^$third-party
+||cckefu.com^$third-party
+||camonster.com^$popup,popunder
+||dbbp1.pro^$popup,popunder
+||cams.com^$third-party,popup,popunder
+||vghd.com^$third-party
+||gradfinder.com^$third-party
+||adultfriendfinder.com^$popup,popunder
+||wretch.cc^$third-party
+||infoip.io^$third-party
+||amateurmatch.com^$third-party
+||asiafriendfinder.com^$third-party
+||adv.cr^$third-party
+||mediagamemainframes.com^$third-party
+||link-a.net^$third-party
+||searchdimension.com^$popup,popunder
+||istripper.com$third-party
+||href.li$third-party
+||galeon.com$third-party
+||go.nordvpn.$third-party
+||gamingadult.com$third-party
+||galepartners.com$third-party
+||gale.agency$third-party
+||floatplane.com$websocket
+||freeonlinegames.win$third-party
+||epnt.ebay.com$third-party
+||exoclick.com$popup,popunder
+||doublepimp.com^$popup,popunder
+||us.to^$third-party
+||uw.hu^$third-party
+||geolocation.com^$third-party
+||ip2location.com^$third-party
+||geodatasource.com^$third-party
+||fraudlabspro.com^$third-party
+||hexasoft.com.my^$third-party
+||sextracker.com^$third-party
+||stripchat.com^$third-party
+||sexad.com^$popup,popuner
+||sexy-counter.com^$third-party
+||sevenporn.com^$popup,popunder
+||sexad.net^$popup,popunder
+||reasonporn.com^$popup,popunder
+||pornoneverdie.com^$third-party
+||producthunt.com^$third-party
+||prpopss.com^$popup,popunder
+||panokaverit.com^$third-party
+||panotreffit.com^$third-party
+||pornoslices.com^$popup,popunder
+||pornjacket.com^$popup,popunder
+||pornnewspaper.com^$popup,popunder
+||nydus.org^$third-party
+||7-7-7-partner.com^$third-party
+||777-partner.com^$third-party
+||777partner.com^$third-party
+||upapi.net^$empty
+||ziyun.com.cn^$third-party
+||xup.to^$third-party
+||visitstats.com^$popup,popunder
+||velocitycdn.com^$popup,popunder
+||virtuagirl.com^$third-party
+||virtuaguy.com^$third-party
+||virtuagirlhd.com^$third-party
+||virtuaguyhd.com^$third-party
+! End domains with modifiers ($)
+||ban.jo^
+||inpagepush.com^
+||offerimage.com^
+||a.a^
+||advinci.co^
+||ofgogoatan.com^
+||inabsolor.com^
+||abgligarchan.com^
+||chairwaydenew.site^
+||pushno.com^
+||hepilkkit.site^
+||luckarea.com^
+||news-headlines.co^
+||offgashah.club^
+||pinpdmn.com^
+||propu.sh^
+||showcasethat.com^
+||superbuzz.io^
+||xmlppcbuzz.com^
+||cadskiz.com^
+||eyzu80g9xcxa.com^
+||onemboaran.com^
+||ryrecdiretbet.info^
+||cadspms.com^
+||dadspms.com^
+||hadslims.com^
+||intl.miui.com^
 ||smp-device-content.apple.com^
 ||comscoreresearch.com^
 ||init.ess.apple.com^
@@ -490,7 +612,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||adultadworld.com^
 ||adup-tech.com^
 ||adv.blogupp.com^
-||adv.cr^$third-party^
 ||advert-solutions.com^
 ||advert-technology.ru^
 ||advert.ee^
@@ -540,22 +661,22 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||audrte.com^
 ||audiencemanager.de^
 ||a3cloud.net^
-||ad-srv.net^^
-||affec.tv^^
+||ad-srv.net^
+||affec.tv^
 ||ads.yap.yahoo.com^
 ||a-ring.msedge.net^
 ||applog.musical.ly.edgekey.net^
 ||apptornado.com^
 ||androidcrosspromoapi.herokuapp.com^
-||appannie.com^^
+||appannie.com^
 ||admarketplace.net.akadns.net^
-||ampxdirect.com^^
-||ampfeed.com^^
+||ampxdirect.com^
+||ampfeed.com^
 ||analysis.polarisoffice.com^
-||analysys.cn^^
+||analysys.cn^
 ||analytics.cloud.unity3d.com^
-||appcpi.net^^
-||ads.ebay.com^^
+||appcpi.net^
+||ads.ebay.com^
 ||adventurefeeds.com^
 ||apppcdownload.com^
 ||altmetric.com^
@@ -765,8 +886,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||adcloud.net^
 ||ads*.brazzers.com^
 ||adtube.de^
-||amateurmatch.com^$third-party,^
-||asiafriendfinder.com^$third-party,^
 ||adultpopunders.com^
 ||ads.iknowthatgirl.com^
 ||adsaturn.com^
@@ -996,7 +1115,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||a.et.nytimes.com^
 ||albtls-na.t.co^
 ||ads.youtube.com^
-||infoip.io^$third-party
 ||adport.io^
 ||miaozhen.com^
 ||adwords.com^
@@ -1890,7 +2008,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ad*.realmedia.co.kr^
 ||adcontent.videoegg.com^
 ||advert.funimation.com^
-||wretch.cc^$third-party
 ||ads.yimg.com^
 ||adjax.flickr.yahoo.com^
 ||activations.cdn.mozilla.net^
@@ -2163,7 +2280,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ads.activestate.com^
 ||ads.administrator.de^
 ||adshareware.net^
-||adultfriendfinder.com^$popup,popunder
 ||ads.adultswim.com^
 ||ads.advance.net^
 ||ads.adverline.com^
@@ -2275,7 +2391,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||glispa.com^
 ||gmodules.com^
 ||gplusmedia.com^
-||gradfinder.com^$third-party
 ||ads.gsm-exchange.com^
 ||ads.gsmexchange.com^
 ||ads.guardian.co.uk^
@@ -2929,7 +3044,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||br.blackfling.com^
 ||br.naked.com^
 ||br.rk.com^
-||vghd.com^$third-party
 ||braincash.com^
 ||brainient.com^
 ||freestats.com^
@@ -3072,9 +3186,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||counevan.pro^
 ||cooladata.com^
 ||consting-hancessor.com^
-||camonster.com^$popup,popunder
-||dbbp1.pro^$popup,popunder
-||cams.com^$third-party,popup,popunder
 ||contentdef.com^
 ||cookiepro.com^
 ||clprr.com^
@@ -3091,7 +3202,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ce04.com^
 ||customerevents.netflix.com^
 ||collector.deepmetrix.com^
-||cckefu.com^$third-party
 ||chitika.com^
 ||clickky.biz^
 ||chat24.io^
@@ -3388,7 +3498,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||jkhad.com^
 ||luxup.ru^
 ||adlabsnetworks.ru^
-||misdoers.com^$third-party
 ||mrelko.com^
 ||rbnt.org^
 ||ssl-services.com^
@@ -3398,10 +3507,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||coctisingudg.info^
 ||moneymakercdn.com^
 ||clearadnetwork.com^
-||exdynsrv.com^$popup,popunder
-||propbn.com^$popup,popunder
 ||propbn.com^
-||phoenixnewtimes.com^$inline-script
 ||adv.pilseta24.lv^
 ||pmo.ee^
 ||awemwh.com^
@@ -3429,7 +3535,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||buttercms.com^
 ||attn.tv^
 ||awesomeads.us^
-||export.tvnet.lv^$domain=zl.lv
 ||cv-ph.rdtcdn.com^
 ||csi.gstatic.com^
 ||cello.client-channel.google.com^
@@ -3705,7 +3810,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||darkteenporn.com^
 ||dtprofit.com^
 ||doublepimp.com^
-||doublepimp.com^$popup,popunder
 ||delitraff.com^
 ||donstick.com^
 ||dwhvkier.com^
@@ -4016,7 +4120,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||edaa.eu^
 ||goitcl.com^
 ||exacttargetapis.com^
-||exoclick.com$popup,popunder
 ||ethn.io^
 ||simplereach.com^
 ||ezojs.com^
@@ -4044,7 +4147,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||voluumtlkrnarketing.com^
 ||erossite.com^
 ||es-meetic.club^
-||epnt.ebay.com$third-party
 ||emxdgt.com^
 ||essayprofit.com^
 ||eoredi.com^
@@ -4258,20 +4360,17 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||friends2follow.com^
 ||ftrans03.com^
 ||formirror.com^
-||freeonlinegames.win$third-party
 ||flashtalking.com^
 ||fonecta.fi^
 ||fraudmetrix.cn^
 ||fastfind.com^
 ||falseclab.tk^
-||floatplane.com$websocket
 ||fly202.globalmailer.com^
 ||freetemplatefinder.com^
 ||searchformsonline.com^
 ||fls-*.amazon.com^
 ||frozen-layer.net^
 ||fascinatednosed.club^
-||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||free-browser.co^
 ||filehippo-fre.com^
 ||fp-cdn.azureedge.net^
@@ -4528,8 +4627,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||geolocation.forbes.com^
 ||g2insights-cdn.azureedge.net^
 ||geoedge.be^
-||galepartners.com$third-party
-||gale.agency$third-party
 ||gnar.grammarly.com^
 ||getambassador.com^
 ||redirectingat.com^
@@ -4555,14 +4652,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ghtenbritingso.com^
 ||goguardian.^
 ||gse.io^
-||gamingadult.com$third-party
 ||trafficshop.com^
 ||gunnepaa.xyz^
 ||getscriptjs.com^
 ||gallerynude.eu^
 ||greedseed.world^
-||galeon.com$third-party
-||go.nordvpn.*$third-party
 ||gstatic-us.pro^
 ||gpswox.com^
 ||ga-dev-tools.appspot.com^
@@ -4836,7 +4930,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||hrahdmon.com^
 ||hlserve.com^
 ||httpdns.push.oppomobile.com^
-||href.li$third-party
 ||hypercentage.com^
 ||hilltopads.com^
 ||hexcan.com^
@@ -5031,7 +5124,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||zelfy.com^
 ||ichnaea.netflix.com^
 ||ichnaea-web.netflix.com^
-||istripper.com$third-party
 ||iclwy.xyz^
 ||idvert.com^
 ||iwoop.com^
@@ -5313,7 +5405,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ironsrc.com
 ||ima3vpaid.appspot.com^
 ||jizzads.com^
-||web-view.net^$domain=gmail.com
 ||convead.io^
 ||ipcicken.com^
 ||getsecuredsearch.com^
@@ -6074,7 +6165,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||lbmarie.alegrium.com^
 ||locator.blueswan.io^
 ||searchdimension.com^
-||searchdimension.com^$popup,popunder
 ||lockmypix-free.firebaseio.com^
 ||l-ring.msedge.net^
 ||literally-analytics.appspot.com^
@@ -6091,7 +6181,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||lodoxfwite.com^
 ||logistimatics.com^
 ||luckyorange.net^
-||link-a.net^$third-party
 ||luckypushh.com^
 ||litix.io^
 ||log.kajicam.com^
@@ -6170,8 +6259,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||letsrebold.com^
 ||leanplum.com^
 ||clmbtech.com^
-||gotchosen.com^$domain=realclearpolitics.com
-||platform.linkedin.com^$domain=realclearpolitics.com
 ||log-1.samsungacr.com^
 ||log-ingestion.samsungacr.com^
 ||log-ingestion-*.samsungacr.com^
@@ -6355,7 +6442,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||mypurecloud.com^
 ||mail-ads.google.^
 ||macebearer.cf^
-||mediagamemainframes.com^$third-party
 ||mainstrat.com^
 ||madspms.com^
 ||maidesqueen.pro^
@@ -6775,7 +6861,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||nudist4colony.eu^
 ||nudist-video.top^
 ||nudistsmall.eu^
-||nydus.org^$third-party
 ||no-minimum.club^
 ||nvikgaormj.com^
 ||navixy.com^
@@ -7137,9 +7222,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||partnercash.com^
 ||powr.io^
 ||portal-xiva.yandex.net^
-||pornoslices.com^$popup,popunder
-||pornjacket.com^$popup,popunder
-||pornnewspaper.com^$popup,popunder
 ||prpops.com^
 ||pcgmer.com^
 ||porno-partner.com^
@@ -7148,9 +7230,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||prscripts.com^
 ||popnc.com^
 ||prpopss.com^
-||prpopss.com^$popup,popunder
-||panokaverit.com^$third-party
-||panotreffit.com^$third-party
 ||puu.sh^
 ||piwik.pro^
 ||pepperjam.com^
@@ -7160,8 +7239,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||pbprof.com^
 ||purpreine.co^
 ||poolgmsd.com^
-||pornoneverdie.com^$third-party
-||producthunt.com^$third-party
 ||pixel.nymag.com^
 ||prweb.com^
 ||performance.typekit.net^
@@ -7594,7 +7671,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||ramirocampos.pro^
 ||rdsb2.club^
 ||rapidscansecure.com^
-||reasonporn.com^$popup,popunder
 ||riverhit.com^
 ||richcult.com^
 ||restights.pro^
@@ -7873,7 +7949,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
 ||serverable.com^
 ||sexad.net^
-||sexad.net^$popup,popunder
 ||speed-route.com^
 ||wspisp.net^
 ||stats.monohost.com^
@@ -7901,13 +7976,11 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||storage.mds.yandex.net^
 ||super-route.com^
 ||sextoysgfs.com^
-||sevenporn.com^$popup,popunder
 ||smartcj.com^
 ||securecloud-smart.com^
 ||sexyfashion.top^
 ||sexcas.xyz^
 ||sex-porn.site^
-||sexy-counter.com^$third-party
 ||sexrank.ch^
 ||sexkabi.net^
 ||startwebpromo.com^
@@ -7919,7 +7992,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||strefa18.pl^
 ||sas.com^
 ||seeawhale.com^
-||sexad.com^$popup,popuner
 ||sexad.com^
 ||shalltry.com^
 ||visistat.com^
@@ -7928,7 +8000,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sift.com^
 ||srmdata.com^
 ||shen5511.com^
-||stripchat.com^$third-party
 ||servingmillions.com^
 ||sancdn.net^
 ||spotx.tv^
@@ -7945,7 +8016,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||scgraph.facebook.com^
 ||susapi.lenovomm.com^
 ||stats.mokeedev.com^
-||sextracker.com^$third-party
 ||sevootie.com^
 ||selligent.com^
 ||slgnt.us^
@@ -8014,7 +8084,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||sourcepoint.vice.com^
 ||snapchat-proxy.appspot.com^
 ||vi-serve.com^
-||cloudflare.com^$domain=gitlab.com
 ||tencentbaidu.info^
 ||areametrics.com^
 ||logmatic.io^
@@ -8676,7 +8745,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||365offers.trade^
 ||trackapp.io^
 ||trk.email.dynect.net^
-||tree.com^$domain=cnn.com
 ||tr.cloudmagic.com^
 ||paytmemail.com^
 ||trellian.com^
@@ -9116,11 +9184,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||tqlkg.com^
 ||location_soso.com^
 ||tencent.map.geolocation.com^
-||geolocation.com^$third-party
-||ip2location.com^$third-party
-||geodatasource.com^$third-party
-||fraudlabspro.com^$third-party
-||hexasoft.com.my^$third-party
 ||thinknear-hosted.thinknearhub.com^
 ||teemo.co^
 ||tagcommander.com^
@@ -9147,8 +9210,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||useproof.com^
 ||unibetasia.org^
 ||usenetmodelsindex.com^
-||us.to^$third-party
-||uw.hu^$third-party
 ||urtirepor.com^
 ||uqelijcu.com^
 ||usualgirls.com^
@@ -9263,7 +9324,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||vertamedia.com^
 ||vi.ai^
 ||velocitycdn.com^
-||velocitycdn.com^$popup,popunder
 ||vibrantmedia.com^
 ||viantinc.com^
 ||varick.co^
@@ -9280,14 +9340,8 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||verifycaptcha.com^
 ||visualvisitor.com^
 ||visitstats.com^
-||visitstats.com^$popup,popunder
 ||vpfadnueru.com^
 ||vidsrev.com^
-||videodelivery.net^$domain=reuters.com
-||virtuagirl.com^$third-party
-||virtuaguy.com^$third-party
-||virtuagirlhd.com^$third-party
-||virtuaguyhd.com^$third-party
 ||viatepigan.com^
 ||viceoffers.com^
 ||vipoffers.com^
@@ -9600,7 +9654,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||xwayx.net^
 ||xxdjmuekj.com^
 ||xidrus.com^
-||xup.to^$third-party
 ||xxe2.com^
 ||xnylfcp.com^
 ||xclick24.com^
@@ -9781,7 +9834,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||zog.link
 ||zeroxxx.club
 ||zoee.xyz
-||ziyun.com.cn^$third-party
 ||zeropark.com
 ||zilliontoolkitusa.info
 ||zymerget.bid
@@ -9926,7 +9978,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||allmyverygreatlife.com^
 ||tracker.arc.io^
 ||ilovejuju.be^
-||upapi.net^$empty
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
@@ -9973,9 +10024,6 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||8nc8shot.txxx.com^
 ||9eb10b7a3d04a.com^
 ||18teensex.club^
-||7-7-7-partner.com^$third-party
-||777-partner.com^$third-party
-||777partner.com^$third-party
 ||*-ads.google.com^
 ||4exlkjnngs.com^
 ||3b82.com^
@@ -10787,8 +10835,7 @@ www.oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !impo
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, #alert-banner > .ytd-browse.style-scope, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell
-youtube.com##a[href*="googleadservices.com"]
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, #alert-banner > .ytd-browse.style-scope, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -11021,76 +11068,76 @@ happymoddownload.com##.fot-fixd
 !#if (adguard && !ext_ublock)
 ! AdGuard Specific Whitelist
 @@||sourceforge.net$generichide,genericblock
-@@||accounts.google.*$cookie
-@@||accounts.google.*^$stealth
+@@||accounts.google.^$cookie
+@@||accounts.google.^$stealth
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
 
 ! Block browser plugin readouts
-com,net#%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
-com,net#%#Object.defineProperty(navigator, 'mimeTypes', { get: function() { return '0'; } });
+com,co,net,org,edu,mil,gov,eu,au,cn,br,ms,ly,io,de,ir,info,biz,online#%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
+com,co,net,org,edu,mil,gov,eu,au,cn,br,ms,ly,io,de,ir,info,biz,online#%#Object.defineProperty(navigator, 'mimeTypes', { get: function() { return '0'; } });
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
+||*^$cookie=/_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
 ! The Cookie Doesn't Need To Be Stored For 4 Month - This Sets It To One
-amiunique.org$cookie=AmIUniqueId;maxAge=43200
+||amiunique.org^$cookie=AmIUniqueId;maxAge=43200
 !
 ! Google Cookies On Third-Party Sites Only Last 3 Days
-google.*$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
+||google.^$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
-appcenter.ms$cookie
-modapkdown.com$cookie
-happymoddownload.com$cookie
-hoop.photo$cookie
-ding.wix.com$cookie,third-party
-шляхтен.рф$cookie
-googlevideo.com$cookie
-lmgtfy.com$cookie
-letmegooglethat.com$cookie
-msn.com$cookie=anoncknm|RecentStocks
-ninecorners.com$cookie
-oomph.de$cookie
-cams.com$cookie=/cams_who|cams_tr|HISTORY/
-perfectgirls.net$cookie=/token/
-anonfile.com$cookie
-anonfiles.com$cookie
-cloudflare.com$third-party,cookie
-adblockplus.org$cookie
-g01.msn.com$cookie
-highcharts.com$third-party,cookie
-adorama.com$third-party,cookie
-yeps.io$third-party,cookie
-dailymail.co.uk$cookie
-abcnewsvod-f.akamaihd.net$cookie
-iheart.com$cookie,third-party
-disweb.deploys.io$cookie
-indiedb.com$cookie,third-party
-zanzlanz.com$cookie
-fireden.net$cookie,domain=cytu.be
-discordapp.com$cookie,domain=cytu.be
-pngpix.com.com$cookie,domain=cytu.be
-loox.io$cookie,third-party
-loox.app$cookie,third-party
-nyafuu.org$cookie,domain=cytu.be
-animatedimages.org$cookie,domain=cytu.be
-staticflickr.com$cookie,third-party
-swiftype.com$cookie,third-party
-infowarsmedia.com$cookie,third-party
-store.steampowered.*$cookie,domain=steam.tv
-yahoo.com$cookie=/apeaf|ucs|thamba|flash_enabled/
-facebook.com$cookie=/datr|fr|wd/
-github.com$cookie=/tz/
-google.*$cookie=/GMAIL_LOGIN|COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
-pathlimecom$cookie
-walmart.com$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
-yandex.*$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
-frclip.com,uaclips.com$cookie=/wn/
-bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
+||appcenter.ms^$cookie
+||modapkdown.com^$cookie
+||happymoddownload.com^$cookie
+||hoop.photo^$cookie
+||ding.wix.com^$cookie,third-party
+||шляхтен.рф^$cookie
+||googlevideo.com^$cookie
+||lmgtfy.com^$cookie
+||letmegooglethat.com^$cookie
+||msn.com^$cookie=anoncknm|RecentStocks
+||ninecorners.com^$cookie
+||oomph.de^$cookie
+||cams.com^$cookie=/cams_who|cams_tr|HISTORY/
+||perfectgirls.net^$cookie=/token/
+||anonfile.com^$cookie
+||anonfiles.com^$cookie
+||cloudflare.com^$third-party,cookie
+||adblockplus.org^$cookie
+||g01.msn.com^$cookie
+||highcharts.com^$third-party,cookie
+||adorama.com^$third-party,cookie
+||yeps.io^$third-party,cookie
+||dailymail.co.uk^$cookie
+||abcnewsvod-f.akamaihd.net^$cookie
+||iheart.com^$cookie,third-party
+||disweb.deploys.io^$cookie
+||indiedb.com^$cookie,third-party
+||zanzlanz.com^$cookie
+||fireden.net^$cookie,domain=cytu.be
+||discordapp.com^$cookie,domain=cytu.be
+||pngpix.com.com^$cookie,domain=cytu.be
+||loox.io^$cookie,third-party
+||loox.app^$cookie,third-party
+||nyafuu.org^$cookie,domain=cytu.be
+||animatedimages.org^$cookie,domain=cytu.be
+||staticflickr.com^$cookie,third-party
+||swiftype.com^$cookie,third-party
+||infowarsmedia.com^$cookie,third-party
+||store.steampowered.^$cookie,domain=steam.tv
+||yahoo.com^$cookie=/apeaf|ucs|thamba|flash_enabled/
+||facebook.com^$cookie=/datr|fr|wd/
+||github.com^$cookie=/tz/
+||google.^$cookie=/GMAIL_LOGIN|COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
+||pathlimecom^$cookie
+||walmart.com^$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
+||yandex.^$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
+||frclip.com,uaclips.com^$cookie=/wn/
+||bitdefender.com^$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
 ! Can Get You Unlimited Free Answers
-brainly.com$cookie=Zadanepl_cookie[Token][Guest]
+||brainly.com^$cookie=Zadanepl_cookie[Token][Guest]
 ! End Anti Tracking Cookies
 $webrtc,domain=infoip.io|xda-developers.com|vimeo.com|4chan.org|8ch.net|kiwifarms.net|voat.co|apple.com|google.com|youtube.com|lifewire.com|github.com|gitlab.com|pandora.com|spotify.com
 ! From https://github.com/CHEF-KOCH/WebRTC-tracking/blob/master/WebRTC.txt
@@ -12263,6 +12310,7 @@ _statsonlineinfo
 ##a[href*="&tracker_id="]
 ##a[href*="?link_id="]
 ##a[href*="doubleclick.net"]
+##a[href*="googleadservices.com"]
 ##a[href*="rs-stripe.com"]
 ##a[href*="bytesignal.com"]
 ##a[href*=".searchiq.co"]
