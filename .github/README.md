@@ -1,4 +1,4 @@
-## *I am working to rewrite the main host file to make it smaller while more effective; there will be little, or no updates until that is done*
+## The rewrite of my main hosts file is finished! It's now in filter list format; I will not change the name of the repository or file because it would cause problems with people who are already using the list.
 
 <br>
 
