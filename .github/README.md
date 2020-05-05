@@ -10,8 +10,6 @@ https://i.imgur.com/2mqyp6b.png
 
 * [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blocklist for trackers, ads, malware, and IP grabbers.
 
-* [`Filters Adaptation`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation) - The main blocklist for trackers, ads, malware, and IP grabbers formatted to fit a filter list syntax.
-
 * [`Experimental Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Experimental%20Hosts) - Experimental hosts - testing breakage before putting into hosts/lists
 
 * [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains.
