@@ -2,7 +2,7 @@
 
 Before and after image (not embeded for privacy resons)
 <br>
-https://imgur.com/a/aVKqNvB
+https://i.imgur.com/2mqyp6b.png
 
 <br>
 
