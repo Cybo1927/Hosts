@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 36
+! Version: 37
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -50,6 +50,7 @@ pandora.com$generichide
 
 ! Discord
 ||discordapp.com^
+||discord.com^
 
 ! Flickr
 ||flickr.com^
