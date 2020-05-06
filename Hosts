@@ -1,6 +1,6 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1196-1
+! Version: 1197
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12K
 ! Last Modified: Tuesday, May 5, 2020
@@ -90,8 +90,10 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /\/collect(ion|er)?\/v[0-9]{1,2}/
 ! Some Czech Advertisements
 /\/[a-zA-Z0-9].{133,}/$domain=blesk.cz|zive.cz|osobnosti.cz
-! Block Insecure Popups From Domains 15 or More Characters in Length
-/^http:\/\/.+[a-zA-Z0-9]{15,}.+/$popup
+! Block Insecure Popups From Domains 25 or More Characters in Length
+/^http:\/\/.+[a-zA-Z0-9]{25,}.+/$popup
+! Possibly related to government spyware
+/(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -306,6 +308,7 @@ oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !importan
 ! Start Domain Blocklist
 ! Start domains with modifiers ($)
 ! Domain modifier
+
 ||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||gotchosen.com^$domain=realclearpolitics.com
 ||platform.linkedin.com^$domain=realclearpolitics.com
@@ -382,7 +385,24 @@ oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !importan
 ||virtuaguy.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
+
 ! End domains with modifiers ($)
+||stats.framasoft.org^
+||rbnnetwork.com^
+||uni-rostock.de^
+||auth1.opendns.com^
+||pathful.com^
+||on-nets.com^
+||promo.hgc.com.hk^
+||loqal.no^
+||550b3ikb9j.com^
+||fwwgo.com^
+||misspkl.com^
+||labeldollars.com^
+||s3for.me^
+||gpsecureads.com^
+||pritmail-granoviet.com^
+||undrininvereb.info^
 ||ban.jo^
 ||inpagepush.com^
 ||offerimage.com^
@@ -11317,6 +11337,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/*_adv/
+*/gofd_fl.
+*/gofd_bl.
+*/serve?*$third-party,image
 */clickPerformance
 */smarttag
 */smarttagJwPlayerPlugin
