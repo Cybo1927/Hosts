@@ -1,8 +1,8 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 37
+! Version: 38
 ! This list was made to block trackers that WILL BREAK some sites
-! Last Modified: Monday, May 4, 2020
+! Last Modified: Tuesday, May 5, 2020
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -117,11 +117,12 @@ waterfox.net|
 /^https?:\/\/(www\.)?promo(tion)?\./$all,important
 
 ! Google Tag Manager
-0.0.0.0 gtm.*
+||gtm.*^
 
 ! Easy Anti Public Government Domains
 *.gov
 *.gov.*
+*.mil
 ! Remove .gov Links From All Websites
 *#?#a:-abp-contains(.gov)
 *#?#p:-abp-contains(.gov)
@@ -145,6 +146,8 @@ waterfox.net|
 *#?#header:-abp-contains(.gov)
 *#?#iframe:-abp-contains(.gov)
 *#?#section:-abp-contains(.gov)
+! Government stuffs
+||hgc.com.hk^
 
 ! Yandex Click Tracking
 ||yandex.*/clck
