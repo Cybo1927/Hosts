@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1199
+! Version: 1200
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.1K
-! Last Modified: Wednesday, May 7, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.4K
+! Last Modified: Thursday, May 7, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -60,6 +60,7 @@
 @@||sdad.guru
 pandora.com$genericblock
 pandora.com#@#[class$="Ads"]:not(html):not(body)
+foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
@@ -97,6 +98,8 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/
 ! Extra trackers if not used for videos
 /(ip)[0-9]{8,10}\.(ahcdn.com)/$~media
+! Ping(er) domains
+/^http(s)?:\/\/ping(er)?.+\..+/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -174,6 +177,9 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 *##^script:has-text(wot_referrer)
 *##^script:has-text(wot_origin)
 *##^script:has-text(wot_url)
+*##^script:has-text(jsTags)
+*##^script:has-text(gtm)
+*##^script:has-text(fbAsyncInit)
 !#endif
 
 ! Fixes
@@ -427,6 +433,23 @@ oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !importan
 ||virtuaguyhd.com^$third-party
 
 ! End domains with modifiers ($)
+||ankunding.biz^
+||mericnakliyat.com^
+||meridian-don.com^
+||shopifytrack.com^
+||adready.com^
+||digitalremedy.com^
+||air2s.com^
+||hstrck.com^
+||mstrlytcs.com^
+||nexeps.com^
+||optmstr.com^
+||ablsrv.com^
+||licensechecker.pw^
+||errorr.org^
+||fortnite-pine.com^
+||census.shodan.io^
+||shadowserver.org^
 ||verint.com^
 ||exitintel.com^
 ||sefsdvc.com^
@@ -10958,6 +10981,7 @@ youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-ren
 ||google.*/api/stats/
 ||gsuite.google.com/_/AdditnowStoreUi/browserinfo
 ||pay.google.com*/gen204/
+||gstatic.com/*/f/p/
 google.*###tads, #tadsb, #taw
 
 ! Yahoo
@@ -11178,6 +11202,7 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
 
+! Begin AdGuard General
 !#if (adguard && !ext_ublock)
 ! AdGuard Specific Whitelist
 @@||sourceforge.net$generichide,genericblock
@@ -11259,10 +11284,14 @@ bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
 ! Can Get You Unlimited Free Answers
 brainly.com$cookie=Zadanepl_cookie[Token][Guest]
 ! End Anti Tracking Cookies
+
+! Block webrtc on these domains
 $webrtc,domain=infoip.io|xda-developers.com|vimeo.com|4chan.org|8ch.net|kiwifarms.net|voat.co|apple.com|google.com|youtube.com|lifewire.com|github.com|gitlab.com|pandora.com|spotify.com
 ! From https://github.com/CHEF-KOCH/WebRTC-tracking/blob/master/WebRTC.txt
 $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakeyourtentacles.com|coolchura.blogspot.com|newsiranian.ir|yaspsd.ir|danchimviet.info|hdmoviesfun.in|52blackberry.com|cool-de.com|hackp.com|80lou.com|wearfigs.com|usahud.com|skandar.ir|luxbet.com|yaspsd.ir|hoosheparsi.ir|bravefrontierglobal.blogspot.com|5ok.com.ru|jz100.com|703804.com|zuojiaju.com|hcbbs.com|yewn.cn|sketchupbar.com|biggab.com|weiot.net|jacobtime.com|gigaom.com|mhtdownload.ir|jevons1.com|downloadhi.ir|allcigs.com|xostbaku.ru|rootech.ir|androidrevolution.org|hahasforhoohas.com|fanscloob.com|eazyshoppy.com|onlinewatchmovies2k.com|bankvarzesh.com|williams-oliver.ru|eldorado.com.ua|jamiiyetubongo.com|iruni.ir|khabarfarsi.com|erokawas.xyz|cs-kings.biz|boerse.xyz|asanfizika.blogspot.com|questnutrition.com|xn-xx.co|iruni.ir|real-madrid.ir|cocopanda.dk|shiayan.ir|oliodevices.com|elvoline.com|jam.ua|navasan94.ir|bookmarkrally.info|cargeek.ir|0576qq.com|drlykke.no|duluohe.com|khabareruz.ir|webfa.ir|radiojavanmusic.com|pmo.rozblog.com|nesaporn.xyz|khabarduni.ir|lawrenceburgnow.com|asandl.com|philnewsdaily.com|diablofans.com|novaopt.ru|apg29.nu|ogar.be|idmserialkeycrack.com|samaschool.org|kjparmar.in|torrentjogos.com|teoalida.com|northpoletimes.com|logiastarata.gr|mytwintiers.com|bigbash-2016.com|metssfm.tumblr.com|t20predictions.com|unida.ac.id|darwinite-blog.com|lordaardvarksfm.tumblr.com|australianopenlivestreaming.com|meregita19.blogspot.co.id|karenjcarlisle.com|watcht20worldcup.com|bblt20.com|surat-yasin.com|eceway.com|humhaifilmy.com|hackhackers.com|dilwale-boxofficecollection.in|sarkaribuzz.com|finanzaspersonales.com.co|himexam.net|screencapped.net|agariopvp.biz|bblt20live.net|footballrefereeing.blogspot.com|sportwettenvergleich.net|agromedia.rs|lovelylittlerants.com|tukesquest.com|kcchronicle.com|dilwalemovie.in|yl1001.com|gyft.com|lesmao.net|ourhf.com|baozouribao.com|eeff.net|rmsft.rozblog.com|52kd.com|iruni.ir|khabareruz.ir|fararu.com|asnafshomal.com|hoosheparsi.ir|kalakamuz.ir|reshoevn8r.com|afkarnews.ir|merrilledge.com|emailaddresseslists.com|rmsft.rozblog.com|anipassion.com|healthproductsforyou.com|atzuche.com|khabarduni.ir|whoer.net|wordsearchplanet.info|pedal.ir|soyezcoquin.com|zhavenoci.cz|iwantu.com|rdvtorride.com|getnaughty.com|cougarpourmoi.com|desirdunsoir.com|nastymams.com|relacionsecreta.com|blivuartignu.com|hornycontacts.com|soloavventure.it|onenightfriend.com|sexosemamor.com|maturexmatch.com|together2night.com|jenomsex.cz|amissexy.com|bangexperts.com|plaisirexpress.com|piacerediscreto.com|nastyhookups.com|wildbuddies.com|ulla.com|wildmeets.com|fristemeg.no|sexlugar.es|justgetnaughty.com|becoquin.fr|benaughty.com|liaisontorride.com|hellohotties.com|naughtyfever.com|quierorollo.es|senzapudore.it|wilddate4sex.com|shagaholic.com|maturesforfuck.com|voisinssolitaires.com|naughtydate.com|hookupsfinder.com|iamnaughty.com|upforit.com|playcougar.com|meetwild.com|laymatures.co.uk|affairdating.com|quickflirt.com|spicychats.com|wildbuddies.dk|woohoodates.com|wivesgowild.com|spicydesires.com|maritalhookup.com|passionmature.com|sololigar.com|benaughty.dk|naughtyavenue.com|cheekylovers.com|dammisesso.com|douwant.me|becoquin.com|meetdivorced.com|benaughty.cz|sexintouchbbw.com|mytilene.fr|loveaholics.com|foreigngirlfriend.com|naughtyflirt.com|netshahr.com|jazzaab.ir|delivery.com|how2learn.in|jazzaab.ir|mp3cools.xyz|manupatrafast.in|mega-grad.ru|torrentshulks.xyz|panimix.com|ineedfree.com|pedal.ir|checkesnfree.com|yaspsd.ir|zachys.com|inside-galaxy.blogspot.com|pokupay.by|ladyzest.com|khabarfarsi.com|dafycredit.com|6blog.ir|omen-good.ir|activeconversion.com|whatismyproxy.com|cqrujia.com|art-ideas.ir|ilpotereoctopus.com|bankvarzesh.com|topgames.ir|tcf.com|covanta.com|sellbetter.ca|unitedsafety.net|cossd.com|esecuritytogo.com|hdmoviesfun.in|panimix.com|ir2movie.net|alirezaclassseven.ir|draftkings.com|tvdez.com|omiddinamit.rozblog.com|comparecellular.com|i-love-roman.ir|musicema.com|plchinese.com|sfht.com|fuyang.net|seobust.16mb.com|boursenovin.ir|android-er.blogspot.com|fararu.com|allgameonline.net|bancsabadell.com|stuartweitzman.ca|bankvarzesh.com|asnafshomal.com|haftrah.com|dajizx.com|hoosheparsi.ir|wenbita.net|dajinzx.com|daqinzx.com|daguizx.com|p30world.com|wallpaperswide.ir|ataland.com|irgametech.com|vaghayedaily.ir|dailypuzzleanswers.com|etashee.com|khabargozari.xyz|photofans.cn|ixian.cn|fengqu.com|zhangyu.tv|hdpfans.com|852867.com|hdmoviesfun.in|abshop.com.ua|windowscenter.org|hepan.com|bankvarzesh.com|ip-api.com|zarabanebourse.ir|par30dl.com|privatbank.ua|wishpond.com|theelephantpants.com|bluewin.ch|nutriliving.com|anotherfriend.com|evemattress.co.uk|bttrack.com|ripio.com|imotors.com|samplesandrebates.com|credibly.com|evemattress.com|conferencecalling.com|healthecareers.com|meetcircle.com|bidtellect.com|probemas.com|clickenergy.com.au|wetshaveclub.com|globein.com|wishpond.com.br|getambassador.com|fsastore.com|wishpond.com.mx|cme4life.com|pillpack.com|tirebuyer.com|zferral.com|spirithoods.com|cirrusinsight.com|monetago.com|uslawshield.com|leesa.com|evemattress.de|escortradar.com|ghostbed.com|redplanethotels.com|standdesk.co|shipt.com|texaslawshield.com|lull.com|ztailors.com|cindymovies.com|shopgiftssell.com|fatgranny.com|neatmovies.com|pornorama.com|divinefeet.com|xnxx.com|milfporn.com|jizzle.com|porn.sc|streamsex.com|onlygirlvideos.com|shopporno18.com|gigantits.com|blacktube.com|sexotic.com|fuck.sc|dynavideo.tk|dreammovies.com|teensnow.com|ass4all.com|milfmovs.com|blackmonsterterror.com|magicmovies.com|redheadpussy.com|supercameras.tk|asianporn.com|xnxxmovies.com|malnsextube.xyz|ebonytube.com|gonzo-movies.com|dlove-music.rozblog.com|bankvarzesh.com|straitstimes.com|whatismybrowser.com|blueblog.ir|portmiamiwebcam.com|boursenovin.ir|bankvarzesh.com|hoosheparsi.ir|bia4music.com|farmville2-games.com|phonerated.com|reyaziat.mihanblog.com|iruni.ir|sexxxx.asia|p2pchange.is|bankvarzesh.com|par30dl.com|uptv.tv|investopedia.com|android-revolution-hd.blogspot.com|navid-mojabi.ir|segodnya.ua|ariyagame.com|expedia.com.au|expedia.com.ar|expedia.com.ph|lastminute.co.nz|wotif.co.nz|expedia.it|expedia.com.my|expediacustomer.com|travelocity.com|wotif.com|expedia.com.vn|expedia.mx|expedia.ie|expedia.co.in|expedia.co.id|expedia.dk|expedia.co.kr|expedia.co.th|travel.com.au|expedia.de|expedia.com.hk|karmalab.net|expedia.be|expedia.nl|expedia.no|expedia.biz|expedia.com.tw|expedia.com.sg|expedia.se|travelocity.ca|expedia.at|expedia.co.nz|expedia.fr|expedia.es|expedia.co.jp|expedia.ca|shareanalysis.org|expedia.co.uk|expedia.com.br|lastminute.com.au|expedia.com|pop-music.ir|whatleaks.com|real-madrid.ir|infozed.blogspot.com|ushud.com|pornsharea.com|cocopanda.se|fardanews.com|conferenceyab.ir|rdklu.com|rdkl-u.myshopify.com|drugbuyersguide.net|jiaoduiba.com|clinphar.cn|7ganj.ir|mirivan.com|2ip.com.ua|sunwy.org|wahawang.com|52fzba.com|jining.com|myactmusic.com|zzlt.cn|mydiyclub.com|kalakamuz.ir|hahasforhoohas.com|digicircle.com|taomashen.com|mhuai.com|technomech.ir|rfj.ch|debriefdaily.com|hubaustralia.com|joiz.ch|escortradarforum.com|monitronics.com|4-4-2.com|nextstepliving.com|jobup.ch|toponline.ch|planday.dk|trustev.com|organifi.com|zol.ch|theglow.com.au|business24.ch|city-academy.com|designcrowd.es|activtrak.com|bentoforbusiness.com|devialet.com|transfermarkt.ch|augur.io|swissmom.ch|suedostschweiz.ch|miracleessentialoils.com|dufl.com|weltfussball.com|dixipay.com|mylio.com|ovo.com|designcrowd.ca|planday.com|polizei-schweiz.ch|news.ch|cine.ch|wirtschaft.ch|gipfelbuch.ch|mapmeo.com|mamamia.com.au|vanityplanet.com|carriera.ch|designcrowd.com.br|litter-robot.com|gutekueche.ch|themotherish.com|insideparadeplatz.ch|watson.ch|3plus.tv|tageswoche.ch|landbote.ch|infosperber.ch|fitradio.com|polizeiticker.ch|snowplowanalytics.com|folowsites.xyz|android-revolution-hd.blogspot.com|agricultureinstructor.blogspot.com|pedal.ir|ir2movie.net|simcity.cn|paro.com.tr|manupatra.com|downloadina.net|prepaidreviews.com|talkhab.com|tedxtube.com|smokeandshop.com|5link.ir|sms4send.altervista.org|foxtrot.com.ua|bollywoodkart.com|yaspsd.ir|blueblog.ir|smartmobilephonesolutions.com|2287652162056513113_7f979e3409b78c9266cf8ff16f80c3affd43dc2c.blogspot.com|m500.ir|2nyan.org|2cat.org|check2ip.com|buhgalter911.com|vaghayedaily.ir|utopia-game.com|wisgoon.com|rachelschultz.com|jamesallen.com|smartphonematters.com|buxirani.com|jahannews.com|boursenovin.ir|rmsft.rozblog.com|edu4java.com|newsiranian.ir|f-oloom7-8.rozblog.com|act-music.ir|topak.ir|vastradijewels.com|b88ag.com|qingsongchou.com|m795.com|nongcen.com|wsat4.com|denjnet.com|bangaltech.blogspot.com|manupatrafast.com|aalaponbd.blogspot.com|vaghayedaily.ir|daganzx.com|hahasforhoohas.com|pnu_ac.r98.ir|levme.com|pingpangwang.com|act-music.ir|nimafereidooni.vcp.ir|schottnyc.com|jomashop.com|irgametech.com|draftday.com|lethalperformance.com|politicalraid.com|pard.is|khabarduni.ir|normalite.ir|cheap-phones.com|2287652162056513113_7f979e3409b78c9266cf8ff16f80c3affd43dc2c.blogspot.com|infozed.blogspot.com|vaghayedaily.ir|khabarduni.ir|bia2mah.ir|tvcenlinea.net|advanced.name|lynxbroker.de|smartmobilephonesolutions.com|hudexchange.com|khabargozari.xyz|newsiranian.ir|homage.com|macs4u.com|khabar14.ir|topak.ir|watchseriez.xyz|mihanblog.com|fiverr.com|fiverrcdn.com|fakty.ua|cgaria.com|yesvion.com|phonerated.com|careervillage.org|haingoaiphiemdam.com|bartarinfun.ir|safelink-gta.blogspot.com|javabyab.com|pcgamesupply.com|uupload.ir|shan-ghai.com|tehran98.com|imageaf.com|majazidonya.ir|myactmusic.com|bankvarzesh.com|jasaantar.com|downloadina.net|aftabnews.ir|hairburst.com|mogharrabin.ir|reyaziat.mihanblog.com|vaghayedaily.ir|butterfieldonline.ky|521yw.com|satellite-one.info|i-love-roman.ir|tag-fox.com|mymerrill.com|vaghayedaily.ir|pokupay.by|pardad.ir|navad.net|topak.ir|act-music.ir|subtitleseek.com|6blog.ir|cytbj.com|onlinewatchmovies2k.com|business-gazeta.ru|daminzx.com|shenbiana.com|yiaia.com|5798.com|6blog.ir|anaface.ir|homewp.ir|hotels.com|hoteis.com|hoteles.com|hotels.cn|modemfiles.blogspot.com|6blog.ir|mamisite.com|campussutra.com|littlegoa.com|riotjeans.com|checknshop.com|cubishop.com|ipleak.net|howardforums.com|smyfinancial.com|gigle.ir|comparecellular.com|biacafe.ir|digicircle.com|iranbanou.com|netshahr.com|opoderdopolvo.com|raise.com|akhbarejavan.ir|flw.ph|pb.ua|scdkey.com|club-renault.ru|safelink-gta.blogspot.com|parsi1.com|tvline.com|hollywoodlife.com|digitalartsonline.co.uk|varietylatino.com|wwd.com|variety.com|techadvisor.co.uk|todaysiphone.com|androidandme.com|stagram.com|tmonews.com|bgr.com|blackberry.com|phonedog.com|websta.me|rim.net|wojushop.com|gymboree.com|mangapark.xyz|mysubwaycard.com|blivakker.no|tehran98.com|marugujarats.com|roomertravel.com|yaspsd.ir|planetavto.com.ua|5ok.com.ua|btstor.xyz|learningtv.ir|learningtv.ir|karlkratz.de|iruni.ir|java67.blogspot.sg|nvidiavga.com|yaspsd.ir|rootech.ir|khabarfarsi.com|shahrahnews.ir|babyvote.com|6blog.ir|ukcigs.co|safelink-gta.blogspot.co.id|knowyourstuff.org|rmsft.rozblog.com|leheiwang.com|qiankoo.com|bi-xenon.cn|secunda.com.ua|sandlife.com.cn|imweile.com|vaghayedaily.ir|fishing-sh.com|giahyab.com|zennioptical.com|gigaom.com|khabargozari.xyz|yaspsd.ir|art-ideas.ir|macsales.com|gsnpakistan.com|rootech.ir|reyaziat.mihanblog.com|khabarduni.ir|naslemusic.com|fancytext.blogspot.com|heels.com|rootech.ir|manupatra.in|windowscenter.org|tiket.com|4it.me|flysat.com|jewelslane.com|bitcasino.io|gqget.com|p30download.com|silaosminoga.com|doodleordie.com|lavdan.com|apn-settings.com|1800sports.in|nallucollection.com|cabforce.com|campec.ir|viatech.ir|homewp.ir|hamejoordoa.samenblog.com|istclub.ir|androidiha.com|brandsdal.no|techtools.net|masterdoc.rozblog.com|ebonyflirt.com|flirt.com|clickandflirt.com|rrjewels.com|ekhorshid.ir|modemfiles.blogspot.com|rootech.ir|patogh.rozblog.com|mihanfal.com|925.com.ua|navad.net|javlibraries.xyz|chinagadgetsreviews.blogspot.com|gone-ta-pott.com|bankvarzesh.com|itsatforum.com|khabarduni.ir|safelink-gta.blogspot.com|betseyjohnson.com|youtubedownloaders.xyz|lojaonlinenokia.com.br|netshahr.com|talkhab.com|woodies.cz|ml.com|xgan.cn
-!
+
+! Network/IP blocking
+! Generic
 151.101.129.7$network
 151.101.1.7$network
 151.101.65.7$network
@@ -11279,12 +11308,13 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 47.104.24.111$network
 ! xlog-va.musical.ly
 47.252.92.254$network
-! applog.musical.ly
-104.91.234.195$network
+
 ! Gboard Tracking
 172.217.9.35$network
+
 ! Micorsoft Cortana
 204.79.197.200$network
+
 ! Google IP
 216.58.192.205$network
 216.56.192.205$network
@@ -11292,15 +11322,269 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 172.217.9.67$network
 216.239.35.4$network
 172.217.4.195$network
+
 ! Facebook IP
 157.240.18.15$network
+
 ! GoGuardian IPs
 34.216.47.158$network
 52.89.199.247$network
 52.34.228.147$network
+
 ! Marketo
 104.17.70.206$network
+
+! scan-*.shadowserver.org domains from https://github.com/stamparm/maltrail/blob/master/trails/static/mass_scanner.txt
+74.82.47.1$network
+74.82.47.2$network
+74.82.47.3$network
+74.82.47.4$network
+74.82.47.5$network
+74.82.47.6$network
+74.82.47.7$network
+74.82.47.8$network
+74.82.47.9$network
+74.82.47.10$network
+74.82.47.11$network
+74.82.47.12$network
+74.82.47.13$network
+74.82.47.14$network
+74.82.47.15$network
+74.82.47.16$network
+74.82.47.17$network
+74.82.47.18$network
+74.82.47.19$network
+74.82.47.20$network
+74.82.47.21$network
+74.82.47.22$network
+74.82.47.23$network
+74.82.47.24$network
+74.82.47.25$network
+74.82.47.26$network
+74.82.47.27$network
+74.82.47.28$network
+74.82.47.29$network
+74.82.47.30$network
+74.82.47.31$network
+74.82.47.32$network
+74.82.47.33$network
+74.82.47.34$network
+74.82.47.35$network
+74.82.47.36$network
+74.82.47.37$network
+74.82.47.38$network
+74.82.47.39$network
+74.82.47.40$network
+74.82.47.41$network
+74.82.47.42$network
+74.82.47.43$network
+74.82.47.44$network
+74.82.47.45$network
+74.82.47.46$network
+74.82.47.47$network
+74.82.47.48$network
+74.82.47.49$network
+74.82.47.50$network
+74.82.47.51$network
+74.82.47.52$network
+74.82.47.53$network
+74.82.47.54$network
+74.82.47.55$network
+74.82.47.56$network
+74.82.47.57$network
+74.82.47.58$network
+74.82.47.59$network
+74.82.47.60$network
+74.82.47.61$network
+74.82.47.62$network
+74.82.47.63$network
+184.105.139.66$network
+184.105.139.67$network
+184.105.139.68$network
+184.105.139.69$network
+184.105.139.70$network
+184.105.139.71$network
+184.105.139.72$network
+184.105.139.73$network
+184.105.139.74$network
+184.105.139.75$network
+184.105.139.76$network
+184.105.139.77$network
+184.105.139.78$network
+184.105.139.79$network
+184.105.139.80$network
+184.105.139.81$network
+184.105.139.82$network
+184.105.139.83$network
+184.105.139.84$network
+184.105.139.85$network
+184.105.139.86$network
+184.105.139.87$network
+184.105.139.88$network
+184.105.139.89$network
+184.105.139.90$network
+184.105.139.91$network
+184.105.139.92$network
+184.105.139.93$network
+184.105.139.94$network
+184.105.139.95$network
+184.105.139.96$network
+184.105.139.97$network
+184.105.139.98$network
+184.105.139.99$network
+184.105.139.100$network
+184.105.139.101$network
+184.105.139.102$network
+184.105.139.103$network
+184.105.139.104$network
+184.105.139.105$network
+184.105.139.106$network
+184.105.139.107$network
+184.105.139.108$network
+184.105.139.109$network
+184.105.139.110$network
+184.105.139.111$network
+184.105.139.112$network
+184.105.139.113$network
+184.105.139.114$network
+184.105.139.115$network
+184.105.139.116$network
+184.105.139.117$network
+184.105.139.118$network
+184.105.139.119$network
+184.105.139.120$network
+184.105.139.121$network
+184.105.139.122$network
+184.105.139.123$network
+184.105.139.124$network
+184.105.139.125$network
+184.105.139.126$network 
+184.105.247.194$network
+184.105.247.195$network
+184.105.247.196$network
+184.105.247.197$network
+184.105.247.198$network
+184.105.247.199$network
+184.105.247.200$network
+184.105.247.201$network
+184.105.247.202$network
+184.105.247.203$network
+184.105.247.204$network
+184.105.247.205$network
+184.105.247.206$network
+184.105.247.207$network
+184.105.247.208$network
+184.105.247.209$network
+184.105.247.210$network
+184.105.247.211$network
+184.105.247.212$network
+184.105.247.213$network
+184.105.247.214$network
+184.105.247.215$network
+184.105.247.216$network
+184.105.247.217$network
+184.105.247.218$network
+184.105.247.219$network
+184.105.247.220$network
+184.105.247.221$network
+184.105.247.222$network
+184.105.247.223$network
+184.105.247.224$network
+184.105.247.225$network
+184.105.247.226$network
+184.105.247.227$network
+184.105.247.228$network
+184.105.247.229$network
+184.105.247.230$network
+184.105.247.231$network
+184.105.247.232$network
+184.105.247.233$network
+184.105.247.234$network
+184.105.247.235$network
+184.105.247.236$network
+184.105.247.237$network
+184.105.247.238$network
+184.105.247.239$network
+184.105.247.240$network
+184.105.247.241$network
+184.105.247.242$network
+184.105.247.243$network
+184.105.247.244$network
+184.105.247.245$network
+184.105.247.246$network
+184.105.247.247$network
+184.105.247.248$network
+184.105.247.249$network
+184.105.247.250$network
+184.105.247.251$network
+184.105.247.252$network
+184.105.247.253$network
+184.105.247.254$network 
+216.218.206.66$network
+216.218.206.67$network
+216.218.206.68$network
+216.218.206.69$network
+216.218.206.70$network
+216.218.206.71$network
+216.218.206.72$network
+216.218.206.73$network
+216.218.206.74$network
+216.218.206.75$network
+216.218.206.76$network
+216.218.206.77$network
+216.218.206.78$network
+216.218.206.79$network
+216.218.206.80$network
+216.218.206.81$network
+216.218.206.82$network
+216.218.206.83$network
+216.218.206.84$network
+216.218.206.85$network
+216.218.206.86$network
+216.218.206.87$network
+216.218.206.88$network
+216.218.206.89$network
+216.218.206.90$network
+216.218.206.91$network
+216.218.206.92$network
+216.218.206.93$network
+216.218.206.94$network
+216.218.206.95$network
+216.218.206.96$network
+216.218.206.97$network
+216.218.206.98$network
+216.218.206.99$network
+216.218.206.100$network
+216.218.206.101$network
+216.218.206.102$network
+216.218.206.103$network
+216.218.206.104$network
+216.218.206.105$network
+216.218.206.106$network
+216.218.206.107$network
+216.218.206.108$network
+216.218.206.109$network
+216.218.206.110$network
+216.218.206.111$network
+216.218.206.112$network
+216.218.206.113$network
+216.218.206.114$network
+216.218.206.115$network
+216.218.206.116$network
+216.218.206.117$network
+216.218.206.118$network
+216.218.206.119$network
+216.218.206.120$network
+216.218.206.121$network
+216.218.206.122$network
+216.218.206.123$network
+216.218.206.124$network
+216.218.206.125$network
+216.218.206.126$network
 !#endif
+! End AdGuard General
+
+! Begin AdGuard for Android
 !#if (adguard_app_android && !ext_ublock)
 ! Android specific blocklist
 ||seeded-session-images.scdn.co^
@@ -11431,6 +11715,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
 !#endif
+! End AdGuard for Android
 
 ! Wildcard
 ! /analytics/ (breaks sites like moodysanalytics.com)
@@ -12201,6 +12486,13 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.AsidePromo
+##.TrackedSidebarPromo
+##.TrackedBannerPromo-media
+##.TrackedBannerPromo
+###desktop-notifications
+##.vce-ad-container
+##.vce-ad-below-header
 ##.advertisement
 ##.ads-container
 ###ad-leaderboard-content
