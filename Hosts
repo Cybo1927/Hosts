@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1198
+! Version: 1199
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12K
-! Last Modified: Wednesday, May 6, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.1K
+! Last Modified: Wednesday, May 7, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -146,6 +146,7 @@ platform.everfi.net*##+js(ra, disabled)
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 
 ! Block specific inline scripts (Firefox only)
+!#if env_firefox
 *##^script:has-text(GoogleAnalyticsObject)
 *##^script:has-text(adsbygoogle)
 *##^script:has-text(googletag)
@@ -153,6 +154,27 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 *##^script:has-text(sendAnalytic)
 *##^script:has-text(tag.min.js)
 *##^script:has-text(?zoneid=)
+*##^script:has-text(pixelForFacebook)
+*##^script:has-text(pixelForTwitter)
+*##^script:has-text(pixelForPinterest)
+*##^script:has-text(pixelForReddit)
+*##^script:has-text(.analytics)
+*##^script:has-text(ClickTracking)
+*##^script:has-text(clickTracking)
+*##^script:has-text(adTarget)
+*##^script:has-text(nl_tracking)
+*##^script:has-text(fbq)
+*##^script:has-text(gdprMatch)
+*##^script:has-text(PerformanceLongTaskTiming)
+*##^script:has-text(_qevents)
+*##^script:has-text(loadChartbeat)
+*##^script:has-text(_comscore)
+*##^script:has-text(mixpanel)
+*##^script:has-text(window.dataLayer)
+*##^script:has-text(wot_referrer)
+*##^script:has-text(wot_origin)
+*##^script:has-text(wot_url)
+!#endif
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -405,6 +427,8 @@ oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !importan
 ||virtuaguyhd.com^$third-party
 
 ! End domains with modifiers ($)
+||verint.com^
+||exitintel.com^
 ||sefsdvc.com^
 ||bawafx.com^
 ||gotprofits.com^
@@ -11414,6 +11438,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/ua-parser-
+*/ua-parser.
+*/pixel/
+*/afu.php?zoneid=
 */neverb/
 */block-detect.$script
 */api/adblocker/
@@ -12173,6 +12201,8 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.advertisement
+##.ads-container
 ###ad-leaderboard-content
 ###ad-leaderboard
 ##.inplb3x2
