@@ -1,6 +1,6 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1201
+! Version: 1202
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.4K
 ! Last Modified: Friday, May 8, 2020
@@ -184,39 +184,16 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 *##^script:has-text(trackPageView)
 !#endif
 
-! Fixes
-dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
-verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
-pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
-pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
-pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-youronlinechoices.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-digg.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-washingtonpost.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-demorgen.be#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-expertreviews.co.uk#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-klove.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-themighty.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-techwalla.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-itpro.co.uk#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-alphr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-nbcnews.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-pixlr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-nbcnews.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-washingtonpost.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-gunfacts.info#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-sharepointsky.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-zoomowl.co#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-helpfulprofessor.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+! Annoying exoclick garbage
+*##+js(abort-on-property-read, ExoLoader)
+*##+js(addEventListener-defuser, getexoloader)
+!#if env_firefox
+*##^script:has-text(exoclick)
+*##^script:has-text(exoloader)
+!#endif
+
+! Fix for the pesky sites that block scroll bars because you use an adblocker
+*##body:style(overflow-y:auto!important)
 
 ! Content Security Policies
 ||*^$csp=prefetch-src 'none'; 'upgrade-insecure-requests';
@@ -11220,8 +11197,19 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
 
+! Begin uBlock Origin specific
+!#if (!adguard)
+
+! Block browser plugin readouts
+*##+js(set, navigator.plugins, undefined)
+*##+js(set, navigator.mimeTypes, undefined)
+
+!#endif
+! End uBlock Origin specific
+
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
+
 ! AdGuard Specific Whitelist
 @@||sourceforge.net$generichide,genericblock
 @@||accounts.google.^$cookie
@@ -11599,11 +11587,13 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 216.218.206.124$network
 216.218.206.125$network
 216.218.206.126$network
+
 !#endif
 ! End AdGuard General
 
 ! Begin AdGuard for Android
 !#if (adguard_app_android && !ext_ublock)
+
 ! Android specific blocklist
 ||seeded-session-images.scdn.co^
 ||apresolve.spotify.com^
@@ -11732,11 +11722,12 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
+
 !#endif
 ! End AdGuard for Android
 
 ! Wildcard
-! /analytics/ (breaks sites like moodysanalytics.com)
+! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 ||smetric.^
 ||smetrics.^
