@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1200
+! Version: 1201
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.4K
-! Last Modified: Thursday, May 7, 2020
+! Last Modified: Friday, May 8, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -180,6 +180,8 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 *##^script:has-text(jsTags)
 *##^script:has-text(gtm)
 *##^script:has-text(fbAsyncInit)
+*##^script:has-text(_STAT_HASHNAME)
+*##^script:has-text(trackPageView)
 !#endif
 
 ! Fixes
@@ -433,6 +435,22 @@ oneplus.com#$#body { overflow-x: hidden !important; overflow-y: scroll !importan
 ||virtuaguyhd.com^$third-party
 
 ! End domains with modifiers ($)
+||ads.ndtv1.com^
+||bizzabo.com^
+||oath.cloud^
+||collector.*.mi.com^
+||*-stat.appmifile.com^
+||eample.com^
+||searchxt.com^
+||wingreatprizes-now3.info^
+||pushails.com^
+||offoonguser.com^
+||exlusepolly.com^
+||cluodlfare.com^
+||mr2cnjuh34jb.com^
+||popcash.net^
+||aysnmnzu4u.com^
+||snap-affairs.com^
 ||ankunding.biz^
 ||mericnakliyat.com^
 ||meridian-don.com^
@@ -11723,6 +11741,14 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/out.php?id=
+*/out.php?site=
+*/out.php?domain=
+*/o.php?id=
+*/o.php?site=
+*/o.php?domain=
+*/stats/$script
+*/autotrack.$script
 */ua-parser-
 */ua-parser.
 */pixel/
@@ -12440,6 +12466,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */adclick/
 */mobAdverSSL.html
 ?beacon=
+??$document,subdocument
 ~Ad~
 -ad-serving
 window.gapwn.get_country
@@ -12486,6 +12513,12 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.ad-unit__ad
+##.ad-unit--fixed
+##.ad-unit
+##.ad-unit__billboard
+##.ad-unit__leaderboard
+###tc-ad-leaderboard
 ##.AsidePromo
 ##.TrackedSidebarPromo
 ##.TrackedBannerPromo-media
@@ -12713,13 +12746,39 @@ _statsonlineinfo
 ##[id*="gdpr"]
 ##[class*="gdpr"]
 ##[class*=".ad-printservice."]
-##div[class*="adunit"]
-##div[id*="adunit"]
-##div[id^="mainads"]
-##div[id^="GOOGLE_ADS_"]
-##div[id^="div-gpt-ad"]
-##div[class^="adsbygoogle"]
-##div[class*="ad_billboard"]
+##[id*="AdFrame"]
+##[class*="AdFrame"]
+##[id*="adblock-"]
+##[class*="adblock-"]
+##[id*="newsletter-"]
+##[class*="newsletter-"]
+##[id*="subscribe-panel"]
+##[class*="subscribe-panel"]
+##[id*="zmgad-"]
+##[class*="zmgad-"]
+##[id*="advertisement__"]
+##[class*="advertisement__"]
+##[id*="ad-component"]
+##[class*="ad-component"]
+##[id*="consumer-marketing"]
+##[class*="consumer-marketing"]
+##[id*="ad-slot"]
+##[class*="ad-slot"]
+##[id*="adslot"]
+##[class*="adslot"]
+##[id*="adhead"]
+##[class*="adhead"]
+##[id*="sponsored"]
+##[class*="sponsored"]
+##[id*="sponsrd"]
+##[class*="sponsrd"]
+##[class*="adunit"]
+##[id*="adunit"]
+##[id*="mainads"]
+##[id*="GOOGLE_ADS_"]
+##[id*="div-gpt-ad"]
+##[class*="adsbygoogle"]
+##[class*="ad_billboard"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
@@ -12743,6 +12802,7 @@ _statsonlineinfo
 ##[href*="xnylfcp.com"]
 ##[href*="bingads.com"]
 ##[href*="revsharecash.com"]
+##[href*="adinfo."]
 ##a[href^="adserver-*"]
 ##a[href^="adserver.*"]
 ##a[href^="adserver_*"]
