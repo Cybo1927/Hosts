@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1202
+! Version: 1203
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.4K
-! Last Modified: Friday, May 8, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
+! Last Modified: Saturday, May 9, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -123,6 +123,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 *##+js(ra, onclick, a[onclick*="ga"])
 *##+js(ra, onclick, a[onclick*="_gaq.push"])
 *##+js(ra, onclick, a[onclick*="dataLayer.push"])
+*##+js(ra, onclick, [onclick*="track"])
 *##+js(ra, data-google-query-id, a[data-google-query-id])
 *##+js(ra, data-obtrack, a[data-obtrack])
 *##+js(ra, data-oburl, a[data-oburl])
@@ -145,8 +146,9 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
-! uBlock Origin +js
+! uBlock Origin +js aeld
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
+crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
@@ -182,14 +184,31 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 *##^script:has-text(fbAsyncInit)
 *##^script:has-text(_STAT_HASHNAME)
 *##^script:has-text(trackPageView)
+*##^script:has-text(AdBlock detected)
+*##^script:has-text(fuckAdBlock)
+*##^script:has-text(adblock)
+*##^script:has-text(adBlockDetected)
+*##^script:has-text(bypassAb)
+*##^script:has-text(Geotargeting)
+*##^script:has-text(gtm.start)
+*##^script:has-text(Ya.Metrika)
+*##^script:has-text(YaCounter)
+*##^script:has-text(!advr.)
+*##^script:has-text(advr.ua)
+*##^script:has-text(googletag)
+*##^script:has-text(pubads)
+*##^script:has-text(iframeTracker)
 !#endif
 
 ! Annoying exoclick garbage
 *##+js(abort-on-property-read, ExoLoader)
 *##+js(addEventListener-defuser, getexoloader)
+*##+js(window.open-defuser, , exo)
 !#if env_firefox
 *##^script:has-text(exoclick)
 *##^script:has-text(exoloader)
+*##^script:has-text(exoUrl)
+*##^script:has-text(exo_div)
 !#endif
 
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
@@ -340,6 +359,11 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 ||cloudflare.com^$domain=gitlab.com
 ||videodelivery.net^$domain=reuters.com
 !
+||ding.wix.com^$third-party
+||anycast.me^$third-party
+||topvisor.com^$third-party
+||theonecdn.com^$popup,popunder
+||friendlyduck.com^$popup,popunder
 ||nonktube.com^$popup,popunder
 ||lookteenmovies.pro^$popup,popunder
 ||pornstarapex.com^$popup,popunder
@@ -410,8 +434,85 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 ||virtuaguy.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
-
 ! End domains with modifiers ($)
+
+||click.oneplus.com^
+||2mdnsys.com^
+||projectagoralibs.com^
+||projectagoraservices.com^
+||displayvertising.com^
+||i4rsrcj6.top^
+||paslsa.com^
+||qualified.com^
+||trk.oceanriddle.site^
+||rqyezhetbspk.com^
+||wgkurvzvd.com^
+||ilkmawgod.site^
+||adtival.network^
+||ailpielei.com^
+||hionedaugsbu.info^
+||boyaidare.club^
+||kawanfilm21.fun^
+||luxury111bet.com^
+||luxury138.cc^
+||agenpoker234.me^
+||gobnz.com^
+||idnpoker96.com^
+||petchesa.net^
+||friendlyduck.com^
+||downloadcom.club^
+||cpy-crack.com^
+||ognybevu.com^
+||freesteamgameson.weebly.com^
+||lporirxe.com^
+||vlitag.com^
+||sharefreeall.com^
+||linkvertise.net^
+||megadownload42.wixsite.com^
+||drop-box.online^
+||softsversion.com^
+||ottomdisede.club^
+||pikecdn.xyz^
+||tremembersy.site^
+||underwards.site^
+||pisism.com^
+||go2reach.com^
+||yuhuads.com^
+||ultraadserver.com^
+||tizerclik.com^
+||scroogefrog.com^
+||adc.xxxlutz.de^
+||constructor.io^
+||cnstrc.com^
+||scarabresearch.com^
+||trbo.com^
+||jentis.com^
+||analytics.ovh.com^
+||rotapost.ru^
+||leadhit.io^
+||leadhit.ru^
+||calltouch.ru^
+||kokoc.com^
+||propelmedia.com^
+||pixelhere.com^
+||sphereup.com^
+||firstads.de^
+||firstsponsor.de^
+||flatad.de^
+||funtastic-ads.de^
+||love-money.de^
+||intertakekuhy.info^
+||spareton.online^
+||boayipids.com^
+||naiadmmm.com^
+||luxyad.com^
+||001888.org^
+||4447774.com^
+||888877x.com^
+||netadz.de^
+||network-marketing24.com^
+||blueparrot.media^
+||balancer.wixdns.net^
 ||ads.ndtv1.com^
 ||bizzabo.com^
 ||oath.cloud^
@@ -10937,6 +11038,7 @@ pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 ! IPs
 ||46.148.18.250^
 ||80.211.148.176^
+||172.255.6.35^
 ! End Domain Blocklist
 
 ! Ad/Content Blocker Specific
@@ -11732,6 +11834,11 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/ad-unblocker$script
+*/network_ads
+*/adClick
+*/isFbRegister
+*/related/*.php?
 */out.php?id=
 */out.php?site=
 */out.php?domain=
@@ -12504,6 +12611,11 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.footer-published-ab-powered-by
+###WIX_ADS
+##.adv-title
+##.underplayer-box
+##.player tr
 ##.ad-unit__ad
 ##.ad-unit--fixed
 ##.ad-unit
@@ -12770,6 +12882,14 @@ _statsonlineinfo
 ##[id*="div-gpt-ad"]
 ##[class*="adsbygoogle"]
 ##[class*="ad_billboard"]
+##[id*="tgplugin_consent"]
+##[class*="tgplugin_consent"]
+##[id*="tc_priv"]
+##[class*="tc_priv"]
+##[id*="cookies-message"]
+##[class*="cookies-message"]
+##[id*="cookies-policy"]
+##[class*="cookies-policy"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
@@ -12793,6 +12913,7 @@ _statsonlineinfo
 ##[href*="xnylfcp.com"]
 ##[href*="bingads.com"]
 ##[href*="revsharecash.com"]
+##[href*="clickadilla.com"]
 ##[href*="adinfo."]
 ##a[href^="adserver-*"]
 ##a[href^="adserver.*"]
