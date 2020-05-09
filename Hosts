@@ -1,6 +1,7 @@
 ! Title: Cybo's Hosts
+! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1203
+! Version: 1204
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Saturday, May 9, 2020
@@ -147,6 +148,8 @@ google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
 ! uBlock Origin +js aeld
+*##+js(addEventListener-defuser.js, /mousemove|window.(chrome|opera|firefox|ie)/i/)$domain=~youtube.com
+
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 
@@ -198,6 +201,8 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 *##^script:has-text(googletag)
 *##^script:has-text(pubads)
 *##^script:has-text(iframeTracker)
+*##^script:has-text(arlinablock)
+*##^script:has-text(detectadnotes)
 !#endif
 
 ! Annoying exoclick garbage
@@ -436,6 +441,16 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||gorgias.io^
+||klarnaservices.com^
+||smile.io^
+||smilecdn.co^
+||intelliresponse.com^
+||siteimprove.com^
+||displayvertising.com^
+||corona-virus.cc^
+||cpaevent.ru^
+||cpfclassifieds.com^
 ||click.oneplus.com^
 ||2mdnsys.com^
 ||projectagoralibs.com^
@@ -11834,6 +11849,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/oo_$script
+*/quit-hogging$script
 */ad-unblocker$script
 */network_ads
 */adClick
@@ -12000,7 +12017,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 /*.gif?
 */ads20*
 */rects.js?
-?*connect.facebook.com
 */wp-content/plugins/snow-3d/
 */ads-iframe/
 */abc-analytics/
@@ -12564,6 +12580,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */adclick/
 */mobAdverSSL.html
 ?beacon=
+?*connect.facebook.com
+?callback=pfMod.saveAdSettings
 ??$document,subdocument
 ~Ad~
 -ad-serving
@@ -12842,6 +12860,7 @@ _statsonlineinfo
 ###cookie-pop
 ###reklama-top
 ###cookie-disclaimer
+*##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
