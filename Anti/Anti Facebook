@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -18,6 +18,10 @@
 ||whatsapp.net^
 ||workplace.com^
 ||crowdtangle.com^
+
+! Used to call the tracking pixel
+! "All standard events are tracked by calling the pixel's fbq('track') function, with the event name, and (optionally) a JSON object as its parameters."
+*##^script:has-text(fbq)
 
 ?*facebook*
 ?*.facebook.
