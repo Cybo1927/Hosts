@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1204-1
+! Version: 1204-2
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Saturday, May 9, 2020
@@ -11714,7 +11714,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ! Android specific blocklist
 ||seeded-session-images.scdn.co^
 ||apresolve.spotify.com^
-[2001:4860:4802:36::7e]:443$all
+[2001:4860:4802:36::7e]$network,all
 ! Android specific whitelist
 @@||mtalk.google.com
 ! App Specific
