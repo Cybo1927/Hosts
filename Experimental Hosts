@@ -1,6 +1,8 @@
 ! Title: Cybo's Experimental Hosts
 ! Expires: 8 hours
 
+@@||rsc.cdn77.org^
+
 ! Make all COM and NET domains think you came from YouTube.com (only for document.referrer)
 ! com,net#%#Object.defineProperty(document, 'referrer', { get: function() { return 'youtube.com'; } });
 
