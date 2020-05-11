@@ -1,6 +1,9 @@
 /// removeScript.js
 /// alias rs.js
 
+(() => {
+	      'use strict';
+
 document.addEventListener('DOMContentLoaded', function(){
     link();
 });
@@ -16,3 +19,5 @@ const noscript = document.querySelectorAll('noscript');
 noscript.forEach(item => item.remove());
   
 }
+
+})();
