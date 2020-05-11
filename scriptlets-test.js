@@ -1,6 +1,5 @@
 /// removeScript.js
 /// alias rs.js
-
 (() => {
 	      'use strict';
 
