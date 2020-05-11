@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1204-2
+! Version: 1205
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Saturday, May 9, 2020
+! Last Modified: Monday, May 11, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -80,7 +80,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Block Insecure Third-Party IP Addresses
 /^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
 ! Screen resolution tracker
-/[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/
+/[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/$domain=~istockphoto.com
 ! Platform Tracker
 /[&]platform[=][a-zA-Z]/$domain=~spotify.com,~translate.yandex.com,~voicetech.yandex.net,important
 ! Get the hard to block sponsored content on Reuters
@@ -98,7 +98,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Possibly related to government spyware
 /(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/
 ! Extra trackers if not used for videos
-/(ip)[0-9]{8,10}\.(ahcdn.com)/$~media
+/(ip)[0-9]{8,10}\.(ahcdn.com)/$popup,popunder,~media
 ! Ping(er) domains
 /^http(s)?:\/\/ping(er)?.+\..+/
 
@@ -364,6 +364,10 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||cloudflare.com^$domain=gitlab.com
 ||videodelivery.net^$domain=reuters.com
 !
+||visitstats.com^$popup,popunder
+||traffic-gate.com^$third-party
+||lusy-xxx.com^$popup,popunder
+||chaturbate.com^$third-party
 ||ding.wix.com^$third-party
 ||anycast.me^$third-party
 ||topvisor.com^$third-party
@@ -441,6 +445,20 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||servenobid.com^
+||dw7nrwnn2bkh1.cloudfront.net^
+||d3r1vspnipjyun.cloudfront.net^
+||bestcontentfund.top^
+||fair-bucks.com^
+||cockrates.com^
+||l7cos.com^
+||traffic-switch.com^
+||server088.com^
+||nanabook.com^
+||nudist-teen.org^
+||ads.cdn.live^
+||jsfuz.com^
+||roxot-panel.com^
 ||gorgias.io^
 ||klarnaservices.com^
 ||smile.io^
@@ -11313,6 +11331,7 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||yahoo.com/admax/
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
+||d*.cloudfront.net/script.js
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -12629,6 +12648,15 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+###ad-wrap
+###div-gpt-com-300x250mob
+###ad300
+##.video-page-underplayer-ads
+##.inner-ad
+##.middleVideoAdContainer
+##.happy-under-player-mobile
+### related > .ad
+##.ad > text
 ##.footer-published-ab-powered-by
 ###WIX_ADS
 ##.adv-title
@@ -12909,6 +12937,10 @@ _statsonlineinfo
 ##[class*="cookies-message"]
 ##[id*="cookies-policy"]
 ##[class*="cookies-policy"]
+##[id*="content-ad-top"]
+##[class*="content-ad-top"]
+##[id*="ad-header-mobile"]
+##[class*="ad-header-mobile"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
@@ -12933,19 +12965,8 @@ _statsonlineinfo
 ##[href*="bingads.com"]
 ##[href*="revsharecash.com"]
 ##[href*="clickadilla.com"]
+##[href*="hrtya.com"]
 ##[href*="adinfo."]
-##a[href^="adserver-*"]
-##a[href^="adserver.*"]
-##a[href^="adserver_*"]
-##a[href^="promo-*"]
-##a[href^="promo.*"]
-##a[href^="promo_*"]
-##a[href^="tracker-*"]
-##a[href^="tracker.*"]
-##a[href^="tracker_*"]
-##a[href^="track-*"]
-##a[href^="track.*"]
-##a[href^="track_*"]
 ##a[href*="/out.php?l=http://"]
 ##a[href*="/out.php?member="]
 ##a[href*="/_clicktracker.php"]
@@ -12984,6 +13005,7 @@ _statsonlineinfo
 ##a[href*="/avt/"]
 ##a[href*="/adrotate-out.php?"]
 ##a[href*="/adServe/"]
+##[src*="/adver/index."]
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
