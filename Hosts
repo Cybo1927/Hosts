@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1205
+! Version: 1205-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Monday, May 11, 2020
@@ -12907,9 +12907,6 @@ _statsonlineinfo
 ###reklama-top
 ###cookie-disclaimer
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
-*#?#div:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#body:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#main:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
 *#?#a:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
 *#?#p:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
 *#?#h1:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
