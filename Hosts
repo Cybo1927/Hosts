@@ -60,6 +60,7 @@
 ! Seems to deliver ads but also legit content on cnet
 @@||sdad.guru
 pandora.com$genericblock
+youtube.com$generichide
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
@@ -147,11 +148,14 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
-! uBlock Origin +js aeld
+! uBlock Origin +js
 *##+js(addEventListener-defuser.js, /mousemove|window.(chrome|opera|firefox|ie)/i/)$domain=~youtube.com
-
 pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
+*##+js(window.name-defuser)
+
+! Block http frames to help prevent some click hijacking
+http://*$subdocument
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
@@ -445,6 +449,17 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||redirector.brave.com^
+||conncheck.opensuse.org^
+||spectrum.gettyimages.com^
+||alleni.com^
+||alleninteractions.com^
+||redirector.brave.com^
+||xcamgirls.me^
+||findurlovemate.net^
+||iamnaughty.com^
+||ip-check.info^
+||adblock.fr^
 ||servenobid.com^
 ||dw7nrwnn2bkh1.cloudfront.net^
 ||d3r1vspnipjyun.cloudfront.net^
@@ -11332,6 +11347,9 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
 ||d*.cloudfront.net/script.js
+pornhub.com##[src*="phncdn.com/iframe-"]
+pornhub.com##[class*="hd clear"]
+pornhub.com##.alpha.sniperModeEngaged
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -12889,6 +12907,17 @@ _statsonlineinfo
 ###reklama-top
 ###cookie-disclaimer
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
+*#?#div:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#body:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#main:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#a:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#p:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h1:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h2:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h3:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h4:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h5:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#h6:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
@@ -12941,6 +12970,8 @@ _statsonlineinfo
 ##[class*="content-ad-top"]
 ##[id*="ad-header-mobile"]
 ##[class*="ad-header-mobile"]
+##[id*="advertisement_text"]
+##[class*="advertisement_text"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
