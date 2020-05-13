@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1208-4
+! Version: 1209
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 13, 2020
@@ -235,6 +235,7 @@ http://*$subdocument
 *##^script:has-text(atppop)
 *##^script:has-text(/popunder/)
 *##^script:has-text(overlayClick())
+*##^script:has-text(NREUM)
 !#endif
 
 ! Annoying exoclick garbage
@@ -480,6 +481,27 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||exi8ef83z9.com^
+||easy2cnjuh34jb.com^
+||mrjb7hvcks.com^
+||briggbrought.pro^
+||selfpua.com^
+||bdwafx.com^
+||mnbvjhg.com^
+||yterxv.com^
+||gamesrevenue.com^
+||qqjar.ru^
+||run-syndicate.com^
+||stimmtso.space^
+||ts-syndicate.com^
+||warumbistdusoarm.space^
+||thebestgame2020.com^
+||rivne.space^
+||lostincunt.space^
+||hentaifap.land^
+||add2home.files.wordpress.com^
+||oves.biz^
+||pixfeeds.com^
 ||qualaroo.com^
 ||994ot5rkpch2.com^
 ||au79nt5wic4x.com^
@@ -11160,7 +11182,7 @@ http://*$subdocument
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, #alert-banner > .ytd-browse.style-scope, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -11419,6 +11441,11 @@ pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
 ||open.spotify.com/blank
 ||spotify.com/collection-view
 open.spotify.com###leaderboard-ad-element
+reddit.com##.XPromoAdFeed
+reddit.com##.SnackBar
+reddit.com##.XPromoPill
+reddit.com##.XPromoPopup
+reddit.com##.xpromoMinimal
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -12127,7 +12154,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */images/sponsors/
 */third-party.js
 */webgl.js?
-/*.gif?
+/*.gif?$domain=~sex.com
 */ads20*
 */rects.js?
 */wp-content/plugins/snow-3d/
@@ -12744,6 +12771,14 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##cornergirls
+##.vertical-ads-content
+##.ad-medium
+###slideAdLink
+###slideAdVideo
+###slideAd
+##.ad_box_medium
+##.ad-label
 ##.video-side__adv_title
 ##.no_pop.centeredbox
 ##.cs-bnr
