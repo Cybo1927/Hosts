@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1208
+! Version: 1208-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 13, 2020
@@ -10305,17 +10305,53 @@ http://*$subdocument
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||audio-sp-sea.spotifycdn.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||heads-ak-spotify-com.akamaized.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||audio-akp-bbr-spotify-com.akamaized.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||video-fa.scdn.co^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||video-ak.cdn.spotify.com.akahost.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||video-*-cdn-spotify-com.akamaized.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||video-fa.scdn.co^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||*-ak.cdn.spotify.com.eip.akadns.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||*-ak.cdn.spotify.com.akahost.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||*-ak-spotify-com.akamaized.net^$media,mp4
+!+ PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
+||*-akp-bbr-spotify-com.akamaized.net^$media,mp4
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||audio-sp-sea.spotifycdn.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||heads-ak-spotify-com.akamaized.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||audio-akp-bbr-spotify-com.akamaized.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||video-fa.scdn.co^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||video-ak.cdn.spotify.com.akahost.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||video-ak.cdn.spotify.com.eip.akadns.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||video-*-cdn-spotify-com.akamaized.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||video-fa.scdn.co^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||*-ak.cdn.spotify.com.eip.akadns.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||*-ak.cdn.spotify.com.akahost.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||*-ak-spotify-com.akamaized.net^
+!+ NOT_PLATFORM(ext_ff, ext_edge, ext_chromium, ext_opera)
 ||*-akp-bbr-spotify-com.akamaized.net^
 ||adstudio-assets.scdn.co^
 ||bloodhound.spotify.com^
