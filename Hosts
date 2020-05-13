@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1208-3
+! Version: 1208-4
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 13, 2020
@@ -10303,18 +10303,20 @@ http://*$subdocument
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-sp-sea.spotifycdn.net^$media,mp4
-||heads-ak-spotify-com.akamaized.net^$media,mp4
-||audio-akp-bbr-spotify-com.akamaized.net^$media,mp4
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,mp4,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
+||audio-sp-sea.spotifycdn.net^$media,mp4,important
+||heads-ak-spotify-com.akamaized.net^$media,mp4,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,mp4,important
+||video-fa.scdn.co^$media,mp4,important
+||video-ak.cdn.spotify.com.akahost.net^$media,mp4,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,mp4,important
+||video-*-cdn-spotify-com.akamaized.net^
 ||video-fa.scdn.co^$media,mp4
-||video-ak.cdn.spotify.com.akahost.net^$media,mp4
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,mp4
-||video-*-cdn-spotify-com.akamaized.net^$media,mp4
-||video-fa.scdn.co^$media,mp4
-||*-ak.cdn.spotify.com.eip.akadns.net^$media,mp4
-||*-ak.cdn.spotify.com.akahost.net^$media,mp4
-||*-ak-spotify-com.akamaized.net^$media,mp4
-||*-akp-bbr-spotify-com.akamaized.net^$media,mp4
+||*-ak.cdn.spotify.com.eip.akadns.net^
+||*-ak.cdn.spotify.com.akahost.net^
+||*-ak-spotify-com.akamaized.net^
+||*-akp-bbr-spotify-com.akamaized.net^
 ||adstudio-assets.scdn.co^
 ||bloodhound.spotify.com^
 ||log.happymod.com^
@@ -11415,6 +11417,8 @@ pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
 ||spotify.com/metrics-backend/
 ||spotify.com/*/logging/
 ||open.spotify.com/blank
+||spotify.com/collection-view
+open.spotify.com###leaderboard-ad-element
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
