@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1208-1
+! Version: 1208-2
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 13, 2020
@@ -481,8 +481,6 @@ http://*$subdocument
 ! End domains with modifiers ($)
 
 ||qualaroo.com^
-||akp-*-spotify-com.akamaized.net^
-||audio-akp-*-spotify-com.akamaized.net^
 ||994ot5rkpch2.com^
 ||au79nt5wic4x.com^
 ||frenchgfs.com^
