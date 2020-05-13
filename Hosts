@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1205-1
+! Version: 1206
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Monday, May 11, 2020
+! Last Modified: Tuesday, May 12, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -207,6 +207,10 @@ http://*$subdocument
 *##^script:has-text(iframeTracker)
 *##^script:has-text(arlinablock)
 *##^script:has-text(detectadnotes)
+*##^script:has-text(popunder)
+*##^script:has-text(cookieScript)
+*##^script:has-text(firstVisit)
+*##^script:has-text(first visit)
 !#endif
 
 ! Annoying exoclick garbage
@@ -368,6 +372,7 @@ http://*$subdocument
 ||cloudflare.com^$domain=gitlab.com
 ||videodelivery.net^$domain=reuters.com
 !
+||somecdn.bid^$popup,popunder
 ||visitstats.com^$popup,popunder
 ||traffic-gate.com^$third-party
 ||lusy-xxx.com^$popup,popunder
@@ -449,6 +454,15 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||hadsabz.com^
+||somecdn.bid^
+||fnacgbik9v14.com^
+||halleyperson.pro^
+||rtnews.pro^
+||wsjlbbqemr23.com^
+||larrenpicture.pro^
+||martafatass.pro^
+||cconseent.info^
 ||redirector.brave.com^
 ||conncheck.opensuse.org^
 ||spectrum.gettyimages.com^
@@ -11348,8 +11362,7 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||github.com/notifications/beacon/
 ||d*.cloudfront.net/script.js
 pornhub.com##[src*="phncdn.com/iframe-"]
-pornhub.com##[class*="hd clear"]
-pornhub.com##.alpha.sniperModeEngaged
+pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -11380,6 +11393,9 @@ youtube.com,android.com,blogger.com,blogspot.com,withgoogle.com,googlesource.com
 ! Block browser plugin readouts
 com,co,net,org,edu,mil,gov,eu,au,cn,br,ms,ly,io,de,ir,info,biz,online#%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
 com,co,net,org,edu,mil,gov,eu,au,cn,br,ms,ly,io,de,ir,info,biz,online#%#Object.defineProperty(navigator, 'mimeTypes', { get: function() { return '0'; } });
+
+! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
+buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
@@ -11886,6 +11902,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/get_country.php
 */oo_$script
 */quit-hogging$script
 */ad-unblocker$script
@@ -12643,7 +12660,7 @@ window.gapwn.get_country
 ?zoneid=$popup
 ?*odb.outbrain.com
 ?ads
-=googleanalytics
+=googleanalytics*
 =adunit&
 =cron.task.core.tidy_sessions
 =host:
@@ -12666,6 +12683,20 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.bnnr
+##.bnnr-a
+##.bnnrs-aside
+##.bnnrs-top
+##.bnnrs-bottom
+###js-react-cookie-policy
+##.video-item--adv
+##.a-d-v
+###player-pop-layer
+##.sponsor
+##.top-sponsor
+##.video-side__adv_title
+##.cookieinfo
+###cookiescript_injected
 ###ad-wrap
 ###div-gpt-com-300x250mob
 ###ad300
@@ -12969,6 +13000,10 @@ _statsonlineinfo
 ##[class*="ad-header-mobile"]
 ##[id*="advertisement_text"]
 ##[class*="advertisement_text"]
+##[id*="inplayer-overlay"]
+##[class*="inplayer-overlay"]
+##[id*="player-ad-under"]
+##[class*="player-ad-under"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
