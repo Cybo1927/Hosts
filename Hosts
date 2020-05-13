@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1207
+! Version: 1208
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 13, 2020
@@ -150,8 +150,8 @@ google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
 ! uBlock Origin +js
-*##+js(addEventListener-defuser.js, /mousemove|window.(chrome|opera|firefox|ie)/i/)$domain=~youtube.com
-pandora.com##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
+*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com
+pandora.com##+js(addEventListener-defuser.js, /hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 *##+js(window.name-defuser)
 
@@ -480,6 +480,9 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||qualaroo.com^
+||akp-*-spotify-com.akamaized.net^
+||audio-akp-*-spotify-com.akamaized.net^
 ||994ot5rkpch2.com^
 ||au79nt5wic4x.com^
 ||frenchgfs.com^
@@ -11409,6 +11412,11 @@ thefirearmblog.com##.ad, #above_comments_advertisements, #nmadtext, .entry-conte
 ||d*.cloudfront.net/script.js
 pornhub.com##[src*="phncdn.com/iframe-"]
 pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
+||spotify.com/log/
+||spotify.com/gabo-receiver-service/
+||spotify.com/metrics-backend/
+||spotify.com/*/logging/
+||open.spotify.com/blank
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -12682,6 +12690,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */AntiAdblock/
 */adclick/
 */mobAdverSSL.html
+*/gtag.$script
 ?beacon=
 ?*connect.facebook.com
 ?callback=pfMod.saveAdSettings
@@ -12700,6 +12709,7 @@ window.gapwn.get_country
 &tds_
 &popundersPerIP
 &campaign=*&site=*
+&timestamp=$domain=spotify.com
 *:*/amp.gif
 *:*/clear.gif
 *adobe.target*$script
