@@ -1,15 +1,16 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1206
+! Version: 1207
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Tuesday, May 12, 2020
+! Last Modified: Wednesday, May 13, 2020
 
 ! Unbreak
 @@||*/ads_test
 @@||*/showads.js$domain=softgames.de|softgames.com
 @@||*/advertisement.js$domain=softgames.de|softgames.com
+@@||apresolve.spotify.com$domain=open.spotify.com
 @@||redirector.gvt1.com/*/android/studio/
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
@@ -211,6 +212,29 @@ http://*$subdocument
 *##^script:has-text(cookieScript)
 *##^script:has-text(firstVisit)
 *##^script:has-text(first visit)
+*##^script:has-text(clickmap)
+*##^script:has-text(trackLinks)
+*##^script:has-text(TRAFF_TARGETS)
+*##^script:has-text(get_country)
+*##^script:has-text(gascroll)
+*##^script:has-text(scrollEventTag)
+*##^script:has-text(.spop)
+*##^script:has-text(googletag)
+*##^script:has-text(_gaq)
+*##^script:has-text(checkAdBlock)
+*##^script:has-text(adCheck)
+*##^script:has-text(screen.colorDepth)
+*##^script:has-text(screen.pixelDepth)
+*##^script:has-text(_screen_resolution)
+*##^script:has-text(screen_resolution_)
+*##^script:has-text(popMagic.url)
+*##^script:has-text(adver.detect)
+*##^script:has-text(.isAdBlock)
+*##^script:has-text(.isAB)
+*##^script:has-text(adblock_)
+*##^script:has-text(atppop)
+*##^script:has-text(/popunder/)
+*##^script:has-text(overlayClick())
 !#endif
 
 ! Annoying exoclick garbage
@@ -222,6 +246,8 @@ http://*$subdocument
 *##^script:has-text(exoloader)
 *##^script:has-text(exoUrl)
 *##^script:has-text(exo_div)
+*##^script:has-text(ExoVideoSlider)
+*##^script:has-text(.ExoLoader)
 !#endif
 
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
@@ -454,6 +480,29 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||994ot5rkpch2.com^
+||au79nt5wic4x.com^
+||frenchgfs.com^
+||dagfs.org^
+||impactserving.com^
+||blazinglink.com^
+||crentgate.com^
+||0i0i0i0.com^
+||hq3x.com^
+||cradver.livejasmin.com^
+||lobizan.com^
+||patroposalun.pro^
+||rtnews.pro^
+||badskis.com^
+||boffinsoft.com^
+||excited.me^
+||jacobeshort.pro^
+||trippealbirthda.info^
+||masterbate.pro^
+||wsjlbbqemr23.com^
+||hmvos.com^
+||plehimselves.info^
+||hpyrdr.com^
 ||hadsabz.com^
 ||somecdn.bid^
 ||fnacgbik9v14.com^
@@ -3408,7 +3457,6 @@ http://*$subdocument
 ||clientmetrics-*.amazonaws.com^
 ||c.ipaddress.com^
 ||cnt.nuvid.com^
-||cnt.vivatube.com^
 ||collection-day.com^
 ||counciladvertising.net^
 ||can-digital.net^
@@ -3785,7 +3833,6 @@ http://*$subdocument
 ||adv.pilseta24.lv^
 ||pmo.ee^
 ||awemwh.com^
-||vivpsn.com^
 ||voluumtrk.com^
 ||tgpsitecentral.com^
 ||hitwebes.chosun.com^
@@ -11332,7 +11379,6 @@ moulik.cz##.col-xl-fixed-right.col, .detail-adds, .bbtitle
 zpravy.tiscali.cz###side-offer-wrap, .ks-hp
 shazam.com##.policy-label
 sina.com.cn###sinaadToolkitBox0
-vivatube.com###spot_video_underplayer_livecams
 eklablog.com###cookie-info
 sify.com##.ads, .advertisement, .mob-off, .clearfix
 fnac.com###onetrust-banner-sdk
@@ -11902,6 +11948,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/link.engine?
+*/blank.mp4
+*/agent.php?spot=
 */get_country.php
 */oo_$script
 */quit-hogging$script
@@ -12683,6 +12732,19 @@ mas_jump_
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.video-side__adv_title
+##.no_pop.centeredbox
+##.cs-bnr
+###abmessage
+##.abtext
+##.player-section__ad
+##.player-section__ad-wrapper
+##.player-section__ad-block
+##.footer-ads
+##.bottom-ads.box
+##.spot_footer
+##.player-aside-banners
+##.inplayer_banners
 ##.bnnr
 ##.bnnr-a
 ##.bnnrs-aside
