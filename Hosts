@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1210
+! Version: 1210-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Thursday, May 14, 2020
@@ -10325,16 +10325,16 @@ http://*$subdocument
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noopmp3-0.1s,mp4,important
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
-||video-fa.scdn.co^$media,redirect=noopmp3-0.1s,mp4,important
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noopmp3-0.1s,mp4,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noopmp3-0.1s,mp4,important
+||audio-sp-sea.spotifycdn.net^$media,redirect=noopmp3-0.1s
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
+||video-fa.scdn.co^$media,redirect=noopmp3-0.1s
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noopmp3-0.1s
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noopmp3-0.1s
 ||video-*-cdn-spotify-com.akamaized.net^
-||video-fa.scdn.co^$media,redirect=noopmp3-0.1s,mp4,important
+||video-fa.scdn.co^$media,redirect=noopmp3-0.1s
 ||*-ak.cdn.spotify.com.eip.akadns.net^
 ||*-ak.cdn.spotify.com.akahost.net^
 ||*-ak-spotify-com.akamaized.net^
@@ -12786,7 +12786,7 @@ qver=*.pagespeed.
 videoiq-*
 tds_campaign=
 mas_jump_
-adobe-analytics
+adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
