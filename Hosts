@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1209
+! Version: 1210
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Wednesday, May 13, 2020
+! Last Modified: Thursday, May 14, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -10325,16 +10325,16 @@ http://*$subdocument
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,mp4,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,mp4,important
-||heads-ak-spotify-com.akamaized.net^$media,mp4,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,mp4,important
-||video-fa.scdn.co^$media,mp4,important
-||video-ak.cdn.spotify.com.akahost.net^$media,mp4,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,mp4,important
+||audio-sp-sea.spotifycdn.net^$media,redirect=noopmp3-0.1s,mp4,important
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s,mp4,important
+||video-fa.scdn.co^$media,redirect=noopmp3-0.1s,mp4,important
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noopmp3-0.1s,mp4,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noopmp3-0.1s,mp4,important
 ||video-*-cdn-spotify-com.akamaized.net^
-||video-fa.scdn.co^$media,mp4
+||video-fa.scdn.co^$media,redirect=noopmp3-0.1s,mp4,important
 ||*-ak.cdn.spotify.com.eip.akadns.net^
 ||*-ak.cdn.spotify.com.akahost.net^
 ||*-ak-spotify-com.akamaized.net^
@@ -11439,13 +11439,26 @@ pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
 ||spotify.com/metrics-backend/
 ||spotify.com/*/logging/
 ||open.spotify.com/blank
-||spotify.com/collection-view
 open.spotify.com###leaderboard-ad-element
-reddit.com##.XPromoAdFeed
-reddit.com##.SnackBar
-reddit.com##.XPromoPill
-reddit.com##.XPromoPopup
-reddit.com##.xpromoMinimal
+reddit.com##.XPromoAdFeed, .SnackBar, .XPromoPill, .XPromoPopup, .xpromoMinimal
+||spotify.com/ads/
+gamejolt.com##.cookie-banner
+youtube.com##.ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier
+noblogs.org##.cookiebanner
+nbcuniversal.com##.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner
+medbroadcast.com##.cc_banner-wrapper
+gamereactor.dk###cookielawwarning
+peekyou.com##.show.cookiealert.text-center.alert
+leguide.com##.popup_policies
+sedo.com##.cookie-notice
+||snopes.com/dist/images/template/icon-sources.gif
+||pingwest.com/api/news_ad
+||mautic.nextcloud.com/mtc/event
+8kun.top##section.col-12.col.box.description:nth-of-type(3) > .col-12.col
+maserati.com###cookieAlert
+translate.google.com##.notification-container.tlid-notification-container
+flickr.com##.photo-page-m-container, .head-banner-style.basic-banner, has-global-nav.photo-page-ad-scrappy-view, .fluid-modal-overlay, .flickr-view-root-view.fluid-modal-view.view
+||combo.staticflickr.com/*/hermes-template-photo-ad-page/
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -11985,6 +11998,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/react.$script,domain=snopes.com
+*/player-stats?
+*/dd-browser-logs-rum.
+*/beacon_
 */link.engine?
 */blank.mp4
 */agent.php?spot=
@@ -12748,6 +12765,7 @@ window.gapwn.get_country
 ?zoneid=$popup
 ?*odb.outbrain.com
 ?ads
+?affclick
 =googleanalytics*
 =adunit&
 =cron.task.core.tidy_sessions
@@ -12764,13 +12782,19 @@ qver=*.pagespeed.
 -sponsored-outbrain-
 -ad-powerinbox-inline-
 -ad-display.z-ad-
--analytics-
+-analytics-$domain=~flickr.com
 videoiq-*
 tds_campaign=
 mas_jump_
+adobe-analytics
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.adsbygoogle:style(display:none !important;)
+##.extension-browser
+##.promo-container
+##.advertsLeaderboard
+##.smg-zone-widget-ads-freestar
 ##cornergirls
 ##.vertical-ads-content
 ##.ad-medium
