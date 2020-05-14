@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1210-1
+! Version: 1210-2
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Thursday, May 14, 2020
@@ -113,10 +113,10 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$redirect=nooptext,domain=pandora.com
-||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noopmp3-0.1s,domain=hulu.com
-||akamaihd.net/prerolls$media,redirect=noopmp4-1s,domain=hulu.com
-||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
-||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
+||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
+||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
+||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
+||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
 
 ! Remove Attribute (uBlock Origin)
@@ -10325,16 +10325,16 @@ http://*$subdocument
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noopmp3-0.1s
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noopmp3-0.1s
-||video-fa.scdn.co^$media,redirect=noopmp3-0.1s
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noopmp3-0.1s
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noopmp3-0.1s
+||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,important
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,important
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,important
 ||video-*-cdn-spotify-com.akamaized.net^
-||video-fa.scdn.co^$media,redirect=noopmp3-0.1s
 ||*-ak.cdn.spotify.com.eip.akadns.net^
 ||*-ak.cdn.spotify.com.akahost.net^
 ||*-ak-spotify-com.akamaized.net^
