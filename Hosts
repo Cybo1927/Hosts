@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1210-2
+! Version: 1211
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Thursday, May 14, 2020
+! Last Modified: Friday, May 15, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -236,6 +236,8 @@ http://*$subdocument
 *##^script:has-text(/popunder/)
 *##^script:has-text(overlayClick())
 *##^script:has-text(NREUM)
+*##^script:has-text('anonmyzeIp')
+*##^script:has-text(premiumRedirect)
 !#endif
 
 ! Annoying exoclick garbage
@@ -398,7 +400,14 @@ http://*$subdocument
 ||tree.com^$domain=cnn.com
 ||cloudflare.com^$domain=gitlab.com
 ||videodelivery.net^$domain=reuters.com
+||google.com^$domain=open.spotify.com
+||gstatic.com^$domain=open.spotify.com
 !
+||inside-elections.com^$third-party
+||exosrv.com^$popup,popunder
+||soadvr.com^$popup,popunder
+||cam4tracking.com^$popup,popunder
+||adxite.com^$popup,popunder
 ||somecdn.bid^$popup,popunder
 ||visitstats.com^$popup,popunder
 ||traffic-gate.com^$third-party
@@ -481,6 +490,36 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||bp512.com^
+||mfadsrvr.com^
+||fc.yahoo.com^
+||clariad.com^
+||had.su^
+||ublrfs.com^
+||unads.ru^
+||free-kassa.ru^
+||seo-monster.ru^
+||webeffector.ru^
+||userclick.su^
+||telemetry.*.taketwointeractive.com^
+||report.*.taketwointeractive.com^
+||reports.*.taketwointeractive.com^
+||telemetry.*.rockstargames.com^
+||report.*.rockstargames.com^
+||reports.*.rockstargames.com^
+||*rockstarreports*.com^
+||ws.symantec.com^
+||beacon.video.llnw.net^
+||llnwd.net^
+||yoursexcontact1.com^
+||centrofiles.com^
+||cyan92010.com^
+||symcb.com^
+||2leep.com^
+||nmcdn.us^
+||soadvr.com^
+||cam4tracking.com^
+||adxite.com^
 ||exi8ef83z9.com^
 ||easy2cnjuh34jb.com^
 ||mrjb7hvcks.com^
@@ -11459,6 +11498,10 @@ maserati.com###cookieAlert
 translate.google.com##.notification-container.tlid-notification-container
 flickr.com##.photo-page-m-container, .head-banner-style.basic-banner, has-global-nav.photo-page-ad-scrappy-view, .fluid-modal-overlay, .flickr-view-root-view.fluid-modal-view.view
 ||combo.staticflickr.com/*/hermes-template-photo-ad-page/
+answers.yahoo.com##[class*="answersListLoginBanner"], [class*="joinAnswersBanner"]
+yahoo.com##[class*="darla"], [class*="promotedClaim"], [class*="-ad-"], [id*="PageLRECClean"], [id*="sda-"]
+duckduckgo.com###ra-0
+tvn.pl###rodoLayer, #msgLayer > div
 
 ! Begin uBlock Origin specific
 !#if (!adguard)
@@ -11495,7 +11538,7 @@ buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agen
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/_client_tz|geoCC|_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
+*$cookie=/adCounter|_client_tz|geoCC|_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking/
 ! The Cookie Doesn't Need To Be Stored For 4 Month - This Sets It To One
 amiunique.org$cookie=AmIUniqueId;maxAge=43200
 !
@@ -11999,6 +12042,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetrics.^
 ||webstats.^
 */react.$script,domain=snopes.com
+*/spot/*.html
+*/battery/api/
 */player-stats?
 */dd-browser-logs-rum.
 */beacon_
@@ -12171,7 +12216,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */images/sponsors/
 */third-party.js
 */webgl.js?
-/*.gif?$domain=~sex.com
+/*.gif?$domain=~sex.com,~github.com,~gitlab.com
 */ads20*
 */rects.js?
 */wp-content/plugins/snow-3d/
@@ -12791,6 +12836,12 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.x-cookies
+###cookie-sticky
+###ws-cookie-banner
+##.ws-cookie-banner
+##.cookiesOverlay2Box
+###footer_tc_privacy
 ##.extension-browser
 ##.promo-container
 ##.advertsLeaderboard
@@ -13137,6 +13188,8 @@ _statsonlineinfo
 ##[class*="inplayer-overlay"]
 ##[id*="player-ad-under"]
 ##[class*="player-ad-under"]
+##[id*="my-ads"]
+##[class*="my-ads"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
