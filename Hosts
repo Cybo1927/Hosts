@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1211-1
+! Version: 1212
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Saturday, May 16, 2020
+! Last Modified: Sunday, May 17, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -103,6 +103,8 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /(ip)[0-9]{8,10}\.(ahcdn.com)/$popup,popunder,~media
 ! Ping(er) domains
 /^http(s)?:\/\/ping(er)?.+\..+/
+! Weird sites that are probably only for ads/tracking
+/^http:\/\/(www.)?.+(sex|fuck|teen|uncensored|xxx|tight|tiny|hotamateur|porn|boner|pussy|pussies|gfs|virgin|nude|young|girlies|taboo|vagina|forbidden|daddys|innocent|loli|junior|nudist|desires|tube|fap).+/$document,subdocument
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -398,11 +400,15 @@ http://*$subdocument
 ||export.tvnet.lv^$domain=zl.lv
 ||web-view.net^$domain=gmail.com
 ||tree.com^$domain=cnn.com
-||cloudflare.com^$domain=gitlab.com
 ||videodelivery.net^$domain=reuters.com
 ||google.com^$domain=open.spotify.com
 ||gstatic.com^$domain=open.spotify.com
 !
+||strpjmp.com^$popup,popunder
+||goodsforlife.mobi^$popup,popunder
+||z3dmbpl6309s.com^$popup,popunder
+||whatsyourflower.com^$popup,popunder
+||cloudflare.com^$third-party
 ||inside-elections.com^$third-party
 ||exosrv.com^$popup,popunder
 ||soadvr.com^$popup,popunder
@@ -490,6 +496,37 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||microad.tw^
+||microad.co.jp^
+||ascraftan.com^
+||chamsoop.net^
+||brothersail.com^
+||pushnotifications.click^
+||moneyoffer.pro^
+||bestcontentfood.top^
+||bestcontenttrade.top^
+||creativesumo.com^
+||scenepass.com^
+||realsrv.com^
+||notify-system.com^
+||goodsforlife.mobi^
+||z3dmbpl6309s.com^
+||tanit-dio.com^
+||mi82ltk3veb7.com^
+|referrer.space^
+||adultfriendfinder.com^
+||bngpt.com^
+||aweproto.com^
+||aweptjmp.com^
+||trupgrade.com^
+||defutohy.pro^
+||ladsecs.com^
+||wpnsrv.com^
+||xadsmart.com^
+||kepler-37b.com^
+||szneae7977100.com^
+||toi-125b.com^
+||skeetstick.com^
 ||bp512.com^
 ||mfadsrvr.com^
 ||fc.yahoo.com^
@@ -10034,7 +10071,6 @@ http://*$subdocument
 ||xtraffme.pro^
 ||xnxxcomvideos.com^
 ||xbc8fsvo5w75wwx8.pro^
-||xwayx.net^
 ||xxdjmuekj.com^
 ||xidrus.com^
 ||xxe2.com^
@@ -12783,6 +12819,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */adclick/
 */mobAdverSSL.html
 */gtag.$script
+*/clk.gif
 ?beacon=
 ?*connect.facebook.com
 ?callback=pfMod.saveAdSettings
@@ -13122,6 +13159,17 @@ _statsonlineinfo
 ###cookie-pop
 ###reklama-top
 ###cookie-disclaimer
+###adBlockAlert
+###adBlockAlertWrap
+##.adBlockAlertWrapper
+##.rightColBanner
+##.leftColBanner
+###pb_template
+###pb_block
+###catFishBanner
+##.footerBanner
+###adright
+##.adsbyxa
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
 *#?#a:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
 *#?#p:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
@@ -13191,6 +13239,8 @@ _statsonlineinfo
 ##[class*="player-ad-under"]
 ##[id*="my-ads"]
 ##[class*="my-ads"]
+##img[src*="go.php"]
+##img[src*="out.php"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
@@ -13217,6 +13267,7 @@ _statsonlineinfo
 ##[href*="clickadilla.com"]
 ##[href*="hrtya.com"]
 ##[href*="adinfo."]
+##[href*="chaturbate.com/in/"]
 ##a[href*="/out.php?l=http://"]
 ##a[href*="/out.php?member="]
 ##a[href*="/_clicktracker.php"]
@@ -13256,6 +13307,7 @@ _statsonlineinfo
 ##a[href*="/adrotate-out.php?"]
 ##a[href*="/adServe/"]
 ##[src*="/adver/index."]
+##[src*="nichedlinks.com/hop/"]
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
