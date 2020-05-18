@@ -12,9 +12,6 @@
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com
 @@||youtube-ui.l.google.com
-@@||m.youtube.com^$app=org.mozilla.firefox_beta,important
-@@||i.ytimg.com^$app=org.mozilla.firefox_beta,important
-@@||yt3.ggpht.com^$app=org.mozilla.firefox_beta,important
 *:5228$network,app=com.google.android.gms
 !#endif
 google.com|
@@ -36,6 +33,9 @@ isnssdk.com|
 ||log*.musical.ly^$all,important
 ||log*-*.musical.ly^$all,important
 ||dm*.musical.ly^$all,important
+
+! Try to use Spotify Web Player on my Android
+spotify.com#%#Object.defineProperty(window.navigator, 'userAgent', { get: function(){ return 'Mozilla/5.0 (MSIE 10.0; Windows NT 6.1; Trident/5.0)'; } });Object.defineProperty(window.navigator, 'vendor', { get: function(){ return 'Microsoft'; } });Object.defineProperty(window.navigator, 'platform', { get: function(){ return 'Windows'; } });
 
 ! Doesn't need to query all the time
 ntp.org|
