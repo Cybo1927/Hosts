@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1212
+! Version: 1213
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Sunday, May 17, 2020
+! Last Modified: Monday, May 18, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -99,12 +99,13 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /^http:\/\/.+[a-zA-Z0-9]{25,}.+/$popup
 ! Possibly related to government spyware
 /(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/
-! Extra trackers if not used for videos
-/(ip)[0-9]{8,10}\.(ahcdn.com)/$popup,popunder,~media
-! Ping(er) domains
-/^http(s)?:\/\/ping(er)?.+\..+/
 ! Weird sites that are probably only for ads/tracking
-/^http:\/\/(www.)?.+(sex|fuck|teen|uncensored|xxx|tight|tiny|hotamateur|porn|boner|pussy|pussies|gfs|virgin|nude|young|girlies|taboo|vagina|forbidden|daddys|innocent|loli|junior|nudist|desires|tube|fap).+/$document,subdocument
+/^http:\/\/(www.)?.+(teen|uncensored|xxx|tight|tiny|hotamateur|porn|boner|pussy|pussies|gfs|virgin|nude|young|girlies|taboo|vagina|forbidden|daddys|innocent|loli|junior|nudist|desires|tube|fap).+/$document,subdocument
+! Just extra tracking crap
+/.+(tracking-website).+\.(amazonaws)\..+/
+/.+(telemetry-).+\.(amazonaws)\..+/
+/.+(datarouter-).+\.(amazonaws)\..+/
+/.+(eulatracking-).+\.(amazonaws)\..+/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -151,14 +152,11 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
-! uBlock Origin +js
+! uBlock Origin extra +js
 *##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com
 pandora.com##+js(addEventListener-defuser.js, /hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 *##+js(window.name-defuser)
-
-! Block http frames to help prevent some click hijacking
-http://*$subdocument
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
@@ -404,6 +402,8 @@ http://*$subdocument
 ||google.com^$domain=open.spotify.com
 ||gstatic.com^$domain=open.spotify.com
 !
+||hypestat.com^$third-party
+||clearwebstats.com^$third-party
 ||strpjmp.com^$popup,popunder
 ||goodsforlife.mobi^$popup,popunder
 ||z3dmbpl6309s.com^$popup,popunder
@@ -496,6 +496,13 @@ http://*$subdocument
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||smartlock.google.com^
+||ol.epicgames.com^
+||ak.epicgames.com^
+||e1879.e7.akamaiedge.net^
+||pagiwp.com^
+||lessblog.pro^
+||sexvl.pro^
 ||microad.tw^
 ||microad.co.jp^
 ||ascraftan.com^
@@ -4130,7 +4137,6 @@ http://*$subdocument
 ||cloudfront-labs.amazonaws.com^
 ||collectra.herokuapp.com^
 ||chainads.io^
-||clearwebstats.com^
 ||c.computerbild.de^
 ||msitadfs.glbdns2.microsoft.com^
 ||choice.microsoft.com^
@@ -12820,6 +12826,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */mobAdverSSL.html
 */gtag.$script
 */clk.gif
+*/adx_iframe_
 ?beacon=
 ?*connect.facebook.com
 ?callback=pfMod.saveAdSettings
@@ -12874,6 +12881,10 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.drt-spot-frame
+##.drt-spot-inner
+##.drt-spot-visible
+##.drt-spot-box
 ##.x-cookies
 ###cookie-sticky
 ###ws-cookie-banner
@@ -13266,6 +13277,7 @@ _statsonlineinfo
 ##[href*="revsharecash.com"]
 ##[href*="clickadilla.com"]
 ##[href*="hrtya.com"]
+##[href*="sexvl.pro"]
 ##[href*="adinfo."]
 ##[href*="chaturbate.com/in/"]
 ##a[href*="/out.php?l=http://"]
