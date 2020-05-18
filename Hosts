@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1213
+! Version: 1214
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Monday, May 18, 2020
@@ -99,8 +99,6 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /^http:\/\/.+[a-zA-Z0-9]{25,}.+/$popup
 ! Possibly related to government spyware
 /(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/
-! Weird sites that are probably only for ads/tracking
-/^http:\/\/(www.)?.+(teen|uncensored|xxx|tight|tiny|hotamateur|porn|boner|pussy|pussies|gfs|virgin|nude|young|girlies|taboo|vagina|forbidden|daddys|innocent|loli|junior|nudist|desires|tube|fap).+/$document,subdocument
 ! Just extra tracking crap
 /.+(tracking-website).+\.(amazonaws)\..+/
 /.+(telemetry-).+\.(amazonaws)\..+/
@@ -153,92 +151,10 @@ google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
 ! uBlock Origin extra +js
-*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com
+*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com,~citi.com
 pandora.com##+js(addEventListener-defuser.js, /hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 *##+js(window.name-defuser)
-
-! Block specific inline scripts (Firefox only)
-!#if env_firefox
-*##^script:has-text(GoogleAnalyticsObject)
-*##^script:has-text(adsbygoogle)
-*##^script:has-text(googletag)
-*##^script:has-text(gtag)
-*##^script:has-text(sendAnalytic)
-*##^script:has-text(tag.min.js)
-*##^script:has-text(?zoneid=)
-*##^script:has-text(pixelForFacebook)
-*##^script:has-text(pixelForTwitter)
-*##^script:has-text(pixelForPinterest)
-*##^script:has-text(pixelForReddit)
-*##^script:has-text(.analytics)
-*##^script:has-text(ClickTracking)
-*##^script:has-text(clickTracking)
-*##^script:has-text(adTarget)
-*##^script:has-text(nl_tracking)
-*##^script:has-text(fbq)
-*##^script:has-text(gdprMatch)
-*##^script:has-text(PerformanceLongTaskTiming)
-*##^script:has-text(_qevents)
-*##^script:has-text(loadChartbeat)
-*##^script:has-text(_comscore)
-*##^script:has-text(mixpanel)
-*##^script:has-text(window.dataLayer)
-*##^script:has-text(wot_referrer)
-*##^script:has-text(wot_origin)
-*##^script:has-text(wot_url)
-*##^script:has-text(jsTags)
-*##^script:has-text(gtm)
-*##^script:has-text(fbAsyncInit)
-*##^script:has-text(_STAT_HASHNAME)
-*##^script:has-text(trackPageView)
-*##^script:has-text(AdBlock detected)
-*##^script:has-text(fuckAdBlock)
-*##^script:has-text(adblock)
-*##^script:has-text(adBlockDetected)
-*##^script:has-text(bypassAb)
-*##^script:has-text(Geotargeting)
-*##^script:has-text(gtm.start)
-*##^script:has-text(Ya.Metrika)
-*##^script:has-text(YaCounter)
-*##^script:has-text(!advr.)
-*##^script:has-text(advr.ua)
-*##^script:has-text(googletag)
-*##^script:has-text(pubads)
-*##^script:has-text(iframeTracker)
-*##^script:has-text(arlinablock)
-*##^script:has-text(detectadnotes)
-*##^script:has-text(popunder)
-*##^script:has-text(cookieScript)
-*##^script:has-text(firstVisit)
-*##^script:has-text(first visit)
-*##^script:has-text(clickmap)
-*##^script:has-text(trackLinks)
-*##^script:has-text(TRAFF_TARGETS)
-*##^script:has-text(get_country)
-*##^script:has-text(gascroll)
-*##^script:has-text(scrollEventTag)
-*##^script:has-text(.spop)
-*##^script:has-text(googletag)
-*##^script:has-text(_gaq)
-*##^script:has-text(checkAdBlock)
-*##^script:has-text(adCheck)
-*##^script:has-text(screen.colorDepth)
-*##^script:has-text(screen.pixelDepth)
-*##^script:has-text(_screen_resolution)
-*##^script:has-text(screen_resolution_)
-*##^script:has-text(popMagic.url)
-*##^script:has-text(adver.detect)
-*##^script:has-text(.isAdBlock)
-*##^script:has-text(.isAB)
-*##^script:has-text(adblock_)
-*##^script:has-text(atppop)
-*##^script:has-text(/popunder/)
-*##^script:has-text(overlayClick())
-*##^script:has-text(NREUM)
-*##^script:has-text('anonmyzeIp')
-*##^script:has-text(premiumRedirect)
-!#endif
 
 ! Annoying exoclick garbage
 *##+js(abort-on-property-read, ExoLoader)
@@ -496,6 +412,9 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||tazeros.com^
+||bisdgsd.pro^
+||lfodsae.pro^
 ||smartlock.google.com^
 ||ol.epicgames.com^
 ||ak.epicgames.com^
@@ -10406,15 +10325,15 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,important
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
-||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,important
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,important
-||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,important
+||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
 ||video-*-cdn-spotify-com.akamaized.net^
 ||*-ak.cdn.spotify.com.eip.akadns.net^
 ||*-ak.cdn.spotify.com.akahost.net^
@@ -11520,9 +11439,9 @@ pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome
 ||spotify.com/metrics-backend/
 ||spotify.com/*/logging/
 ||open.spotify.com/blank
+||spotify.com/ads/
 open.spotify.com###leaderboard-ad-element
 reddit.com##.XPromoAdFeed, .SnackBar, .XPromoPill, .XPromoPopup, .xpromoMinimal
-||spotify.com/ads/
 gamejolt.com##.cookie-banner
 youtube.com##.ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier
 noblogs.org##.cookiebanner
