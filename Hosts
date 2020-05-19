@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1215
+! Version: 1215-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Tuesday, May 19, 2020
@@ -11494,10 +11494,13 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
 
-! AdGuard Specific Whitelist
+! AdGuard specific whitelist
 @@||sourceforge.net$generichide,genericblock
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
+! AdGuard js whitelist
+citi.com#@%#Object.defineProperty(navigator, 'mimeTypes', { get: function() { return '0'; } });
+citi.com#@%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
