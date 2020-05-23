@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1217
+! Version: 1218
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Thursday, May 21, 2020
+! Last Modified: Friday, May 22, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -304,6 +304,9 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||xn--yo14t14be-m2ad7057gea.co^$important
 ||xn--battl-kra2007c.net^$important
 
+! I have no idea if this was a mistake or not (https://www.audio-technica.com/cms/site/c35da94027e94819/index.html?1590118837646)
+https://http*
+
 ! Start Domain Blocklist
 ! Start domains with modifiers ($)
 ! Domain modifier
@@ -318,6 +321,7 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||google.com^$domain=open.spotify.com
 ||gstatic.com^$domain=open.spotify.com
 !
+||fasta.xyz^$popup,popunder
 ||hypestat.com^$third-party
 ||clearwebstats.com^$third-party
 ||strpjmp.com^$popup,popunder
@@ -413,6 +417,12 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||asianastarr.com^
+||pipedrive.com^
+||goodcode.me^
+||rednews.me^
+||fasta.xyz^
+||las4srv.com^
 ||faw.cn^
 ||prf.hn^
 ||d2focgxak1cn74.cloudfront.net^
@@ -11486,9 +11496,11 @@ flickr.com##.photo-page-m-container, .head-banner-style.basic-banner, has-global
 ||combo.staticflickr.com/*/hermes-template-photo-ad-page/
 answers.yahoo.com##[class*="answersListLoginBanner"], [class*="joinAnswersBanner"]
 yahoo.com##[class*="darla"], [class*="promotedClaim"], [class*="-ad-"], [id*="PageLRECClean"], [id*="sda-"]
-duckduckgo.com###ra-0
+duckduckgo.com###ra-0, .ia-modules
 tvn.pl###rodoLayer, #msgLayer > div
 reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2) > [class*="_1"], [class*="_2"]:nth-of-type(3) > [class*="_1"]
+||paypalobjects.com/upstream/bizcomponents/js/messaging.js
+||paypal.com/webapps/mch/cmd/?v=*%3DCLIENT_IMPRESSION
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12014,6 +12026,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/ZeroClipboard
+*/zeroClipboard
+*/_ad
 */activity;
 */Beacon/Service/
 */trackPageVisit/
@@ -12822,6 +12837,18 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.tve-leads-track-lightbox-1
+##.tl-lb-target
+##.top-info-cookie
+###privacy-policy
+##.block-ad
+##.main__top-updated-ad
+##.adsFirst
+##.adsSecond
+##.header-ads-wrapper
+##.ads-block-rightside
+###cookie-wrapper
+##.mov-yes.a-block
 ##.drt-spot-frame
 ##.drt-spot-inner
 ##.drt-spot-visible
@@ -13224,46 +13251,48 @@ _statsonlineinfo
 ##[href*="prf.hn"]
 ##[href*="adinfo."]
 ##[href*="chaturbate.com/in/"]
-##a[href*="/out.php?l=http://"]
-##a[href*="/out.php?member="]
-##a[href*="/_clicktracker.php"]
-##a[href*="/adclicksTag.php"]
-##a[href*="/adclick.php"]
-##a[href*="/adredir.php"]
-##a[href*="/affiliates."]
-##a[href*="/affiliates/"]
-##a[href*="/advertise/"]
-##a[href*="/trackhit/"]
-##a[href*="/adClick/"]
-##a[href*="/track/"]
-##a[href*="?campaign_id="]
-##a[href*="&tracker_id="]
-##a[href*="?link_id="]
-##a[href*="doubleclick.net"]
-##a[href*="googleadservices.com"]
-##a[href*="rs-stripe.com"]
-##a[href*="bytesignal.com"]
-##a[href*=".searchiq.co"]
-##a[href*="carbonads.net"]
-##a[href*="buysellads.net"]
-##a[href*="orange2258.com"]
-##a[href*="dianomi.com/click.epl"]
-##a[href*="cartoontube.com/hit.php"]
-##a[href*="admitad.com"]
-##a[href*="onelink.me"]
-##a[href*="clickbank.net"]
-##a[href*="fourchan.com"]
-##a[href*="feed111.me"]
-##a[href*="dynsrvbaa.com"]
-##a[href*="adtracks.biz"]
-##a[href*="grtyv.com"]
-##a[href*="mobtyb.com"]
-##a[href*="/advert/"]
-##a[href*="/avt/"]
-##a[href*="/adrotate-out.php?"]
-##a[href*="/adServe/"]
+##[href*="/out.php?l=http://"]
+##[href*="/out.php?member="]
+##[href*="/_clicktracker.php"]
+##[href*="/adclicksTag.php"]
+##[href*="/adclick.php"]
+##[href*="/adredir.php"]
+##[href*="/affiliates."]
+##[href*="/affiliates/"]
+##[href*="/advertise/"]
+##[href*="/trackhit/"]
+##[href*="/adClick/"]
+##[href*="/track/"]
+##[href*="?campaign_id="]
+##[href*="&tracker_id="]
+##[href*="?link_id="]
+##[href*="doubleclick.net"]
+##[href*="googleadservices.com"]
+##[href*="rs-stripe.com"]
+##[href*="bytesignal.com"]
+##[href*=".searchiq.co"]
+##[href*="carbonads.net"]
+##[href*="buysellads.net"]
+##[href*="orange2258.com"]
+##[href*="dianomi.com/click.epl"]
+##[href*="cartoontube.com/hit.php"]
+##[href*="admitad.com"]
+##[href*="onelink.me"]
+##[href*="clickbank.net"]
+##[href*="fourchan.com"]
+##[href*="feed111.me"]
+##[href*="dynsrvbaa.com"]
+##[href*="adtracks.biz"]
+##[href*="grtyv.com"]
+##[href*="mobtyb.com"]
+##[href*="/advert/"]
+##[href*="/avt/"]
+##[href*="/adrotate-out.php?"]
+##[href*="/adServe/"]
 ##[src*="/adver/index."]
 ##[src*="nichedlinks.com/hop/"]
+##[src*="/_ad"]
+##[src*="/cats/meow/"]
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
