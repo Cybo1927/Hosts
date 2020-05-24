@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1218
+! Version: 1219
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Friday, May 22, 2020
+! Last Modified: Sunday, May 24, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -321,6 +321,8 @@ https://http*
 ||google.com^$domain=open.spotify.com
 ||gstatic.com^$domain=open.spotify.com
 !
+||gu-st.ru^$third-party
+||iconjob.co^$third-party
 ||fasta.xyz^$popup,popunder
 ||hypestat.com^$third-party
 ||clearwebstats.com^$third-party
@@ -417,6 +419,21 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||exposebox.com^
+||cubeiq.com^
+||*-trffc.pulse.weatherbug.net^
+||*-lx.pulse.weatherbug.net^
+||*-clog*.pulse.weatherbug.net^
+||*-aqi.pulse.weatherbug.net^
+||*-cmpn.pulse.weatherbug.net^
+||*-em.pulse.weatherbug.net^
+||*-ads.pulse.weatherbug.net^
+||ddos-guard.net^
+||webvisor.org^
+||reklama.*.ru^
+||vidoomy.com^
+||10gamestop.com^
+||shetkarimarket.com^
 ||asianastarr.com^
 ||pipedrive.com^
 ||goodcode.me^
@@ -12026,6 +12043,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/csp-report
+*/advert.gif
 */ZeroClipboard
 */zeroClipboard
 */_ad
@@ -12837,6 +12856,10 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.sidebar-ads
+##.advertising.ui
+###cookies-panel
+##.cookies-panel
 ##.tve-leads-track-lightbox-1
 ##.tl-lb-target
 ##.top-info-cookie
@@ -13219,6 +13242,10 @@ _statsonlineinfo
 ##[class*="player-ad-under"]
 ##[id*="my-ads"]
 ##[class*="my-ads"]
+##[id*="adfox"]
+##[class*="adfox"]
+##[id*="widget-adv"]
+##[class*="widget-adv"]
 ##img[src*="go.php"]
 ##img[src*="out.php"]
 ##img[alt="sponsored"]
