@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1219
+! Version: 1220
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Sunday, May 24, 2020
+! Last Modified: Monday, May 25, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -215,7 +215,8 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ! https://www.youtube.com/watch?v=oBI4Cl4rM6o
 ||census.zorinos.com$important
 
-! Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
+! youtube.com/watch?v=GhRC6HDR8GA
+! Polarity Technology Ltd Malware Addons
 ||weathercenter.co$important
 ||quickemailaccess.co$important
 ||easyspeedtest.co$important
@@ -419,6 +420,9 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||naiadsystems.com^
+||location.live.net^
+||log.kmplayer.com^
 ||exposebox.com^
 ||cubeiq.com^
 ||*-trffc.pulse.weatherbug.net^
@@ -11234,7 +11238,7 @@ https://http*
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -12823,6 +12827,7 @@ window.gapwn.get_country
 &timestamp=$domain=spotify.com
 *:*/amp.gif
 *:*/clear.gif
+*trackemailout*
 *adobe.target*$script
 ?adname=
 ?ga_action
