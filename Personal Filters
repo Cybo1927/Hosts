@@ -1,18 +1,23 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-! Pain
+! AdGuard for Android
 !#if (adguard_app_android)
 ! Unblock GCM Notifications
 @@||mtalk.google.com
 @@||alt*-mtalk.google.com
+!
 @@||gvt1.com
 @@||android.googleapis.com
 @@||feelinsonice.l.google.com
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com
 @@||youtube-ui.l.google.com
+
+! App specific blocking
 *:5228$network,app=com.google.android.gms
+
+*$important,app=com.google.android.inputmethod.latin,com.google.android.googlequicksearchbox,eu.thedarken.sdm
 !#endif
 google.com|
 android.com|
