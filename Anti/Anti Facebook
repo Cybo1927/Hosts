@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 10
+! Version: 11
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -18,6 +18,9 @@
 ||whatsapp.net^
 ||workplace.com^
 ||crowdtangle.com^
+
+! https://www.youtube.com/watch?v=FfM7tzskcwQ
+||giphy.com^
 
 ! Used to call the tracking pixel
 ! "All standard events are tracked by calling the pixel's fbq('track') function, with the event name, and (optionally) a JSON object as its parameters."
