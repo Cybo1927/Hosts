@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1223-3
+! Version: 1221
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 27, 2020
@@ -438,6 +438,16 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||enjoyadsplatform.com^
+||analytics.videoshowglobalserver.com^
+||pubnative.info^
+||adslog.apexinnotech.com^
+||d1f4dp0syfp2oq.cloudfront.net^
+||pow.im^
+||alog.umengcloud.com^
+||rsfile.net^
+||mydatamanagerapp.com^
+||noxgroup.org^
 ||beam.remp.nv.ua^
 ||vrvm.com^
 ||dtignite.com^
@@ -11941,7 +11951,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 @@||img.samsungapps.com
 @@||samsappsbn.vo.llnwd.net
 ! App Specific
-*$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row
+*$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row|photo.manager.private.photogallery|photography.backgallery.android|photography.blackgallery.android
 !
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
@@ -12074,6 +12084,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/app_logs
 */impr.gif?
 */clk.gif?
 */csp-report
