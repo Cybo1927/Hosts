@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1220
+! Version: 1221
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Monday, May 25, 2020
+! Last Modified: Tuesday, May 26, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -15,7 +15,6 @@
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
-@@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
 @@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
@@ -44,7 +43,6 @@
 @@||apis.google.com/_/scs/*
 @@||link.theplatform.com^$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
-@@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||totaljerkface.com/adplayer/ads.js
 @@||player.theplatform.com
 @@||media-cdn.tripadvisor.com
@@ -112,13 +110,22 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||disqus.com/embed.js?_=1457540*$script
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
-||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$redirect=nooptext,domain=pandora.com
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
 ||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
+||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,mp4,important
+*/cleardot.gif$image,redirect=1x1.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1.gif
 
 ! Remove Attribute (uBlock Origin)
 *##+js(ra, ping)
@@ -149,6 +156,11 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Specific
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
+
+! From https://github.com/gwarser/filter-lists/blob/master/lan-block.txt
+||[::1]^$third-party
+||localhost^$third-party
+||0.0.0.0^$third-party
 
 ! uBlock Origin extra +js
 *##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com
@@ -420,6 +432,14 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||hadsoks.com^
+||passtechusa.com^
+||allmygoodlife.com^
+||avantisvideo.com^
+||video-fa.scdn.co^
+||game-mode.net^
+||jaguar-prod.snapchat.com^
+||mgmt.aibixby.com^
 ||naiadsystems.com^
 ||location.live.net^
 ||log.kmplayer.com^
@@ -10381,15 +10401,6 @@ https://http*
 ||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
 ||video-*-cdn-spotify-com.akamaized.net^
 ||*-ak.cdn.spotify.com.eip.akadns.net^
 ||*-ak.cdn.spotify.com.akahost.net^
@@ -11631,7 +11642,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 47.252.92.254$network
 
 ! Gboard Tracking
-172.217.9.35$network
+! 172.217.9.35$network (Breaks Google Play on Samsung devices - just block it from using internet under Apps Management)
 
 ! Micorsoft Cortana
 204.79.197.200$network
@@ -11642,7 +11653,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 172.217.4.40$network
 172.217.9.67$network
 216.239.35.4$network
-172.217.4.195$network
 
 ! Facebook IP
 157.240.18.15$network
@@ -11915,6 +11925,8 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 [2001:4860:4802:36::7e]$network,all
 ! Android specific whitelist
 @@||mtalk.google.com
+@@||img.samsungapps.com
+@@||samsappsbn.vo.llnwd.net
 ! App Specific
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
@@ -12047,6 +12059,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/impr.gif?
+*/clk.gif?
 */csp-report
 */advert.gif
 */ZeroClipboard
@@ -12861,6 +12875,7 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.td-adspot-title
 ##.sidebar-ads
 ##.advertising.ui
 ###cookies-panel
