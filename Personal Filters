@@ -17,7 +17,7 @@
 ! App specific blocking
 *:5228$network,app=com.google.android.gms
 
-/.+/$app=com.google.android.inputmethod.latin|com.google.android.googlequicksearchbox|eu.thedarken.sdm
+*$app=com.google.android.inputmethod.latin|com.google.android.googlequicksearchbox|eu.thedarken.sdm
 !#endif
 google.com|
 android.com|
