@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1222
+! Version: 1223
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Wednesday, May 27, 2020
@@ -171,8 +171,8 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 *##+js(window.name-defuser)
 ! mousemove event listener tends to only be used for tracking/heatmaps
 ! pagehide,pageshow,onpagehide,onpageshow, and focus allow sites to see if you're in a different tab or not
-! contextmenu and oncontextmenu seem to only be used to block you from using right-click
-*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow|onpagehide|onpageshow|focus|contextmenu|oncontextmenu/)$domain=~youtube.com
+! contextmenu seem to only be used to block you from using right-click
+*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow|onpagehide|onpageshow|focus|contextmenu/)$domain=~youtube.com
 
 ! Annoying exoclick garbage
 *##+js(abort-on-property-read, ExoLoader)
@@ -11939,7 +11939,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 @@||img.samsungapps.com
 @@||samsappsbn.vo.llnwd.net
 ! App Specific
-*$important,app=com.google.android.settings.intelligence,com.google.android.apps.tips,com.shamanland.privatescreenshots,com.verizon.mips.services,com.sec.android.app.camera,com.google.android.GoogleCamera,com.google.android.ims,org.mozilla.screenshot.go,com.niksoftware.snapseed,samsung.android.rubin.app,com.oasisfeng.greenify,com.oasisfeng.greenify.pro,com.samsung.android.mobileservice,com.ea.game.pzwfree_row
+*$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pzwfree_row,important
 !
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
