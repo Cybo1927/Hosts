@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 24
+! Version: 25
 
 ! Google
 ||google.^
@@ -68,6 +68,9 @@
 ||geller-pa.googleapis.com^
 ||withgoogle.com^
 ||android.com^
+
+! https://www.youtube.com/watch?v=FfM7tzskcwQ
+||tenor.com^
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
