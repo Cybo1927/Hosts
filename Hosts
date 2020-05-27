@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1221
+! Version: 1222
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Tuesday, May 26, 2020
+! Last Modified: Wednesday, May 27, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -102,6 +102,9 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /.+(telemetry-).+\.(amazonaws)\..+/
 /.+(datarouter-).+\.(amazonaws)\..+/
 /^http(s)?:\/\/(clickio).{3,6}\.(com)/
+/[0-9a-z]{60,}\.[a-z].+$/
+! Annoyance in AdGuard Home
+/^[a-z0-9]\.home$/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -138,6 +141,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 *##+js(ra, data-google-query-id, a[data-google-query-id])
 *##+js(ra, data-obtrack, a[data-obtrack])
 *##+js(ra, data-oburl, a[data-oburl])
+*##+js(ra, href, a[href*="javascript:void(0);])
 ! Based on InnoScorpio's "iOS_AND_WIN_Bypass_Mitigation" (https://github.com/InnoScorpio/Public_Adblock_Filters/blob/cc2163038a319a2a181091bf0c1bc448dee6bafa/Enforcement/Adguard/iOS_AND_WIN_Bypass_Mitigation.txt)
 ! These two rules replicate the same privacy settings for blocking prefetching from uBlock Origin or Nano Defender for Adguard for Desktop and Adguard for Android. 
 *##+js(ra, rel, link[rel*="next"])
@@ -154,7 +158,6 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 *##+js(ra, rel, link[rel*="prerender"])
 !-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ! Specific
-google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
 
 ! From https://github.com/gwarser/filter-lists/blob/master/lan-block.txt
@@ -163,10 +166,13 @@ platform.everfi.net*##+js(ra, disabled)
 ||0.0.0.0^$third-party
 
 ! uBlock Origin extra +js
-*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow/)$domain=~youtube.com
 pandora.com##+js(addEventListener-defuser.js, /hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
 *##+js(window.name-defuser)
+! mousemove event listener tends to only be used for tracking/heatmaps
+! pagehide,pageshow,onpagehide,onpageshow, and focus allow sites to see if you're in a different tab or not
+! contextmenu and oncontextmenu seem to only be used to block you from using right-click
+*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow|onpagehide|onpageshow|focus|contextmenu|oncontextmenu/)$domain=~youtube.com
 
 ! Annoying exoclick garbage
 *##+js(abort-on-property-read, ExoLoader)
@@ -432,6 +438,11 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||dtignite.com^
+||*-geo.kaspersky-labs.com^
+||acdnpro.com^
+||vb17103elmerwatson.pw^
+||salahstream.ml^
 ||hadsoks.com^
 ||passtechusa.com^
 ||allmygoodlife.com^
@@ -11928,6 +11939,8 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 @@||img.samsungapps.com
 @@||samsappsbn.vo.llnwd.net
 ! App Specific
+*$important,app=com.google.android.settings.intelligence,com.google.android.apps.tips,com.shamanland.privatescreenshots,com.verizon.mips.services,com.sec.android.app.camera,com.google.android.GoogleCamera,com.google.android.ims,org.mozilla.screenshot.go,com.niksoftware.snapseed,samsung.android.rubin.app,com.oasisfeng.greenify,com.oasisfeng.greenify.pro,com.samsung.android.mobileservice,com.ea.game.pzwfree_row
+!
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
