@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1221-1
+! Version: 1222
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
 ! Last Modified: Friday, May 29, 2020
@@ -15,7 +15,6 @@
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
-@@||local.adguard.org^$important
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
 @@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
 @@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
@@ -339,6 +338,9 @@ https://http*
 ||google.com^$domain=open.spotify.com
 ||gstatic.com^$domain=open.spotify.com
 !
+||adtidy.org^$third-party
+||local.adguard.org^$third-party
+||ipaddress.com^$third-party
 ||gu-st.ru^$third-party
 ||iconjob.co^$third-party
 ||fasta.xyz^$popup,popunder
@@ -437,6 +439,15 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||sentry.iddqd.yandex.net^
+||supportmetrics.apple.com^
+||supportmetrics-prn.apple.com^
+||ninja.akamaized.net^
+||adsvolume.com^
+||touch.kaspersky.com^
+||vktarget.ru^
+||park.realbig.online^
+||spr-rtr.com^
 ||enjoyadsplatform.com^
 ||analytics.videoshowglobalserver.com^
 ||pubnative.info^
@@ -12852,6 +12863,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ~Ad~
 -ad-serving
 window.gapwn.get_country
+analytics-events
 /*.sendReport
 -google-tag-
 -ad-$domain=~github.com,~gitlab.com
