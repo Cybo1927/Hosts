@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1222
+! Version: 1223
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.6K
-! Last Modified: Friday, May 29, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
+! Last Modified: Tuesday, June 2, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -171,6 +171,54 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ! pagehide,pageshow,onpagehide,onpageshow, and focus allow sites to see if you're in a different tab or not
 ! contextmenu seem to only be used to block you from using right-click
 *##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow|onpagehide|onpageshow|focus|contextmenu/)$domain=~youtube.com
+
+! Block specific inline scripts (Firefox only)
+!#if env_firefox
+*##^script:has-text(GoogleAnalyticsObject)
+*##^script:has-text(adsbygoogle)
+*##^script:has-text(googletag)
+*##^script:has-text(gtag)
+*##^script:has-text(sendAnalytic)
+*##^script:has-text(tag.min.js)
+*##^script:has-text(?zoneid=)
+*##^script:has-text(pixelForFacebook)
+*##^script:has-text(pixelForTwitter)
+*##^script:has-text(pixelForPinterest)
+*##^script:has-text(pixelForReddit)
+*##^script:has-text(.analytics)
+*##^script:has-text(ClickTracking)
+*##^script:has-text(clickTracking)
+*##^script:has-text(!advr.)
+*##^script:has-text(advr.ua)
+*##^script:has-text(googletag)
+*##^script:has-text(pubads)
+*##^script:has-text(iframeTracker)
+*##^script:has-text(trackLinks)
+*##^script:has-text(TRAFF_TARGETS)
+*##^script:has-text(get_country)
+*##^script:has-text(gascroll)
+*##^script:has-text(scrollEventTag)
+*##^script:has-text(popMagic.url)
+*##^script:has-text(adver.detect)
+*##^script:has-text(.isAdBlock)
+*##^script:has-text(.isAB)
+*##^script:has-text(adblock_)
+*##^script:has-text(atppop)
+*##^script:has-text(/popunder/)
+*##^script:has-text(overlayClick())
+*##^script:has-text(NREUM)
+*##^script:has-text('anonmyzeIp')
+*##^script:has-text(premiumRedirect)
+*##^script:has-text(logServer)
+*##^script:has-text(ga:!)
+*##^script:has-text(gtm:!)
+*##^script:has-text(comscore:!)
+*##^script:has-text(trackerCountry)
+*##^script:has-text(useTraking)
+*##^script:has-text(trackPage)
+*##^script:has-text(lastPageName)
+*##^script:has-text(pageUrl)
+!#endif
 
 ! Annoying exoclick garbage
 *##+js(abort-on-property-read, ExoLoader)
@@ -439,6 +487,8 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||tracking.olx-st.com^
+||cleanerplus.ru^
 ||sentry.iddqd.yandex.net^
 ||supportmetrics.apple.com^
 ||supportmetrics-prn.apple.com^
