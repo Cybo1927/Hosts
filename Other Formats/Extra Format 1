@@ -146,6 +146,7 @@ https://http*
 *://*google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+*://*trafficbass.com^$third-party
 *://*adtidy.org^$third-party
 *://*local.adguard.org^$third-party
 *://*ipaddress.com^$third-party
@@ -247,6 +248,16 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*uc.xyz^
+*://*sl.ink^
+*://*meggnoapps.com^
+*://*kolyabe2.ru^
+*://*acales.ru^
+*://*cdn1272serve.xyz^
+*://*n1272serv.xyz^
+*://*adsession.com^
+*://*primalgrowpro.com^
+*://*dow068lag04cv.cloudfront.net^
 *://*personalizer.io^
 *://*sexly.com^
 *://*webpushonline.com^
