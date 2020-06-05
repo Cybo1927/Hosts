@@ -395,6 +395,46 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "uc.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sl.ink" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "meggnoapps.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "kolyabe2.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "acales.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cdn1272serve.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "n1272serv.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adsession.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "primalgrowpro.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dow068lag04cv.cloudfront.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "personalizer.io" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
