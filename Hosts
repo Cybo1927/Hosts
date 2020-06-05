@@ -4,7 +4,7 @@
 ! Version: 1224
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
-! Last Modified: Wednesday, June 3, 2020
+! Last Modified: Friday, June 5, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -219,6 +219,7 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 *##^script:has-text(clickPixels)
 *##^script:has-text(trackCustClick)
 *##^script:has-text(notiClickTime)
+*##^script:has-text(htTrack)
 !#endif
 
 ! Annoying exoclick garbage
@@ -387,6 +388,7 @@ https://http*
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||trafficbass.com^$third-party
 ||adtidy.org^$third-party
 ||local.adguard.org^$third-party
 ||ipaddress.com^$third-party
@@ -488,6 +490,16 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||uc.xyz^
+||sl.ink^
+||meggnoapps.com^
+||kolyabe2.ru^
+||acales.ru^
+||cdn1272serve.xyz^
+||n1272serv.xyz^
+||adsession.com^
+||primalgrowpro.com^
+||dow068lag04cv.cloudfront.net^
 ||personalizer.io^
 ||sexly.com^
 ||webpushonline.com^
@@ -4937,7 +4949,6 @@ https://http*
 ||freexmedia.de^
 ||forcedolphin.com^
 ||fpn.flipboard.com^
-||fs.ypncdn.com^
 ||fiksu.com^
 ||tm-awx.com^
 ||flexlinks.com^
@@ -11625,6 +11636,7 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 ||paypalobjects.com/upstream/bizcomponents/js/messaging.js
 ||paypal.com/webapps/mch/cmd/?v=*%3DCLIENT_IMPRESSION
 ||cdn-image.com/__media__/
+||archive.org/includes/analytics
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12153,6 +12165,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/k2sadz.gif
+*/bbbbbb.js
+*/trcking/trck.
+*/stattracker$script
 */sw_ad
 */pw_saveNotificationEventLog.php
 */pw_saveUserSubscription.php
@@ -12975,6 +12991,12 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+###movieplayer-box-adv
+###movieplayer-box-adv-iframe
+##.advertising-side
+##.advertising-bottom
+##.ads-list
+##.search_upper_right_ad
 ##.td-adspot-title
 ##.sidebar-ads
 ##.advertising.ui
