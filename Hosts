@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1224
+! Version: 1224-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
-! Last Modified: Friday, June 5, 2020
+! Last Modified: Monday, June 8, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -238,6 +238,9 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
 *##body:style(overflow:visible !important)
 *##body:style(overflow-y:auto!important)
+! Annoyance on fullscreen videos
+youtube.com#@#body:style(overflow:visible !important)
+youtube.com#@#body:style(overflow-y:auto!important)
 
 ! Content Security Policies
 ||*^$csp=prefetch-src 'none'; 'upgrade-insecure-requests';
@@ -403,8 +406,6 @@ https://http*
 ||goodsforlife.mobi^$popup,popunder
 ||z3dmbpl6309s.com^$popup,popunder
 ||whatsyourflower.com^$popup,popunder
-||cloudflare.com^$third-party
-||cloudflare.co^$third-party
 ||inside-elections.com^$third-party
 ||exosrv.com^$popup,popunder
 ||soadvr.com^$popup,popunder
