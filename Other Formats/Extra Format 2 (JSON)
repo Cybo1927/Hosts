@@ -395,6 +395,86 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "leadboltads.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "qingstor.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "allmobilize.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lstat.youku.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "*a8.satofull.jp" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "societegenerale.fr" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "fonestarz.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "target2sell.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ingenioustech.biz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "levia.ai" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cpa-france.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "a*.api.bbc.co.uk" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "analytics.paxful.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "carddav.address.yahoo.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ads.roku.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "captive.roku.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cloudservices.roku.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "rcomhost.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cadprofessor.netdna-cdn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adelogs.adobe.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "uc.xyz" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -32532,10 +32612,6 @@
      "redirect" : "127.0.0.1"
      },
      "suggestv.io" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "stripst.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
