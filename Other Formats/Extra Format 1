@@ -160,8 +160,6 @@ https://http*
 *://*goodsforlife.mobi^$popup,popunder
 *://*z3dmbpl6309s.com^$popup,popunder
 *://*whatsyourflower.com^$popup,popunder
-*://*cloudflare.com^$third-party
-*://*cloudflare.co^$third-party
 *://*inside-elections.com^$third-party
 *://*exosrv.com^$popup,popunder
 *://*soadvr.com^$popup,popunder
