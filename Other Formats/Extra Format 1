@@ -146,6 +146,7 @@ https://http*
 *://*google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+*://*hawk.so^$third-party
 *://*trafficbass.com^$third-party
 *://*adtidy.org^$third-party
 *://*local.adguard.org^$third-party
@@ -248,6 +249,26 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*leadboltads.net^
+*://*qingstor.com^
+*://*allmobilize.com^
+*://*lstat.youku.com^
+*://*a8.satofull.jp^
+*://*societegenerale.fr^
+*://*fonestarz.com^
+*://*target2sell.com^
+*://*ingenioustech.biz^
+*://*levia.ai^
+*://*cpa-france.org^
+*://*a*.api.bbc.co.uk^
+*://*analytics.paxful.com^
+*://*carddav.address.yahoo.com^
+*://*ads.roku.com^
+*://*captive.roku.com^
+*://*cloudservices.roku.com^
+*://*rcomhost.com^
+*://*cadprofessor.netdna-cdn.com^
+*://*adelogs.adobe.com^
 *://*uc.xyz^
 *://*sl.ink^
 *://*meggnoapps.com^
@@ -8289,7 +8310,6 @@ https://http*
 *://*sitecheck1.opera.com^
 *://*sitecheck2.opera.com^
 *://*suggestv.io^
-*://*stripst.com^
 *://*statisgeek.com^
 *://*syndicpop.com^
 *://*social.com^
