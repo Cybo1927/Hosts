@@ -1,9 +1,12 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 23
+! Version: 24
 
 ! Block maps, location analytics, and GPS services
 
+||*-geo.kaspersky-labs.com^
+||location.live.net^
+||geolocation-db.com^
 ||areametrics.com^
 ||arcgis.com^
 ||locuslabs.com^
