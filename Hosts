@@ -236,6 +236,7 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 !#endif
 
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
+*##body:style(overflow:visible !important)
 *##body:style(overflow-y:auto!important)
 
 ! Content Security Policies
@@ -388,6 +389,7 @@ https://http*
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||hawk.so^$third-party
 ||trafficbass.com^$third-party
 ||adtidy.org^$third-party
 ||local.adguard.org^$third-party
@@ -490,6 +492,26 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||leadboltads.net^
+||qingstor.com^
+||allmobilize.com^
+||lstat.youku.com^
+||*a8.satofull.jp^
+||societegenerale.fr^
+||fonestarz.com^
+||target2sell.com^
+||ingenioustech.biz^
+||levia.ai^
+||cpa-france.org^
+||a*.api.bbc.co.uk^
+||analytics.paxful.com^
+||carddav.address.yahoo.com^
+||ads.roku.com^
+||captive.roku.com^
+||cloudservices.roku.com^
+||rcomhost.com^
+||cadprofessor.netdna-cdn.com^
+||adelogs.adobe.com^
 ||uc.xyz^
 ||sl.ink^
 ||meggnoapps.com^
@@ -8530,7 +8552,6 @@ https://http*
 ||sitecheck1.opera.com^
 ||sitecheck2.opera.com^
 ||suggestv.io^
-||stripst.com^
 ||statisgeek.com^
 ||syndicpop.com^
 ||social.com^
@@ -11637,6 +11658,7 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 ||paypal.com/webapps/mch/cmd/?v=*%3DCLIENT_IMPRESSION
 ||cdn-image.com/__media__/
 ||archive.org/includes/analytics
+||*gov.cn^$script,inline-script,domain=~duckduckgo.com,~google.com,~google.cn,~baidu.com
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12165,6 +12187,26 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/*.html#zone_id=
+*/screenlog
+*/gs.gif?gscmd=
+*/gs.gif?gsver=
+*/allmobilize.$script
+*/phpstat
+*/logcount.
+*/logcount&
+*/yahoo-dom-event
+*/promo?uniq
+*/api/*/v*/log
+*/*pagespeed_beacon
+*/istats/
+*/istats-
+*/dfpAdsHTML/
+*/dfpAds.
+*/analytics.js
+*/emp/adverts.
+*/emp/SMPj/*.*.*/iframe.html
+*/a8clk.$all
 */k2sadz.gif
 */bbbbbb.js
 */trcking/trck.
@@ -12966,6 +13008,7 @@ analytics-events
 ?*odb.outbrain.com
 ?ads
 ?affclick
+?promoCampaigns
 =googleanalytics*
 =adunit&
 =cron.task.core.tidy_sessions
@@ -12991,6 +13034,15 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+###adblock_tooltip
+##.ad-remove
+##.removeAdLink
+##.a.js_tracking-link
+###footerMenu_advertise
+###popsByTrafficJunky
+##.ad-wrap
+##.cookies-reminder
+##.banner-cookies-alert
 ###movieplayer-box-adv
 ###movieplayer-box-adv-iframe
 ##.advertising-side
