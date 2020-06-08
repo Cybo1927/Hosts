@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 25
+! Version: 26
 
 ! Google
 ||google.^
@@ -82,6 +82,10 @@
 ||izatcloud.com^
 ||gpsonextra.net^
 ||gpsonextra.com^
+
+! Third-party
+*/GA360.php
+*/ajaxCustomerInfoGA
 
 ! AdGuard For Android Specific
 121.121.121.121$network
