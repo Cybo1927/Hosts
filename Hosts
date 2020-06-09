@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1225-1
+! Version: 1225-2
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
 ! Last Modified: Tuesday, June 9, 2020
@@ -268,7 +268,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||holaspark.com$important
 ||client.hola.org$important
 ||client-cdn*.hola.org$important
-||h-cdn*.com$important
 ||luminati.io$important
 ||clientalt-holanetworksltd.netdna-ssl.com$important
 ||client*-holanetworksltd.netdna-ssl.com$important
