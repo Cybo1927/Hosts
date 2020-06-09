@@ -1,47 +1,10 @@
 ! Title: Cybo's Ultimate Protection
 ! Description: A compliment to the basic hosts file that will provide a way better range of protection while breaking many sites
 ! Expires: 8 hours
-! Version: 39
+! Version: 40
 ! Last Modified: Tuesday, June 9, 2020
 
-! Sites that can work without scripts
-trackingthetrackers.com^$inline-script,script
-marketwatch.com^$script,inline-script
-nytimes.com^$script
-dailycaller.com$inline-script
-neonnettle.com$inline-script
-content-security-policy.com$script,inline-script
-computerhope.com$script,inline-script
-ip-tracker.org$script
-ccc.de$script
-duckduckgo.com$script
-restoreprivacy.com$script
-wikipedia.org$script
-baxtel.com$script
-twitter.com$script
-androidauthority.com$script,inline-script
-itechgyd.com$script,inline-script
-androidleo.com$script,inline-script
-thehackernews.com$script
-technobezz.com$script,inline-script
-foxnews.com$script,inline-script
-techwiser.com$script,inline-script
-talkandroid.com$script,inline-script
-techreviewpro.com$script
-systweak.com$script,inline-script
-appsapk.com$script
-wired.co.uk$script,inline-script
-zdnet.com$script
-promiseskept.com$script,inline-script
-beebom.com$script,inline-script
-techtiptrick.com$script,inline-script
-saucelabs.com$script,inline-script
-mashtips.com$script,inline-script
-mistersaad.com$script,inline-script
-thinkmobiles.com$script,inline-script
-techiespad.com$script,inline-script
-brave.com$script,inline-script
-01net.com$script,inline-script
+!#include No%20Scripts
 
 ! Annoyance
 ##a[href*="joinhoney.com"]
