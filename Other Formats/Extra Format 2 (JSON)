@@ -395,6 +395,82 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "metricode.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "useinfluence.co" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "birdseed.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "humanpresence.app" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "signforcover.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "milf-locator.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "success-smile.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "di8n.bfmtv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "f7ds.liberation.fr" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "activetechpro.club" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "foxnewws.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "acidpigs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "calioga.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "630518.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "33773a.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "20143.vip" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "000888.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "24949.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "com-alerts.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "leadboltads.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
