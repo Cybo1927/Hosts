@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1224-1
+! Version: 1225
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
-! Last Modified: Monday, June 8, 2020
+! Last Modified: Tuesday, June 9, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -99,8 +99,10 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /.+(telemetry-).+\.(amazonaws)\..+/
 /.+(datarouter-).+\.(amazonaws)\..+/
 /^http(s)?:\/\/(clickio).{3,6}\.(com)/
-! Annoyance in AdGuard Home
-/^[a-z0-9]\.home$/
+! Annoyance NX domains
+/^[a-z0-9]\.(home|col)$/
+! Weird Chinese crap
+/^http(s)?:\/\/[0-9]{5,}\..+$/$all
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -172,6 +174,8 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
+*##^script:has-text(EA_data)
+*##^script:has-text(eulerian_)
 *##^script:has-text(GoogleAnalyticsObject)
 *##^script:has-text(adsbygoogle)
 *##^script:has-text(googletag)
@@ -493,6 +497,25 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||metricode.com^
+||useinfluence.co^
+||birdseed.io^
+||humanpresence.app^
+||signforcover.com^
+||milf-locator.com^
+||success-smile.ru^
+||di8n.bfmtv.com^
+||f7ds.liberation.fr^
+||activetechpro.club^
+||foxnewws.com^
+||acidpigs.com^
+||calioga.com^
+||630518.com^
+||33773a.com^
+||20143.vip^
+||000888.net^
+||24949.com^
+||com-alerts.info^
 ||leadboltads.net^
 ||qingstor.com^
 ||allmobilize.com^
@@ -12188,6 +12211,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*/google_analytics/
+*/plugins/popup-builder/
+*/*.gif?l=http
 */*.html#zone_id=
 */screenlog
 */gs.gif?gscmd=
@@ -13035,6 +13061,9 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.newspaper-preview
+##.bloc-journal-subs
+##.flow-bloc-subscription
 ###adblock_tooltip
 ##.ad-remove
 ##.removeAdLink
