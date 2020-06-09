@@ -2,9 +2,10 @@
 ! Description: A compliment to the basic hosts file that will provide a way better range of protection while breaking many sites
 ! Expires: 8 hours
 ! Version: 39
-! Last Modified: Tuesday, May 5, 2020
+! Last Modified: Tuesday, June 9, 2020
 
 ! Sites that can work without scripts
+trackingthetrackers.com^$inline-script,script
 marketwatch.com^$script,inline-script
 nytimes.com^$script
 dailycaller.com$inline-script
