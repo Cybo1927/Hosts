@@ -1,12 +1,11 @@
 ! Title: Cybo's No Scripts
 ! Description: A compliment to the basic hosts file that will block scripts on sites where it'll still allow basic functionality
 ! Expires: 8 hours
-! Version: 2
+! Version: 3
 ! Last Modified: Tuesday, June 9, 2020
 
 ! Sites that can work without scripts
 github.com$inline-script,script
-trackingthetrackers.com$inline-script,script
 marketwatch.com$script,inline-script
 nytimes.com$script
 dailycaller.com$inline-script
