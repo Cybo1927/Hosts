@@ -395,6 +395,54 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "advertica-cdn2.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hulinu.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "playhydrax.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "roujaufu.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "2020mustang.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "statserv.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "optnx.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "meowpushnot.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "emma56.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "styleui.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dombnrs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bnrs.it" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "metricode.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -1208,10 +1256,6 @@
      "redirect" : "127.0.0.1"
      },
      "yoursexcontact1.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "centrofiles.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
