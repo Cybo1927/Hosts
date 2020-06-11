@@ -146,6 +146,7 @@ https://http*
 *://*google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+*://*quadrapp.net^$third-party
 *://*hawk.so^$third-party
 *://*trafficbass.com^$third-party
 *://*adtidy.org^$third-party
@@ -247,6 +248,18 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*advertica-cdn2.com^
+*://*hulinu.info^
+*://*playhydrax.com^
+*://*roujaufu.net^
+*://*2020mustang.com^
+*://*statserv.net^
+*://*optnx.com^
+*://*meowpushnot.com^
+*://*emma56.com^
+*://*styleui.ru^
+*://*dombnrs.com^
+*://*bnrs.it^
 *://*metricode.com^
 *://*useinfluence.co^
 *://*birdseed.io^
@@ -451,7 +464,6 @@ https://http*
 *://*beacon.video.llnw.net^
 *://*llnwd.net^
 *://*yoursexcontact1.com^
-*://*centrofiles.com^
 *://*cyan92010.com^
 *://*symcb.com^
 *://*2leep.com^
