@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1226
+! Version: 1227
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
-! Last Modified: Thursday, June 11, 2020
+! Last Modified: Friday, June 12, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -182,6 +182,8 @@ arenavision.in##+js(nobab)
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
+*##^script:has-text(window.ga)
+*##^script:has-text(Wmpci_Popup)
 *##^script:has-text(EA_data)
 *##^script:has-text(eulerian_)
 *##^script:has-text(GoogleAnalyticsObject)
@@ -406,6 +408,7 @@ https://http*
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||warumbistdusoarm.space^$popup,popunder
 ||quadrapp.net^$third-party
 ||hawk.so^$third-party
 ||trafficbass.com^$third-party
@@ -508,6 +511,31 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||vivads.net^
+||instant-impact.com^
+||pixel.wp.com^
+||heartbeat.pmc.com^
+||adshort.org^
+||adshell.net^
+||makemewell.pro^
+||1celebs.com^
+||gjw5qbyn93b8.com^
+||6i4uibyg0c82.com^
+||popmyads.com^
+||makeupstat.ru^
+||skinstat.ru^
+||covid1920.best^
+||covid19-2020.info^
+||sgndrp.online^
+||knotch.it^
+||getsocial.io^
+||popmechanic.io^
+||reporting.family.microsoft.com.akadns.net^
+||reporting.familysafety.microsoft.com.akadns.net^
+||quicinc.com^
+||track.*.daum.net^
+||api-a.op-mobile.opera.com^
+||samsungacr.com^
 ||advertica-cdn2.com^
 ||hulinu.info^
 ||playhydrax.com^
@@ -11705,6 +11733,10 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 ||cdn-image.com/__media__/
 ||archive.org/includes/analytics
 ||*gov.cn^$script,inline-script,domain=~duckduckgo.com,~google.com,~google.cn,~baidu.com
+||swiftypecdn.com/cc/
+||gravatar.com/js/gprofiles.js
+celeb.gate.cc##[href*="goo.gl"]
+dl-android.com##[href*="/apps/azio-player[dlandroid.com].apk"]
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12233,6 +12265,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
+*-ad$image
+*/heartbeat.*.com$image
+*beacon*$image
 */VisitorAPI.orig.$script
 */metrics.js?v=
 */gtm.js$popup,popunder
@@ -13502,6 +13537,18 @@ _statsonlineinfo
 ##[class*="adfox"]
 ##[id*="widget-adv"]
 ##[class*="widget-adv"]
+##[class*="__ad"]
+##[id*="__ad"]
+##[class*="goog-pub"]
+##[id*="goog-pub"]
+##[class*="rail-ads"]
+##[id*="rail-ads"]
+##[class*="ad-text"]
+##[id*="ad-text"]
+##[class*="admz"]
+##[id*="admz"]
+##[class*="BannerAd"]
+##[id*="BannerAd"]
 ##img[src*="go.php"]
 ##img[src*="out.php"]
 ##img[alt="sponsored"]
@@ -13512,6 +13559,8 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
+##[href*="engine.eroge.com"]
+##[href*="6i4uibyg0c82.com"]
 ##[href*="actiondesk.com"]
 ##[href*="strpjmp.com"]
 ##[href*="adtng.com"]
