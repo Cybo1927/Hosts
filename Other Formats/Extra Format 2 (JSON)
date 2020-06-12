@@ -395,6 +395,106 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "vivads.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "instant-impact.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pixel.wp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "heartbeat.pmc.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adshort.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adshell.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "makemewell.pro" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "1celebs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gjw5qbyn93b8.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "6i4uibyg0c82.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popmyads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "makeupstat.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "skinstat.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "covid1920.best" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "covid19-2020.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sgndrp.online" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "knotch.it" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "getsocial.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popmechanic.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "reporting.family.microsoft.com.akadns.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "reporting.familysafety.microsoft.com.akadns.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "quicinc.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "track.*.daum.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "api-a.op-mobile.opera.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "samsungacr.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "advertica-cdn2.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
