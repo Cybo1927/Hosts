@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1227
+! Version: 1228
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.8K
-! Last Modified: Friday, June 12, 2020
+! Last Modified: Saturday, June 13, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -13125,6 +13125,9 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 ##.adsbygoogle:style(display:none !important;)
+##.ads.bx-leaderboard
+##.bx-bb
+###rofnakACAklofnak
 ##.happy-inside-player
 ##.block-advert
 ##.adholder2
@@ -13465,14 +13468,22 @@ _statsonlineinfo
 ##.adsbyxa
 ###cookie_new
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
-*#?#a:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#p:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h1:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h2:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h3:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h4:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h5:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
-*#?#h6:has-text(/ad(vert|vertisement)?s (by)?|remove ads/i)
+*#?#a:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#p:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h1:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h2:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h3:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h4:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h5:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#h6:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#a:has-text(/reklama|sponsored content/i)
+*#?#p:has-text(/reklama|sponsored content/i)
+*#?#h1:has-text(/reklama|sponsored content/i)
+*#?#h2:has-text(/reklama|sponsored content/i)
+*#?#h3:has-text(/reklama|sponsored content/i)
+*#?#h4:has-text(/reklama|sponsored content/i)
+*#?#h5:has-text(/reklama|sponsored content/i)
+*#?#h6:has-text(/reklama|sponsored content/i)
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
