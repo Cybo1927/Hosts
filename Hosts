@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1229-2
+! Version: 1230
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
 ! Last Modified: Sunday, June 14, 2020
@@ -99,6 +99,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /.+(telemetry-).+\.(amazonaws)\..+/
 /.+(datarouter-).+\.(amazonaws)\..+/
 /^http(s)?:\/\/(clickio).{3,6}\.(com)/
+/(google\..{1,}\/js\/bg\/)[a-zA-Z0-9]{43,43}\.(js)/
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
 ! Annoyance NX domains
 /^[a-z0-9]\.(home|col)$/
@@ -182,6 +183,8 @@ arenavision.in##+js(nobab)
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
+*##^script:has-text(adTextLink)
+*##^script:has-text(pixelUrl)
 *##^script:has-text(window.ga)
 *##^script:has-text(Wmpci_Popup)
 *##^script:has-text(EA_data)
@@ -11446,7 +11449,7 @@ https://http*
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #chat:has-text(Chat Replay is disabled for this Premiere.)
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -12265,7 +12268,12 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetric.^
 ||smetrics.^
 ||webstats.^
-*-ad$image
+||adproxy.^
+*-ad$image,domain=~filterlists.com
+*/mpixel.js
+*/facebook_pixel.
+*/blank_src.gif
+*/bt_data_*_0.html
 */heartbeat.*.com$image
 *beacon*$image
 */VisitorAPI.orig.$script
@@ -13474,14 +13482,14 @@ _statsonlineinfo
 ##.adsbyxa:style(display:none !important;)
 ###cookie_new:style(display:none !important;)
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
-*#?#a:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#p:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h1:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h2:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h3:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h4:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h5:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
-*#?#h6:has-text(/ad(vert|vertisement)?s? (by)?|remove ads/i)
+*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
+*#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h2:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h3:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h4:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+*#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
 *#?#a:has-text(/reklama|sponsored content/i)
 *#?#p:has-text(/reklama|sponsored content/i)
 *#?#h1:has-text(/reklama|sponsored content/i)
@@ -13620,6 +13628,7 @@ _statsonlineinfo
 ##[href*="?campaign_id="]
 ##[href*="&tracker_id="]
 ##[href*="?link_id="]
+##[href*="tai789.net"]
 ##[href*="doubleclick.net"]
 ##[href*="googleadservices.com"]
 ##[href*="rs-stripe.com"]
