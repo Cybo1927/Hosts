@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1230
+! Version: 1230-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Sunday, June 14, 2020
+! Last Modified: Monday, June 15, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -62,6 +62,8 @@ foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
+youtube.com#@#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
+youtube.com#@#h3:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
 
 ! Badfilter
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
@@ -101,10 +103,11 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /^http(s)?:\/\/(clickio).{3,6}\.(com)/
 /(google\..{1,}\/js\/bg\/)[a-zA-Z0-9]{43,43}\.(js)/
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
+/(affiliate)s?\..+\..+$/$document,subdocument
 ! Annoyance NX domains
 /^[a-z0-9]\.(home|col)$/
 ! Weird Chinese crap
-/^http(s)?:\/\/[0-9]{5,}\..+$/$all
+/^http(s)?:\/\/[0-9]{5,}\..+$/$all,domain=~cdnbay.com
 ! "Popping Tool"
 /\/[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{4,4}[a-z]{2,2}[0-9]{1,1}\.(js)$/
 
@@ -11740,6 +11743,7 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 ||gravatar.com/js/gprofiles.js
 celeb.gate.cc##[href*="goo.gl"]
 dl-android.com##[href*="/apps/azio-player[dlandroid.com].apk"]
+metrolyrics.com##.related-container, .driver-related
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -13482,7 +13486,7 @@ _statsonlineinfo
 ##.adsbyxa:style(display:none !important;)
 ###cookie_new:style(display:none !important;)
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
-*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
+*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
 *#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
 *#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
 *#?#h2:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
