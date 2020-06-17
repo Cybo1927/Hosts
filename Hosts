@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1230-1
+! Version: 1231
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Monday, June 15, 2020
+! Last Modified: Wednesday, June 17, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -316,6 +316,9 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ! https://www.youtube.com/watch?v=_ypaZ2XaxhU
 ||trace.svc.ui.com$important
 
+! https://www.youtube.com/watch?v=97-J0FsuEM8
+||5gbioshield.com^
+
 ! IP Grabbers
 ||skypeipresolver.net^$important
 ||www.spylink.net^$important
@@ -404,6 +407,7 @@ https://http*
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+||cnc.cdn.dopc.cz^$domain=~tiscali.cz
 ||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||gotchosen.com^$domain=realclearpolitics.com
 ||platform.linkedin.com^$domain=realclearpolitics.com
@@ -517,6 +521,33 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||advinci.uno^
+||antiadblock.cz^
+||antiadblock.com^
+||clickintext.net^
+||izooto.com^
+||kxcdn.com^
+||nsx-e.np.dl.playstation.net^
+||dreamlinux.com.br^
+||dreamlinux.net^
+||imgvieweriri.com^
+||u9xum5jlsvitcwvk5wll.org^
+||track.ultimate-guitar.com^
+||ps-btc.info^
+||pinion.gg^
+||motdgd.com^
+||gameserverads.com^
+||advertiserurl.com^
+||webtrekk.net^
+||protoonmail.com^
+||puhtml.com^
+||smart2cnjuh34jb.com^
+||milfmovs.com^
+||had.wf^
+||18plusstream.net^
+||adtr02.com^
+||techlab-cdn.com^
+||stats.openvpn.net^
 ||vivads.net^
 ||instant-impact.com^
 ||pixel.wp.com^
@@ -11468,7 +11499,7 @@ youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-ren
 ||translate.google.com/gen204
 ||google.com/adsense/
 ||google.com/imgevent?
-||google.com/gen_204
+||google.com/*_204
 ||google.com/async/irc
 ||clients6.google.com/drive/v2internal/viewerimpressions
 ||clients4.google.com/invalidation/lcs/request
@@ -11483,6 +11514,9 @@ youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-ren
 ||gsuite.google.com/_/AdditnowStoreUi/browserinfo
 ||pay.google.com*/gen204/
 ||gstatic.com/*/f/p/
+||youtube.com/*_204
+||googlevideo.com/*_204
+||ytimg.com/*_204
 google.*###tads, #tadsb, #taw
 
 ! Yahoo
@@ -11490,9 +11524,10 @@ yahoo.com/_td_api/beacon/
 yahoo.com/_td_api?_appletType=viewer
 ||mail.yahoo.com/d/video_api/getVideos
 ||mail.yahoo.com/d/log
+mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
+mail.yahoo.com##li:has-text(Ad)
 mail.yahoo.com###theAd, #mega-banner, .darla, #browserExtensionPromotionBanner, .ads_reserve_space, #LeadAd-0-ComboAd-Proxy
 yahoo.com##li[data-test-id="infinite-scroll-AD"]
-mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 
 ! Amazon
 ||amazon.*/empty.gif
@@ -11651,7 +11686,7 @@ okazii.ro##.Ad-Block, .top-promo
 ||startpage.com/sp/adsense
 ||startpage.com/elt.gif
 ||startpage.com/pelp?
-genius.com##.apple_music_player_iframe, .dfp_unit, .dfp_unit--in_read
+genius.com##.apple_music_player_iframe, .dfp_unit, .dfp_unit--in_read, .solidarity_banner-wrapper
 joyn.de##.CookieNotificationContainer-sc-1giggae-0
 minecraft.net##.cc-container
 null-byte.wonderhowto.com##.whtaph
@@ -13143,6 +13178,8 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+###abAlert:style(display:none !important;)
+##.advertisement-heading:style(display:none !important;)
 ##.adsbygoogle:style(display:none !important;)
 ##.ads.bx-leaderboard:style(display:none !important;)
 ##.bx-bb:style(display:none !important;)
