@@ -1,7 +1,7 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1231
+! Version: 1231-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
 ! Last Modified: Wednesday, June 17, 2020
@@ -62,8 +62,9 @@ foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
-youtube.com#@#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
-youtube.com#@#h3:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s? (by)?|remove ads/i)
+www.youtube.com#@#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+www.youtube.com#@#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
+www.youtube.com#@#h3:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)?|remove ads/i)
 
 ! Badfilter
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
@@ -186,6 +187,7 @@ arenavision.in##+js(nobab)
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
+*##^script:has-text(navigator.sendBeacon)
 *##^script:has-text(adTextLink)
 *##^script:has-text(pixelUrl)
 *##^script:has-text(window.ga)
