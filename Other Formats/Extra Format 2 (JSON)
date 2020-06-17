@@ -395,6 +395,114 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "advinci.uno" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "antiadblock.cz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "antiadblock.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clickintext.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "izooto.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "kxcdn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nsx-e.np.dl.playstation.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dreamlinux.com.br" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dreamlinux.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "imgvieweriri.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "u9xum5jlsvitcwvk5wll.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "track.ultimate-guitar.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ps-btc.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pinion.gg" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "motdgd.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gameserverads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "advertiserurl.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "webtrekk.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "protoonmail.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "puhtml.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "smart2cnjuh34jb.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "milfmovs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "had.wf" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "18plusstream.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adtr02.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "techlab-cdn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "stats.openvpn.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "vivads.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
