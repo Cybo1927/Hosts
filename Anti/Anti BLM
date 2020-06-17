@@ -1,0 +1,18 @@
+! Title: Cybo's Anti BLM
+! Expires: 1 day
+! Version: 1
+
+! It's not a racial problem it's an authoritative problem
+
+! YouTube
+youtube.com###dismissable:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+youtube.com##ytd-playlist-renderer:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+youtube.com##style-scope ytd-channel-renderer:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+
+*#?#a:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h1:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h2:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h3:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h4:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h5:has-text(/(black lives matter|blacklivesmatter|blm)/i)
+*#?#h6:has-text(/(black lives matter|blacklivesmatter|blm)/i)
