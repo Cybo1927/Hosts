@@ -48,6 +48,9 @@
 ! https://www.youtube.com/watch?v=_ypaZ2XaxhU
 *://*trace.svc.ui.com$important
 
+! https://www.youtube.com/watch?v=97-J0FsuEM8
+*://*5gbioshield.com^
+
 ! IP Grabbers
 *://*skypeipresolver.net^$important
 *://*www.spylink.net^$important
@@ -136,6 +139,7 @@ https://http*
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+*://*cnc.cdn.dopc.cz^$domain=~tiscali.cz
 *://*ffjjti.frl$third-party,domain=~mp3juices.cc
 *://*gotchosen.com^$domain=realclearpolitics.com
 *://*platform.linkedin.com^$domain=realclearpolitics.com
@@ -249,6 +253,33 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*advinci.uno^
+*://*antiadblock.cz^
+*://*antiadblock.com^
+*://*clickintext.net^
+*://*izooto.com^
+*://*kxcdn.com^
+*://*nsx-e.np.dl.playstation.net^
+*://*dreamlinux.com.br^
+*://*dreamlinux.net^
+*://*imgvieweriri.com^
+*://*u9xum5jlsvitcwvk5wll.org^
+*://*track.ultimate-guitar.com^
+*://*ps-btc.info^
+*://*pinion.gg^
+*://*motdgd.com^
+*://*gameserverads.com^
+*://*advertiserurl.com^
+*://*webtrekk.net^
+*://*protoonmail.com^
+*://*puhtml.com^
+*://*smart2cnjuh34jb.com^
+*://*milfmovs.com^
+*://*had.wf^
+*://*18plusstream.net^
+*://*adtr02.com^
+*://*techlab-cdn.com^
+*://*stats.openvpn.net^
 *://*vivads.net^
 *://*instant-impact.com^
 *://*pixel.wp.com^
