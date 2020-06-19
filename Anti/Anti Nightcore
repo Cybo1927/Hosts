@@ -1,8 +1,10 @@
 ! Title: Cybo's Anti Nightcore
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 youtube.com###dismissable:has-text(/nightcore/i)
 youtube.com##ytd-playlist-renderer:has-text(/nightcore/i)
 youtube.com##style-scope ytd-channel-renderer:has-text(/nightcore/i)
 youtube.com###secondary:has-text(/nightcore/i)
+youtube.com##ytd-horizontal-card-list-renderer:has-text(/nightcore/i)
+youtube.com##ytd-channel-renderer.ytd-item-section-renderer.style-scope:has-text(/nightcore/i)
