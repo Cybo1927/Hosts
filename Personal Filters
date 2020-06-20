@@ -5,7 +5,9 @@
 !#if (adguard_app_android)
 ! Unblock GCM Notifications
 @@||mtalk.google.com
-@@||alt*-mtalk.google.com
+!
+! Unblock Android updates
+@@||dl.google.com
 !
 @@||gvt1.com
 @@||android.googleapis.com
@@ -13,6 +15,10 @@
 @@||feelinsonice-mvm.l.google.com
 @@||accounts.google.com
 @@||youtube-ui.l.google.com
+@@||ssl.gstatic.com
+@@||maps.gstatic.com
+@@||googleapis.com
+@@||apis.google.com
 
 ! App specific blocking
 *:5228$network,app=com.google.android.gms
