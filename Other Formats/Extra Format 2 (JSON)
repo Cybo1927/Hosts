@@ -395,6 +395,58 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "1cloudstat.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "secureprivacy.ai" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "chewynet.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "instantlaids.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bigosext10.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "real-flirtpartner3.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tdsjsext3.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pleasurefindyouhere.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bigo-sext.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hiido.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "spankychat.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "datecums.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "discord.birth" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "advinci.uno" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -20898,10 +20950,6 @@
      "redirect" : "127.0.0.1"
      },
      "logging-vpc-*.*.elb.amazonaws.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "spiceworks.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
