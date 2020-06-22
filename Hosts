@@ -1,10 +1,10 @@
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Expires: 8 hours
-! Version: 1232-1
+! Version: 1233
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Sunday, June 21, 2020
+! Last Modified: Monday, June 22, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -520,6 +520,19 @@ https://http*
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||1cloudstat.com^
+||secureprivacy.ai^
+||chewynet.com^
+||instantlaids.com^
+||bigosext10.com^
+||real-flirtpartner3.com^
+||tdsjsext3.com^
+||pleasurefindyouhere.info^
+||bigo-sext.com^
+||hiido.com^
+||spankychat.com^
+||datecums.com^
+||discord.birth^
 ||advinci.uno^
 ||antiadblock.cz^
 ||antiadblock.com^
@@ -5649,7 +5662,6 @@ https://http*
 ||reports.ghostery.net^
 ||stats.ghostery.net^
 ||logging-vpc-*.*.elb.amazonaws.com^
-||spiceworks.com^
 ||hti.pl^
 ||homebiz2020.com^
 ||homebusinessourway.com^
@@ -11482,7 +11494,7 @@ https://http*
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #chat:has-text(Chat Replay is disabled for this Premiere.)
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
 
 ! Google
@@ -12308,6 +12320,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||smetrics.^
 ||webstats.^
 ||adproxy.^
+||mlog.^
+*/statistics/report/
+*/ad-ace/
+*/widgets-live-popup
 *-ad$image,domain=~filterlists.com
 */mpixel.js
 */facebook_pixel.
@@ -13178,6 +13194,12 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.meetfuck:style(display:none !important;)
+##.notify-optin-wrap:style(display:none !important;)
+##.js-cookie-notification:style(display:none !important;)
+##.cookie-notification:style(display:none !important;)
+##.cookie-notification__inner:style(display:none !important;)
+##.cookie-notification__text:style(display:none !important;)
 ##.solidarity_banner-wrapper:style(display:none !important;)
 ###abAlert:style(display:none !important;)
 ##.advertisement-heading:style(display:none !important;)
