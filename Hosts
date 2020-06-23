@@ -2,10 +2,10 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1233-1
+! Version: 1233-2
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Monday, June 22, 2020
+! Last Modified: Tuesday, June 23, 2020
 
 ! Unbreak
 @@||*/ads_test
@@ -58,6 +58,8 @@
 @@||sdad.guru
 pandora.com$genericblock
 youtube.com$generichide
+duckduckgo.com$generichide
+@@||accounts.google.com$document
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
