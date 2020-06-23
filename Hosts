@@ -59,6 +59,7 @@
 pandora.com$genericblock
 youtube.com$generichide
 duckduckgo.com$generichide
+duckduckgo.com#@#[class*="sponsored"]
 @@||accounts.google.com$document
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
@@ -11532,6 +11533,7 @@ youtube.com###dismissable:has-text(Featured)
 ||youtube.com/*_204
 ||googlevideo.com/*_204
 ||ytimg.com/*_204
+||google.com/cspreport
 google.*###tads, #tadsb, #taw
 
 ! Yahoo
@@ -13643,6 +13645,8 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
+##[href*="clickstoclaim.com"]
+##[href*="getyoursnow.info"]
 ##[href*="engine.eroge.com"]
 ##[href*="6i4uibyg0c82.com"]
 ##[href*="actiondesk.com"]
