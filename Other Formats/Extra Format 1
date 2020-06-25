@@ -139,7 +139,6 @@ https://http*
 ! Start domains with modifiers ($)
 ! Domain modifier
 
-*://*google.com^$domain=youtube.com
 *://*cnc.cdn.dopc.cz^$domain=~tiscali.cz
 *://*ffjjti.frl$third-party,domain=~mp3juices.cc
 *://*gotchosen.com^$domain=realclearpolitics.com
