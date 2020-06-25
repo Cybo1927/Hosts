@@ -139,6 +139,7 @@ https://http*
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+*://*google.com^$domain=youtube.com
 *://*cnc.cdn.dopc.cz^$domain=~tiscali.cz
 *://*ffjjti.frl$third-party,domain=~mp3juices.cc
 *://*gotchosen.com^$domain=realclearpolitics.com
@@ -253,6 +254,38 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*ada.support^
+*://*analytics.tiktok.com^
+*://*syntecx.org^
+*://*clickstoclaim.com^
+*://*getyoursnow.info^
+*://*1ads.com^
+*://*yougameover.com^
+*://*fail5.com^
+*://*5gtip.com^
+*://*dan665.com^
+*://*get-uphone.com^
+*://*hyperstech.com^
+*://*xdronehd.com^
+*://*get-wifi-x.com^
+*://*dronexpro.shop^
+*://*buydronexpro.net^
+*://*getskyedrone.co^
+*://*blade720-drone.com^
+*://*blade720drone.com^
+*://*blade720.pro^
+*://*blade720.org^
+*://*blade720official.com^
+*://*blade720.com^
+*://*megadeals.ltd^
+*://*megadeals.com^
+*://*megadeals.net^
+*://*megadeals.org^
+*://*mdecommerceltd.com^
+*://*techxsv.com^
+*://*support-desks.com^
+*://*novads.co^
+*://*igadget24.com^
 *://*1cloudstat.com^
 *://*secureprivacy.ai^
 *://*chewynet.com^
