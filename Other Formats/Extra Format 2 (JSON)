@@ -399,6 +399,165 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "ada.support" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "analytics.tiktok.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "syntecx.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "clickstoclaim.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "getyoursnow.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "1ads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "yougameover.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "fail5.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "5gtip.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "dan665.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "get-uphone.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "hyperstech.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "xdronehd.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "get-wifi-x.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "dronexpro.shop" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "buydronexpro.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "getskyedrone.co" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720-drone.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720drone.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720.pro" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720official.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "blade720.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "megadeals.ltd" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "megadeals.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "megadeals.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "megadeals.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "mdecommerceltd.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "techxsv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "support-desks.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "novads.co" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+
+     "igadget24.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "secureprivacy.ai" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
