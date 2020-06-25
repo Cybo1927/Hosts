@@ -2,10 +2,10 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1234-1
+! Version: 1235
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Wednesday, June 24, 2020
+! Last Modified: Thursday, June 25, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -407,6 +407,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+||google.com^$domain=youtube.com
 ||cnc.cdn.dopc.cz^$domain=~tiscali.cz
 ||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||gotchosen.com^$domain=realclearpolitics.com
@@ -521,6 +522,16 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||ada.support^
+||analytics.tiktok.com^
+||syntecx.org^
+||clickstoclaim.com^
+||getyoursnow.info^
+||1ads.com^
+||yougameover.com^
+||fail5.com^
+||5gtip.com^
+||dan665.com^
 ||1cloudstat.com^
 ||secureprivacy.ai^
 ||chewynet.com^
@@ -11482,6 +11493,29 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||bitdefenderonline.com^
 ! Fake Bitcoin "giveaway"
 ||paubit.com^
+! Scams - https://www.youtube.com/watch?v=jW9H8EbKR7w
+||get-uphone.com^
+||hyperstech.com^
+||xdronehd.com^
+||get-wifi-x.com^
+||dronexpro.shop^
+||buydronexpro.net^
+||getskyedrone.co^
+||blade720-drone.com^
+||blade720drone.com^
+||blade720.pro^
+||blade720.org^
+||blade720official.com^
+||blade720.com^
+||megadeals.ltd^
+||megadeals.com^
+||megadeals.net^
+||megadeals.org^
+||mdecommerceltd.com^
+||techxsv.com^
+||support-desks.com^
+||novads.co^
+||igadget24.com^
 ! IPs
 ||46.148.18.250^
 ||80.211.148.176^
@@ -11495,7 +11529,10 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, #chat:has-text(Chat Replay is disabled for this Premiere.)
+||youtube.com/youtubei/v1/feedback?
+||youtube.com/ptracking
+m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
 
 ! Google
@@ -11531,6 +11568,8 @@ youtube.com###dismissable:has-text(Featured)
 ||googlevideo.com/*_204
 ||ytimg.com/*_204
 ||google.com/cspreport
+||google.com/*/lvz?
+google.*###main > div:has-text(Ad)
 google.*###tads, #tadsb, #taw
 
 ! Yahoo
@@ -11791,6 +11830,8 @@ reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2)
 celeb.gate.cc##[href*="goo.gl"]
 dl-android.com##[href*="/apps/azio-player[dlandroid.com].apk"]
 metrolyrics.com##.related-container, .driver-related
+||*cloudfront.net/p.js
+||api.parler.com/*/promotionNetwork/promoter
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12320,6 +12361,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+/*AdobeAnalytics.min.js?
+*/beacon.min.js?
+*/ad.min.js?v=20*-*
 */statistics/report/
 */ad-ace/
 */widgets-live-popup
@@ -13193,6 +13237,8 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.ad-interrupting:style(display:none !important;)
+##.ad-showing:style(display:none !important;)
 ##.meetfuck:style(display:none !important;)
 ##.notify-optin-wrap:style(display:none !important;)
 ##.js-cookie-notification:style(display:none !important;)
