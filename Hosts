@@ -2,10 +2,10 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1236
+! Version: 1237
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Thursday, June 25, 2020
+! Last Modified: Friday, June 26, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -59,8 +59,8 @@
 @@||pandora.com$genericblock
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
-duckduckgo.com#@#[class*="sponsored"]
 @@||accounts.google.com$document
+@@||trafficmanager.net^$cname
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
@@ -418,6 +418,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||arkoselabs.com^$third-party
 ||warumbistdusoarm.space^$popup,popunder
 ||quadrapp.net^$third-party
 ||hawk.so^$third-party
@@ -521,6 +522,33 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||lms.roblox.com^
+||ecsv2.roblox.com^
+||gixioanalytics.com^
+||yext-pixel.com^
+||click.e.ea.com^
+||stats.unity3d.com^
+||adserver.tactilews.com^
+||wp.gl^
+||wup.*.qq.com^
+||logger.dailymotion.com^
+||leadinfo.net^
+||leadinfo-website.s3-eu-west-1.amazonaws.com^
+||ipccdn.co.uk^
+||ipinfo.io^
+||iprom.net^
+||iprom.com^
+||iprom.eu^
+||iprom.si^
+||ipromcloud.com^
+||ist-track.com^
+||jpgtrk.com^
+||godatafeed.com^
+||gfe.nvidia.com^
+||dlqm.net^
+||edgescape.abc.net.au^
+||geoip-js.com^
+||maxmind.com^
 ||ada.support^
 ||analytics.tiktok.com^
 ||syntecx.org^
@@ -4559,7 +4587,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||dfltweb1.onamae.com^
 ||dm3p.wns.notify.windows.com.akadns.net^
 ||dwin1.com^
-||dealer.spotify.com^
 ||dap.digitalgov.gov^
 ||d.href.asia^
 ||display.qc.coccoc.com^
@@ -6193,7 +6220,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||ksn-crypto-info-geo.kas-labs.com^
 ||ksn-cinfo-geo.kas-labs.com^
 ||ksn-crypto-whocalls-geo.kaspersky-labs.com^
-||zendesk.com^
 ||keepmydevicesafe.com^
 ||keapeiros.xyz^
 ||killsironmentord.com^
@@ -6784,7 +6810,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||kekuko.com^
 ||kelanajayarotaryclub.com^
 ||kelberdesigner.com^
-||kelbud.pl^
 ||kelderman-evers.nl^
 ||kelhk.com^
 ||kelinac.com^
@@ -11531,8 +11556,9 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||youtube.com/youtubei/v1/feedback?
 ||youtube.com/ptracking
 m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #chat:has-text(Chat Replay is disabled for this Premiere.)
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
+youtube.com##li > .clearfix.branded-page-box.shelf-item.compact-shelf.yt-section-hover-container.browse-list-item-container.feed-item-container:has-text(/Featured/i)
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -11774,6 +11800,7 @@ appcenter.ms###msccBanner
 modapkdown.com##.fot-fixd
 happymoddownload.com##.fot-fixd
 ||duckduckgo.com/t/
+duckduckgo.com##.sponsored
 realclearpolitics.com##.RC-AD, .RC-AD-SHOW-NOW, .RC-AD-BOX-TOP, #oraPlayer, .gcwp-carousel, .js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
 android.com##.cookie-banner--show.cookie-banner
 maps.me##.cookies-policy_fixed.cookies-policy_show.cookies-policy
@@ -11831,6 +11858,12 @@ dl-android.com##[href*="/apps/azio-player[dlandroid.com].apk"]
 metrolyrics.com##.related-container, .driver-related
 ||*cloudfront.net/p.js
 ||api.parler.com/*/promotionNetwork/promoter
+abc.net.au##[class*="OneN"]
+roblox.com##[src*="roblox.com/user-sponsorship/"]
+arkoselabs.com###cookiecontentbox
+portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-header.td-header-row.td-container-header
+||roblox.com/game/report-event
+||roblox.com/user-sponsorship/
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12360,6 +12393,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/*1px.gif
+*pageHeartbeat*$image
+*?collectionId=
 /*AdobeAnalytics.min.js?
 */beacon.min.js?
 */ad.min.js?v=20*-*
@@ -13236,6 +13272,11 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.active.email-opt-in-overlay:style(display:none !important;)
+##.active.custom-modal-bg:style(display:none !important;)
+##.cc-cookies:style(display:none !important;)
+##.fun-adsense:style(display:none !important;)
+##.fun-affiliate-info:style(display:none !important;)
 ##.ad-interrupting:style(display:none !important;)
 ##.ad-showing:style(display:none !important;)
 ##.meetfuck:style(display:none !important;)
@@ -13600,6 +13641,8 @@ _statsonlineinfo
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
+##[id*="ad-absolute"]
+##[class*="ad-absolute"]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
 ##[id*="gdpr"]
