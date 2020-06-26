@@ -395,6 +395,114 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "lms.roblox.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ecsv2.roblox.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gixioanalytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "yext-pixel.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "click.e.ea.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "stats.unity3d.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adserver.tactilews.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "wp.gl" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "wup.*.qq.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "logger.dailymotion.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "leadinfo.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "leadinfo-website.s3-eu-west-1.amazonaws.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipccdn.co.uk" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipinfo.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "iprom.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "iprom.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "iprom.eu" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "iprom.si" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipromcloud.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ist-track.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "jpgtrk.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "godatafeed.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gfe.nvidia.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dlqm.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "edgescape.abc.net.au" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "geoip-js.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "maxmind.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "1cloudstat.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -16652,10 +16760,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "dealer.spotify.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "dap.digitalgov.gov" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -23189,10 +23293,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "zendesk.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "keepmydevicesafe.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -25550,10 +25650,6 @@
      "redirect" : "127.0.0.1"
      },
      "kelberdesigner.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "kelbud.pl" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
