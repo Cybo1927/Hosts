@@ -150,6 +150,7 @@ https://http*
 *://*google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+*://*arkoselabs.com^$third-party
 *://*warumbistdusoarm.space^$popup,popunder
 *://*quadrapp.net^$third-party
 *://*hawk.so^$third-party
@@ -253,6 +254,33 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*lms.roblox.com^
+*://*ecsv2.roblox.com^
+*://*gixioanalytics.com^
+*://*yext-pixel.com^
+*://*click.e.ea.com^
+*://*stats.unity3d.com^
+*://*adserver.tactilews.com^
+*://*wp.gl^
+*://*wup.*.qq.com^
+*://*logger.dailymotion.com^
+*://*leadinfo.net^
+*://*leadinfo-website.s3-eu-west-1.amazonaws.com^
+*://*ipccdn.co.uk^
+*://*ipinfo.io^
+*://*iprom.net^
+*://*iprom.com^
+*://*iprom.eu^
+*://*iprom.si^
+*://*ipromcloud.com^
+*://*ist-track.com^
+*://*jpgtrk.com^
+*://*godatafeed.com^
+*://*gfe.nvidia.com^
+*://*dlqm.net^
+*://*edgescape.abc.net.au^
+*://*geoip-js.com^
+*://*maxmind.com^
 *://*ada.support^
 *://*analytics.tiktok.com^
 *://*syntecx.org^
@@ -4313,7 +4341,6 @@ https://http*
 *://*dfltweb1.onamae.com^
 *://*dm3p.wns.notify.windows.com.akadns.net^
 *://*dwin1.com^
-*://*dealer.spotify.com^
 *://*dap.digitalgov.gov^
 *://*d.href.asia^
 *://*display.qc.coccoc.com^
@@ -5948,7 +5975,6 @@ https://http*
 *://*ksn-crypto-info-geo.kas-labs.com^
 *://*ksn-cinfo-geo.kas-labs.com^
 *://*ksn-crypto-whocalls-geo.kaspersky-labs.com^
-*://*zendesk.com^
 *://*keepmydevicesafe.com^
 *://*keapeiros.xyz^
 *://*killsironmentord.com^
@@ -6539,7 +6565,6 @@ https://http*
 *://*kekuko.com^
 *://*kelanajayarotaryclub.com^
 *://*kelberdesigner.com^
-*://*kelbud.pl^
 *://*kelderman-evers.nl^
 *://*kelhk.com^
 *://*kelinac.com^
