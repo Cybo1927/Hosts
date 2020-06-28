@@ -2,10 +2,10 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1239
+! Version: 1240
 ! Version hyphen (-) means very small update
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
-! Last Modified: Saturday, June 27, 2020
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
+! Last Modified: Sunday, June 28, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -112,8 +112,10 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /\/[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{4,4}[a-z]{2,2}[0-9]{1,1}\.(js)$/$all
 ! Some canvas tracking
 /.{0,}(canvas)[!"#$%&'()*+.,:;<=>?@\^_`{|}~-](ping|usage|track|tracking)[!"#$%&'()*+.,:;<=>?@\^_`{|}~-]?.+/$all
+! 's-ref' CDN's
+/^http(s)?:\/\/(cdn)[0-9]{1,2}(s-ref)\..{0,}(cdn)\..+/
 ! Common tracking domains (domains like chanalytics.example.com or stats.example.com)
-/^http(s)?:\/\/(chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter)\..+\..+$/$all
+/^http(s)?:\/\/(chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica)\..+\..+$/$all
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -11552,6 +11554,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||youtube.com/youtubei/*/log_event
 ||youtube.com/youtubei/v1/feedback?
 ||youtube.com/ptracking
+||youtube.com/imgbin/www-hitchhiker.webp
 m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
 youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
@@ -12390,6 +12393,17 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/js/resolution_deletion.js
+*/impressions/log
+*/*_*Preload.js
+*/webbug.
+*/webbug_
+*/webbug/
+*/weblog
+*/googleanalyt
+*/new-hit/?
+*/Etrack/
+*&ad.trans.id=*
 */*1px.gif
 *pageHeartbeat*$image
 *?collectionId=
@@ -13182,7 +13196,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */*_advertising_*.swf
 */cookiebar-latest.js
 */advagg_js/
-*/advagg_css/
 */gscounters.sendReport?
 */arscode-ninja-popups/
 */personalization?client_id=
@@ -13636,8 +13649,11 @@ _statsonlineinfo
 *#?#h4:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
+*#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
+##[id*="-header-ad"]
+##[class*="-header-ad"]
 ##[id*="ad-absolute"]
 ##[class*="ad-absolute"]
 ##[id^="bestgoogleadsense-"]
