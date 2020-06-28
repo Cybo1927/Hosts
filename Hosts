@@ -2,7 +2,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1238
+! Version: 1239
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 12.9K
 ! Last Modified: Saturday, June 27, 2020
@@ -177,14 +177,9 @@ platform.everfi.net*##+js(ra, disabled)
 ! uBlock Origin extra +js
 pandora.com##+js(addEventListener-defuser.js, /hashchange/)
 crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
-*##+js(window.name-defuser)
 ! mousemove event listener tends to only be used for tracking/heatmaps
 ! pagehide,pageshow,onpagehide,onpageshow, and focus allow sites to see if you're in a different tab or not
 ! contextmenu seem to only be used to block you from using right-click
-*##+js(addEventListener-defuser.js, /mousemove|pagehide|pageshow|onpagehide|onpageshow|focus|contextmenu/)$domain=~youtube.com
-! Popups
-*##+js(aopr, TotemToolsObject)
-*##+js(aopr, _TotemTools)
 ! No BlockAdBlock
 arenavision.in##+js(nobab)
 
