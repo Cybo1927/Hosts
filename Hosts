@@ -2,7 +2,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1240
+! Version: 1240-1
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Sunday, June 28, 2020
@@ -94,8 +94,6 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /\/collect(ion|or)?\/v[0-9]{1,2}/$script
 ! Some Czech Advertisements
 /\/[a-zA-Z0-9].{133,}/$domain=blesk.cz|zive.cz|osobnosti.cz
-! Block Insecure Popups From Domains 25 or More Characters in Length
-/^http:\/\/.+[a-zA-Z0-9]{25,}.+/$popup
 ! Possibly related to government spyware
 /(auth)[0-9]{2,3}\.(dns|ns|roc)\..+/$all
 ! Just extra tracking crap
