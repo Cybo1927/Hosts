@@ -1,0 +1,5 @@
+$removeparam=param
+
+*$removeparam=param
+
+example.com$removeparam=param|param2
