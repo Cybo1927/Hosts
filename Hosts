@@ -2,7 +2,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1241
+! Version: 1242
 ! Version hyphen (-) means very small update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Monday, June 29, 2020
@@ -415,6 +415,10 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||rmrm.io^$third-party
+||poppcheck.de^$third-party
+||wazazu.com^$third-party
+||pp.d2-apps.net^$third-party
 ||arkoselabs.com^$third-party
 ||warumbistdusoarm.space^$popup,popunder
 ||quadrapp.net^$third-party
@@ -519,6 +523,66 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||weserv.nl^
+||browsers.support^
+||bruceleadx*.com^
+||partnercash.de^
+||popupclick.ru^
+||webwizard.ru^
+||popxxx.net^
+||hrtyk.com^
+||pornleep.com^
+||chainalytics.com^
+||chanalytics.io^
+||chanalytics.me^
+||ipedchannelytics.com^
+||clicker.com^
+||goadv.com^
+||dealer.com^
+||fly-analytics.com^
+||d1272serve.xyz^
+||mylocalcrush.com^
+||gethugetoday.com^
+||searchflings.com^
+||easy-sexxx.com^
+||thepornstarsecret.com^
+||jerknsquirt.com^
+||easysexnearyou.com.s3-website-us-west-1.amazonaws.com^
+||landing.jerkmate.com^
+||althroc.com^
+||nablons.com^
+||grapeshot.co.uk^
+||http-check-headers.yandex.*^
+||googleadsserving.*^
+||iad.sdk.apple.com^
+||gb.lgrecommends.lgappstv.com^
+||gb.lgtvsdp.com^
+||gb.rdx2.lgtvsdp.com^
+||secure-geolocation.premiumtv.co.uk^
+||telemetry.swe.quicinc.com^
+||logfiles-va-*.zoom.us^
+||5yw028ngxe9x.com^
+||adxnexus.com^
+||prosperidadeplena.online^
+||pwz2.com^
+||popmonetizer.net^
+||revrtb.net^
+||zlink2.com^
+||digitalflare.io^
+||loadnewest-theoverlyfile.best^
+||securecloud-smrt.com^
+||nta1vb6cdlrl.com^
+||allsoftwaressolutions.com^
+||abdurantom.com^
+||pb5oqguywycj.com^
+||convtrak.com^
+||topgamescentre.com^
+||chatteron.io^
+||leena.ai^
+||n161adserv.com^
+||cpa.legalaxy.com^
+||geover.prod.do.dsp.mp.microsoft.com^
+||geo.prod.do.dsp.mp.microsoft.com^
 ||lms.roblox.com^
 ||ecsv2.roblox.com^
 ||gixioanalytics.com^
@@ -7219,7 +7283,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||mytvline.ch^
 ||matomo.riot.im^
 ||msftncsi.com^
-||mem.gfx.ms^
 ||msftncsi.com^
 ||myoffrz.io^
 ||mobile-exp.vzw.com^
@@ -11553,6 +11616,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||youtube.com/youtubei/v1/feedback?
 ||youtube.com/ptracking
 ||youtube.com/imgbin/www-hitchhiker.webp
+||youtube.com/yts/jsbin/www-prepopulator-*$script
 m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
 youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
@@ -11862,6 +11926,11 @@ arkoselabs.com###cookiecontentbox
 portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-header.td-header-row.td-container-header
 ||roblox.com/game/report-event
 ||roblox.com/user-sponsorship/
+||discordapp.com/api/v*/activities
+||discordapp.com/api/v*/science
+||spclient.wg.spotify.com/presence-view/v1/buddylist
+||spclient.wg.spotify.com/ad-logic/
+||mcloud.to/log/
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -11870,6 +11939,8 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 @@||sourceforge.net$generichide,genericblock
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
+@@||googlevideo.com^$stealth
+@@||chrome.google.com^$stealth
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
@@ -12261,11 +12332,14 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ! App Specific
 *$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row|photo.manager.private.photogallery|photography.backgallery.android|photography.blackgallery.android
 !
+@@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
+@@||steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/*_full.jpg$app=steam.exe,important
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
 ||firebaseio.com$app=com.fourchars.privary
 ||appx.transient.amazon.com$app=com.android.mShop.android.shopping
+74.117.181.67$network,app=chrome.exe
 198.211.120.59$network,app=com.nutomic.syncthingandroid
 firebaseremoteconfig.googleapis.com^$app=com.hecorat.screenrecorder.free
 35.241.26.53$network,app=com.creativegap.lastdefender
@@ -12394,6 +12468,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/vclick?c=
 */js/resolution_deletion.js
 */impressions/log
 */*_*Preload.js
