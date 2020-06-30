@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1244
+! Version: 1245
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Tuesday, June 30, 2020
 
@@ -60,7 +60,6 @@
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
 @@||accounts.google.com$document
-@@||trafficmanager.net^$cname
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
@@ -9676,7 +9675,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||toponclick.com^
 ||terraclicks.com^
 ||time.microsoft.akadns.net^
-||trafficmanager.net^
+!||trafficmanager.net^ - Breaks content on web pages if filtered using cname
 ||trialfire.com^
 ||tse1.mm.bing.net^
 ||thikraik.net^
