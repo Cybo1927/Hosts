@@ -2,8 +2,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1242
-! Version hyphen (-) means very small update
+! Version: 1243
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Monday, June 29, 2020
 
@@ -83,7 +82,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Screen resolution tracker
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
 ! Platform Tracker
-/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net,important
+/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org,important
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! General advert blocker
@@ -11931,6 +11930,7 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ||spclient.wg.spotify.com/presence-view/v1/buddylist
 ||spclient.wg.spotify.com/ad-logic/
 ||mcloud.to/log/
+||mozilla.org/set_hsts.gif
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
