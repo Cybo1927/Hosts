@@ -395,6 +395,246 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "weserv.nl" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "browsers.support" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bruceleadx*.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "partnercash.de" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popupclick.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "webwizard.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popxxx.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hrtyk.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pornleep.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "chainalytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "chanalytics.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "chanalytics.me" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipedchannelytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clicker.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "goadv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dealer.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "fly-analytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "d1272serve.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mylocalcrush.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gethugetoday.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "searchflings.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "easy-sexxx.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "thepornstarsecret.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "jerknsquirt.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "easysexnearyou.com.s3-website-us-west-1.amazonaws.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "landing.jerkmate.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "althroc.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nablons.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "grapeshot.co.uk" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "http-check-headers.yandex.*" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "googleadsserving.*" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "iad.sdk.apple.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gb.lgrecommends.lgappstv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gb.lgtvsdp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gb.rdx2.lgtvsdp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "secure-geolocation.premiumtv.co.uk" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "telemetry.swe.quicinc.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "logfiles-va-*.zoom.us" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "5yw028ngxe9x.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adxnexus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "prosperidadeplena.online" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pwz2.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popmonetizer.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "revrtb.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "zlink2.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "digitalflare.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "loadnewest-theoverlyfile.best" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "securecloud-smrt.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nta1vb6cdlrl.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "allsoftwaressolutions.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "abdurantom.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pb5oqguywycj.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "convtrak.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "topgamescentre.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "chatteron.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "leena.ai" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "n161adserv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cpa.legalaxy.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "geover.prod.do.dsp.mp.microsoft.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "geo.prod.do.dsp.mp.microsoft.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "lms.roblox.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
