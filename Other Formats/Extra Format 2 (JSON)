@@ -37120,10 +37120,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "trafficmanager.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "trialfire.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
