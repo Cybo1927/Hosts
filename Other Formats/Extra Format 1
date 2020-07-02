@@ -150,6 +150,9 @@ https://http*
 *://*google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||add0n.com/feedback.html$popup,popunder
+||add0n.com/*.html?*&type=install$popup,popunder
+||adblockplus.org/en/uninstalled$popup,popunder
 *://*rmrm.io^$third-party
 *://*poppcheck.de^$third-party
 *://*wazazu.com^$third-party
@@ -160,7 +163,6 @@ https://http*
 *://*hawk.so^$third-party
 *://*trafficbass.com^$third-party
 *://*adtidy.org^$third-party
-*://*local.adguard.org^$third-party
 *://*ipaddress.com^$third-party
 *://*gu-st.ru^$third-party
 *://*iconjob.co^$third-party
@@ -258,6 +260,34 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*landing.freecams.com^
+*://*vfthr.com^
+*://*loadrecent-theoverlyfile.best^
+*://*w-updater.icu^
+*://*8ozhygzz5eke.com^
+*://*u2htfd3bvwvl.com^
+*://*w7zglmcdreij.com^
+*://*searchconverterz.com^
+*://*onlinemediahits.com^
+*://*playful-fairies.com^
+*://*offers.hooligapps.com^
+*://*btserve.com^
+*://*eloqua.com^
+*://*customeriomail.com^
+*://*salesforceiq.com^
+*://*cmail1.com^
+*://*prosperworks.com^
+*://*copper.com^
+*://*icptrack.com^
+*://*intercom-mail-100.com^
+*://*mandrillapp.com^
+*://*frontapp.com^
+*://*exct.net^
+*://*litmus.com^
+*://*litmuscdn.com^
+*://*trackedlink.net^
+*://*dotmailer.com^
+*://*mailer.dzone.com^
 *://*weserv.nl^
 *://*browsers.support^
 *://*bruceleadx*.com^
@@ -9768,7 +9798,6 @@ https://http*
 *://*uimserv.net^
 *://*ubembed.com^
 *://*usabilla.com^
-*://*useragentstring.com^
 *://*ultradns.org^
 *://*upandup.agency^
 *://*userreport.com^
