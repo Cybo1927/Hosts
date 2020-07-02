@@ -395,6 +395,118 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "landing.freecams.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "vfthr.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "loadrecent-theoverlyfile.best" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "w-updater.icu" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "8ozhygzz5eke.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "u2htfd3bvwvl.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "w7zglmcdreij.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "searchconverterz.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "onlinemediahits.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "playful-fairies.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "offers.hooligapps.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "btserve.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "eloqua.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "customeriomail.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "salesforceiq.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cmail1.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "prosperworks.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "copper.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "icptrack.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "intercom-mail-100.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mandrillapp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "frontapp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "exct.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "litmus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "litmuscdn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "trackedlink.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dotmailer.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mailer.dzone.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "weserv.nl" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -38437,10 +38549,6 @@
      "redirect" : "127.0.0.1"
      },
      "usabilla.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "useragentstring.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
