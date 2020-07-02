@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1245
+! Version: 1246
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Tuesday, June 30, 2020
+! Last Modified: Thursday, July 2, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -60,6 +60,8 @@
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
 @@||accounts.google.com$document
+google.com#@#^script:has-text(navigator.sendBeacon)
+google.com#@#^script:has-text(window.ga)
 pandora.com#@#[class$="Ads"]:not(html):not(body)
 foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
@@ -82,7 +84,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Screen resolution tracker
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
 ! Platform Tracker
-/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org,important
+/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org|~github.com|~gitlab.com,important
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! General advert blocker
@@ -410,6 +412,9 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||add0n.com/feedback.html$popup,popunder
+||add0n.com/*.html?*&type=install$popup,popunder
+||adblockplus.org/en/uninstalled$popup,popunder
 ||rmrm.io^$third-party
 ||poppcheck.de^$third-party
 ||wazazu.com^$third-party
@@ -420,7 +425,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||hawk.so^$third-party
 ||trafficbass.com^$third-party
 ||adtidy.org^$third-party
-||local.adguard.org^$third-party
 ||ipaddress.com^$third-party
 ||gu-st.ru^$third-party
 ||iconjob.co^$third-party
@@ -518,6 +522,34 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||landing.freecams.com^
+||vfthr.com^
+||loadrecent-theoverlyfile.best^
+||w-updater.icu^
+||8ozhygzz5eke.com^
+||u2htfd3bvwvl.com^
+||w7zglmcdreij.com^
+||searchconverterz.com^
+||onlinemediahits.com^
+||playful-fairies.com^
+||offers.hooligapps.com^
+||btserve.com^
+||eloqua.com^
+||customeriomail.com^
+||salesforceiq.com^
+||cmail1.com^
+||prosperworks.com^
+||copper.com^
+||icptrack.com^
+||intercom-mail-100.com^
+||mandrillapp.com^
+||frontapp.com^
+||exct.net^
+||litmus.com^
+||litmuscdn.com^
+||trackedlink.net^
+||dotmailer.com^
+||mailer.dzone.com^
 ||weserv.nl^
 ||browsers.support^
 ||bruceleadx*.com^
@@ -10006,7 +10038,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||uimserv.net^
 ||ubembed.com^
 ||usabilla.com^
-||useragentstring.com^
 ||ultradns.org^
 ||upandup.agency^
 ||userreport.com^
@@ -11927,6 +11958,7 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ||spclient.wg.spotify.com/ad-logic/
 ||mcloud.to/log/
 ||mozilla.org/set_hsts.gif
+||tradecraft.s.llnwi.net/v*/pub/
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -11942,10 +11974,6 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
-
-! AdGuard Only - Try And Resist Some Fingerprinting
-! Try to resist extra Google tracking - domains after 'googleapis.com' found in https://filters.adtidy.org/extension/chromium/filters/2.txt
-youtube.com,android.com,blogger.com,blogspot.com,withgoogle.com,googlesource.com,gstatic.com,ytimg.com,g.co,googleblog.com,googleusercontent.com,googledrive.com,googlezip.net,googlevideo.com,ggpht.com,firebase.io,googlehosted.com,blogblog.com,gvt1.com,gvt2.com,gmail.com,appspot.com,googleapis.com,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws#%#navigator.plugins = undefined; navigator.plugins.length = undefined; navigator.mimeTypes = undefined; navigator.mimeTypes.length = undefined; navigator.platform = undefined; a.navigator.platform = undefined;
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
 buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
@@ -12341,6 +12369,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 74.117.181.67$network,app=chrome.exe
 192.168.254.67$network,app=chrome.exe
 213.87.44.182$network,app=chrome.exe
+23.67.243.219$network,app=firefox.exe
 198.211.120.59$network,app=com.nutomic.syncthingandroid
 firebaseremoteconfig.googleapis.com^$app=com.hecorat.screenrecorder.free
 35.241.26.53$network,app=com.creativegap.lastdefender
@@ -12469,6 +12498,12 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/browser_check.js
+*/elog?
+*/track.php?domain=
+*/taz-pixel
+*/emailOpened
+*/smtp.mailopen
 */vclick?c=
 */js/resolution_deletion.js
 */impressions/log
@@ -13359,6 +13394,7 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.adfooter:style(display:none !important;)
 ##.active.email-opt-in-overlay:style(display:none !important;)
 ##.active.custom-modal-bg:style(display:none !important;)
 ##.cc-cookies:style(display:none !important;)
@@ -13729,6 +13765,8 @@ _statsonlineinfo
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
+##[id*="syndication-ad"]
+##[class*="syndication-ad"]
 ##[id*="-header-ad"]
 ##[class*="-header-ad"]
 ##[id*="ad-absolute"]
@@ -13817,6 +13855,7 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
+##[href*="is.gd"]
 ##[href*="clickstoclaim.com"]
 ##[href*="getyoursnow.info"]
 ##[href*="engine.eroge.com"]
