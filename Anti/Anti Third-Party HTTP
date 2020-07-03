@@ -1,8 +1,13 @@
 ! Title: Cybo's Anti Third Party HTTP
 ! Expires: 8 days
-! Version: 2
+! Version: 3
 
 http://*^$third-party,all
+
+! Inspired by https://github.com/InnoScorpio/Special-Hosts/blob/master/HTTP_Insecure/Upgrade/Adguard/HTTPS_Empty.txt
+!#if (adguard && !ext_ublock)
+http://*^$third-party,empty,important
+!#endif
 
 ! Try To Make HTTP Links HTTPS (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests)
 ||*$csp='upgrade-insecure-requests';
