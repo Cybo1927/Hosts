@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1246
+! Version: 1247
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Thursday, July 2, 2020
 
@@ -60,6 +60,8 @@
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
 @@||accounts.google.com$document
+@@||mediaite.com^$elemhide
+mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
 google.com#@#^script:has-text(window.ga)
 pandora.com#@#[class$="Ads"]:not(html):not(body)
@@ -119,7 +121,6 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
-||disqus.com/count.js$script
 @@||disqus.com/embed.js?_=1457540*$script
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
@@ -11959,6 +11960,8 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ||mcloud.to/log/
 ||mozilla.org/set_hsts.gif
 ||tradecraft.s.llnwi.net/v*/pub/
+||disqus.com/count$script
+||disqus.com/*/count$script
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
