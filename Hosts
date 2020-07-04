@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1247
+! Version: 1248
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Thursday, July 2, 2020
+! Last Modified: Saturday, July 4, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -187,6 +187,8 @@ arenavision.in##+js(nobab)
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
+*##^script:has-text((clickInfo).track)
+*##^script:has-text(TiaraTracker.getInstance())
 *##^script:has-text(navigator.sendBeacon)
 *##^script:has-text(adTextLink)
 *##^script:has-text(pixelUrl)
@@ -196,7 +198,6 @@ arenavision.in##+js(nobab)
 *##^script:has-text(eulerian_)
 *##^script:has-text(GoogleAnalyticsObject)
 *##^script:has-text(adsbygoogle)
-*##^script:has-text(googletag)
 *##^script:has-text(gtag)
 *##^script:has-text(sendAnalytic)
 *##^script:has-text(tag.min.js)
@@ -209,8 +210,6 @@ arenavision.in##+js(nobab)
 *##^script:has-text(ClickTracking)
 *##^script:has-text(!advr.)
 *##^script:has-text(advr.ua)
-*##^script:has-text(googletag)
-*##^script:has-text(pubads)
 *##^script:has-text(iframeTracker)
 *##^script:has-text(trackLinks)
 *##^script:has-text(TRAFF_TARGETS)
@@ -233,7 +232,6 @@ arenavision.in##+js(nobab)
 *##^script:has-text(comscore:!)
 *##^script:has-text(trackerCountry)
 *##^script:has-text(useTraking)
-*##^script:has-text(trackPage)
 *##^script:has-text(lastPageName)
 *##^script:has-text(pageUrl)
 *##^script:has-text(clickPixels)
@@ -523,6 +521,13 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||soggysponge.com^
+||tibacta.com^
+||analyticsq.com^
+||bntech.io^
+||bldrdoc.gov^
+||adproxy.ndmdhs.com^
+||hostedprebid.com^
 ||landing.freecams.com^
 ||vfthr.com^
 ||loadrecent-theoverlyfile.best^
@@ -4387,7 +4392,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||collector.abc-host.net.au^
 ||csgocpu.com^
 ||goldssearch.com^
-||cbsistatic.com^
 ||clicktale.com^
 ||compete.com^
 ||count.ly^
@@ -5035,7 +5039,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||extensionsnewtab.com^
 ||exmarketplace.com^
 ||evi.com^
-||spiceworksstatic.com^
 ||emvm-gh1-uea*.nsa.gov^
 ||etracker.com^
 ||ebs*.telekom.de^
@@ -11645,9 +11648,10 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||youtube.com/imgbin/www-hitchhiker.webp
 ||youtube.com/yts/jsbin/www-prepopulator-*$script
 m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #chat:has-text(Chat Replay is disabled for this Premiere.)
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, #offer-module > .ytd-watch-next-secondary-results-renderer.style-scope, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #player-ads, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
 youtube.com##li > .clearfix.branded-page-box.shelf-item.compact-shelf.yt-section-hover-container.browse-list-item-container.feed-item-container:has-text(/Featured/i)
+youtube.com##[class*="-promo-"]
 
 ! Google
 ||chrome.google.com/webstore/ajax/logreferrerchain
@@ -11962,6 +11966,8 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ||tradecraft.s.llnwi.net/v*/pub/
 ||disqus.com/count$script
 ||disqus.com/*/count$script
+urbandictionary.com##div[data-lazy-ad="false"]
+medicalnewstoday.com##aside[class*="css-"]
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -11977,6 +11983,7 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
+||tibacta.com^$empty,important
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
 buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
@@ -12501,6 +12508,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/youtube/video_ads/
+*/tiaraTracker
 */browser_check.js
 */elog?
 */track.php?domain=
@@ -13397,6 +13406,9 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.right-mid-ad:style(display:none !important;)
+##.new_ad_wrapper_all:style(display:none !important;)
+##.related_quiz_right_ad:style(display:none !important;)
 ##.adfooter:style(display:none !important;)
 ##.active.email-opt-in-overlay:style(display:none !important;)
 ##.active.custom-modal-bg:style(display:none !important;)
@@ -13766,8 +13778,12 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
+##div[data-ad="true"]
+##div[data-empty="true"]
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
+##[id*="swoopAd"]
+##[class*="swoopAd"]
 ##[id*="syndication-ad"]
 ##[class*="syndication-ad"]
 ##[id*="-header-ad"]
