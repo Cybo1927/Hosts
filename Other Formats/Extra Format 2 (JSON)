@@ -395,6 +395,34 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "soggysponge.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tibacta.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "analyticsq.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bntech.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bldrdoc.gov" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adproxy.ndmdhs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hostedprebid.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "landing.freecams.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -15956,10 +15984,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "cbsistatic.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "clicktale.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -18545,10 +18569,6 @@
      "redirect" : "127.0.0.1"
      },
      "evi.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "spiceworksstatic.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
