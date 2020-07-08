@@ -139,6 +139,7 @@ https://http*
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+*://*atl-paas.net^$third-party,domain=~atlassian.com
 *://*cnc.cdn.dopc.cz^$domain=~tiscali.cz
 *://*ffjjti.frl$third-party,domain=~mp3juices.cc
 *://*gotchosen.com^$domain=realclearpolitics.com
@@ -153,6 +154,8 @@ https://http*
 *://*add0n.com/feedback.html$popup,popunder
 *://*add0n.com/*.html?*&type=install$popup,popunder
 *://*adblockplus.org/en/uninstalled$popup,popunder
+*://*yoast.com^$third-party
+*://*realsrv.com^$popup,popunder
 *://*rmrm.io^$third-party
 *://*poppcheck.de^$third-party
 *://*wazazu.com^$third-party
@@ -260,6 +263,62 @@ https://http*
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*blogherads.com^
+*://*omappapi.com^
+*://*htlbid.com^
+*://*meatydime.com^
+*://*b-m.xyz^
+*://*flyersquare.com^
+*://*cliquesteria.net^
+*://*contact-client.com^
+*://*agentology.com^
+*://*verse.io^
+*://*areyouontraq.com^
+*://*ato.mx^
+*://*integralplatform.com^
+*://*adsense.su^
+*://*static-doubleclick-net.l.google.com^
+*://*doubleclickindustries.com^
+*://*testcnx.com^
+*://*buriatelyn.club^
+*://*wpush.org^
+*://*ndreammin.space^
+*://*pacitiesbo.info^
+*://*pushsales.space^
+*://*abnormaticn.club^
+*://*buriatelyn.club^
+*://*click.hooligapps.com^
+*://*secondstreetapp.com^
+*://*popupmaker.com^
+*://*assets-cdk.com^
+*://*partnerlink.ru^
+*://*livetroik.xyz^
+*://*ocry.net^
+*://*snapmeet.net^
+*://*snapmeet.xyz^
+*://*localhookup50.com^
+*://*absorblms.com^
+*://*ads.zoo.*^
+*://*boostcpm.su^
+*://*insights.alibaba.com^
+*://*efuse.atlassian.net^
+*://*mellowads.com^
+*://*trackints.com^
+*://*69-cash.com^
+*://*69cash.com^
+*://*69cash-mobile.com^
+*://*69cashmobile.com^
+*://*69-cash.net^
+*://*69cash.net^
+*://*optomaton.com^
+*://*altbeacon.org^
+*://*berush.com^
+*://*postclickmarketing.com^
+*://*neatab.com^
+*://*pixlgif.com^
+*://*agentanalytics.com^
+*://*imganalytics.com^
+*://*webtools.media^
 *://*soggysponge.com^
 *://*tibacta.com^
 *://*analyticsq.com^
