@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1248
+! Version: 1249
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Saturday, July 4, 2020
+! Last Modified: Wednesday, July 8, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -61,6 +61,7 @@
 @@||duckduckgo.com$generichide
 @@||accounts.google.com$document
 @@||mediaite.com^$elemhide
+@@||zdnet.com^$generichide
 mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
 google.com#@#^script:has-text(window.ga)
@@ -115,8 +116,10 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /.{0,}(canvas)[!"#$%&'()*+.,:;<=>?@\^_`{|}~-](ping|usage|track|tracking)[!"#$%&'()*+.,:;<=>?@\^_`{|}~-]?.+/$all
 ! 's-ref' CDN's
 /^http(s)?:\/\/(cdn)[0-9]{1,2}(s-ref)\..{0,}(cdn)\..+/
+! Popup redirects
+/.+\.(space|buzz|rest|top|wang|tk|gq|london|ryukyu|cf|ml|men|gdn|work|click|loan|top|ga|agency|biz|country|stream|download|xin|gdn|jetzt|racing|win|bid|vip|ren|kim|mom|party|review|trade|date|accountant|accountants|pro|info|xyz|xxx|adult)\/(redirect)/
 ! Common tracking domains (domains like chanalytics.example.com or stats.example.com)
-/^http(s)?:\/\/(chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica)\..+\..+$/$all
+/^http(s)?:\/\/(chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica|salesiq)\..+\..+$/$all
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -400,6 +403,7 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+||atl-paas.net^$third-party,domain=~atlassian.com
 ||cnc.cdn.dopc.cz^$domain=~tiscali.cz
 ||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||gotchosen.com^$domain=realclearpolitics.com
@@ -414,6 +418,8 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||add0n.com/feedback.html$popup,popunder
 ||add0n.com/*.html?*&type=install$popup,popunder
 ||adblockplus.org/en/uninstalled$popup,popunder
+||yoast.com^$third-party
+||realsrv.com^$popup,popunder
 ||rmrm.io^$third-party
 ||poppcheck.de^$third-party
 ||wazazu.com^$third-party
@@ -521,6 +527,62 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||blogherads.com^
+||omappapi.com^
+||htlbid.com^
+||meatydime.com^
+||b-m.xyz^
+||flyersquare.com^
+||cliquesteria.net^
+||contact-client.com^
+||agentology.com^
+||verse.io^
+||areyouontraq.com^
+||ato.mx^
+||integralplatform.com^
+||adsense.su^
+||static-doubleclick-net.l.google.com^
+||doubleclickindustries.com^
+||testcnx.com^
+||buriatelyn.club^
+||wpush.org^
+||ndreammin.space^
+||pacitiesbo.info^
+||pushsales.space^
+||abnormaticn.club^
+||buriatelyn.club^
+||click.hooligapps.com^
+||secondstreetapp.com^
+||popupmaker.com^
+||assets-cdk.com^
+||partnerlink.ru^
+||livetroik.xyz^
+||ocry.net^
+||snapmeet.net^
+||snapmeet.xyz^
+||localhookup50.com^
+||absorblms.com^
+||ads.zoo.*^
+||boostcpm.su^
+||insights.alibaba.com^
+||efuse.atlassian.net^
+||mellowads.com^
+||trackints.com^
+||69-cash.com^
+||69cash.com^
+||69cash-mobile.com^
+||69cashmobile.com^
+||69-cash.net^
+||69cash.net^
+||optomaton.com^
+||altbeacon.org^
+||berush.com^
+||postclickmarketing.com^
+||neatab.com^
+||pixlgif.com^
+||agentanalytics.com^
+||imganalytics.com^
+||webtools.media^
 ||soggysponge.com^
 ||tibacta.com^
 ||analyticsq.com^
@@ -11968,6 +12030,17 @@ portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-h
 ||disqus.com/*/count$script
 urbandictionary.com##div[data-lazy-ad="false"]
 medicalnewstoday.com##aside[class*="css-"]
+||*.cloudfront.net/?qngud=
+||hooligapps.com/s/f.php
+||api.pinterest.com/*/count.json?callback=WPCOMSharing.
+hentai-img.com,hentai-cosplays.com,hentai-anime-xxx.com,hentai-gif-anime.com,porn-images-xxx.com###inline_detail_bottom_1
+hentai-img.com,hentai-cosplays.com,hentai-anime-xxx.com,hentai-gif-anime.com,porn-images-xxx.com###inline_detail_bottom_2
+hentai-anime-xxx.com###ad
+mediabiasfactcheck.com##.close-iiLbodDHtMbG.close-modal, div[class*="-default"]
+mediabiasfactcheck.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.8); display: block; cursor: pointer;"]
+||brave.com/promo/
+5kplayer.com##.airplay_banner.MobileNo
+kp.ru##[id*="crt"]
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -11979,6 +12052,7 @@ medicalnewstoday.com##aside[class*="css-"]
 @@||googlevideo.com^$stealth
 @@||chrome.google.com^$stealth
 @@||addons.cdn.mozilla.net^$stealth
+@@||proprofs.com^$cookie
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
@@ -11986,10 +12060,11 @@ medicalnewstoday.com##aside[class*="css-"]
 ||tibacta.com^$empty,important
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
-buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
+space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
 
 ! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
-$removeparam=publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
+$removeparam=utm_|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
+duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
 
@@ -12063,7 +12138,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Network/IP blocking
 ! Generic
-151.101.129.7$network
 151.101.1.7$network
 151.101.65.7$network
 192.99.211.67$network
@@ -12352,11 +12426,9 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 216.218.206.125$network
 216.218.206.126$network
 
-!#endif
 ! End AdGuard General
 
-! Begin AdGuard for Android
-!#if (adguard_app_android && !ext_ublock)
+! Begin AdGuard Apps
 
 ! Android specific blocklist
 ||seeded-session-images.scdn.co^
@@ -12369,6 +12441,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ! App Specific
 *$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row|photo.manager.private.photogallery|photography.backgallery.android|photography.blackgallery.android
 !
+@@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
 @@||steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/*_full.jpg$app=steam.exe,important
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
@@ -12508,6 +12581,27 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/blogherads.$script
+*/ferne_pen.js
+*/statistics.php
+*/log?documentUrl=
+*/dot.asp?id=
+*/amp-auto-ads
+*/amp-ad-
+*/rest/collectors/
+*/plugins/advanced-ads-pro/
+*/plugins/advanced-ads/
+*/plugins/add-to-any/
+*/adfreebanner.$image
+*/log/log.
+*/alilog/
+*/adriver.
+*/getjuicy.php
+*/publishertag.$script
+*-criteo.$script
+*?promo=*$script
+*&action=js_stats
+*{ACLID}*
 */youtube/video_ads/
 */tiaraTracker
 */browser_check.js
@@ -13406,6 +13500,14 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.ctct-form-defaults:style(display:none !important;)
+##.addtoany_share:style(display:none !important;)
+##.pushNotification:style(display:none !important;)
+###mc-multi-subscribe:style(display:none !important;)
+##.multiSubscribe:style(display:none !important;)
+##.subscribeWrapper:style(display:none !important;)
+###popapIsBlockedAd:style(display:none !important;)
+##.popapBlockedAd:style(display:none !important;)
 ##.right-mid-ad:style(display:none !important;)
 ##.new_ad_wrapper_all:style(display:none !important;)
 ##.related_quiz_right_ad:style(display:none !important;)
@@ -13778,6 +13880,7 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
+##.outer-item:has-text(/advertisement/i)
 ##div[data-ad="true"]
 ##div[data-empty="true"]
 ##[data-google-query-id]
@@ -13874,6 +13977,7 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
+##[href*=".space/redirect/"]
 ##[href*="is.gd"]
 ##[href*="clickstoclaim.com"]
 ##[href*="getyoursnow.info"]
