@@ -395,6 +395,230 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "blogherads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "omappapi.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "htlbid.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "meatydime.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "b-m.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "flyersquare.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cliquesteria.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "contact-client.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "agentology.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "verse.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "areyouontraq.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ato.mx" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "integralplatform.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adsense.su" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "static-doubleclick-net.l.google.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "doubleclickindustries.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "testcnx.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "buriatelyn.club" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "wpush.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ndreammin.space" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pacitiesbo.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pushsales.space" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "abnormaticn.club" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "buriatelyn.club" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "click.hooligapps.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "secondstreetapp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "popupmaker.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "assets-cdk.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "partnerlink.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "livetroik.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ocry.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "snapmeet.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "snapmeet.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "localhookup50.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "absorblms.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ads.zoo.*" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "boostcpm.su" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "insights.alibaba.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "efuse.atlassian.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mellowads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "trackints.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69-cash.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69cash.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69cash-mobile.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69cashmobile.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69-cash.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "69cash.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "optomaton.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "altbeacon.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "berush.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "postclickmarketing.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "neatab.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pixlgif.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "agentanalytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "imganalytics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "webtools.media" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "soggysponge.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
