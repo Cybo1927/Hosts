@@ -395,6 +395,158 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "chaport.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "trkn.us" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "coinlab.biz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "1-pregnant-sex.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "28365-365.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "igodigital.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "advision-adnw.jp" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "whereinpiemonte.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "a15c5009bcbe272.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "*.5tps.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "wangmeng.baidu.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "oadz.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "99click.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "a1714.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lqc200.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mobafftrck.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mobvertising.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mobnativeads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sponsorflyr.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adrime.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adsfac.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adslot.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tracking.cdiscount.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "return.domainnamesales.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ecliks.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "direct-stats.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "eisenstein.dk" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "worldofwonder.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nanorep.co" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bold360.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "got-money.online" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cp7gyw5w94c7.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "amazonmoney.co" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gogoel.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "btpnative.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "myfirsttab.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "letmeleadyou.me" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "infosendpro.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "blogherads.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -3075,10 +3227,6 @@
      "redirect" : "127.0.0.1"
      },
      "blueparrot.media" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "balancer.wixdns.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -20929,10 +21077,6 @@
      "redirect" : "127.0.0.1"
      },
      "revenuewire.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "techtarget.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
