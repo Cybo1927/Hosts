@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1249
+! Version: 1250
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Wednesday, July 8, 2020
+! Last Modified: Sunday, July 12, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -62,6 +62,8 @@
 @@||accounts.google.com$document
 @@||mediaite.com^$elemhide
 @@||zdnet.com^$generichide
+@@||google.com^$ehide
+@@||kershaw.kaiusa.com^$generichide
 mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
 google.com#@#^script:has-text(window.ga)
@@ -415,9 +417,12 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||bing.com/aclick?ld=$popup,popunder
+||search.yahoo.com/cbclk/$popup,popunder
 ||add0n.com/feedback.html$popup,popunder
 ||add0n.com/*.html?*&type=install$popup,popunder
 ||adblockplus.org/en/uninstalled$popup,popunder
+||ellads.com^$third-party
 ||yoast.com^$third-party
 ||realsrv.com^$popup,popunder
 ||rmrm.io^$third-party
@@ -527,6 +532,44 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||chaport.com^
+||trkn.us^
+||coinlab.biz^
+||1-pregnant-sex.com^
+||28365-365.com^
+||igodigital.com^
+||advision-adnw.jp^
+||whereinpiemonte.com^
+||a15c5009bcbe272.com^
+||*.5tps.xyz^
+||wangmeng.baidu.com^
+||oadz.com^
+||99click.com^
+||a1714.com^
+||lqc200.com^
+||mobafftrck.com^
+||mobvertising.net^
+||mobnativeads.com^
+||sponsorflyr.com^
+||adrime.com^
+||adsfac.net^
+||adslot.com^
+||tracking.cdiscount.com^
+||return.domainnamesales.com^
+||ecliks.com^
+||direct-stats.com^
+||eisenstein.dk^
+||worldofwonder.net^
+||nanorep.co^
+||bold360.com^
+||got-money.online^
+||cp7gyw5w94c7.com^
+||amazonmoney.co^
+||gogoel.com^
+||btpnative.com^
+||myfirsttab.com^
+||letmeleadyou.me^
+||infosendpro.com^
 ||blogherads.com^
 ||omappapi.com^
 ||htlbid.com^
@@ -1168,7 +1211,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||netadz.de^
 ||network-marketing24.com^
 ||blueparrot.media^
-||balancer.wixdns.net^
 ||ads.ndtv1.com^
 ||bizzabo.com^
 ||oath.cloud^
@@ -5634,7 +5676,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||mmstat.com^
 ||geolocation.onetrust.com^
 ||revenuewire.net^
-||techtarget.com^
 ||googlecommerce.com^
 ||graphigostream.prd.dlive.tv^
 ||gosredirector.ea.com^
@@ -12017,7 +12058,7 @@ abc.net.au##[class*="OneN"]
 roblox.com##[src*="roblox.com/user-sponsorship/"]
 arkoselabs.com###cookiecontentbox
 portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-header.td-header-row.td-container-header
-||roblox.com/game/report-event
+!||roblox.com/game/report-event (Breaks login)
 ||roblox.com/user-sponsorship/
 ||discordapp.com/api/v*/activities
 ||discordapp.com/api/v*/science
@@ -12041,6 +12082,12 @@ mediabiasfactcheck.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.8);
 ||brave.com/promo/
 5kplayer.com##.airplay_banner.MobileNo
 kp.ru##[id*="crt"]
+immihelp.com##.c-menu.c-Article-sides-wrap > .square-banner.hide-when-print, .footer-vilab.horizontal-banner > div.g-im-layout.hide-when-print, .header-vilab.horizontal-banner, #div.c-Article-sides-wrap:nth-of-type(3)
+||i.bcicdn.com/promotions/
+||gofundme.com/track
+||*.s3.amazonaws.com/domainConfig/
+||amazon.com/gp/*/log?
+||search.yahoo.com/cbclk/
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12058,6 +12105,7 @@ kp.ru##[id*="crt"]
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
 ||tibacta.com^$empty,important
+||atgsvcs.com^$empty,important
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
 space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
@@ -12067,6 +12115,7 @@ $removeparam=utm_|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid
 duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
+google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved
 
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
@@ -12138,7 +12187,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Network/IP blocking
 ! Generic
-151.101.1.7$network
 151.101.65.7$network
 192.99.211.67$network
 52.72.245.79$network
@@ -12581,6 +12629,13 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/ad*_header.gif
+*/spacer.gif
+*/fbpixel
+*/analytics/js/
+*/paywall_popup.$script
+*_pixel_*
+*__trkn.us
 */blogherads.$script
 */ferne_pen.js
 */statistics.php
@@ -13500,6 +13555,11 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.c-Bottom-notice__body-object:style(display:none !important;)
+##.fancybox-skin:style(display:none !important;)
+##.fancybox-overlay:style(display:none !important;)
+##.fancybox-overlay-fixed:style(display:none !important;)
+##.removeAdLink:style(display:none !important;)
 ##.ctct-form-defaults:style(display:none !important;)
 ##.addtoany_share:style(display:none !important;)
 ##.pushNotification:style(display:none !important;)
@@ -13880,11 +13940,17 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
-##.outer-item:has-text(/advertisement/i)
+##.outer-item:has-text(/advert/i)
+###side_content:has-text(/advert/i)
+##.caption:has-text(/advert/i)
 ##div[data-ad="true"]
 ##div[data-empty="true"]
 ##[data-google-query-id]
-##iframe[id^="google_ads_iframe"]
+##iframe[id*="google_ad"]
+##[id*="WNAd"]
+##[class*="WNAd"]
+##[id*="signup_newsletter"]
+##[class*="signup_newsletter"]
 ##[id*="swoopAd"]
 ##[class*="swoopAd"]
 ##[id*="syndication-ad"]
@@ -14049,6 +14115,7 @@ _statsonlineinfo
 ##[href*="/avt/"]
 ##[href*="/adrotate-out.php?"]
 ##[href*="/adServe/"]
+##[src*="/ai/a/ex/ab.php?"]
 ##[src*="/adver/index."]
 ##[src*="nichedlinks.com/hop/"]
 ##[src*="/_ad"]
