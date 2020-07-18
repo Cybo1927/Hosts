@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1251
+! Version: 1252
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Thursday, July 16, 2020
+! Last Modified: Saturday, July 18, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -534,6 +534,24 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||adpay.network^
+||graizoah.com^
+||bedrapiona.com^
+||e2ertt.com^
+||cdnads.com^
+||ping.*.adguard.io^
+||ethicalads.io^
+||intellipopup.com^
+||mortcollect.com^
+||exoprsdds.com^
+||app-analytics-v2.snapchat.com^
+||vice-web-statics-cdn.vice.com^
+||ct.pinterest.com^
+||clicksure.com^
+||clickandsolve.fr^
+||clickcease.com^
+||admenhost.com^
+||click-connect.com^
 ||chaport.com^
 ||trkn.us^
 ||coinlab.biz^
@@ -8993,7 +9011,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||polarmobile.com^
 ||polar.me^
 ||ad.tomshardware.com^
-||app.link^
 ||servt.playbuzz.co^
 ||smi2.net^
 ||segmento.ru^
@@ -12092,6 +12109,7 @@ immihelp.com##.c-menu.c-Article-sides-wrap > .square-banner.hide-when-print, .fo
 ||*.s3.amazonaws.com/domainConfig/
 ||amazon.com/gp/*/log?
 ||search.yahoo.com/cbclk/
+townhall.com##.owl-drag, .owl-carousel, .sc.article-actions-footer, .thm-piano-eop, .thm-carousel
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12634,6 +12652,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/viewstats/
+*/tagcount.ashx
+*/origin-iframe$subdocument
+*?event=PageVisit*
 */expp.js
 */apu.php?zoneid=
 */modernizr/
@@ -13564,6 +13586,9 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.gtp-ad:style(display:none !important;)
+##.ad-250:style(display:none !important;)
+##.cookie-usage:style(display:none !important;)
 ##.c-Bottom-notice__body-object:style(display:none !important;)
 ##.fancybox-skin:style(display:none !important;)
 ##.fancybox-overlay:style(display:none !important;)
@@ -13956,6 +13981,10 @@ _statsonlineinfo
 ##div[data-empty="true"]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="gpt-300x250"]
+##[class*="gpt-300x250"]
+##[id*="zergnet-"]
+##[class*="zergnet-"]
 ##[id*="WNAd"]
 ##[class*="WNAd"]
 ##[id*="signup_newsletter"]
