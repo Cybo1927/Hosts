@@ -395,6 +395,78 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "adpay.network" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "graizoah.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bedrapiona.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "e2ertt.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cdnads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ping.*.adguard.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ethicalads.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "intellipopup.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mortcollect.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "exoprsdds.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "app-analytics-v2.snapchat.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "vice-web-statics-cdn.vice.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ct.pinterest.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clicksure.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clickandsolve.fr" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clickcease.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "admenhost.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "click-connect.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "chaport.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -34335,10 +34407,6 @@
      "redirect" : "127.0.0.1"
      },
      "ad.tomshardware.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "app.link" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
