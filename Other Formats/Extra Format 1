@@ -263,6 +263,24 @@
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*adpay.network^
+*://*graizoah.com^
+*://*bedrapiona.com^
+*://*e2ertt.com^
+*://*cdnads.com^
+*://*ping.*.adguard.io^
+*://*ethicalads.io^
+*://*intellipopup.com^
+*://*mortcollect.com^
+*://*exoprsdds.com^
+*://*app-analytics-v2.snapchat.com^
+*://*vice-web-statics-cdn.vice.com^
+*://*ct.pinterest.com^
+*://*clicksure.com^
+*://*clickandsolve.fr^
+*://*clickcease.com^
+*://*admenhost.com^
+*://*click-connect.com^
 *://*chaport.com^
 *://*trkn.us^
 *://*coinlab.biz^
@@ -8746,7 +8764,6 @@
 *://*polarmobile.com^
 *://*polar.me^
 *://*ad.tomshardware.com^
-*://*app.link^
 *://*servt.playbuzz.co^
 *://*smi2.net^
 *://*segmento.ru^
