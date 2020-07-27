@@ -1335,161 +1335,462 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "fkrkkmxsqeb5bj9r.s3.amazonaws.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "l026e7vji8.execute-api.*.amazonaws.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pick5g.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "7pat.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gamehorror.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "clarip.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "*-xxx.amp.cloudflare.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "rabbits.webcam" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "awejmp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ip-*.dditscdn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bisiraczyxbu.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "advear.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pornparadise.org" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "s83ovp6qyhco.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "notify.solutions" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "googleads.github.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "scfsdvc.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "inswebt.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "2cnjuh34jbpoint.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "r023m83skv5v.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "authbill.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mygreatsites.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "biz260.inmotionhosting.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tubememberplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "epsprosperityhotline.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "simplybucks.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "3vuemarketing.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "badjojoplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "badoinktube.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "badoinkultra.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "craigsfuckbook.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cs4hlp.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "drtuberhd.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "easyontvfeeds.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "exposemygf.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "badoink.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "freexxxapp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "girlshacked.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hackedgirlpasswords.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "jizzhutplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pay-pv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pvchg.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "social7news.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tubememberplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tubemembers.mobi" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tubetoolkit.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "webnr.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xnxxplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xnxxtogo.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xvideosplus.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xvideostogo.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "youjizzhacked.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "youjizzhidef.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "youwerehacked.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "badoinku.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pornicle.mobi" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "findandtry.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hislut.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hislutdating.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "free-adult-games.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hookup-finder.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "secure-joinentry.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "securedatinggateway.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "securesaferoute.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "trck-secure.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "21pron.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pinksextube.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "traffictrade.pro" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pinksextube.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sexrulez.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sexbright.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "porn4real.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "myorgasmporn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hqfreexxx.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xxxmoviessexy.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "newfreesexmovies.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sexhubmovs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "truehotxxx.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "openxxxporn.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "vippornovideos.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "xxxredsex.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hornythieftales.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "yousexfilms.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "ada.support" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "analytics.tiktok.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "syntecx.org" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "clickstoclaim.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "getyoursnow.info" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "1ads.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "yougameover.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "fail5.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "5gtip.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "dan665.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "get-uphone.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "hyperstech.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "xdronehd.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "get-wifi-x.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "dronexpro.shop" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "buydronexpro.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "getskyedrone.co" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720-drone.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720drone.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720.pro" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720.org" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720official.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "blade720.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "megadeals.ltd" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "megadeals.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "megadeals.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "megadeals.org" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "mdecommerceltd.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "techxsv.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "support-desks.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "novads.co" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-
      "igadget24.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
