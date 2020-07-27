@@ -3,14 +3,19 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1252
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Saturday, July 18, 2020
+! Version: 1253
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.9K (AdGuard Browser Extension)
+! Last Modified: Monday, July 27, 2020
 
 ! Unbreak
 @@*/ads_test
 @@*/showads.js$domain=softgames.de|softgames.com
 @@*/advertisement.js$domain=softgames.de|softgames.com
+@@||2o7.net^$domain=totaljobs.com
+@@||redirectingat.com^$image,domain=techradar.com
+@@||inmotion-hosting.evyy.net^$image,domain=techradar.com
+@@||msecnd.net/*.exe
+@@||external-content.duckduckgo.com/iu/?u=$image
 @@||apresolve.spotify.com$domain=open.spotify.com
 @@||redirector.gvt1.com/*/android/studio/
 @@||translate.googleapis.com/translate_a/
@@ -419,6 +424,72 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+||trustyfine.com^$popup,popunder
+||smartcj.com^$popup,popunder
+||authbill.com^$popup,popunder
+||mygreatsites.com^$popup,popunder
+||biz260.inmotionhosting.com^$popup,popunder
+||tubememberplus.com^$popup,popunder
+||epsprosperityhotline.com^$popup,popunder
+||simplybucks.com^$popup,popunder
+||3vuemarketing.com^$popup,popunder
+||badjojoplus.com^$popup,popunder
+||badoinktube.com^$popup,popunder
+||badoinkultra.com^$popup,popunder
+||craigsfuckbook.com^$popup,popunder
+||cs4hlp.net^$popup,popunder
+||drtuberhd.com^$popup,popunder
+||easyontvfeeds.com^$popup,popunder
+||exposemygf.com^$popup,popunder
+||badoink.com^$popup,popunder
+||freexxxapp.com^$popup,popunder
+||girlshacked.com^$popup,popunder
+||hackedgirlpasswords.com^$popup,popunder
+||jizzhutplus.com^$popup,popunder
+||pay-pv.com^$popup,popunder
+||pvchg.com^$popup,popunder
+||social7news.com^$popup,popunder
+||tubememberplus.com^$popup,popunder
+||tubemembers.mobi^$popup,popunder
+||tubetoolkit.com^$popup,popunder
+||webnr.net^$popup,popunder
+||xnxxplus.com^$popup,popunder
+||xnxxtogo.com^$popup,popunder
+||xvideosplus.com^$popup,popunder
+||xvideostogo.com^$popup,popunder
+||youjizzhacked.com^$popup,popunder
+||youjizzhidef.com^$popup,popunder
+||youwerehacked.com^$popup,popunder
+||badoinku.com^$popup,popunder
+||pornicle.mobi^$popup,popunder
+||findandtry.com^$popup,popunder
+||hislut.com^$popup,popunder
+||hislutdating.com^$popup,popunder
+||free-adult-games.com^$popup,popunder
+||hookup-finder.com^$popup,popunder
+||secure-joinentry.com^$popup,popunder
+||securedatinggateway.com^$popup,popunder
+||securesaferoute.com^$popup,popunder
+||trck-secure.com^$popup,popunder
+||21pron.com^$popup,popunder
+||pinksextube.com^$popup,popunder
+||traffictrade.pro^$popup,popunder
+||pinksextube.com^$popup,popunder
+||sexrulez.com^$popup,popunder
+||sexbright.com^$popup,popunder
+||porn4real.com^$popup,popunder
+||myorgasmporn.com^$popup,popunder
+||hqfreexxx.com^$popup,popunder
+||xxxmoviessexy.com^$popup,popunder
+||newfreesexmovies.com^$popup,popunder
+||sexhubmovs.com^$popup,popunder
+||truehotxxx.com^$popup,popunder
+||openxxxporn.com^$popup,popunder
+||vippornovideos.com^$popup,popunder
+||xxxredsex.com^$popup,popunder
+||hornythieftales.com^$popup,popunder
+||yousexfilms.com^$popup,popunder
+||placehold.it^$third-party
 ||bing.com/aclick?ld=$popup,popunder
 ||search.yahoo.com/cbclk/$popup,popunder
 ||add0n.com/feedback.html$popup,popunder
@@ -534,6 +605,89 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
+||l026e7vji8.execute-api.*.amazonaws.com^
+||pick5g.com^
+||7pat.com^
+||gamehorror.com^
+||clarip.com^
+||*-xxx.amp.cloudflare.com^
+||rabbits.webcam^
+||awejmp.com^
+||ip-*.dditscdn.com^
+||bisiraczyxbu.com^
+||advear.ru^
+||pornparadise.org^
+||s83ovp6qyhco.com^
+||notify.solutions^
+||googleads.github.io^
+||scfsdvc.com^
+||inswebt.com^
+||2cnjuh34jbpoint.com^
+||r023m83skv5v.com^
+||authbill.com^
+||mygreatsites.com^
+||biz260.inmotionhosting.com^
+||tubememberplus.com^
+||epsprosperityhotline.com^
+||simplybucks.com^
+||3vuemarketing.com^
+||badjojoplus.com^
+||badoinktube.com^
+||badoinkultra.com^
+||craigsfuckbook.com^
+||cs4hlp.net^
+||drtuberhd.com^
+||easyontvfeeds.com^
+||exposemygf.com^
+||badoink.com^
+||freexxxapp.com^
+||girlshacked.com^
+||hackedgirlpasswords.com^
+||jizzhutplus.com^
+||pay-pv.com^
+||pvchg.com^
+||social7news.com^
+||tubememberplus.com^
+||tubemembers.mobi^
+||tubetoolkit.com^
+||webnr.net^
+||xnxxplus.com^
+||xnxxtogo.com^
+||xvideosplus.com^
+||xvideostogo.com^
+||youjizzhacked.com^
+||youjizzhidef.com^
+||youwerehacked.com^
+||badoinku.com^
+||pornicle.mobi^
+||findandtry.com^
+||hislut.com^
+||hislutdating.com^
+||free-adult-games.com^
+||hookup-finder.com^
+||secure-joinentry.com^
+||securedatinggateway.com^
+||securesaferoute.com^
+||trck-secure.com^
+||21pron.com^
+||pinksextube.com^
+||traffictrade.pro^
+||pinksextube.com^
+||sexrulez.com^
+||sexbright.com^
+||porn4real.com^
+||myorgasmporn.com^
+||hqfreexxx.com^
+||xxxmoviessexy.com^
+||newfreesexmovies.com^
+||sexhubmovs.com^
+||truehotxxx.com^
+||openxxxporn.com^
+||vippornovideos.com^
+||xxxredsex.com^
+||hornythieftales.com^
+||yousexfilms.com^
 ||adpay.network^
 ||graizoah.com^
 ||bedrapiona.com^
@@ -1864,7 +2018,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||affirm.com^
 ||adst.fwdcdn.com^
 ||aswpsdkus.com^
-||aka.ms^
 ||adaranth.com^
 ||apimg.net^
 ||adsrevia.com^
@@ -5645,7 +5798,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||getgobot.com^
 ||getshogun.com^
 ||mobtrks.com^
-||global-dealer-ssl.spotify.com^
 ||gs.dailymail.co.uk^
 ||goreal.at^
 ||wufoo.com^
@@ -9896,7 +10048,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||tremorhub.com^
 ||tagmanager.google.com^
 ||thinknear.com^
-||totaljobs.com^
 ||tradelab.com^
 ||travelaudience.com^
 ||tresensa.com^
@@ -12110,6 +12261,17 @@ immihelp.com##.c-menu.c-Article-sides-wrap > .square-banner.hide-when-print, .fo
 ||amazon.com/gp/*/log?
 ||search.yahoo.com/cbclk/
 townhall.com##.owl-drag, .owl-carousel, .sc.article-actions-footer, .thm-piano-eop, .thm-carousel
+||washingtonpost.com/pwapiv2/article
+||washingtonpost.com/pwapi-proxy/pwproxy/?pwapi_contentsection
+||washingtonpost.com/subscribe/logging/logInfo
+||washingtonpost.com/*/pwapi-proxy.min.js
+||cdnjs.cloudflare.com/ajax/libs/fastclick/
+camrabbit.com##div.notifier-wrapper
+open.spotify.com##[class*="_"]:has-text(Cookie policy)
+open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > [class]:has-text(Preview of Spotify)
+washingtonpost.com##[class*="pb-lgmod"]
+anysex.com##.no_pop.center, .content_right > .no_pop, .clear_both
+reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12652,6 +12814,14 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/default/pAnalytics
+*/ahoy/visits
+*/js/atomshardware-gb.js
+*/exoSubId.
+*/show_ads_smartclick.
+*/videojs.ads.min.js
+*/js/script.php?
+*/img/px.gif
 */viewstats/
 */tagcount.ashx
 */origin-iframe$subdocument
@@ -13274,7 +13444,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */upscribe_sage/resources/assets/scripts/sales.js
 */_/batch
 */api/stats/atr?
-*/api/stats/watchtime?
 */api/stats/qoe?
 */silentpassport?
 */sl/e/i/
@@ -13534,6 +13703,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ?*connect.facebook.com
 ?callback=pfMod.saveAdSettings
 ??$document,subdocument
+*?zid=*&pid=*&cturl=*?file_id=*$all
 ~Ad~
 -ad-serving
 window.gapwn.get_country
@@ -13586,6 +13756,9 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.essb-flyin-right:style(display:none !important;)
+##.essb-flyin-content:style(display:none !important;)
+##.essb-flyin:style(display:none !important;)
 ##.gtp-ad:style(display:none !important;)
 ##.ad-250:style(display:none !important;)
 ##.cookie-usage:style(display:none !important;)
@@ -13981,6 +14154,10 @@ _statsonlineinfo
 ##div[data-empty="true"]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="cookie-announce"]
+##[class*="cookie-announce"]
+##[id*="blacklivesmatter"]
+##[class*="blacklivesmatter"]
 ##[id*="gpt-300x250"]
 ##[class*="gpt-300x250"]
 ##[id*="zergnet-"]
@@ -14081,6 +14258,8 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
+##[src*="scfsdvc.com"]
+##[href*="securedatingconnection.com"]
 ##[href*=".space/redirect/"]
 ##[href*="is.gd"]
 ##[href*="clickstoclaim.com"]
