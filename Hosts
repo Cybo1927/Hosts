@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1253
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.9K (AdGuard Browser Extension)
-! Last Modified: Monday, July 27, 2020
+! Version: 1254
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.5K (AdGuard Browser Extension)
+! Last Modified: Tuesday, July 28, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -138,7 +138,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||disqus.com/embed.js?_=1457540*$script
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
-||pandora.com/ping.txt?f=*^$redirect=nooptext,domain=pandora.com
+||pandora.com/ping.txt?*^$redirect-rule=nooptext,domain=pandora.com
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
 ||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
@@ -152,8 +152,9 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
 ||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,mp4,important
 ||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,mp4,important
-*/cleardot.gif$image,redirect=1x1.gif
-*/cleardot.gif$xmlhttprequest,redirect=1x1.gif
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+*/cleardot.gif$image,redirect-rule=1x1.gif,important
+*/cleardot.gif$xmlhttprequest,redirect-rule=1x1.gif,important
 
 ! Remove Attribute (uBlock Origin)
 *##+js(ra, ping)
@@ -12272,6 +12273,7 @@ open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > [class]:
 washingtonpost.com##[class*="pb-lgmod"]
 anysex.com##.no_pop.center, .content_right > .no_pop, .clear_both
 reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
+alotporn.com##.table > .opt:upward(1)
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -13713,6 +13715,7 @@ analytics-events
 -ad-$domain=~github.com,~gitlab.com
 -v6exp3-
 -page-url=
+*&action=js_stats
 &isp=
 &page-url=
 &clickid
