@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1254
+! Version: 1254-1
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.5K (AdGuard Browser Extension)
 ! Last Modified: Tuesday, July 28, 2020
 
@@ -138,7 +138,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||disqus.com/embed.js?_=1457540*$script
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
-||pandora.com/ping.txt?*^$redirect-rule=nooptext,domain=pandora.com
+||pandora.com/ping.txt?f=*^$xmlhttprequest,redirect-rule=nooptext,first-party
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
 ||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
