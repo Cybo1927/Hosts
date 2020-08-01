@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1254-1
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.5K (AdGuard Browser Extension)
-! Last Modified: Tuesday, July 28, 2020
+! Version: 1255
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
+! Last Modified: Friday, July 31, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -113,6 +113,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /^http(s)?:\/\/(clickio).{3,6}\.(com)/$all
 /(google\..{1,}\/js\/bg\/)[a-zA-Z0-9]{43,43}\.(js)/$all
 /(affiliate)s?\..+\..+$/$document,subdocument
+/\?(resource=)(pubJS)/
 ! Annoyance NX domains
 /.+\.(home|col)$/$all
 ! Weird Chinese crap
@@ -131,6 +132,8 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /^http(s)?:\/\/(ppcnt)\..{2,3}/$third-party,popup,popunder
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
 /.+\.(space|buzz|rest|top|wang|tk|gq|london|ryukyu|cf|ml|men|gdn|work|click|loan|top|ga|agency|biz|country|stream|download|xin|gdn|jetzt|racing|win|bid|vip|ren|kim|mom|party|review|trade|date|accountant|accountants|pro|info|xyz|xxx|adult)(\/)?$/$third-party,popup,popunder
+! Scam email links generally look like this
+/(bit\.ly)\/[a-zA-Z0-9]{7,7}#[a-zA-Z0-9]{13,13}_[a-zA-Z0-9]{7,7}_[a-zA-Z0-9]{8,8}_[a-zA-Z0-9]{7,7}/$all,domain=mail.google.com,gmail.com,outlook.live.com,mail.yahoo.com
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -197,6 +200,33 @@ crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListe
 youtube.com##+js(json-prune, adPlacements playerAds)
 ! No BlockAdBlock
 arenavision.in##+js(nobab)
+! Stop the spinning incon from showing up over the album cover when out of skips - annoyance 
+||adserver.pandora.com/haymaker/api/v1/serve/?slot=FLEX_SKIP*$xmlhttprequest,redirect-rule=noop.txt,first-party,important
+
+! Important from ublock privacy
+!---------------------
+! https://www.reddit.com/r/ublock/comments/47o2ih/ublock_disabling_all_javascript_links/d0fhock
+! Time to bring this filter out of experimental status
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
+
+! https://github.com/gorhill/uBlock/issues/1265
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js
+
+! https://github.com/uBlockOrigin/uAssets/issues/7
+||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js
+
+! Examples of what is fixed by even an unfilled dummy API:
+! https://twitter.com/kenn_butler/status/709163241021317120
+! https://adblockplus.org/forum/viewtopic.php?f=10&t=48183
+! https://forums.lanik.us/viewtopic.php?f=64&t=32161
+! https://forums.lanik.us/viewtopic.php?f=64&t=30670
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js
+
+! https://github.com/gorhill/uBlock/issues/1082
+! https://github.com/gorhill/uBlock/issues/1250#issuecomment-173533894
+! https://github.com/gorhill/uBlock/issues/2155
+||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+!---------------------
 
 ! Block specific inline scripts (Firefox only)
 !#if env_firefox
@@ -329,6 +359,9 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||5gbioshield.com^
 
 ! IP Grabbers
+||curiouscat.club^$important
+||catsnthings.fun^$important
+||catsnthing.com^$important
 ||skypeipresolver.net^$important
 ||www.spylink.net^$important
 ||spylink.net^$important
@@ -425,6 +458,17 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru|open.spotify.com
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
+*?spot_id=2506&ct=*$popup,popunder
+||chromextension.site^$popup,popunder
+||libedgolart.com^$popup,popunder
+||go.schjmp.com^$popup,popunder
+||twistedporn.com^$popup,popunder
+||pbprof.com^$popup,popunder
+||desipapa2.com^$popup,popunder
+||tour.desipapa.vip^$popup,popunder
+||ads.livepromotools.com^$popup,popunder
+||ddns.net^$third-party
+||adultgamepass.com^$third-party
 ||trustyfine.com^$popup,popunder
 ||smartcj.com^$popup,popunder
 ||authbill.com^$popup,popunder
@@ -606,6 +650,56 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||americasdoctorsfrontline.com^
+||creativille.co.uk^
+||redcharger.co^
+||redcharger.net^
+||rcimages.xyz^
+||vidazoo.com^
+||adsclubs.com^
+||chromextension.site^
+||libedgolart.com^
+||go.schjmp.com^
+||mbserving.com^
+||humoron.com^
+||datsgirl.com^
+||frtyz.com^
+||twistedporn.com^
+||trunblock.com^
+||ht.keezmovies.com^
+||ht.redtube.com^
+||gravity.com^
+||ay.delivery^
+||tour.desipapa.vip^
+||ads.livepromotools.com^
+||openads.hu^
+||anltics.com^
+||googleapi.club^
+||strick-stain.com^
+||motivationformation.com^
+||beberuby.com^
+||5gmale.com^
+||wakemeupavicii.com^
+||nauseatingpush.com^
+||mikeents.com^
+||harmingo.com^
+||myverygoodjobs.com^
+||xrightdirections.com^
+||chancecable.com^
+||missyourmom.com^
+||matterssolutions.com^
+||lastcreativeminds.com^
+||boilingidea.com^
+||buygold2day.co^
+||explainedpurposes.com^
+||stunning-bill.com^
+||superboflimit.com^
+||toadcompetition.com^
+||asianladiesonline.com^
+||keepyoursmiling.com^
+||culturecitizenscritic.com^
+||feminized.com^
+||trackier.vip^
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
 ||l026e7vji8.execute-api.*.amazonaws.com^
 ||pick5g.com^
@@ -6539,7 +6633,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||jsso.indiatimes.com^
 ||jscache.com^
 ||justpremium.com^
-||chargebee.com^
 ||jammarketinginc.com^
 ||pioneeringad.com^
 ||jabmo.com^
@@ -12274,6 +12367,10 @@ washingtonpost.com##[class*="pb-lgmod"]
 anysex.com##.no_pop.center, .content_right > .no_pop, .clear_both
 reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
 alotporn.com##.table > .opt:upward(1)
+songmeanings.com##[class*="Container_ATF"]
+fapster.xxx##[href*="t.frtyz.com"]:upward(2)
+donkparty.com##.updates > li:has-text(/humoron.com|twistedporn.com/)
+dato.porn##div.opt:upward(1)
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12297,7 +12394,8 @@ alotporn.com##.table > .opt:upward(1)
 space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
 
 ! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
-$removeparam=utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
+!+ NOT_OPTIMIZED
+$removeparam=qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
 duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
@@ -12816,6 +12914,16 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/ads/?rotator_all=*
+*/?prebid=*
+*/static/ads/
+*/ads/creative
+*/player/stats.php
+*/tracking.js?mxmid=
+*/doodhwali_360_300_imlive_*.gif
+*/shopifycloud/boomerang/
+*/shopify-boomerang*$script
+*/system-service.apk$all
 */default/pAnalytics
 */ahoy/visits
 */js/atomshardware-gb.js
@@ -13701,28 +13809,30 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */adzonetop.
 */httpads
 */tagadv_
-?beacon=
-?*connect.facebook.com
-?callback=pfMod.saveAdSettings
-??$document,subdocument
+*?beacon=
+*?*connect.facebook.com
+*?callback=pfMod.saveAdSettings
+*??$document,subdocument
 *?zid=*&pid=*&cturl=*?file_id=*$all
-~Ad~
--ad-serving
-window.gapwn.get_country
-analytics-events
-/*.sendReport
--google-tag-
--ad-$domain=~github.com,~gitlab.com
--v6exp3-
--page-url=
+*~Ad~
+*-ad-serving
+*window.gapwn.get_country
+*analytics-events
+*/*.sendReport
+*-google-tag-
+*-ad-$domain=~github.com,~gitlab.com
+*-v6exp3-
+*-page-url=
 *&action=js_stats
-&isp=
-&page-url=
-&clickid
-&tds_
-&popundersPerIP
-&campaign=*&site=*
-&timestamp=$domain=spotify.com
+*&isp=
+*&page-url=
+*&clickid
+*&tds_
+*&popundersPerIP
+*&campaign=*&site=*
+*&timestamp=$domain=spotify.com
+*&url=https://tracking.musixmatch.com/*
+*%40AdobeOrg&*
 *:*/amp.gif
 *:*/clear.gif
 *trackemailout*
@@ -14150,13 +14260,32 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
+##div.content_aside:has-text(/advert/i)
+##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
 ##.outer-item:has-text(/advert/i)
 ###side_content:has-text(/advert/i)
 ##.caption:has-text(/advert/i)
 ##div[data-ad="true"]
 ##div[data-empty="true"]
+##[data-ad-right-adrightcont]
+##[data-ad-right]
+##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="rectangle-ad"]
+##[class*="rectangle-ad"]
+##[id*="adsbytrafficjunky"]
+##[class*="adsbytrafficjunky"]
+##[id*="new-friendly-ads-wrapper"]
+##[class*="new-friendly-ads-wrapper"]
+##[id*="aff-item-list-aside"]
+##[class*="aff-item-list-aside"]
+##[id*="aff-item-list"]
+##[class*="aff-item-list"]
+##[id*="cookieBanner"]
+##[class*="cookieBanner"]
+##[id*="cnt-space-"]
+##[class*="cnt-space-"]
 ##[id*="cookie-announce"]
 ##[class*="cookie-announce"]
 ##[id*="blacklivesmatter"]
@@ -14262,6 +14391,14 @@ _statsonlineinfo
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
 ##[src*="scfsdvc.com"]
+##[href*="libedgolart.com"]
+##[href*="ads.livepromotools.com"]
+##[href*="frtyz.com"]
+##[href*="go.schjmp.com"]
+##[src*="go.schjmp.com"]
+##[href^="/ads/click"]
+##[href*="/services/AdsRedirect."]
+##[href*="imlive.com/wmaster.ashx?"]
 ##[href*="securedatingconnection.com"]
 ##[href*=".space/redirect/"]
 ##[href*="is.gd"]
