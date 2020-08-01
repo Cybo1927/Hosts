@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1255
+! Version: 1255-1
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Friday, July 31, 2020
 
@@ -13809,29 +13809,29 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */adzonetop.
 */httpads
 */tagadv_
-*?beacon=
-*?*connect.facebook.com
-*?callback=pfMod.saveAdSettings
-*??$document,subdocument
-*?zid=*&pid=*&cturl=*?file_id=*$all
-*~Ad~
-*-ad-serving
-*window.gapwn.get_country
-*analytics-events
+?beacon=
+?*connect.facebook.com
+?callback=pfMod.saveAdSettings
+??$document,subdocument
+?zid=*&pid=*&cturl=*?file_id=*$all
+~Ad~
+-ad-serving
+window.gapwn.get_country
+analytics-events
 */*.sendReport
-*-google-tag-
-*-ad-$domain=~github.com,~gitlab.com
-*-v6exp3-
-*-page-url=
-*&action=js_stats
-*&isp=
-*&page-url=
-*&clickid
-*&tds_
-*&popundersPerIP
-*&campaign=*&site=*
-*&timestamp=$domain=spotify.com
-*&url=https://tracking.musixmatch.com/*
+-google-tag-
+-ad-$domain=~github.com,~gitlab.com
+-v6exp3-
+-page-url=
+&action=js_stats
+&isp=
+&page-url=
+&clickid
+&tds_
+&popundersPerIP
+&campaign=*&site=*
+&timestamp=$domain=spotify.com
+&url=https://tracking.musixmatch.com/*
 *%40AdobeOrg&*
 *:*/amp.gif
 *:*/clear.gif
