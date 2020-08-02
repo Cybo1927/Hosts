@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1255-1
+! Version: 1256
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Friday, July 31, 2020
+! Last Modified: Sunday, August 2, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -115,7 +115,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 /(affiliate)s?\..+\..+$/$document,subdocument
 /\?(resource=)(pubJS)/
 ! Annoyance NX domains
-/.+\.(home|col)$/$all
+/^(http)?(s)?.+\.(home|col)$/
 ! Weird Chinese crap
 /^http(s)?:\/\/[0-9]{5,}\..+$/$all,domain=~cdnbay.com
 ! "Popping Tool"
@@ -12484,8 +12484,8 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 52.41.175.237:443$network
 13.249.134.94:80$network
 47.104.24.111$network
-! xlog-va.musical.ly
-47.252.92.254$network
+! Admiral
+35.190.58.50^$network
 
 ! Gboard Tracking
 ! 172.217.9.35$network (Breaks Google Play on Samsung devices - just block it from using internet under Apps Management)
@@ -12914,6 +12914,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/counter.php?
+*/cookie-law-info/
 */ads/?rotator_all=*
 */?prebid=*
 */static/ads/
@@ -14272,6 +14274,8 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="widget-ads"]
+##[class*="widget-ads"]
 ##[id*="rectangle-ad"]
 ##[class*="rectangle-ad"]
 ##[id*="adsbytrafficjunky"]
