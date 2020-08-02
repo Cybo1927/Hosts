@@ -1,0 +1,70 @@
+! Title: Cybo's Anti Samsung
+! Expires: 1 day
+! Version: 1
+
+! https://www.computerworld.com/article/3514999/samsung-selling-data.html
+! https://www.cnet.com/news/samsungs-warning-our-smart-tvs-record-your-living-room-chatter/
+
+! https://bgp.he.net/net/103.39.36.0/22#_netinfo
+! https://bgp.he.net/net/210.108.67.0/24#_dns
+! https://bgp.he.net/net/91.199.239.0/24#_dns
+! https://bgp.he.net/net/27.106.204.0/24#_dns
+! https://bgp.he.net/net/218.249.63.0/24#_dns
+
+||samsung.com^
+||samsung.net^
+||samsung.co.kr^
+||samsungacr.com^
+||samsungcloudsolution.com^
+||samsungcloudsolution.net^
+||samsungotn.net^
+||samsungrm.net^
+||samsungelectronics.com^
+||samsungadhub.com^
+||samsungosp.com^
+||samsungqbe.com^
+||esamsungchina.com.cn^
+||ledsamsung.cn^
+||samsung.cn^
+||clpi.net^
+||samsungsls.net^
+||samsungsls.com^
+||samsungsls-com.*^
+||samsunglifeservice.com^
+||sdsg.de^
+||sec-etrade-china.net^
+||coems-samsungsemi.com^
+||*-samsungsemi.com^
+||samsungled.cn^
+||samsungchina.net^
+||ledtvsamsung.cn^
+||samsungshop.cn^
+||samsungservice.cn^
+||ipengtai.com^
+||ipengtai.net^
+||ipengtai.cn^
+||cheilchina.cn^
+||samsungtechwin.cn^
+||samsungcamera.cn^
+||beanpole.cn^
+||dvmcare.cn^
+||samsungfiberoptics.com^
+||opentidechina.com^
+||opentide.cn^
+||samsungmcs.com^
+||galaxyclub.cn^
+||serichina.com^
+||serichina.cn^
+||ecampuschina.com^
+||xn--ehqc076ccwcr30azr8a.xn--io0a7i^
+||xn--ehqc076ccwcr30azr8a.xn--fiqz9s^
+||xn--ehqc076ccwcr30azr8a.xn--fiqs8s^
+||xn--ehqc076ccwcr30azr8a.xn--55qx5d^
+||xn--ehqc076ccwcr30azr8a.net^
+||xn--ehqc076ccwcr30auk6a.xn--fiqz9s^
+||xn--ehqc076ccwcr30auk6a.xn--fiqs8s^
+||xn--ehqc076ccwch7flsto2yu4r.xn--io0a7i^
+||xn--ehqc076ccwch7flsto2yu4r.xn--fiqz9s^
+||xn--ehqc076ccwch7flsto2yu4r.xn--fiqs8s^
+||xn--ehqc076ccwch7flstb32brj4b.xn--fiqz9s^
+||xn--ehqc076ccwch7flstb32brj4b.xn--fiqs8s^
