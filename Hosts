@@ -117,7 +117,7 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 ! Annoyance NX domains
 /^(http)?(s)?.+\.(home|col)$/
 ! Weird Chinese crap
-/^http(s)?:\/\/[0-9]{5,}\..+$/$all,domain=~cdnbay.com
+/^http(s)?:\/\/[0-9]{5,}\..+$/$all,domain=~cdnbay.com,~cdn77.org
 ! "Popping Tool"
 /\/[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{1,1}[a-z]{1,1}[0-9]{4,4}[a-z]{2,2}[0-9]{1,1}\.(js)$/$all
 ! Some canvas tracking
@@ -12371,6 +12371,9 @@ songmeanings.com##[class*="Container_ATF"]
 fapster.xxx##[href*="t.frtyz.com"]:upward(2)
 donkparty.com##.updates > li:has-text(/humoron.com|twistedporn.com/)
 dato.porn##div.opt:upward(1)
+||pelcro.com/api/*/sdk/site?site_id=*
+chron.com###ctpl-fullbanner1
+energysage.com###triggered-banner
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12914,6 +12917,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+*/empty.gif
+*/ad_label*.gif
 */counter.php?
 */cookie-law-info/
 */ads/?rotator_all=*
@@ -14274,6 +14279,8 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="ad_cont"]
+##[class*="ad_cont"]
 ##[id*="widget-ads"]
 ##[class*="widget-ads"]
 ##[id*="rectangle-ad"]
