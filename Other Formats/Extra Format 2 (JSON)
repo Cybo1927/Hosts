@@ -35,6 +35,358 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "privacymanager.io" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "drugs-center.biz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "mx-*.fbi.gov" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "device-metrics-us.amazon.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipengtai.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipengtai.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ipengtai.cn" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "warnwing.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "verifyvegetable.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "thunderingrose.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tedioustooth.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "stupendoussleet.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "statementsweater.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "stakingslope.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "spuriousweather.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sophisticatedstove.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "soggysponge.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sixscissors.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "simplisticstem.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "siliconslow.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sophisticatedstove.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "absorbingprison.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "aheadday.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ambiguousquilt.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "annoyingacoustics.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "archbushes.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "automaticflock.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "bawdybeast.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "blushingwar.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "brandybison.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cloisteredcord.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "coatfood.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "combclover.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "conditioncrush.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "consciouschairs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "cumbersomecar.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "deafeningdock.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "debonairdust.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dogsshoes.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "dramaticcondition.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "ejyymghi.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "fujiladder.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "grandioseguide.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "guaranteelamp.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hammerhearing.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hardtofindmilk.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "heavenlybike.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "historicalrequest.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "horsenectar.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "hypnoticwound.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "joblessdrum.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "kitesquirrel.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lackadaisicalkite.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "leftliquid.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lettucelimit.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lumberamount.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "magnificentmist.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "makeshiftmine.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "materialisticmark.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "miscreantmine.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "piquantpigs.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "possibleboats.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "scintillatingscissors.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "screechingslip.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "showsteel.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "shutseashore.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "siliconslow.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "simplisticstem.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sixscissors.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "soggysponge.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adpatrof.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "d-ughwashes.ru" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pdvacde.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "tellius.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "thoughtspot.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "2track.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "date4more.eu" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adboost.it" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "activtrak.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "th1sib3stway.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "affiligrand.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "horizon.globo.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "padslims.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "samtrg.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "fbpopr.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nextads.ir" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "nextpopup.ir" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "securesurf.biz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "americasdoctorsfrontline.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -20426,10 +20778,6 @@
      "redirect" : "127.0.0.1"
      },
      "firstpromoter.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "filesusr.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
