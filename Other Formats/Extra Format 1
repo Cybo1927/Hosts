@@ -11,6 +11,10 @@
 ! I Don't Know Why Some Sites Use This But It Never Breaks Anything
 *://*127.0.0.1^$third-party,websocket
 
+! Blocked Pages - Possibly Built In Analytics
+*://*wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
+*://*localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
+
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
 ! torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
@@ -152,6 +156,8 @@
 *://*gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
 *?spot_id=2506&ct=*$popup,popunder
+*://*samtrg.com^$popup,popunder
+*://*nextpopup.ir^$popup,popunder
 *://*chromextension.site^$popup,popunder
 *://*libedgolart.com^$popup,popunder
 *://*go.schjmp.com^$popup,popunder
@@ -343,6 +349,94 @@
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*privacymanager.io^
+*://*drugs-center.biz^
+*://*mx-*.fbi.gov^
+*://*device-metrics-us.amazon.com^
+*://*ipengtai.com^
+*://*ipengtai.net^
+*://*ipengtai.cn^
+*://*warnwing.com^
+*://*verifyvegetable.com^
+*://*thunderingrose.com^
+*://*tedioustooth.com^
+*://*stupendoussleet.com^
+*://*statementsweater.com^
+*://*stakingslope.com^
+*://*spuriousweather.com^
+*://*sophisticatedstove.com^
+*://*soggysponge.com^
+*://*sixscissors.com^
+*://*simplisticstem.com^
+*://*siliconslow.com^
+*://*sophisticatedstove.com^
+*://*absorbingprison.com^
+*://*aheadday.com^
+*://*ambiguousquilt.com^
+*://*annoyingacoustics.com^
+*://*archbushes.com^
+*://*automaticflock.com^
+*://*bawdybeast.com^
+*://*blushingwar.com^
+*://*brandybison.com^
+*://*cloisteredcord.com^
+*://*coatfood.com^
+*://*combclover.com^
+*://*conditioncrush.com^
+*://*consciouschairs.com^
+*://*cumbersomecar.com^
+*://*deafeningdock.com^
+*://*debonairdust.com^
+*://*dogsshoes.com^
+*://*dramaticcondition.com^
+*://*ejyymghi.com^
+*://*fujiladder.com^
+*://*grandioseguide.com^
+*://*guaranteelamp.com^
+*://*hammerhearing.com^
+*://*hardtofindmilk.com^
+*://*heavenlybike.com^
+*://*historicalrequest.com^
+*://*horsenectar.com^
+*://*hypnoticwound.com^
+*://*joblessdrum.com^
+*://*kitesquirrel.com^
+*://*lackadaisicalkite.com^
+*://*leftliquid.com^
+*://*lettucelimit.com^
+*://*lumberamount.com^
+*://*magnificentmist.com^
+*://*makeshiftmine.com^
+*://*materialisticmark.com^
+*://*miscreantmine.com^
+*://*piquantpigs.com^
+*://*possibleboats.com^
+*://*scintillatingscissors.com^
+*://*screechingslip.com^
+*://*showsteel.com^
+*://*shutseashore.com^
+*://*siliconslow.com^
+*://*simplisticstem.com^
+*://*sixscissors.com^
+*://*soggysponge.com^
+*://*adpatrof.com^
+*://*d-ughwashes.ru^
+*://*pdvacde.com^
+*://*tellius.com^
+*://*thoughtspot.com^
+*://*2track.info^
+*://*date4more.eu^
+*://*adboost.it^
+*://*activtrak.com^
+*://*th1sib3stway.com^
+*://*affiligrand.com^
+*://*horizon.globo.com^
+*://*padslims.com^
+*://*samtrg.com^
+*://*fbpopr.com^
+*://*nextads.ir^
+*://*nextpopup.ir^
+*://*securesurf.biz^
 *://*americasdoctorsfrontline.com^
 *://*creativille.co.uk^
 *://*redcharger.co^
@@ -5355,7 +5449,6 @@
 *://*freshdesk.com^
 *://*free-track.net^
 *://*firstpromoter.com^
-*://*filesusr.com^
 *://*fessoovy.com^
 *://*formstack.com^
 *://*fqtag.com^
