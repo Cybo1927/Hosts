@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1256
+! Version: 1257
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
-! Last Modified: Sunday, August 2, 2020
+! Last Modified: Saturday, August 8, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -69,6 +69,7 @@
 @@||zdnet.com^$generichide
 @@||google.com^$ehide
 @@||forbes.com^$ehide
+@@||cdc.gov^$ehide
 @@||kershaw.kaiusa.com^$generichide
 mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
@@ -78,6 +79,7 @@ foxnews.com#@#.cookies
 cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
+kgw.com#@#[class*="__ad"]
 
 ! Badfilter
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
@@ -299,7 +301,7 @@ arenavision.in##+js(nobab)
 
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
 *##body:style(overflow:visible !important)
-*##body:style(overflow-y:auto!important)
+*##body:style(overflow-y:auto !important)
 ! Annoyance on fullscreen videos
 youtube.com#@#body:style(overflow:visible !important)
 youtube.com#@#body:style(overflow-y:auto!important)
@@ -318,6 +320,10 @@ youtube.com#@#body:style(overflow-y:auto!important)
 
 ! I Don't Know Why Some Sites Use This But It Never Breaks Anything
 ||127.0.0.1^$third-party,websocket
+
+! Blocked Pages - Possibly Built In Analytics
+||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
+||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
 
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
@@ -459,6 +465,8 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||gstatic.com^$domain=demos.net|demos.ru|open.spotify.com
 !
 *?spot_id=2506&ct=*$popup,popunder
+||samtrg.com^$popup,popunder
+||nextpopup.ir^$popup,popunder
 ||chromextension.site^$popup,popunder
 ||libedgolart.com^$popup,popunder
 ||go.schjmp.com^$popup,popunder
@@ -650,6 +658,94 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||privacymanager.io^
+||drugs-center.biz^
+||mx-*.fbi.gov^
+||device-metrics-us.amazon.com^
+||ipengtai.com^
+||ipengtai.net^
+||ipengtai.cn^
+||warnwing.com^
+||verifyvegetable.com^
+||thunderingrose.com^
+||tedioustooth.com^
+||stupendoussleet.com^
+||statementsweater.com^
+||stakingslope.com^
+||spuriousweather.com^
+||sophisticatedstove.com^
+||soggysponge.com^
+||sixscissors.com^
+||simplisticstem.com^
+||siliconslow.com^
+||sophisticatedstove.com^
+||absorbingprison.com^
+||aheadday.com^
+||ambiguousquilt.com^
+||annoyingacoustics.com^
+||archbushes.com^
+||automaticflock.com^
+||bawdybeast.com^
+||blushingwar.com^
+||brandybison.com^
+||cloisteredcord.com^
+||coatfood.com^
+||combclover.com^
+||conditioncrush.com^
+||consciouschairs.com^
+||cumbersomecar.com^
+||deafeningdock.com^
+||debonairdust.com^
+||dogsshoes.com^
+||dramaticcondition.com^
+||ejyymghi.com^
+||fujiladder.com^
+||grandioseguide.com^
+||guaranteelamp.com^
+||hammerhearing.com^
+||hardtofindmilk.com^
+||heavenlybike.com^
+||historicalrequest.com^
+||horsenectar.com^
+||hypnoticwound.com^
+||joblessdrum.com^
+||kitesquirrel.com^
+||lackadaisicalkite.com^
+||leftliquid.com^
+||lettucelimit.com^
+||lumberamount.com^
+||magnificentmist.com^
+||makeshiftmine.com^
+||materialisticmark.com^
+||miscreantmine.com^
+||piquantpigs.com^
+||possibleboats.com^
+||scintillatingscissors.com^
+||screechingslip.com^
+||showsteel.com^
+||shutseashore.com^
+||siliconslow.com^
+||simplisticstem.com^
+||sixscissors.com^
+||soggysponge.com^
+||adpatrof.com^
+||d-ughwashes.ru^
+||pdvacde.com^
+||tellius.com^
+||thoughtspot.com^
+||2track.info^
+||date4more.eu^
+||adboost.it^
+||activtrak.com^
+||th1sib3stway.com^
+||affiligrand.com^
+||horizon.globo.com^
+||padslims.com^
+||samtrg.com^
+||fbpopr.com^
+||nextads.ir^
+||nextpopup.ir^
+||securesurf.biz^
 ||americasdoctorsfrontline.com^
 ||creativille.co.uk^
 ||redcharger.co^
@@ -5637,7 +5733,6 @@ youtube.com#@#body:style(overflow-y:auto!important)
 ||freshdesk.com^
 ||free-track.net^
 ||firstpromoter.com^
-||filesusr.com^
 ||fessoovy.com^
 ||formstack.com^
 ||fqtag.com^
@@ -12398,7 +12493,7 @@ space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,g
 
 ! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
 !+ NOT_OPTIMIZED
-$removeparam=qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
+$removeparam=__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
 duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
@@ -12475,298 +12570,305 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Network/IP blocking
 ! Generic
-151.101.65.7$network
-192.99.211.67$network
-52.72.245.79$network
-52.27.7.77$network
-13.227.34.42$network
-54.236.3.168$network
-52.22.113.11$network
-176.103.133.133$network
-80.211.148.176$network
-52.41.175.237:443$network
-13.249.134.94:80$network
-47.104.24.111$network
+||151.101.65.7^
+||192.99.211.67^
+||52.72.245.79^
+||52.27.7.77^
+||13.227.34.42^
+||54.236.3.168^
+||52.22.113.11^
+||176.103.133.133^
+||80.211.148.176^
+||52.41.175.237:443^
+||13.249.134.94:80^
+||47.104.24.111^
 ! Admiral
-35.190.58.50^$network
+||35.190.58.50^
+! Related to Shade ransomeware
+||171.25.193.9^
 
 ! Gboard Tracking
-! 172.217.9.35$network (Breaks Google Play on Samsung devices - just block it from using internet under Apps Management)
+! 172.217.9.35^ (Breaks Google Play on Samsung devices - just block it from using internet under Apps Management)
 
 ! Micorsoft Cortana
-204.79.197.200$network
+||204.79.197.200^
 
 ! Google IP
-216.58.192.205$network
-216.56.192.205$network
-172.217.4.40$network
-172.217.9.67$network
-216.239.35.4$network
+||216.58.192.205^
+||216.56.192.205^
+||172.217.4.40^
+||172.217.9.67^
+||216.239.35.4^
 
 ! Facebook IP
-157.240.18.15$network
+||157.240.18.15^
 
 ! GoGuardian IPs
-34.216.47.158$network
-52.89.199.247$network
-52.34.228.147$network
+||34.216.47.158^
+||52.89.199.247^
+||52.34.228.147^
 
 ! Marketo
-104.17.70.206$network
+||104.17.70.206^
 
 ! scan-*.shadowserver.org domains from https://github.com/stamparm/maltrail/blob/master/trails/static/mass_scanner.txt
-74.82.47.1$network
-74.82.47.2$network
-74.82.47.3$network
-74.82.47.4$network
-74.82.47.5$network
-74.82.47.6$network
-74.82.47.7$network
-74.82.47.8$network
-74.82.47.9$network
-74.82.47.10$network
-74.82.47.11$network
-74.82.47.12$network
-74.82.47.13$network
-74.82.47.14$network
-74.82.47.15$network
-74.82.47.16$network
-74.82.47.17$network
-74.82.47.18$network
-74.82.47.19$network
-74.82.47.20$network
-74.82.47.21$network
-74.82.47.22$network
-74.82.47.23$network
-74.82.47.24$network
-74.82.47.25$network
-74.82.47.26$network
-74.82.47.27$network
-74.82.47.28$network
-74.82.47.29$network
-74.82.47.30$network
-74.82.47.31$network
-74.82.47.32$network
-74.82.47.33$network
-74.82.47.34$network
-74.82.47.35$network
-74.82.47.36$network
-74.82.47.37$network
-74.82.47.38$network
-74.82.47.39$network
-74.82.47.40$network
-74.82.47.41$network
-74.82.47.42$network
-74.82.47.43$network
-74.82.47.44$network
-74.82.47.45$network
-74.82.47.46$network
-74.82.47.47$network
-74.82.47.48$network
-74.82.47.49$network
-74.82.47.50$network
-74.82.47.51$network
-74.82.47.52$network
-74.82.47.53$network
-74.82.47.54$network
-74.82.47.55$network
-74.82.47.56$network
-74.82.47.57$network
-74.82.47.58$network
-74.82.47.59$network
-74.82.47.60$network
-74.82.47.61$network
-74.82.47.62$network
-74.82.47.63$network
-184.105.139.66$network
-184.105.139.67$network
-184.105.139.68$network
-184.105.139.69$network
-184.105.139.70$network
-184.105.139.71$network
-184.105.139.72$network
-184.105.139.73$network
-184.105.139.74$network
-184.105.139.75$network
-184.105.139.76$network
-184.105.139.77$network
-184.105.139.78$network
-184.105.139.79$network
-184.105.139.80$network
-184.105.139.81$network
-184.105.139.82$network
-184.105.139.83$network
-184.105.139.84$network
-184.105.139.85$network
-184.105.139.86$network
-184.105.139.87$network
-184.105.139.88$network
-184.105.139.89$network
-184.105.139.90$network
-184.105.139.91$network
-184.105.139.92$network
-184.105.139.93$network
-184.105.139.94$network
-184.105.139.95$network
-184.105.139.96$network
-184.105.139.97$network
-184.105.139.98$network
-184.105.139.99$network
-184.105.139.100$network
-184.105.139.101$network
-184.105.139.102$network
-184.105.139.103$network
-184.105.139.104$network
-184.105.139.105$network
-184.105.139.106$network
-184.105.139.107$network
-184.105.139.108$network
-184.105.139.109$network
-184.105.139.110$network
-184.105.139.111$network
-184.105.139.112$network
-184.105.139.113$network
-184.105.139.114$network
-184.105.139.115$network
-184.105.139.116$network
-184.105.139.117$network
-184.105.139.118$network
-184.105.139.119$network
-184.105.139.120$network
-184.105.139.121$network
-184.105.139.122$network
-184.105.139.123$network
-184.105.139.124$network
-184.105.139.125$network
-184.105.139.126$network 
-184.105.247.194$network
-184.105.247.195$network
-184.105.247.196$network
-184.105.247.197$network
-184.105.247.198$network
-184.105.247.199$network
-184.105.247.200$network
-184.105.247.201$network
-184.105.247.202$network
-184.105.247.203$network
-184.105.247.204$network
-184.105.247.205$network
-184.105.247.206$network
-184.105.247.207$network
-184.105.247.208$network
-184.105.247.209$network
-184.105.247.210$network
-184.105.247.211$network
-184.105.247.212$network
-184.105.247.213$network
-184.105.247.214$network
-184.105.247.215$network
-184.105.247.216$network
-184.105.247.217$network
-184.105.247.218$network
-184.105.247.219$network
-184.105.247.220$network
-184.105.247.221$network
-184.105.247.222$network
-184.105.247.223$network
-184.105.247.224$network
-184.105.247.225$network
-184.105.247.226$network
-184.105.247.227$network
-184.105.247.228$network
-184.105.247.229$network
-184.105.247.230$network
-184.105.247.231$network
-184.105.247.232$network
-184.105.247.233$network
-184.105.247.234$network
-184.105.247.235$network
-184.105.247.236$network
-184.105.247.237$network
-184.105.247.238$network
-184.105.247.239$network
-184.105.247.240$network
-184.105.247.241$network
-184.105.247.242$network
-184.105.247.243$network
-184.105.247.244$network
-184.105.247.245$network
-184.105.247.246$network
-184.105.247.247$network
-184.105.247.248$network
-184.105.247.249$network
-184.105.247.250$network
-184.105.247.251$network
-184.105.247.252$network
-184.105.247.253$network
-184.105.247.254$network 
-216.218.206.66$network
-216.218.206.67$network
-216.218.206.68$network
-216.218.206.69$network
-216.218.206.70$network
-216.218.206.71$network
-216.218.206.72$network
-216.218.206.73$network
-216.218.206.74$network
-216.218.206.75$network
-216.218.206.76$network
-216.218.206.77$network
-216.218.206.78$network
-216.218.206.79$network
-216.218.206.80$network
-216.218.206.81$network
-216.218.206.82$network
-216.218.206.83$network
-216.218.206.84$network
-216.218.206.85$network
-216.218.206.86$network
-216.218.206.87$network
-216.218.206.88$network
-216.218.206.89$network
-216.218.206.90$network
-216.218.206.91$network
-216.218.206.92$network
-216.218.206.93$network
-216.218.206.94$network
-216.218.206.95$network
-216.218.206.96$network
-216.218.206.97$network
-216.218.206.98$network
-216.218.206.99$network
-216.218.206.100$network
-216.218.206.101$network
-216.218.206.102$network
-216.218.206.103$network
-216.218.206.104$network
-216.218.206.105$network
-216.218.206.106$network
-216.218.206.107$network
-216.218.206.108$network
-216.218.206.109$network
-216.218.206.110$network
-216.218.206.111$network
-216.218.206.112$network
-216.218.206.113$network
-216.218.206.114$network
-216.218.206.115$network
-216.218.206.116$network
-216.218.206.117$network
-216.218.206.118$network
-216.218.206.119$network
-216.218.206.120$network
-216.218.206.121$network
-216.218.206.122$network
-216.218.206.123$network
-216.218.206.124$network
-216.218.206.125$network
-216.218.206.126$network
+||74.82.47.1^
+||74.82.47.2^
+||74.82.47.3^
+||74.82.47.4^
+||74.82.47.5^
+||74.82.47.6^
+||74.82.47.7^
+||74.82.47.8^
+||74.82.47.9^
+||74.82.47.10^
+||74.82.47.11^
+||74.82.47.12^
+||74.82.47.13^
+||74.82.47.14^
+||74.82.47.15^
+||74.82.47.16^
+||74.82.47.17^
+||74.82.47.18^
+||74.82.47.19^
+||74.82.47.20^
+||74.82.47.21^
+||74.82.47.22^
+||74.82.47.23^
+||74.82.47.24^
+||74.82.47.25^
+||74.82.47.26^
+||74.82.47.27^
+||74.82.47.28^
+||74.82.47.29^
+||74.82.47.30^
+||74.82.47.31^
+||74.82.47.32^
+||74.82.47.33^
+||74.82.47.34^
+||74.82.47.35^
+||74.82.47.36^
+||74.82.47.37^
+||74.82.47.38^
+||74.82.47.39^
+||74.82.47.40^
+||74.82.47.41^
+||74.82.47.42^
+||74.82.47.43^
+||74.82.47.44^
+||74.82.47.45^
+||74.82.47.46^
+||74.82.47.47^
+||74.82.47.48^
+||74.82.47.49^
+||74.82.47.50^
+||74.82.47.51^
+||74.82.47.52^
+||74.82.47.53^
+||74.82.47.54^
+||74.82.47.55^
+||74.82.47.56^
+||74.82.47.57^
+||74.82.47.58^
+||74.82.47.59^
+||74.82.47.60^
+||74.82.47.61^
+||74.82.47.62^
+||74.82.47.63^
+||184.105.139.66^
+||184.105.139.67^
+||184.105.139.68^
+||184.105.139.69^
+||184.105.139.70^
+||184.105.139.71^
+||184.105.139.72^
+||184.105.139.73^
+||184.105.139.74^
+||184.105.139.75^
+||184.105.139.76^
+||184.105.139.77^
+||184.105.139.78^
+||184.105.139.79^
+||184.105.139.80^
+||184.105.139.81^
+||184.105.139.82^
+||184.105.139.83^
+||184.105.139.84^
+||184.105.139.85^
+||184.105.139.86^
+||184.105.139.87^
+||184.105.139.88^
+||184.105.139.89^
+||184.105.139.90^
+||184.105.139.91^
+||184.105.139.92^
+||184.105.139.93^
+||184.105.139.94^
+||184.105.139.95^
+||184.105.139.96^
+||184.105.139.97^
+||184.105.139.98^
+||184.105.139.99^
+||184.105.139.100^
+||184.105.139.101^
+||184.105.139.102^
+||184.105.139.103^
+||184.105.139.104^
+||184.105.139.105^
+||184.105.139.106^
+||184.105.139.107^
+||184.105.139.108^
+||184.105.139.109^
+||184.105.139.110^
+||184.105.139.111^
+||184.105.139.112^
+||184.105.139.113^
+||184.105.139.114^
+||184.105.139.115^
+||184.105.139.116^
+||184.105.139.117^
+||184.105.139.118^
+||184.105.139.119^
+||184.105.139.120^
+||184.105.139.121^
+||184.105.139.122^
+||184.105.139.123^
+||184.105.139.124^
+||184.105.139.125^
+||184.105.139.126^ 
+||184.105.247.194^
+||184.105.247.195^
+||184.105.247.196^
+||184.105.247.197^
+||184.105.247.198^
+||184.105.247.199^
+||184.105.247.200^
+||184.105.247.201^
+||184.105.247.202^
+||184.105.247.203^
+||184.105.247.204^
+||184.105.247.205^
+||184.105.247.206^
+||184.105.247.207^
+||184.105.247.208^
+||184.105.247.209^
+||184.105.247.210^
+||184.105.247.211^
+||184.105.247.212^
+||184.105.247.213^
+||184.105.247.214^
+||184.105.247.215^
+||184.105.247.216^
+||184.105.247.217^
+||184.105.247.218^
+||184.105.247.219^
+||184.105.247.220^
+||184.105.247.221^
+||184.105.247.222^
+||184.105.247.223^
+||184.105.247.224^
+||184.105.247.225^
+||184.105.247.226^
+||184.105.247.227^
+||184.105.247.228^
+||184.105.247.229^
+||184.105.247.230^
+||184.105.247.231^
+||184.105.247.232^
+||184.105.247.233^
+||184.105.247.234^
+||184.105.247.235^
+||184.105.247.236^
+||184.105.247.237^
+||184.105.247.238^
+||184.105.247.239^
+||184.105.247.240^
+||184.105.247.241^
+||184.105.247.242^
+||184.105.247.243^
+||184.105.247.244^
+||184.105.247.245^
+||184.105.247.246^
+||184.105.247.247^
+||184.105.247.248^
+||184.105.247.249^
+||184.105.247.250^
+||184.105.247.251^
+||184.105.247.252^
+||184.105.247.253^
+||184.105.247.254^ 
+||216.218.206.66^
+||216.218.206.67^
+||216.218.206.68^
+||216.218.206.69^
+||216.218.206.70^
+||216.218.206.71^
+||216.218.206.72^
+||216.218.206.73^
+||216.218.206.74^
+||216.218.206.75^
+||216.218.206.76^
+||216.218.206.77^
+||216.218.206.78^
+||216.218.206.79^
+||216.218.206.80^
+||216.218.206.81^
+||216.218.206.82^
+||216.218.206.83^
+||216.218.206.84^
+||216.218.206.85^
+||216.218.206.86^
+||216.218.206.87^
+||216.218.206.88^
+||216.218.206.89^
+||216.218.206.90^
+||216.218.206.91^
+||216.218.206.92^
+||216.218.206.93^
+||216.218.206.94^
+||216.218.206.95^
+||216.218.206.96^
+||216.218.206.97^
+||216.218.206.98^
+||216.218.206.99^
+||216.218.206.100^
+||216.218.206.101^
+||216.218.206.102^
+||216.218.206.103^
+||216.218.206.104^
+||216.218.206.105^
+||216.218.206.106^
+||216.218.206.107^
+||216.218.206.108^
+||216.218.206.109^
+||216.218.206.110^
+||216.218.206.111^
+||216.218.206.112^
+||216.218.206.113^
+||216.218.206.114^
+||216.218.206.115^
+||216.218.206.116^
+||216.218.206.117^
+||216.218.206.118^
+||216.218.206.119^
+||216.218.206.120^
+||216.218.206.121^
+||216.218.206.122^
+||216.218.206.123^
+||216.218.206.124^
+||216.218.206.125^
+||216.218.206.126^
 
 ! End AdGuard General
 
 ! Begin AdGuard Apps
 
 ! Android specific blocklist
+! Include network modifiers for Android
+!#if (adguard_app_android)
+!#include /master/Extra/Network%20Modifiers
+!#endif
+
 ||seeded-session-images.scdn.co^
 ||apresolve.spotify.com^
 [2001:4860:4802:36::7e]$network,all
@@ -12917,6 +13019,15 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ||webstats.^
 ||adproxy.^
 ||mlog.^
+! ExoClick
+*.com/be_fl.js$script,redirect=noopjs
+!
+*/concert_ads
+*/getInteractionStats
+*/logappclick
+*/FrontendStatusUpdate
+*/miscellaneousstats
+*/contrib-ads.
 */empty.gif
 */ad_label*.gif
 */counter.php?
@@ -12934,7 +13045,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */default/pAnalytics
 */ahoy/visits
 */js/atomshardware-gb.js
-*/exoSubId.
 */show_ads_smartclick.
 */videojs.ads.min.js
 */js/script.php?
@@ -14258,14 +14368,14 @@ _statsonlineinfo
 ##.adsbyxa:style(display:none !important;)
 ###cookie_new:style(display:none !important;)
 *##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
-*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h2:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h3:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h4:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
-*#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories)/i)
+*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h2:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h3:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h4:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+*#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
 ##div.content_aside:has-text(/advert/i)
 ##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
@@ -14279,6 +14389,18 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="cookie-banner"]
+##[class*="cookie-banner"]
+##[id*="cookie_wrapper"]
+##[class*="cookie_wrapper"]
+##[id*="ad_position"]
+##[class*="ad_position"]
+##[id*="ad__inner"]
+##[class*="ad__inner"]
+##[id*="ad_background"]
+##[class*="ad_background"]
+##[id*="popmake-overlay"]
+##[class*="popmake-overlay"]
 ##[id*="ad_cont"]
 ##[class*="ad_cont"]
 ##[id*="widget-ads"]
