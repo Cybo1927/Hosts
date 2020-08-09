@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Verizon
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 ||verizondigitalmedia.com^
 ||uplynk.com^
@@ -46,6 +46,7 @@
 ||anscorpstaging.wpengine.com^
 ||gemini.yahoo.com^
 ||vzw.net^
+||*verizon*.goog^
 
 ! Website nameserver
 ||vzwdomain.com^
