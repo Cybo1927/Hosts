@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti BLM
 ! Expires: 1 day
-! Version: 5
+! Version: 6
 
 ! It's not a racial problem it's an authoritative problem - this stuff is so annoying
 
@@ -22,3 +22,4 @@ youtube.com##ytd-channel-renderer.ytd-item-section-renderer.style-scope:has-text
 
 ##[id*="blacklivesmatter"]
 ##[class*="blacklivesmatter"]
+##[href*="blacklivesmatters."]
