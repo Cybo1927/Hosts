@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1258
+! Version: 1259
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.6K (AdGuard Browser Extension)
 ! Last Modified: Friday, August 14, 2020
 
@@ -132,7 +132,7 @@ kgw.com#@#[class*="__ad"]
 ! Popup redirects
 /.+\.(space|buzz|rest|top|wang|tk|gq|london|ryukyu|cf|ml|men|gdn|work|click|loan|top|ga|agency|biz|country|stream|download|xin|gdn|jetzt|racing|win|bid|vip|ren|kim|mom|party|review|trade|date|accountant|accountants|pro|info|xyz|xxx|adult)\/(redirect)/
 ! Common tracking domains (domains like chanalytics.example.com or stats.example.com)
-/^http(s)?:\/\/(chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica|salesiq|app-analytics|app-analytics-v1|app-analytics-v2)\..+\..+$/$all
+/^http(s)?:\/\/(wompanalytics|chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica|salesiq|app-analytics|app-analytics-v1|app-analytics-v2)\..+\..+$/$all
 ! Popups
 /^http(s)?:\/\/(ppcnt)\..{2,3}/$third-party,popup,popunder
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
@@ -152,14 +152,20 @@ kgw.com#@#[class*="__ad"]
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,mp4,important
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,important
+||audio-sp-sea.spotifycdn.net^$media,mp4,important
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||heads-ak-spotify-com.akamaized.net^$media,mp4,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||audio-akp-bbr-spotify-com.akamaized.net^$media,mp4,important
 ||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,mp4,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,mp4,important
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.akahost.net^$media,mp4,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,mp4,important
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 */cleardot.gif$image,redirect-rule=1x1.gif,important
 */cleardot.gif$xmlhttprequest,redirect-rule=1x1.gif,important
@@ -13032,6 +13038,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/ads?spot_id=
 */audio-ads?
 */js/customer-tracking/
 */api/logger
@@ -14389,6 +14396,8 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
+##.right:has-text(/advertisement/i)
+##.left:has-text(/advertisement/i)
 ##div.content_aside:has-text(/advert/i)
 ##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
 ##.outer-item:has-text(/advert/i)
@@ -14401,6 +14410,20 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[id*="ad-iframe"]
+##[class*="ad-iframe"]
+##[id*="ad_box_"]
+##[class*="ad_box_"]
+##[id*="slideAd"]
+##[class*="slideAd"]
+##[id*="notice-cookie"]
+##[class*="notice-cookie"]
+##[id*="cookie-block"]
+##[class*="cookie-block"]
+##[id*="text-ad"]
+##[class*="text-ad"]
+##[id*="text_ad"]
+##[class*="text_ad"]
 ##[id*="cookie-banner"]
 ##[class*="cookie-banner"]
 ##[id*="cookie_wrapper"]
@@ -14536,6 +14559,7 @@ _statsonlineinfo
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
 ##[src*="scfsdvc.com"]
+##[href*="blacklivesmatters."]
 ##[href*="libedgolart.com"]
 ##[href*="ads.livepromotools.com"]
 ##[href*="frtyz.com"]
