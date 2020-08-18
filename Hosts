@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1260
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 13.7K (AdGuard Browser Extension)
-! Last Modified: Sunday, August 16, 2020
+! Version: 1261
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (uBO)
+! Last Modified: Tuesday, August 18, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -141,6 +141,8 @@ kgw.com#@#[class*="__ad"]
 /(bit\.ly)\/[a-zA-Z0-9]{7,7}#[a-zA-Z0-9]{13,13}_[a-zA-Z0-9]{7,7}_[a-zA-Z0-9]{8,8}_[a-zA-Z0-9]{7,7}/$all,domain=mail.google.com,gmail.com,outlook.live.com,mail.yahoo.com
 ! Ad redirects
 /^https(s)?:\/\/.+\/click(s)?\/.{75,}$/$all
+! Sketchy sites popups
+/^http:\/\/.+\..+\/.+\.php/$popup,popunder
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -163,6 +165,7 @@ kgw.com#@#[class*="__ad"]
 ||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,important
 ||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,important
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js
 */cleardot.gif$image,redirect-rule=1x1.gif,important
 */cleardot.gif$xmlhttprequest,redirect-rule=1x1.gif,important
 
@@ -472,6 +475,58 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=2506&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+||p.1ts11.top^$popup,popunder
+||hotday.biz^$popup,popunder
+||nudismphoto.top^$popup,popunder
+||youngestlolas.com^$popup,popunder
+||youngpussy.ws^$popup,popunder
+||teddybear.world^$popup,popunder
+||daddycum.top^$popup,popunder
+||nicenudism.eu^$popup,popunder
+||longsex.club^$popup,popunder
+||young-milky-teenies.top^$popup,popunder
+||nn-mod.top^$popup,popunder
+||cute-little.ga^$popup,popunder
+||meecam.ru^$popup,popunder
+||sapid.club^$popup,popunder
+||nudisttbeach.eu^$popup,popunder
+||lola-nu.top^$popup,popunder
+||d4rk.icu^$popup,popunder
+||fervently.xyz^$popup,popunder
+||nudismmovies.eu^$popup,popunder
+||archivexxx.xyz^$popup,popunder
+||nudistsport.eu^$popup,popunder
+||topsex.cc^$popup,popunder
+||xhotmodels.top^$popup,popunder
+||popin-cherries.top^$popup,popunder
+||teenie-heaven.top^$popup,popunder
+||darkporn.club^$popup,popunder
+||xxxunicorn.com^$popup,popunder
+||candysandra.top^$popup,popunder
+||jr-mods.top^$popup,popunder
+||smileporn.top^$popup,popunder
+||f6ck.top^$popup,popunder
+||innocentgirls.top^$popup,popunder
+||nudesex.pro^$popup,popunder
+||nudistafrican.eu^$popup,popunder
+||petite-virgin-teens.xyz^$popup,popunder
+||nudists-top.top^$popup,popunder
+||youngestnymphets.com^$popup,popunder
+||underground.icu^$popup,popunder
+||innocentexposedteenies.top^$popup,popunder
+||littlepussy.pink^$popup,popunder
+||naughtyseries.top^$popup,popunder
+||xxxlist.cc^$popup,popunder
+||russianschoolgirls.top^$popup,popunder
+||homesecret.top^$popup,popunder
+||littlekittie1.top^$popup,popunder
+||lilholes.com^$popup,popunder
+||lolaxxx.cc^$popup,popunder
+||veryyoung.org^$popup,popunder
+||lilnymph.com^$popup,popunder
+||youngtube.cc^$popup,popunder
+||1olita.*^$popup,popunder
+||lol1ta.*^$popup,popunder
 ||utarget.ru^$popup,popunder
 ||skkybrought.pro^$popup,popunder
 ||popcash.net^$popup,popunder
@@ -688,6 +743,80 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||advicelion.com^
+||gazo.space^
+||tidint.pro^
+||mindopu.com^
+||escy55gxubl6.com^
+||fallguysmobi.com^
+||locked4.com^
+||tapmob.co^
+||premium-ultrahd.com^
+||boostapk.com^
+||cheatsfree.org^
+||verifysuper.com^
+||ogtrk.net^
+||apkrey.com^
+||shiftdell.com^
+||adiktivebanners.com^
+||adiktivebanners.b-cdn.net^
+||adsfind.ru^
+||f1272serve.xyz^
+||pstreetex.com^
+||itsup.com^
+||advertsdata.com^
+||hotday.biz^
+||nudismphoto.top^
+||youngestlolas.com^
+||youngpussy.ws^
+||teddybear.world^
+||daddycum.top^
+||nicenudism.eu^
+||longsex.club^
+||young-milky-teenies.top^
+||nn-mod.top^
+||cute-little.ga^
+||meecam.ru^
+||sapid.club^
+||nudisttbeach.eu^
+||lola-nu.top^
+||d4rk.icu^
+||fervently.xyz^
+||nudismmovies.eu^
+||archivexxx.xyz^
+||nudistsport.eu^
+||topsex.cc^
+||xhotmodels.top^
+||popin-cherries.top^
+||teenie-heaven.top^
+||darkporn.club^
+||xxxunicorn.com^
+||candysandra.top^
+||jr-mods.top^
+||smileporn.top^
+||f6ck.top^
+||innocentgirls.top^
+||nudesex.pro^
+||nudistafrican.eu^
+||petite-virgin-teens.xyz^
+||nudists-top.top^
+||youngestnymphets.com^
+||underground.icu^
+||innocentexposedteenies.top^
+||littlepussy.pink^
+||naughtyseries.top^
+||xxxlist.cc^
+||russianschoolgirls.top^
+||homesecret.top^
+||littlekittie1.top^
+||lilholes.com^
+||lolaxxx.cc^
+||veryyoung.org^
+||lilnymph.com^
+||youngtube.cc^
+||1olita.*^
+||lol1ta.*^
+||adwidgets.ru^
 ||dmdbuilders.net^
 ||king15.com^
 ||rlets.com^
@@ -1223,7 +1352,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||antiadblock.com^
 ||clickintext.net^
 ||izooto.com^
-||kxcdn.com^
 ||nsx-e.np.dl.playstation.net^
 ||dreamlinux.com.br^
 ||dreamlinux.net^
@@ -1786,8 +1914,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||parsec.apple.com^
 ||iad.apple.com^
 ||chein-1.apple.com^
-||search.itunes.apple.com^
-||sf-api-token-service.itunes.apple.com^
 ||se-edge.itunes.apple.com^
 ||stats.gc.apple.com^
 ||advertising.apple.com^
@@ -1895,10 +2021,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pcr.itunes-apple.com.akadns.net^
 ||pd-nk.itunes-apple.com.akadns.net^
 ||pd-nk.itunes.apple.com^
-||pd.itunes.apple.com^
 ||pipe.cloudapp.aria.akadns.net^
 ||pipe.prd.skypedata.akadns.net^
-||play-cdn.itunes-apple.com.akadns.net^
 ||seed.siri.apple.com^
 ||service.gc-apple.com.akadns.net^
 ||service.gc.apple.com^
@@ -6236,7 +6360,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gothamistllc.com^
 ||gaug.es^
 ||get.whitesmoke.com^
-||graph.instagram.com^
 ||gubagoo.io^
 ||gramombird.com^
 ||3gl.net^
@@ -12261,7 +12384,7 @@ yahoo.com##li[data-test-id="infinite-scroll-AD"]
 ||music.amazon.com/*/cirrus/
 ||music.amazon.com/*/recordWeblabTrigger.html
 ||music.amazon.com/*/refMarkerTarget.html
-amazon.com###heroQuickPromo_feature_div
+amazon.com###heroQuickPromo_feature_div, #percolate-ui-ilm_div
 
 ! Microsoft
 ||microsoft.com/fp/
@@ -12678,12 +12801,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Gboard Tracking
 ! 172.217.9.35^ (Breaks Google Play on Samsung devices - just block it from using internet under Apps Management)
-
-! Micorsoft Cortana
-||204.79.197.200^
-
-! Facebook IP
-||157.240.18.15^
 
 ! GoGuardian IPs
 ||34.216.47.158^
@@ -13103,6 +13220,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/*advertising.com
+*/pub.min.js
 */popunder.gif
 */player_remote_ad.
 */tracking/events
@@ -14034,6 +14153,7 @@ analytics-events
 -ad-$domain=~github.com,~gitlab.com
 -v6exp3-
 -page-url=
+&advertisement&
 &action=js_stats
 &isp=
 &page-url=
@@ -14478,8 +14598,9 @@ _statsonlineinfo
 ##.outer-item:has-text(/advert/i)
 ###side_content:has-text(/advert/i)
 ##.caption:has-text(/advert/i)
-##div[data-ad="true"]
-##div[data-empty="true"]
+##[data-ads-type]
+##[data-ad="true"]
+##[data-empty="true"]
 ##[data-ad-right-adrightcont]
 ##[data-ad-right]
 ##[data-ad-right-title]
