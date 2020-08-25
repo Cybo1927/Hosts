@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1261
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (uBO)
-! Last Modified: Tuesday, August 18, 2020
+! Version: 1262
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
+! Last Modified: Monday, August 24, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -1900,41 +1900,27 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||comscoreresearch.com^
 ||init.ess.apple.com^
 ||profile.gc.apple.com^
-||uts-api.itunes.apple.com^
 ||userpub.itunes.apple.com^
 ||init-p01md.apple.com^
 ||iadsdk.apple.com^
 ||basejumper.apple.com^
 ||cl4.apple.com^
 ||metrics.icloud.com^
-||api-glb-msp.smoot.apple.com^
 ||time-ios.g.aaplimg.com^
 ||e17437.dscb.akamaiedge.net^
 ||attwifi.apple.com^
 ||parsec.apple.com^
 ||iad.apple.com^
 ||chein-1.apple.com^
-||se-edge.itunes.apple.com^
 ||stats.gc.apple.com^
 ||advertising.apple.com^
-||autolinkmaker.itunes.apple.com^
 ||searchads.apple.com^
 ||securemetrics.apple.com^
 ||xp.apple.com^
 ||mesu.apple.com^
 ||apsu.apple.com^
 ||apfw.apple.com^
-||daypass.api-aka.smoot.apple.com^
-||daypass.api-glb-atl.smoot.apple.com^
-||daypass.api-glb-lon.smoot.apple.com^
-||daypass.api-glb-sea.smoot.apple.com^
-||smoot.apple.com^
-||api.smoot.apple.com^
 ||geo.itunes.apple.com^
-||gsp-ssl-dynamic.ls-apple.com.akadns.net^
-||gsp-ssl.ls-apple.com.akadns.net^
-||gsp-ssl.ls.apple.com^
-||gsp-ssl.ls2-apple.com.akadns.net^
 ||gsp1.apple.com^
 ||gsp10-ssl.apple.com^
 ||gsp10-ssl.ls-apple.com.akadns.net^
@@ -1947,7 +1933,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gsp51-ssl.ls.apple.com^
 ||gsp57-ssl-background.ls-apple.com.akadns.net^
 ||gsp57-ssl-background.ls.apple.com^
-||hls.itunes.apple.com^
 ||hls.itunes.g.aaplimg.com^
 ||gsp57-ssl-locus.ls-apple.com.akadns.net^
 ||gsp57-ssl-locus.ls.apple.com^
@@ -2016,23 +2001,18 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pancake.cdn-apple.com.akadns.net^
 ||pancake.g.aaplimg.com^
 ||partiality.itunes-apple.com.akadns.net^
-||partiality.itunes.apple.com^
 ||pcr.apple.com^
 ||pcr.itunes-apple.com.akadns.net^
 ||pd-nk.itunes-apple.com.akadns.net^
-||pd-nk.itunes.apple.com^
 ||pipe.cloudapp.aria.akadns.net^
 ||pipe.prd.skypedata.akadns.net^
 ||seed.siri.apple.com^
 ||service.gc-apple.com.akadns.net^
 ||service.gc.apple.com^
-||silverbullet-external-ats.itunes-apple.com.akadns.net^
-||silverbullet-external-ats.itunes.apple.com^
 ||sjc-courier.push-apple.com.akadns.net^
 ||static.deviceservices.apple.com^
 ||static.ess.apple.com^
 ||static.gc.apple.com^
-||su.itunes.apple.com^
 ||swscan.apple.com^
 ||tbsc.apple.com^
 ||xp.itunes-apple.com.akadns.net^
@@ -2954,7 +2934,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||atwola.com^
 ||apmebf.com^
 ||adtech.de^
-||about.com^
 ||admission.net^
 ||adlead.com^
 ||adlink.net^
@@ -6066,7 +6045,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||fls-na.amazon.com^
 ||freewarefreedownload.com^
 ||fyre.co^
-||force.com^
 ||omnitagjs.com^
 ||fastclick.net^
 ||flurry.com^
@@ -6074,7 +6052,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||frog.wix.com^
 ||freshmarketer.com^
 ||gerlinger.org^
-||graph.microsoft.com^
 ||gigya.com^
 ||genesis.malwarebytes.com^
 ||glishais.net^
@@ -6492,7 +6469,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||homelycrown.com^
 ||hurtteeth.com^
 ||hotlog.ru^
-||home.neustar^
 ||d-ns.ga^
 ||hatcalter.com^
 ||httpads.com^
@@ -8566,7 +8542,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||omniture.com^
 ||operamini-sub.osp.opera.software^
 ||openx.com^
-||ogs.google.com^
 ||ofpoison.com^
 ||openx.gamereactor.dk^
 ||oko.uk^
@@ -9908,8 +9883,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||saber.srvcs.tumblr.com^
 ||sdk.a4.tl^
 ||sf14g.com^
-||support.neustar^
-||security.neustar^
 ||safe.txmblr.com^
 ||sascdn.com^
 ||sparechange.io^
