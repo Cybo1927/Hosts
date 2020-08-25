@@ -5115,10 +5115,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "uts-api.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "userpub.itunes.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5140,10 +5136,6 @@
      "redirect" : "127.0.0.1"
      },
      "metrics.icloud.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "api-glb-msp.smoot.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -5171,19 +5163,11 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "se-edge.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "stats.gc.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
      "advertising.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "autolinkmaker.itunes.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -5211,47 +5195,7 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "daypass.api-aka.smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "daypass.api-glb-atl.smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "daypass.api-glb-lon.smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "daypass.api-glb-sea.smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "api.smoot.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "geo.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp-ssl-dynamic.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp-ssl.ls2-apple.com.akadns.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -5300,10 +5244,6 @@
      "redirect" : "127.0.0.1"
      },
      "gsp57-ssl-background.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "hls.itunes.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -5579,10 +5519,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "partiality.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "pcr.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5592,10 +5528,6 @@
      "redirect" : "127.0.0.1"
      },
      "pd-nk.itunes-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "pd-nk.itunes.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -5623,10 +5555,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "silverbullet-external-ats.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "sjc-courier.push-apple.com.akadns.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5640,10 +5568,6 @@
      "redirect" : "127.0.0.1"
      },
      "static.gc.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "su.itunes.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -9329,10 +9253,6 @@
      "redirect" : "127.0.0.1"
      },
      "adtech.de" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "about.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -21773,10 +21693,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "force.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "omnitagjs.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -21802,10 +21718,6 @@
      "redirect" : "127.0.0.1"
      },
      "gerlinger.org" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "graph.microsoft.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -23478,10 +23390,6 @@
      "redirect" : "127.0.0.1"
      },
      "hotlog.ru" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "home.neustar" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -31775,10 +31683,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "ogs.google.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "ofpoison.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -37133,14 +37037,6 @@
      "redirect" : "127.0.0.1"
      },
      "sf14g.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "support.neustar" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "security.neustar" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
