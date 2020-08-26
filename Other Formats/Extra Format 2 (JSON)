@@ -35,6 +35,94 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "abovemarket.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "gettets.club" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "desktimmer.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "f1272serve.xyz" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "pstreetex.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "itsup.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "matomo.adguard.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lauk.icu" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "inheritwalter.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "lrysiw.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "l7nq2jukv.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "searchads-old.apple.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "piwik-*.apple.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "loadonenot.online" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "duckduckgoo.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sheiswaitingforu.net" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "sloffer.link" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "vfghe.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "asldating.link" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "arthyadtracker.info" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "onlinephilippinesmanning.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "arthyredir.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "advicelion.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -15977,10 +16065,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "hubspot.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "cognito-identity.*.amazonaws.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -23241,10 +23325,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "hubspot.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "hsionlineorders.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -24975,10 +25055,6 @@
      "redirect" : "127.0.0.1"
      },
      "ipdata.co" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "ipfind.co" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -42300,10 +42376,6 @@
      "redirect" : "127.0.0.1"
      },
      "moatadr.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "braze.eu" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
