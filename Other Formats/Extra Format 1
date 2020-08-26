@@ -426,6 +426,28 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*abovemarket.com^
+*://*gettets.club^
+*://*desktimmer.com^
+*://*f1272serve.xyz^
+*://*pstreetex.com^
+*://*itsup.com^
+*://*matomo.adguard.com^
+*://*lauk.icu^
+*://*inheritwalter.com^
+*://*lrysiw.com^
+*://*l7nq2jukv.com^
+*://*searchads-old.apple.com^
+*://*piwik-*.apple.com^
+*://*loadonenot.online^
+*://*duckduckgoo.com^
+*://*sheiswaitingforu.net^
+*://*sloffer.link^
+*://*vfghe.com^
+*://*asldating.link^
+*://*arthyadtracker.info^
+*://*onlinephilippinesmanning.com^
+*://*arthyredir.com^
 *://*advicelion.com^
 *://*gazo.space^
 *://*tidint.pro^
@@ -4325,7 +4347,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*cointracking.info^
 *://*collect-*-*.myhomescreen.tv^
 *://*ciscobinary.openh264.org^
-*://*hubspot.net^
 *://*cognito-identity.*.amazonaws.com^
 *://*config.uca.cloud.unity3d.com^
 *://*clad.perfectcorp.com^
@@ -6141,7 +6162,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*hybrid.ai^
 *://*hs.vc^
 *://*hubspotfeedback.com^
-*://*hubspot.com^
 *://*hsionlineorders.net^
 *://*hquickmapsanddirections.com^
 *://*hdownloadmyinboxhelper.com^
@@ -6576,7 +6596,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*ipapi.co^
 *://*ip-api.com^
 *://*ipdata.co^
-*://*ipfind.co^
 *://*ipgeolocation.io^
 *://*ipify.org^
 *://*ipcalf.com^
@@ -11133,7 +11152,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*events.mapbox.com^
 *://*taboola.com^
 *://*moatadr.com^
-*://*braze.eu^
 *://*getsocial.im^
 *://*clickadilla.com^
 *://*titanads*.com^
