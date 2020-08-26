@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1262
+! Version: 1263
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
-! Last Modified: Monday, August 24, 2020
+! Last Modified: Tuesday, August 25, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -13,6 +13,7 @@
 @@*/advertisement.js$domain=softgames.de|softgames.com
 @@/monetization.js$domain=bitchute.com
 @@qver=*.pagespeed.$domain=altpress.com
+@@||cta-service-cms2.hubspot.com^
 @@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
@@ -132,7 +133,7 @@ kgw.com#@#[class*="__ad"]
 ! Popup redirects
 /.+\.(space|buzz|rest|top|wang|tk|gq|london|ryukyu|cf|ml|men|gdn|work|click|loan|top|ga|agency|biz|country|stream|download|xin|gdn|jetzt|racing|win|bid|vip|ren|kim|mom|party|review|trade|date|accountant|accountants|pro|info|xyz|xxx|adult)\/(redirect)/
 ! Common tracking domains (domains like chanalytics.example.com or stats.example.com)
-/^http(s)?:\/\/(wompanalytics|chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica|salesiq|app-analytics|app-analytics-v1|app-analytics-v2)\..+\..+$/$all
+/^http(s)?:\/\/(advertising-tracker|wompanalytics|chanalytics|analytics|analyticsv2|clickfunnels|clicktale|clickthru|clicktracker|collect|collector|collection|cookietracker|count|counter|counters|flashstats|ga|ga-beacon|hit|hits|hitwebes|hits-secure|track|tracker|tracking|trk|itracking|ptracker|metric|metrics|metrics-api|ping|pings|pipe-collect|pipe-collector|pix|pixel|stat|stat1|stat2|stat3|stat4|stat5|stats|stats1|stats2|stats3|stats4|stats5|stats-dc1|stats-factory|targeting|telemetry|thetradedesk-tags|cgicounter|ipcounter|adfox|appmetrica|salesiq|app-analytics|app-analytics-v1|app-analytics-v2)\..+\..+$/$all
 ! Popups
 /^http(s)?:\/\/(ppcnt)\..{2,3}/$third-party,popup,popunder
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
@@ -743,6 +744,28 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||abovemarket.com^
+||gettets.club^
+||desktimmer.com^
+||f1272serve.xyz^
+||pstreetex.com^
+||itsup.com^
+||matomo.adguard.com^
+||lauk.icu^
+||inheritwalter.com^
+||lrysiw.com^
+||l7nq2jukv.com^
+||searchads-old.apple.com^
+||piwik-*.apple.com^
+||loadonenot.online^
+||duckduckgoo.com^
+||sheiswaitingforu.net^
+||sloffer.link^
+||vfghe.com^
+||asldating.link^
+||arthyadtracker.info^
+||onlinephilippinesmanning.com^
+||arthyredir.com^
 ||advicelion.com^
 ||gazo.space^
 ||tidint.pro^
@@ -4617,7 +4640,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cointracking.info^
 ||collect-*-*.myhomescreen.tv^
 ||ciscobinary.openh264.org^
-||hubspot.net^
 ||cognito-identity.*.amazonaws.com^
 ||config.uca.cloud.unity3d.com^
 ||clad.perfectcorp.com^
@@ -6866,7 +6888,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ipapi.co^
 ||ip-api.com^
 ||ipdata.co^
-||ipfind.co^
 ||ipgeolocation.io^
 ||ipify.org^
 ||ipcalf.com^
@@ -11423,7 +11444,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||events.mapbox.com^
 ||taboola.com^
 ||moatadr.com^
-||braze.eu^
 ||getsocial.im^
 ||clickadilla.com^
 ||titanads*.com^
@@ -12532,7 +12552,7 @@ appcenter.ms###msccBanner
 modapkdown.com##.fot-fixd
 happymoddownload.com##.fot-fixd
 ||duckduckgo.com/t/
-duckduckgo.com##.sponsored
+duckduckgo.com##.sponsored, .js-results-ads
 realclearpolitics.com##.RC-AD, .RC-AD-SHOW-NOW, .RC-AD-BOX-TOP, #oraPlayer, .gcwp-carousel, .js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
 android.com##.cookie-banner--show.cookie-banner
 maps.me##.cookies-policy_fixed.cookies-policy_show.cookies-policy
@@ -12679,7 +12699,7 @@ space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,g
 
 ! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
 !+ NOT_OPTIMIZED
-$removeparam=__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
+$removeparam=refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh
 duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
@@ -14117,6 +14137,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ?callback=pfMod.saveAdSettings
 ??$document,subdocument
 ?zid=*&pid=*&cturl=*?file_id=*$all
+?ad_provider
 ~Ad~
 -ad-serving
 window.gapwn.get_country
@@ -14730,6 +14751,7 @@ _statsonlineinfo
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
 ##[src*="scfsdvc.com"]
+##[href*="?ad_provider"]
 ##[href*="blacklivesmatters."]
 ##[href*="libedgolart.com"]
 ##[href*="ads.livepromotools.com"]
