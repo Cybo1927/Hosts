@@ -426,6 +426,11 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*px.derstandard.at^
+*://*px.staticfiles.at^
+*://*zxcvads.com^
+*://*youborafds01.com^
+*://*adpro.discoveryeducation.com^
 *://*abovemarket.com^
 *://*gettets.club^
 *://*desktimmer.com^
@@ -1628,7 +1633,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*comscoreresearch.com^
 *://*init.ess.apple.com^
 *://*profile.gc.apple.com^
-*://*userpub.itunes.apple.com^
 *://*init-p01md.apple.com^
 *://*iadsdk.apple.com^
 *://*basejumper.apple.com^
@@ -1649,35 +1653,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*apsu.apple.com^
 *://*apfw.apple.com^
 *://*geo.itunes.apple.com^
-*://*gsp1.apple.com^
-*://*gsp10-ssl.apple.com^
-*://*gsp10-ssl.ls-apple.com.akadns.net^
-*://*gsp10-ssl.ls.apple.com^
-*://*gsp36-ssl.ls-apple.com.akadns.net^
-*://*gsp36-ssl.ls.apple.com^
-*://*gsp47-ssl.ls-apple.com.akadns.net^
-*://*gsp47-ssl.ls.apple.com^
-*://*gsp51-ssl.ls-apple.com.akadns.net^
-*://*gsp51-ssl.ls.apple.com^
-*://*gsp57-ssl-background.ls-apple.com.akadns.net^
-*://*gsp57-ssl-background.ls.apple.com^
-*://*hls.itunes.g.aaplimg.com^
-*://*gsp57-ssl-locus.ls-apple.com.akadns.net^
-*://*gsp57-ssl-locus.ls.apple.com^
-*://*gsp57-ssl-revgeo.ls-apple.com.akadns.net^
-*://*gsp57-ssl-revgeo.ls.apple.com^
-*://*gsp64-ssl.ls-apple.com.akadns.net^
-*://*gsp64-ssl.ls.apple.com^
-*://*gsp9-ssl.apple.com^
-*://*gsp9-ssl.ls-apple.com.akadns.net^
-*://*gspe1-ssl.ls.apple.com^
-*://*gspe11-ssl.ls.apple.com^
-*://*gspe12-ssl.ls.apple.com^
-*://*gspe19-ssl-dualstack.ls-apple.com.akadns.net^
-*://*gspe19-ssl.ls.apple.com^
-*://*gspe21-ssl.ls.apple.com^
-*://*gspe35-ssl.ls-apple.com.akadns.net^
-*://*gspe35-ssl.ls.apple.com^
 *://*guzzoni.apple.com^
 *://*health-assets.cdn-apple.com^
 *://*gs-loc-new.ls-apple.com.akadns.net^
@@ -5108,7 +5083,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*dns*.vodafone.de^
 *://*dns*.vodafone.uk^
 *://*dns*.vodafone.com^
-*://*dspb.akamaiedge.net^
 *://*dn*.t-ipnet.de^
 *://*dtag.de^
 *://*dtag.net^
@@ -5482,7 +5456,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*ecompics.power.oho.lv^
 *://*echosoftinfocom.com^
 *://*etcodes.com^
-*://*ettoday.net^
 *://**adsapi.manhuaren.com^
 *://*economicos.cl^
 *://*enlarget.com^
