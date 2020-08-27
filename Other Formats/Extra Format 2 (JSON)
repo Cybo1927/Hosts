@@ -35,6 +35,26 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
+     "px.derstandard.at" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "px.staticfiles.at" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "zxcvads.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "youborafds01.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
+     "adpro.discoveryeducation.com" : {
+     "ttl" : 60,
+     "redirect" : "127.0.0.1"
+     },
      "abovemarket.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5203,10 +5223,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "userpub.itunes.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "init-p01md.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5287,46 +5303,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "gsp1.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp10-ssl.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp10-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp10-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp36-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp36-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp47-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp47-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp51-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp51-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "gsp57-ssl-background.ls-apple.com.akadns.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -5336,70 +5312,6 @@
      "redirect" : "127.0.0.1"
      },
      "hls.itunes.g.aaplimg.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp57-ssl-locus.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp57-ssl-locus.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp57-ssl-revgeo.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp57-ssl-revgeo.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp64-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp64-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp9-ssl.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gsp9-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe1-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe11-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe12-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe19-ssl-dualstack.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe19-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe21-ssl.ls.apple.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe35-ssl.ls-apple.com.akadns.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "gspe35-ssl.ls.apple.com" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
@@ -19109,10 +19021,6 @@
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
-     "dspb.akamaiedge.net" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
      "dn*.t-ipnet.de" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
@@ -20602,10 +20510,6 @@
      "redirect" : "127.0.0.1"
      },
      "etcodes.com" : {
-     "ttl" : 60,
-     "redirect" : "127.0.0.1"
-     },
-     "ettoday.net" : {
      "ttl" : 60,
      "redirect" : "127.0.0.1"
      },
