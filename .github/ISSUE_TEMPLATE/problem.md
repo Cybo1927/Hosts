@@ -20,6 +20,10 @@ assignees: Cybo1927
   - <!-- (e.g. Firefox) -->
 
 ## If Applicable (You can delete this if you have nothing to put here)
-## Screenshot(s) to show over/under blocking
-## Possible fix
+## Screenshot(s) if possible
+<details><summary>Screenshot(s):</summary>
 
+<!-- Drag screenshot(s) here -->
+
+</details><br/>
+## Possible fix
