@@ -426,6 +426,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*clicksaddiction.com^
 *://*px.derstandard.at^
 *://*px.staticfiles.at^
 *://*zxcvads.com^
@@ -7435,7 +7436,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*local-analytics.uberinternal.com^
 *://*localads-statistics.maps.me^
 *://*liveinternetstatistics.ws^
-*://*lever.co^
 *://*livechatvalue.com^
 *://*sumome.com^
 *://*locator-svc.subway.com^
@@ -9945,7 +9945,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*tribl.io^
 *://*telemetry.*.quicinc.com^
 *://*trac.torproject.org^
-*://*touchtype-fluency.com^
 *://*thedoctopdf.com^
 *://*talkwalker.com^
 *://*thepromoexperts.com^
