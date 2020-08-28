@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1264
+! Version: 1265
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
-! Last Modified: Thursday, August 27, 2020
+! Last Modified: Friday, August 28, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -310,10 +310,8 @@ arenavision.in##+js(nobab)
 
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
 *##body:style(overflow:visible !important)
-*##body:style(overflow-y:auto !important)
 ! Annoyance on fullscreen videos
 youtube.com#@#body:style(overflow:visible !important)
-youtube.com#@#body:style(overflow-y:auto!important)
 
 ! Content Security Policies
 ||*^$csp=prefetch-src 'none'; 'upgrade-insecure-requests';
@@ -744,6 +742,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||clicksaddiction.com^
 ||px.derstandard.at^
 ||px.staticfiles.at^
 ||zxcvads.com^
@@ -7727,7 +7726,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||local-analytics.uberinternal.com^
 ||localads-statistics.maps.me^
 ||liveinternetstatistics.ws^
-||lever.co^
 ||livechatvalue.com^
 ||sumome.com^
 ||locator-svc.subway.com^
@@ -10237,7 +10235,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||tribl.io^
 ||telemetry.*.quicinc.com^
 ||trac.torproject.org^
-||touchtype-fluency.com^
 ||thedoctopdf.com^
 ||talkwalker.com^
 ||thepromoexperts.com^
@@ -14081,7 +14078,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */*ads_banner.swf
 */*_advertising_*.swf
 */cookiebar-latest.js
-*/advagg_js/
 */gscounters.sendReport?
 */arscode-ninja-popups/
 */personalization?client_id=
