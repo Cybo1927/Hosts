@@ -1,7 +1,6 @@
 /// test.js
 (function() {
-'use strict'; 
-
-    console.log("Test");
-
+    if ( window === window.top ) {
+        console.log("Test");
+    }
 })();
