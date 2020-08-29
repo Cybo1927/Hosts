@@ -1,8 +1,9 @@
 /// test.js
-(function() {
+(() => {
+		'use strict';
 
-   if (window.location.protocol !== 'https:') {
-    window.location.protocol = 'https:';
+function https(){
+    window.location.replace("https:" + window.location.hostname + window.location.pathname);
 }
    
 })();
