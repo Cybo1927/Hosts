@@ -1,9 +1,9 @@
 /// test.js
 (() => {
-		'use strict';
+'use strict';
 
 function https(){
-    window.location.replace("https:" + window.location.hostname + window.location.pathname);
+    location.replace('https:' + location.hostname + location.pathname + location.search + location.hash);
 }
    
 })();
