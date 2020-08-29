@@ -2,8 +2,14 @@
 (() => {
 'use strict';
 
-function https(){
-    location.replace('https:' + location.hostname + location.pathname + location.search + location.hash);
+if (window.location.protocol == 'http:') { 
+          
+    window.location.href =  
+        window.location.href.replace('http:', 'https:'); 
+}  
+else
+    (window.location.protocol == "https:") { 
+        console.log("Accessing website via secure protocol"); 
 }
    
 })();
