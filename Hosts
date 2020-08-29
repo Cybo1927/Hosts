@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1266
+! Version: 1267
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
 ! Last Modified: Saturday, August 29, 2020
 
@@ -13,6 +13,10 @@
 @@*/advertisement.js$domain=softgames.de|softgames.com
 @@/monetization.js$domain=bitchute.com
 @@qver=*.pagespeed.$domain=altpress.com
+@@/js/canvas.js$domain=browserleaks.com
+@@/webgl.js$domain=browserleaks.com
+@@/rects.js$domain=browserleaks.com
+@@/js/ip.js$domain=browserleaks.com
 @@||cta-service-cms2.hubspot.com^
 @@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
