@@ -1,8 +1,96 @@
+[Adblock Plus]
 ! Title: Cybo's Hosts - Extra Format 1
 ! Expires: 8 hours
 
 ! Blocked domains only
-! No whitelist and no advanced blocking
+! No advanced blocking
+
+! Unbreak
+@@*/ads_test
+@@*/showads.js$domain=softgames.de|softgames.com
+@@*/advertisement.js$domain=softgames.de|softgames.com
+@@/monetization.js$domain=bitchute.com
+@@qver=*.pagespeed.$domain=altpress.com
+@@/js/canvas.js$domain=browserleaks.com
+@@/webgl.js$domain=browserleaks.com
+@@/rects.js$domain=browserleaks.com
+@@/js/ip.js$domain=browserleaks.com
+@@||login-wsprod.deltadental.com^$first-party,script
+@@||cdns*.*.gigya.com^
+@@||cdns.gigya.com^
+@@||cta-service-cms2.hubspot.com^
+@@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
+@@||2o7.net^$domain=totaljobs.com
+@@||redirectingat.com^$image,domain=techradar.com
+@@||inmotion-hosting.evyy.net^$image,domain=techradar.com
+@@||msecnd.net/*.exe
+@@||external-content.duckduckgo.com/iu/?u=$image
+@@||apresolve.spotify.com$domain=open.spotify.com
+@@||redirector.gvt1.com/*/android/studio/
+@@||translate.googleapis.com/translate_a/
+@@||192.168.*.*$important
+@@||haberler.com$image
+@@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
+@@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
+@@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
+@@||undefined/g00/$domain=sportingnews.com
+@@||api.emsicc.com/sites/*
+@@||static.hotjar.com/$domain=emsicc.com/assessment?
+@@||pandora.com/web-version/*/ads.json?
+@@||external-preview.redd.it/*.gif
+@@||apis.google.com/js/platform.js$domain=graspablemath.com
+@@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
+@@||facebook.com/settings/*/?ref=settings
+@@||dailycaller.com/files/images/1x1.trans.gif^$image
+@@||pandora.com/web-client-assets/d_*.
+@@||pandora.com/*/adserver
+@@||encrypted-tbn*.gstatic.com$domain=google.
+@@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
+@@||moatads.com/*.js$domain=hulu.com
+@@||content-images.p-cdn.com/images^$image
+@@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
+@@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
+@@||ssl.gstatic.com/*/common/netcheck.gif?
+@@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+@@||maps.gstatic.com^$image
+@@||adobedtm.com/launch-*
+@@||apis.google.com/_/scs/*
+@@||link.theplatform.com^$xmlhttprequest
+@@||nbc.com/generetic/scripts/ads.js
+@@||totaljerkface.com/adplayer/ads.js
+@@||player.theplatform.com
+@@||media-cdn.tripadvisor.com
+@@||iheart.com
+@@||services.gfe.nvidia.com
+@@||download.gfe.nvidia.com
+@@||clients2.googleusercontent.com
+@@||*-sponsored.dfw.vcdn.att-idns.net
+@@||yospace-directv.akamaized.net
+@@||ads-e-darwin.hulustream.com
+@@||http-v-darwin.hulustream.com
+@@||pandora.com$genericblock
+@@||youtube.com$generichide
+@@||duckduckgo.com$generichide
+@@||accounts.google.com$document
+@@||mediaite.com^$elemhide
+@@||zdnet.com^$generichide
+@@||google.com^$ehide
+@@||forbes.com^$ehide
+@@||cdc.gov^$ehide
+@@||kershaw.kaiusa.com^$generichide
+mediaite.com#@#^script:has-text(adsbygoogle)
+google.com#@#^script:has-text(navigator.sendBeacon)
+google.com#@#^script:has-text(window.ga)
+pandora.com#@#[class$="Ads"]:not(html):not(body)
+foxnews.com#@#.cookies
+cnn.com#@#[class*="gdpr"]
+youtube.com#@#offer-module
+reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
+kgw.com#@#[class*="__ad"]
+
+! Seems to deliver ads but also legit content on cnet
+@@||sdad.guru
+!
 
 ! This is the main hosts file but || was replaced with *://*
 ! This was made to help with blocking on archive.org where normal blocking with 0.0.0.0, 127.0.0.1, and || wont get the
@@ -426,6 +514,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*sharpguard.club^
+*://*githb.com^
+*://*adstatic.com^
+*://*adstatic.com.*.belugacdn.com^
+*://*osano.com^
+*://*danv01ao0kdr2.cloudfront.net^
 *://*clicksaddiction.com^
 *://*px.derstandard.at^
 *://*px.staticfiles.at^
@@ -10419,7 +10513,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*u2tshop.ru^
 *://*urchin.com^
 *://*userlocal.jp^
-*://*typekit.net^
 *://*uedata.amazon.com^
 *://*uarating.com^
 *://*ublock.org^
