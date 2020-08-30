@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1267
+! Version: 1268
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
-! Last Modified: Saturday, August 29, 2020
+! Last Modified: Sunday, August 30, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -17,6 +17,9 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||login-wsprod.deltadental.com^$first-party,script
+@@||cdns*.*.gigya.com^
+@@||cdns.gigya.com^
 @@||cta-service-cms2.hubspot.com^
 @@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
@@ -67,8 +70,6 @@
 @@||yospace-directv.akamaized.net
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
-! Seems to deliver ads but also legit content on cnet
-@@||sdad.guru
 @@||pandora.com$genericblock
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
@@ -88,6 +89,10 @@ cnn.com#@#[class*="gdpr"]
 youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 kgw.com#@#[class*="__ad"]
+
+! Seems to deliver ads but also legit content on cnet
+@@||sdad.guru
+!
 
 ! Badfilter
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
@@ -160,17 +165,18 @@ kgw.com#@#[class*="__ad"]
 ||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
-||taskernet.com/shares/countstats.js^$rewrite=blank-js,important
-||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
+||taskernet.com/shares/countstats.js^$rewrite=blank-js
+||audio-akp-quic-control-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3
 ||audio-akp-quic-control-spotify-com.akamaized.net^$xmlhttprequest
-||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3,important
-||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
-||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3,important
-||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3,important
-||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3,important
-||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3,important
+||audio-sp-sea.spotifycdn.net^$media,redirect=noop-0.1s.mp3
+||heads-ak-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3
+||audio-akp-bbr-spotify-com.akamaized.net^$media,redirect=noop-0.1s.mp3
+||video-fa.scdn.co^$media,redirect=noop-0.1s.mp3
+||video-ak.cdn.spotify.com.akahost.net^$media,redirect=noop-0.1s.mp3
+||video-ak.cdn.spotify.com.eip.akadns.net^$media,redirect=noop-0.1s.mp3
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 ||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js
+||doubleclick.net/instream/ad_status.js$script,redirect=noopjs
 */cleardot.gif$image,redirect-rule=1x1.gif,important
 */cleardot.gif$xmlhttprequest,redirect-rule=1x1.gif,important
 
@@ -746,6 +752,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||sharpguard.club^
+||githb.com^
+||adstatic.com^
+||adstatic.com.*.belugacdn.com^
+||osano.com^
+||danv01ao0kdr2.cloudfront.net^
 ||clicksaddiction.com^
 ||px.derstandard.at^
 ||px.staticfiles.at^
@@ -10713,7 +10725,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||u2tshop.ru^
 ||urchin.com^
 ||userlocal.jp^
-||typekit.net^
 ||uedata.amazon.com^
 ||uarating.com^
 ||ublock.org^
@@ -12653,6 +12664,7 @@ amazon.com##.s-widget.s-border-bottom-none.s-flex-full-width.s-result-item.a-spa
 ||ettoday.net/events/
 ||ettoday.net/dfp/
 ||fedscoop.com/advertising/
+||s.yimg.com/aaq/vzm/
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12665,6 +12677,7 @@ amazon.com##.s-widget.s-border-bottom-none.s-flex-full-width.s-result-item.a-spa
 @@||chrome.google.com^$stealth
 @@||addons.cdn.mozilla.net^$stealth
 @@||proprofs.com^$cookie
+@@||blueforcegear.com$cookie
 
 ! Empty (Try And Help With Anti Adblock Garbage)
 ||googlesyndication.com^$empty,important
@@ -12677,7 +12690,7 @@ space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,g
 
 ! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
 !+ NOT_OPTIMIZED
-$removeparam=/__twitter_impression|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh/i
+$removeparam=/.done|guce_referrer|guce_referrer_sig|adCount|__twitter_impression|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh/i
 duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
 search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
 youtube.com$removeparam=origin
@@ -13191,6 +13204,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/comscore_beacon/
+*/analyticsmediator.
+*/analytics-0*.
 */performance_metrics
 */ad-arc-ears/
 */*-geo.json
@@ -14142,6 +14158,7 @@ analytics-events
 *:*/clear.gif
 *trackemailout*
 *adobe.target*$script
+*?adCount
 ?adname=
 ?ga_action
 ?tracker=
@@ -14565,13 +14582,14 @@ _statsonlineinfo
 *#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#div:has-text(/(Microsoft Security Tollfree +1-8|Microsoft Security Tollfree: +1-8)/)
-##.right:has-text(/advertisement/i)
-##.left:has-text(/advertisement/i)
-##div.content_aside:has-text(/advert/i)
-##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
-##.outer-item:has-text(/advert/i)
-###side_content:has-text(/advert/i)
-##.caption:has-text(/advert/i)
+*##.right:has-text(/advertisement/i)
+*##.left:has-text(/advertisement/i)
+*##div.content_aside:has-text(/advert/i)
+*##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
+*##.outer-item:has-text(/advert/i)
+*###side_content:has-text(/advert/i)
+*##.caption:has-text(/advert/i)
+*###modal-outer:has-text(/unblock ads/i)
 ##[data-ads-type]
 ##[data-ad="true"]
 ##[data-empty="true"]
@@ -14665,8 +14683,6 @@ _statsonlineinfo
 ##[class*="AdFrame"]
 ##[id*="adblock-"]
 ##[class*="adblock-"]
-##[id*="newsletter-"]
-##[class*="newsletter-"]
 ##[id*="subscribe-panel"]
 ##[class*="subscribe-panel"]
 ##[id*="zmgad-"]
