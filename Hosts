@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1268
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.2K (uBO)
-! Last Modified: Sunday, August 30, 2020
+! Version: 1269
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
+! Last Modified: Monday, August 31, 2020
 
 ! Unbreak
 @@*/ads_test
@@ -177,8 +177,8 @@ kgw.com#@#[class*="__ad"]
 ||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 ||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js
 ||doubleclick.net/instream/ad_status.js$script,redirect=noopjs
-*/cleardot.gif$image,redirect-rule=1x1.gif,important
-*/cleardot.gif$xmlhttprequest,redirect-rule=1x1.gif,important
+*/cleardot.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
+*/netcheck.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
 
 ! Remove Attribute (uBlock Origin)
 *##+js(ra, ping)
@@ -484,6 +484,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=2506&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+||whicherinc.club^$popup,popunder
+||installnow.xyz^$popup,popunder
+||intellipopup.com^$popup,popunder
+||secureconnection.club^$popup,popunder
+||coconut.rocks^$popup,popunder
+||cryptocoinsad.com^$popup,popunder
 ||p.1ts11.top^$popup,popunder
 ||hotday.biz^$popup,popunder
 ||nudismphoto.top^$popup,popunder
@@ -752,6 +758,21 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||silkenthreadiness.info^
+||a-mo.net^
+||basketballbelieve.com^
+||event-listener.air.tv^
+||events.air.tv^
+||arlottencert.club^
+||fatwalkinger.club^
+||whicherinc.club^
+||installnow.xyz^
+||activation.one^
+||zetadeo.com^
+||secureconnection.club^
+||coconut.rocks^
+||cryptocoinsad.com^
+||1xbtc.io^
 ||sharpguard.club^
 ||githb.com^
 ||adstatic.com^
@@ -1719,7 +1740,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||martafatass.pro^
 ||cconseent.info^
 ||redirector.brave.com^
-||conncheck.opensuse.org^
 ||spectrum.gettyimages.com^
 ||alleni.com^
 ||alleninteractions.com^
@@ -1831,7 +1851,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||blueparrot.media^
 ||ads.ndtv1.com^
 ||bizzabo.com^
-||oath.cloud^
 ||collector.*.mi.com^
 ||*-stat.appmifile.com^
 ||eample.com^
@@ -3411,7 +3430,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||analytics.twitter.com^
 ||analytics.net^
 ||analytics.teksystems.com^
-||accenture.com^
 ||adservices.net^
 ||adservice.com^
 ||analytic.herokuapp.com^
@@ -4629,7 +4647,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||collecting.click^
 ||cointracking.info^
 ||collect-*-*.myhomescreen.tv^
-||ciscobinary.openh264.org^
 ||cognito-identity.*.amazonaws.com^
 ||config.uca.cloud.unity3d.com^
 ||clad.perfectcorp.com^
@@ -5962,7 +5979,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||upscore.com^
 ||freeweb.siol.net^
 ||getclicky.com^
-||footprint.net^
 ||f1-na.readspeaker.com^
 ||fave.co^
 ||freevirusprotection.org^
@@ -12665,6 +12681,8 @@ amazon.com##.s-widget.s-border-bottom-none.s-flex-full-width.s-result-item.a-spa
 ||ettoday.net/dfp/
 ||fedscoop.com/advertising/
 ||s.yimg.com/aaq/vzm/
+dailycaller.com##.adcontainer
+||bing.com/rp/*.br.js$third-party
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -13204,6 +13222,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/arlinablock.
+*/count.php
 */comscore_beacon/
 */analyticsmediator.
 */analytics-0*.
@@ -14143,6 +14163,8 @@ analytics-events
 -ad-$domain=~github.com,~gitlab.com
 -v6exp3-
 -page-url=
+&TYPE=Event.TabFocusChanged*
+&Type=Event.ClientInst*
 &advertisement&
 &action=js_stats
 &isp=
@@ -14585,7 +14607,6 @@ _statsonlineinfo
 *##.right:has-text(/advertisement/i)
 *##.left:has-text(/advertisement/i)
 *##div.content_aside:has-text(/advert/i)
-*##div > p:has-text(/advert(isement)?|cookies/i):upward(1)
 *##.outer-item:has-text(/advert/i)
 *###side_content:has-text(/advert/i)
 *##.caption:has-text(/advert/i)
@@ -14598,6 +14619,8 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[class*="adm-container"]
+##[id*="adm-container"]
 ##[class*="adblock-whitelist"]
 ##[id*="adblock-whitelist"]
 ##[class*="cookieconsent"]
