@@ -246,6 +246,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=2506&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+*://*whicherinc.club^$popup,popunder
+*://*installnow.xyz^$popup,popunder
+*://*intellipopup.com^$popup,popunder
+*://*secureconnection.club^$popup,popunder
+*://*coconut.rocks^$popup,popunder
+*://*cryptocoinsad.com^$popup,popunder
 *://*p.1ts11.top^$popup,popunder
 *://*hotday.biz^$popup,popunder
 *://*nudismphoto.top^$popup,popunder
@@ -514,6 +520,21 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*silkenthreadiness.info^
+*://*a-mo.net^
+*://*basketballbelieve.com^
+*://*event-listener.air.tv^
+*://*events.air.tv^
+*://*arlottencert.club^
+*://*fatwalkinger.club^
+*://*whicherinc.club^
+*://*installnow.xyz^
+*://*activation.one^
+*://*zetadeo.com^
+*://*secureconnection.club^
+*://*coconut.rocks^
+*://*cryptocoinsad.com^
+*://*1xbtc.io^
 *://*sharpguard.club^
 *://*githb.com^
 *://*adstatic.com^
@@ -1504,7 +1525,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*martafatass.pro^
 *://*cconseent.info^
 *://*redirector.brave.com^
-*://*conncheck.opensuse.org^
 *://*spectrum.gettyimages.com^
 *://*alleni.com^
 *://*alleninteractions.com^
@@ -1616,7 +1636,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*blueparrot.media^
 *://*ads.ndtv1.com^
 *://*bizzabo.com^
-*://*oath.cloud^
 *://*collector.*.mi.com^
 *://**-stat.appmifile.com^
 *://*eample.com^
@@ -3198,7 +3217,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*analytics.twitter.com^
 *://*analytics.net^
 *://*analytics.teksystems.com^
-*://*accenture.com^
 *://*adservices.net^
 *://*adservice.com^
 *://*analytic.herokuapp.com^
@@ -4416,7 +4434,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*collecting.click^
 *://*cointracking.info^
 *://*collect-*-*.myhomescreen.tv^
-*://*ciscobinary.openh264.org^
 *://*cognito-identity.*.amazonaws.com^
 *://*config.uca.cloud.unity3d.com^
 *://*clad.perfectcorp.com^
@@ -5750,7 +5767,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*upscore.com^
 *://*freeweb.siol.net^
 *://*getclicky.com^
-*://*footprint.net^
 *://*f1-na.readspeaker.com^
 *://*fave.co^
 *://*freevirusprotection.org^
