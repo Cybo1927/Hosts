@@ -6,6 +6,7 @@
 ! No advanced blocking
 
 ! Unbreak
+@@*/react-$script,domain=tinkercad.com
 @@*/ads_test
 @@*/showads.js$domain=softgames.de|softgames.com
 @@*/advertisement.js$domain=softgames.de|softgames.com
@@ -15,6 +16,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
 @@||cdns.gigya.com^
@@ -232,6 +234,7 @@ kgw.com#@#[class*="__ad"]
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+*://*sqreen.io^$third-party
 *://*atl-paas.net^$third-party,domain=~atlassian.com
 *://*cnc.cdn.dopc.cz^$domain=~tiscali.cz
 *://*ffjjti.frl$third-party,domain=~mp3juices.cc
@@ -520,6 +523,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*cmg.com^
+*://*sa135.whio.com^
+*://*events.launchdarkly.com^
+*://*squirrelhands.com^
+*://*stockdio.com^
+*://*mysp.ac^
 *://*silkenthreadiness.info^
 *://*a-mo.net^
 *://*basketballbelieve.com^
@@ -8270,7 +8279,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*offroadoutlaws.online^
 *://*owneriq.com^
 *://*orangeadvertising.fr^
-*://*oath.com^
 *://*orangeads.fr^
 *://*ow1.res.office365.com^
 *://*4wnetwork.com^
