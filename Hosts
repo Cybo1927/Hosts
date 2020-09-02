@@ -3,11 +3,12 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1269
+! Version: 1270
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
-! Last Modified: Monday, August 31, 2020
+! Last Modified: Tuesday, September 1, 2020
 
 ! Unbreak
+@@*/react-$script,domain=tinkercad.com
 @@*/ads_test
 @@*/showads.js$domain=softgames.de|softgames.com
 @@*/advertisement.js$domain=softgames.de|softgames.com
@@ -17,6 +18,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
 @@||cdns.gigya.com^
@@ -470,6 +472,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+||sqreen.io^$third-party
 ||atl-paas.net^$third-party,domain=~atlassian.com
 ||cnc.cdn.dopc.cz^$domain=~tiscali.cz
 ||ffjjti.frl$third-party,domain=~mp3juices.cc
@@ -758,6 +761,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||cmg.com^
+||sa135.whio.com^
+||events.launchdarkly.com^
+||squirrelhands.com^
+||stockdio.com^
+||mysp.ac^
 ||silkenthreadiness.info^
 ||a-mo.net^
 ||basketballbelieve.com^
@@ -8482,7 +8491,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||offroadoutlaws.online^
 ||owneriq.com^
 ||orangeadvertising.fr^
-||oath.com^
 ||orangeads.fr^
 ||ow1.res.office365.com^
 ||4wnetwork.com^
@@ -12356,7 +12364,6 @@ yahoo.com/_td_api?_appletType=viewer
 ||mail.yahoo.com/d/video_api/getVideos
 ||mail.yahoo.com/d/log
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
-mail.yahoo.com##li:has-text(Ad)
 mail.yahoo.com###theAd, #mega-banner, .darla, #browserExtensionPromotionBanner, .ads_reserve_space, #LeadAd-0-ComboAd-Proxy
 yahoo.com##li[data-test-id="infinite-scroll-AD"]
 
@@ -13222,6 +13229,10 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/csp-violations/
+*/api/tracking
+*/v*/analytics/?event
+*/api/classic-collection/
 */arlinablock.
 */count.php
 */comscore_beacon/
@@ -14058,8 +14069,8 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */ads.json
 */ad_manager
 */infos.ads?
-*/gtag/analytics.
-*/gtag.js
+*/gtag/$script,redirect=noopjs
+*/gtag.$script,redirect=noopjs
 */advert-amazon-secret?
 */banner/videos/player.htm?
 */plugin/banner/videos/*
@@ -14074,7 +14085,7 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */e.mtrack.cryfe.js
 */sponsors/ads/
 */game-analytics
-*/gtm.js
+*/gtm.$script,redirect=noopjs
 */rsya-tag-users/
 */myvids/nb/thephpfile.php
 */traffic_return.php
@@ -14138,7 +14149,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */AntiAdblock/
 */adclick/
 */mobAdverSSL.html
-*/gtag.$script
 */clk.gif
 */adx_iframe_
 */ad-frame
