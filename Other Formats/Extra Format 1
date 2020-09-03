@@ -16,6 +16,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||duckduckgo.com/t*$stylesheet
 @@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
@@ -80,6 +81,7 @@
 @@||forbes.com^$ehide
 @@||cdc.gov^$ehide
 @@||kershaw.kaiusa.com^$generichide
+skullcandy.com#@#.cookies:style(display:none !important;)
 mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
 google.com#@#^script:has-text(window.ga)
@@ -1762,7 +1764,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*cl4.apple.com^
 *://*metrics.icloud.com^
 *://*time-ios.g.aaplimg.com^
-*://*e17437.dscb.akamaiedge.net^
 *://*attwifi.apple.com^
 *://*parsec.apple.com^
 *://*iad.apple.com^
@@ -1778,10 +1779,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*geo.itunes.apple.com^
 *://*guzzoni.apple.com^
 *://*health-assets.cdn-apple.com^
-*://*gs-loc-new.ls-apple.com.akadns.net^
-*://*gs-loc.apple.com^
-*://*gs-loc.ls-apple.com.akadns.net^
-*://*gs.apple.com.akadns.net^
 *://*gsa.apple.com^
 *://*gsa.apple.com.akadns.net^
 *://*gsas.apple.com^
@@ -6215,7 +6212,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*hblock-check.molinero.dev^
 *://*hexagon-analytics.com^
 *://*honoluluadvertiser.com^
-*://*hootsuite.com^
 *://*hvtd.s3.amazonaws.com^
 *://*hyprmx.com^
 *://*hscta.net^
