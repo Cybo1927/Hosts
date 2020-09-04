@@ -16,20 +16,20 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||niagarawater.com^$generichide
 @@||duckduckgo.com/t*$stylesheet
 @@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
 @@||cdns.gigya.com^
 @@||cta-service-cms2.hubspot.com^
-@@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
+@@||images-na.ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
 @@||msecnd.net/*.exe
 @@||external-content.duckduckgo.com/iu/?u=$image
 @@||apresolve.spotify.com$domain=open.spotify.com
-@@||redirector.gvt1.com/*/android/studio/
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
@@ -525,6 +525,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*advrstcdn.com^
+*://*crashes.owhealth.com^
 *://*cmg.com^
 *://*sa135.whio.com^
 *://*events.launchdarkly.com^
@@ -9052,7 +9054,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*rb-typeahead.appspot.com^
 *://*realify.com^
 *://*tidaltv.com^
-*://*redirector.gvt1.com^
 *://*revenuedirect.com^
 *://*servecounterstrike.com^
 *://*neg.bg^
