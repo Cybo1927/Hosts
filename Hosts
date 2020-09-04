@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1271
+! Version: 1272
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
-! Last Modified: Thursday, September 3, 2020
+! Last Modified: Friday, September 4, 2020
 
 ! Unbreak
 @@*/react-$script,domain=tinkercad.com
@@ -18,20 +18,20 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||niagarawater.com^$generichide
 @@||duckduckgo.com/t*$stylesheet
 @@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
 @@||cdns.gigya.com^
 @@||cta-service-cms2.hubspot.com^
-@@||images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_
+@@||images-na.ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
 @@||msecnd.net/*.exe
 @@||external-content.duckduckgo.com/iu/?u=$image
 @@||apresolve.spotify.com$domain=open.spotify.com
-@@||redirector.gvt1.com/*/android/studio/
 @@||translate.googleapis.com/translate_a/
 @@||192.168.*.*$important
 @@||haberler.com$image
@@ -157,6 +157,8 @@ kgw.com#@#[class*="__ad"]
 /^https(s)?:\/\/.+\/click(s)?\/.{75,}$/$all
 ! Sketchy sites popups
 /^http:\/\/.+\..+\/.+\.php/$popup,popunder
+! Facebook Tracking
+/\/(cdn|js)\/(fb)\.[0-9a-z]{8,}\.(min\.)?(js)/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -239,6 +241,12 @@ arenavision.in##+js(nobab)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js
+
+! Redirect to neutered Google Analytics 
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
+
+! Redirect to neutered Google Analytics Experiments
+||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
 
 ! Examples of what is fixed by even an unfilled dummy API:
 ! https://twitter.com/kenn_butler/status/709163241021317120
@@ -763,6 +771,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||advrstcdn.com^
+||crashes.owhealth.com^
 ||cmg.com^
 ||sa135.whio.com^
 ||events.launchdarkly.com^
@@ -9264,7 +9274,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||rb-typeahead.appspot.com^
 ||realify.com^
 ||tidaltv.com^
-||redirector.gvt1.com^
 ||revenuedirect.com^
 ||servecounterstrike.com^
 ||neg.bg^
@@ -12686,6 +12695,9 @@ amazon.com##.s-widget.s-border-bottom-none.s-flex-full-width.s-result-item.a-spa
 ||s.yimg.com/aaq/vzm/
 dailycaller.com##.adcontainer
 ||bing.com/rp/*.br.js$third-party
+nypost.com##.nyp-sitewide-notice
+business.windstream.com###ws-qual-form-modal-container
+addictivetips.com##.ggnoads
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
