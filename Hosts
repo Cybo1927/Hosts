@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1273
+! Version: 1274
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
 ! Last Modified: Saturday, September 5, 2020
 
@@ -12737,8 +12737,8 @@ walla.co.il##li > [href*="shw.co.il"]
 ||tibacta.com^$empty,important
 ||atgsvcs.com^$empty,important
 
-! Never found a site that uses this for anything other than tracking
-#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } });
+! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
+#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
 ! Can help fix ReCAPTCHA detecting you use an ad/content blocker and giving you worse CAPTCHAs
 google.*,gstatic.*#%#Object.defineProperty(navigator, 'plugins', { get: function() { return 'undefined'; } });
 
