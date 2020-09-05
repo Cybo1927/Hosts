@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1272
+! Version: 1273
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
-! Last Modified: Friday, September 4, 2020
+! Last Modified: Saturday, September 5, 2020
 
 ! Unbreak
 @@*/react-$script,domain=tinkercad.com
@@ -18,6 +18,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||foxnews.com$generichide
 @@||niagarawater.com^$generichide
 @@||duckduckgo.com/t*$stylesheet
 @@||socialize.gigya.com^
@@ -482,6 +483,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+||firebaseio.com^$domain=walla.co.il
 ||sqreen.io^$third-party
 ||atl-paas.net^$third-party,domain=~atlassian.com
 ||cnc.cdn.dopc.cz^$domain=~tiscali.cz
@@ -497,6 +499,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=2506&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+||cleverpush.com^$third-party
 ||whicherinc.club^$popup,popunder
 ||installnow.xyz^$popup,popunder
 ||intellipopup.com^$popup,popunder
@@ -771,6 +774,21 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||selectmedia.asia^
+||adtcdn.com^
+||brightmountainmedia.com^
+||mediahouse.inc^
+||wildskymedia.com^
+||oceanside.media^
+||onetag-sys.com^
+||quantumdex.io^
+||smrtb.com^
+||152media.com^
+||cliengo.com^
+||browsiprod.com^
+||behindyou.cf^
+||campaigns.yad2.co.il^
+||unknowncrate.com^
 ||advrstcdn.com^
 ||crashes.owhealth.com^
 ||cmg.com^
@@ -12667,8 +12685,6 @@ townhall.com##.owl-drag, .owl-carousel, .sc.article-actions-footer, .thm-piano-e
 ||washingtonpost.com/*/pwapi-proxy.min.js
 ||cdnjs.cloudflare.com/ajax/libs/fastclick/
 camrabbit.com##div.notifier-wrapper
-open.spotify.com##[class*="_"]:has-text(Cookie policy)
-open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > [class]:has-text(Preview of Spotify)
 washingtonpost.com##[class*="pb-lgmod"]
 anysex.com##.no_pop.center, .content_right > .no_pop, .clear_both
 reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
@@ -12698,6 +12714,9 @@ dailycaller.com##.adcontainer
 nypost.com##.nyp-sitewide-notice
 business.windstream.com###ws-qual-form-modal-container
 addictivetips.com##.ggnoads
+walla.co.il##li > [href*="b2c.we-sure.co.il"]
+walla.co.il##li > [href*="shw.co.il"]
+||platform.twitter.com/anywhere.js
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -12717,6 +12736,11 @@ addictivetips.com##.ggnoads
 ||octoclick.net^$empty,important
 ||tibacta.com^$empty,important
 ||atgsvcs.com^$empty,important
+
+! Never found a site that uses this for anything other than tracking
+#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } });
+! Can help fix ReCAPTCHA detecting you use an ad/content blocker and giving you worse CAPTCHAs
+google.*,gstatic.*#%#Object.defineProperty(navigator, 'plugins', { get: function() { return 'undefined'; } });
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
 space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
@@ -13237,6 +13261,14 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 ! ExoClick
 *.com/be_fl.js$script,redirect=noopjs
 !
+*/ads_prebid$script,redirect=noopjs
+*/atmedia_ms_v*$script,redirect=noopjs,third-party
+*/adzone.
+*/adunit/
+*/prebidlink/
+*/adzone-io/
+*/email/counter
+*/widgetAd/
 */google_tag-$script,redirect=noopjs
 */google_tag.$script,redirect=noopjs
 *.gif?pingver=$image,redirect=1x1.gif
@@ -14234,6 +14266,7 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.cleverpush-backdrop:style(display:none !important;)
 ##.essb-flyin-right:style(display:none !important;)
 ##.essb-flyin-content:style(display:none !important;)
 ##.essb-flyin:style(display:none !important;)
