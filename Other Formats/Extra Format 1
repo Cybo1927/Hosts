@@ -16,6 +16,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||api-auth-mobile.hootsuite.com^
 @@||foxnews.com$generichide
 @@||niagarawater.com^$generichide
 @@||duckduckgo.com/t*$stylesheet
@@ -528,6 +529,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*ping.*.microsoft.com^
+*://*ping.*.*.microsoft.com^
+*://*telemetry.*.microsoft.com^
+*://*telemetry.*.*.microsoft.com^
+*://*027wuhan.com^
+*://*027wuhan.net^
 *://*selectmedia.asia^
 *://*adtcdn.com^
 *://*brightmountainmedia.com^
@@ -4460,7 +4467,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*collecting.click^
 *://*cointracking.info^
 *://*collect-*-*.myhomescreen.tv^
-*://*cognito-identity.*.amazonaws.com^
 *://*config.uca.cloud.unity3d.com^
 *://*clad.perfectcorp.com^
 *://*codeadnetwork.com^
