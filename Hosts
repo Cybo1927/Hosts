@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1274
+! Version: 1275
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (uBO)
-! Last Modified: Saturday, September 5, 2020
+! Last Modified: Monday, September 7, 2020
 
 ! Unbreak
 @@*/react-$script,domain=tinkercad.com
@@ -18,6 +18,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||api-auth-mobile.hootsuite.com^
 @@||foxnews.com$generichide
 @@||niagarawater.com^$generichide
 @@||duckduckgo.com/t*$stylesheet
@@ -774,6 +775,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||ping.*.microsoft.com^
+||ping.*.*.microsoft.com^
+||telemetry.*.microsoft.com^
+||telemetry.*.*.microsoft.com^
+||027wuhan.com^
+||027wuhan.net^
 ||selectmedia.asia^
 ||adtcdn.com^
 ||brightmountainmedia.com^
@@ -4681,7 +4688,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||collecting.click^
 ||cointracking.info^
 ||collect-*-*.myhomescreen.tv^
-||cognito-identity.*.amazonaws.com^
 ||config.uca.cloud.unity3d.com^
 ||clad.perfectcorp.com^
 ||codeadnetwork.com^
