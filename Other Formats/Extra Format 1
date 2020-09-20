@@ -29,7 +29,6 @@
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
-@@||msecnd.net/*.exe
 @@||external-content.duckduckgo.com/iu/?u=$image
 @@||apresolve.spotify.com$domain=open.spotify.com
 @@||translate.googleapis.com/translate_a/
@@ -254,6 +253,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=2506&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+*://*yassociallya.club^$popup,popunder
+*://*landlordmanoeuvre.com^$popup,popunder
+*://*y0tube.live^$popup,popunder
+*://*invitesuperstitiousadmire.com^$popup,popunder
+*://*regulationprivilegescan.top^$popup,popunder
+*://*ciksolre.net^$popup,popunder
 *://*cleverpush.com^$third-party
 *://*whicherinc.club^$popup,popunder
 *://*installnow.xyz^$popup,popunder
@@ -529,6 +534,31 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+*://*ulukaris.com^
+*://*d3ithbwcmjcxl7.cloudfront.net^
+*://*chocohjuanfhdhf.com^
+*://*ovyiakt1wzqz.com^
+*://*yassociallya.club^
+*://*landlordmanoeuvre.com^
+*://*witstandfridge.com^
+*://*y0tube.live^
+*://*networkadverts.club^
+*://*invitesuperstitiousadmire.com^
+*://*regulationprivilegescan.top^
+*://*ciksolre.net^
+*://*googleoptimize.com^
+*://*mantisadnetwork.com^
+*://*makerads.xyz^
+*://*superficialsquare.com^
+*://*webcontentassessor.global.ssl.fastly.net^
+*://*carbonpay.app^
+*://*freestat.hu^
+*://*onavo.com^
+*://*yyjvimo.com^
+*://*scape.io^
+*://*longitudeads-com.videoplayerhub.com^
+*://*cfdomains.com^
+*://*acsbapp.com^
 *://*ping.*.microsoft.com^
 *://*ping.*.*.microsoft.com^
 *://*telemetry.*.microsoft.com^
@@ -1846,7 +1876,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*cssubmissions-uat.corp.apple.com^
 *://*cssubmissions.apple.com^
 *://*caldav.icloud.com^
-*://*statici.icloud.com^
 *://*pancake.apple.com^
 *://*pancake.cdn-apple.com.akadns.net^
 *://*pancake.g.aaplimg.com^
@@ -3192,7 +3221,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*agkn.com^
 *://*applicationinsights.microsoft.com^
 *://*developermedia.com^
-*://*a.ns.facebook.com^
 *://*adv.speednet.bg^
 *://*spongecell.com^
 *://*ads.stackoverflow.com^
@@ -4154,7 +4182,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*blockadblock.com^
 *://*b.ns.igcdn.com^
 *://*codeonclick.com^
-*://*b.ns.facebook.com^
 *://*bnpsa.g.comcast.net^
 *://*browser.pipe.aria.microsoft.com^
 *://*bkrtx.com^
@@ -4885,7 +4912,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*cutecushion.com^
 *://*crashlytics.com^
 *://*tracking.goodgamestudios.com^
-*://*crisp.chat^
 *://*ctoid.net^
 *://*c.bigmir.net^
 *://*conviva.com^
@@ -6518,7 +6544,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*irs01.com^
 *://*intercomcdn.com^
 *://*introbar.com^
-*://*iubenda.com^
 *://*iyfsearch.com^
 *://*ibario.com^
 *://*instant.page^
@@ -7933,7 +7958,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*spectate.com^
 *://*morehitserver.com^
 *://*matchyip.com^
-*://*msecnd.net^
 *://*media-match.com^
 *://*mob.s.360safe.com^
 *://*microadinc.com^
@@ -8578,7 +8602,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 *://*pagefair.com^
 *://*purch.com^
 *://*pxlgnpgecom-a.akamaihd.net^
-*://*p33-ckdevice.icloud.com^
 *://**-prod.do.*.microsoft.com^
 *://*ping.yoyogames.com^
 *://*pokemon-scramblesp.jp^
