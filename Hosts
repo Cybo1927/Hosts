@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1276
+! Version: 1277
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Sunday, September 20, 2020
+! Last Modified: Wednesday, September 23, 2020
 
 ! Unbreak
 @@*/react-$script,domain=tinkercad.com
@@ -13306,6 +13306,9 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*.gif?ray=
+*/transparent.gif
+*/trustlogo.js
 */platform-telemetry/
 */ads/pop.$script,redirect-rule=noopjs
 */js/pop.$script,redirect-rule=noopjs
@@ -14018,7 +14021,6 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 */js/log.js?
 */js/experiment.js?
 */js/ga.js
-*/cse/cse.js?
 */TOIBNews/breakingnews.html
 */clear1x1.gif
 */1.1/promoted_content/log.json
@@ -14701,7 +14703,6 @@ _statsonlineinfo
 ###adright:style(display:none !important;)
 ##.adsbyxa:style(display:none !important;)
 ###cookie_new:style(display:none !important;)
-*##style:has-text(/adblock|fuckAdBlock|adBlockDetected|bypassAb|arlinablock|detectadnotes/i):remove()
 *#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
 *#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
@@ -14727,6 +14728,8 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
+##[class*="video-ad"]
+##[id*="video-ad"]
 ##[class*="ad-tag"]
 ##[id*="ad-tag"]
 ##[class*="ad-div-"]
