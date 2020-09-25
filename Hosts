@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1277
+! Version: 1278
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Wednesday, September 23, 2020
+! Last Modified: Friday, September 25, 2020
 
 ! Unbreak
 @@*/react-$script,domain=tinkercad.com
@@ -18,6 +18,7 @@
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+@@||yandex.*/clck/$domain=kinopoisk.ru
 @@||api-auth-mobile.hootsuite.com^
 @@||foxnews.com$generichide
 @@||niagarawater.com^$generichide
@@ -783,6 +784,25 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||adfox.yandex.*^
+||adengine.rt.*^
+||adengine.*.rt.*^
+||mostbet.partners
+||top-films.world^
+||easypayments.ch^
+||clicktimes.ru^
+||clicksagent.com^
+||adtraffic.co^
+||mymarketingreports.com^
+||eggflow.com^
+||ocelotbot.com^
+||trafficjunction.com^
+||powerofsearches.com^
+||jdoqocy.com^
+||trovi.com^
+||adless.io^
+||tidafors.xyz^
+||firstrowas.co^
 ||ulukaris.com^
 ||d3ithbwcmjcxl7.cloudfront.net^
 ||chocohjuanfhdhf.com^
@@ -2037,20 +2057,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||dadspms.com^
 ||hadslims.com^
 ||intl.miui.com^
-||smp-device-content.apple.com^
 ||comscoreresearch.com^
-||init.ess.apple.com^
-||profile.gc.apple.com^
-||init-p01md.apple.com^
 ||iadsdk.apple.com^
-||basejumper.apple.com^
-||cl4.apple.com^
 ||metrics.icloud.com^
 ||time-ios.g.aaplimg.com^
 ||attwifi.apple.com^
-||parsec.apple.com^
 ||iad.apple.com^
-||chein-1.apple.com^
 ||stats.gc.apple.com^
 ||advertising.apple.com^
 ||searchads.apple.com^
@@ -2060,66 +2072,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||apsu.apple.com^
 ||apfw.apple.com^
 ||geo.itunes.apple.com^
-||guzzoni.apple.com^
-||health-assets.cdn-apple.com^
-||gsa.apple.com^
-||gsa.apple.com.akadns.net^
-||gsas.apple.com^
-||gsas.apple.com.akadns.net^
-||pancake.apple.com^
-||feedback.apple.com^
-||guzzoni.apple.com^
-||static.ips.apple.com^
-||qtpartners.apple.com^
-||iphonesubmissions.apple.com^
-||iphone-services.apple.com^
-||idiagnostics.apple.com^
-||iphonediags.apple.com^
-||radarsubmissions.apple.com^
-||messagetracer-whitelist.apple.com^
-||icalbridge.apple.com^
-||bugreport.apple.com^
-||redcarpet.apple.com^
-||speedtracer.apple.com^
-||tracerx-radars.apple.com^
-||internalcheck.apple.com^
-||depot.info.apple.com^
-||idmsauth-uat.corp.apple.com^
-||appleconnect-uat.apple.com^
-||appleseed-stage.apple.com^
-||iforgot-uat.apple.com^
-||xseedapps.apple.com^
-||appleseed-temp.apple.com^
-||crucio.apple.com^
-||ac-at.apple.com^
-||iforgott.apple.com^
-||mobile-uat.corp.apple.com^
-||idmswt.corp.apple.com^
-||mobile.apple.com^
-||mobile-bz-mdn.apple.com^
-||privftp.apple.com^
-||mobile-bz-privftp.apple.commdn.apple.com^
-||cssubmissions-uat.corp.apple.com^
-||cssubmissions.apple.com^
-||caldav.icloud.com^
-||pancake.apple.com^
-||pancake.cdn-apple.com.akadns.net^
-||pancake.g.aaplimg.com^
-||partiality.itunes-apple.com.akadns.net^
-||pcr.apple.com^
-||pcr.itunes-apple.com.akadns.net^
-||pd-nk.itunes-apple.com.akadns.net^
-||pipe.cloudapp.aria.akadns.net^
-||pipe.prd.skypedata.akadns.net^
-||seed.siri.apple.com^
-||service.gc-apple.com.akadns.net^
-||service.gc.apple.com^
-||sjc-courier.push-apple.com.akadns.net^
-||static.deviceservices.apple.com^
-||static.ess.apple.com^
-||static.gc.apple.com^
-||swscan.apple.com^
-||tbsc.apple.com^
 ||xp.itunes-apple.com.akadns.net^
 ||zeusmedia.apple.com^
 ||zeusmedia.g.aaplimg.com^
@@ -4687,8 +4639,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cfgr2.com^
 ||csp-collector.appspot.com^
 ||cdn.wetest.qq.com^
-||commnat-cohort-gc.ess.apple.com^
-||commnat-cohort-gc.ess-apple.com.akadns.net^
 ||clientmetrics.kik.com^
 ||clientmetrics-augmentum.kik.com^
 ||clientmetrics-*.amazonaws.com^
@@ -12760,6 +12710,10 @@ brighthubeducation.com##.ezo_ad
 ||yimg.com/*/ads
 m.youtube.com##lazy-list > .item:has-text(AD)
 ||tags.tiqcdn.com/utag/*/utag.js$script,redirect=noopjs
+||kinopoisk.ru/film/*/empty/
+||yandex.ru/beacon
+||k12.com/etc/segmentation.segment.js
+||ff.search.yahoo.com/gossip
 
 ! Begin AdGuard General
 !#if (adguard && !ext_ublock)
@@ -13306,6 +13260,15 @@ brandme-prod.s3.amazonaws.com^$app=com.cw.fullepisodes.android
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*/cleardot.gif$image,redirect=1x1.gif
+*/*/header.js$script,redirect=noopjs
+*/pubads_$script,redirect=noopjs
+*/adscript.js$script,redirect=noopjs
+*/advertising-tags.
+*/collect/sdk
+*/tegna-tracking.
+*/analytics.bundle.
+*/*track_iframe.
 *.gif?ray=
 */transparent.gif
 */trustlogo.js
