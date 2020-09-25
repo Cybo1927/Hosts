@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 13
+! Version: 14
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -33,6 +33,7 @@
 ||face.com^
 ||getspool.com^
 ||atlassolutions.com^
+||cdninstagram.com^
 
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||giphy.com^
