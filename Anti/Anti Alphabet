@@ -1,79 +1,79 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 27
+! Version: 28
 
 ! Google
-||google.^
-||googleapis.^
-||googlevideo.com^
-||googleusercontent.com^
-||*.goog^
-||gstatic.com^
-||ggpht.com^
-||googlezip.net^
-||googlesource.com^
+/.{0,}google\..+/
+||googleapis.com^$all
+||googlevideo.com^$all
+||googleusercontent.com^$all
+||*.goog^$all
+||gstatic.com^$all
+||ggpht.com^$all
+||googlezip.net^$all
+||googlesource.com^$all
 
 ! Hosting
-||appspot.com^
-||youtube.com^
-||blogger.com^
-||ytimg.com^
-||googlehosted.com^
-||firebase.io^
-||googlehosts.org^
-||gvt1.com^
-||blogblog.com^
-||blogspot.com^
+||appspot.com^$all
+||youtube.com^$all
+||blogger.com^$all
+||ytimg.com^$all
+||googlehosted.com^$all
+||firebase.io^$all
+||googlehosts.org^$all
+||gvt1.com^$all
+||blogblog.com^$all
+||blogspot.com^$all
 
 ! Mail
-||gmail.com^
-||googlemail.com^
+||gmail.com^$all
+||googlemail.com^$all
 
 ! Ads
-||doubleclick.net^
-||admob.com^
+||doubleclick.net^$all
+||admob.com^$all
 
 ! Forms
-||forms.gle^
+||forms.gle^$all
 
 ! AMP Project
-||cdn.ampproject.org^
-||ampproject.org^
-||adguard-com.cdn.ampproject.org^
+||cdn.ampproject.org^$all
+||ampproject.org^$all
+||adguard-com.cdn.ampproject.org^$all
 
 ! DNS
-||8.8.8.8^
-||8.8.4.4^
+||8.8.8.8^$all
+||8.8.4.4^$all
 
 ! Misc
-||calicolabs.com^
-||nest.com^
-||gv.com^
-||x.company^
-||verily.com^
-||deepmind.com^
-||waymo.com^
-||abc.xyz^
-||wing.com^
-||sidewalklabs.com^
-||makanipower.com^
-||loon.com^
-||gv.com^
-||chronicle.security^
-||capitalg.com^
-||virustotal.com^
-||fruitninjagame.page.link^
-||google-public-dns-*.google.com^
-||auditrecording-pa.googleapis.com^
-||geller-pa.googleapis.com^
-||withgoogle.com^
-||android.com^
-||tensorflow.org^
-||angular.io^
-||angulardart.dev^
+||calicolabs.com^$all
+||nest.com^$all
+||gv.com^$all
+||x.company^$all
+||verily.com^$all
+||deepmind.com^$all
+||waymo.com^$all
+||abc.xyz^$all
+||wing.com^$all
+||sidewalklabs.com^$all
+||makanipower.com^$all
+||loon.com^$all
+||gv.com^$all
+||chronicle.security^$all
+||capitalg.com^$all
+||virustotal.com^$all
+||fruitninjagame.page.link^$all
+||google-public-dns-*.google.com^$all
+||auditrecording-pa.googleapis.com^$all
+||geller-pa.googleapis.com^$all
+||withgoogle.com^$all
+||android.com^$all
+||tensorflow.org^$all
+||angular.io^$all
+||angulardart.dev^$all
 
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
-||tenor.com^
+||tenor.com^$all
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -81,73 +81,73 @@
 ! http://whois.domaintools.com/izatcloud.com
 ! http://whois.domaintools.com/gpsonextra.net
 ! http://whois.domaintools.com/gpsonextra.com
-||izatcloud.net^
-||izatcloud.com^
-||gpsonextra.net^
-||gpsonextra.com^
+||izatcloud.net^$all
+||izatcloud.com^$all
+||gpsonextra.net^$all
+||gpsonextra.com^$all
 
 ! Third-party
 */GA360.php
 */ajaxCustomerInfoGA
 
-! AdGuard For Android Specific
-121.121.121.121$network
-172.217.9.36$network
-216.58.192.205$network
-216.56.192.205$network
-172.217.4.40$network
-172.217.6.10$network
-172.217.9.67$network
-216.239.35.4$network
-172.217.4.195$network
-35.201.97.85$network
-172.217.8.175$network
-172.217.4.202$network
-172.217.4.46$network
-216.56.192.163$network
-172.217.9.78$network
-216.58.192.142$network
-216.58.192.174$network
-172.217.4.110$network
-172.217.6.110$network
-172.217.5.14$network
-172.217.1.46$network
-172.217.8.174$network
-172.217.4.206$network
-172.217.4.78$network
-172.217.6.14$network
-172.217.0.14$network
-172.217.9.46$network
-34.83.64.96$network
-172.217.8.193$network
-216.58.192.202$network
-172.217.168.206$network
+! IPs
+||121.121.121.121^
+||172.217.9.36^
+||216.58.192.205^
+||216.56.192.205^
+||172.217.4.40^
+||172.217.6.10^
+||172.217.9.67^
+||216.239.35.4^
+||172.217.4.195^
+||35.201.97.85^
+||172.217.8.175^
+||172.217.4.202^
+||172.217.4.46^
+||216.56.192.163^
+||172.217.9.78^
+||216.58.192.142^
+||216.58.192.174^
+||172.217.4.110^
+||172.217.6.110^
+||172.217.5.14^
+||172.217.1.46^
+||172.217.8.174^
+||172.217.4.206^
+||172.217.4.78^
+||172.217.6.14^
+||172.217.0.14^
+||172.217.9.46^
+||34.83.64.96^
+||172.217.8.193^
+||216.58.192.202^
+||172.217.168.206^
 ! Found In Snapchat On Android - https://who.is/whois-ip/ip-address/216.239.36.126
-216.239.36.126$network
+||216.239.36.126^
 ! https://who.is/whois-ip/ip-address/172.217.9.74
-172.217.9.74$network
+||172.217.9.74^
 ! Gboard Tracking
-172.217.9.35$network
+||172.217.9.35^
 ! Phone
-172.217.1.48$network
+||172.217.1.48^
 ! VPN Services
-172.217.4.106$network
+||172.217.4.106^
 ! Pixel Tips
-172.217.6.3$network
+||172.217.6.3^
 ! YouTube App
-172.217.9.86$network
-216.58.192.234$network
+||172.217.9.86^
+||216.58.192.234^
 ! Play Store
-172.217.4.35$network
-216.58.192.163$network
+||172.217.4.35^
+||216.58.192.163^
 ! Gmail
-172.217.0.5$network
+||172.217.0.5^
 ! Calendar
-216.58.192.138$network
+||216.58.192.138^
 ! YouTube
-172.217.1.46$network
+||172.217.1.46^
 ! DNS
-8.8.8.8$network
-8.8.4.4$network
+||8.8.8.8^
+||8.8.4.4^
 [2001:4860:4860::8888]$network
 [2001:4860:4860::8844]$network
