@@ -1,79 +1,79 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 28
+! Version: 29
 
 ! Google
 /.{0,}google\..+/
-||googleapis.com^$all
-||googlevideo.com^$all
-||googleusercontent.com^$all
-||*.goog^$all
-||gstatic.com^$all
-||ggpht.com^$all
-||googlezip.net^$all
-||googlesource.com^$all
+||googleapis.com^$important
+||googlevideo.com^$important
+||googleusercontent.com^$important
+||*.goog^$important
+||gstatic.com^$important
+||ggpht.com^$important
+||googlezip.net^$important
+||googlesource.com^$important
 
 ! Hosting
-||appspot.com^$all
-||youtube.com^$all
-||blogger.com^$all
-||ytimg.com^$all
-||googlehosted.com^$all
-||firebase.io^$all
-||googlehosts.org^$all
-||gvt1.com^$all
-||blogblog.com^$all
-||blogspot.com^$all
+||appspot.com^$important
+||youtube.com^$important
+||blogger.com^$important
+||ytimg.com^$important
+||googlehosted.com^$important
+||firebase.io^$important
+||googlehosts.org^$important
+||gvt1.com^$important
+||blogblog.com^$important
+||blogspot.com^$important
 
 ! Mail
-||gmail.com^$all
-||googlemail.com^$all
+||gmail.com^$important
+||googlemail.com^$important
 
 ! Ads
-||doubleclick.net^$all
-||admob.com^$all
+||doubleclick.net^$important
+||admob.com^$important
 
 ! Forms
-||forms.gle^$all
+||forms.gle^$important
 
 ! AMP Project
-||cdn.ampproject.org^$all
-||ampproject.org^$all
-||adguard-com.cdn.ampproject.org^$all
+||cdn.ampproject.org^$important
+||ampproject.org^$important
+||adguard-com.cdn.ampproject.org^$important
 
 ! DNS
-||8.8.8.8^$all
-||8.8.4.4^$all
+||8.8.8.8^$important
+||8.8.4.4^$important
 
 ! Misc
-||calicolabs.com^$all
-||nest.com^$all
-||gv.com^$all
-||x.company^$all
-||verily.com^$all
-||deepmind.com^$all
-||waymo.com^$all
-||abc.xyz^$all
-||wing.com^$all
-||sidewalklabs.com^$all
-||makanipower.com^$all
-||loon.com^$all
-||gv.com^$all
-||chronicle.security^$all
-||capitalg.com^$all
-||virustotal.com^$all
-||fruitninjagame.page.link^$all
-||google-public-dns-*.google.com^$all
-||auditrecording-pa.googleapis.com^$all
-||geller-pa.googleapis.com^$all
-||withgoogle.com^$all
-||android.com^$all
-||tensorflow.org^$all
-||angular.io^$all
-||angulardart.dev^$all
+||calicolabs.com^$important
+||nest.com^$important
+||gv.com^$important
+||x.company^$important
+||verily.com^$important
+||deepmind.com^$important
+||waymo.com^$important
+||abc.xyz^$important
+||wing.com^$important
+||sidewalklabs.com^$important
+||makanipower.com^$important
+||loon.com^$important
+||gv.com^$important
+||chronicle.security^$important
+||capitalg.com^$important
+||virustotal.com^$important
+||fruitninjagame.page.link^$important
+||google-public-dns-*.google.com^$important
+||auditrecording-pa.googleapis.com^$important
+||geller-pa.googleapis.com^$important
+||withgoogle.com^$important
+||android.com^$important
+||tensorflow.org^$important
+||angular.io^$important
+||angulardart.dev^$important
 
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
-||tenor.com^$all
+||tenor.com^$important
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -81,16 +81,17 @@
 ! http://whois.domaintools.com/izatcloud.com
 ! http://whois.domaintools.com/gpsonextra.net
 ! http://whois.domaintools.com/gpsonextra.com
-||izatcloud.net^$all
-||izatcloud.com^$all
-||gpsonextra.net^$all
-||gpsonextra.com^$all
+||izatcloud.net^$important
+||izatcloud.com^$important
+||gpsonextra.net^$important
+||gpsonextra.com^$important
 
 ! Third-party
 */GA360.php
 */ajaxCustomerInfoGA
 
 ! IPs
+||172.217.1.33^
 ||121.121.121.121^
 ||172.217.9.36^
 ||216.58.192.205^
@@ -122,31 +123,19 @@
 ||172.217.8.193^
 ||216.58.192.202^
 ||172.217.168.206^
-! Found In Snapchat On Android - https://who.is/whois-ip/ip-address/216.239.36.126
 ||216.239.36.126^
-! https://who.is/whois-ip/ip-address/172.217.9.74
 ||172.217.9.74^
-! Gboard Tracking
 ||172.217.9.35^
-! Phone
 ||172.217.1.48^
-! VPN Services
 ||172.217.4.106^
-! Pixel Tips
 ||172.217.6.3^
-! YouTube App
 ||172.217.9.86^
 ||216.58.192.234^
-! Play Store
 ||172.217.4.35^
 ||216.58.192.163^
-! Gmail
 ||172.217.0.5^
-! Calendar
 ||216.58.192.138^
-! YouTube
 ||172.217.1.46^
-! DNS
 ||8.8.8.8^
 ||8.8.4.4^
 [2001:4860:4860::8888]$network
