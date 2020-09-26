@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1280
+! Version: 1281
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Saturday, September 26, 2020
 
@@ -381,6 +381,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+||graph.facebook.com^$domain=~facebook.com
 ||firebaseio.com^$domain=walla.co.il
 ||sqreen.io^$third-party
 ||atl-paas.net^$third-party,domain=~atlassian.com
@@ -679,6 +680,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||airserve.net^
 ||trustnav.com^
 ||census.zorinos.com^
 ||weathercenter.co^
@@ -12637,6 +12639,13 @@ m.youtube.com##lazy-list > .item:has-text(AD)
 ||ff.search.yahoo.com/gossip
 ||lilithgame.com/log
 ||livelyvideo.tv/*/logger
+||graph.facebook.com/*/activities?access_token=&event=
+||graph.facebook.com/*?fields=supports_implicit_sdk_logging
+||brave.com/*/usage*
+||google.com/aclk
+google.com###taw
+google.com###tvcap
+mbl.is##[id*="slot-"] > iframe
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
@@ -12651,6 +12660,10 @@ m.youtube.com##lazy-list > .item:has-text(AD)
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*/metrics.$image,xmlhttprequest
+*/grondal-analytics/
+*/ad_$image
+*/country_ad/
 */api/metrics
 */streamtelemetry
 */cleardot.gif$image,redirect=1x1.gif
@@ -13677,6 +13690,9 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
+##.fancybox-bg:style(display:none !important;)
+##.ticker-ad:style(display:none !important;)
+###cookie-consent:style(display:none !important;)
 ##.cleverpush-backdrop:style(display:none !important;)
 ##.essb-flyin-right:style(display:none !important;)
 ##.essb-flyin-content:style(display:none !important;)
@@ -14387,16 +14403,6 @@ google.*,gstatic.*#%#Object.defineProperty(navigator, 'plugins', { get: function
 
 ! Remove scripts after page loaded from abused TLDs to help stop some forms of click hijacking
 space,buzz,rest,top,wang,tk,gq,london,ryukyu,cf,ml,men,gdn,work,click,loan,top,ga,agency,biz,country,stream,download,xin,gdn,jetzt,racing,win,bid,vip,ren,kim,mom,party,review,trade,date,accountant,accountants,pro,info,xyz,xxx,adult#%#document.addEventListener('DOMContentLoaded', function(){link();});link();function link(){const script = document.querySelectorAll('script');script.forEach(item => item.remove());const noscript = document.querySelectorAll('noscript');noscript.forEach(item => item.remove());}
-
-! Remove tracking parameters in apps (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#removeparam-modifier)
-!+ NOT_OPTIMIZED
-$removeparam=/aqs|sourceid|.done|guce_referrer|guce_referrer_sig|adCount|__twitter_impression|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh/i
-duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
-search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
-youtube.com$removeparam=origin
-google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
-godaddy.com$removeparam=isc
-
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
 *$cookie=/_iub_cs|_pk_id|_pk_ses|_iubenda_session|.{0,}personalization_id.{0,}|AWSELBCORS|articleViews|adCounter|.+_client_tz|geoCC|.+_cloudproxy_.+|popupData|.+_sp_ses.|.+_sp_id.|external_no_cache|XR_PAGE_TYPE|.+_landing|.+_referrer|first_visit|first_visit_src|svSession|.+_cpvisit|.+_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|.+__cfruid|inHouseAds|.+_mooc_sso|.+_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_.+|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|.+_landing_page|http_referrer|.+_device_id|.+_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|.+_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|.+__utmz|.+__utma|.+__utmc|.+__utmb|.+__utmt|.+_ga|uid|.+_gat|PHPSESSID|.+__cfduid|UIDR|pid|uuid2|tuuid|.+_drt_.+|uuidc|.+__gads|ASP.NET_SessionId|anj|.+__atuvc|.+__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|.+__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|.+_cc_cc|.+_cc_id|.+_cc_dc|.+_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|.+__auc|.+__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|.+__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|.+__utmv|.+_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|.+_ym_uid|.+_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|.+__zlcmid|taboola_session_id|taboola_upci|end_user_id|.+__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|.+_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|.+_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|.+_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|lithiumSSO%3Apandora.prod|isp|.+_device_id|ghostmonitor_session_id|.+_orig_referrer|gup_clientid|utag_main|gup_clientid|utag_main|.+_uv3_session|.+_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|.+_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|.+_chartbeat[0-9]|MUID|.+_EDGE_V|.+_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|.+_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_.+|.+_snow_id.|.+_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_.+|popups_session_duration|.+_referrer|.+_pageviews|ReturningSession|CurrentSession|watched|.+_youtube_session|ad_group|.+_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_.+|ezoadgid_.+|ezopvc_.+|ezoref_.+|ezux_et_.+|ezux_lpl_.+|ezux_tos_.+|ezux_ifep_.+|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_.+|.+_ses_.+|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|.+_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_.+|amplitude_.+|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|.+__uts1|0ae10|.+_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|.+__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|.+_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|.+_previous_pathname|areviwes_session|.+_viewhistroy|crak|tracking|.+%40AdobeOrg|.+_gid|.+_gtm_.+/
@@ -14741,6 +14747,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ||216.218.206.125^
 ||216.218.206.126^
 
+!#endif
 ! End AdGuard General
 
 ! Begin AdGuard Apps
@@ -14749,7 +14756,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ! Include network modifiers for Android
 !#if (adguard_app_android && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
 
-!#include https://raw.githubusercontent.com/Cybo1927/Hosts/master/Extra/Network%20Modifiers
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
 @@||mtalk.google.com
@@ -14768,7 +14774,22 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ||tibacta.com^$empty,important
 ||atgsvcs.com^$empty,important
 
+! https://adguard.com/en/blog/one-does-not-simply-delete-facebook.html
+||graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
+
+! Block all connections from secified apps
+!#include https://raw.githubusercontent.com/Cybo1927/Hosts/master/Extra/No%20Connections%20(AdGuard%20Apps)
+
 !#endif
+
+! Remove tracking parameters (apps only)
+!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
+
+!#include https://raw.githubusercontent.com/Cybo1927/Hosts/master/Extra/AdGuard%20Extra%20Tracking%20Parameters
+
+!#endif
+
+!#if (adguard_app_windows && !adguard_app_android && adguard_app_mac && adguard_app_ios && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
 
 @@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
@@ -14779,9 +14800,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 213.87.44.182$network,app=chrome.exe
 23.67.243.219$network,app=firefox.exe
 
-! Block all connections from secified apps
-*$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row|photo.manager.private.photogallery|photography.backgallery.android|photography.blackgallery.android
-! 
+!#endif
 
 !#endif
 ! End AdGuard Specific
@@ -14897,6 +14916,7 @@ arenavision.in##+js(nobab)
 ||doubleclick.net/instream/ad_status.js$script,redirect=noopjs
 */cleardot.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
 */netcheck.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
+*/metrics.$script,redirect=noopjs
 
 !#endif
 
@@ -14915,5 +14935,6 @@ arenavision.in##+js(nobab)
 ||doubleclick.net/instream/ad_status.js$rewrite=abp-resource:blank-js
 */cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,important,domain=~gmail.com|mail.google.com
 */netcheck.gif$rewrite=abp-resource:1x1-transparent-gif,important,domain=~gmail.com|mail.google.com
+*/metrics.$rewrite=abp-resource:blank-js
 
 !#endif
