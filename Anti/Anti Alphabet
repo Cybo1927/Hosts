@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 29
+! Version: 30
 
 ! Google
 /.{0,}google\..+/
@@ -71,6 +71,7 @@
 ||tensorflow.org^$important
 ||angular.io^$important
 ||angulardart.dev^$important
+||global-dealer-ssl.spotify.com^$important
 
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||tenor.com^$important
