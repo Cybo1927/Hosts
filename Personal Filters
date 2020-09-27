@@ -33,8 +33,8 @@ qiniudns.com|
 !#if (adguard_app_android)
 !#if !ext_ublock
 
-! Cookies Last 1 Minute Before Being Deleted (Prevent Sites From Blocking Me For Not Having Cookies Enabled)
-*$cookie=/.+/;maxAge=1,domain=~accounts.google.com
+! Cookies
+*$cookie=/.+/,domain=~accounts.google.com
 
 !#endif
 !#endif
@@ -43,9 +43,8 @@ qiniudns.com|
 !#if (adguard_ext_chromium && adguard_ext_safari && adguard_ext_firefox && adguard_ext_edge && adguard_ext_opera)
 !#if !ext_ublock
 
-! Cookies Last 1 Minute Before Being Deleted (Prevent Sites From Blocking Me For Not Having Cookies Enabled)
-
-*$cookie=/.+/;maxAge=1,domain=~youtube.com|~accounts.google.com|~google.com
+! Cookies
+*$cookie=/.+/,domain=~youtube.com|~accounts.google.com|~google.com
 
 amazon.com$cookie
 
