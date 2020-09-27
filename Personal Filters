@@ -1,82 +1,10 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-! AdGuard for Android
-!#if (adguard_app_android)
-! Unblock GCM Notifications
-@@||mtalk.google.com
-!
-! Unblock Android updates
-@@||dl.google.com
-!
-@@||gvt1.com
-@@||android.googleapis.com
-@@||feelinsonice.l.google.com
-@@||feelinsonice-mvm.l.google.com
-@@||accounts.google.com
-@@||youtube-ui.l.google.com
-@@||ssl.gstatic.com
-@@||maps.gstatic.com
-@@||apis.google.com
-
-! App specific blocking
-*:5228$network,app=com.google.android.gms
-
-*$app=com.google.android.inputmethod.latin|com.google.android.googlequicksearchbox|eu.thedarken.sdm
-!#endif
-google.com|
-android.com|
-googleapis.com|
-gstatic.com|
-gmail.com|
-withgoogle.com|
-ggpht.com|
-samsung.com|
-||googleusercontent.com$domain=~youtube.com
-||ytimg.com$domain=~youtube.com
-||googlevideo.com$domain=~youtube.com
-||youtube.com$third-party
-
-! My Friends Sadly Use TikTok
-isnssdk.com|
-||frontier.musical.ly^$all,important
-||log*.musical.ly^$all,important
-||log*-*.musical.ly^$all,important
-||dm*.musical.ly^$all,important
-
-! Try to use Spotify Web Player on my Android
-spotify.com#%#com,net#%#Object.defineProperty(navigator, 'appCodeName', { get: function() { return 'Mozilla'; } }); Object.defineProperty(navigator, 'appName', { get: function() { return 'Netscape'; } }); Object.defineProperty(navigator, 'appVersion', { get: function() { return 'Mozilla/5.0 (MSIE 10.0; Windows NT 6.1; Trident/5.0)'; } }); Object.defineProperty(navigator, 'productSub', { get: function() { return ''; } }); Object.defineProperty(navigator, 'buildID', { get: function() { return 'undefined'; } }); Object.defineProperty(navigator, 'platform', { get: function() { return 'Windows'; } }); Object.defineProperty(navigator, 'oscpu', { get: function() { return 'undefined'; } }); Object.defineProperty(navigator, 'deviceMemory', { get: function() { return '8'; } }); Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } }); Object.defineProperty(navigator, 'userAgent', { get: function() { return 'Mozilla/5.0 (MSIE 10.0; Windows NT 6.1; Trident/5.0)'; } }); Object.defineProperty(navigator, 'vendor', { get: function() { return 'Microsoft'; } }); Object.defineProperty(navigator, 'product', { get: function() { return 'Gecko'; } }); Object.defineProperty(navigator, 'hardwareConcurrency', { get: function() { return '8'; } }); Object.defineProperty(navigator, 'onLine', { get: function() { return 'true'; } });
-
-! Doesn't need to query all the time
-ntp.org|
-
-!||cloudfront.net^$all,important
-bit.ly|
-bitly.com|
-microsoftonline.com|
-mirmay.com|
-tenor.com|
-tenor.googleapis.com|
-amazonalexa.com|
-
-! Cloudflare (https://www.cloudflare.com/privacypolicy/)
-!||cloudflare.*^$all,important
-cloudflare-dns.com|
-cloudflareinsights.com|
-cloudflarestream.com|
-cloudflareresolve.com|
-cloudflareclient.com|
-cloudflarebolt.com|
-cloudflarestatus.com|
-one.one|
-warp.plus|
-one.one.one.one|
-1.1.1.1|
-1.0.0.1|
-
 ! No Scripts On .Gov Domains
 ||*.gov$script,inline-script
 ||*.gov.*$script,inline-script
+
 ! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
 ||*.cn^$all,important
 ||*.mo^$all,important
@@ -101,40 +29,22 @@ qiniudns.com|
 4.53.160.75$network
 4.53.160.75$network
 
-! Extra
-refer.walmart.com|
-ak-us.wal.co|
-ec-us.wal.co|
-zy-us.wal.co|
-ll-us.wal.co|
-us.tb.wal.co|
-cf-us.wal.co|
-ak-us-dyn.wal.co|
-us-dyn.tb.wal.co|
-ll-us-dyn.wal.co|
-ec-us-dyn.wal.co|
-cf-us-dyn.wal.co|
-zy-us-dyn.wal.co|
-darken.eu|
-walmartimages.com$script
-docs.google.com$font,xhr
-youtube.com$third-party
+! AdGuard for Android Specific
+!#if (adguard_app_android)
+!#if !ext_ublock
 
-! Block Notifications
-*##+js(abort-on-property-read.js, Notification.requestPermission)
-! Add Event Listener Defuser
-*##+js(aeld, /onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide/)$domain=~youtube.com
-! Remove Attributes
-*##+js(ra, onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide)$domain=~youtube.com
-! CSP
-*$csp='upgrade-insecure-requests';
+! Cookies Last 1 Minute Before Being Deleted (Prevent Sites From Blocking Me For Not Having Cookies Enabled)
+*$cookie=/.+/;maxAge=1,domain=~accounts.google.com
 
-!#if (adguard && !ext_ublock)
-! AdGuard Specific
-!*cloudfront.*|
-*aws.amazon.*|
-*elasticbeanstalk.*|
-! Cookies
-*^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com|~mega.nz
-*^$cookie=/lithiumSSO%3A[a-z]+.prod|_wamtcstandards|http_referrer|at|__cfduid/
+!#endif
+!#endif
+
+! AdGuard Desktop
+!#if (adguard_ext_chromium && adguard_ext_safari && adguard_ext_firefox && adguard_ext_edge && adguard_ext_opera)
+!#if !ext_ublock
+
+! Cookies Last 1 Minute Before Being Deleted (Prevent Sites From Blocking Me For Not Having Cookies Enabled)
+*$cookie=/.+/;maxAge=1,domain=~accounts.google.com|accounts.youtube.com
+
+!#endif
 !#endif
