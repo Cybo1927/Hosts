@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1287
+! Version: 1288
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Sunday, September 27, 2020
 
@@ -14390,8 +14390,7 @@ _statsonlineinfo
 
 ! Begin AdGuard General
 ! Prevent From Still Being Used By uBlock Origin?
-!#if (adguard)
-!#if false
+!#if adguard
 
 ! AdGuard specific whitelist
 @@||sourceforge.net$generichide,genericblock
@@ -14756,15 +14755,13 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 ||216.218.206.126^
 
 !#endif
-!#endif
 ! End AdGuard General
 
 ! Begin AdGuard Apps
 
 ! Android specific whitelist/blocklist
 ! Include network modifiers for Android
-!#if (adguard_app_android)
-!#if false
+!#if adguard_app_android
 
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
@@ -14786,11 +14783,9 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 *$app=com.google.android.settings.intelligence|com.google.android.apps.tips|com.shamanland.privatescreenshots|com.verizon.mips.services|com.sec.android.app.camera|com.google.android.GoogleCamera|com.google.android.ims|org.mozilla.screenshot.go|com.niksoftware.snapseed|samsung.android.rubin.app|com.oasisfeng.greenify|com.oasisfeng.greenify.pro|com.samsung.android.mobileservice|com.ea.game.pvzfree_row|photo.manager.private.photogallery|photography.backgallery.android|photography.blackgallery.android|ch.deletescape.lawnchair.plah|com.mi.android.globalFileexplorer|com.ninexgen.explorer|filemanager.clean.boost|com.symantec.cleansweep|com.phonecleaner.marksclean|phone.cleaner.speed.booster.cache.clean.android.master|com.sup.phone.cleaner.booster.app|com.cleanteam.oneboost|phone.antivirus.virus.cleaner.junk.clean.speed.booster.master|com.antivirus.free.security.cleaner|com.avast.android.cleaner|fancyclean.boost.antivirus.junkcleaner|com.phone.cleaner.speed.booster.cleaningmaster|fast.phone.clean|com.transsion.phonemaster|com.phonecleaner.junkcleaner.phonebooster|com.mobikeeper.global|virus.cleaner.antivirus.phone.security.boost|com.litetools.speed.booster|com.avg.cleaner|cleanmaster.phone.memory.booster.cleaner|com.appsinnova.android.keepclean|antivirus.anti.virus.cleaner.security.booster|com.noxgroup.app.cleaner|appinventor.ai_mmfrutos7878.Ancleaner|com.advanced.phone.junk.cache.cleaner.booster.antimalware|com.ludashi.security|infomagicien.cleaner_phone|com.cleaner.battery.booster.khaledver.six|fast.clean.faster.cleaner.mobile.master.cache.phonecleaner|com.megaphone.cleaner|com.bestcleaner.freecleaner|com.google.android.apps.nbu.files|cn.donghua.album|com.mallow.hidepicturesgalleryvault|photo.android.hd.camera|com.motorola.cameraone|com.motorola.camera2|tools.photo.hd.camera|hd.camera|hd.camera.photo.gallery.editor|com.commsource.beautyplus|panorama.filter.selfie.hd.camera|com.magix.camera_mx|best.camera|com.cam001.selfie|filter.camera.snap.photo.video.panorama|com.camera.galaxyx.s10|photo.hd.video.beauty.camera|cool.s20.camera|com.niksoftware.snapseed|heart.crown.camera.effect.snap.photoeditor.heartcrowncamera.stickers|uk.org.opencamera.vibrancehdr|com.judi.emojiphoto|com.fastclean.phonebooster|system.android.booster|repair.system.phone|advanced.speed.booster|mempercepathp.game.battery.optimizer|device.speed.up.acelerador.android.pro.plus|com.powerd.cleaner|com.skymobileteam.slowphonespeedup2017|com.mytools.cleaner.booster|titan.booster.cleaner.system.fixer|com.speed.rambooster|org.strong.booster.cleaner.fixer|speed.up.acelerador.booster.accelerator.device|smart.repair.system.speedbooster|org.booster.accelerator.optimizer.colorful|net.devmain.speedbooster|com.litetools.speed.booster|com.rvappstudios.speed_booster_junk_cleaner|androidfaster.com.fasterphone|com.transsion.phonemaster|artur.m3rv.myszka.speedupswap|com.arfan.rocketboost|com.sxmtool.spboost.speedboost|com.batterysaviour.batterybooster|com.batterysaviour.shutapp|com.mcstealthapps3.networksignalsearch|rcddevprod.repairnow.fixedsystem.allproblems|com.cleaner.battery.booster.khaledver.six|com.trendmicro.dr.booster|com.itools.dfndr.rootbooster|com.batteryoptimizer.fastcharging.fastcharger|com.theantivirus.cleanerandbooster|com.jrm.batterysaver|com.sean.fast|lisa.studio.fastcharger|com.mmdevs.fast|chargerbooster.charger.faster.booster|batterydoctor.fastcharger.batterysaver.fastcharging.sacpinnhanh|com.fast.quick.charge.battery.pro|com.masterappinc.fastcharger.booster|com.sa.starstudio.batterysaver|com.tohsoft.fastcharger|com.mymathangels.fastcharging|com.smartapps.rapid.quick.fast.battery.charging.advance|fastcharge.batterysaver.batterymaster.fastcharging|com.fastcharger.masters.qucikcharge.PhoneCleaner|chargemaster.fastcharging.fastcharge.quickcharge|com.free.fast.charging|com.vinhashapp.fastcharger|com.eco.fastcharger|com.nuotec.fastcharger.pro|com.fastcharger.profastcharging|com.mobilestudios.cl.batteryturbocharger|com.fast.charging.pro|com.fastcharger.ultrafastcharging|com.smartappcharger.fastcharger.fastcharging.rapidcharge|com.toolstd.fastcharger.fastcharging.quickcharge|com.qmapps.fast|com.fastcharger.boostercharging|com.battery.fast.charge.booster|com.apptech.fastcharging.quickcharge|com.snapartphotoeditor.fastcharger.quick.fast.battery.charging.fastcharging.batterysaver.batterymaster.superbatterycharger|com.fast.quick.charging.battery.booster|com.toolsapp.fast|pt.fastcharger.faster.charging|fast.battery.charging.ios.one|com.unicorn.fastchargingpro|probattery.life.batterylife|com.samsung.android.lool|com.samsung.knox.securefolder|screen.pixel.off|com.urysoft.pixelfilter|com.sisomobile.android.brightness|app.screen.off|com.github.ericytsang.screenfilter.app.android|es.richardsolano.filter|com.arrowsapp.nightscreen|nu.lower.brightness|com.eyefilter.nightmode.bluelightfilter|com.insurance.vpn.dating.free|com.proxyhome.HotVPNMAsterUnblock|com.proxyhome.vpn.proxy.hotspot.turbo|com.millionique.super_hot_vpn|com.toolsforandroid.VPNPrivateProxy|com.vpnmaster.proxymaster|com.turbo.vpn_free|com.baaghi_developeres.proxy.vpnmaster|org.hola.va|org.hola.gpslocation|org.hola.prem|org.hola|free.indiavpn.unblock.proxy.vpn.master.freevpn|com.holo.vpn|com.freeproxyvpnworld.freevpn.supervpn.securevpn.pakistanvpn|com.jojidroid.vpn_master.private_proxy.unlimited_freevpn|com.xxi.master.vpn|com.hrstudio.hrultimatevpn|com.supervpn.freemastervpn.vpn2019|small.vpn.proxy.unblock.websites.apps|com.instaberry.pro_super_hot_vpn|com.afree_apps.super_vpn.freevpn.unblock.super_x.vpn|com.toolsforandroid.FreeVPN|com.mtb.hv1|com.bokeap.vpn.pekob|com.best.turbofree.supervpnmaster|com.apphub.vpn.unblocker|com.appslounge.hot_securevpn.mastervpn|free.vpn.vpnprivate|xxx.bitter|net.vpn.hub.servers|com.securevpn.vpnmaster|com.vpn.bunnyvpn|com.xxnxx.browservpnturbo|com.ion.freevpn|com.freevpnhighspeed.xxxvpn|com.vpn.xxxvpn|com.TestDeveloperID.xxxvpnprivate.FastSecureFreeUnlimitedProxy|com.unitech.hubvpn.proxy.fast.unlimited.hub.vpn.hot|com.foxappwallpapers.babes|com.foxappwallpapers.hotsexygirls|com.foxappwallpapers.sosexy|com.foxappwallpapers.bikiniwallpapers1|com.foxappwallpapers.sexyhot2|com.foxappwallpapers.sexybabesgirls|com.appzula.fastprivatevpn|com.supas.freeuaevpn|com.honor_studio.super_vpn.proxy_master.free_hotspot|com.mobile.android.eris|com.devaguru.pashto|com.free.vpn.master.fast.secure.proxy|com.umlimited.vpn.proxy.ultrafast.speed|com.onedev.vpngratis|com.free.neo.vpn|com.free.vpn.private|hixpro.browserlite.proxy|com.vpn.supper.vpn.hot.free|com.foxappwallpapers.hotsexybikinibabes|com.foxappwallpapers.hdwpgirls|com.foxappwallpapers.cutesweet|com.foxappwallpapers.bestbeu|com.foxappwallpapers.hot|com.foxappwallpapers.sweeto|com.foxappwallpapers.sexyhotgirlfullhdwallpaper|com.fontskeyboard.fonts|com.notificationcenter.controlcenter|com.broaden.s10edge|com.flashkeyboard.leds|com.trapsticker.app|com.mazzocchibrothers.emojiup.emoji.avatar|com.emoji.coolkeyboard|com.appstech.classic|kika.emoji.keyboard.teclados.clavier|com.cutestudio.emoji.keyboard|com.cutewallpaperstudio.thumbnail.maker.thumbnail.creator|com.thmobile.three.logomaker|com.thmobile.sketchphotomaker|vn.eraser.background.removebg|com.cutestudio.photomixer|com.cutestudio.neonledkeyboard|com.thmobile.rollingapp|com.cutestudio.glitchcamera|com.cutestudio.screenrecorder|com.thmobile.add.watermark|com.cutestudio.pdfviewer|com.thmobile.cartoonme.artphotoeditor|com.thmobile.storymaker|com.thmobile.catcamera|com.thmobile.transparentwallpaper|com.cutewallpaperstudio.thumbnail.creater.banner.maker|com.personal.sticker.maker.wastickerapps|cutewallpapersstudio.auto.background.eraser|com.cutestudio.photoglittereffects|com.thmobile.logomaker|com.thmobile.onlycam.sweet.memories|vn.fappy.camera.ai.selfie|com.thmobile.rollingapp.lite|com.cutestudio.neonphotoeffect|com.cutestudio.ghost.photo.editor|com.cutewallpapersstudio.man.photo.editor|com.cutestudio.mirrorphotoeditor|vn.photoeditor.rainbow.camera|com.cutestudio.stickermaker|vn.art.effect.photo.editor|com.cutestudio.freenote|com.cut.paste.background.changer|com.thmobile.postermaker|com.calculator.scientific.pro|com.jiubang.darlingclock|com.gto.zero.zboost|com.go.flo|com.flomeapp.flome|com.jiubang.alock|com.ace.cleaner|com.jb.emoji.gokeyboard|com.jb.zcamera|com.jb.screenrecorder.screen.record.video|com.jb.gokeyboardpro|com.jb.gokeyboard|com.video.master|com.ikeyboard.theme.chat.messenger|com.ikeyboard.theme.neon.lights.heart|com.ikeyboard.theme.red.valentine.hearts|com.ikeyboard.theme.romantic.love|com.ikeyboard.theme.pink.rose.flower|com.ikeyboard.theme.pastel.unicorn.dream|com.ikeyboard.theme.shiny.galaxy.weed|com.ikeyboard.theme.neon.purple.bright|com.ikeyboard.theme.purple.diamond.love|com.ikeyboard.theme.love.emoji.party|com.ikeyboard.theme.blue_3d.water.drop|com.ikeyboard.theme.graffiti.street.swag|com.ikeyboard.theme.glitter.allah|com.ikeyboard.theme.fluorescent.neon|com.ikeyboard.theme.cute.cartoon.girl|com.ikeyboard.theme.neon.blue.tiger.king|com.ikeyboard.theme.happy.sad.emoji|com.ikeyboard.theme.galaxy.space.new|com.ikeyboard.theme.smoke.purge.mask|com.ikeyboard.theme.colorful_3d.galaxy|com.ikeyboard.theme.girly.drip|com.ikeyboard.theme.pure.black|com.ikeyboard.theme.blue.hearts.love|com.ikeyboard.theme.pink.flowers.kitten|com.ikeyboard.theme.pastel.mermaid.tail|com.ikeyboard.theme.hippy.tie.dye|com.ikeyboard.theme.neon.flower.butterfly|com.ikeyboard.theme.golden.sexy.lips|com.ikeyboard.theme.cute.sakura.girl|com.ikeyboard.theme.valentine.hearts|com.ikeyboard.theme.neon.red.heartbeat|com.ikeyboard.theme.blue_3d.waterdrops|com.ikeyboard.theme.golden.glitter|com.ikeyboard.theme.cat.cupcake|com.ikeyboard.theme.simple.pink|com.ikeyboard.theme.fox.girl|com.ikeyboard.theme.cute.couple.life|com.ikeyboard.theme.sexy.muscle.wrestler|com.ikeyboard.theme.galaxy.floral.unicorn|com.ikeyboard.theme.good.morning.rose|com.ikeyboard.theme.absolute.territory|com.ikeyboard.theme.glitter.drop.sexy.lips|com.ikeyboard.theme.yummy.chocolate|com.ikeyboard.theme.folk.flower.pattern|com.ikeyboard.theme.gradient.laser|com.ikeyboard.theme.sms.doodle|com.ikeyboard.theme.couple.love.roses|com.ikeyboard.theme.blue.smoke.cool.dj|com.ikeyboard.theme.rainbow.live|com.ikeyboard.theme.glitzy.pink.luxury|com.ikeyboard.theme.love.led.neon|com.ikeyboard.theme.rainbow.cookie|com.ikeyboard.theme.cute.bow.dog|com.ikeyboard.theme.red.black.glass|com.ikeyboard.theme.valentine.love.hearts|com.ikeyboard.theme.lightning.flash|com.ikeyboard.theme.neon.skull.wing|com.ikeyboard.theme.neon.hearts|com.ikeyboard.theme.lover.hearts|com.ikeyboard.theme.simple.blue_2|com.ikeyboard.theme.galaxy.heart.panda|com.ikeyboard.theme.usa.freedom.skull|com.ikeyboard.theme.glitter.pink.unicorn|com.ikeyboard.theme.geometric.pink|com.ikeyboard.theme.cute.flower.pot|com.ikeyboard.theme.pink.floral.girl|com.ikeyboard.theme.phone11.pro|com.ikeyboard.theme.sad.emojis.gravity|com.ikeyboard.theme.sweet.couple.hug|com.ikeyboard.theme.girly.hearts.doodle|com.ikeyboard.theme.pink.lux.silk.hearts|com.ikeyboard.theme.neon.fly.dj|com.ikeyboard.theme.pink.roses.girl|com.ikeyboard.theme.galaxy.s7.gradient|com.ikeyboard.theme.dreamy.tree|com.ikeyboard.theme.devil.mask.girl|com.ikeyboard.theme.tropical.leaves|com.ikeyboard.theme.floral.bicycle.girl|com.ikeyboard.theme.bubble.heart|com.ikeyboard.theme.neon.blue.heartbeat|com.ikeyboard.theme.german.bridge|com.ikeyboard.theme.pink.glitter.crystal|com.ikeyboard.theme.angry.ape.king|com.ikeyboard.theme.smoking.cool.man|com.ikeyboard.theme.cute.wink.girl|com.ikeyboard.theme.forehead.kiss|com.ikeyboard.theme.doodle.love.pink|com.ikeyboard.theme.funny.emoji.party|com.ikeyboard.theme.reggae.weed.leaf|com.ikeyboard.theme.cartoon.couple.hearts|com.ikeyboard.theme.love.you.emoji|com.ikeyboard.theme.green.floral.garden|com.ikeyboard.theme.cute.doodle.messenger|com.ikeyboard.theme.pastel.tie.dye|com.ikeyboard.theme.forever.love|com.ikeyboard.theme.pink.cat.unicorn|com.ikeyboard.theme.neon.hand.love|com.ikeyboard.theme.pink.hearts|com.ikeyboard.theme.red.glow3d|com.ikeyboard.theme.pink.glitter.unicorn|com.facemoji.lite|com.facemoji.lite.indian|com.facemoji.lite.xiaomi.gp|com.facemoji.pre.lenovo|com.facemoji.lite.zte|com.facemoji.lite.transsion|com.facemoji.lite.meizu|com.simejikeyboard|com.ikeyboard.theme.green.zombie.skull_2|com.adyala.free.apps.input.language.chinese.keyboard.hanzi.text.writing.program|com.leavjenn.longshot|com.intermedia.hd.camera|com.intermedia.hd.camera.professional|com.rarlab.rar|org.b1.android.archiver|unziparchiver.freefilecompressor.zip.unzipfiles|com.archiver.compress.files.unrarfree|com.csgroup.rar|thangbkhn.rararchiver|com.ezzip.unrarunzip.extractfile|com.azip.unrar.unzip.extractfile|com.rarfile.extractor.zip.unarchive|com.zipunzipfile.zipextractor.zipopener.zipfilereader|com.zipunzipfile.zipopener.zipfileextractor|org.joa.zipperplus7|com.zipfile.unzip|com.free.compress.decompress.all.files|extract.rarzip.files.compressor.unarchiver.zipandunzip.free|com.resonancelab.unrar|com.rbigsoft.easyunrar.lite|com.free.files.compressor.unarchiver.phone|com.unzip.unrar.extractor.easycompressor|com.google.android.calculator|com.google.android.deskclock|com.google.android.soundpicker|com.google.android.as|com.sec.android.app.clockpackage|com.samsung.android.rubin.app|com.sec.android.app.launcher|com.sec.android.mimage.photoretouching|com.samsung.android.honeyboard|com.samsung.android.video|org.videolan.vlc|com.samsung.android.SettingsReceiver|com.android.settings|com.android.settings.intelligence
 
 !#endif
-!#endif
 
 ! App Only Filters
-!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios)
-!#if false
+!#if adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios
 
 !+ NOT_OPTIMIZED
 $removeparam=__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|aqs|sourceid|irclickid|loc|acampID|mpid|irgwc|sourceid|wmlspartner|clickid|veh|sharedid|spLa|ascsubtag|qid|sr
@@ -14806,11 +14801,9 @@ godaddy.com$removeparam=isc
 ||atgsvcs.com^$empty,important
 
 !#endif
-!#endif
 
 ! AdGuard Windows App
-!#if (adguard_app_windows)
-!#if false
+!#if adguard_app_windows
 
 @@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
@@ -14822,11 +14815,11 @@ godaddy.com$removeparam=isc
 23.67.243.219$network,app=firefox.exe
 
 !#endif
-!#endif
+
 ! End AdGuard Specific
 
 ! Begin uBlock Origin specific
-!#if (ext_ublock && !adguard)
+!#if ext_ublock && !adguard
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -14915,7 +14908,7 @@ arenavision.in##+js(nobab)
 ! End uBlock Origin specific
 
 ! Redirect (AdGuard, and uBlock Origin)
-!#if (ext_ublock && adguard)
+!#if ext_ublock && adguard
 
 ||pandora.com/ping.txt?f=*$xmlhttprequest,redirect-rule=nooptext,first-party
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
@@ -14941,7 +14934,7 @@ arenavision.in##+js(nobab)
 !#endif
 
 ! Redirect (Adblock Plus)
-!#if (ext_abp && !adguard)
+!#if ext_abp && !adguard
 
 ||assetshuluimcom-a.akamaihd.net/*.mp3$rewrite=abp-resource:blank-mp3,domain=hulu.com
 ||taskernet.com/shares/countstats.js$rewrite=abp-resource:blank-js
