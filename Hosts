@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1290
+! Version: 1291
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Sunday, September 27, 2020
 
@@ -1297,7 +1297,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||imganalytics.com^
 ||webtools.media^
 ||soggysponge.com^
-||tibacta.com^
 ||analyticsq.com^
 ||bntech.io^
 ||bldrdoc.gov^
@@ -2488,7 +2487,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||akz.imgfarm.com^
 ||accengage.net^
 ||atp.io^
-||atgsvcs.com^
 ||aliapp.org^
 ||attentivemobile.com^
 ||appier.net^
@@ -6315,7 +6313,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gubagoo.io^
 ||gramombird.com^
 ||3gl.net^
-||googlesyndication.com^
 ||g2crowd.com^
 ||greystripe.com^
 ||go2cloud.org^
@@ -6564,7 +6561,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||analights.com^
 ||t.cncenter.cz^
 ||grmtech.net^
-||octoclick.net^
 ||adz.wattpad.com^
 ||track.wattpad.com^
 ||narrative.io^
@@ -14799,18 +14795,21 @@ youtube.com$removeparam=origin
 google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 godaddy.com$removeparam=isc
 
-! Use Badfilter to Disable Basic Blocking Rules
-||googlesyndication.com^$badfilter
-||octoclick.net^$badfilter
-||tibacta.com^$badfilter
-||atgsvcs.com^$badfilter
-
-! Empty After Using Badfilter
+! Empty
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
 ||tibacta.com^$empty,important
 ||atgsvcs.com^$empty,important
 
+! Block if Content/Ad Blocker Not AdGuard
+!#if (!adguard)
+
+||googlesyndication.com^
+||octoclick.net^
+||tibacta.com^
+||atgsvcs.com^
+
+!#endif
 !#endif
 !#endif
 ! AdGuard Windows App
