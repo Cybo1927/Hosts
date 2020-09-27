@@ -29,16 +29,6 @@ qiniudns.com|
 4.53.160.75$network
 4.53.160.75$network
 
-! AdGuard for Android Specific
-!#if (adguard_app_android)
-!#if !ext_ublock
-
-! Cookies
-*$cookie=/.+/,domain=~accounts.google.com
-
-!#endif
-!#endif
-
 ! AdGuard Desktop
 !#if (adguard_ext_chromium && adguard_ext_safari && adguard_ext_firefox && adguard_ext_edge && adguard_ext_opera)
 !#if !ext_ublock
