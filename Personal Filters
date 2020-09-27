@@ -44,11 +44,8 @@ qiniudns.com|
 !#if !ext_ublock
 
 ! Cookies Last 1 Minute Before Being Deleted (Prevent Sites From Blocking Me For Not Having Cookies Enabled)
-@@||youtube.com^$cookie
-@@||accounts.google.com^$cookie
-@@||google.com^$cookie,domain=youtube.com
 
-*$cookie=/.+/;maxAge=1,domain=
+*$cookie=/.+/;maxAge=1,domain=~youtube.com|accounts.google.com
 amazon.com$cookie
 
 !#endif
