@@ -1,5 +1,5 @@
 ! Title: Cybo's Anti AMP
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
-/(amp)(\.|-).+.+/
+/(amp)(\.|-).+.+/$document,subdocument,popup,popunder,domain=~github.com|~gitlab.com
