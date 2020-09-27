@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1285
+! Version: 1286
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Sunday, September 27, 2020
 
@@ -14389,7 +14389,7 @@ _statsonlineinfo
 ##a[href$="_banner"]
 
 ! Begin AdGuard General
-!#if (adguard && !ext_ublock)
+!#if (adguard)
 
 ! AdGuard specific whitelist
 @@||sourceforge.net$generichide,genericblock
@@ -14760,7 +14760,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Android specific whitelist/blocklist
 ! Include network modifiers for Android
-!#if (adguard_app_android && !ext_ublock)
+!#if (adguard_app_android)
 
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
@@ -14775,11 +14775,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
 
-||googlesyndication.com^$empty,important
-||octoclick.net^$empty,important
-||tibacta.com^$empty,important
-||atgsvcs.com^$empty,important
-
 ! https://adguard.com/en/blog/one-does-not-simply-delete-facebook.html
 ||graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
 
@@ -14788,8 +14783,8 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 !#endif
 
-! Remove tracking parameters (apps only)
-!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios && !ext_ublock)
+! App Only Filters
+!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios)
 
 !+ NOT_OPTIMIZED
 $removeparam=__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|aqs|sourceid|irclickid|loc|acampID|mpid|irgwc|sourceid|wmlspartner|clickid|veh|sharedid|spLa|ascsubtag|qid|sr
@@ -14799,10 +14794,15 @@ youtube.com$removeparam=origin
 google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 godaddy.com$removeparam=isc
 
+||googlesyndication.com^$empty,important
+||octoclick.net^$empty,important
+||tibacta.com^$empty,important
+||atgsvcs.com^$empty,important
+
 !#endif
 
 ! AdGuard Windows App
-!#if (adguard_app_windows && !ext_ublock)
+!#if (adguard_app_windows)
 
 @@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
