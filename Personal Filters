@@ -34,7 +34,8 @@ qiniudns.com|
 !#if !ext_ublock
 
 ! Cookies
-*$cookie=/.+/,domain=~youtube.com|~accounts.google.com|~google.com
+*$cookie=/.+/,domain=~youtube.com|~accounts.google.com
+@@||google.com$cookie,domain=youtube.com
 
 amazon.com$cookie
 
