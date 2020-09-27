@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1289
+! Version: 1290
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Sunday, September 27, 2020
 
@@ -14799,6 +14799,13 @@ youtube.com$removeparam=origin
 google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 godaddy.com$removeparam=isc
 
+! Use Badfilter to Disable Basic Blocking Rules
+||googlesyndication.com^$badfilter
+||octoclick.net^$badfilter
+||tibacta.com^$badfilter
+||atgsvcs.com^$badfilter
+
+! Empty After Using Badfilter
 ||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
 ||tibacta.com^$empty,important
