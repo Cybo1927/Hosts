@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1291
+! Version: 1292
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
 ! Last Modified: Sunday, September 27, 2020
 
@@ -398,6 +398,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 !
 *?spot_id=*&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
+||googlesyndication.com^$empty,important
+||octoclick.net^$empty,important
+||tibacta.com^$empty,important
+||atgsvcs.com^$empty,important
 ||ledgerwallet.com^$third-party
 ||leaving.africa^$third-party
 ||naschenweng.info^$third-party
@@ -14795,21 +14799,6 @@ youtube.com$removeparam=origin
 google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 godaddy.com$removeparam=isc
 
-! Empty
-||googlesyndication.com^$empty,important
-||octoclick.net^$empty,important
-||tibacta.com^$empty,important
-||atgsvcs.com^$empty,important
-
-! Block if Content/Ad Blocker Not AdGuard
-!#if (!adguard)
-
-||googlesyndication.com^
-||octoclick.net^
-||tibacta.com^
-||atgsvcs.com^
-
-!#endif
 !#endif
 !#endif
 ! AdGuard Windows App
