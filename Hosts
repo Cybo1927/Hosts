@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1284
+! Version: 1285
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Saturday, September 26, 2020
+! Last Modified: Sunday, September 27, 2020
 
 ! Resources to better help you understand "hosts" files and "filter lists"
 !-----------------------------------------------------------------------
@@ -396,189 +396,192 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||google.com^$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
-*?spot_id=2506&ct=*$popup,popunder
+*?spot_id=*&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
-||jerkmatelive.com^$popup,popunder
-||yassociallya.club^$popup,popunder
-||landlordmanoeuvre.com^$popup,popunder
-||y0tube.live^$popup,popunder
-||invitesuperstitiousadmire.com^$popup,popunder
-||regulationprivilegescan.top^$popup,popunder
-||ciksolre.net^$popup,popunder
+||ledgerwallet.com^$third-party
+||leaving.africa^$third-party
+||naschenweng.info^$third-party
+||jerkmatelive.com^$third-party,popup,popunder
+||yassociallya.club^$third-party,popup,popunder
+||landlordmanoeuvre.com^$third-party,popup,popunder
+||y0tube.live^$third-party,popup,popunder
+||invitesuperstitiousadmire.com^$third-party,popup,popunder
+||regulationprivilegescan.top^$third-party,popup,popunder
+||ciksolre.net^$third-party,popup,popunder
 ||cleverpush.com^$third-party
-||whicherinc.club^$popup,popunder
-||installnow.xyz^$popup,popunder
-||intellipopup.com^$popup,popunder
-||secureconnection.club^$popup,popunder
-||coconut.rocks^$popup,popunder
-||cryptocoinsad.com^$popup,popunder
-||p.1ts11.top^$popup,popunder
-||hotday.biz^$popup,popunder
-||nudismphoto.top^$popup,popunder
-||youngestlolas.com^$popup,popunder
-||youngpussy.ws^$popup,popunder
-||teddybear.world^$popup,popunder
-||daddycum.top^$popup,popunder
-||nicenudism.eu^$popup,popunder
-||longsex.club^$popup,popunder
-||young-milky-teenies.top^$popup,popunder
-||nn-mod.top^$popup,popunder
-||cute-little.ga^$popup,popunder
-||meecam.ru^$popup,popunder
-||sapid.club^$popup,popunder
-||nudisttbeach.eu^$popup,popunder
-||lola-nu.top^$popup,popunder
-||d4rk.icu^$popup,popunder
-||fervently.xyz^$popup,popunder
-||nudismmovies.eu^$popup,popunder
-||archivexxx.xyz^$popup,popunder
-||nudistsport.eu^$popup,popunder
-||topsex.cc^$popup,popunder
-||xhotmodels.top^$popup,popunder
-||popin-cherries.top^$popup,popunder
-||teenie-heaven.top^$popup,popunder
-||darkporn.club^$popup,popunder
-||xxxunicorn.com^$popup,popunder
-||candysandra.top^$popup,popunder
-||jr-mods.top^$popup,popunder
-||smileporn.top^$popup,popunder
-||f6ck.top^$popup,popunder
-||innocentgirls.top^$popup,popunder
-||nudesex.pro^$popup,popunder
-||nudistafrican.eu^$popup,popunder
-||petite-virgin-teens.xyz^$popup,popunder
-||nudists-top.top^$popup,popunder
-||youngestnymphets.com^$popup,popunder
-||underground.icu^$popup,popunder
-||innocentexposedteenies.top^$popup,popunder
-||littlepussy.pink^$popup,popunder
-||naughtyseries.top^$popup,popunder
-||xxxlist.cc^$popup,popunder
-||russianschoolgirls.top^$popup,popunder
-||homesecret.top^$popup,popunder
-||littlekittie1.top^$popup,popunder
-||lilholes.com^$popup,popunder
-||lolaxxx.cc^$popup,popunder
-||veryyoung.org^$popup,popunder
-||lilnymph.com^$popup,popunder
-||youngtube.cc^$popup,popunder
-||1olita.*^$popup,popunder
-||lol1ta.*^$popup,popunder
-||utarget.ru^$popup,popunder
-||skkybrought.pro^$popup,popunder
-||popcash.net^$popup,popunder
-||prpops.com^$popup,popunder
-||wysyshypti.pro^$popup,popunder
-||visitstats.com^$popup,popunder
-||timetoteens.com^$popup,popunder
-||teen-porno.net^$popup,popunder
-||teenpornvideos.me^$popup,popunder
-||fairynudes.com^$popup,popunder
-||pornlist.tv^$popup,popunder
-||painfullanal.com^$popup,popunder
-||tube188.com^$popup,popunder
-||porn2012.com^$popup,popunder
-||best444.com^$popup,popunder
-||wankworld.com^$popup,popunder
-||trafiq.win^$popup,popunder
-||watchmygirlfriend.to^$popup,popunder
-||wg-aff.com^$popup,popunder
-||sopornvideos.com^$popup,popunder
-||tube2017.com^$popup,popunder
-||xxxmature.tube^$popup,popunder
-||tubexclips.com^$popup,popunder
-||samtrg.com^$popup,popunder
-||nextpopup.ir^$popup,popunder
-||chromextension.site^$popup,popunder
-||libedgolart.com^$popup,popunder
-||go.schjmp.com^$popup,popunder
-||twistedporn.com^$popup,popunder
-||pbprof.com^$popup,popunder
-||desipapa2.com^$popup,popunder
-||tour.desipapa.vip^$popup,popunder
-||ads.livepromotools.com^$popup,popunder
+||whicherinc.club^$third-party,popup,popunder
+||installnow.xyz^$third-party,popup,popunder
+||intellipopup.com^$third-party,popup,popunder
+||secureconnection.club^$third-party,popup,popunder
+||coconut.rocks^$third-party,popup,popunder
+||cryptocoinsad.com^$third-party,popup,popunder
+||p.1ts11.top^$third-party,popup,popunder
+||hotday.biz^$third-party,popup,popunder
+||nudismphoto.top^$third-party,popup,popunder
+||youngestlolas.com^$third-party,popup,popunder
+||youngpussy.ws^$third-party,popup,popunder
+||teddybear.world^$third-party,popup,popunder
+||daddycum.top^$third-party,popup,popunder
+||nicenudism.eu^$third-party,popup,popunder
+||longsex.club^$third-party,popup,popunder
+||young-milky-teenies.top^$third-party,popup,popunder
+||nn-mod.top^$third-party,popup,popunder
+||cute-little.ga^$third-party,popup,popunder
+||meecam.ru^$third-party,popup,popunder
+||sapid.club^$third-party,popup,popunder
+||nudisttbeach.eu^$third-party,popup,popunder
+||lola-nu.top^$third-party,popup,popunder
+||d4rk.icu^$third-party,popup,popunder
+||fervently.xyz^$third-party,popup,popunder
+||nudismmovies.eu^$third-party,popup,popunder
+||archivexxx.xyz^$third-party,popup,popunder
+||nudistsport.eu^$third-party,popup,popunder
+||topsex.cc^$third-party,popup,popunder
+||xhotmodels.top^$third-party,popup,popunder
+||popin-cherries.top^$third-party,popup,popunder
+||teenie-heaven.top^$third-party,popup,popunder
+||darkporn.club^$third-party,popup,popunder
+||xxxunicorn.com^$third-party,popup,popunder
+||candysandra.top^$third-party,popup,popunder
+||jr-mods.top^$third-party,popup,popunder
+||smileporn.top^$third-party,popup,popunder
+||f6ck.top^$third-party,popup,popunder
+||innocentgirls.top^$third-party,popup,popunder
+||nudesex.pro^$third-party,popup,popunder
+||nudistafrican.eu^$third-party,popup,popunder
+||petite-virgin-teens.xyz^$third-party,popup,popunder
+||nudists-top.top^$third-party,popup,popunder
+||youngestnymphets.com^$third-party,popup,popunder
+||underground.icu^$third-party,popup,popunder
+||innocentexposedteenies.top^$third-party,popup,popunder
+||littlepussy.pink^$third-party,popup,popunder
+||naughtyseries.top^$third-party,popup,popunder
+||xxxlist.cc^$third-party,popup,popunder
+||russianschoolgirls.top^$third-party,popup,popunder
+||homesecret.top^$third-party,popup,popunder
+||littlekittie1.top^$third-party,popup,popunder
+||lilholes.com^$third-party,popup,popunder
+||lolaxxx.cc^$third-party,popup,popunder
+||veryyoung.org^$third-party,popup,popunder
+||lilnymph.com^$third-party,popup,popunder
+||youngtube.cc^$third-party,popup,popunder
+||1olita.*^$third-party,popup,popunder
+||lol1ta.*^$third-party,popup,popunder
+||utarget.ru^$third-party,popup,popunder
+||skkybrought.pro^$third-party,popup,popunder
+||popcash.net^$third-party,popup,popunder
+||prpops.com^$third-party,popup,popunder
+||wysyshypti.pro^$third-party,popup,popunder
+||visitstats.com^$third-party,popup,popunder
+||timetoteens.com^$third-party,popup,popunder
+||teen-porno.net^$third-party,popup,popunder
+||teenpornvideos.me^$third-party,popup,popunder
+||fairynudes.com^$third-party,popup,popunder
+||pornlist.tv^$third-party,popup,popunder
+||painfullanal.com^$third-party,popup,popunder
+||tube188.com^$third-party,popup,popunder
+||porn2012.com^$third-party,popup,popunder
+||best444.com^$third-party,popup,popunder
+||wankworld.com^$third-party,popup,popunder
+||trafiq.win^$third-party,popup,popunder
+||watchmygirlfriend.to^$third-party,popup,popunder
+||wg-aff.com^$third-party,popup,popunder
+||sopornvideos.com^$third-party,popup,popunder
+||tube2017.com^$third-party,popup,popunder
+||xxxmature.tube^$third-party,popup,popunder
+||tubexclips.com^$third-party,popup,popunder
+||samtrg.com^$third-party,popup,popunder
+||nextpopup.ir^$third-party,popup,popunder
+||chromextension.site^$third-party,popup,popunder
+||libedgolart.com^$third-party,popup,popunder
+||go.schjmp.com^$third-party,popup,popunder
+||twistedporn.com^$third-party,popup,popunder
+||pbprof.com^$third-party,popup,popunder
+||desipapa2.com^$third-party,popup,popunder
+||tour.desipapa.vip^$third-party,popup,popunder
+||ads.livepromotools.com^$third-party,popup,popunder
 ||ddns.net^$third-party
 ||adultgamepass.com^$third-party
-||trustyfine.com^$popup,popunder
-||smartcj.com^$popup,popunder
-||authbill.com^$popup,popunder
-||mygreatsites.com^$popup,popunder
-||biz260.inmotionhosting.com^$popup,popunder
-||tubememberplus.com^$popup,popunder
-||epsprosperityhotline.com^$popup,popunder
-||simplybucks.com^$popup,popunder
-||3vuemarketing.com^$popup,popunder
-||badjojoplus.com^$popup,popunder
-||badoinktube.com^$popup,popunder
-||badoinkultra.com^$popup,popunder
-||craigsfuckbook.com^$popup,popunder
-||cs4hlp.net^$popup,popunder
-||drtuberhd.com^$popup,popunder
-||easyontvfeeds.com^$popup,popunder
-||exposemygf.com^$popup,popunder
-||badoink.com^$popup,popunder
-||freexxxapp.com^$popup,popunder
-||girlshacked.com^$popup,popunder
-||hackedgirlpasswords.com^$popup,popunder
-||jizzhutplus.com^$popup,popunder
-||pay-pv.com^$popup,popunder
-||pvchg.com^$popup,popunder
-||social7news.com^$popup,popunder
-||tubememberplus.com^$popup,popunder
-||tubemembers.mobi^$popup,popunder
-||tubetoolkit.com^$popup,popunder
-||webnr.net^$popup,popunder
-||xnxxplus.com^$popup,popunder
-||xnxxtogo.com^$popup,popunder
-||xvideosplus.com^$popup,popunder
-||xvideostogo.com^$popup,popunder
-||youjizzhacked.com^$popup,popunder
-||youjizzhidef.com^$popup,popunder
-||youwerehacked.com^$popup,popunder
-||badoinku.com^$popup,popunder
-||pornicle.mobi^$popup,popunder
-||findandtry.com^$popup,popunder
-||hislut.com^$popup,popunder
-||hislutdating.com^$popup,popunder
-||free-adult-games.com^$popup,popunder
-||hookup-finder.com^$popup,popunder
-||secure-joinentry.com^$popup,popunder
-||securedatinggateway.com^$popup,popunder
-||securesaferoute.com^$popup,popunder
-||trck-secure.com^$popup,popunder
-||21pron.com^$popup,popunder
-||pinksextube.com^$popup,popunder
-||traffictrade.pro^$popup,popunder
-||pinksextube.com^$popup,popunder
-||sexrulez.com^$popup,popunder
-||sexbright.com^$popup,popunder
-||porn4real.com^$popup,popunder
-||myorgasmporn.com^$popup,popunder
-||hqfreexxx.com^$popup,popunder
-||xxxmoviessexy.com^$popup,popunder
-||newfreesexmovies.com^$popup,popunder
-||sexhubmovs.com^$popup,popunder
-||truehotxxx.com^$popup,popunder
-||openxxxporn.com^$popup,popunder
-||vippornovideos.com^$popup,popunder
-||xxxredsex.com^$popup,popunder
-||hornythieftales.com^$popup,popunder
-||yousexfilms.com^$popup,popunder
+||trustyfine.com^$third-party,popup,popunder
+||smartcj.com^$third-party,popup,popunder
+||authbill.com^$third-party,popup,popunder
+||mygreatsites.com^$third-party,popup,popunder
+||biz260.inmotionhosting.com^$third-party,popup,popunder
+||tubememberplus.com^$third-party,popup,popunder
+||epsprosperityhotline.com^$third-party,popup,popunder
+||simplybucks.com^$third-party,popup,popunder
+||3vuemarketing.com^$third-party,popup,popunder
+||badjojoplus.com^$third-party,popup,popunder
+||badoinktube.com^$third-party,popup,popunder
+||badoinkultra.com^$third-party,popup,popunder
+||craigsfuckbook.com^$third-party,popup,popunder
+||cs4hlp.net^$third-party,popup,popunder
+||drtuberhd.com^$third-party,popup,popunder
+||easyontvfeeds.com^$third-party,popup,popunder
+||exposemygf.com^$third-party,popup,popunder
+||badoink.com^$third-party,popup,popunder
+||freexxxapp.com^$third-party,popup,popunder
+||girlshacked.com^$third-party,popup,popunder
+||hackedgirlpasswords.com^$third-party,popup,popunder
+||jizzhutplus.com^$third-party,popup,popunder
+||pay-pv.com^$third-party,popup,popunder
+||pvchg.com^$third-party,popup,popunder
+||social7news.com^$third-party,popup,popunder
+||tubememberplus.com^$third-party,popup,popunder
+||tubemembers.mobi^$third-party,popup,popunder
+||tubetoolkit.com^$third-party,popup,popunder
+||webnr.net^$third-party,popup,popunder
+||xnxxplus.com^$third-party,popup,popunder
+||xnxxtogo.com^$third-party,popup,popunder
+||xvideosplus.com^$third-party,popup,popunder
+||xvideostogo.com^$third-party,popup,popunder
+||youjizzhacked.com^$third-party,popup,popunder
+||youjizzhidef.com^$third-party,popup,popunder
+||youwerehacked.com^$third-party,popup,popunder
+||badoinku.com^$third-party,popup,popunder
+||pornicle.mobi^$third-party,popup,popunder
+||findandtry.com^$third-party,popup,popunder
+||hislut.com^$third-party,popup,popunder
+||hislutdating.com^$third-party,popup,popunder
+||free-adult-games.com^$third-party,popup,popunder
+||hookup-finder.com^$third-party,popup,popunder
+||secure-joinentry.com^$third-party,popup,popunder
+||securedatinggateway.com^$third-party,popup,popunder
+||securesaferoute.com^$third-party,popup,popunder
+||trck-secure.com^$third-party,popup,popunder
+||21pron.com^$third-party,popup,popunder
+||pinksextube.com^$third-party,popup,popunder
+||traffictrade.pro^$third-party,popup,popunder
+||pinksextube.com^$third-party,popup,popunder
+||sexrulez.com^$third-party,popup,popunder
+||sexbright.com^$third-party,popup,popunder
+||porn4real.com^$third-party,popup,popunder
+||myorgasmporn.com^$third-party,popup,popunder
+||hqfreexxx.com^$third-party,popup,popunder
+||xxxmoviessexy.com^$third-party,popup,popunder
+||newfreesexmovies.com^$third-party,popup,popunder
+||sexhubmovs.com^$third-party,popup,popunder
+||truehotxxx.com^$third-party,popup,popunder
+||openxxxporn.com^$third-party,popup,popunder
+||vippornovideos.com^$third-party,popup,popunder
+||xxxredsex.com^$third-party,popup,popunder
+||hornythieftales.com^$third-party,popup,popunder
+||yousexfilms.com^$third-party,popup,popunder
 ||placehold.it^$third-party
-||bing.com/aclick?ld=$popup,popunder
-||search.yahoo.com/cbclk/$popup,popunder
-||add0n.com/feedback.html$popup,popunder
-||add0n.com/*.html?*&type=install$popup,popunder
-||adblockplus.org/en/uninstalled$popup,popunder
+||bing.com/aclick?ld=$third-party,popup,popunder
+||search.yahoo.com/cbclk/$third-party,popup,popunder
+||add0n.com/feedback.html$third-party,popup,popunder
+||add0n.com/*.html?*&type=install$third-party,popup,popunder
+||adblockplus.org/en/uninstalled$third-party,popup,popunder
 ||ellads.com^$third-party
 ||yoast.com^$third-party
-||realsrv.com^$popup,popunder
+||realsrv.com^$third-party,popup,popunder
 ||rmrm.io^$third-party
 ||poppcheck.de^$third-party
 ||wazazu.com^$third-party
 ||pp.d2-apps.net^$third-party
 ||arkoselabs.com^$third-party
-||warumbistdusoarm.space^$popup,popunder
+||warumbistdusoarm.space^$third-party,popup,popunder
 ||quadrapp.net^$third-party
 ||hawk.so^$third-party
 ||trafficbass.com^$third-party
@@ -586,43 +589,43 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ipaddress.com^$third-party
 ||gu-st.ru^$third-party
 ||iconjob.co^$third-party
-||fasta.xyz^$popup,popunder
+||fasta.xyz^$third-party,popup,popunder
 ||hypestat.com^$third-party
 ||clearwebstats.com^$third-party
-||strpjmp.com^$popup,popunder
-||goodsforlife.mobi^$popup,popunder
-||z3dmbpl6309s.com^$popup,popunder
-||whatsyourflower.com^$popup,popunder
+||strpjmp.com^$third-party,popup,popunder
+||goodsforlife.mobi^$third-party,popup,popunder
+||z3dmbpl6309s.com^$third-party,popup,popunder
+||whatsyourflower.com^$third-party,popup,popunder
 ||inside-elections.com^$third-party
-||exosrv.com^$popup,popunder
-||soadvr.com^$popup,popunder
-||cam4tracking.com^$popup,popunder
-||adxite.com^$popup,popunder
-||somecdn.bid^$popup,popunder
-||visitstats.com^$popup,popunder
+||exosrv.com^$third-party,popup,popunder
+||soadvr.com^$third-party,popup,popunder
+||cam4tracking.com^$third-party,popup,popunder
+||adxite.com^$third-party,popup,popunder
+||somecdn.bid^$third-party,popup,popunder
+||visitstats.com^$third-party,popup,popunder
 ||traffic-gate.com^$third-party
-||lusy-xxx.com^$popup,popunder
+||lusy-xxx.com^$third-party,popup,popunder
 ||chaturbate.com^$third-party
 ||ding.wix.com^$third-party
 ||anycast.me^$third-party
 ||topvisor.com^$third-party
-||theonecdn.com^$popup,popunder
-||friendlyduck.com^$popup,popunder
-||nonktube.com^$popup,popunder
-||lookteenmovies.pro^$popup,popunder
-||pornstarapex.com^$popup,popunder
-||funwarcab.club^$popup,popunder
+||theonecdn.com^$third-party,popup,popunder
+||friendlyduck.com^$third-party,popup,popunder
+||nonktube.com^$third-party,popup,popunder
+||lookteenmovies.pro^$third-party,popup,popunder
+||pornstarapex.com^$third-party,popup,popunder
+||funwarcab.club^$third-party,popup,popunder
 ||phoenixnewtimes.com^$inline-script
-||exdynsrv.com^$popup,popunder
-||propbn.com^$popup,popunder
+||exdynsrv.com^$third-party,popup,popunder
+||propbn.com^$third-party,popup,popunder
 ||misdoers.com^$third-party
 ||cckefu.com^$third-party
-||camonster.com^$popup,popunder
-||dbbp1.pro^$popup,popunder
+||camonster.com^$third-party,popup,popunder
+||dbbp1.pro^$third-party,popup,popunder
 ||cams.com^$third-party,popup,popunder
 ||vghd.com^$third-party
 ||gradfinder.com^$third-party
-||adultfriendfinder.com^$popup,popunder
+||adultfriendfinder.com^$third-party,popup,popunder
 ||wretch.cc^$third-party
 ||infoip.io^$third-party
 ||amateurmatch.com^$third-party
@@ -630,7 +633,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adv.cr^$third-party
 ||mediagamemainframes.com^$third-party
 ||link-a.net^$third-party
-||searchdimension.com^$popup,popunder
+||searchdimension.com^$third-party,popup,popunder
 ||istripper.com$third-party
 ||href.li$third-party
 ||galeon.com$third-party
@@ -641,8 +644,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||floatplane.com$websocket
 ||freeonlinegames.win$third-party
 ||epnt.ebay.com$third-party
-||exoclick.com$popup,popunder
-||doublepimp.com^$popup,popunder
+||exoclick.com$third-party,popup,popunder
+||doublepimp.com^$third-party,popup,popunder
 ||us.to^$third-party
 ||uw.hu^$third-party
 ||geolocation.com^$third-party
@@ -652,34 +655,37 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||hexasoft.com.my^$third-party
 ||sextracker.com^$third-party
 ||stripchat.com^$third-party
+||stripchat.com^$third-party,popup,popunder
 ||sexad.com^$popup,popuner
 ||sexy-counter.com^$third-party
-||sevenporn.com^$popup,popunder
-||sexad.net^$popup,popunder
-||reasonporn.com^$popup,popunder
+||sevenporn.com^$third-party,popup,popunder
+||sexad.net^$third-party,popup,popunder
+||reasonporn.com^$third-party,popup,popunder
 ||pornoneverdie.com^$third-party
 ||producthunt.com^$third-party
-||prpopss.com^$popup,popunder
+||prpopss.com^$third-party,popup,popunder
 ||panokaverit.com^$third-party
 ||panotreffit.com^$third-party
-||pornoslices.com^$popup,popunder
-||pornjacket.com^$popup,popunder
-||pornnewspaper.com^$popup,popunder
+||pornoslices.com^$third-party,popup,popunder
+||pornjacket.com^$third-party,popup,popunder
+||pornnewspaper.com^$third-party,popup,popunder
 ||nydus.org^$third-party
 ||7-7-7-partner.com^$third-party
 ||777-partner.com^$third-party
 ||777partner.com^$third-party
-||upapi.net^$empty
 ||ziyun.com.cn^$third-party
 ||xup.to^$third-party
-||visitstats.com^$popup,popunder
-||velocitycdn.com^$popup,popunder
+||visitstats.com^$third-party,popup,popunder
+||velocitycdn.com^$third-party,popup,popunder
 ||virtuagirl.com^$third-party
 ||virtuaguy.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||roq.ad^
+||ascend.ai^
+||cav.ai^
 ||airserve.net^
 ||trustnav.com^
 ||census.zorinos.com^
@@ -12283,8 +12289,7 @@ youtube.com##[class*="-promo-"]
 ||ytimg.com/*_204
 ||google.com/cspreport
 ||google.com/*/lvz?
-google.*###main > div:has-text(Ad)
-google.*###tads, #tadsb, #taw
+google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap, #main > div:has-text(Ad)
 
 ! Yahoo
 yahoo.com/_td_api/beacon/
@@ -12646,6 +12651,7 @@ m.youtube.com##lazy-list > .item:has-text(AD)
 google.com###taw
 google.com###tvcap
 mbl.is##[id*="slot-"] > iframe
+ebay.com##.s-item:has-text(Sponsored)
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
@@ -12660,6 +12666,8 @@ mbl.is##[id*="slot-"] > iframe
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*/wp-gdpr-
+*/promo/banners/
 */metrics.$image,xmlhttprequest
 */grondal-analytics/
 */ad_$image
@@ -14204,8 +14212,6 @@ _statsonlineinfo
 ##[class*="ad-absolute"]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
-##[id*="gdpr"]
-##[class*="gdpr"]
 ##[class*=".ad-printservice."]
 ##[id*="AdFrame"]
 ##[class*="AdFrame"]
@@ -14754,7 +14760,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 
 ! Android specific whitelist/blocklist
 ! Include network modifiers for Android
-!#if (adguard_app_android && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
+!#if (adguard_app_android && !ext_ublock)
 
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
@@ -14783,7 +14789,7 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 !#endif
 
 ! Remove tracking parameters (apps only)
-!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
+!#if (adguard_app_android && adguard_app_windows && adguard_app_mac && adguard_app_ios && !ext_ublock)
 
 !+ NOT_OPTIMIZED
 $removeparam=__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|aqs|sourceid|irclickid|loc|acampID|mpid|irgwc|sourceid|wmlspartner|clickid|veh|sharedid|spLa|ascsubtag|qid|sr
@@ -14795,7 +14801,8 @@ godaddy.com$removeparam=isc
 
 !#endif
 
-!#if (adguard_app_windows && !adguard_app_android && adguard_app_mac && adguard_app_ios && !adguard_ext_chromium && !adguard_ext_firefox && !adguard_ext_edge && !adguard_ext_opera)
+! AdGuard Windows App
+!#if (adguard_app_windows && !ext_ublock)
 
 @@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
@@ -14927,7 +14934,7 @@ arenavision.in##+js(nobab)
 !#endif
 
 ! Redirect (Adblock Plus)
-!#if (ext_abp)
+!#if (ext_abp && !adguard)
 
 ||assetshuluimcom-a.akamaihd.net/*.mp3$rewrite=abp-resource:blank-mp3,domain=hulu.com
 ||taskernet.com/shares/countstats.js$rewrite=abp-resource:blank-js
