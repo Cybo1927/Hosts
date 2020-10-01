@@ -1,10 +1,17 @@
+[Adblock Plus 3.6]
 ! Title: Cybo's Anti Nightcore
 ! Expires: 1 day
-! Version: 4
+! Version: 5
 
-youtube.com###dismissable:has-text(/nightcore/i)
-youtube.com##ytd-playlist-renderer:has-text(/nightcore/i)
-youtube.com##style-scope ytd-channel-renderer:has-text(/nightcore/i)
-youtube.com###secondary:has-text(/nightcore/i)
-youtube.com##ytd-horizontal-card-list-renderer:has-text(/nightcore/i)
-youtube.com##ytd-channel-renderer.ytd-item-section-renderer.style-scope:has-text(/nightcore/i)
+youtube.com#?##dismissable:-abp-contains(/nightcore/i)
+youtube.com#?#ytd-playlist-renderer:-abp-contains(/nightcore/i)
+youtube.com#?#style-scope ytd-channel-renderer:-abp-contains(/nightcore/i)
+youtube.com#?##secondary:-abp-contains(/nightcore/i)
+youtube.com#?#ytd-horizontal-card-list-renderer:-abp-contains(/nightcore/i)
+youtube.com#?#ytd-channel-renderer.ytd-item-section-renderer.style-scope:-abp-contains(/nightcore/i)
+m.youtube.com#?#.compact-media-item:-abp-contains(/nightcore/i)
+tumblr.com#?#.post:-abp-contains(/nightcore/i)
+soundcloud.com#?#li:not([data-test-id]),.playableTile,.sound:-abp-contains(/nightcore/i)
+osu.ppy.sh#?#.beatmapsets__item:-abp-contains(/nightcore/i)
+deezer.com#?#.thumbnail-col,.song:-abp-contains(/nightcore/i)
+dailymotion.com#?#.Grid > div,div[class^=DiscoveryVideoSection__discoveryVideoSection___] > .row > .small-6,div[class*=VideoCard__videoCard___]:-abp-contains(/nightcore/i)
