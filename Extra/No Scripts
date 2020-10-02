@@ -1,43 +1,52 @@
 ! Title: Cybo's No Scripts
 ! Description: A compliment to the basic hosts file that will block scripts on sites where it'll still allow basic functionality
 ! Expires: 8 hours
-! Version: 3
-! Last Modified: Tuesday, June 9, 2020
+! Version: 4
+! Last Modified: Friday, October 2, 2020
 
+! Whitelist to allow needed scripts
+@@||auth.adguard.com^$inline-script
+! AdGuard Whitelist (advanced)
+!#if ext_ublock
+
+@@||github.com/login
+
+!#endif
 ! Sites that can work without scripts
-github.com$inline-script,script
-marketwatch.com$script,inline-script
+adguard.com$inline-script
+github.com$script
+marketwatch.com$script
 nytimes.com$script
 dailycaller.com$inline-script
 neonnettle.com$inline-script
-content-security-policy.com$script,inline-script
-computerhope.com$script,inline-script
+content-security-policy.com$script
+computerhope.com$script
 ip-tracker.org$script
 ccc.de$script
 restoreprivacy.com$script
 wikipedia.org$script
 baxtel.com$script
 twitter.com$script
-androidauthority.com$script,inline-script
-itechgyd.com$script,inline-script
-androidleo.com$script,inline-script
+androidauthority.com$script
+itechgyd.com$script
+androidleo.com$script
 thehackernews.com$script
-technobezz.com$script,inline-script
-foxnews.com$script,inline-script
-techwiser.com$script,inline-script
-talkandroid.com$script,inline-script
+technobezz.com$script
+foxnews.com$script
+techwiser.com$script
+talkandroid.com$script
 techreviewpro.com$script
-systweak.com$script,inline-script
+systweak.com$script
 appsapk.com$script
-wired.co.uk$script,inline-script
+wired.co.uk$script
 zdnet.com$script
-promiseskept.com$script,inline-script
-beebom.com$script,inline-script
-techtiptrick.com$script,inline-script
-saucelabs.com$script,inline-script
-mashtips.com$script,inline-script
-mistersaad.com$script,inline-script
-thinkmobiles.com$script,inline-script
-techiespad.com$script,inline-script
-brave.com$script,inline-script
-01net.com$script,inline-script
+promiseskept.com$script
+beebom.com$script
+techtiptrick.com$script
+saucelabs.com$script
+mashtips.com$script
+mistersaad.com$script
+thinkmobiles.com$script
+techiespad.com$script
+brave.com$script
+01net.com$script
