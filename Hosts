@@ -1,11 +1,11 @@
-[Adblock Plus 3.5]
+[Adblock Plus 3.6]
 ! Title: Cybo's Hosts
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1296
+! Version: 1297
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Tuesday, September 29, 2020
+! Last Modified: Thursday, October 1, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -381,6 +381,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+||facebook.net^$domain=printcloud.dremel.com
 ||graph.facebook.com^$domain=~facebook.com
 ||firebaseio.com^$domain=walla.co.il
 ||sqreen.io^$third-party
@@ -687,6 +688,30 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||youtubevanced.com^
+||youtube-vanced.en.uptodown.com^
+||ptoushoa.com^
+||proton-tm.com^
+||protraffic.com^
+||prsaln.com^
+||prsitecheck.com^
+||pronetadvertising.com^
+||props.id^
+||prchecker.info^
+||gepush.com^
+||pubexchange.com^
+||previouspotato.com^
+||privatecash.com^
+||pro-advertising.com^
+||pushame.com^
+||pushtrack.co^
+||appier.com^
+||appadhoc.com^
+||appbrain.com^
+||wrinkads.com^
+||appcelerator.com^
+||appcelerator.net^
+||ximad.com^
 ||selfserveapps.vzw.com^
 ||ad.xiaomi.com^
 ||gos-gsp.io^
@@ -9229,7 +9254,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||rulerabbit.com^
 ||rayjump.com^
 ||redshell.io^
-||rpxnow.com^
 ||rumblefish.com^
 ||realsecuredredirect.com^
 ||realclick.co.kr^
@@ -12311,7 +12335,6 @@ yahoo.com##li[data-test-id="infinite-scroll-AD"]
 ||images-na.ssl-images-amazon.com/images/*/grey-pixel.gif
 ||*.amazonaws.com/ssl-intgr-net/tags/
 ||images-na.ssl-images-amazon.com/*/transparent-pixel.*.gif
-||music.amazon.com/*/cirrus/
 ||music.amazon.com/*/recordWeblabTrigger.html
 ||music.amazon.com/*/refMarkerTarget.html
 amazon.com###heroQuickPromo_feature_div, #percolate-ui-ilm_div
@@ -12637,6 +12660,7 @@ google.com###tvcap
 mbl.is##[id*="slot-"] > iframe
 amazon.com##.sbx_td
 amazon.com##.rush-component > .rush-component:has-text(Sponsored)
+music.amazon.com##.active.barker
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
@@ -12651,6 +12675,9 @@ amazon.com##.rush-component > .rush-component:has-text(Sponsored)
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*/pcmarketing/
+*/get-promocard/
+*/show_advertisement/
 */wp-gdpr-
 */promo/banners/
 */metrics.$image,xmlhttprequest
@@ -14094,6 +14121,8 @@ _statsonlineinfo
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
 ##[aria-label="Ads"]
+##[id*="CookieContent_wrapper"]
+##[class*="CookieContent_wrapper"]
 ##[class*="__SPONSORED"]
 ##[id*="__SPONSORED"]
 ##[class*="video-ad"]
@@ -14850,6 +14879,9 @@ godaddy.com$removeparam=isc
 *##+js(ra, rel, link[rel*="subresource"])
 *##+js(ra, rel, link[rel*="prev"])
 *##+js(ra, rel, link[rel*="prerender"])
+! Annoyance
+*##+js(remove-attr, onpageshow)
+*##+js(remove-attr, onpagehide)
 !-----------------------------------------------------------------------
 ! Specific
 platform.everfi.net*##+js(ra, disabled)
@@ -14860,9 +14892,11 @@ platform.everfi.net*##+js(ra, disabled)
 ||0.0.0.0^$third-party
 
 ! Extra JS injections
-pandora.com##+js(addEventListener-defuser.js, /hashchange/)
-crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(addEventListener-defuser.js, /click|mousedown/)
+pandora.com##+js(aeld, /hashchange/)
+crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(aeld, /click|mousedown/)
 youtube.com##+js(json-prune, adPlacements playerAds)
+*##+js(aeld, pageshow)
+*##+js(aeld, pagehide)
 ! No BlockAdBlock
 arenavision.in##+js(nobab)
 ! Stop the spinning incon from showing up over the album cover when out of skips - annoyance 
