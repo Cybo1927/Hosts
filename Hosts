@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1297
+! Version: 1298
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Thursday, October 1, 2020
+! Last Modified: Friday, October 2, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -73,7 +73,6 @@
 @@||content-images.p-cdn.com/images^$image
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
 @@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
-@@||ssl.gstatic.com/*/common/netcheck.gif?
 @@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
 @@||adobedtm.com/launch-*
@@ -136,6 +135,8 @@ kgw.com#@#[class*="__ad"]
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! General advert blocker
 /\.ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)+\..+/$all
+! Ad redirects
+/\/lander\.php(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+/$document,popup,popunder
 ! TraceDock RegEX blocking
 /[a-z0-9]{15,15}(e997c60ac8a4ec150-)[0-9]+\.(eu-).+\.(amazonaws)./$all
 ! Collector Analytics Scripts
@@ -381,6 +382,8 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Domain modifier
 
 about:blank^$popup,popunder,domain=streamtape.com
+||ssl.gstatic.com/docs/common/netcheck.gif$domain=~mail.google.com|~gmail.com|~docs.google.com
+||storage.googleapis.com^$domain=maharashtratimes.com
 ||facebook.net^$domain=printcloud.dremel.com
 ||graph.facebook.com^$domain=~facebook.com
 ||firebaseio.com^$domain=walla.co.il
@@ -688,6 +691,17 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||sendgrid.net^
+||qualtrics.com.edgekey.net^
+||startup.mobile.webvisor.com^
+||appmetrica.yandex.net^
+||static-marketolog.mts.ru^
+||purplepatch.online^
+||green-red.com^
+||girhub.com^
+||discreetfinding.com^
+||srchassist.com^
+||privacysearching.com^
 ||youtubevanced.com^
 ||youtube-vanced.en.uptodown.com^
 ||ptoushoa.com^
@@ -12661,6 +12675,11 @@ mbl.is##[id*="slot-"] > iframe
 amazon.com##.sbx_td
 amazon.com##.rush-component > .rush-component:has-text(Sponsored)
 music.amazon.com##.active.barker
+news.sky.com###leaderboard
+thesun.co.uk##div.widget-height
+mirror.co.uk##.top-slot.gpt
+mirror.co.uk##.secondary.related-column
+||static.india.com/*/images/*-banner.jpg
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
@@ -12675,6 +12694,10 @@ music.amazon.com##.active.barker
 !
 */favicon.ico$third-party,domain=~inkling.com
 !
+*/promolarge/
+*/assets/images/banner/*.gif
+*/hit_count/
+*/cms-common/ibeat.min.js
 */pcmarketing/
 */get-promocard/
 */show_advertisement/
@@ -14121,6 +14144,26 @@ _statsonlineinfo
 ##[data-google-query-id]
 ##iframe[id*="google_ad"]
 ##[aria-label="Ads"]
+##[class*="advert-wrapper"]
+##[id*="advert-wrapper"]
+##[class*="dfp-ad"]
+##[id*="dfp-ad"]
+##[class*="div-clmb-ctn"]
+##[id*="div-clmb-ctn"]
+##[class*="adblockdiv"]
+##[id*="adblockdiv"]
+##[class*="wpd-bubble-count"]
+##[id*="wpd-bubble-count"]
+##[class*="wrapper-ad"]
+##[id*="wrapper-ad"]
+##[class*="loc-header_before"]
+##[id*="loc-header_before"]
+##[class*="adloc-show"]
+##[id*="adloc-show"]
+##[class*="adloc-is"]
+##[id*="adloc-is"]
+##[class*="adloc-before"]
+##[id*="adloc-before"]
 ##[id*="CookieContent_wrapper"]
 ##[class*="CookieContent_wrapper"]
 ##[class*="__SPONSORED"]
