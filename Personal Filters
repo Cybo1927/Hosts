@@ -29,15 +29,6 @@ qiniudns.com|
 4.53.160.75$network
 4.53.160.75$network
 
-! AdGuard Desktop
-!#if (adguard_ext_chromium && adguard_ext_safari && adguard_ext_firefox && adguard_ext_edge && adguard_ext_opera)
-!#if !ext_ublock
-
-! Cookies
-*$cookie=/.+/,domain=~youtube.com|~accounts.google.com
-@@||google.com$cookie,domain=youtube.com
-
-amazon.com$cookie
-
-!#endif
-!#endif
+! Android
+||protectstar.com^
+||unity3d.com^
