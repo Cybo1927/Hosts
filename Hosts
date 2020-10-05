@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1298
+! Version: 1299
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (uBO)
-! Last Modified: Friday, October 2, 2020
+! Last Modified: Sunday, October 4, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -691,6 +691,19 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||uptime.signal.org^
+||madjoh.com^
+||currus-full-snapshots-track-*-prod.s3.amazonaws.com^
+||piwik.openstreetmap.org^
+||aaddzz.com^
+||abaxinteractive.com^
+||abax-interactive.webflow.io^
+||boomads.com^
+||brandaffinity.net^
+||acquisio.com^
+||ad360.media^
+||rtbpop.com^
+||runadtag.com^
 ||sendgrid.net^
 ||qualtrics.com.edgekey.net^
 ||startup.mobile.webvisor.com^
@@ -10698,7 +10711,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||unid.go.com^
 ||usercentrics.eu^
 ||ucweb.com^
-||uservoice.com^
 ||unarmedindustry.com^
 ||unknowntray.com^
 ||untidyquestion.com^
