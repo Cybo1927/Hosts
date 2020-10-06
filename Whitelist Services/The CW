@@ -1,0 +1,8 @@
+! Title: Whitelist The CW
+! Expires: 8 hours
+! Version: 1
+
+! Whitelist some ad/tracker services to make The CW work (If this isn't done it won't play anything)
+
+@@||pubads.g.doubleclick.net^$important
+@@||nativesdks.mparticle.com^$important
