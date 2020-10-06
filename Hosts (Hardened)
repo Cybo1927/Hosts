@@ -3,8 +3,18 @@
 ! Description: A hardened version of my main hosts file that greatly improves privacy with as little downsides as possible
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1
-! Last Modified: Friday, October 2, 2020
+! Version: 2
+! Last Modified: Tuesday, October 6, 2020
+
+! AdGuard Scripts
+!#if !ext_ublock
+!#if (adguard)
+
+#%#Object.defineProperty(window, 'getScreens', { get: function() { return ''; } });
+#%#Object.defineProperty(window, 'isMultiScreen', { get: function() { return ''; } });
+
+!#endif
+!#endif
 
 ! Prevent fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font,font
