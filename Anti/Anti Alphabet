@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 31
+! Version: 32
 
 ! Google
 /.{0,}google\..+/
@@ -14,6 +14,7 @@
 ||googlesource.com^$important
 
 ! Hosting
+/(amp)(\.|-).+.+/$document,subdocument,popup,popunder,domain=~github.com|~gitlab.com
 ||appspot.com^$important
 ||youtube.com^$important
 ||blogger.com^$important
@@ -46,6 +47,7 @@
 ||8.8.4.4^$important
 
 ! Misc
+||web.dev^$important
 ||calicolabs.com^$important
 ||nest.com^$important
 ||gv.com^$important
