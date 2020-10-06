@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1300
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.4K (AdGuard Home)
-! Last Modified: Monday, October 5, 2020
+! Version: 1301
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
+! Last Modified: Tuesday, October 6, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -711,6 +711,13 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||mylol.com^
+||browser.events.data.msn.com^
+||global.asimov.events.data.trafficmanager.net^
+||tpc.googlesyndication.com^
+||keysvc.cs.roku.com^
+||ravm.tv^
+||bamgrid.com^
 ||leya.tech^
 ||privacy-center.org^
 ||phoenix-widget.com^
@@ -1328,7 +1335,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||letmeleadyou.me^
 ||infosendpro.com^
 ||blogherads.com^
-||omappapi.com^
 ||htlbid.com^
 ||meatydime.com^
 ||b-m.xyz^
@@ -1791,7 +1797,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||*rockstarreports*.com^
 ||ws.symantec.com^
 ||beacon.video.llnw.net^
-||llnwd.net^
 ||yoursexcontact1.com^
 ||cyan92010.com^
 ||symcb.com^
@@ -2084,14 +2089,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||searchads.apple.com^
 ||securemetrics.apple.com^
 ||xp.apple.com^
-||mesu.apple.com^
 ||apsu.apple.com^
 ||apfw.apple.com^
 ||geo.itunes.apple.com^
 ||xp.itunes-apple.com.akadns.net^
 ||zeusmedia.apple.com^
 ||zeusmedia.g.aaplimg.com^
-||appldnld.apple.com^
 ||adnxtr.com^
 ||adrunnr.com^
 ||adserver.com^
@@ -4814,7 +4817,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cnevids.com^
 ||crownpeak.net^
 ||podium.com^
-||captive.apple.com^
 ||crlsets.brave.com^
 ||chrome.adtidy.org^
 ||crl.certum.pl^
@@ -6367,9 +6369,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||getfree-vpn.com^
 ||geover-prod.do.dsp.mp.microsoft.com^
 ||geo-prod.do.dsp.mp.microsoft.com^
-||g.microsoft.com^
-||g.live.com^
-||g.bing.com^
 ||gameanalytics.com^
 ||googlecommerence.com^
 ||goska.siol.net^
@@ -9603,7 +9602,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||shasta-sfg.norton.com^
 ||sa02in01.sa02.crsi.symantec.com^
 ||supporttool-shasta-rrs.symantec.com^
-||static.brave.com^
 ||stats.qalabs.symantec.com^
 ||slscr.update.microsoft.com^
 ||slscr.update.microsoft.com.akadns.net^
@@ -12170,7 +12168,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||7895983.cn^
 ||135.sub-198-224-148.myvzw.com^
 ||6to4.ipv6.microsoft.com^
-||a-000*.a-msedge.net^
 ||360yield.com^
 ||404.online.net^
 ||207.net^
@@ -14895,7 +14892,6 @@ $webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakey
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
 @@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
 @@||img.samsungapps.com
-@@||samsappsbn.vo.llnwd.net
 ||mtalk.google.com^$badfilter
 
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
