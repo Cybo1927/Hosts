@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1304
+! Version: 1305
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
-! Last Modified: Thursday, October 8, 2020
+! Last Modified: Saturday, October 10, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -24,6 +24,7 @@
 
 ! Whitelist
 !#safari_cb_affinity(all)
+@@||militarytimes.mco.cdn.arcpublishing.com^
 @@||uid.mavencoalition.io^
 @@*/react-$script,domain=tinkercad.com
 @@*/ads_test
@@ -83,7 +84,6 @@
 @@||totaljerkface.com/adplayer/ads.js
 @@||player.theplatform.com
 @@||media-cdn.tripadvisor.com
-@@||iheart.com
 @@||services.gfe.nvidia.com
 @@||download.gfe.nvidia.com
 @@||clients2.googleusercontent.com
@@ -708,6 +708,20 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||smetric.^
+||smetrics.^
+||webstats.^
+||adproxy.^
+||mlog.^
+||ptgncdn.com^
+||opensharecount.com^
+||wn.nr^
+||laptop-updates.brave.com^
+||symcd.com^
+||userlocation.googleapis.com^
+||juicyads.rocks^
+||sexxxbox.net^
+||juicyads.cc^
 ||heartbeat.savvasrealize.com^
 ||atomisons.xyz^
 ||events.adguard.com^
@@ -8001,7 +8015,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||slotsforluck.com^
 ||metrics0.com^
 ||mcd270n310.karere.mega.nz^
-||mp.microsoft.com^
 ||madvertise.com^
 ||mintegral.com^
 ||moodmedia.com^
@@ -12725,22 +12738,9 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
-||smetric.^
-||smetrics.^
-||webstats.^
-||adproxy.^
-||mlog.^
-! ExoClick
-*.com/be_fl.js$script,redirect=noopjs
-!
 */favicon.ico$third-party,domain=~inkling.com
-!
 */tag-manager/
 */api/*/tags/*
-*/prebid*$script,redirect=noopjs
-*/adScript*$script,redirect=noopjs
-*/*gpt_*$script,redirect=noopjs
-*/*prebid_*$script,redirect=noopjs
 */promolarge/
 */assets/images/banner/*.gif
 */hit_count/
@@ -12756,9 +12756,6 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 */country_ad/
 */api/metrics
 */streamtelemetry
-*/cleardot.gif$image,redirect=1x1.gif
-*/*/header.js$script,redirect=noopjs
-*/pubads_$script,redirect=noopjs
 */advertising-tags.
 */collect/sdk
 */tegna-tracking.
@@ -12768,24 +12765,17 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 */transparent.gif
 */trustlogo.js
 */platform-telemetry/
-*/ads/pop.$script,redirect-rule=noopjs
-*/js/pop.$script,redirect-rule=noopjs
 *?action=reportMetrics
 */visitormatch/
 */AdServer/$image
 */utils/geo.js
 */flashcookie/
-*/ads_prebid$script,redirect=noopjs
-*/atmedia_ms_v*$script,redirect=noopjs,third-party
 */adzone.
 */adunit/
 */prebidlink/
 */adzone-io/
 */email/counter
 */widgetAd/
-*/google_tag-$script,redirect=noopjs
-*/google_tag.$script,redirect=noopjs
-*.gif?pingver=$image,redirect=1x1.gif
 */altmetric_badges
 */csp-violations/
 */api/tracking
@@ -12995,8 +12985,6 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 */o.php?domain=
 */stats/$script
 */autotrack.$script
-*/ua-parser-$script,redirect=noop.js,important
-*/ua-parser.$script,redirect=noop.js,important
 */pixel/
 */afu.php?zoneid=
 */neverb/
@@ -13625,8 +13613,6 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 */ads.json
 */ad_manager
 */infos.ads?
-*/gtag/$script,redirect=noopjs
-*/gtag.$script,redirect=noopjs
 */advert-amazon-secret?
 */banner/videos/player.htm?
 */plugin/banner/videos/*
@@ -13641,7 +13627,6 @@ wakingtimes.com##[href*="wakingtimes.com/ads/"]
 */e.mtrack.cryfe.js
 */sponsors/ads/
 */game-analytics
-*/gtm.$script,redirect=noopjs
 */rsya-tag-users/
 */myvids/nb/thephpfile.php
 */traffic_return.php
@@ -13804,6 +13789,8 @@ _statsonlineinfo
 ##[data-ad-right-title]
 ##[data-google-query-id]
 ##[aria-label="Ads"]
+##[src*="deliver.ptgncdn.com"]
+##a[href*="refer.ccbill.com"]
 ##iframe[id*="google_ad"]
 ##[id*="phoenix-ad"]
 ##[class*="phoenix-ad"]
@@ -14891,6 +14878,8 @@ youtube.com#@#body { overflow:visible!important; }
 ###adright:style{ display:none!important; }
 ##.adsbyxa:style{ display:none!important; }
 ###cookie_new:style{ display:none!important; }
+##.ptgncdn_holder_result:style{ display:none!important; }
+##.ptgncdn_holder:style{ display:none!important; }
 
 !#endif
 !#endif
@@ -15452,6 +15441,8 @@ youtube.com#@#body:style(overflow:visible !important)
 ###adright:style(display:none !important;)
 ##.adsbyxa:style(display:none !important;)
 ###cookie_new:style(display:none !important;)
+##.ptgncdn_holder_result:style(display:none !important;)
+##.ptgncdn_holder:style(display:none !important;)
 
 !#endif
 !#endif
@@ -15461,27 +15452,48 @@ youtube.com#@#body:style(overflow:visible !important)
 !#if ext_ublock
 !#if (adguard)
 
-||pandora.com/ping.txt?f=*$xmlhttprequest,redirect-rule=nooptext,first-party
-||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com
-||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com
-||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
-||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com
-||taskernet.com/shares/countstats.js$script,redirect=noopjs
-||audio-akp-quic-control-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3
-||audio-akp-quic-control-spotify-com.akamaized.net$xmlhttprequest
-||audio-sp-sea.spotifycdn.net$media,redirect=noop-0.1s.mp3
-||heads-ak-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3
-||audio-akp-bbr-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3
-||video-fa.scdn.co$media,redirect=noop-0.1s.mp3
-||video-ak.cdn.spotify.com.akahost.net$media,redirect=noop-0.1s.mp3
-||video-ak.cdn.spotify.com.eip.akadns.net$media,redirect=noop-0.1s.mp3
-||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
-||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js
-||doubleclick.net/instream/ad_status.js$script,redirect=noopjs
+||pandora.com/ping.txt?f=*$xmlhttprequest,redirect-rule=nooptext,first-party,important
+||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com,important
+||akamaihd.net/prerolls$media,redirect=noop-1s.mp4,domain=hulu.com,important
+||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com,important
+||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noop-1s.mp4,domain=hulu.com,important
+||taskernet.com/shares/countstats.js$script,redirect=noopjs,important
+||audio-akp-quic-control-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3,important
+||audio-akp-quic-control-spotify-com.akamaized.net$xmlhttprequest,important
+||audio-sp-sea.spotifycdn.net$media,redirect=noop-0.1s.mp3,important
+||heads-ak-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3,important
+||audio-akp-bbr-spotify-com.akamaized.net$media,redirect=noop-0.1s.mp3,important
+||video-fa.scdn.co$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.akahost.net$media,redirect=noop-0.1s.mp3,important
+||video-ak.cdn.spotify.com.eip.akadns.net$media,redirect=noop-0.1s.mp3,important
+||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js,important
+||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js,important
+||doubleclick.net/instream/ad_status.js$script,redirect=noopjs,important
 ||apis.google.com/js/client.js^$script,redirect=noopjs,domain=savvasrealize.com
 */cleardot.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
 */netcheck.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
-*/metrics.$script,redirect=noopjs
+*/metrics.$script,redirect=noopjs,important
+*.com/be_fl.js$script,redirect=noopjs,important
+*/sensorsdata.$script,redirect=noopjs,important
+*/prebid*$script,redirect=noopjs,important
+*/adScript*$script,redirect=noopjs,important
+*/*gpt_*$script,redirect=noopjs,important
+*/*prebid_*$script,redirect=noopjs,important
+*/cleardot.gif$image,redirect=1x1.gif,important
+*/*/header.js$script,redirect=noopjs,important
+*/pubads_$script,redirect=noopjs,important
+*/ads/pop.$script,redirect-rule=noopjs,important
+*/js/pop.$script,redirect-rule=noopjs,important
+*/ads_prebid$script,redirect=noopjs,important
+*/atmedia_ms_v*$script,redirect=noopjs,third-party,important
+*/google_tag-$script,redirect=noopjs,important
+*/google_tag.$script,redirect=noopjs,important
+*.gif?pingver=$image,redirect=1x1.gif,important
+*/ua-parser-$script,redirect=noopjs,important
+*/ua-parser.$script,redirect=noopjs,important
+*/gtag/$script,redirect=noopjs,important
+*/gtag.$script,redirect=noopjs,important
+*/gtm.$script,redirect=noopjs,important
 ! Stop the spinning incon from showing up over the album cover when out of skips - annoyance 
 ||adserver.pandora.com/haymaker/api/v1/serve/?slot=FLEX_SKIP*$xmlhttprequest,redirect-rule=noop.txt,first-party,important
 
@@ -15502,9 +15514,28 @@ youtube.com#@#body:style(overflow:visible !important)
 ||video-ak.cdn.spotify.com.eip.akadns.net$rewrite=abp-resource:blank-mp3
 ||doubleclick.net/instream/ad_status.js$rewrite=abp-resource:blank-js
 ||apis.google.com/js/client.js^$rewrite=abp-resource:blank-js,domain=savvasrealize.com
-*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,important,domain=~gmail.com|mail.google.com
-*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif,important,domain=~gmail.com|mail.google.com
+*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~gmail.com|mail.google.com
+*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~gmail.com|mail.google.com
 */metrics.$rewrite=abp-resource:blank-js
+*.com/be_fl.js$rewrite=abp-resource:blank-js
+*/sensorsdata.$rewrite=abp-resource:blank-js
+*/prebid*$rewrite=abp-resource:blank-js
+*/adScript*$rewrite=abp-resource:blank-js
+*/*gpt_*$rewrite=abp-resource:blank-js
+*/*prebid_*$rewrite=abp-resource:blank-js
+*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif
+*/*/header.js$rewrite=abp-resource:blank-js
+*/pubads_$rewrite=abp-resource:blank-js
+*/ads_prebid$rewrite=abp-resource:blank-js
+*/atmedia_ms_v*$rewrite=abp-resource:blank-js,third-party
+*/google_tag-$rewrite=abp-resource:blank-js
+*/google_tag.$rewrite=abp-resource:blank-js
+*.gif?pingver=$rewrite=abp-resource:1x1-transparent-gif
+*/ua-parser-$rewrite=abp-resource:blank-js
+*/ua-parser.$rewrite=abp-resource:blank-js
+*/gtag/$rewrite=abp-resource:blank-js
+*/gtag.$rewrite=abp-resource:blank-js
+*/gtm.$rewrite=abp-resource:blank-js
 
 !#endif
 !#endif
