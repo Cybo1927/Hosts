@@ -1,10 +1,9 @@
+[Adblock Plus 3.6]
 ! Title: Cybo's Anti Everything
+! Description: Block EVERYTHING - whitelist only setup
 ! Expires: 8 days
 
 ! This is good for having a whitelist based setup (better privacy)
-
-! RegEX
-/.+/$important
 
 ! Content/ad blockers
 *
