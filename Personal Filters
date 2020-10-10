@@ -29,6 +29,7 @@ qiniudns.com|
 4.53.160.75$network
 4.53.160.75$network
 
-! Android
+! Unnecessary connections
 ||protectstar.com^
 ||unity3d.com^
+||disqus.com^
