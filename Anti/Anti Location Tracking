@@ -1,9 +1,10 @@
+[Adblock Plus]
 ! Title: Cybo's Anti Location Tracking
+! Description: Block maps, location analytics, and GPS services (will break some things)
 ! Expires: 1 day
-! Version: 25
+! Version: 26
 
-! Block maps, location analytics, and GPS services
-
+||userlocation.googleapis.com^
 ||geo.privacymanager.io^
 ||*-geo.kaspersky-labs.com^
 ||location.live.net^
@@ -154,16 +155,6 @@
 ||carobapps.com/*/inroute
 ||api.productreview.com.au/api/geoip
 
-! AdGuard For Android
-52.72.245.79$network
-52.87.74.252$network
-34.243.125.37$network
-157.240.18.15$network
-172.217.4.106$network
-104.18.168.222$network
-172.217.9.67$network
-52.22.113.11$network
-13.226.19.42$network
 ! Generic
 *$websocket,webrtc
 *map.online*
@@ -187,3 +178,14 @@
 %ip=
 &isp=
 %isp=
+
+! AdGuard For Android
+52.72.245.79$network
+52.87.74.252$network
+34.243.125.37$network
+157.240.18.15$network
+172.217.4.106$network
+104.18.168.222$network
+172.217.9.67$network
+52.22.113.11$network
+13.226.19.42$network
