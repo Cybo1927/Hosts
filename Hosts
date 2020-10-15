@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1307
+! Version: 1308
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
-! Last Modified: Wednesday, October 14, 2020
+! Last Modified: Thursday, October 15, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -708,6 +708,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||link-to.net^
+||linkvertise.com^
+||find-box.org^
+||ponasakmuo.it^
+||chrome.it^
+||bytefence.com^
 ||mbsug.ssl.so.com^
 ||xred.mooo.com^
 ||p2r14.com^
@@ -5315,7 +5321,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||dr-zh.com^
 ||api-crashlytics-*.amazonaws.com^
 ||dl.vaccine.line.naver.jp^
-||geo.kaspersky.com^
 ||dlied1.qq.com^
 ||datadoghq-browser-agent.com^
 ||dchoc.com^
@@ -12745,6 +12750,9 @@ gizmodo.com###commerce-inset-wrapper
 discord.com##[class*="color"][class*="notice-"]
 nypost.com##.modal-inner
 ||cdn.flipboard.com/web/buttons/js/flbuttons$script
+brighteon.com##.overlay, .bottom-banner, #statusmessagediv, .video-subscription
+brighteon.com##[href*="support.brighteon.com"]:nth-of-type(1):upward(2)
+brighteon.com##[href*="support.brighteon.com"]:nth-of-type(2)
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
@@ -14904,6 +14912,7 @@ youtube.com#@#body { overflow:visible!important; }
 ###cookie_new:style{ display:none!important; }
 ##.ptgncdn_holder_result:style{ display:none!important; }
 ##.ptgncdn_holder:style{ display:none!important; }
+##.amgdprcookie-bar-container:style{ display:none!important; }
 
 !#endif
 !#endif
@@ -15464,6 +15473,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ###cookie_new:style(display:none !important;)
 ##.ptgncdn_holder_result:style(display:none !important;)
 ##.ptgncdn_holder:style(display:none !important;)
+##.amgdprcookie-bar-container:style(display:none !important;)
 
 !#endif
 !#endif
