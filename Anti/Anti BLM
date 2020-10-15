@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti BLM
 ! Description: Block BLM (Black Lives Matter) links, videos, ads, etc.
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 *#?#a:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 *#?#h1:has-text(/(black lives matter|blacklivesmatter|blm)/i)
@@ -13,7 +13,6 @@
 *#?#h6:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 
 ! YouTube
-youtube.com###dismissable:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 youtube.com##ytd-playlist-renderer:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 youtube.com##style-scope ytd-channel-renderer:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 youtube.com###secondary:has-text(/(black lives matter|blacklivesmatter|blm)/i)
