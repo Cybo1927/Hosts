@@ -1,6 +1,10 @@
 ## Main Lists
 
-* [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies.
+* [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - Collection of lists to block all servers from the specified apps/companies or hide specific things.
+
+* [`/Extra/`](https://github.com/Cybo1927/Hosts/tree/master/Extra) - Extra things that aren't meant to be standalone lists.
+
+* [`/Whitelist Services/`](https://github.com/Cybo1927/Hosts/tree/master/Whitelist%20Services) - Collection of lists that help you to whitelist a broken service--service specific because it will whitelist ads/trackers.
 
 * [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blacklist for trackers, ads, malware, and IP grabbers.
 
