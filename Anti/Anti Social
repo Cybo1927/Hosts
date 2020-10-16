@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Social
 ! Description: Block social networks and share buttons
 ! Expires: 1 day
-! Version: 37
+! Version: 38
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -13,10 +13,8 @@ pandora.com$generichide
 
 ! AddThis
 ||addthis.com^
-##.addthis_button_facebook
-##.addthis_button_twitter
-##.addthis_button_instagram
-##.addthis_button_youtube
+##[id*="addthis_button"]
+##[class*="addthis_button"]
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -124,7 +122,7 @@ pandora.com$generichide
 
 ! Snapchat
 ! From /Anti/Anti Snapchat
-|||snapchat.com^
+||snapchat.com^
 ||snap.com^
 ||sc-cdn.net^
 ||sc-static.net^
@@ -179,10 +177,6 @@ pandora.com$generichide
 ! Yandex
 ||yastatic.net/share/
 
-! Disqus
-||disqus.com^
-||disqus.com/embed/$subdocument
-
 ! Mail
 ||gmail.com^
 ||mail.ru^
@@ -200,350 +194,558 @@ pandora.com$generichide
 ||crowdynews.com^
 
 ! Comments
-||facebook.com/plugins/comments.php
+||disqus.com^
 ||youtube.com/live_chat_fragments_ajax?
 ||youtube.com/comment_service_ajax?
-||disqus.com
-##.chat-widget__messages-area
-##.chat
-###chat
-##.chat-widget
-###chat-widget
-###disqus_thread
-###dsq1
-###dsq2
-##.disqus
-###fyre-comment-count
-###powered_by_livefyre_new
-###comments
-##.comments
-##.commentbubble
-##.entry-comments
-##.comment-entry
-##.comment-count
-##.commentHolder
-###commentContainer
-##.commentDisclaimer
-##.articleComments
-##.comments_icon
-###comment-container
-###comment-section
-##.inactive.short.flex_action_chat
 
 ! RSS
-###rss-link
-##.rss
-/rss/
-/rss_*
-/rss__*
-/*_rss
-/*-rrss
+*/rss/
+*/rss_*
+*/rss__*
+*/*_rss
+*/*-rrss
 
 ! Buttons / Share Links
-##[href*="reddit.com"]
-##[href*="linkedin.com"]
 ##[href*="facebook.com"]
+##[href*="instagram.com"]
+##[href*="youtube.com"]
 ##[href*="twitter.com"]
-##[href*="telegram.me"]
+##[href*="reddit.com"]
+##[href*="discord.gg"]
+##[href*="flickr.com"]
+##[href*="linkedin.com"]
+##[href*="live.com"]
+##[href*="skype.com"]
 ##[href*="whatsapp.com"]
-##[href*="flipboard.com"]
+##[href*="whatsapp.net"]
+##[href*="wechat.com"]
+##[href*="qq.com"]
+##[href*="deviantart.com"]
+##[href*="deviantart.net"]
+##[href*="tiktok.com"]
+##[href*="baidu.com"]
+##[href*="tumblr.com"]
+##[href*="line.me"]
+##[href*="viber.com"]
+##[href*="renren.com"]
+##[href*="foursquare.com"]
+##[href*="taringa.net"]
+##[href*="telegram.org"]
+##[href*="pinterest.com"]
+##[href*="vk.com"]
+##[href*="tagged.com"]
+##[href*="snapchat.com"]
+##[href*="snap.com"]
+##[href*="myspace.com"]
+##[href*="badoo.com"]
+##[href*="weheartit.com"]
+##[href*="vine.co"]
+##[href*="douban.com"]
+##[href*="doubanio.com"]
+##[href*="meetup.com"]
+##[href*="meetme.com"]
+##[href*="disqus.com"]
 ##[href*="mailto:"]
 ##[href*="fb-messenger://share/"]
-##[data-sm^="instagram"]
-##[data-sm^="facebook"]
-##[data-sm^="twitter"]
-##[data-sm^="linkedin"]
-##[data-sm^="reddit"]
-##[data-sm^="discord"]
-##[data-sm^="discordapp"]
-##[data-sm^="flickr"]
-##[data-sm^="skype"]
-##[data-sm^="whatsapp"]
-##[data-sm^="wechat"]
-##[data-sm^="deviantart"]
-##[data-sm^="tiktok"]
-##[data-sm^="baidu"]
-##[data-sm^="tumblr"]
-##[data-sm^="line"]
-##[data-sm^="viber"]
-##[data-sm^="renren"]
-##[data-sm^="foursquare"]
-##[data-sm^="taringa"]
-##[data-sm^="telegram"]
-##[data-sm^="pinterest"]
-##[data-sm^="vk"]
-##[data-sm^="vkontakte"]
-##[data-sm^="tagged"]
-##[data-sm^="snapchat"]
-##[data-sm^="myspace"]
-##[data-sm^="badoo"]
-##[data-sm^="weheartit"]
-##[data-sm^="vine"]
-##[data-sm^="douban"]
-##[data-sm^="meetup"]
-##[data-sm^="meetme"]
-##[data-sm^="flipboard"]
-##[data-sm^="mail"]
-##[data-sm^="email"]
-##[data-sm^="Instagram"]
-##[data-sm^="Facebook"]
-##[data-sm^="Twitter"]
-##[data-sm^="Linkedin"]
-##[data-sm^="Reddit"]
-##[data-sm^="Discord"]
-##[data-sm^="Discordapp"]
-##[data-sm^="Flickr"]
-##[data-sm^="Skype"]
-##[data-sm^="Whatsapp"]
-##[data-sm^="Wechat"]
-##[data-sm^="Deviantart"]
-##[data-sm^="Tiktok"]
-##[data-sm^="Baidu"]
-##[data-sm^="Tumblr"]
-##[data-sm^="Line"]
-##[data-sm^="Viber"]
-##[data-sm^="Renren"]
-##[data-sm^="Foursquare"]
-##[data-sm^="Taringa"]
-##[data-sm^="Telegram"]
-##[data-sm^="Pinterest"]
-##[data-sm^="Vk"]
-##[data-sm^="Vkontakte"]
-##[data-sm^="Tagged"]
-##[data-sm^="Snapchat"]
-##[data-sm^="SnapChat"]
-##[data-sm^="Myspace"]
-##[data-sm^="Badoo"]
-##[data-sm^="Weheartit"]
-##[data-sm^="Vine"]
-##[data-sm^="Douban"]
-##[data-sm^="Meetup"]
-##[data-sm^="Meetme"]
-##[data-sm^="Flipboard"]
-##[data-sm^="Mail"]
-##[data-sm^="Email"]
-##[alt^="instagram"]
-##[alt^="facebook"]
-##[alt^="twitter"]
-##[alt^="linkedin"]
-##[alt^="reddit"]
-##[alt^="discord"]
-##[alt^="discordapp"]
-##[alt^="flickr"]
-##[alt^="skype"]
-##[alt^="whatsapp"]
-##[alt^="wechat"]
-##[alt^="deviantart"]
-##[alt^="tiktok"]
-##[alt^="baidu"]
-##[alt^="tumblr"]
-##[alt^="line"]
-##[alt^="viber"]
-##[alt^="renren"]
-##[alt^="foursquare"]
-##[alt^="taringa"]
-##[alt^="telegram"]
-##[alt^="pinterest"]
-##[alt^="vk"]
-##[alt^="vkontakte"]
-##[alt^="tagged"]
-##[alt^="snapchat"]
-##[alt^="myspace"]
-##[alt^="badoo"]
-##[alt^="weheartit"]
-##[alt^="vine"]
-##[alt^="douban"]
-##[alt^="meetup"]
-##[alt^="meetme"]
-##[alt^="flipboard"]
-##[alt^="mail"]
-##[alt^="email"]
-##[alt^="Instagram"]
-##[alt^="Facebook"]
-##[alt^="Twitter"]
-##[alt^="Linkedin"]
-##[alt^="Reddit"]
-##[alt^="Discord"]
-##[alt^="Discordapp"]
-##[alt^="Flickr"]
-##[alt^="Skype"]
-##[alt^="Whatsapp"]
-##[alt^="Wechat"]
-##[alt^="Deviantart"]
-##[alt^="Tiktok"]
-##[alt^="Baidu"]
-##[alt^="Tumblr"]
-##[alt^="Line"]
-##[alt^="Viber"]
-##[alt^="Renren"]
-##[alt^="Foursquare"]
-##[alt^="Taringa"]
-##[alt^="Telegram"]
-##[alt^="Pinterest"]
-##[alt^="Vk"]
-##[alt^="Vkontakte"]
-##[alt^="Tagged"]
-##[alt^="Snapchat"]
-##[alt^="SnapChat"]
-##[alt^="Myspace"]
-##[alt^="Badoo"]
-##[alt^="Weheartit"]
-##[alt^="Vine"]
-##[alt^="Douban"]
-##[alt^="Meetup"]
-##[alt^="Meetme"]
-##[alt^="Flipboard"]
-##[alt^="Mail"]
-##[alt^="Email"]
-##button[title="Share"]
-##[title="Share"]
-##button[title="share"]
-##[title="share"]
-###follow-us
-##.icon-share
-##.social-box
-##.clear.sharebelow
-##.float-share
-##.flipboard
-##.twitter
-##.fb
-##.facebook
-##.SocialMediaShareButton--facebook
-##.SocialMediaShareButton--twitter
-##.SocialMediaShareButton--instagram
-##.SocialMediaShareButton--youtube
-##.SocialMediaShareButton--email
-##.SocialMediaShareButton
-##.share-wrap
-##.share
-##.articleHeadlineShareFacebook
-##.articleHeadlineSharePinterest
-##.articleHeadlineShareTwitter
-##.articleHeadlineShareGooglePlus
-##.articleHeadlineShareLinkedIn
-##.articleHeadlineShares
-##..articleHeadlineShare
-##.articleHeadlineShareLong
-##.articleFooterFollow
-##.articleFooterFollows
-##.articleFooterShares
-##.articleRateButton
-##.ui-icon-youtube-play
-##.ui-icon-instagram
-##.ui-icon-pinterest
-##.md-social-toolbar-circle
-##.et-social-icon
-##.et-social-rss
-##.html5aside.social
-##.share-tool
-##.instagram
-##.google-plus
-##.youtube
-##.pinterest
-##.fa-instagram
-##.fa-google-plus
-##.fa-youtube
-##.fa-pinterest
-##.dpsp-pinterest
-##.dpsp-whatsapp
-##.dpsp-tumblr
-##.dpsp-flipboard
-##.dpsp-email
-##.dpsp-network-icon
-##.dpsp-network-btn
-##.dpsp-total-share-wrapper
-##.header__social
-##.icon-google-plus.icon
-##.icon-heart.icon
-##.icon-x.icon
-##.icon-mail.icon
-##.name-follow
-##.name-rate
-###call-button
-##.ssk-email
-##.ssk-emerald
-##.ssk-twitter
-##.ssk-facebook
-##.ssk-linkedin
-##.article-share
-##.sharedaddy
-##.sd-sharing-enabled
-##.sharing
-##.et-extra-icon-googleplus
-##.et-extra-icon-tumblr
-##.et-extra-icon-pinterest
-##.et-extra-icon-background-hover.et-extra-icon-buffer.et-extra-icon
-##.et-extra-icon-stumbleupon
-##.et-extra-icon-basic_email
-##.et-extra-icon-basic_print
-##.social-link-nl
-##.social-link
-##.rss-button
-##.email
-##.mastodon
-##.mix
-##.diaspora
-##.share-btn
-##.event-single-social-accounts-link
-##.event-single-social-accounts-content
-##.social-twitter
-##.social-facebook
-##.pop__messenger
-###pop_facebook
-##.followUs
-##.icon--share
-##.icon--mail
-##.social.list-inline
-##.socialicon
-##.socialbar
-##.c-social-buttons
-##.c-social-buttons--popover
-##.inline-share-tools
-##.asset-inline-share-tools
-##.asset-inline-share-tools-top
-##.asset-inline-share-tools-bottom
-##.site-footer-social-icon-list
-##.main-social
-##.connectwithus
-##.site-footer-social-icon-list-fixed-width
-##.wp-live-chat-wraper
-##.facebook-share
-##.arimo.clipboard
-##.btn-social
-##.float-share-li
-##.icon-share
-##.sqs-svg-icon--social
-##.social-icons-style-regular
-##.social-icons-size-extra-large
-##.social-icons-color-black
-##.social-icon-alignment-center
-##.socialtext
-##.social
-##.shopify-social-icon-instagram
-##.social-media-tiv
-##.social-media-buttons
-##.SocialSharingCompact
-##.footer__social
-##.module-social-share-container
--facebook
--fb
--twitter
-.facebook
-.fb
-.twitter
--social-
--socail.
-.social-
-.social.
-.*/share
-_share
-share_
--share-
--sharebar-
--sharebar.
-.sharebar-
-.sharebar.
-/pluso-like/
+##[data-sm*="instagram"]
+##[data-sm*="facebook"]
+##[data-sm*="twitter"]
+##[data-sm*="linkedin"]
+##[data-sm*="reddit"]
+##[data-sm*="discord"]
+##[data-sm*="discordapp"]
+##[data-sm*="flickr"]
+##[data-sm*="skype"]
+##[data-sm*="whatsapp"]
+##[data-sm*="wechat"]
+##[data-sm*="deviantart"]
+##[data-sm*="tiktok"]
+##[data-sm*="baidu"]
+##[data-sm*="tumblr"]
+##[data-sm*="line"]
+##[data-sm*="viber"]
+##[data-sm*="renren"]
+##[data-sm*="foursquare"]
+##[data-sm*="taringa"]
+##[data-sm*="telegram"]
+##[data-sm*="pinterest"]
+##[data-sm*="vk"]
+##[data-sm*="vkontakte"]
+##[data-sm*="tagged"]
+##[data-sm*="snapchat"]
+##[data-sm*="myspace"]
+##[data-sm*="badoo"]
+##[data-sm*="weheartit"]
+##[data-sm*="vine"]
+##[data-sm*="douban"]
+##[data-sm*="meetup"]
+##[data-sm*="meetme"]
+##[data-sm*="flipboard"]
+##[data-sm*="mail"]
+##[data-sm*="email"]
+##[data-sm*="Instagram"]
+##[data-sm*="Facebook"]
+##[data-sm*="Twitter"]
+##[data-sm*="Linkedin"]
+##[data-sm*="Reddit"]
+##[data-sm*="Discord"]
+##[data-sm*="Discordapp"]
+##[data-sm*="Flickr"]
+##[data-sm*="Skype"]
+##[data-sm*="Whatsapp"]
+##[data-sm*="Wechat"]
+##[data-sm*="Deviantart"]
+##[data-sm*="Tiktok"]
+##[data-sm*="Baidu"]
+##[data-sm*="Tumblr"]
+##[data-sm*="Line"]
+##[data-sm*="Viber"]
+##[data-sm*="Renren"]
+##[data-sm*="Foursquare"]
+##[data-sm*="Taringa"]
+##[data-sm*="Telegram"]
+##[data-sm*="Pinterest"]
+##[data-sm*="Vk"]
+##[data-sm*="Vkontakte"]
+##[data-sm*="Tagged"]
+##[data-sm*="Snapchat"]
+##[data-sm*="SnapChat"]
+##[data-sm*="Myspace"]
+##[data-sm*="Badoo"]
+##[data-sm*="Weheartit"]
+##[data-sm*="Vine"]
+##[data-sm*="Douban"]
+##[data-sm*="Meetup"]
+##[data-sm*="Meetme"]
+##[data-sm*="Flipboard"]
+##[data-sm*="Mail"]
+##[data-sm*="Email"]
+##[alt*="instagram"]
+##[alt*="facebook"]
+##[alt*="twitter"]
+##[alt*="linkedin"]
+##[alt*="reddit"]
+##[alt*="discord"]
+##[alt*="discordapp"]
+##[alt*="flickr"]
+##[alt*="skype"]
+##[alt*="whatsapp"]
+##[alt*="wechat"]
+##[alt*="deviantart"]
+##[alt*="tiktok"]
+##[alt*="baidu"]
+##[alt*="tumblr"]
+##[alt*="line"]
+##[alt*="viber"]
+##[alt*="renren"]
+##[alt*="foursquare"]
+##[alt*="taringa"]
+##[alt*="telegram"]
+##[alt*="pinterest"]
+##[alt*="vk"]
+##[alt*="vkontakte"]
+##[alt*="tagged"]
+##[alt*="snapchat"]
+##[alt*="myspace"]
+##[alt*="badoo"]
+##[alt*="weheartit"]
+##[alt*="vine"]
+##[alt*="douban"]
+##[alt*="meetup"]
+##[alt*="meetme"]
+##[alt*="flipboard"]
+##[alt*="mail"]
+##[alt*="email"]
+##[alt*="Instagram"]
+##[alt*="Facebook"]
+##[alt*="Twitter"]
+##[alt*="Linkedin"]
+##[alt*="Reddit"]
+##[alt*="Discord"]
+##[alt*="Discordapp"]
+##[alt*="Flickr"]
+##[alt*="Skype"]
+##[alt*="Whatsapp"]
+##[alt*="Wechat"]
+##[alt*="Deviantart"]
+##[alt*="Tiktok"]
+##[alt*="Baidu"]
+##[alt*="Tumblr"]
+##[alt*="Line"]
+##[alt*="Viber"]
+##[alt*="Renren"]
+##[alt*="Foursquare"]
+##[alt*="Taringa"]
+##[alt*="Telegram"]
+##[alt*="Pinterest"]
+##[alt*="Vk"]
+##[alt*="Vkontakte"]
+##[alt*="Tagged"]
+##[alt*="Snapchat"]
+##[alt*="SnapChat"]
+##[alt*="Myspace"]
+##[alt*="Badoo"]
+##[alt*="Weheartit"]
+##[alt*="Vine"]
+##[alt*="Douban"]
+##[alt*="Meetup"]
+##[alt*="Meetme"]
+##[alt*="Flipboard"]
+##[alt*="Mail"]
+##[alt*="Email"]
+##[title*="Share"]
+##[title*="share"]
+##[id*="--share"]
+##[class*="--share"]
+##[id*="ShareBar"]
+##[class*="ShareBar"]
+##[id*="ShareButtons"]
+##[class*="ShareButtons"]
+##[id*="sharebuttons"]
+##[class*="sharebuttons"]
+##[id*="widget_social"]
+##[class*="widget_social"]
+*-facebook
+*-fb
+*-twitter
+*.facebook
+*.fb
+*.twitter
+*-social-
+*-socail.
+*.social-
+*.social.
+*.*/share
+*_share
+*share_
+*-share-
+*-sharebar-
+*-sharebar.
+*.sharebar-
+*.sharebar.
+*/pluso-like/
+
+! uBO Hiding
+!#if ext_ublock
+!#if (!adguard)
+
+###follow-us:style(display:none !important;)
+##.icon-share:style(display:none !important;)
+##.social-box:style(display:none !important;)
+##.clear.sharebelow:style(display:none !important;)
+##.float-share:style(display:none !important;)
+##.flipboard:style(display:none !important;)
+##.twitter:style(display:none !important;)
+##.fb:style(display:none !important;)
+##.facebook:style(display:none !important;)
+##.SocialMediaShareButton--facebook:style(display:none !important;)
+##.SocialMediaShareButton--twitter:style(display:none !important;)
+##.SocialMediaShareButton--instagram:style(display:none !important;)
+##.SocialMediaShareButton--youtube:style(display:none !important;)
+##.SocialMediaShareButton--email:style(display:none !important;)
+##.SocialMediaShareButton:style(display:none !important;)
+##.share-wrap:style(display:none !important;)
+##.share:style(display:none !important;)
+##.articleHeadlineShareFacebook:style(display:none !important;)
+##.articleHeadlineSharePinterest:style(display:none !important;)
+##.articleHeadlineShareTwitter:style(display:none !important;)
+##.articleHeadlineShareGooglePlus:style(display:none !important;)
+##.articleHeadlineShareLinkedIn:style(display:none !important;)
+##.articleHeadlineShares:style(display:none !important;)
+##.articleHeadlineShare:style(display:none !important;)
+##.articleHeadlineShareLong:style(display:none !important;)
+##.articleFooterFollow:style(display:none !important;)
+##.articleFooterFollows:style(display:none !important;)
+##.articleFooterShares:style(display:none !important;)
+##.articleRateButton:style(display:none !important;)
+##.ui-icon-youtube-play:style(display:none !important;)
+##.ui-icon-instagram:style(display:none !important;)
+##.ui-icon-pinterest:style(display:none !important;)
+##.md-social-toolbar-circle:style(display:none !important;)
+##.et-social-icon:style(display:none !important;)
+##.et-social-rss:style(display:none !important;)
+##.html5aside.social:style(display:none !important;)
+##.share-tool:style(display:none !important;)
+##.instagram:style(display:none !important;)
+##.google-plus:style(display:none !important;)
+##.youtube:style(display:none !important;)
+##.pinterest:style(display:none !important;)
+##.fa-instagram:style(display:none !important;)
+##.fa-google-plus:style(display:none !important;)
+##.fa-youtube:style(display:none !important;)
+##.fa-pinterest:style(display:none !important;)
+##.dpsp-pinterest:style(display:none !important;)
+##.dpsp-whatsapp:style(display:none !important;)
+##.dpsp-tumblr:style(display:none !important;)
+##.dpsp-flipboard:style(display:none !important;)
+##.dpsp-email:style(display:none !important;)
+##.dpsp-network-icon:style(display:none !important;)
+##.dpsp-network-btn:style(display:none !important;)
+##.dpsp-total-share-wrapper:style(display:none !important;)
+##.header__social:style(display:none !important;)
+##.icon-google-plus.icon:style(display:none !important;)
+##.icon-heart.icon:style(display:none !important;)
+##.icon-x.icon:style(display:none !important;)
+##.icon-mail.icon:style(display:none !important;)
+##.name-follow:style(display:none !important;)
+##.name-rate:style(display:none !important;)
+###call-button:style(display:none !important;)
+##.ssk-email:style(display:none !important;)
+##.ssk-emerald:style(display:none !important;)
+##.ssk-twitter:style(display:none !important;)
+##.ssk-facebook:style(display:none !important;)
+##.ssk-linkedin:style(display:none !important;)
+##.article-share:style(display:none !important;)
+##.sharedaddy:style(display:none !important;)
+##.sd-sharing-enabled:style(display:none !important;)
+##.sharing:style(display:none !important;)
+##.et-extra-icon-googleplus:style(display:none !important;)
+##.et-extra-icon-tumblr:style(display:none !important;)
+##.et-extra-icon-pinterest:style(display:none !important;)
+##.et-extra-icon-background-hover.et-extra-icon-buffer.et-extra-icon:style(display:none !important;)
+##.et-extra-icon-stumbleupon:style(display:none !important;)
+##.et-extra-icon-basic_email:style(display:none !important;)
+##.et-extra-icon-basic_print:style(display:none !important;)
+##.social-link-nl:style(display:none !important;)
+##.social-link:style(display:none !important;)
+##.rss-button:style(display:none !important;)
+##.email:style(display:none !important;)
+##.mastodon:style(display:none !important;)
+##.mix:style(display:none !important;)
+##.diaspora:style(display:none !important;)
+##.share-btn:style(display:none !important;)
+##.event-single-social-accounts-link:style(display:none !important;)
+##.event-single-social-accounts-content:style(display:none !important;)
+##.social-twitter:style(display:none !important;)
+##.social-facebook:style(display:none !important;)
+##.pop__messenger:style(display:none !important;)
+###pop_facebook:style(display:none !important;)
+##.followUs:style(display:none !important;)
+##.icon--share:style(display:none !important;)
+##.icon--mail:style(display:none !important;)
+##.social.list-inline:style(display:none !important;)
+##.socialicon:style(display:none !important;)
+##.socialbar:style(display:none !important;)
+##.c-social-buttons:style(display:none !important;)
+##.c-social-buttons--popover:style(display:none !important;)
+##.inline-share-tools:style(display:none !important;)
+##.asset-inline-share-tools:style(display:none !important;)
+##.asset-inline-share-tools-top:style(display:none !important;)
+##.asset-inline-share-tools-bottom:style(display:none !important;)
+##.site-footer-social-icon-list:style(display:none !important;)
+##.main-social:style(display:none !important;)
+##.connectwithus:style(display:none !important;)
+##.site-footer-social-icon-list-fixed-width:style(display:none !important;)
+##.wp-live-chat-wraper:style(display:none !important;)
+##.facebook-share:style(display:none !important;)
+##.arimo.clipboard:style(display:none !important;)
+##.btn-social:style(display:none !important;)
+##.float-share-li:style(display:none !important;)
+##.icon-share:style(display:none !important;)
+##.sqs-svg-icon--social:style(display:none !important;)
+##.social-icons-style-regular:style(display:none !important;)
+##.social-icons-size-extra-large:style(display:none !important;)
+##.social-icons-color-black:style(display:none !important;)
+##.social-icon-alignment-center:style(display:none !important;)
+##.socialtext:style(display:none !important;)
+##.social:style(display:none !important;)
+##.shopify-social-icon-instagram:style(display:none !important;)
+##.social-media-tiv:style(display:none !important;)
+##.social-media-buttons:style(display:none !important;)
+##.SocialSharingCompact:style(display:none !important;)
+##.footer__social:style(display:none !important;)
+##.module-social-share-container:style(display:none !important;)
+###rss-link:style(display:none !important;)
+##.rss:style(display:none !important;)
+##.chat-widget__messages-area:style(display:none !important;)
+##.chat:style(display:none !important;)
+###chat:style(display:none !important;)
+##.chat-widget:style(display:none !important;)
+###chat-widget:style(display:none !important;)
+###disqus_thread:style(display:none !important;)
+###dsq1:style(display:none !important;)
+###dsq2:style(display:none !important;)
+##.disqus:style(display:none !important;)
+###fyre-comment-count:style(display:none !important;)
+###powered_by_livefyre_new:style(display:none !important;)
+###comments:style(display:none !important;)
+##.comments:style(display:none !important;)
+##.commentbubble:style(display:none !important;)
+##.entry-comments:style(display:none !important;)
+##.comment-entry:style(display:none !important;)
+##.comment-count:style(display:none !important;)
+##.commentHolder:style(display:none !important;)
+###commentContainer:style(display:none !important;)
+##.commentDisclaimer:style(display:none !important;)
+##.articleComments:style(display:none !important;)
+##.comments_icon:style(display:none !important;)
+###comment-container:style(display:none !important;)
+###comment-section:style(display:none !important;)
+##.inactive.short.flex_action_chat:style(display:none !important;)
+
+!#endif
+!#endif
+
+! AdGuard Hiding
+!#if !ext_ublock
+!#if (adguard)
+
+###follow-us:style{ display:none!important; }
+##.icon-share:style{ display:none!important; }
+##.social-box:style{ display:none!important; }
+##.clear.sharebelow:style{ display:none!important; }
+##.float-share:style{ display:none!important; }
+##.flipboard:style{ display:none!important; }
+##.twitter:style{ display:none!important; }
+##.fb:style{ display:none!important; }
+##.facebook:style{ display:none!important; }
+##.SocialMediaShareButton--facebook:style{ display:none!important; }
+##.SocialMediaShareButton--twitter:style{ display:none!important; }
+##.SocialMediaShareButton--instagram:style{ display:none!important; }
+##.SocialMediaShareButton--youtube:style{ display:none!important; }
+##.SocialMediaShareButton--email:style{ display:none!important; }
+##.SocialMediaShareButton:style{ display:none!important; }
+##.share-wrap:style{ display:none!important; }
+##.share:style{ display:none!important; }
+##.articleHeadlineShareFacebook:style{ display:none!important; }
+##.articleHeadlineSharePinterest:style{ display:none!important; }
+##.articleHeadlineShareTwitter:style{ display:none!important; }
+##.articleHeadlineShareGooglePlus:style{ display:none!important; }
+##.articleHeadlineShareLinkedIn:style{ display:none!important; }
+##.articleHeadlineShares:style{ display:none!important; }
+##.articleHeadlineShare:style{ display:none!important; }
+##.articleHeadlineShareLong:style{ display:none!important; }
+##.articleFooterFollow:style{ display:none!important; }
+##.articleFooterFollows:style{ display:none!important; }
+##.articleFooterShares:style{ display:none!important; }
+##.articleRateButton:style{ display:none!important; }
+##.ui-icon-youtube-play:style{ display:none!important; }
+##.ui-icon-instagram:style{ display:none!important; }
+##.ui-icon-pinterest:style{ display:none!important; }
+##.md-social-toolbar-circle:style{ display:none!important; }
+##.et-social-icon:style{ display:none!important; }
+##.et-social-rss:style{ display:none!important; }
+##.html5aside.social:style{ display:none!important; }
+##.share-tool:style{ display:none!important; }
+##.instagram:style{ display:none!important; }
+##.google-plus:style{ display:none!important; }
+##.youtube:style{ display:none!important; }
+##.pinterest:style{ display:none!important; }
+##.fa-instagram:style{ display:none!important; }
+##.fa-google-plus:style{ display:none!important; }
+##.fa-youtube:style{ display:none!important; }
+##.fa-pinterest:style{ display:none!important; }
+##.dpsp-pinterest:style{ display:none!important; }
+##.dpsp-whatsapp:style{ display:none!important; }
+##.dpsp-tumblr:style{ display:none!important; }
+##.dpsp-flipboard:style{ display:none!important; }
+##.dpsp-email:style{ display:none!important; }
+##.dpsp-network-icon:style{ display:none!important; }
+##.dpsp-network-btn:style{ display:none!important; }
+##.dpsp-total-share-wrapper:style{ display:none!important; }
+##.header__social:style{ display:none!important; }
+##.icon-google-plus.icon:style{ display:none!important; }
+##.icon-heart.icon:style{ display:none!important; }
+##.icon-x.icon:style{ display:none!important; }
+##.icon-mail.icon:style{ display:none!important; }
+##.name-follow:style{ display:none!important; }
+##.name-rate:style{ display:none!important; }
+###call-button:style{ display:none!important; }
+##.ssk-email:style{ display:none!important; }
+##.ssk-emerald:style{ display:none!important; }
+##.ssk-twitter:style{ display:none!important; }
+##.ssk-facebook:style{ display:none!important; }
+##.ssk-linkedin:style{ display:none!important; }
+##.article-share:style{ display:none!important; }
+##.sharedaddy:style{ display:none!important; }
+##.sd-sharing-enabled:style{ display:none!important; }
+##.sharing:style{ display:none!important; }
+##.et-extra-icon-googleplus:style{ display:none!important; }
+##.et-extra-icon-tumblr:style{ display:none!important; }
+##.et-extra-icon-pinterest:style{ display:none!important; }
+##.et-extra-icon-background-hover.et-extra-icon-buffer.et-extra-icon:style{ display:none!important; }
+##.et-extra-icon-stumbleupon:style{ display:none!important; }
+##.et-extra-icon-basic_email:style{ display:none!important; }
+##.et-extra-icon-basic_print:style{ display:none!important; }
+##.social-link-nl:style{ display:none!important; }
+##.social-link:style{ display:none!important; }
+##.rss-button:style{ display:none!important; }
+##.email:style{ display:none!important; }
+##.mastodon:style{ display:none!important; }
+##.mix:style{ display:none!important; }
+##.diaspora:style{ display:none!important; }
+##.share-btn:style{ display:none!important; }
+##.event-single-social-accounts-link:style{ display:none!important; }
+##.event-single-social-accounts-content:style{ display:none!important; }
+##.social-twitter:style{ display:none!important; }
+##.social-facebook:style{ display:none!important; }
+##.pop__messenger:style{ display:none!important; }
+###pop_facebook:style{ display:none!important; }
+##.followUs:style{ display:none!important; }
+##.icon--share:style{ display:none!important; }
+##.icon--mail:style{ display:none!important; }
+##.social.list-inline:style{ display:none!important; }
+##.socialicon:style{ display:none!important; }
+##.socialbar:style{ display:none!important; }
+##.c-social-buttons:style{ display:none!important; }
+##.c-social-buttons--popover:style{ display:none!important; }
+##.inline-share-tools:style{ display:none!important; }
+##.asset-inline-share-tools:style{ display:none!important; }
+##.asset-inline-share-tools-top:style{ display:none!important; }
+##.asset-inline-share-tools-bottom:style{ display:none!important; }
+##.site-footer-social-icon-list:style{ display:none!important; }
+##.main-social:style{ display:none!important; }
+##.connectwithus:style{ display:none!important; }
+##.site-footer-social-icon-list-fixed-width:style{ display:none!important; }
+##.wp-live-chat-wraper:style{ display:none!important; }
+##.facebook-share:style{ display:none!important; }
+##.arimo.clipboard:style{ display:none!important; }
+##.btn-social:style{ display:none!important; }
+##.float-share-li:style{ display:none!important; }
+##.icon-share:style{ display:none!important; }
+##.sqs-svg-icon--social:style{ display:none!important; }
+##.social-icons-style-regular:style{ display:none!important; }
+##.social-icons-size-extra-large:style{ display:none!important; }
+##.social-icons-color-black:style{ display:none!important; }
+##.social-icon-alignment-center:style{ display:none!important; }
+##.socialtext:style{ display:none!important; }
+##.social:style{ display:none!important; }
+##.shopify-social-icon-instagram:style{ display:none!important; }
+##.social-media-tiv:style{ display:none!important; }
+##.social-media-buttons:style{ display:none!important; }
+##.SocialSharingCompact:style{ display:none!important; }
+##.footer__social:style{ display:none!important; }
+##.module-social-share-container:style{ display:none!important; }
+###rss-link:style{ display:none!important; }
+##.rss:style{ display:none!important; }
+##.chat-widget__messages-area:style{ display:none!important; }
+##.chat:style{ display:none!important; }
+###chat:style{ display:none!important; }
+##.chat-widget:style{ display:none!important; }
+###chat-widget:style{ display:none!important; }
+###disqus_thread:style{ display:none!important; }
+###dsq1:style{ display:none!important; }
+###dsq2:style{ display:none!important; }
+##.disqus:style{ display:none!important; }
+###fyre-comment-count:style{ display:none!important; }
+###powered_by_livefyre_new:style{ display:none!important; }
+###comments:style{ display:none!important; }
+##.comments:style{ display:none!important; }
+##.commentbubble:style{ display:none!important; }
+##.entry-comments:style{ display:none!important; }
+##.comment-entry:style{ display:none!important; }
+##.comment-count:style{ display:none!important; }
+##.commentHolder:style{ display:none!important; }
+###commentContainer:style{ display:none!important; }
+##.commentDisclaimer:style{ display:none!important; }
+##.articleComments:style{ display:none!important; }
+##.comments_icon:style{ display:none!important; }
+###comment-container:style{ display:none!important; }
+###comment-section:style{ display:none!important; }
+##.inactive.short.flex_action_chat:style{ display:none!important; }
+
+!#endif
+!#endif
 
 ! Specific
 dailymail.co.uk##.dms-puff
@@ -568,5 +770,4 @@ privacytools.io###participate
 freebeacon.com##.hide-print
 freebeacon.com##.md\:block.flex.justify-center.list-inline
 premiumleech.eu###d-spc > .inside
-youtube.com###chat
-youtube.com/live_chat/
+kerrang.com##.Entry__sidebarCTA:has-text(/follow us/i)
