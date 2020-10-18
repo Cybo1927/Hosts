@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1309
+! Version: 1310
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
 ! Last Modified: Saturday October 17, 2020
 
@@ -708,6 +708,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||isu.pub^
 ||mb-cosmos.com^
 ||metrics.*.hp.com^
 ||stats.kde.org^
@@ -12756,6 +12757,7 @@ brighteon.com##[href*="support.brighteon.com"]:nth-of-type(2)
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
+*/consent-tracking
 */wp-content/*/1x1-*$image
 */login/location
 */*.gif?*id*$domain=~discord.com|~discordapp.com
@@ -13908,8 +13910,6 @@ _statsonlineinfo
 ##[class*="ad-chrome"]
 ##[id*="-advertisement"]
 ##[class*="-advertisement"]
-##[id*="-sponsor"]
-##[class*="-sponsor"]
 ##[id*="gallery-ads"]
 ##[class*="gallery-ads"]
 ##[id*="adslot_"]
@@ -14011,8 +14011,6 @@ _statsonlineinfo
 ##[class*="_cookies"]
 ##[id*="cc-dialog"]
 ##[class*="cc-dialog"]
-##[id*="optanon-"]
-##[class*="optanon-"]
 ##[id*="cookieGuard"]
 ##[class*="cookieGuard"]
 ##[id*="cookiehint"]
@@ -14048,7 +14046,6 @@ _statsonlineinfo
 ##[class*="WIX_ADS"]
 ##[id*="powered-by"]
 ##[class*="powered-by"]
-##[class*="ad"][class*="text"]
 ##[id*="related"][class*="ad"]
 ##[id*="VideoAd"]
 ##[class*="VideoAd"]
