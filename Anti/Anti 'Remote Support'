@@ -1,0 +1,25 @@
+[Adblock Plus]
+! Title: Cybo's Anti 'Remote Support'
+! Description: Block all known 'remote support' tools to help prevent non tech savvy people from falling for tech support scams
+! Expires: 1 day
+! Version: 1
+
+||bsupport.us^
+||teamviewer.com^
+||solarwindsmsp.com^
+||fixme.it^
+||techinline.com^
+||gotoassist.com^
+||ninjarmm.com^
+||beyondtrust.com^
+||netop.com^
+||dameware.com^
+||pulseway.com^
+||logmeinrescue.com^
+||gartnerdigitalmarkets.com^
+||dualmon.com^
+||zendesk.com^
+||remotepc.com^
+||remoteutilities.com^
+||solarwinds.com^
+||atera.com^
