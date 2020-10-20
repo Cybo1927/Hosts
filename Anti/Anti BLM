@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti BLM
 ! Description: Block BLM (Black Lives Matter) links, videos, ads, etc.
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 *#?#a:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 *#?#h1:has-text(/(black lives matter|blacklivesmatter|blm)/i)
@@ -21,6 +21,9 @@ youtube.com##ytd-channel-renderer.ytd-item-section-renderer.style-scope:has-text
 
 ! Spotify
 open.spotify.com##section[class*="scss"]:has-text(/Black Music Matters|Black Lives Matter|BLM/i)
+
+! GitHub
+github.com##div.js-navigation-item:has-text(/(black lives matter|blacklivesmatter|blm)/i)
 
 ! Equity isn't equality 
 ||about.google/commitments/racialequity
