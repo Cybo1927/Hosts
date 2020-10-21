@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1312
+! Version: 1313
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
 ! Last Modified: Wednesday October 21, 2020
 
@@ -154,7 +154,7 @@ fastpic.ru#@#[id*="adblock-"]
 /(affiliate)s?\..+\..+$/$document,subdocument
 /\?(resource=)(pubJS)/
 ! Annoyance NX domains
-/^(http)?(s)?.+\.(home|col)$/
+/^(http)?(s)?.+\.(home|col|localdomain)$/
 ! Weird Chinese crap
 /^http(s)?:\/\/[0-9]{5,}\..+$/$all,domain=~cdnbay.com,~cdn77.org
 ! "Popping Tool"
@@ -709,6 +709,20 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||optimportal.com^
+||metrics.foxnews.com^$important
+||counts.air.tv^$important
+||darkreader.org^$important
+||chromecrxstore.com^
+||677us.com^
+||a1shayari.com^
+||apkfold.com^
+||chromeapps.site^
+||veee004.com^
+||spyoff.com^
+||ryonosuke.jp^
+||5uf99.com^
+||apkforpcwindows.download^
 ||emaileasyaccess.com^
 ||gartnerdigitalmarkets.com^
 ||patithatspartal.pro^
@@ -9642,8 +9656,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sa02in01.sa02.crsi.symantec.com^
 ||supporttool-shasta-rrs.symantec.com^
 ||stats.qalabs.symantec.com^
-||slscr.update.microsoft.com^
-||slscr.update.microsoft.com.akadns.net^
 ||sf.symcd.com^
 ||safebrowsing.brave.com^
 ||stage31.net^
@@ -12351,7 +12363,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||46.148.18.250^
 ||80.211.148.176^
 ||172.255.6.35^
-||176.103.133.101^
 ! End Domain Blocklist
 
 ! Ad/Content Blocker Specific
@@ -15182,4 +15193,14 @@ youtube.com#@#body:style(overflow:visible !important)
 */show-ads.$rewrite=abp-resource:blank-js
 
 !#endif
+!#endif
+
+! Child Protection (AdGuard Home)
+!#if ext_ublock
+
+! Block AnythingThat may Bypass Blocking
+/(torproject\.org|hidemyass\.com|hide\.me|windscribe\.com|avira\.com|hotspotshield\.com|betternet\.co|zenmate\.com|browsec.com|hoxx.com|ininja.org|myiphider.com|veepn.com|tuxler.com|ivacy.com|deeprism.com|surfshark.com|tunnello.com|tunnelbear.com|cowapp.github.io|wachee.co|lethean.io|hideme.io|privatix.com|virtualshield.com|blockless.com|getqingzhou.com|freemybrowser.com|getmalus.com|getgom.com|trust.zone|hideman.net|ipburger.com|netmap.net|ipinator.com|twork.in|hubbleiq.com|smartydns.com|techreckoner.com|yournet.io|trellonet.com|chillglobal.com)?(.{0,}(proxy|vpn|unblock|bypass).{0,})?/$ctag=user_child
+! Block Suspicious Domains/TLDs
+/(startpage\.com|ixquick\.com|waterfox\.net|waterfox\.onrender\.com|freedownloadscenter\.com|freedownloadmanager\.org|download\.cnet\.com|myrealgames\.com|videodownloaderfor\.com|uptodown\.com)?.{2,}\.(accountant|ads|bid|cc|cf|christmas|click|club|country|cricket|download|faith|gdn|gq|icu|jetzt|kim|link|load|market|men|mom|online|party|pro|racing|ren|review|science|space|systems|top|trade|vip|wang|webcam|win|work|xin|yokohama|zip|zone)?$/$ctag=user_child
+
 !#endif
