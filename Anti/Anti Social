@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Social
 ! Description: Block social networks and share buttons
 ! Expires: 1 day
-! Version: 39
+! Version: 40
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -193,10 +193,8 @@ pandora.com$generichide
 ||share.pluso.ru^
 ||crowdynews.com^
 
-! Comments
+! Disqus Comments
 ||disqus.com^
-||youtube.com/live_chat_fragments_ajax?
-||youtube.com/comment_service_ajax?
 
 ! RSS
 */rss/
@@ -395,6 +393,8 @@ pandora.com$generichide
 ##[alt*="Email"]
 ##[title*="Share"]
 ##[title*="share"]
+##[id*="newsletter-signup"]
+##[class*="newsletter-signup"]
 ##[id*="-share"]
 ##[class*="-share"]
 ##[id*="ShareBar"]
@@ -591,3 +591,6 @@ freebeacon.com##.hide-print
 freebeacon.com##.md\:block.flex.justify-center.list-inline
 premiumleech.eu###d-spc > .inside
 kerrang.com##.Entry__sidebarCTA:has-text(/follow us/i)
+||youtube.com/live_chat_fragments_ajax?
+||youtube.com/comment_service_ajax?
+youtube.com##ytd-button-renderer:has-text(/share/i)
