@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1313
+! Version: 1314
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
 ! Last Modified: Wednesday October 21, 2020
 
@@ -126,6 +126,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||log2.musical.ly$badfilter
 !
 !#safari_cb_affinity
+
 ! RegEX Stuffs
 ! Block Insecure Third-Party IP Addresses
 /^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
@@ -180,84 +181,10 @@ fastpic.ru#@#[id*="adblock-"]
 ! Third-Party Facebook Tracking
 /\/(cdn|js)\/(fb)\.[0-9a-z]{8,}\.(min\.)?(js)/
 
-! Block specific inline scripts (Firefox only)
-!#if env_firefox
-
-*##^script:has-text((clickInfo).track)
-*##^script:has-text(TiaraTracker.getInstance())
-*##^script:has-text(navigator.sendBeacon)
-*##^script:has-text(adTextLink)
-*##^script:has-text(pixelUrl)
-*##^script:has-text(window.ga)
-*##^script:has-text(Wmpci_Popup)
-*##^script:has-text(EA_data)
-*##^script:has-text(eulerian_)
-*##^script:has-text(GoogleAnalyticsObject)
-*##^script:has-text(adsbygoogle)
-*##^script:has-text(gtag)
-*##^script:has-text(sendAnalytic)
-*##^script:has-text(tag.min.js)
-*##^script:has-text(?zoneid=)
-*##^script:has-text(pixelForFacebook)
-*##^script:has-text(pixelForTwitter)
-*##^script:has-text(pixelForPinterest)
-*##^script:has-text(pixelForReddit)
-*##^script:has-text(.analytics)
-*##^script:has-text(ClickTracking)
-*##^script:has-text(!advr.)
-*##^script:has-text(advr.ua)
-*##^script:has-text(iframeTracker)
-*##^script:has-text(trackLinks)
-*##^script:has-text(TRAFF_TARGETS)
-*##^script:has-text(get_country)
-*##^script:has-text(gascroll)
-*##^script:has-text(scrollEventTag)
-*##^script:has-text(popMagic.url)
-*##^script:has-text(adver.detect)
-*##^script:has-text(.isAdBlock)
-*##^script:has-text(.isAB)
-*##^script:has-text(adblock_)
-*##^script:has-text(atppop)
-*##^script:has-text(/popunder/)
-*##^script:has-text(overlayClick())
-*##^script:has-text(NREUM)
-*##^script:has-text('anonmyzeIp')
-*##^script:has-text(logServer)
-*##^script:has-text(ga:!)
-*##^script:has-text(gtm:!)
-*##^script:has-text(comscore:!)
-*##^script:has-text(trackerCountry)
-*##^script:has-text(useTraking)
-*##^script:has-text(lastPageName)
-*##^script:has-text(pageUrl)
-*##^script:has-text(clickPixels)
-*##^script:has-text(trackCustClick)
-*##^script:has-text(notiClickTime)
-*##^script:has-text(htTrack)
-*##^script:has-text(userABMessage)
-*##^script:has-text(Histats.)
-*##^script:has-text(track_hits)
-*##^script:has-text(crakPopIn)
-
-!#endif
-
-! Annoying exoclick garbage
-!#if env_firefox
-
-*##^script:has-text(exoclick)
-*##^script:has-text(exoloader)
-*##^script:has-text(exoUrl)
-*##^script:has-text(exo_div)
-*##^script:has-text(ExoVideoSlider)
-*##^script:has-text(.ExoLoader)
-
-!#endif
-
 ! Content Security Policies
 ||*^$csp=prefetch-src 'none'; 'upgrade-insecure-requests';
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
-||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
 
 ! Email Trackers Redirect to URLS Like This
 &group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
@@ -272,19 +199,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
 
-! Hard Facebook Blocking
-! https://adguard.com/en/blog/one-does-not-simply-delete-facebook.html
-!#if !ext_ublock
-!#if (adguard_app_android)
-
-!+ NOT_OPTIMIZED
-||graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
-||b-graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
-||fbcdn.net^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
-
-!#endif
-!#endif
-
+! Harder Blocking of Facebook Tracking
 ||graph.facebook.com^$domain=~facebook.com|~fb.com
 ||b-graph.facebook.com^$domain=~facebook.com|~fb.com
 ||fbcdn.net^$domain=~facebook.com|~fb.com
@@ -304,12 +219,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||holaalt-holanetworksltd.netdna-ssl.com$important
 ||ec2-54-243-128-120.compute-1.amazonaws.com$important
 ||ec2-107-22-193-119.compute-1.amazonaws.com$important
-
-! Propaganda
-||dragqueenstoryhour.org$important
-||austindragfest.org$important
-! Left-Wing Propaganda/Fake Local News Site - https://www.youtube.com/watch?v=RLIFiI2ADW4
-||coppercourier.com$important
 
 ! IP Grabbers
 ||curiouscat.club^$important
@@ -709,6 +618,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||dragqueenstoryhour.org^
+||austindragfest.org^
+||coppercourier.com^
+||track.cordial.io^
+||trcksp.cordial.io^
+||log.zoom.us^
 ||optimportal.com^
 ||metrics.foxnews.com^$important
 ||counts.air.tv^$important
@@ -12784,12 +12699,21 @@ thebetterindia.com##.adp-banner-link, .adp-heading, .container.adp-container
 wmur.com##[href*="wmur.com/app/get"]:upward(1)
 ||google.com/mail/u/0/logstreamz
 sportsaspire.com##p > div > div > ins > ins, div > span:first-child > div > div > span
+caranddriver.com##div.end-of-content-playlist:last-child, main.site-content > div.content-container.standard-container> div.standard-body > div.article-body-content.standard-body-content:last-child > div.embed.embed-editorial-links, main.site-content > div.top-pathing
+||yimg.com/oa/guce.js
+||s.yimg.com/cx/vzm/cs.js
+autoblog.com###autoblog-daily-digest
+androidauthority.com##.widget_home_newsletter
+phys.org##header.header > .bg-danger.fade.show
+quizlet.com##.SetPageStudyModesBanner-body
+wearefine.com##div.home_blm--inner
 
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*/diversity-and-social-justice$image
 */consent-tracking
 */wp-content/*/1x1-*$image
 */login/location
@@ -13848,6 +13772,10 @@ _statsonlineinfo
 ##[src*="deliver.ptgncdn.com"]
 ##a[href*="refer.ccbill.com"]
 ##iframe[id*="google_ad"]
+##[id*="SiteAd"]
+##[class*="SiteAd"]
+##[id*="leaderboard-ad"]
+##[class*="leaderboard-ad"]
 ##[id*="adhesion"]
 ##[class*="adhesion"]
 ##[id*="amgdprcookie-"]
@@ -14051,7 +13979,6 @@ _statsonlineinfo
 ##[class*="cookiehint"]
 ##[id*="ad-header"]
 ##[class*="ad-header"]
-##[class*="clearfix"][class*="ad"]
 ##[id*="cookieInfo"]
 ##[class*="cookieInfo"]
 ##[id*="cookiePopup"]
@@ -14633,7 +14560,6 @@ store.steampowered.$cookie,domain=steam.tv
 yahoo.com$cookie=/apeaf|ucs|thamba|flash_enabled/
 facebook.com$cookie=/datr|fr|wd/
 github.com$cookie=/tz/
-google.$cookie=/COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
 pathlimecom$cookie
 walmart.com$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
 yandex.$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
@@ -14944,6 +14870,14 @@ youtube.com#@#body { overflow:visible!important; }
 @@||img.samsungapps.com
 ||mtalk.google.com^$badfilter
 
+! Hard Facebook Blocking
+! https://adguard.com/en/blog/one-does-not-simply-delete-facebook.html
+
+!+ NOT_OPTIMIZED
+||graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
+||b-graph.facebook.com^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
+||fbcdn.net^$app=~com.facebook.katana|~com.facebook.orca|~com.facebook.lite|~com.facebook.mlite|~com.facebook.talk|~com.facebook.pages.app|~com.facebook.work|~com.facebook.games|~com.facebook.workchat|~com.facebook.lasso|~com.facebook.Socal|~com.facebook.bishop|~com.freebasics|~com.facebook.adsmanager|~me.msqrd.android|~com.facebook.study|~com.facebook.arstudio.player|~com.facebook.analytics|~com.facebook.viewpoints|~com.expresswifi.customer|~com.oculus.twilight|~com.nbapstudio.facebooklite|~io.friendly|~com.sunshine.makilite|~com.jesture.phoenix|~com.creativetrends.simple.app|~it.rignanese.leo.slimfacebook|~hfast.facebook.lite|~com.happening.studios.swipeforfacebookfree|~com.asama.portafolio|~com.pitchedapps.frost|~me.jakelane.wrapperforfacebook|~com.danvelazco.fbwrapper|~me.zeeroooo.materialfb|~org.indywidualni.fblite
+
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
 ||firebaseio.com$app=com.fourchars.privary
 ||appx.transient.amazon.com$app=com.android.mShop.android.shopping
@@ -15058,6 +14992,76 @@ youtube.com##+js(json-prune, adPlacements playerAds)
 ! No BlockAdBlock
 arenavision.in##+js(nobab)
 
+! Block specific inline scripts (Firefox only)
+!#if env_firefox
+
+*##^script:has-text((clickInfo).track)
+*##^script:has-text(TiaraTracker.getInstance())
+*##^script:has-text(navigator.sendBeacon)
+*##^script:has-text(adTextLink)
+*##^script:has-text(pixelUrl)
+*##^script:has-text(window.ga)
+*##^script:has-text(Wmpci_Popup)
+*##^script:has-text(EA_data)
+*##^script:has-text(eulerian_)
+*##^script:has-text(GoogleAnalyticsObject)
+*##^script:has-text(adsbygoogle)
+*##^script:has-text(gtag)
+*##^script:has-text(sendAnalytic)
+*##^script:has-text(tag.min.js)
+*##^script:has-text(?zoneid=)
+*##^script:has-text(pixelForFacebook)
+*##^script:has-text(pixelForTwitter)
+*##^script:has-text(pixelForPinterest)
+*##^script:has-text(pixelForReddit)
+*##^script:has-text(.analytics)
+*##^script:has-text(ClickTracking)
+*##^script:has-text(!advr.)
+*##^script:has-text(advr.ua)
+*##^script:has-text(iframeTracker)
+*##^script:has-text(trackLinks)
+*##^script:has-text(TRAFF_TARGETS)
+*##^script:has-text(get_country)
+*##^script:has-text(gascroll)
+*##^script:has-text(scrollEventTag)
+*##^script:has-text(popMagic.url)
+*##^script:has-text(adver.detect)
+*##^script:has-text(.isAdBlock)
+*##^script:has-text(.isAB)
+*##^script:has-text(adblock_)
+*##^script:has-text(atppop)
+*##^script:has-text(/popunder/)
+*##^script:has-text(overlayClick())
+*##^script:has-text(NREUM)
+*##^script:has-text('anonmyzeIp')
+*##^script:has-text(logServer)
+*##^script:has-text(ga:!)
+*##^script:has-text(gtm:!)
+*##^script:has-text(comscore:!)
+*##^script:has-text(trackerCountry)
+*##^script:has-text(useTraking)
+*##^script:has-text(lastPageName)
+*##^script:has-text(pageUrl)
+*##^script:has-text(clickPixels)
+*##^script:has-text(trackCustClick)
+*##^script:has-text(notiClickTime)
+*##^script:has-text(htTrack)
+*##^script:has-text(userABMessage)
+*##^script:has-text(Histats.)
+*##^script:has-text(track_hits)
+*##^script:has-text(crakPopIn)
+
+! Annoying exoclick garbage
+
+*##^script:has-text(exoclick)
+*##^script:has-text(exoloader)
+*##^script:has-text(exoUrl)
+*##^script:has-text(exo_div)
+*##^script:has-text(ExoVideoSlider)
+*##^script:has-text(.ExoLoader)
+
+!#endif
+
 ! Tracking cookies
 *##+js(cookie-remover, /ab\.storage\.deviceId|ab\._gd|_pageviews|.{0,}landing_page.{0,}|.{0,}orig_referrer.{0,}|svSession|ssr-caching|bSession|Country-Code|AETN-EU|_iub_cs|_pk_id|_pk_ses|_iubenda_session|.{0,}personalization_id.{0,}|adCounter|.+_client_tz|geoCC|.+_cloudproxy_.+|popupData|.+_sp_ses.|.+_sp_id.|external_no_cache|XR_PAGE_TYPE|.+_landing|.+_referrer|first_visit|first_visit_src|svSession|.+_cpvisit|.+_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|.+__cfruid|inHouseAds|.+_mooc_sso|.+_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_.+|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|.+_landing_page|http_referrer|.+_device_id|.+_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|.+_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|.+__utmz|.+__utma|.+__utmc|.+__utmb|.+__utmt|.+_ga|uid|.+_gat|PHPSESSID|.+__cfduid|UIDR|pid|uuid2|tuuid|.+_drt_.+|uuidc|.+__gads|ASP.NET_SessionId|anj|.+__atuvc|.+__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|.+__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|.+_cc_cc|.+_cc_id|.+_cc_dc|.+_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|.+__auc|.+__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|.+__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|.+__utmv|.+_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|.+_ym_uid|.+_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|.+__zlcmid|taboola_session_id|taboola_upci|end_user_id|.+__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|.+_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|.+_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|.+_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|lithiumSSO%3Apandora.prod|isp|.+_device_id|ghostmonitor_session_id|.+_orig_referrer|gup_clientid|utag_main|gup_clientid|utag_main|.+_uv3_session|.+_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|.+_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|.+_chartbeat[0-9]|MUID|.+_EDGE_V|.+_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|.+_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_.+|.+_snow_id.|.+_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_.+|popups_session_duration|.+_referrer|ReturningSession|CurrentSession|watched|.+_youtube_session|ad_group|.+_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_.+|ezoadgid_.+|ezopvc_.+|ezoref_.+|ezux_et_.+|ezux_lpl_.+|ezux_tos_.+|ezux_ifep_.+|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_.+|.+_ses_.+|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|.+_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_.+|amplitude_.+|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|.+__uts1|0ae10|.+_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|.+__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|.+_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|.+_previous_pathname|areviwes_session|.+_viewhistroy|crak|tracking|.+%40AdobeOrg|.+_gid|.+_gtm_.+|AWSELBCORS|articleViews/i)
 
@@ -15123,8 +15127,8 @@ youtube.com#@#body:style(overflow:visible !important)
 ||cdnst.net/javascript/amazon.js$script,redirect=amazon_apstag.js,important
 ||doubleclick.net/instream/ad_status.js$script,redirect=noopjs,important
 ||apis.google.com/js/client.js^$script,redirect=noopjs,domain=savvasrealize.com
-*/cleardot.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
-*/netcheck.gif$image,redirect=1x1.gif,important,domain=~gmail.com|mail.google.com
+*/cleardot.gif$image,redirect=1x1.gif,important
+*/netcheck.gif$image,redirect=1x1.gif,important
 */metrics.$script,redirect=noopjs,important
 *.com/be_fl.js$script,redirect=noopjs,important
 */sensorsdata.$script,redirect=noopjs,important
@@ -15168,8 +15172,8 @@ youtube.com#@#body:style(overflow:visible !important)
 ||video-ak.cdn.spotify.com.eip.akadns.net$rewrite=abp-resource:blank-mp3
 ||doubleclick.net/instream/ad_status.js$rewrite=abp-resource:blank-js
 ||apis.google.com/js/client.js^$rewrite=abp-resource:blank-js,domain=savvasrealize.com
-*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~gmail.com|mail.google.com
-*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~gmail.com|mail.google.com
+*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif
+*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif
 */metrics.$rewrite=abp-resource:blank-js
 *.com/be_fl.js$rewrite=abp-resource:blank-js
 */sensorsdata.$rewrite=abp-resource:blank-js
