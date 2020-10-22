@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1315
+! Version: 1316
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
 ! Last Modified: Thursday October 22, 2020
 
@@ -218,10 +218,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
-*$ping # Never appears to be anything other than ads/analytics
+*$ping #Never appears to be anything other than ads/analytics
 *?spot_id=*&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
-||127.0.0.1^$third-party,websocket # Weird trackers
+||127.0.0.1^$third-party,websocket #Weird trackers
 ||zgo.at^$third-party
 ||bufferapp.com^$third-party
 ||buffer.com^$third-party
@@ -529,109 +529,109 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||detour.click^
 ||redlightcenter.com^
 ||dycej.com^
-||sldev.ovh^ # Fake site
+||sldev.ovh^ #Fake site
 ||goatcounter.com^
 ||bp01.net^
 ||ghochv3eng.trafficmanager.net^
 ||ereg.adobe.com^
-||alcohol-soft.com^ # Malicious - Medium confidence
+||alcohol-soft.com^ #Malicious - Medium confidence
 ||ads*.msn.com^
 ||wns.windows.com^
 ||baidu.om^
-||donaldtrump.watch^ # Doxxing random people for voting a specific way
+||donaldtrump.watch^ #Doxxing random people for voting a specific way
 ||barenudism.com^
 ||1ive.com^
-||hola.org^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||holaspark.com^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client.hola.org^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client-cdn*.hola.org^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||luminati.io^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||clientalt-holanetworksltd.netdna-ssl.com^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client*-holanetworksltd.netdna-ssl.com^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||holaalt-holanetworksltd.netdna-ssl.com^ # torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||curiouscat.club^ # IP grabber
-||catsnthings.fun^ # IP grabber
-||catsnthing.com^ # IP grabber
-||skypeipresolver.net^ # IP grabber
-||spylink.net^ # IP grabber
-||ipstat.com^ # IP grabber
-||ipstatp.com^ # IP grabber
-||grabify.link^ # IP grabber
-||bmwforum.co^ # IP grabber
-||leancoding.co^ # IP grabber
-||quickmessage.io^ # IP grabber
-||spottyfly.com^ # IP grabber
-||spötify.com^ # IP grabber
-||stopify.co^ # IP grabber
-||yoütu.be^ # IP grabber
-||yoütübe.co^ # IP grabber
-||yoütübe.com^ # IP grabber
-||yȯutube.com^ # IP grabber
-||xda-developers.io^ # IP grabber
-||starbucksiswrong.com^ # IP grabber
-||starbucksisbadforyou.com^ # IP grabber
-||bucks.as^ # IP grabber
-||discörd.com^ # IP grabber
-||minecräft.com^ # IP grabber
-||cyberh1.xyz^ # IP grabber
-||discördapp.com^ # IP grabber
-||freegiftcards.co^ # IP grabber
-||disçordapp.com^ # IP grabber
-||rëddït.com^ # IP grabber
-||iplogger.org^ # IP grabber
-||iplogger.com^ # IP grabber
-||iplogger.ru^ # IP grabber
-||2no.co^ # IP grabber
-||yip.su^ # IP grabber
-||youramonkey.com^ # IP grabber
-||whatstheirip.com^ # IP grabber
-||IP-Grabber.com^ # IP grabber
-||ip-grabber.com^ # IP grabber
-||blasze.tk^ # IP grabber
-||ps3cfw.com^ # IP grabber
-||freegeoip.net^ # IP grabber
-||ipstack.com^ # IP grabber
-||ipstack.net^ # IP grabber
-||tracemyip.org^ # IP grabber
-||xn--yotu-1ra.be^ # IP grabber
-||xn--discrd-zxa.com^ # IP grabber
-||xn--srahah-bua.eu^ # IP grabber
-||xn--minecrft-5za.com^ # IP grabber
-||xn--disordapp-s3a.com^ # IP grabber
-||xn--srahah-bua.pl^ # IP grabber
-||xda-developers.us^ # IP grabber
-||quickmessage.us^ # IP grabber
-||fortnight.space^ # IP grabber
-||fortnitechat.site^ # IP grabber
-||youshouldclick.us^ # IP grabber
-||joinmy.site^ # IP grabber
-||watches-my.stream^ # IP grabber
-||apple.com-fasting.live^ # IP grabber
-||parentelement.tk^ # IP grabber
-||com-fasting.live^ # IP grabber
-||crabrave.pw^ # IP grabber
-||särahah.eu^ # IP grabber
-||särahah.pl^ # IP grabber
-||mapper.info^ # IP grabber
-||ezstat.ru^ # IP grabber
-||blasze.com^ # IP grabber
-||spÃ¶tify.com^ # IP grabber
-||yoÃ¼tÃ¼be.co^ # IP grabber
-||yoÃ¼tÃ¼be.com^ # IP grabber
-||yoÃ¼tu.be^ # IP grabber
-||hackfÈ¯rums.com^ # IP grabber
-||hackfÈ¯rums.net^ # IP grabber
-||discÃ¶rd.com^ # IP grabber
-||battlÄ—.net^ # IP grabber
-||xn--yo14t14be-m2ad7057gea.com^ # IP grabber
-||xn--sptify-4ka37a.com^ # IP grabber
-||xn--discrd-6ka37a.com^ # IP grabber
-||xn--yo14tu-4ta9735d.be^ # IP grabber
-||xn--yo14t14be-m2ad7057gea.co^ # IP grabber
-||xn--battl-kra2007c.net^ # IP grabber
+||hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||holaspark.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||client.hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||client-cdn*.hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||luminati.io^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||clientalt-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||client*-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||holaalt-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
+||curiouscat.club^ #IP grabber
+||catsnthings.fun^ #IP grabber
+||catsnthing.com^ #IP grabber
+||skypeipresolver.net^ #IP grabber
+||spylink.net^ #IP grabber
+||ipstat.com^ #IP grabber
+||ipstatp.com^ #IP grabber
+||grabify.link^ #IP grabber
+||bmwforum.co^ #IP grabber
+||leancoding.co^ #IP grabber
+||quickmessage.io^ #IP grabber
+||spottyfly.com^ #IP grabber
+||spötify.com^ #IP grabber
+||stopify.co^ #IP grabber
+||yoütu.be^ #IP grabber
+||yoütübe.co^ #IP grabber
+||yoütübe.com^ #IP grabber
+||yȯutube.com^ #IP grabber
+||xda-developers.io^ #IP grabber
+||starbucksiswrong.com^ #IP grabber
+||starbucksisbadforyou.com^ #IP grabber
+||bucks.as^ #IP grabber
+||discörd.com^ #IP grabber
+||minecräft.com^ #IP grabber
+||cyberh1.xyz^ #IP grabber
+||discördapp.com^ #IP grabber
+||freegiftcards.co^ #IP grabber
+||disçordapp.com^ #IP grabber
+||rëddït.com^ #IP grabber
+||iplogger.org^ #IP grabber
+||iplogger.com^ #IP grabber
+||iplogger.ru^ #IP grabber
+||2no.co^ #IP grabber
+||yip.su^ #IP grabber
+||youramonkey.com^ #IP grabber
+||whatstheirip.com^ #IP grabber
+||IP-Grabber.com^ #IP grabber
+||ip-grabber.com^ #IP grabber
+||blasze.tk^ #IP grabber
+||ps3cfw.com^ #IP grabber
+||freegeoip.net^ #IP grabber
+||ipstack.com^ #IP grabber
+||ipstack.net^ #IP grabber
+||tracemyip.org^ #IP grabber
+||xn--yotu-1ra.be^ #IP grabber
+||xn--discrd-zxa.com^ #IP grabber
+||xn--srahah-bua.eu^ #IP grabber
+||xn--minecrft-5za.com^ #IP grabber
+||xn--disordapp-s3a.com^ #IP grabber
+||xn--srahah-bua.pl^ #IP grabber
+||xda-developers.us^ #IP grabber
+||quickmessage.us^ #IP grabber
+||fortnight.space^ #IP grabber
+||fortnitechat.site^ #IP grabber
+||youshouldclick.us^ #IP grabber
+||joinmy.site^ #IP grabber
+||watches-my.stream^ #IP grabber
+||apple.com-fasting.live^ #IP grabber
+||parentelement.tk^ #IP grabber
+||com-fasting.live^ #IP grabber
+||crabrave.pw^ #IP grabber
+||särahah.eu^ #IP grabber
+||särahah.pl^ #IP grabber
+||mapper.info^ #IP grabber
+||ezstat.ru^ #IP grabber
+||blasze.com^ #IP grabber
+||spÃ¶tify.com^ #IP grabber
+||yoÃ¼tÃ¼be.co^ #IP grabber
+||yoÃ¼tÃ¼be.com^ #IP grabber
+||yoÃ¼tu.be^ #IP grabber
+||hackfÈ¯rums.com^ #IP grabber
+||hackfÈ¯rums.net^ #IP grabber
+||discÃ¶rd.com^ #IP grabber
+||battlÄ—.net^ #IP grabber
+||xn--yo14t14be-m2ad7057gea.com^ #IP grabber
+||xn--sptify-4ka37a.com^ #IP grabber
+||xn--discrd-6ka37a.com^ #IP grabber
+||xn--yo14tu-4ta9735d.be^ #IP grabber
+||xn--yo14t14be-m2ad7057gea.co^ #IP grabber
+||xn--battl-kra2007c.net^ #IP grabber
 ||dragqueenstoryhour.org^
 ||austindragfest.org^
-||coppercourier.com^ # Fake local news website
+||coppercourier.com^ #Fake local news website
 ||track.cordial.io^
 ||trcksp.cordial.io^
 ||log.zoom.us^
@@ -697,7 +697,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||atomisons.xyz^
 ||events.adguard.com^
 ||hdm.windstream.com^
-||mylol.com^ # https://www.mirror.co.uk/news/uk-news/mylolcom-teen-dating-website-playground-3103803
+||mylol.com^ #https://www.mirror.co.uk/news/uk-news/mylolcom-teen-dating-website-playground-3103803
 ||browser.events.data.msn.com^
 ||global.asimov.events.data.trafficmanager.net^
 ||tpc.googlesyndication.com^
