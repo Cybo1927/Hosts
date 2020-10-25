@@ -1,2 +1,2 @@
 !+ NOT_OPTIMIZED
-##a[href*="ads.cdn.live"]
+*##a[href*="ads.cdn.live"]
