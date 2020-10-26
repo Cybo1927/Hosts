@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Social
 ! Description: Block social networks and share buttons
 ! Expires: 1 day
-! Version: 40
+! Version: 41
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -192,6 +192,7 @@ pandora.com$generichide
 ||yellw.co^
 ||share.pluso.ru^
 ||crowdynews.com^
+||yy.com^
 
 ! Disqus Comments
 ||disqus.com^
