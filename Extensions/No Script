@@ -1,20 +1,25 @@
 ! Title: Cybo's No Scripts
 ! Description: A compliment to the basic hosts file that will block scripts on sites where it'll still allow basic functionality
 ! Expires: 8 hours
-! Version: 4
-! Last Modified: Friday, October 2, 2020
+! Version: 5
+! Last Modified: Monday, October 26, 2020
 
 ! Whitelist to allow needed scripts
 @@||auth.adguard.com^$inline-script
 ! AdGuard Whitelist (advanced)
 !#if ext_ublock
 
-@@||github.com/login
+@@*/login*$script,inline-script
+@@*/signin$script,inline-script
+@@*/signup*$script,inline-script
+@@*/sign-in*$script,inline-script
+@@*/sign-up*$script,inline-script
 
 !#endif
 ! Sites that can work without scripts
+onlinelibrary.wiley.com$script,inline-script
+rt.com$script,inline-script
 adguard.com$inline-script
-github.com$script
 marketwatch.com$script
 nytimes.com$script
 dailycaller.com$inline-script
