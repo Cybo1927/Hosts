@@ -8,8 +8,6 @@
 
 * [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blacklist for trackers, ads, malware, and IP grabbers.
 
-* [`Hardened Hosts`](https://github.com/Cybo1927/Hosts/blob/master/Hosts%20(Hardened)) - A hardened version of my main hosts file that greatly improves privacy with as little downsides as possible.
-
 <hr>
 
 ## Contribution
