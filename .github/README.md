@@ -1,4 +1,4 @@
-## Main Lists
+## Lists
 
 * [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - Collection of lists to block all servers from the specified apps/companies or hide specific things.
 
@@ -15,8 +15,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 <hr>
 
-### My hosts are now in filter list format; I will not change the name of the repository or file because it would cause problems with people who are already using the list.
+#### My hosts are now in filter list format; I will not change the name of the repository or file because it would cause problems with people who are already using the list.
 
-#### Before and after image (not embeded for privacy resons)
-<br>
+##### Before and after image (not embeded for privacy resons)
 https://i.imgur.com/2mqyp6b.png
