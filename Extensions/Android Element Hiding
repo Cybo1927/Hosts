@@ -4,11 +4,12 @@
 ! Version: 1
 ! Last Modified: Monday, October 26, 2020
 
-! This is in a separate list as AdGuard on Android
-! doesn't support generic rules like what I use
-! in the main hosts file and cosmetic filtering
-! overall can significantly impact page loading
-! times on slower devices
+! This is in a separate list as AdGuard on
+! Android doesn't support generic rules
+! like what I use in the main hosts file
+! and cosmstic filtering overall can
+! significantly impact page loading times
+! on slower devices
 
 4chan.org###logo-fp > a > img, #abc-cnt
 4chan.org,4channel.org##[class*="adg-rects"], [class*="ad-bgls"]
