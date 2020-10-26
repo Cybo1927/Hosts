@@ -1,0 +1,30 @@
+! Title: Cybo's Android 
+! Description: A compliment to the basic hosts file that will hide annoying elements or ad placeholders for Android devices with AdGuard.
+! Expires: 8 hours
+! Version: 1
+! Last Modified: Monday, October 26, 2020
+
+! This is in a separate list as AdGuard on Android
+! doesn't support generic rules like what I use
+! in the main hosts file and cosmetic filtering
+! overall can significantly impact page loading
+! times on slower devices
+
+4chan.org###logo-fp > a > img, #abc-cnt
+4chan.org,4channel.org##[class*="adg-rects"], [class*="ad-bgls"]
+bestbuy.com##[id*="display-ad"], [class*="display-ad"]
+zillow.com###local-app-upsell
+weather.com##[class*="PrivacyDataNotice"], [id*="Taboola-"]
+wikihow.com##[id*="_ad_"], [class*="_ad_"]
+speedtest.net##div.privacy-update
+xhamster.com##.cookie-announce, [class*="promo-message"], [class*="spot-container"]
+livejasmin.com##[id*="_promotion"]
+xnxx.com##[id*="ad-top"], [id*="ad-header"], [class*="remove-ads"]
+paypal.com###ccpaCookieContent_wrapper
+pornhub.com##[class*="adContainer"], [class*="AdContainer"]
+www1.cbn.com##[class*="related-articles"], [class*="related-title"], [class*="related-border"], [class*="cc_banner"]
+express.co.uk##[class*="top-articles-container"], [class*="newsletter"], [id*="div-gpt-ad"]
+270towin.com###header-ad
+newsweek.com##[id*="dfp-ad"]
+infowars.com###ifwAdLink, [href*="infowarsstore.com"]
+sex.com##.ad, [href*="ads.cdn.live"]:upward(1)
