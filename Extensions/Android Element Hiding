@@ -1,7 +1,7 @@
 ! Title: Cybo's Android Element Hiding
 ! Description: A compliment to the basic hosts file that will hide annoying elements or ad placeholders for Android devices with AdGuard.
 ! Expires: 8 hours
-! Version: 1
+! Version: 2
 ! Last Modified: Monday, October 26, 2020
 
 ! This is in a separate list as AdGuard on
@@ -11,6 +11,8 @@
 ! significantly impact page loading times
 ! on slower devices
 
+studyfinds.org##[class*="sfspot-header"], [class*="sfspot-footer"]
+thoughtco.com##[id*="billboard"], [id*="adhesive"]
 4chan.org###logo-fp > a > img, #abc-cnt
 4chan.org,4channel.org##[class*="adg-rects"], [class*="ad-bgls"]
 bestbuy.com##[id*="display-ad"], [class*="display-ad"]
