@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1318
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.1K (AdGuard Home)
-! Last Modified: Tuesday October 27, 2020
+! Version: 1319
+! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (AdGuard Home)
+! Last Modified: Wednesday October 28, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -220,8 +220,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping #Never appears to be anything other than ads/analytics
-*?spot_id=*&ct=*$popup,popunder
-*/popunder.gif^$popup,popunder
+||highwebmedia.com^$websocket
 ||127.0.0.1^$third-party,websocket #Weird trackers
 ||zgo.at^$third-party
 ||bufferapp.com^$third-party
@@ -517,6 +516,21 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||union-click.jd.com^
+||azoaltou.com^
+||pignuwoa.com^
+||denetsuk.com^
+||in-page-push.com^
+||special-promotions.online^
+||prosumsit.com^
+||ahaumplab.com^
+||caradstag.casa^
+||farehitchlower.icu^
+||highfalutinhoney.com^
+||flirttactic.com^
+||static.dating^
+||fuckbookmobile.com^
+||neighborhoodsluts.com^
 ||plausible.io^
 ||videostats.kakao.com^
 ||mampark.ru^
@@ -778,7 +792,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pushtrack.co^
 ||appier.com^
 ||appadhoc.com^
-||appbrain.com^
 ||wrinkads.com^
 ||appcelerator.com^
 ||appcelerator.net^
@@ -9040,7 +9053,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||projectwonderful.com^
 ||postrank.com^
 ||pulse.yahoo.com^
-||podtrac.com^
 ||piano.io^
 ||propellerads.com^
 ||pixel.facebook.com^
@@ -10063,7 +10075,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||snapchat-webfonts.storage.googleapis.com
 ||simpleanalytics.io^
 ||stats.lotlinx.com^
-||suggestqueries.google.com^
 ||snowplowanalytics.com^
 ||yieldmo.com^
 ||sleepcartoon.com^
@@ -12766,6 +12777,23 @@ express.co.uk##[class*="top-articles-container"], [class*="newsletter"], [id*="d
 newsweek.com##[id*="dfp-ad"]
 infowars.com###ifwAdLink, [href*="infowarsstore.com"]
 sex.com##.ad, [href*="ads.cdn.live"]:upward(1)
+who.is##.home-video-blurb.row
+abcnews.go.com##[id*="ad-Banner"]
+history.com##[class*="header-ad"], [class*="rev-content"], [class*="in-content-ad"]
+dailymotion.com##[class*="CookiePopup"]
+soundandvision.com###sub_pop, .region-right.region
+merriam-webster.com##[class*="ad-slot"], [class*="fixed-ad"]
+npr.org##.callout__inner
+thoughtco.com##[class*="adunit"]
+ubuntupit.com##[class*="ezmob-"], [class*="adtester"], [class*="ezoic-ad"]
+techwhoop.com##[class*="ezmob-"], [class*="adtester"], [class*="ezoic-ad"]
+techigem.com##[class*="adtester"], [class*="ezoic-ad"]
+pcmag.com##[class*="zmgad"]
+beebom.com##.headerads, .adsbygoogle, .adonhead
+love2dev.com##.gdpr-prompt
+nypost.com##[class*="outbrain"], .billboard-ad, #zephr-component-1
+encyclopedia.com##.article-content-ad, #block-trustme-rightcolumntopad
+luscious.net##[class*="ad_banner"]
 
 !#endif
 !#endif
@@ -12775,6 +12803,9 @@ sex.com##.ad, [href*="ads.cdn.live"]:upward(1)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*?spot_id=*&ct=*$popup,popunder
+*/popunder.gif^$popup,popunder
+*/whalecash.php?
 */ads/_popup
 */*-social-justice$image
 */consent-tracking
@@ -14638,6 +14669,7 @@ yandex.$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
 frclip.com,uaclips.com$cookie=/wn/
 bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
 eastunionschools.org$cookie
+highwebmedia.com$cookie
 ! Can Get You Unlimited Free Answers
 brainly.com$cookie=/Zadanepl_cookie.{0,}/
 ! End Anti Tracking Cookies
@@ -14953,6 +14985,9 @@ youtube.com#@#body { overflow:visible!important; }
 ||webview.myfitnesspal.com/*/*/free-trial/*$app=com.myfitnesspal.android
 ||firebaseio.com$app=com.fourchars.privary
 ||appx.transient.amazon.com$app=com.android.mShop.android.shopping
+||99.84.221.60:80^$app=com.kiwibrowser.browser
+||52.84.53.53:80^$app=com.kiwibrowser.browser
+||99.79.105.69:80^$app=com.android.chrome
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
@@ -15002,6 +15037,8 @@ youtube.com$removeparam=origin
 google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 godaddy.com$removeparam=isc
 360kuai.com$removeparam=url|scene
+googlevideo.com$removeparam=rbuf|rn|cver|cpn|c
+kiwibrowser.com$removeparam=type|version|release_name|release_version|install_date|ref
 
 !#endif
 !#endif
