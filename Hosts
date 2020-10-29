@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1319
+! Version: 1320
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (AdGuard Home)
-! Last Modified: Wednesday October 28, 2020
+! Last Modified: Thursday, October 29, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -7961,7 +7961,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||madkudu.com^
 ||mepodownload.mediatek.com^
 ||mgepodownload.mediatek.com^
-||metrics.torproject.org^
 ||matomymarket.com^
 ||monsterleads.pro^
 ||mobidea.com^
@@ -15315,7 +15314,8 @@ youtube.com#@#body:style(overflow:visible !important)
 !#if !ext_ublock
 
 ! Block AnythingThat may Bypass Blocking
-/(torproject\.org|hidemyass\.com|hide\.me|windscribe\.com|avira\.com|hotspotshield\.com|betternet\.co|zenmate\.com|browsec.com|hoxx.com|ininja.org|myiphider.com|veepn.com|tuxler.com|ivacy.com|deeprism.com|surfshark.com|tunnello.com|tunnelbear.com|cowapp.github.io|wachee.co|lethean.io|hideme.io|privatix.com|virtualshield.com|blockless.com|getqingzhou.com|freemybrowser.com|getmalus.com|getgom.com|trust.zone|hideman.net|ipburger.com|netmap.net|ipinator.com|twork.in|hubbleiq.com|smartydns.com|techreckoner.com|yournet.io|trellonet.com|chillglobal.com)?(.{0,}(proxy|vpn|unblock|bypass).{0,})?/$ctag=user_child
+/(torproject\.org|hidemyass\.com|hide\.me|windscribe\.com|avira\.com|hotspotshield\.com|betternet\.co|zenmate\.com|browsec.com|hoxx.com|ininja.org|myiphider.com|veepn.com|tuxler.com|ivacy.com|deeprism.com|surfshark.com|tunnello.com|tunnelbear.com|cowapp.github.io|wachee.co|lethean.io|hideme.io|privatix.com|virtualshield.com|blockless.com|getqingzhou.com|freemybrowser.com|getmalus.com|getgom.com|trust.zone|hideman.net|ipburger.com|netmap.net|ipinator.com|twork.in|hubbleiq.com|smartydns.com|techreckoner.com|yournet.io|trellonet.com|chillglobal.com)/$ctag=user_child
+/.{0,}(proxy|vpn|unblock|bypass).{0,}/
 ! Block Suspicious Domains/TLDs
 /(180upload\.com|4upfiles\.com|akafile\.com|clicknupload\.com|filefactory\.com|filehippo\.com|media1fire\.com|softpedia\.com|startpage\.com|ixquick\.com|waterfox\.net|waterfox\.onrender\.com|freedownloadscenter\.com|freedownloadmanager\.org|download\.cnet\.com|myrealgames\.com|videodownloaderfor\.com|uptodown\.com)?.{2,}\.(accountant|ads|bid|cc|cf|christmas|click|club|country|cricket|download|faith|gdn|gq|icu|jetzt|kim|link|load|market|men|mom|online|party|pro|racing|ren|review|science|space|systems|top|trade|vip|wang|webcam|win|work|xin|yokohama|zip|zone)?$/$ctag=user_child
 
