@@ -1,0 +1,58 @@
+[Adblock Plus]
+! Title: Cybo's Anti Polarization
+! Description: Block news websites that tend to choose very biased stories with low factual reporting.
+! Homepage: https://github.com/Cybo1927/Hosts
+! Expires: 8 hours
+! Version: 1
+
+! All of these sites have been checked individually by me over weeks or months so that I have a general idea about their biases.
+! The sites political biases are judged based on what articles they have choosen to write about, article titles, writers, article content, etc. 
+! Feel free to create an issue if you have a problem with any blocked sites or have more for me to look into
+
+! Biggest Perpetrators the (U.S.) "Russiagate" Hoax
+||cnn.com^
+||msnbc.com^
+
+! Right-Wing
+||infowars.com^
+||summit.news^
+||spectator.org^
+||americanthinker.com^
+||amgreatness.com^
+||frontpagemag.com^
+||prageru.com^
+||pjmedia.com^
+||oann.com^
+||nationalreview.com^
+||theepochtimes.com^
+||thefederalist.com^
+||jpost.com^
+||theimaginativeconservative.org^
+||thegatewaypundit.com^
+
+! Left-Wing
+||vox.com^
+||slate.com^
+||thedailybeast.com^
+||arkansasonline.com^
+||alternet.org^
+||unicorn.riot^
+||buzzfeednews.com^
+||browngirlmagazine.com^
+||boingboing.net^
+||democracynow.org^
+||jezebel.com^
+||socialistalternative.org^
+||sfchronicle.com^
+||salon.com^
+||rollingstone.com^
+||progressivevoicesofiowa.com^
+||pinknews.co.uk^
+||newsweek.com^
+||newsone.com^
+||nymag.com^
+||newrepublic.com^
+||splinternews.com^
+||thejuggernaut.com^
+||theintercept.com^
+||theguardian.com^
