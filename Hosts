@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1320
+! Version: 1321
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (AdGuard Home)
 ! Last Modified: Thursday, October 29, 2020
 
@@ -227,7 +227,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||buffer.com^$third-party
 ||sqreen.io^$third-party
 ||ria.ru^$third-party
-||googlesyndication.com^$empty,important
 ||octoclick.net^$empty,important
 ||tibacta.com^$empty,important
 ||atgsvcs.com^$empty,important
@@ -516,6 +515,13 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||adrise.tv^
+||example.org^
+||huluim.com^
+||googlesyndication.com^
+||openx.dwebsite.com^
+||nbryb.com^
+||fiefionfortes.casa^
 ||union-click.jd.com^
 ||azoaltou.com^
 ||pignuwoa.com^
@@ -739,7 +745,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||mylol.com^ #https://www.mirror.co.uk/news/uk-news/mylolcom-teen-dating-website-playground-3103803
 ||browser.events.data.msn.com^
 ||global.asimov.events.data.trafficmanager.net^
-||tpc.googlesyndication.com^
 ||keysvc.cs.roku.com^
 ||ravm.tv^
 ||leya.tech^
@@ -4854,7 +4859,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cobalten.com^
 ||clickshield.net^
 ||carpediem.fr^
-||connectivity-check.ubuntu.com^
 ||connectad.io^
 ||collector-hpn.ghostery.net^
 ||cbbp1.com^
@@ -7855,8 +7859,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ixs1.net^
 ||learnpython-ads.datacamp.com^
 ||linkprice.com^
-||lookaside.facebook.com^
-||location.services.mozilla.com^
 ||visitor-analytics.io^
 ||logentries.com^
 ||lp4.io^
@@ -11699,7 +11701,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||4dle.info^
 ||1phads.com^
 ||t6jcbjxdxg2ohku83.com^
-||2.android.pool.ntp.org^
 ||20429.dialer.lincassa.com^
 ||0-act.channel.facebook.com^
 ||0.beta.facebook.com^
