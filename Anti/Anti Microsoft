@@ -1,12 +1,10 @@
-[Adblock Plus]
 ! Title: Cybo's Anti Microsoft
 ! Description: Block all known Microsoft domains
 ! Expires: 1 day
-! Version: 13
+! Version: 14
 
 ! Block Microsoft and their services
 
-! Basic
 ||microsoft.com^
 ||onenote.net^
 ||msedge.net^
@@ -27,6 +25,7 @@
 ||trafficmanager.net^
 ||img-s-msn-com.akamaized.net^
 ||flipgrid.com^
+||s-microsoft.com^
 
 ! https://bgp.he.net/ip/204.79.197.200#_dns
 ||22pai.com^
