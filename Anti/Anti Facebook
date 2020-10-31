@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Facebook
 ! Description: Block all known Facebook domains
 ! Expires: 1 day
-! Version: 14
+! Version: 15
 
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
@@ -55,6 +55,10 @@
 
 duckduckgo.com##.has-image:has-text(Facebook)
 
+! AdGuard Specific
+!#if !ext_ublock
+!#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
+
 ! facebook.com
 ||157.240.14.35^$network
 ! a.ns.facebook.com
@@ -65,3 +69,6 @@ duckduckgo.com##.has-image:has-text(Facebook)
 ||185.89.218.12^$network
 ! d.ns.facebook.com
 ||185.89.219.12^$network
+
+!#endif
+!#endif
