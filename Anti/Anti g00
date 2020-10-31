@@ -1,10 +1,9 @@
 [Adblock Plus]
 ! Title: Cybo's Anti g00
-! Description: Block all .g00. and .g01. crap that domains like msn.com and sportingnews.com use to obfuscate loaded/loading resources
+! Description: Block all .g00., .g01., e00., and e00- crap that domains like msn.com, sportingnews.com, and marca.com use to obfuscate loaded/loading resources
 ! Expires: 1 day
 
-! This is used to block all .g00. and .g01. crap that domains like msn.com
-! And sportingnews.com use to obfuscate loaded/loading resources
+! This is used to block that domains like msn.com and sportingnews.com use to obfuscate loaded/loading resources
 
 ||*.g01.msn.com^
 ||*.g00.sportingnews.com^
