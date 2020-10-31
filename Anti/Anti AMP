@@ -1,7 +1,9 @@
 [Adblock Plus 3.6]
 ! Title: Cybo's Anti AMP
-! Description: Block Google's AMP pages
+! Description: Block Google's AMP (Accelerated Mobile Pages)
 ! Expires: 1 day
-! Version: 2
+! Version: 3
 
 /(amp)(\.|-).+.+/$document,subdocument,popup,popunder,domain=~github.com|~gitlab.com
+
+||ampbyexample.com^
