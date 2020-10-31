@@ -2,7 +2,9 @@
 ! Expires: 1 hours
 
 ! Cookies
-dailycaller.com,newsweek.com,allsides.com,thehackernews.com,foxnews.com,foxbusiness.com,townhall.com,marketwatch.com,duckduckgo.com,freemp3cloud.com,goodreads.com,cnet.com,norton.com,adguard.com,rescan.io,wikipedia.org$cookie
+dailycaller.com,newsweek.com,allsides.com,thehackernews.com,foxnews.com,foxbusiness.com,townhall.com,marketwatch.com,duckduckgo.com,freemp3cloud.com,goodreads.com,cnet.com,norton.com,adguard.com,rescan.io,wikipedia.org,wsj.net$cookie
+
+youtube.com$third-party,cookie=VISITOR_INFO1_LIVE
 
 ! Testing for main hosts
 *$cookie=/.{0,}ab_uuid.{0,}|.{0,}AspNetCore.Antiforgery.{0,}|.{0,}metrika.{0,}|.{0,}ym_isad.{0,}|.{0,}ym_uid.{0,}|.{0,}page_count.{0,}|.{0,}session_id.{0,}|.{0,}fly_geo.{0,}|.{0,}fly_zip.{0,}|.{0,}fly_device.{0,}|.{0,}SessionStarted.{0,}|.{0,}SessionCount.{0,}|.{0,}X-CSRF-TOKEN.{0,}|.{0,}exid.{0,}|.{0,}GeoIP.{0,}|.{0,}WMF-Last-Access-Global.{0,}/
