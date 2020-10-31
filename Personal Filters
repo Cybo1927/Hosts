@@ -18,13 +18,32 @@ norton.com$cookie
 adguard.com$cookie
 rescan.io$cookie
 wikipedia.org$cookie
+nypost.com$cookie
+pjmedia.com$cookie
+judicialwatch.org$cookie
+capitalresearch.org$cookie
+theatlantic.com$cookie
+techwhoop.com$cookie
+pcmag.com$cookie
+beebom.com$cookie
 wsj.net$cookie
+rt.com$cookie
+androidauthority.com$cookie
+techradar.com$cookie
+pcmag.com$cookie
+techigem.com$cookie
+tomsguide.com$cookie
 
-! This cookie tracks all around the web
+! These cookies track all around the web
 youtube.com$cookie=VISITOR_INFO1_LIVE;samesite=strict
+youtube.com$cookie=/__Secure-/;samesite=strict
 
 ! Testing for main hosts
-*$cookie=/.{0,}ab_uuid.{0,}|.{0,}AspNetCore.Antiforgery.{0,}|.{0,}metrika.{0,}|.{0,}ym_isad.{0,}|.{0,}ym_uid.{0,}|.{0,}page_count.{0,}|.{0,}session_id.{0,}|.{0,}fly_geo.{0,}|.{0,}fly_zip.{0,}|.{0,}fly_device.{0,}|.{0,}SessionStarted.{0,}|.{0,}SessionCount.{0,}|.{0,}X-CSRF-TOKEN.{0,}|.{0,}exid.{0,}|.{0,}GeoIP.{0,}|.{0,}WMF-Last-Access-Global.{0,}/
+*$cookie=/Country_Code|browser_width|active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}|__cf_bm|.{0,}ab_uuid.{0,}|.{0,}AspNetCore.Antiforgery.{0,}|.{0,}metrika.{0,}|.{0,}ym_isad.{0,}|.{0,}ym_uid.{0,}|.{0,}page_count.{0,}|.{0,}session_id.{0,}|.{0,}fly_geo.{0,}|.{0,}fly_zip.{0,}|.{0,}fly_device.{0,}|.{0,}SessionStarted.{0,}|.{0,}SessionCount.{0,}|.{0,}X-CSRF-TOKEN.{0,}|.{0,}exid.{0,}|.{0,}GeoIP.{0,}|.{0,}WMF-Last-Access-Global.{0,}/
+
+pcmag.com$cookie=/fu/
+techigem.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
+techwhoop.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
 
 ! Unnecessary connections
 ||protectstar.com^
@@ -32,4 +51,4 @@ youtube.com$cookie=VISITOR_INFO1_LIVE;samesite=strict
 ||disqus.com^
 
 ||google.com^$app=com.kiwibrowser.browser
-/([0-9]{1,3}\.){3,}[0-9]{1,3}(:*)?/$app=com.kiwibrowser.browser
+/.{1,}\..{1,}\..{1,}\..{1,}:(443|80)/$app=com.kiwibrowser.browser
