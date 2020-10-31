@@ -1,34 +1,20 @@
 # Main Servers for Requests
+# Cloudflare
 https://mozilla.cloudflare-dns.com/dns-query
-https://dns.quad9.net/dns-query
+sdns://AAcAAAAAAAAABzEuMS4xLjE
+sdns://AAcAAAAAAAAABzEuMC4wLjE
+# Quad 9
+sdns://AAcAAAAAAAAABzkuOS45Ljk
 #
-# Don't Use Specified DNS Servers
-[/redirector.googlevideo.com/]#
+# Ad/Tracker Blocking DNS (AdGuard)
+[/microsoft.com/s-microsoft.com/gfx.ms/office.net/msedge.net/msn.com/bitdefender.net/fastpic.ru/]sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
 #
-# AdGuard QUIC DNS Server
-[/adguard.com/adguard.org/fastpic.ru/]quic://dns-unfiltered.adguard.com:784
-#
-# Ad/Tracker Blocking DNS
-[/microsoft.com/s-microsoft.com/gfx.ms/office.net/msedge.net/msn.com/bitdefender.net/]https://dns.adguard.com/dns-query
 # For Clients Without "Block domains using filters and hosts files" checked (Only Block What's Safe to)
-[/googleadservices.com/mobileapptracking.com/doubleclick.net/google-analytics.com/crashlytics.com/]https://dns.adguard.com/dns-query
+[/googleadservices.com/mobileapptracking.com/doubleclick.net/google-analytics.com/crashlytics.com/crashlytics.com/googleadservices.com/]sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
 #
 # Speed up Requests
-# Cloudflare
-[/roblox.com/fireoscaptiveportal.com/api-global.netflix.com/]1.1.1.1
-[/filesusr.com/s.youtube.com/youtubei.googleapis.com/fossbytes.com/]1.0.0.1
-[/us.api.iheart.com/nrdp.nccp.netflix.com/]tls://1dot1dot1dot1.cloudflare-dns.com
-[/manifest.googlevideo.com/]tls://1.1.1.1
-#
-# Quad 9
-[/rbxcdn.com/ctfassets.net/connectivity-check.ubuntu.com/connectivitycheck.gstatic.com/global.api.iheart.com/]9.9.9.9
-[/cdn-0.nflximg.com/]tls://9.9.9.9
-[/api.amazon.com/]sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-#
 # Google
-[/gmail.com/mail.google.com/steamcdn-a.akamaihd.net/]https://dns.google/dns-query
-[/gvt1.com/]8.8.8.8
-[/googlevideo.com/]8.8.4.4
+[/steamcdn-a.akamaihd.net/]https://dns.google/dns-query
 #
 # Ensure Extra Privacy for These Domains
 [/applied-privacy.net/]tls://dot1.applied-privacy.net
