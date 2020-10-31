@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Location Tracking
 ! Description: Block maps, location analytics, and GPS services (will break some things)
 ! Expires: 1 day
-! Version: 27
+! Version: 28
 
 ||userlocation.googleapis.com^
 ||geo.privacymanager.io^
@@ -157,13 +157,15 @@
 
 ! Generic
 *$websocket,webrtc
+*/ip_detect
+*/ip_geo
 *map.online*
-/bhuvan2d.php
-/gps-navigation
+*/bhuvan2d.php
+*/gps-navigation
 */maps-data/
 */location-intelligence/
 */location
-/google_map_*
+*/google_map_*
 .maps
 -maps
 /maps
