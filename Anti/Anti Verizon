@@ -1,8 +1,7 @@
-[Adblock Plus]
 ! Title: Cybo's Anti Verizon
 ! Description: Block all known Verizon domains
 ! Expires: 1 day
-! Version: 5
+! Version: 6
 
 ||verizondigitalmedia.com^
 ||uplynk.com^
@@ -76,17 +75,4 @@
 ! https://who.is/whois-ip/ip-address/152.195.53.200
 152.195.53.200$network
 ! App Specific
-code.jquery.com$app=com.dcgov.verizon
-code.jquery.com$app=com.capresults.verizon
-fonts.google.com$app=com.capresults.verizon
-login.voicestorm.com$app=com.dynamicsignal.enterprise.iamvz
-s3.amazonaws.com$app=com.vzw.smartlocatorhub
-cdnstabletransit.com$app=com.app_phonewireless.layout
-2373813c.api.splkmobile.com$app=com.allstate.Verizon
-api.telogis.eu$app=com.telogis.spotlight
-spotlight.telogis.com$app=com.telogis.spotlight
-sdk.out.usbla.net$app=com.telogis.spotlight
-trips.telogis.com$app=com.telogis.logbook
-mobilecore-dist.flows.telogis.com$app=com.verizonconnect.workforce
-static.telogis.com$app=com.verizonconnect.workforce
-login.platform.telogis.com$app=com.verizonconnect.workforce
+*$app=com.dcgov.verizon|com.capresults.verizon|com.capresults.verizon|com.dynamicsignal.enterprise.iamvz|com.vzw.smartlocatorhub|com.app_phonewireless.layout|com.allstate.Verizon|com.telogis.spotlight|com.telogis.logbook|com.verizonconnect.workforce
