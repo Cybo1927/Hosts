@@ -1,33 +1,11 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-! No Scripts On .Gov Domains
-||*.gov$script,inline-script
-||*.gov.*$script,inline-script
+! Cookies
+dailycaller.com,newsweek.com,allsides.com,thehackernews.com,foxnews.com,foxbusiness.com,townhall.com,marketwatch.com,duckduckgo.com,freemp3cloud.com,goodreads.com,cnet.com,norton.com,adguard.com,rescan.io,wikipedia.org$cookie
 
-! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
-||*.cn^$all,important
-||*.mo^$all,important
-||*.tw^$all,important
-||*.hk^$all,important
-||*.wang^$all,important
-||*.unicom^$all,important
-
-! Chinese Crap
-cnvid.net|
-dnspod.net|
-dnspod.cn|
-inshotapp.com|
-qq.com|
-gtimg.cn|
-baidu.com|
-bdstatic.com|
-weibo.com|
-crrepa.com|
-qiniudns.com|
-47.246.43.204$network
-4.53.160.75$network
-4.53.160.75$network
+! Testing for main hosts
+*$cookie=/.{0,}(ab_uuid|AspNetCore.Antiforgery|metrika|ym_isad|ym_uid|page_count|session_id|fly_geo|fly_zip|fly_device|SessionStarted|SessionCount|X-CSRF-TOKEN|exid|GeoIP|WMF-Last-Access-Global).{0,}/
 
 ! Unnecessary connections
 ||protectstar.com^
