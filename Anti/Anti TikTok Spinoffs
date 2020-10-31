@@ -1,0 +1,62 @@
+[Adblock Plus]
+! Title: Cybo's Anti TikTok Spinoffs
+! Description: Block all known TikTok spinoffs
+! Expires: 1 day
+! Version: 1
+
+! Clash
+||clashapp.co^
+||4p5rxxd3le.execute-api.*.amazonaws.com^
+||clash-prod-uploads.s3.*.amazonaws.com^
+||d3oufj5vtgug33.cloudfront.net
+
+! Triller
+||triller.co^
+
+! Vskit
+||vskit.tv^
+||vskitcdn.com^
+
+! Likee
+||likee.com^
+||like.video^
+||likee.video^
+||bigolive.tv^
+
+! Byte
+||byte.co^
+
+! Dubsmash
+||dubsmash.com^
+
+! Funimate
+||funimate.com^
+
+! Lomotif
+||lomotif.com^
+
+! Cheez
+||cheez.com^
+||linkv.fun^
+||appdomain.cloud^
+||sobot.com^
+||imars.cloud^
+||cmcm.com^
+
+! Zynn
+||kwai.com^
+||golden49.com^
+||fortyniners49.com^
+
+! Firework
+||fireworktv.com^
+||fw.tv^
+
+! Videoshowapp
+||videoshowapp.com^
+
+! Videostarapp
+||videostarapp.com^
+
+! MuStar
+||mustar.me^
