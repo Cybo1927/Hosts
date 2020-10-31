@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Location Tracking
 ! Description: Block maps, location analytics, and GPS services (will break some things)
 ! Expires: 1 day
-! Version: 26
+! Version: 27
 
 ||userlocation.googleapis.com^
 ||geo.privacymanager.io^
@@ -179,7 +179,10 @@
 &isp=
 %isp=
 
-! AdGuard For Android
+! AdGuard Specific
+!#if !ext_ublock
+!#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
+
 52.72.245.79$network
 52.87.74.252$network
 34.243.125.37$network
@@ -189,3 +192,6 @@
 172.217.9.67$network
 52.22.113.11$network
 13.226.19.42$network
+
+!#endif
+!#endif
