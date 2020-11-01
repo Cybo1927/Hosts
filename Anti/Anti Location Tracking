@@ -2,8 +2,9 @@
 ! Title: Cybo's Anti Location Tracking
 ! Description: Block maps, location analytics, and GPS services (will break some things)
 ! Expires: 1 day
-! Version: 28
+! Version: 29
 
+||geo.ngtv.io^
 ||userlocation.googleapis.com^
 ||geo.privacymanager.io^
 ||*-geo.kaspersky-labs.com^
