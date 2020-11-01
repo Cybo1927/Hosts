@@ -33,22 +33,22 @@ techradar.com$cookie
 pcmag.com$cookie
 techigem.com$cookie
 tomsguide.com$cookie
-
-! These cookies track all around the web
-youtube.com$cookie=VISITOR_INFO1_LIVE;samesite=strict
-youtube.com$cookie=/__Secure-/;samesite=strict
+civicscience.com$cookie
+cnn.com$cookie
+cloudfront.net$cookie
+post-gazette.com$cookie
+rackcdn.com$cookie
+twitter.com$cookie
+google.*$cookie
+nbcnews.com$cookie
 
 ! Testing for main hosts
-*$cookie=/Country_Code|browser_width|active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}|__cf_bm|.{0,}ab_uuid.{0,}|.{0,}AspNetCore.Antiforgery.{0,}|.{0,}metrika.{0,}|.{0,}ym_isad.{0,}|.{0,}ym_uid.{0,}|.{0,}page_count.{0,}|.{0,}session_id.{0,}|.{0,}fly_geo.{0,}|.{0,}fly_zip.{0,}|.{0,}fly_device.{0,}|.{0,}SessionStarted.{0,}|.{0,}SessionCount.{0,}|.{0,}X-CSRF-TOKEN.{0,}|.{0,}exid.{0,}|.{0,}GeoIP.{0,}|.{0,}WMF-Last-Access-Global.{0,}/
 
-pcmag.com$cookie=/fu/
-techigem.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
-techwhoop.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
 
 ! Unnecessary connections
 ||protectstar.com^
 ||unity3d.com^
 ||disqus.com^
+||kiwibrowser.com^
 
 ||google.com^$app=com.kiwibrowser.browser
-/.{1,}\..{1,}\..{1,}\..{1,}:(443|80)/$app=com.kiwibrowser.browser
