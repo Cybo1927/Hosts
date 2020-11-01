@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1324
+! Version: 1325
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (AdGuard Home)
-! Last Modified: Saturday, October 31, 2020
+! Last Modified: Sunday, November 1, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -522,6 +522,15 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||1worldonline.com^
+||geo.ngtv.io^
+||groovehq.com^
+||vskit-log.vskit.tv^
+||phnx.click^
+||znctrack.net^
+||ad*.bigmir.net^
+||adi.bigmir.net^
+||i.bigmir.net^
 ||log-sdk.golden49.com^
 ||stats.videodelivery.net^
 ||analyrics.videoshowapp.com^
@@ -4458,7 +4467,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||bounceads.net^
 ||betrad.com^
 ||voluumtrk.com^
-||img.com.ua^
 ||bbp.brazzers.com^
 ||bbpntg3.homestead.com^
 ||bizible.com^
@@ -12807,6 +12815,11 @@ love2dev.com##.gdpr-prompt
 nypost.com##[class*="outbrain"], .billboard-ad, #zephr-component-1
 encyclopedia.com##.article-content-ad, #block-trustme-rightcolumntopad
 luscious.net##[class*="ad_banner"]
+||bigo.sg/stats
+||r.i.ua/s?
+nypost.com##[class*="billboard-ad"], [class*="outbrain"]
+marketwatch.com##[class*="ad"][class*="element"], [class*="j-ad"]
+usatoday.com##[id*="ad-slot"]
 !---------------------------------
 ! End Content/Ad Blocker Specific |
 !---------------------------------
@@ -12814,8 +12827,10 @@ luscious.net##[class*="ad_banner"]
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
-*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com
+*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*/ip_detect
+*/ip_geo
 *?spot_id=*&ct=*$popup,popunder
 */popunder.gif^$popup,popunder
 */whalecash.php?
@@ -14632,6 +14647,9 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+pcmag.com$cookie=/fu/
+techigem.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
+techwhoop.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
 lmk.chat$cookie
 translate.google.com$cookie
 appcenter.ms$cookie
@@ -14675,7 +14693,7 @@ infowarsmedia.com$cookie,third-party
 store.steampowered.$cookie,domain=steam.tv
 yahoo.com$cookie=/apeaf|ucs|thamba|flash_enabled/
 facebook.com$cookie=/datr|fr|wd/
-github.com$cookie=/tz/
+github.com$cookie=/tz|_ga/
 pathlimecom$cookie
 walmart.com$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
 yandex.$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
@@ -14683,6 +14701,9 @@ frclip.com,uaclips.com$cookie=/wn/
 bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
 eastunionschools.org$cookie
 highwebmedia.com$cookie
+! These cookies track all around the web
+youtube.com$cookie=VISITOR_INFO1_LIVE;samesite=strict
+youtube.com$cookie=/__Secure-/;samesite=strict
 ! Can Get You Unlimited Free Answers
 brainly.com$cookie=/Zadanepl_cookie.{0,}/
 ! End Anti Tracking Cookies
