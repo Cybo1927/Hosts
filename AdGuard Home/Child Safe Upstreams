@@ -1,3 +1,10 @@
 # Cisco Open DNS Family Shield
 208.67.222.123
 208.67.220.123
+#
+# Qustodio (Parental Controls)
+[/api.qustodio.com/]149.112.112.112
+#
+# Bitdefender (AV/Parental Controls)
+[/bitdefender.net/bitdefender.com/]149.112.112.112
+#
