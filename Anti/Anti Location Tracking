@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Location Tracking
 ! Description: Block maps, location analytics, and GPS services (will break some things)
 ! Expires: 1 day
-! Version: 29
+! Version: 30
 
 ||geo.ngtv.io^
 ||userlocation.googleapis.com^
@@ -135,6 +135,7 @@
 ||ip2location.com^
 ||geodatasource.com^
 ||whatismyip.akamai.com^
+||location.force.com^
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
