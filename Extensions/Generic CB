@@ -2,7 +2,7 @@
 ! Description: Non domain specific cookie blocking. 
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1328
+! Version: 1
 
 ! AdGuard
 !#if !ext_ublock
