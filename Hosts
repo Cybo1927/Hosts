@@ -3,8 +3,8 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1326
-! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 14.3K (AdGuard Home)
+! Version: 1327
+! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 ! Last Modified: Sunday, November 1, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -25,6 +25,7 @@
 !-----------------
 ! Begin Whitelist |
 !-----------------
+
 !#safari_cb_affinity(all)
 @@||github.com$generichide
 @@||militarytimes.mco.cdn.arcpublishing.com^
@@ -128,7 +129,13 @@ fastpic.ru#@#[id*="adblock-"]
 ! Breaks TikTok Login
 ||log2.musical.ly$badfilter
 !
+! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
+@@||ads.brave.software^
+@@||ads.bravesoftware.com^
+@@||ads.brave.com^
+!
 !#safari_cb_affinity
+
 !---------------
 ! End Whitelist |
 !---------------
@@ -227,6 +234,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping #Never appears to be anything other than ads/analytics
+||wsj.net^$websocket,third-party
 ||highwebmedia.com^$websocket
 ||127.0.0.1^$third-party,websocket #Weird trackers
 ||zgo.at^$third-party
@@ -522,6 +530,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||ziplocal.com^
+||postimage.co^
+||0redira.com^
+||ads*.secure.latest.instagram.com^
+||adtech.secure.latest.instagram.com^
+||stats.brave.com^
 ||1worldonline.com^
 ||geo.ngtv.io^
 ||groovehq.com^
@@ -3154,7 +3168,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||actionpay.net^
 ||ads.*.aaa.com^
 ||a8.net^
-||a9.com^
 ||adpxl.co^
 ||amp.ai^
 ||appsee.com^
@@ -9490,7 +9503,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||stat.hackedonlinegames.com^
 ||stat.ripe.net^
 ||storetail.io^
-||shifen.com^
 ||storage.ape.yandex.net^
 ||static-mon.yandex.net^
 ||storage.mds.yandex.net^
@@ -12295,7 +12307,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||log-config.^
 ||log-ingestion-*.^
 ||targetedconfig-prod.*-*-*.elasticbeanstalk.com^
-! Fake Bitdefender logins
 ||mybitdefender-central.com^
 ||my-bitdefender.com^
 ||bitdefender-login.com^
@@ -12314,9 +12325,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||bitdefendercentral.support^
 ||bitdefendermyanmar.com^
 ||bitdefenderonline.com^
-! Fake Bitcoin "giveaway"
 ||paubit.com^
-! Scams - https://www.youtube.com/watch?v=jW9H8EbKR7w
 ||get-uphone.com^
 ||hyperstech.com^
 ||xdronehd.com^
@@ -12339,10 +12348,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||support-desks.com^
 ||novads.co^
 ||igadget24.com^
-! IPs
-||46.148.18.250^
-||80.211.148.176^
-||172.255.6.35^
+
 !----------------------
 ! End Domain Blocklist |
 !----------------------
@@ -12358,7 +12364,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||youtube.com/ptracking
 ||youtube.com/imgbin/www-hitchhiker.webp
 ||youtube.com/yts/jsbin/www-prepopulator-*$script
-m.youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
+youtube.com##ytm-item-section-renderer.scwnr-content:has-text(AD)
+youtube.com###contents > .ytd-search-pyv-renderer.style-scope:has-text(Ad)
 youtube.com###root-container:has-text(/ad/i):upward(3)
 youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, #chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com###dismissable:has-text(Featured)
@@ -15350,10 +15357,11 @@ youtube.com#@#body:style(overflow:visible !important)
 
 ! Whitelist
 @@||dualstack.apiproxy-nrdp-prod-nlb-*.amazonaws.com^$ctag=user_child
+@@||energized.pro^$ctag=user_child
 
 ! Block AnythingThat may Bypass Blocking
 /(torproject\.org|hidemyass\.com|hide\.me|windscribe\.com|avira\.com|hotspotshield\.com|betternet\.co|zenmate\.com|browsec.com|hoxx.com|ininja.org|myiphider.com|veepn.com|tuxler.com|ivacy.com|deeprism.com|surfshark.com|tunnello.com|tunnelbear.com|cowapp.github.io|wachee.co|lethean.io|hideme.io|privatix.com|virtualshield.com|blockless.com|getqingzhou.com|freemybrowser.com|getmalus.com|getgom.com|trust.zone|hideman.net|ipburger.com|netmap.net|ipinator.com|twork.in|hubbleiq.com|smartydns.com|techreckoner.com|yournet.io|trellonet.com|chillglobal.com)/$ctag=user_child
-/.{0,}(proxy|vpn|unblock|bypass).{0,}/$ctag=user_child
+/(.{0,}proxy.{0,}|.{0,}vpn.{0,}|.{0,}unblock.{0,}|.{0,}bypass.{0,})/$ctag=user_child
 ! Block Suspicious Domains/TLDs
 /(aptoide\.com|180upload\.com|4upfiles\.com|akafile\.com|clicknupload\.com|filefactory\.com|filehippo\.com|media1fire\.com|softpedia\.com|startpage\.com|ixquick\.com|waterfox\.net|waterfox\.onrender\.com|freedownloadscenter\.com|freedownloadmanager\.org|download\.cnet\.com|myrealgames\.com|videodownloaderfor\.com|uptodown\.com)?.{2,}\.(accountant|ads|bid|cc|cf|christmas|click|club|country|cricket|download|faith|gdn|gq|icu|jetzt|kim|link|load|market|men|mom|online|party|pro|racing|ren|review|science|space|systems|top|trade|vip|wang|webcam|win|work|xin|yokohama|zip|zone)?$/$ctag=user_child
 
