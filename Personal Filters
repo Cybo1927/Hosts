@@ -42,13 +42,13 @@ twitter.com$cookie
 google.*$cookie
 nbcnews.com$cookie
 
-! Testing for main hosts
-
-
 ! Unnecessary connections
 ||protectstar.com^
 ||unity3d.com^
 ||disqus.com^
 ||kiwibrowser.com^
+||location.force.com^
 
 ||google.com^$app=com.kiwibrowser.browser
+
+*$app=com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary
