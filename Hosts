@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1328
+! Version: 1329
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
-! Last Modified: Monday, November 2, 2020
+! Last Modified: Tuesday, November 3, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -226,6 +226,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank^$popup,popunder,domain=streamtape.com
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
+||clicks.istripper.com^$third-party,popup,popunder
 ||js.live.net^$domain=savvasrealize.com
 ||storage.googleapis.com^$domain=maharashtratimes.com
 ||firebaseio.com^$domain=walla.co.il
@@ -538,6 +539,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||msadsscale.azureedge.net^
 ||adspeed.net^
 ||sanalytics.disneyplus.com^
 ||guce.yahoo.com^
@@ -12589,6 +12591,9 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||r.i.ua/s?
 ||yimg.com/oa/guce.js
 ||s.yimg.com/cx/vzm/cs.js
+||bluestacks.com/*/stats
+||bluestacks.com/*/promotions
+||bluestacks.com/*/*_promotions
 
 !--------------
 ! End Blocking |
@@ -12844,6 +12849,10 @@ marketwatch.com##[class*="ad"][class*="element"], [class*="j-ad"]
 usatoday.com##[id*="ad-slot"]
 storyboardthat.com###site-wide-message > div, .cc_banner
 sciencenewsforstudents.org##[class*="newsletter-signup"]
+forums.malwarebytes.com##.ipsJS_hide.ipsPad_half
+reference.com##[class*="ad-text"], [class*="ad-wrapper"]
+quora.com##[class*="page_ad"], .ad.q-box
+pagesix.com##[class*="ad__"], [class*="billboard-ad"], [class*="ad-container"], [class*="nyp-sitewide-notice"]
 
 !--------------------
 ! End Element Hiding |
@@ -12858,6 +12867,8 @@ sciencenewsforstudents.org##[class*="newsletter-signup"]
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*/appclickstats
+*/miscellaneousstats
 */ip_detect
 */ip_geo
 *?spot_id=*&ct=*$popup,popunder
@@ -13927,6 +13938,9 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+270towin.com$cookie=__cfduid
+realclearpolitics.com$cookie=/_admrla|_awl|browser_tab_is_visible|ev_ss|evaf|ex_ss|hp_pwa_notif|usprivacy/
+breitbart.com$cookie=/PVsd|PVsm|PVsw|PVsy|Pl6|ci2v||gmx_h/
 dailycaller.com$cookie=__adblocker|__cfduid|__cflb
 theconversation.com$cookie=tc_session
 futurism.com$cookie=__adblocker
@@ -14338,6 +14352,7 @@ youtube.com#@#body { overflow:visible!important; }
 192.168.254.67$network,app=chrome.exe
 213.87.44.182$network,app=chrome.exe
 23.67.243.219$network,app=firefox.exe
+||d2u1q3j7uk6p0t.cloudfront.net^$app=Bluestacks.exe
 
 !#endif
 !#endif
@@ -14355,6 +14370,7 @@ godaddy.com$removeparam=isc
 360kuai.com$removeparam=url|scene
 googlevideo.com$removeparam=rbuf|rn|cver|cpn|c
 kiwibrowser.com$removeparam=type|version|release_name|release_version|install_date|ref
+cloud.bluestacks.com$removeparam=client_ver
 
 !#endif
 !#endif
