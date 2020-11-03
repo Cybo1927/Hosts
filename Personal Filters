@@ -41,6 +41,10 @@ rackcdn.com$cookie
 twitter.com$cookie
 google.*$cookie
 nbcnews.com$cookie
+270towin.com$cookie
+rasmussenreports.com$cookie
+realclearpolitics.com$cookie
+breitbart.com$cookie
 
 ! Unnecessary connections
 ||protectstar.com^
