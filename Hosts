@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1329
+! Version: 1330
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
-! Last Modified: Tuesday, November 3, 2020
+! Last Modified: Wednesday, November 4, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -36,7 +36,6 @@
 
 !#safari_cb_affinity(all)
 @@||github.com$generichide
-@@||militarytimes.mco.cdn.arcpublishing.com^
 @@||uid.mavencoalition.io^
 @@*/react-$script,domain=tinkercad.com
 @@*/ads_test
@@ -2897,7 +2896,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||angryshark.cn^
 ||amgload.net^
 ||ads-blocker.ru^
-||arcpublishing.com^
 ||a1.fbi.gov^
 ||a2.fbi.gov^
 ||a3.fbi.gov^
@@ -5782,7 +5780,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||expresvpn-private-analytics.net^
 ||evgnet.com^
 ||esputnik.com^
-||elb-*-amz.nimbus.bitdefender.net^
 ||engagement.feedly.com^
 ||es.io^
 ||egain.com^
@@ -12853,6 +12850,7 @@ forums.malwarebytes.com##.ipsJS_hide.ipsPad_half
 reference.com##[class*="ad-text"], [class*="ad-wrapper"]
 quora.com##[class*="page_ad"], .ad.q-box
 pagesix.com##[class*="ad__"], [class*="billboard-ad"], [class*="ad-container"], [class*="nyp-sitewide-notice"]
+american-historama.org###outer-consent
 
 !--------------------
 ! End Element Hiding |
@@ -13938,65 +13936,79 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
-270towin.com$cookie=__cfduid
-realclearpolitics.com$cookie=/_admrla|_awl|browser_tab_is_visible|ev_ss|evaf|ex_ss|hp_pwa_notif|usprivacy/
-breitbart.com$cookie=/PVsd|PVsm|PVsw|PVsy|Pl6|ci2v||gmx_h/
-dailycaller.com$cookie=__adblocker|__cfduid|__cflb
-theconversation.com$cookie=tc_session
-futurism.com$cookie=__adblocker
-pcmag.com$cookie=/fu/
-techigem.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
-techwhoop.com$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
-lmk.chat$cookie
-translate.google.com$cookie
-appcenter.ms$cookie
-modapkdown.com$cookie
-happymoddownload.com$cookie
-hoop.photo$cookie
-ding.wix.com$cookie,third-party
-шляхтен.рф$cookie
-googlevideo.com$cookie
-lmgtfy.com$cookie
-letmegooglethat.com$cookie
-msn.com$cookie=anoncknm|RecentStocks
-ninecorners.com$cookie
-oomph.de$cookie
-cams.com$cookie=/cams_who|cams_tr|HISTORY/
-perfectgirls.net$cookie=/token/
-anonfile.com$cookie
-anonfiles.com$cookie
-cloudflare.com$third-party,cookie
-adblockplus.org$cookie
-g01.msn.com$cookie
-highcharts.com$third-party,cookie
-adorama.com$third-party,cookie
-yeps.io$third-party,cookie
-abcnewsvod-f.akamaihd.net$cookie
-iheart.com$cookie,third-party
-disweb.deploys.io$cookie
-indiedb.com$cookie,third-party
-zanzlanz.com$cookie
-fireden.net$cookie,domain=cytu.be
-discordapp.com$cookie,domain=cytu.be
-pngpix.com.com$cookie,domain=cytu.be
-loox.io$cookie,third-party
-loox.app$cookie,third-party
-nyafuu.org$cookie,domain=cytu.be
-animatedimages.org$cookie,domain=cytu.be
-staticflickr.com$cookie,third-party
-swiftype.com$cookie,third-party
-infowarsmedia.com$cookie,third-party
-store.steampowered.$cookie,domain=steam.tv
-yahoo.com$cookie=/apeaf|ucs|thamba|flash_enabled/
-facebook.com$cookie=/datr|fr|wd/
-github.com$cookie=/tz|_ga/
-pathlimecom$cookie
-walmart.com$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
-yandex.$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
-frclip.com,uaclips.com$cookie=/wn/
-bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
-eastunionschools.org$cookie
-highwebmedia.com$cookie
+||aniimg.com^$cookie=__cfduid
+||hentai-cosplays.com^$cookie=__cfduid
+||porn-images-xxx.com^$cookie=__cfduid
+||hentai-img.com^$cookie=__cfduid
+||hentai-image.com^$cookie=__cfduid
+||aniimg.com^$third-party,cookie
+||hentai-cosplays.com^$third-party,cookie
+||porn-images-xxx.com^$third-party,cookie
+||hentai-img.com^$third-party,cookie
+||hentai-image.com^$third-party,cookie
+||hentaigo.com^$cookie
+||pervertslut.com^$cookie
+||pornhub.com^$third-party,cookie
+||tubesafari.com^$cookie
+||270towin.com^$cookie=__cfduid
+||realclearpolitics.com^$cookie=/_admrla|_awl|browser_tab_is_visible|ev_ss|evaf|ex_ss|hp_pwa_notif|usprivacy/
+||breitbart.com^$cookie=/PVsd|PVsm|PVsw|PVsy|Pl6|ci2v||gmx_h/
+||dailycaller.com^$cookie=__adblocker|__cfduid|__cflb
+||theconversation.com^$cookie=tc_session
+||futurism.com^$cookie=__adblocker
+||pcmag.com^$cookie=/fu/
+||techigem.com^$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
+||techwhoop.com^$cookie=/active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}/
+||lmk.chat^$cookie
+||translate.google.com^$cookie
+||appcenter.ms^$cookie
+||modapkdown.com^$cookie
+||happymoddownload.com^$cookie
+||hoop.photo^$cookie
+||ding.wix.com^$cookie,third-party
+||шляхтен.рф^$cookie
+||googlevideo.com^$cookie
+||lmgtfy.com^$cookie
+||letmegooglethat.com^$cookie
+||msn.com^$cookie=anoncknm|RecentStocks
+||ninecorners.com^$cookie
+||oomph.de^$cookie
+||cams.com^$cookie=/cams_who|cams_tr|HISTORY/
+||perfectgirls.net^$cookie=/token/
+||anonfile.com^$cookie
+||anonfiles.com^$cookie
+||cloudflare.com^$third-party,cookie
+||adblockplus.org^$cookie
+||g01.msn.com^$cookie
+||highcharts.com^$third-party,cookie
+||adorama.com^$third-party,cookie
+||yeps.io^$third-party,cookie
+||abcnewsvod-f.akamaihd.net^$cookie
+||iheart.com^$cookie,third-party
+||disweb.deploys.io^$cookie
+||indiedb.com^$cookie,third-party
+||zanzlanz.com^$cookie
+||fireden.net^$cookie,domain=cytu.be
+||discordapp.com^$cookie,domain=cytu.be
+||pngpix.com.com^$cookie,domain=cytu.be
+||loox.io^$cookie,third-party
+||loox.app^$cookie,third-party
+||nyafuu.org^$cookie,domain=cytu.be
+||animatedimages.org^$cookie,domain=cytu.be
+||staticflickr.com^$cookie,third-party
+||swiftype.com^$cookie,third-party
+||infowarsmedia.com^$cookie,third-party
+||store.steampowered.^$cookie,domain=steam.tv
+||yahoo.com^$cookie=/apeaf|ucs|thamba|flash_enabled/
+||facebook.com^$cookie=/datr|fr|wd/
+||github.com^$cookie=/tz|_ga/
+||pathlimecom^$cookie
+||walmart.com^$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
+||yandex.^$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
+||frclip.com,uaclips.com^$cookie=/wn/
+||bitdefender.com^$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
+||eastunionschools.org^$cookie
+||highwebmedia.com^$cookie
 ! These cookies track all around the web
 youtube.com$cookie=VISITOR_INFO1_LIVE;samesite=strict
 youtube.com$cookie=/__Secure-/;samesite=strict
