@@ -2,8 +2,9 @@
 ! Title: Cybo's Anti Facebook
 ! Description: Block all known Facebook domains
 ! Expires: 1 day
-! Version: 15
+! Version: 16
 
+||fbpigeon.com^
 ||fbcdn-video-*.akamaihd.net^
 ||fbcdn-vthumb-*.akamaihd.net^
 ||fbexternal-*.akamaihd.net^
