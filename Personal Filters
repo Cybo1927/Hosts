@@ -45,6 +45,10 @@
 ||rasmussenreports.com^$cookie
 ||realclearpolitics.com^$cookie
 ||breitbart.com^$cookie
+||neris-assets.com^$cookie
+||mediaite.com^$cookie
+||crainsdetroit.com^$cookie
+||usnews.com^$cookie
 
 ! Unnecessary connections
 ||protectstar.com^
