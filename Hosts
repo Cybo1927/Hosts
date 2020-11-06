@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1330
+! Version: 1331
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
-! Last Modified: Wednesday, November 4, 2020
+! Last Modified: Friday, November 6, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -538,6 +538,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||railwayreason.com^
 ||msadsscale.azureedge.net^
 ||adspeed.net^
 ||sanalytics.disneyplus.com^
@@ -12591,6 +12592,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||bluestacks.com/*/stats
 ||bluestacks.com/*/promotions
 ||bluestacks.com/*/*_promotions
+||weby.aaas.org/donation_banner.html$subdocument
 
 !--------------
 ! End Blocking |
@@ -12851,6 +12853,18 @@ reference.com##[class*="ad-text"], [class*="ad-wrapper"]
 quora.com##[class*="page_ad"], .ad.q-box
 pagesix.com##[class*="ad__"], [class*="billboard-ad"], [class*="ad-container"], [class*="nyp-sitewide-notice"]
 american-historama.org###outer-consent
+slate.com##.top-ad, .bottom-ad, .slate-ad, [class*="ad--"], [class*="inArticleBanner"]
+sciencemag.org##.newsletter, #ifrm_donation_subscribe
+dna-explained.com##.widget_eu_cookie_law_widget
+biointeractive.org##.sliding-popup-bottom
+sciencing.com##.freestyle-content > .no-print, .main-ad, .ad-leaderboard
+foxnews.com##.gam.ad, .ad-container
+sciencetrends.com##.widget-area, .ad-label, .header-ad
+biologydiscussion.com##.adsbygoogle
+britannica.com##[class*="-ad"], [class*="col-da-"], .marketing-SLIDER, .marketing-slider
+genome.gov###covid
+scientificamerican.com##[class*="toaster-ad"], [class*="-promo"]
+usnews.com##[class*="Ad__Container"]
 
 !--------------------
 ! End Element Hiding |
@@ -13922,6 +13936,8 @@ _statsonlineinfo
 @@||blueforcegear.com$cookie
 @@||linkedin.com$cookie
 
+$$amp-ad
+
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 #%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
 ! Can help fix ReCAPTCHA detecting you use an ad/content blocker and giving you worse CAPTCHAs
@@ -13936,6 +13952,10 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+||neris-assets.com$cookie=__cfduid
+||mediaite.com$cookie=__cfduid
+||crainsdetroit.com^$cookie=/%40AdobeOrg|__cfduid|s_cc|s_depth|s_invisit|s_nr|s_ppn|s_vnum|__adblocker|block_status|chkcookie/
+||usnews.com^$cookie=/ak_bmsc|bm_mi|bm_sv|session_id|visitor_id|akacd_www/
 ||aniimg.com^$cookie=__cfduid
 ||hentai-cosplays.com^$cookie=__cfduid
 ||porn-images-xxx.com^$cookie=__cfduid
