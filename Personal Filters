@@ -58,8 +58,12 @@
 ||location.force.com^
 ||fourchars.com^
 ||thinkyeah.com^
+||*-pa.googleapis.com^
+||digitalassetlinks.googleapis.com^
 ||spotify.com^$third-party
 ||scdn.co^$third-party
+! AdGuard Home Version
+/(protectstar\.com|unity3d\.com|disqus\.com|kiwibrowser\.com|location\.force\.com|fourchars\.com|thinkyeah\.com|.+-pa\.googleapis\.com|digitalassetlinks\.googleapis\.com)/$ctag=user_admin
 
 ||google.com^$app=com.kiwibrowser.browser
 ||172.217.8.206:443^$app=com.kiwibrowser.browser
