@@ -111,7 +111,7 @@
 $$script[wildcard="*track*atob*ShadowRoot*"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="window.Fingerprint2"]
-$$script[tag-content="PixelRatio"]
+$$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
 $$script[tag-content="PopUnder"]
 $$script[tag-content="zfgloaded"]
 $$script[tag-content="adConfig"]
@@ -125,6 +125,8 @@ $$script[src="googletagmanager.com"]
 $$script[src="googletagservices.com"]
 $$script[src="popads.net"]
 $$script[src="trafficjunky.net"]
+$$script[src="adlightning.com"]
+$$script[src="cookielaw.org"]
 
 !#endif
 !#endif
