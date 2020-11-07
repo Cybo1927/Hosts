@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1331
+! Version: 1332
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
-! Last Modified: Friday, November 6, 2020
+! Last Modified: Saturday, November 7, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -21,14 +21,6 @@
 ! Adblock Plus Filter Syntaxes                                         |
 ! https://help.eyeo.com/adblockplus/how-to-write-filters               |
 !-----------------------------------------------------------------------
-
-! Include Other Filters
-!#if (!adguard_app_android && !adguard_app_ios)
-
-!#include https://raw.githubusercontent.com/Cybo1927/Hosts/master/Extensions/Generic%20EHide
-!#include https://raw.githubusercontent.com/Cybo1927/Hosts/master/Extensions/Generic%20CB
-
-!#endif
 
 !-----------------
 ! Begin Whitelist |
@@ -538,6 +530,13 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||ludashi.com^
+||reojou.com^
+||dbn41syzjymrk.cloudfront.net^
+||besecapi.com^
+||besec.com^
+||analytic.rollout.io^
+||analytics*.*.mcafee.com^
 ||railwayreason.com^
 ||msadsscale.azureedge.net^
 ||adspeed.net^
@@ -12593,6 +12592,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||bluestacks.com/*/promotions
 ||bluestacks.com/*/*_promotions
 ||weby.aaas.org/donation_banner.html$subdocument
+||facebook.com/tr
 
 !--------------
 ! End Blocking |
@@ -13936,7 +13936,55 @@ _statsonlineinfo
 @@||blueforcegear.com$cookie
 @@||linkedin.com$cookie
 
+! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="(clickInfo).track"]
+$$script[tag-content="TiaraTracker.getInstance()"]
+$$script[tag-content="navigator.sendBeacon"]
+$$script[tag-content="pixelUrl"]
+$$script[tag-content="window.ga"]
+$$script[tag-content="eulerian_"]
+$$script[tag-content="GoogleAnalyticsObject"]
+$$script[tag-content="sendAnalytic"]
+$$script[tag-content="pixelFor"]
+$$script[tag-content="ClickTracking"]
+$$script[tag-content="trackLinks"]
+$$script[tag-content="get_country"]
+$$script[tag-content="gascroll"]
+$$script[tag-content="scrollEventTag"]
+$$script[tag-content="popMagic.url"]
+$$script[tag-content="adver.detect"]
+$$script[tag-content=".isAdBlock"]
+$$script[tag-content=".isAB"]
+$$script[tag-content="adblock_"]
+$$script[tag-content="atppop"]
+$$script[tag-content="trackerCountry"]
+$$script[tag-content="track_hits"]
+$$script[tag-content="lastPageName"]
+$$script[tag-content="clickPixels"]
+$$script[tag-content="trackCustClick"]
+$$script[tag-content="userABMessage"]
+$$script[tag-content="userABMessage"]
+$$script[tag-content="enableLinkTracking"]
+$$script[tag-content="'trackPageView'"]
+$$script[tag-content="preloadAds"]
+$$script[tag-content="PreloadAds"]
+$$script[tag-content="','ga'"]
+$$script[tag-content="window.localStorage.setItem(test, test);"]
+$$script[tag-content="Google Analytics"]
+$$script[tag-content="ExoLoader"]
+$$script[tag-content="exoloader"]
+$$script[tag-content="ExoVideoSlider"]
+$$script[tag-content="exo_div"]
+$$script[tag-content="exoUrl"]
+$$script[tag-content="exoclick"]
+$$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
+$$script[tag-content="PopUnder"]
+$$script[tag-content="zfgloaded"]
+$$script[tag-content="adConfig"]
+$$script[tag-content="AntiAdblock"]
+$$script[tag-content="adblock.html"]
+$$script[src="popads.net"]
 
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 #%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
@@ -14394,15 +14442,16 @@ youtube.com#@#body { overflow:visible!important; }
 
 !+ NOT_OPTIMIZED
 $removeparam=guccounter|msclkid|refer_scene|device|rawurl|kuai_so|tj_url|so_rec|uid|sign|int_cmpgn|int_dept|int_lctn|int_fmt|__cf_chl_captcha_tk__|ref_|linkCode|tag|qpid_offer_id|qpid_subid|qpid_clickid|utm_source|utm_medium|utm_term|utm_campaign|utm_content|utm_cid|utm_reader|utm_referrer|utm_name|utm_social|utm_social-type|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|mcorgid|slreturn|cmpid|from_http|spm|tracelog|affiliate_ref|publisherid|ref|subid|kid|tracker|ip|ia|iclid|fs|bidid|campaign|ai|ui|si|oref|rb|rr|isco|tk|pz|source|pid|cid|query|x|y|z|tdfs|project|zoneid|promoid|ats|place|tagl|landId|trk|feature|client_version|hostname|geosource|enparms|enparms2|ownid|u_agnt|dtos|mysrc|direct1|frdto|skter|czero|cstate|skwdb|vml|ccntry|cctid|chsh|rn|cf|PRN|cz|ct|sx|sy|sov|campaign_id|p_id|impid|scrHeight|scrWidth|bnid|crID|zID|landing|land|link_id|ref_id|tc1|noagev|u|p|t|o|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|timezone|t8_source|source_id|act|nats|so|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|company_validate_state|sub_confirmation|_1lr|ss_click|aclid|random|timestamp|referrer|tt_from|idkey|screenwidth|screenheight|lpkey|uclick|browser|browserver|platform|event|gs_lcp|sclient|ved|uact|ei|foxref|reload|conn_type|conn_dlm|conn_dl|conn_effective_type|dns|dom_loading|dom_interactive|dom_loaded|fp|fcp|fid|foxref|reload|is_first_visit|app_from|bigo_id|countrycode|event_id|staytime|req_ts|evtid|sigh|refccid|sig|searchidx|guid|kwds|rfmt|osp|__hstc|__hssc|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|aqs|sourceid|irclickid|loc|acampID|mpid|irgwc|sourceid|wmlspartner|clickid|veh|sharedid|spLa|ascsubtag|qid|sr
-duckduckgo.com$removeparam=sexp|adx|page|iai|ia|t
-search.yahoo.com$removeparam=type|param1|hspart|hsimp|fr|action
-youtube.com$removeparam=origin
-google.com$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
-godaddy.com$removeparam=isc
-360kuai.com$removeparam=url|scene
-googlevideo.com$removeparam=rbuf|rn|cver|cpn|c
-kiwibrowser.com$removeparam=type|version|release_name|release_version|install_date|ref
-cloud.bluestacks.com$removeparam=client_ver
+||duckduckgo.com^$removeparam=sexp|adx|page|iai|ia|t
+||search.yahoo.com^$removeparam=type|param1|hspart|hsimp|fr|action
+||youtube.com^$removeparam=origin
+||google.com^$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
+||godaddy.com^$removeparam=isc
+||360kuai.com^$removeparam=url|scene
+||googlevideo.com^$removeparam=rbuf|rn|cver|cpn|c
+||kiwibrowser.com^$removeparam=type|version|release_name|release_version|install_date|ref
+||cloud.bluestacks.com^$removeparam=client_ver
+||forbes.com^$removeparam=sh
 
 !#endif
 !#endif
@@ -14464,76 +14513,6 @@ youtube.com##+js(json-prune, adPlacements playerAds)
 *##+js(aeld, /contextmenu/i)
 ! No BlockAdBlock
 arenavision.in##+js(nobab)
-
-! Block specific inline scripts (Firefox only)
-!#if env_firefox
-
-*##^script:has-text((clickInfo).track)
-*##^script:has-text(TiaraTracker.getInstance())
-*##^script:has-text(navigator.sendBeacon)
-*##^script:has-text(adTextLink)
-*##^script:has-text(pixelUrl)
-*##^script:has-text(window.ga)
-*##^script:has-text(Wmpci_Popup)
-*##^script:has-text(EA_data)
-*##^script:has-text(eulerian_)
-*##^script:has-text(GoogleAnalyticsObject)
-*##^script:has-text(adsbygoogle)
-*##^script:has-text(gtag)
-*##^script:has-text(sendAnalytic)
-*##^script:has-text(tag.min.js)
-*##^script:has-text(?zoneid=)
-*##^script:has-text(pixelForFacebook)
-*##^script:has-text(pixelForTwitter)
-*##^script:has-text(pixelForPinterest)
-*##^script:has-text(pixelForReddit)
-*##^script:has-text(.analytics)
-*##^script:has-text(ClickTracking)
-*##^script:has-text(!advr.)
-*##^script:has-text(advr.ua)
-*##^script:has-text(iframeTracker)
-*##^script:has-text(trackLinks)
-*##^script:has-text(TRAFF_TARGETS)
-*##^script:has-text(get_country)
-*##^script:has-text(gascroll)
-*##^script:has-text(scrollEventTag)
-*##^script:has-text(popMagic.url)
-*##^script:has-text(adver.detect)
-*##^script:has-text(.isAdBlock)
-*##^script:has-text(.isAB)
-*##^script:has-text(adblock_)
-*##^script:has-text(atppop)
-*##^script:has-text(/popunder/)
-*##^script:has-text(overlayClick())
-*##^script:has-text(NREUM)
-*##^script:has-text('anonmyzeIp')
-*##^script:has-text(logServer)
-*##^script:has-text(ga:!)
-*##^script:has-text(gtm:!)
-*##^script:has-text(comscore:!)
-*##^script:has-text(trackerCountry)
-*##^script:has-text(useTraking)
-*##^script:has-text(lastPageName)
-*##^script:has-text(pageUrl)
-*##^script:has-text(clickPixels)
-*##^script:has-text(trackCustClick)
-*##^script:has-text(notiClickTime)
-*##^script:has-text(htTrack)
-*##^script:has-text(userABMessage)
-*##^script:has-text(Histats.)
-*##^script:has-text(track_hits)
-*##^script:has-text(crakPopIn)
-
-! Annoying exoclick garbage
-
-*##^script:has-text(exoclick)
-*##^script:has-text(exoloader)
-*##^script:has-text(exoUrl)
-*##^script:has-text(exo_div)
-*##^script:has-text(ExoVideoSlider)
-*##^script:has-text(.ExoLoader)
-
-!#endif
 
 ! Important from ublock privacy
 !-----------------------------------------------------------------------
