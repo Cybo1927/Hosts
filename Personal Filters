@@ -53,6 +53,17 @@
 ||nytimes.com^cookie
 ||forbes.com^$cookie
 ||genius.com^$cookie
+||sun-sentinel.com^$cookie
+||kptv.com^$cookie
+||koin.com^$cookie
+||khou.com^$cookie
+||yahoo.com^$cookie
+||usatoday.com^$cookie
+||cbsnews.com^$cookie
+||thehill.com^$cookie
+||sputniknews.com^$cookie
+||independant.co.uk^$cookie
+||the-sun.com^$cookie
 
 ! Unnecessary connections
 ||protectstar.com^
