@@ -109,6 +109,9 @@
 !#if (adguard)
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
+$$script[tag-content="gaCreateOptions"]
+$$script[tag-content="','ga'"]
+$$script[tag-content="window.localStorage.setItem(test, test);"]
 $$script[tag-content="Google Analytics"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="window.Fingerprint2"]
