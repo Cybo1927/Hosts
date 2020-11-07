@@ -2,68 +2,7 @@
 ! Expires: 1 hours
 
 ! Cookies
-||dailycaller.com^$cookie
-||newsweek.com^$cookie
-||allsides.com^$cookie
-||thehackernews.com^$cookie
-||foxnews.com^$cookie
-||foxbusiness.com^$cookie
-||townhall.com^$cookie
-||marketwatch.com^$cookie
-||duckduckgo.com^$cookie
-||freemp3cloud.com^$cookie
-||goodreads.com^$cookie
-||cnet.com^$cookie
-||norton.com^$cookie
-||adguard.com^$cookie
-||rescan.io^$cookie
-||wikipedia.org^$cookie
-||nypost.com^$cookie
-||pjmedia.com^$cookie
-||judicialwatch.org^$cookie
-||capitalresearch.org^$cookie
-||theatlantic.com^$cookie
-||techwhoop.com^$cookie
-||pcmag.com^$cookie
-||beebom.com^$cookie
-||wsj.net^$cookie
-||rt.com^$cookie
-||androidauthority.com^$cookie
-||techradar.com^$cookie
-||pcmag.com^$cookie
-||techigem.com^$cookie
-||tomsguide.com^$cookie
-||civicscience.com^$cookie
-||cnn.com^$cookie
-||cloudfront.net^$cookie
-||post-gazette.com^$cookie
-||rackcdn.com^$cookie
-||twitter.com^$cookie
-||google.*^$cookie
-||nbcnews.com^$cookie
-||270towin.com^$cookie
-||rasmussenreports.com^$cookie
-||realclearpolitics.com^$cookie
-||breitbart.com^$cookie
-||neris-assets.com^$cookie
-||mediaite.com^$cookie
-||crainsdetroit.com^$cookie
-||usnews.com^$cookie
-||ap.org^$cookie
-||nytimes.com^$cookie
-||forbes.com^$cookie
-||genius.com^$cookie
-||sun-sentinel.com^$cookie
-||kptv.com^$cookie
-||koin.com^$cookie
-||khou.com^$cookie
-||yahoo.com^$cookie
-||usatoday.com^$cookie
-||cbsnews.com^$cookie
-||thehill.com^$cookie
-||sputniknews.com^$cookie
-||independant.co.uk^$cookie
-||the-sun.com^$cookie
+*$cookie,domain=~secureinternetbank.com
 
 ! Unnecessary connections
 ||protectstar.com^
@@ -110,24 +49,13 @@
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
 $$script[tag-content="gaCreateOptions"]
-$$script[tag-content="','ga'"]
-$$script[tag-content="window.localStorage.setItem(test, test);"]
-$$script[tag-content="Google Analytics"]
-$$script[tag-content="ExoLoader"]
 $$script[tag-content="window.Fingerprint2"]
-$$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
-$$script[tag-content="PopUnder"]
-$$script[tag-content="zfgloaded"]
-$$script[tag-content="adConfig"]
-$$script[tag-content="AntiAdblock"]
-$$script[tag-content="adblock.html"]
 $$script[src="doubleclick.net"]
 $$script[src="googlesyndication.com"]
 $$script[src="google-analytics.com"]
 $$script[src="googleadservices.com"]
 $$script[src="googletagmanager.com"]
 $$script[src="googletagservices.com"]
-$$script[src="popads.net"]
 $$script[src="trafficjunky.net"]
 $$script[src="adlightning.com"]
 $$script[src="cookielaw.org"]
