@@ -49,8 +49,8 @@
 ||mediaite.com^$cookie
 ||crainsdetroit.com^$cookie
 ||usnews.com^$cookie
-||ap.org^cookie
-||nytimes.com^cookie
+||ap.org^$cookie
+||nytimes.com^$cookie
 ||forbes.com^$cookie
 ||genius.com^$cookie
 ||sun-sentinel.com^$cookie
@@ -109,6 +109,7 @@
 !#if (adguard)
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
+$$script[tag-content="Google Analytics"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
@@ -127,6 +128,8 @@ $$script[src="popads.net"]
 $$script[src="trafficjunky.net"]
 $$script[src="adlightning.com"]
 $$script[src="cookielaw.org"]
+
+dailycaller.com,newsweek.com,allsides.com,thehackernews.com,foxnews.com,foxbusiness.com,townhall.com,marketwatch.com,duckduckgo.com,freemp3cloud.com,goodreads.com,cnet.com,norton.com,adguard.com,rescan.io,wikipedia.org,nypost.com,pjmedia.com,judicialwatch.org,capitalresearch.org,theatlantic.com,techwhoop.com,pcmag.com,beebom.com,wsj.net,rt.com,androidauthority.com,techradar.com,pcmag.com,techigem.com,tomsguide.com,civicscience.com,cnn.com,cloudfront.net,post-gazette.com,rackcdn.com,twitter.com,google.*,nbcnews.com,270towin.com,rasmussenreports.com,realclearpolitics.com,breitbart.com,neris-assets.com,mediaite.com,crainsdetroit.com,usnews.com,ap.org,nytimes.com,forbes.com,genius.com,sun-sentinel.com,kptv.com,koin.com,khou.com,yahoo.com,usatoday.com,cbsnews.com,thehill.com,sputniknews.com,independant.co.uk,the-sun.com$$script[tag-content="navigator.userAgent"]
 
 !#endif
 !#endif
