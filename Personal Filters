@@ -104,3 +104,27 @@
 ||104.23.140.7:443^$app=com.kiwibrowser.browser
 
 *$app=com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault
+
+!#if !ext_ublock
+!#if (adguard)
+
+$$script[wildcard="*track*atob*ShadowRoot*"]
+$$script[tag-content="ExoLoader"]
+$$script[tag-content="window.Fingerprint2"]
+$$script[tag-content="PixelRatio"]
+$$script[tag-content="PopUnder"]
+$$script[tag-content="zfgloaded"]
+$$script[tag-content="adConfig"]
+$$script[tag-content="AntiAdblock"]
+$$script[tag-content="adblock.html"]
+$$script[src="doubleclick.net"]
+$$script[src="googlesyndication.com"]
+$$script[src="google-analytics.com"]
+$$script[src="googleadservices.com"]
+$$script[src="googletagmanager.com"]
+$$script[src="googletagservices.com"]
+$$script[src="popads.net"]
+$$script[src="trafficjunky.net"]
+
+!#endif
+!#endif
