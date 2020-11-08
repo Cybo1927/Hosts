@@ -2,7 +2,7 @@
 ! Expires: 1 hours
 
 ! Cookies
-*$cookie,domain=~secureinternetbank.com
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com
 
 ! Unnecessary connections
 ||protectstar.com^
@@ -24,6 +24,8 @@
 /(protectstar\.com|unity3d\.com|disqus\.com|kiwibrowser\.com|location\.force\.com|fourchars\.com|thinkyeah\.com|.+-pa\.googleapis\.com|digitalassetlinks\.googleapis\.com|fonts\.gstatic\.com)/$ctag=user_admin
 
 ||google.com^$app=com.kiwibrowser.browser
+@@||chrome.google.com^$domain=chrome.google.com,app=com.kiwibrowser.browser
+@@||clients2.google.com^$app=com.kiwibrowser.browser
 ||172.217.8.206:443^$app=com.kiwibrowser.browser
 ||209.85.164.40:443^$app=com.kiwibrowser.browser
 ||172.217.4.65:443^$app=com.kiwibrowser.browser
@@ -42,12 +44,14 @@
 ||104.23.139.7:443^$app=com.kiwibrowser.browser
 ||104.23.140.7:443^$app=com.kiwibrowser.browser
 
-*$app=com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault
+*$app=com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
 !#if !ext_ublock
 !#if (adguard)
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
+$$script[tag-content="navigator.userAgent"]
+$$script[tag-content="googlebot"]
 $$script[tag-content="gaCreateOptions"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[src="doubleclick.net"]
@@ -59,8 +63,6 @@ $$script[src="googletagservices.com"]
 $$script[src="trafficjunky.net"]
 $$script[src="adlightning.com"]
 $$script[src="cookielaw.org"]
-
-dailycaller.com,newsweek.com,allsides.com,thehackernews.com,foxnews.com,foxbusiness.com,townhall.com,marketwatch.com,duckduckgo.com,freemp3cloud.com,goodreads.com,cnet.com,norton.com,adguard.com,rescan.io,wikipedia.org,nypost.com,pjmedia.com,judicialwatch.org,capitalresearch.org,theatlantic.com,techwhoop.com,pcmag.com,beebom.com,wsj.net,rt.com,androidauthority.com,techradar.com,pcmag.com,techigem.com,tomsguide.com,civicscience.com,cnn.com,cloudfront.net,post-gazette.com,rackcdn.com,twitter.com,google.*,nbcnews.com,270towin.com,rasmussenreports.com,realclearpolitics.com,breitbart.com,neris-assets.com,mediaite.com,crainsdetroit.com,usnews.com,ap.org,nytimes.com,forbes.com,genius.com,sun-sentinel.com,kptv.com,koin.com,khou.com,yahoo.com,usatoday.com,cbsnews.com,thehill.com,sputniknews.com,independant.co.uk,the-sun.com$$script[tag-content="navigator.userAgent"]
 
 !#endif
 !#endif
