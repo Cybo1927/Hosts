@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1332
-! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
-! Last Modified: Saturday, November 7, 2020
+! Version: 1333
+! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
+! Last Modified: Sunday, November 8, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -233,10 +233,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
-*$ping #Never appears to be anything other than ads/analytics
+*$ping
 ||wsj.net^$websocket,third-party
 ||highwebmedia.com^$websocket
-||127.0.0.1^$third-party,websocket #Weird trackers
+||127.0.0.1^$third-party,websocket
 ||zgo.at^$third-party
 ||bufferapp.com^$third-party
 ||buffer.com^$third-party
@@ -530,6 +530,9 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||device-metrics-*.amazon.com^
+||analyticsdcs.ccs.mcafee.com^
+||dominiosvision.com^
 ||ludashi.com^
 ||reojou.com^
 ||dbn41syzjymrk.cloudfront.net^
@@ -560,7 +563,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||phnx.click^
 ||znctrack.net^
 ||ad*.bigmir.net^
-||adi.bigmir.net^
 ||i.bigmir.net^
 ||log-sdk.golden49.com^
 ||stats.videodelivery.net^
@@ -629,109 +631,103 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||detour.click^
 ||redlightcenter.com^
 ||dycej.com^
-||sldev.ovh^ #Fake site
+||sldev.ovh^
 ||goatcounter.com^
 ||bp01.net^
 ||ghochv3eng.trafficmanager.net^
 ||ereg.adobe.com^
-||alcohol-soft.com^ #Malicious - Medium confidence
+||alcohol-soft.com^
 ||ads*.msn.com^
 ||wns.windows.com^
 ||baidu.om^
-||donaldtrump.watch^ #Doxxing random people for voting a specific way
+||donaldtrump.watch^
 ||barenudism.com^
 ||1ive.com^
-||hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||holaspark.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client.hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client-cdn*.hola.org^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||luminati.io^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||clientalt-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||client*-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||holaalt-holanetworksltd.netdna-ssl.com^ #torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
-||curiouscat.club^ #IP grabber
-||catsnthings.fun^ #IP grabber
-||catsnthing.com^ #IP grabber
-||skypeipresolver.net^ #IP grabber
-||spylink.net^ #IP grabber
-||ipstat.com^ #IP grabber
-||ipstatp.com^ #IP grabber
-||grabify.link^ #IP grabber
-||bmwforum.co^ #IP grabber
-||leancoding.co^ #IP grabber
-||quickmessage.io^ #IP grabber
-||spottyfly.com^ #IP grabber
-||spötify.com^ #IP grabber
-||stopify.co^ #IP grabber
-||yoütu.be^ #IP grabber
-||yoütübe.co^ #IP grabber
-||yoütübe.com^ #IP grabber
-||yȯutube.com^ #IP grabber
-||xda-developers.io^ #IP grabber
-||starbucksiswrong.com^ #IP grabber
-||starbucksisbadforyou.com^ #IP grabber
-||bucks.as^ #IP grabber
-||discörd.com^ #IP grabber
-||minecräft.com^ #IP grabber
-||cyberh1.xyz^ #IP grabber
-||discördapp.com^ #IP grabber
-||freegiftcards.co^ #IP grabber
-||disçordapp.com^ #IP grabber
-||rëddït.com^ #IP grabber
-||iplogger.org^ #IP grabber
-||iplogger.com^ #IP grabber
-||iplogger.ru^ #IP grabber
-||2no.co^ #IP grabber
-||yip.su^ #IP grabber
-||youramonkey.com^ #IP grabber
-||whatstheirip.com^ #IP grabber
-||IP-Grabber.com^ #IP grabber
-||ip-grabber.com^ #IP grabber
-||blasze.tk^ #IP grabber
-||ps3cfw.com^ #IP grabber
-||freegeoip.net^ #IP grabber
-||ipstack.com^ #IP grabber
-||ipstack.net^ #IP grabber
-||tracemyip.org^ #IP grabber
-||xn--yotu-1ra.be^ #IP grabber
-||xn--discrd-zxa.com^ #IP grabber
-||xn--srahah-bua.eu^ #IP grabber
-||xn--minecrft-5za.com^ #IP grabber
-||xn--disordapp-s3a.com^ #IP grabber
-||xn--srahah-bua.pl^ #IP grabber
-||xda-developers.us^ #IP grabber
-||quickmessage.us^ #IP grabber
-||fortnight.space^ #IP grabber
-||fortnitechat.site^ #IP grabber
-||youshouldclick.us^ #IP grabber
-||joinmy.site^ #IP grabber
-||watches-my.stream^ #IP grabber
-||apple.com-fasting.live^ #IP grabber
-||parentelement.tk^ #IP grabber
-||com-fasting.live^ #IP grabber
-||crabrave.pw^ #IP grabber
-||särahah.eu^ #IP grabber
-||särahah.pl^ #IP grabber
-||mapper.info^ #IP grabber
-||ezstat.ru^ #IP grabber
-||blasze.com^ #IP grabber
-||spÃ¶tify.com^ #IP grabber
-||yoÃ¼tÃ¼be.co^ #IP grabber
-||yoÃ¼tÃ¼be.com^ #IP grabber
-||yoÃ¼tu.be^ #IP grabber
-||hackfÈ¯rums.com^ #IP grabber
-||hackfÈ¯rums.net^ #IP grabber
-||discÃ¶rd.com^ #IP grabber
-||battlÄ—.net^ #IP grabber
-||xn--yo14t14be-m2ad7057gea.com^ #IP grabber
-||xn--sptify-4ka37a.com^ #IP grabber
-||xn--discrd-6ka37a.com^ #IP grabber
-||xn--yo14tu-4ta9735d.be^ #IP grabber
-||xn--yo14t14be-m2ad7057gea.co^ #IP grabber
-||xn--battl-kra2007c.net^ #IP grabber
+||hola.org^
+||holaspark.com^
+||client-cdn*.hola.org^
+||luminati.io^
+||client*-holanetworksltd.netdna-ssl.com^
+||holaalt-holanetworksltd.netdna-ssl.com^
+||curiouscat.club^
+||catsnthings.fun^
+||catsnthing.com^
+||skypeipresolver.net^
+||spylink.net^
+||ipstat.com^
+||ipstatp.com^
+||grabify.link^
+||bmwforum.co^
+||leancoding.co^
+||quickmessage.io^
+||spottyfly.com^
+||spötify.com^
+||stopify.co^
+||yoütu.be^
+||yoütübe.co^
+||yoütübe.com^
+||xda-developers.io^
+||starbucksiswrong.com^
+||starbucksisbadforyou.com^
+||bucks.as^
+||discörd.com^
+||minecräft.com^
+||cyberh1.xyz^
+||discördapp.com^
+||freegiftcards.co^
+||disçordapp.com^
+||rëddït.com^
+||iplogger.org^
+||iplogger.com^
+||iplogger.ru^
+||2no.co^
+||yip.su^
+||youramonkey.com^
+||whatstheirip.com^
+||IP-Grabber.com^
+||blasze.tk^
+||ps3cfw.com^
+||freegeoip.net^
+||ipstack.com^
+||ipstack.net^
+||tracemyip.org^
+||xn--yotu-1ra.be^
+||xn--discrd-zxa.com^
+||xn--srahah-bua.eu^
+||xn--minecrft-5za.com^
+||xn--disordapp-s3a.com^
+||xn--srahah-bua.pl^
+||xda-developers.us^
+||quickmessage.us^
+||fortnight.space^
+||fortnitechat.site^
+||youshouldclick.us^
+||joinmy.site^
+||watches-my.stream^
+||parentelement.tk^
+||com-fasting.live^
+||crabrave.pw^
+||särahah.eu^
+||särahah.pl^
+||mapper.info^
+||ezstat.ru^
+||blasze.com^
+||spÃ¶tify.com^
+||yoÃ¼tÃ¼be.co^
+||yoÃ¼tÃ¼be.com^
+||yoÃ¼tu.be^
+||hackfÈ¯rums.com^
+||hackfÈ¯rums.net^
+||discÃ¶rd.com^
+||battlÄ—.net^
+||xn--yo14t14be-m2ad7057gea.com^
+||xn--sptify-4ka37a.com^
+||xn--discrd-6ka37a.com^
+||xn--yo14tu-4ta9735d.be^
+||xn--yo14t14be-m2ad7057gea.co^
 ||dragqueenstoryhour.org^
 ||austindragfest.org^
-||coppercourier.com^ #Fake local news website
+||coppercourier.com^
 ||track.cordial.io^
 ||trcksp.cordial.io^
 ||log.zoom.us^
@@ -767,7 +763,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||stats.kde.org^
 ||rssx.hp.com^
 ||*-*.*-*.*.*.*.*.*.*.*.avts.mcafee.com^
-||analytics.*.mcafee.com^
 ||mgmt.consumer.amp.cisco.com^
 ||link-to.net^
 ||linkvertise.com^
@@ -797,7 +792,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||atomisons.xyz^
 ||events.adguard.com^
 ||hdm.windstream.com^
-||mylol.com^ #https://www.mirror.co.uk/news/uk-news/mylolcom-teen-dating-website-playground-3103803
+||mylol.com^
 ||browser.events.data.msn.com^
 ||global.asimov.events.data.trafficmanager.net^
 ||keysvc.cs.roku.com^
@@ -873,7 +868,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||5gbioshield.com^
 ||bbape.com^
 ||latency.discord.media^
-||tracking.a-mo.net^
 ||cf-ads.pinger.com^
 ||allow-to-continue.com^
 ||u1p1p-pa.googleapis.com^
@@ -886,7 +880,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||xobni.yahoo.com^
 ||bif.sr.roku.com^
 ||vidmark.seermedia.io^
-||and-clog*.pulse.weatherbug.net^
 ||bitlytics.id^
 ||emb-api.com^
 ||honky.com^
@@ -936,9 +929,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cfdomains.com^
 ||acsbapp.com^
 ||ping.*.microsoft.com^
-||ping.*.*.microsoft.com^
 ||telemetry.*.microsoft.com^
-||telemetry.*.*.microsoft.com^
 ||027wuhan.com^
 ||027wuhan.net^
 ||selectmedia.asia^
@@ -1031,9 +1022,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adiktivebanners.com^
 ||adiktivebanners.b-cdn.net^
 ||adsfind.ru^
-||f1272serve.xyz^
-||pstreetex.com^
-||itsup.com^
 ||advertsdata.com^
 ||hotday.biz^
 ||nudismphoto.top^
@@ -1116,7 +1104,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||snapsexti.com^
 ||theindecent.me^
 ||erosbaby69.club^
-||banners.adultfriendfinder.com^
 ||awmplus.com^
 ||teensfilm.com^
 ||timetoteens.com^
@@ -1160,7 +1147,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sixscissors.com^
 ||simplisticstem.com^
 ||siliconslow.com^
-||sophisticatedstove.com^
 ||absorbingprison.com^
 ||aheadday.com^
 ||ambiguousquilt.com^
@@ -1206,10 +1192,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||screechingslip.com^
 ||showsteel.com^
 ||shutseashore.com^
-||siliconslow.com^
-||simplisticstem.com^
-||sixscissors.com^
-||soggysponge.com^
 ||adpatrof.com^
 ||d-ughwashes.ru^
 ||pdvacde.com^
@@ -1321,7 +1303,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pay-pv.com^
 ||pvchg.com^
 ||social7news.com^
-||tubememberplus.com^
 ||tubemembers.mobi^
 ||tubetoolkit.com^
 ||webnr.net^
@@ -1346,7 +1327,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||21pron.com^
 ||pinksextube.com^
 ||traffictrade.pro^
-||pinksextube.com^
 ||sexrulez.com^
 ||sexbright.com^
 ||porn4real.com^
@@ -1439,7 +1419,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pacitiesbo.info^
 ||pushsales.space^
 ||abnormaticn.club^
-||buriatelyn.club^
 ||click.hooligapps.com^
 ||secondstreetapp.com^
 ||popupmaker.com^
@@ -1472,7 +1451,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||agentanalytics.com^
 ||imganalytics.com^
 ||webtools.media^
-||soggysponge.com^
 ||analyticsq.com^
 ||bntech.io^
 ||bldrdoc.gov^
@@ -1522,7 +1500,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||clicker.com^
 ||goadv.com^
 ||dealer.com^
-||fly-analytics.com^
 ||d1272serve.xyz^
 ||mylocalcrush.com^
 ||gethugetoday.com^
@@ -1542,7 +1519,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gb.lgtvsdp.com^
 ||gb.rdx2.lgtvsdp.com^
 ||secure-geolocation.premiumtv.co.uk^
-||telemetry.swe.quicinc.com^
 ||logfiles-va-*.zoom.us^
 ||5yw028ngxe9x.com^
 ||adxnexus.com^
@@ -1817,7 +1793,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||clickio.com^
 ||luxadv.com^
 ||luxcdn.com^
-||adlabs.ru^
 ||tazeros.com^
 ||bisdgsd.pro^
 ||lfodsae.pro^
@@ -1936,8 +1911,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||somecdn.bid^
 ||fnacgbik9v14.com^
 ||halleyperson.pro^
-||rtnews.pro^
-||wsjlbbqemr23.com^
 ||larrenpicture.pro^
 ||martafatass.pro^
 ||cconseent.info^
@@ -1945,7 +1918,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||spectrum.gettyimages.com^
 ||alleni.com^
 ||alleninteractions.com^
-||redirector.brave.com^
 ||xcamgirls.me^
 ||findurlovemate.net^
 ||iamnaughty.com^
@@ -1979,7 +1951,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||2mdnsys.com^
 ||projectagoralibs.com^
 ||projectagoraservices.com^
-||displayvertising.com^
 ||i4rsrcj6.top^
 ||paslsa.com^
 ||qualified.com^
@@ -2248,7 +2219,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adshot.de^
 ||adstime.org^
 ||admulti.com^
-||ad.1k3.com^
 ||abctrack.bid^
 ||acookie.alibaba.com^
 ||activetracker.activehotels.com^
@@ -2283,7 +2253,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ad-srv.net^
 ||affec.tv^
 ||ads.yap.yahoo.com^
-||a-ring.msedge.net^
 ||applog.musical.ly.edgekey.net^
 ||apptornado.com^
 ||androidcrosspromoapi.herokuapp.com^
@@ -2437,7 +2406,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||airdownload2.adobe.com^
 ||aens.belugaboost.com^
 ||appad-*.perfectcorp.com^
-||ars-dynatrace.allstate.com^
 ||aliadvert.ru^
 ||adnium.com^
 ||affex.org^
@@ -2581,19 +2549,16 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||augur.io^
 ||azetklik.sk^
 ||ad.bitmedia.io^
-||a.breaktime.com.tw^
 ||api-identification.hotmart.com^
 ||affasi.com^
 ||amazinggiftcardforyou.us^
 ||androidcheatsonline.com^
 ||akk.li^
 ||associates-amazon.com^
-||api.sms.intl.miui.com^
 ||actnx.com^
 ||adtwbjs.com^
 ||adncdnend.azureedge.net^
 ||albertonne.com^
-||adserver.pressboard.ca^
 ||aivdesk.com^
 ||autoid.com^
 ||af.opera.com^
@@ -2612,7 +2577,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||admitad-connect.com^
 ||apiv2.bricknet.com^
 ||areyouabot.net^
-||ada.support^
 ||adtlgc.com^
 ||adzerk.net^
 ||timeinc.com^
@@ -2651,7 +2615,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||aatkit.com^
 ||amazon-adsystem.com^
 ||ad.ams.mcdstorage.com^
-||302br.net^
 ||casalemedia.com^
 ||api-async.excite.co.jp^
 ||analytics.ecosia.org^
@@ -2728,7 +2691,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||vyrl.co^
 ||kiip.me^
 ||and.co.uk^
-||a.et.nytimes.com^
 ||albtls-na.t.co^
 ||ads.youtube.com^
 ||adport.io^
@@ -2764,7 +2726,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ailiyou1999.com^
 ||adunblock.com^
 ||analytics.tout.com^
-||a.et.nytimes.com^
 ||adscendmedia.com^
 ||analytics.businessinsider.com^
 ||ads.fileindexer.com^
@@ -2876,7 +2837,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||analytics.colacoweb.net^
 ||analytics.cloudron.io^
 ||analytics-digit-in.cdn.ampproject.org^
-||analysis.polarisoffice.com^
 ||appround.biz^
 ||aceadsys.net^
 ||assetsamillionads*-prod.s3.amazonaws.com^
@@ -3046,7 +3006,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adgibbon.com^
 ||adgiant.io^
 ||adformdsp.com^
-||adformdsp.com^
 ||adfast.net^
 ||addnow.com^
 ||adcolony.com^
@@ -3119,7 +3078,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||acquamedia.com.hk^
 ||acceleration.biz^
 ||appness.com^
-||app.appness.com^
 ||adpushup.com^
 ||ad-unicorn.net^
 ||abandonedclover.com^
@@ -3291,7 +3249,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adsata.com^
 ||adultex.net^
 ||adomantra.com^
-||adspyglass.com^
 ||addigi.media^
 ||adnetpro.com^
 ||advertiseclick.com^
@@ -3320,14 +3277,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ads-bidder-api.twitter.com^
 ||adv-ettoday.cdn.hinet.net^
 ||ad-ettoday.cdn.hinet.net^
-||adsapi.manhuaren.com^
 ||adplex.co.kr^
 ||adplex.com^
 ||adtive.co.kr^
 ||adtive.com^
-||abtest.mistat.xiaomi.com^
-||abtest.mistat.intl.xiaomi.com^
-||apse-clean.ludashi.com^
 ||iad*.squareup.com^
 ||appnext.com^
 ||api.mobojoy.baidu.com^
@@ -3690,7 +3643,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||aweber.com^
 ||socialtheater.com^
 ||adscreendirect.com^
-||adassembly.com^
 ||aff.bstatic.com^
 ||ad-balancer.at^
 ||ads.musixmatch.com^
@@ -3853,7 +3805,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adnet.ru^
 ||adnetinteractive.com^
 ||adnetwork.net^
-||adnetworkperformance.com^
 ||adnotch.com^
 ||adnxs.com^
 ||adonspot.com^
@@ -3891,7 +3842,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ads.administrator.de^
 ||adshareware.net^
 ||ads.adultswim.com^
-||ads.advance.net^
 ||ads.adverline.com^
 ||affiliates.match.com^
 ||adimpact.com^
@@ -3936,13 +3886,11 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ads.bing.com^
 ||ads.bittorrent.com^
 ||ads.blog.com^
-||ads.bloomberg.com^
 ||ads.bluelithium.com^
 ||ads.bluemountain.com^
 ||ads.bonniercorp.com^
 ||ads.boylesports.com^
 ||ads.brabys.com^
-||ads.brazzers.com^
 ||bumq.com^
 ||ads.businessweek.com^
 ||ads.canalblog.com^
@@ -4090,8 +4038,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||okcimg.com^
 ||adobedtm.com^
 ||admaster.de^
-||ads.aceweb.net^
-||anrdoezrs.net^
 ||bingads.microsoft.com^
 ||ads.3d.com^
 ||ads.51.net^
@@ -4102,7 +4048,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||admaster.com.cn^
 ||adocean.^
 ||adforce.ru^
-||adcycle.com^
 ||adcycle.everyone.net^
 ||adgear.com^
 ||adchoices.com.vn^
@@ -4110,7 +4055,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adeventtracker.spotify.com^
 ||adlock.in^
 ||wyzmob.com^
-||adcenter.net^
 ||adcenter.mdf.se^
 ||ad-first.co.kr^
 ||ad.about.co.kr^
@@ -4149,14 +4093,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ad-blaster.com^
 ||ad-board.com^
 ||ad-brix.com^
-||ad-clicks.com^
 ||ad-feeds.com^
 ||affiliates.mature.eu^
 ||ad-flow.com^
 ||ad-host.com^
 ||adcounter.globeandmail.com^
 ||adcounter.theglobeandmail.com^
-||ademails.com^
 ||ad-logics.com^
 ||analytics.myfinances.com^
 ||intelli-direct.com^
@@ -4238,7 +4180,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gemini.yahoo.com^
 ||becomspectua.club^
 ||boffoadsfeeds.com^
-||bruceleadx2.com^
 ||buckridge.link^
 ||brandcrumb.com^
 ||breaktime.com.tw^
@@ -4348,7 +4289,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||bugsnag.8x8.com^
 ||inbenta.io^
 ||bangaltech.blogspot.com^
-||blockbuster.vidyard.test^
 ||browsealoud.com^
 ||bannerbank.ru^
 ||b1img.com^
@@ -4385,7 +4325,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||balloontexture.com^
 ||barbarousnerve.com^
 ||baskettexture.com^
-||bawdybeast.com^
 ||beamincrease.com^
 ||beamkite.com^
 ||bedsbreath.com^
@@ -4526,7 +4465,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||beacon.sina.com.cn^
 ||beacon.sinauda.com^
 ||beacon.stage.walmart.com^
-||beacon.wikia-services.com^
 ||beadngmke.download^
 ||beanstock.com^
 ||beanstockmedia.com^
@@ -4544,7 +4482,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||best-ads.com^
 ||best-deals-products.com^
 ||bestadbid.com^
-||bestfwdservice.com^
 ||bestwebnutfunblack.biz^
 ||adknowledge.com^
 ||easyhitcounters.com^
@@ -4753,7 +4690,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cctrck.com^
 ||clickprotects.com^
 ||clickredir.ru^
-||clicksaddiction.com^
 ||cloudtracking.icu^
 ||cloudads.global^
 ||clixforads.com^
@@ -4901,7 +4837,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||clients4.brave.com^
 ||comodoca4.com^
 ||crl.sca1b.amazontrust.com^
-||client.wns.windows.com^
 ||crbug.com^
 ||concert.io^
 ||convertplug.com^
@@ -4930,14 +4865,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cbs.wondershare.com^
 ||clickvalue.com.cn^
 ||chinawomendating.asia^
-||catalog.qc.coccoc.com^
 ||cdn.comedia.coccoc.com^
-||cdn.qc.coccoc.com^
 ||cdn-qc.coccoc.com^
-||context.qc.coccoc.com^
-||cp.qc.coccoc.com^
-||cdn-eb.syndication.twitter.com^
-||cdn.syndication.twitter.com^
 ||*-tapad.s3.amazonaws.com^
 ||counters.freewebs.com^
 ||cdnpub.info^
@@ -5039,7 +4968,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cybop.net^
 ||crushus.com^
 ||cookieclickerhacked.com^
-||cdn.unid.go.com^
 ||chubao.cn^
 ||cootek.com^
 ||client-analytics.braintreegateway.com^
@@ -5056,7 +4984,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cdnprism.pandora.tv^
 ||crashdump.spotify.com^
 ||content.bitsontherun.com^
-||clickbank.net^
 ||contributor.google.com^
 ||com-promotions.us^
 ||consent.trustarc.com^
@@ -5108,28 +5035,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||adv.pilseta24.lv^
 ||pmo.ee^
 ||awemwh.com^
-||voluumtrk.com^
 ||tgpsitecentral.com^
 ||hitwebes.chosun.com^
 ||stat.appsgeyser.com^
 ||ocelot.pushbullet.com^
 ||invertise.s3.amazonaws.com^
 ||chat.intele.com^
-||meredith.com^
-||mininglamp.com^
-||cloutbux.com^
-||futy-widget.com^
-||clearview.ai^
-||inpixon.com^
-||statistic.zipify.com^
-||desporto_stats.imgs.sapo.pt^
-||gm-adimage.gamemeca.co^
-||gm-adimage.gamemeca.com^
-||gm-adkpf.gamemeca.com^
-||ads-partners.coupang.com^
-||partners.coupang.com^
-||buttercms.com^
-||attn.tv^
 ||awesomeads.us^
 ||cv-ph.rdtcdn.com^
 ||csi.gstatic.com^
@@ -5263,7 +5174,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||canonicalizer.ucsuri.tcs^
 ||channel.facebook.com^
 ||criteo.com^
-||c.urs.microsoft.com^
 ||cache.datamart.windows.com^
 ||cdpcs.microsoft.com^
 ||choice.microsoft.com.nsatc.net^
@@ -5330,7 +5240,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||cpro.baidustatic.com^
 ||webterren.com^
 ||conversantmedia.com^
-||cpro.baidustatic.com^
 ||cpx.to^
 ||c.jsrdn.com^
 ||roiq-vice.ranker.com^
@@ -5348,7 +5257,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||clicktale.net^
 ||channeladvisor.com^
 ||crazyegg.com^
-||conversantmedia.com^
 ||carbonads.com^
 ||crwdcntrl.net^
 ||cbsi.com^
@@ -5389,7 +5297,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||dynamicadx.com^
 ||metric.gstatic.com^
 ||contentabc.com^
-||counter.adguard.com^
 ||wingiftcard.site^
 ||data.aws-qa.rnatest.brightcove.com^
 ||dnsdelegation.io^
@@ -5413,7 +5320,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||daopush.com^
 ||datspush.com^
 ||directaffiliate.com^
-||datspush.com^
 ||datingmillions.com^
 ||doaffiliate.net^
 ||dr.cash^
@@ -5465,14 +5371,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||device-provisioning.googleapis.com^
 ||dmx.upc.ubisoft.com^
 ||downloadplayer.xyz^
-||dianomi.com^
 ||dot-metrix.com^
 ||dfltweb1.onamae.com^
 ||dm3p.wns.notify.windows.com.akadns.net^
 ||dwin1.com^
 ||dap.digitalgov.gov^
 ||d.href.asia^
-||display.qc.coccoc.com^
 ||digital-ads.s3.amazonaws.com^
 ||dynamic.12306.cn^
 ||donkeymails.com^
@@ -5510,7 +5414,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||dododu.com^
 ||ddoo.com^
 ||dsn-fishki.ru^
-||d.bablic.com^
 ||downloadmyinboxhelper.com^
 ||digimedia.com^
 ||dsdn-gh1-uea*.nsa.gov^
@@ -5629,7 +5532,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||doubleclick.ne.jp^
 ||*.wns.windows.com^
 ||dc.services.visualstudio.com^
-||dc.applicationinsights.microsoft.com^
 ||diagnostics.support.microsoft.com^
 ||displaycatalog.mp.microsoft.com^
 ||switchads.com^
@@ -5640,7 +5542,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||microad.jp^
 ||directads.mcafee.com^
 ||ipvertising.com^
-||dianomi.com^
 ||dps.bing.com^
 ||destinationurl.com^
 ||ds-aksb-a.akamaihd.net^
@@ -5666,7 +5567,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||doubleverify.com^
 ||reson8.com^
 ||dl1.cbsistatic.com^
-||decisivedrawer.com^
 ||doubleclick.net^
 ||datanyze.com^
 ||demandbase.com^
@@ -5685,7 +5585,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||fullcontact.com^
 ||sendgrid.com^
 ||ensighten.bhphoto.com^
-||edge-geo.nc0.co^
 ||emltrk.com^
 ||egocdn.com^
 ||emditpison.asus.com^
@@ -5770,7 +5669,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||emlgrid.com^
 ||easydmp.net^
 ||ebis.ne.jp^
-||evs.jivox.com^
 ||eyereturn.com^
 ||mppapi.io^
 ||elsevier.com^
@@ -5821,9 +5719,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||esomniture.com^
 ||ero-advertising.com^
 ||5ch.net^
-||everyaction.com^
-|| evidon.com^
-||e2.bablic.com^
 ||extensionsnewtab.com^
 ||exmarketplace.com^
 ||evi.com^
@@ -5939,7 +5834,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||intergient.com^
 ||en25.com^
 ||e*.ycpi.vip.nya.yahoo.com^
-||eloqua.com^
 ||events.uber.com^
 ||exponential.com^
 ||fractionalmedia.com^
@@ -6001,7 +5895,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||freeskreen.com^
 ||fd-geo-ec.gy1.b.yahoodns.net^
 ||fbcdn2.com^
-||forwrdnow.com^
 ||fafc5ra6.ru^
 ||freshis.ru^
 ||fruitninjagame.page.link^
@@ -6139,7 +6032,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||freecontent.loan^
 ||freecontent.racing^
 ||freecontent.win^
-||flare-analytics.com^
 ||flocdn.com^
 ||fuckadblock.sitexw.fr^
 ||foxurl.net^
@@ -6163,7 +6055,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||*-sonar.xx.fbcdn.net^
 ||fullstory.com^
 ||fbexternal-a.akamaihd.net^
-||functionalclam.com^
 ||feedbacksite-bn2b.smartscreen.microsoft.com^
 ||feedback.windows.com^
 ||feedback.search.microsoft.com^
@@ -6176,7 +6067,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||fyber.com^
 ||fttcj.com^
 ||flexytalk.net^
-||fls-na.amazon.com^
 ||freewarefreedownload.com^
 ||fyre.co^
 ||omnitagjs.com^
@@ -6224,12 +6114,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||partners.webcamwiz.com^
 ||growingio.com^
 ||getpushmonkey.com^
-||click10.online^
 ||redirdomain.ru^
 ||faktor.io^
 ||googletagmanager.com^
 ||get.geo.opera.com.global.prod.fastly.net^
-||google-analytics.com^
 ||googletagservices.com^
 ||ghtenbritingso.com^
 ||goguardian.^
@@ -6280,7 +6168,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||grv.media^
 ||grvmedia.com^
 ||geoscripts.meredith.services^
-||geni.us^
 ||garry.windscribe.com^
 ||kvideo.io^
 ||graviton-news-gateway.media.yahoo.com^
@@ -6327,7 +6214,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gumroad.com^
 ||gum.co^
 ||grademyads.com^
-||gpswox.com^
 ||getgist.com^
 ||globetoday.com^
 ||gmmail.com^
@@ -6440,8 +6326,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||geocities.yahoo.co.jp^
 ||geocities.yahoo.co^
 ||getfree-vpn.com^
-||geover-prod.do.dsp.mp.microsoft.com^
-||geo-prod.do.dsp.mp.microsoft.com^
 ||gameanalytics.com^
 ||googlecommerence.com^
 ||goska.siol.net^
@@ -6494,7 +6378,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||huirnbrfj.com^
 ||hottieswantu.com^
 ||hubvisor.io^
-||hypnoticwound.com^
 ||hubtraffic.com^
 ||hardcoreincest.top^
 ||hqpornbook.download^
@@ -6519,7 +6402,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||hxyzhas.g00.metrolyrics.com^
 ||hits-secure.theguardian.com^
 ||hblock-check.molinero.dev^
-||hexagon-analytics.com^
 ||honoluluadvertiser.com^
 ||hvtd.s3.amazonaws.com^
 ||hyprmx.com^
@@ -6581,7 +6463,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||helpscout.com^
 ||heat-map.co^
 ||hellobar.com^
-||heatmap-analytics.com^
 ||heatmaptracker.com^
 ||heatmap.com^
 ||shareaholic.com^
@@ -6674,7 +6555,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ipm-west-us-content-service.azurewebsites.net^
 ||mparticle.com^
 ||irtyf.com^
-||iad.*.*.*.amazonvideo.com^
 ||i-stream.pl^
 ||imlive.servicebus.windows.net^
 ||indieclicktv.com^
@@ -6701,7 +6581,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ikon.vn^
 ||indiaaffiliatehub.com^
 ||icutlink.com^
-||ingress-direct.live-aws-useast1.bose.io^
 ||ingress-direct.live-aws-*.bose.io^
 ||inadequal.com^
 ||img.gg^
@@ -6779,7 +6658,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||seeip.org^
 ||industrybrains.com^
 ||indieclick.com^
-||admaster.com.cn^
 ||vietnamnetad.vn^
 ||iacpromotion.s3.amazonaws.com^
 ||igoogle.com^
@@ -6929,7 +6807,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ieonlinews.microsoft.com^
 ||ieonline.microsoft.com^
 ||iecvlist.microsoft.com^
-||i1.services.social.microsoft.com^
 ||i1.services.social.microsoft.com.nsatc.net^
 ||insightexpressai.com^
 ||smartwebads.com^
@@ -6942,7 +6819,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ingameads.gameloft.com^
 ||wbinsights.com^
 ||swrve.com^
-||igodigital.com^
 ||telementary.mozilla.org^
 ||iljmp.com^
 ||improvely.com^
@@ -6958,9 +6834,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||mobusi.com^
 ||ininmacerad.pro^
 ||intellitxt.com^
-||im.ov.yahoo.co.jp^
 ||tapjoy.com^
-||datarouter.ol.epicgames.com^
 ||imasdk.googleapis.com^
 ||infolinks.com^
 ||po.st^
@@ -7043,7 +6917,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||zohostatic.com^
 ||out.sh^
 ||jornaya.com^
-||geoads.com^
 ||jadeitite.com^
 ||jamexistence.com^
 ||jewelcheese.com^
@@ -7067,24 +6940,17 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||hs-scripts.com^
 ||hsforms.net^
 ||jumptap.com^
-||justicejudo.com^
 ||jsonip.com^
-||driftt.com^
 ||51.la^
 ||kodand.wildapricot.org^
 ||kbmg.com^
 ||kupona.de^
 ||kinesis.us-east-1.amazonaws.com^
-||ksn-cinfo-geo.kaspersky-labs.com^
-||ksn-crypto-info-geo.kaspersky-labs.com^
-||ksn-fr-geo.kaspersky-labs.com^
 ||ksn-crypto-info-geo.kas-labs.com^
 ||ksn-cinfo-geo.kas-labs.com^
-||ksn-crypto-whocalls-geo.kaspersky-labs.com^
 ||keepmydevicesafe.com^
 ||keapeiros.xyz^
 ||killsironmentord.com^
-||k-ring.msedge.net^
 ||kethinwi.ru^
 ||keilaparius.com^
 ||klsdee.com^
@@ -7116,7 +6982,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||knl.mntzrlt.net^
 ||klickthru.com^
 ||klivetv.co^
-||kv601-prod.do.dsp.mp.microsoft.com^
 ||klaviyo.com^
 ||kargo.com^
 ||kvz7327.com^
@@ -7232,7 +7097,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||kalasalingam.ac.in^
 ||kalashakako.com^
 ||kalaydo.fnp.de^
-||emetriq.de^
 ||kalb.ru^
 ||kaldar.pl^
 ||kaldeshka.ru^
@@ -7586,7 +7450,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||kc.xmlsearch.miva.com^
 ||kc316.com^
 ||kccec.com.kw^
-||kameleoon.eu^
 ||kchaxton.com^
 ||k-cheats.com^
 ||kci-groupe.com^
@@ -7724,14 +7587,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||log.mgtv.com^
 ||logs.gaana.com^
 ||live-playphoto.servers.kwalee.com^
-||light-client-log.getapk.cn^
 ||yunshipei.com^
 ||lgsmartad.com^
 ||lbmarie.alegrium.com^
 ||locator.blueswan.io^
 ||searchdimension.com^
 ||lockmypix-free.firebaseio.com^
-||l-ring.msedge.net^
 ||literally-analytics.appspot.com^
 ||logs.roku.com^
 ||link.brightcove.co^
@@ -7771,7 +7632,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sc-jpl.com^
 ||lead.network^
 ||tritondigital.com^
-||demand.supply^
 ||pixability.com^
 ||openslate.com^
 ||lightstep.com^
@@ -7780,7 +7640,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ipmaxi.se^
 ||leadconnect.se^
 ||lockbox.clever.com^
-||lumberamount.com^
 ||ncaudienceexchange.com^
 ||l2m.net^
 ||lincassa.com^
@@ -7824,8 +7683,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||letsrebold.com^
 ||leanplum.com^
 ||clmbtech.com^
-||log-1.samsungacr.com^
-||log-ingestion.samsungacr.com^
 ||log-ingestion-*.samsungacr.com^
 ||internetat.tv^
 ||librato-collector.genius.com^
@@ -8017,13 +7874,11 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||monsterleads.pro^
 ||mobidea.com^
 ||motormobile.com^
-||mobidea.com^
 ||maxbounty.com^
 ||mobipium.com^
 ||metacpa.ru^
 ||melbetpartners.com^
 ||mylead.global^
-||mobipium.com^
 ||mintegrated.com^
 ||mobiletraffic.de^
 ||mobvault.com^
@@ -8070,15 +7925,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||mystat.hu^
 ||slotsforluck.com^
 ||metrics0.com^
-||mcd270n310.karere.mega.nz^
 ||madvertise.com^
 ||mintegral.com^
 ||moodmedia.com^
 ||mdn.neowin.net^
 ||mytvline.ch^
 ||matomo.riot.im^
-||msftncsi.com^
-||msftncsi.com^
 ||myoffrz.io^
 ||mobile-exp.vzw.com^
 ||mmfiles.amp.mcafee.com^
@@ -8091,7 +7943,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||matcash.com^
 ||mftracking.com^
 ||mothergunship.com.herokudns.com^
-||mob1ledev1ces.com^
 ||mobile-10.com^
 ||mymediarecommendations.com^
 ||m4adata.com^
@@ -8185,7 +8036,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||marketing.dropbox.com^
 ||mxptint.net^
 ||mavencoalition.io^
-||mtusvideo.hubs.vidyard.com^
 ||stripe.network^
 ||mergeagency.com^
 ||maxgetmore.com^
@@ -8211,7 +8061,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||morehitserver.com^
 ||matchyip.com^
 ||media-match.com^
-||mob.s.360safe.com^
 ||microadinc.com^
 ||mediaplex.com^
 ||meapk.com^
@@ -8374,7 +8223,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||mobclix.com^
 ||mobpartner.mobi^
 ||memo2.nl^
-||n1272adserv.xyz^
 ||nmtracking.netflix.com^
 ||net-ad-vantage.com^
 ||newmarads.com^
@@ -8446,7 +8294,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||nav-it.ru^
 ||notify.medicalnewstoday.com^
 ||nielsen.com^
-||nv.veta.naver.com^
 ||novelty.media^
 ||native.ai^
 ||npttech.com^
@@ -8461,7 +8308,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||newtab-mediasearch.com^
 ||ngads.com^
 ||nt-cdn.coccoc.com^
-||ntrb.qc.coccoc.com^
 ||novanet.vn^
 ||ncads.s3.amazonaws.com^
 ||ninjasurf.net^
@@ -8560,7 +8406,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||no-ip.info^
 ||nativeads.com^
 ||nativeroll.tv^
-||nervoussummer.com^
 ||nativex.com^
 ||newrelic.com^
 ||n149adserv.com^
@@ -8618,7 +8463,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||optimisemedia.com^
 ||opentracker.net^
 ||oimg.nbcuni.com^
-||myoffrz.io^
 ||ophan.theguardian.com^
 ||ss2.us^
 ||o12zs3u2n.com^
@@ -8633,7 +8477,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||oukrocky.com^
 ||omnisrc.com^
 ||onclickclear.com^
-||opentrackr.org^
 ||offersuperhub.com^
 ||ozoneproject.com^
 ||onaudience.com^
@@ -8720,7 +8563,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||onecount.net^
 ||onscroll.com^
 ||optmnstr.com^
-||ojrq.net^
 ||rxthdr.com^
 ||townsquaremedia.com^
 ||picanalysis.vivo.com.cn^
@@ -8763,7 +8605,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||perfectsafeadz.com^
 ||parandaya.com^
 ||pslweb.org^
-||purechat.com^
 ||ppmobiles.com^
 ||pushapi.dolphin.com^
 ||pc-gizmos.com^
@@ -8806,7 +8647,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||poweradspy.com^
 ||pushground.com^
 ||perk0mean.com^
-||pr-bh.pbp.vip.bf1.yahoo.com^
 ||pulsar.ebay.com^
 ||p3a.brave.com^
 ||policityseriod.info^
@@ -8931,7 +8771,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||postmarkapp.com^
 ||promotion.aliyun.com^
 ||pixel.1und1.de^
-||push.zhanzhang.baidu.com^
 ||piguiqproxy.com^
 ||pushforce.co^
 ||pushflow.co^
@@ -9007,7 +8846,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||photographpan.com^
 ||pietexture.com^
 ||possessivebucket.com^
-||possibleboats.com^
 ||practicetoothpaste.com^
 ||presetrabbits.com^
 ||previousplayground.com^
@@ -9129,7 +8967,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||perimeterx.net^
 ||presage.io^
 ||park.above.com^
-||petiteumbrella.com^
 ||pixel-tracker.com^
 ||pix.nbcuni.com^
 ||placeiq.com^
@@ -9210,7 +9047,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||receivetipstricks.com^
 ||rtpdn11.com^
 ||raintwig.com^
-||reklama.mail.ru^
 ||mradx.net^
 ||r.my.com^
 ||reef.vk-cdn.net^
@@ -9239,7 +9075,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||razeraqrassm.info^
 ||richpush.co^
 ||refpa.top^
-||richpush.co^
 ||redtrack.io^
 ||rtxplatform.com^
 ||reklamstore.com^
@@ -9274,7 +9109,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||r3.mail.ru^
 ||rs.mail.ru^
 ||runative-syndicate.com^
-||rlogs.youdao.com^
 ||rem-track.bild.de^
 ||rosetta.prod.ps.bild.de^
 ||rdd.vzw.com^
@@ -9317,7 +9151,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||relateiq.com^
 ||ryllae.com^
 ||realperson.de^
-||redirect.com^
 ||rcdn.pro^
 ||worldpush.co^
 ||adp3.net^
@@ -9401,7 +9234,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||rpgmasterleague.com^
 ||runtnc.net^
 ||redemw.com^
-||rtbmedia.org^
 ||revart.trade^
 ||rekl1.com^
 ||realbig.media^
@@ -9514,7 +9346,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sanalytics.verizon.com^
 ||sdk.out.usbla.net^
 ||telemetry.intel.com^
-||sv.symcd.com^
 ||stat.hackedonlinegames.com^
 ||stat.ripe.net^
 ||storetail.io^
@@ -9549,7 +9380,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||shen5511.com^
 ||servingmillions.com^
 ||sancdn.net^
-||spotx.tv^
 ||spotx.tv^
 ||sitecheck1.opera.com^
 ||sitecheck2.opera.com^
@@ -9652,7 +9482,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||salesmanago.pl^
 ||startapp.com^
 ||soomla.com^
-||s.click.aliexpress.com^
 ||stats.drivetheweb.com^
 ||soflopxl.com^
 ||sophi.io^
@@ -9667,7 +9496,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sa02in01.sa02.crsi.symantec.com^
 ||supporttool-shasta-rrs.symantec.com^
 ||stats.qalabs.symantec.com^
-||sf.symcd.com^
 ||safebrowsing.brave.com^
 ||stage31.net^
 ||schibsted.media^
@@ -9698,7 +9526,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||st-hatena.com^
 ||smaato.com^
 ||ssw.live.com^
-||s2.symbc.com^
 ||symbc.com^
 ||samizdat-graphql.nytimes.com^
 ||shasta-mrs.symantec.com^
@@ -9711,7 +9538,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||stats.zaloapp.com^
 ||shop.zalo.me^
 ||sp.zalo.me^
-||searcher.qc.coccoc.com^
 ||scribe.twitter.com^
 ||sync.cmedia.s3.amazonaws.com^
 ||strikeadcdn.s3.amazonaws.com^
@@ -9732,7 +9558,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||startxchange.com^
 ||sfippa.com^
 ||sfimg.com^
-||st.top100.ru^
 ||saygames.io^
 ||saygames.sfo2.cdn.digitaloceanspaces.com^
 ||simpleautomatedmarketingsystem.com^
@@ -9747,11 +9572,9 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sohu.com.cn^
 ||sgwidget.com^
 ||stat.adskiller.me^
-||stun.dnsleak.net^
 ||stats.privacytools.io^
 ||snov.io^
 ||surveygizmo.com^
-||sson-analytics.com^
 ||soundest.net^
 ||sat-gps-tracker.com^
 ||sitewit.com^
@@ -9817,7 +9640,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||saymedia.com^
 ||static-42andpark-com.s3.amazonaws.com^
 ||streamstats.prd.dlive.tv^
-||storeconfig.mistat.intl.xiaomi.com^
 ||stats-locations.com^
 ||free-counters.co.uk^
 ||statistics.11880.com^
@@ -9986,7 +9808,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||stats.avast.com^
 ||trustx.org^
 ||summerhamster.com^
-||adtrackers.net^
 ||saber.srvcs.tumblr.com^
 ||sdk.a4.tl^
 ||sf14g.com^
@@ -10119,14 +9940,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||stickylogic.com^
 ||multi-pops.com^
 ||schibsted.com^
-||safebrowsing.googleapis.com^
 ||schibsted.io^
 ||snapchat-webfonts.storage.googleapis.com
 ||simpleanalytics.io^
 ||stats.lotlinx.com^
 ||snowplowanalytics.com^
 ||yieldmo.com^
-||sleepcartoon.com^
 ||sc-analytics.appspot.com^
 ||snapads.com^
 ||location.com^
@@ -10161,7 +9980,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||st.a-link.co.kr^
 ||sprout-ad.com^
 ||srv.main.ebayrtm.com^
-||sp.zalo.me^
 ||smartclick.net^
 ||statcounter.com^
 ||snap.licdn.com^
@@ -10194,7 +10012,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||sonobi.com^
 ||rtbclick.net^
 ||stats.pandora.com^
-||s95.research.de.com^
 ||spywarenuker.com^
 ||phluant.com^
 ||stats.wp.com^
@@ -10229,7 +10046,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ragingbullslotscampaign.com^
 ||roofcemetery.com^
 ||kirtuka.com^
-||beberuby.com^
 ||statm.the-adult-company.com^
 ||stats.blogger.com^
 ||stats.directnic.com^
@@ -10249,21 +10065,12 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||statxpress.com^
 ||steelhouse.com^
 ||stickyadstv.com^
-||storesurprise.com^
-||stormyachiever.com^
-||stormyshock.com^
-||stormysponge.com^
-||straightnest.com^
 ||stream4fun.com^
-||strivesidewalk.com^
-||succeedscene.com^
 ||sugoicounter.com^
 ||superclix.de^
-||superficialsink.com^
 ||superstats.com^
 ||supertop.ru^
 ||supertop100.com^
-||surfmusik-adserver.de^
 ||swan-swan-goose.com^
 ||swordfishdc.com^
 ||trhnt.com^
@@ -10312,23 +10119,19 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ticlock.com^
 ||trustaffs.com^
 ||tracedock.com^
-||tsfe.trafficshaping.dsp.mp.microsoft.com^
 ||trafficshaping.dsp.mp.microsoft.com^
 ||trbas.com^
-||t-ring.msedge.net^
 ||telemetry-in.^
 ||terrapsps.com^
 ||terrasdsdstd.com^
 ||top-nudism.eu^
 ||tubecorporate.com^
 ||audience.acpm.fr^
-||tpv-analytics.com^
 ||track.lt^
 ||traffic-media.co.uk^
 ||x-troy.com^
 ||trafficholder.com^
 ||trustyfine.com^
-||top-nudism.eu^
 ||teen-nudist.top^
 ||teensexfolder.com^
 ||tpmr.com^
@@ -10364,7 +10167,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||trackingdesk.com^
 ||traffichunt.com^
 ||topoffers.com^
-||tapgerine.com^
 ||trafforsrv.com^
 ||winudf.com^
 ||traq.li^
@@ -10405,7 +10207,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||trakt.tv^
 ||t2.hulu.com^
 ||tapnetwork.ru^
-||timeline*-clientstats*.pusher.com^
 ||t.rainide.com^
 ||tracking.synthasite.net^
 ||tercept.com^
@@ -10529,9 +10330,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||track.dictionary.com^
 ||traffic.omny.fm^
 ||thisiswaldo.com^
-||track.special-offers.online^
 ||theannoyingsite.com^
-||tracking.opencandy.com.s3.amazonaws.com^
 ||trymask.com^
 ||taiwhups.net^
 ||tailwhups.net^
@@ -10540,7 +10339,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||telemetry.appex.bing.com^
 ||ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au^
 ||t-ipnet.de^
-||trackcmp.net^
 ||ttgtmedia.com^
 ||t.freelancer.com^
 ||t-online.hu^
@@ -10563,7 +10361,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||tsyndicate.com^
 ||taobao.com^
 ||tce.alicdn.com^
-||tracking.intl.miui.com^
 ||tracking.i2w.io^
 ||tealand.cmcm.com^
 ||tr.snapchat.com^
@@ -10571,7 +10368,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||tblsft.com^
 ||terminus.com^
 ||terminus.services^
-||tribl.io^
 ||trackjs.com^
 ||tag.brandcdn.com^
 ||thescopeto.com^
@@ -10583,7 +10379,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||tradownload.uk^
 ||tradownload.ws^
 ||tokaripupsi.com^
-||track.lt^
 ||tk.politico.com^
 ||typography.com^
 ||tent.network^
@@ -10632,7 +10427,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||blindferret.com^
 ||track.mmsvc.io^
 ||telemetry.malwarebytes.com^
-||telemetry.gfe.nvidia.com^
 ||telemetry.nvidia.com^
 ||top100.ru^
 ||top100.*.ru^
@@ -10681,7 +10475,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||pricespider.com^
 ||trowel.twitch.tv^
 ||tyxo.bg^
-||tracking.synthasite.net^
 ||searchmarketing.com^
 ||peopletomysite.com^
 ||theshipyard.com^
@@ -10690,7 +10483,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||istrack.com^
 ||tracking.gameforge.de^
 ||track.gawker.com^
-||tracking.cdiscount.com^
 ||topqualitylink.com^
 ||txads.buzzcity.com^
 ||top-fwz1.mail.ru^
@@ -10698,7 +10490,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||tune.com^
 ||tubemogul.com^
 ||tracker.lgcontent.cl^
-||telemetry.*.microsoft.com^
 ||trakksocial.googlecode.com^
 ||googlesyndication.com.proxy.c9w.net^
 ||netklix.com^
@@ -10827,19 +10618,14 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ublock.org^
 ||ukbanners.com^
 ||ultimateclixx.com^
-||unagi-na.amazon.com^
 ||ultramercial.com^
-||unarmedindustry.com^
 ||undertone.com^
-||unknowntray.com^
 ||unrulymedia.com^
-||unity3d.ads.com^
 ||umeng.com^
 ||umeng.co^
 ||umeng.fb^
 ||untd.com^
 ||urbanairship.com^
-||unusualtitle.com^
 ||urlcash.net^
 ||usapromotravel.com^
 ||useriq.com^
@@ -10900,7 +10686,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||vietad.vn^
 ||vcmedia.com^
 ||vml1.s3.amazonaws.com^
-||viewerstats.docstoc.com.s3.amazonaws.com^
 ||docstoc.com^
 ||vtrk.me^
 ||vice-staging-web-statics-cdn.viceops.net^
@@ -10934,7 +10719,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||verifyability.com^
 ||vipadsnet.info^
 ||77tracking.com^
-||vwo-analytics.com^
 ||vinbet.biz^
 ||viaarena.com^
 ||videoplaza.tv^
@@ -10969,9 +10753,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||visualrevenue.com^
 ||vidora.com^
 ||vmmpxl.com^
-||voicevegetable.com^
 ||vpon.com^
-||velti.com^
 ||vserv.mobi^
 ||veinteractive.com^
 ||v.shopify.com^
@@ -11039,7 +10821,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||wdfl.co^
 ||wikia-services.com^
 ||whatsyourflower.com^
-||wrison-subustall.com^
 ||whiteops.com^
 ||we-are-adot.com^
 ||webprofile.me^
@@ -11050,7 +10831,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||webcam-ratingen.de^
 ||widgets.trustedshops.com^
 ||walt.ns.cloudflare.com^
-||linksprotection.com^
 ||webglearth.com^
 ||wfpscripts.homeunix.com^
 ||webconversiononline.com^
@@ -11075,7 +10855,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||winsite.com^
 ||webcompanion.com^
 ||zohosalesiq.com^
-||freshworks.com^
 ||wishabi.com^
 ||websitealive3.com^
 ||wpa.qq.com^
@@ -11096,8 +10875,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||wrongpotato.com^
 ||wryfinger.com^
 ||webtrends.com^
-||wildcard.moatads.com.edgekey.net^
-||www-googletagmanager.l.google.com^
 ||targusinfo.com^
 ||webmetrics.com^
 ||witthethim.com^
@@ -11139,7 +10916,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||watson.microsoft.com^
 ||officedepot.com^
 ||webclients.net^
-||webtrekk.net^
 ||wt.o.nytimes.com^
 ||wixlabs-countdown.appspot.com^
 ||wixlabs-hcounter.appspot.com^
@@ -11242,7 +11018,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||youngestpetite.com^
 ||youngnudists.xyz^
 ||youngnudism.eu^
-||ymkol.sexxdate.net^
 ||ya-counter.ru^
 ||youview.io^
 ||yengo.com^
@@ -11288,8 +11063,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||yu0123456.com^
 ||yjaxc.yahoo.co.jp^
 ||yjaxc.yahoo.co^
-||yads.yjtag.yahoo.co.jp^
-||yads.yjtag.yahoo.co^
 ||yjtag.yahoo.co.jp^
 ||yjtag.yahoo.co^
 ||yads.yahoo.co.jp^
@@ -11320,7 +11093,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||yldbt.com^
 ||yoggrt.com^
 ||youarewinner.com^
-||ys.actnx.com^
 ||clearpointsupplies.com^
 ||ywxi.net^
 ||ysance.com^
@@ -11362,7 +11134,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||zer0day.ch^
 ||zcbyoqylllxe.com^
 ||zendplace.pro^
-||zdravo.neboley.site^
 ||zog.link^
 ||zeroxxx.club^
 ||zoee.xyz^
@@ -11399,7 +11170,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ziffstatic.com^
 ||ztrf.net^
 ||ztrack.net^
-||zeroredirect.com^
 ||zeroredirect*.com^
 ||zorbikala.com^
 ||zorosrv.com^
@@ -11442,7 +11212,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||zemanta.com^
 ||zenad.net^
 ||zeromine.pro^
-||zeusclicks.com^
 ||zlx.com.br^
 ||zm5d.lexpress.fr^
 ||zmnqoymznwng.com^
@@ -11494,7 +11263,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||0rg.online^
 ||0ut.click^
 ||0sntp7dnrr.com^
-||*-identity.doubledutch.me^
 ||*-dynatrace.allstate.com^
 ||*-ring.msedge.net^
 ||*-analytics.com^
@@ -11522,7 +11290,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||analytics.picsart.com^
 ||cuebiq.com^
 ||events.mapbox.com^
-||taboola.com^
 ||moatadr.com^
 ||getsocial.im^
 ||clickadilla.com^
@@ -11720,25 +11487,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||04t5.app.link^
 ||04zl.cn^
 ||05.microsoftcloudserver.com^
-||0511zfhl.com^
-||0512dn.com^
-||0512px.net^
-||0512s.com^
-||05168.com.tw^
-||0516bm.com^
-||0516pcw.com^
-||0517.org^
-||0523st.com^
-||0527zp.com^
-||0531hwsw.com^
-||0531kt.com^
-||0531mnk.net^
-||0532ci.com.cn^
-||0532dna.com^
-||0532fw.com^
-||0532lx.com^
-||0537sms.cn^
-||0538ly.cn^
 ||0004970.xyz^
 ||0914.global.ssl.fastly.net^
 ||1dmp.io^
@@ -11749,8 +11497,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||4dle.info^
 ||1phads.com^
 ||t6jcbjxdxg2ohku83.com^
-||20429.dialer.lincassa.com^
-||0-act.channel.facebook.com^
 ||0.beta.facebook.com^
 ||2-dot-mod-ads-dot-house-ads-server.appspot.com^
 ||1-se.com^
@@ -11798,351 +11544,15 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||7bpeople.com^
 ||4affiliate.net^
 ||24pm-affiliation.com^
-||24pm-affiliation.com^
 ||180searchassistant.com^
 ||180hits.de^
 ||123found.com^
 ||1355028186.rsc.cdn77.org^
-||79423.analytics.edgekey.net^
 ||1992444518.rsc.cdn77.org^
-||101.sub-75-199-205.myvzw.com^
-||103.sub-70-222-213.myvzw.com^
-||103.sub-75-236-210.myvzw.com^
-||105.sub-75-197-132.myvzw.com^
-||105.sub-75-223-94.myvzw.com^
-||106.sub-75-215-93.myvzw.com^
-||109.sub-70-210-113.myvzw.com^
-||109.sub-70-214-115.myvzw.com^
-||109.sub-70-220-79.myvzw.com^
-||109.sub-70-221-0.myvzw.com^
-||110.sub-70-221-29.myvzw.com^
-||110.sub-75-199-47.myvzw.com^
-||110.sub-75-217-148.myvzw.com^
-||111.sub-70-208-178.myvzw.com^
-||112.sub-75-214-56.myvzw.com^
-||112.sub-75-253-25.myvzw.com^
-||113.sub-75-196-211.myvzw.com^
-||113.sub-75-198-160.myvzw.com^
-||113.sub-75-208-176.myvzw.com^
-||114.sub-70-208-223.myvzw.com^
-||114.sub-75-217-200.myvzw.com^
-||117.sub-75-251-219.myvzw.com^
-||118.sub-70-195-89.myvzw.com^
-||118.sub-70-208-50.myvzw.com^
-||118.sub-75-196-73.myvzw.com^
-||119.sub-166-139-135.myvzw.com^
-||119.sub-75-203-112.myvzw.com^
-||121.sub-70-198-200.myvzw.com^
-||121.sub-75-212-59.myvzw.com^
-||121.sub-97-43-73.myvzw.com^
-||122.sub-72-109-169.myvzw.com^
-||122.sub-75-251-111.myvzw.com^
-||124.sub-70-210-105.myvzw.com^
-||124.sub-75-223-206.myvzw.com^
-||125.sub-75-196-236.myvzw.com^
-||126.sub-75-206-226.myvzw.com^
-||126.sub-75-222-163.myvzw.com^
-||128.sub-70-213-114.myvzw.com^
-||129.sub-70-209-5.myvzw.com^
-||129.sub-70-212-92.myvzw.com^
-||12.sub-70-217-51.myvzw.com^
-||12.sub-70-221-237.myvzw.com^
-||12.sub-97-177-25.myvzw.com^
-||130.sub-70-222-227.myvzw.com^
-||131.sub-75-249-142.myvzw.com^
-||135.sub-75-222-142.myvzw.com^
-||136.sub-75-213-134.myvzw.com^
-||138.sub-70-222-103.myvzw.com^
-||139.sub-75-196-54.myvzw.com^
-||13.sub-75-198-89.myvzw.com^
-||142.sub-70-213-192.myvzw.com^
-||142.sub-75-193-253.myvzw.com^
-||143.sub-70-211-102.myvzw.com^
-||143.sub-75-195-29.myvzw.com^
-||143.sub-75-213-207.myvzw.com^
-||143.sub-75-236-211.myvzw.com^
-||144.sub-75-219-195.myvzw.com^
-||144.sub-75-249-75.myvzw.com^
-||146.sub-75-204-38.myvzw.com^
-||148.sub-70-217-120.myvzw.com^
-||149.sub-70-208-227.myvzw.com^
-||149.sub-70-211-253.myvzw.com^
-||14.sub-70-222-13.myvzw.com^
-||14.sub-75-194-58.myvzw.com^
-||150.sub-75-201-82.myvzw.com^
-||150.sub-75-218-203.myvzw.com^
-||151.sub-70-195-180.myvzw.com^
-||151.sub-75-204-30.myvzw.com^
-||152.sub-70-211-173.myvzw.com^
-||152.sub-75-218-50.myvzw.com^
-||152.sub-75-236-246.myvzw.com^
-||156.sub-70-198-235.myvzw.com^
-||156.sub-70-221-181.myvzw.com^
-||158.sub-75-222-100.myvzw.com^
-||159.sub-70-198-248.myvzw.com^
-||159.sub-75-198-92.myvzw.com^
-||159.sub-75-215-212.myvzw.com^
-||15.sub-75-218-241.myvzw.com^
-||15.sub-75-222-33.myvzw.com^
-||160.sub-75-218-119.myvzw.com^
-||161.sub-70-208-63.myvzw.com^
-||161.sub-75-222-238.myvzw.com^
-||162.sub-75-201-193.myvzw.com^
-||162.sub-75-215-192.myvzw.com^
-||162.sub-75-219-70.myvzw.com^
-||164.sub-70-208-206.myvzw.com^
-||166.sub-75-212-119.myvzw.com^
-||167.sub-75-203-78.myvzw.com^
-||169.sub-70-212-95.myvzw.com^
-||169.sub-75-214-91.myvzw.com^
-||16.sub-75-236-153.myvzw.com^
-||170.sub-70-213-75.myvzw.com^
-||170.sub-70-220-29.myvzw.com^
-||170.sub-75-206-120.myvzw.com^
-||171.sub-75-205-191.myvzw.com^
-||174.sub-70-218-143.myvzw.com^
-||175.sub-70-217-127.myvzw.com^
-||175.sub-75-198-56.myvzw.com^
-||176.sub-75-199-247.myvzw.com^
-||176.sub-75-206-136.myvzw.com^
-||177.sub-70-208-217.myvzw.com^
-||177.sub-70-221-188.myvzw.com^
-||177.sub-70-222-155.myvzw.com^
-||178.sub-70-211-240.myvzw.com^
-||178.sub-75-251-231.myvzw.com^
-||179.sub-70-210-91.myvzw.com^
-||17.sub-70-214-83.myvzw.com^
-||180.sub-70-218-228.myvzw.com^
-||180.sub-75-214-181.myvzw.com^
-||180.sub-75-215-130.myvzw.com^
-||180.sub-75-221-235.myvzw.com^
-||181.sub-70-210-249.myvzw.com^
-||181.sub-75-252-131.myvzw.com^
-||182.sub-75-213-62.myvzw.com^
-||182.sub-75-218-43.myvzw.com^
-||184.sub-70-218-119.myvzw.com^
-||184.sub-70-220-93.myvzw.com^
-||184.sub-70-221-28.myvzw.com^
-||184.sub-75-197-185.myvzw.com^
-||186.sub-70-222-103.myvzw.com^
-||186.sub-75-218-139.myvzw.com^
-||186.sub-75-218-148.myvzw.com^
-||188.sub-75-206-176.myvzw.com^
-||189.sub-70-218-16.myvzw.com^
-||18.sub-70-217-52.myvzw.com^
-||18.sub-75-195-63.myvzw.com^
-||18.sub-75-210-98.myvzw.com^
-||18.sub-75-213-24.myvzw.com^
-||190.sub-75-218-17.myvzw.com^
-||191.sub-75-218-134.myvzw.com^
-||191.sub-75-222-41.myvzw.com^
-||192.sub-70-220-201.myvzw.com^
-||192.sub-70-223-117.myvzw.com^
-||192.sub-75-192-44.myvzw.com^
-||192.sub-75-222-41.myvzw.com^
-||193.sub-75-197-208.myvzw.com^
-||196.sub-70-217-25.myvzw.com^
-||197.sub-70-194-226.myvzw.com^
-||197.sub-70-197-174.myvzw.com^
-||198.sub-75-192-108.myvzw.com^
-||198.sub-75-217-156.myvzw.com^
-||198.sub-75-236-202.myvzw.com^
-||199.sub-70-192-249.myvzw.com^
-||199.sub-70-222-249.myvzw.com^
-||19.sub-75-225-238.myvzw.com^
-||200.sub-174-237-216.myvzw.com^
-||200.sub-66-174-30.myvzw.com^
-||200.sub-70-192-226.myvzw.com^
-||200.sub-75-212-253.myvzw.com^
-||200.sub-97-230-69.myvzw.com^
-||202.sub-72-123-191.myvzw.com^
-||202.sub-75-203-1.myvzw.com^
-||202.sub-75-205-7.myvzw.com^
-||202.sub-97-135-102.myvzw.com^
-||203.sub-70-199-6.myvzw.com^
-||203.sub-75-236-92.myvzw.com^
-||203.sub-75-242-130.myvzw.com^
-||204.sub-70-208-131.myvzw.com^
-||204.sub-75-212-38.myvzw.com^
-||205.sub-75-203-103.myvzw.com^
-||205.sub-75-218-5.myvzw.com^
-||205.sub-75-237-43.myvzw.com^
-||206.sub-174-218-125.myvzw.com^
-||206.sub-72-127-161.myvzw.com^
-||206.sub-75-207-194.myvzw.com^
-||206.sub-75-212-225.myvzw.com^
-||207.sub-75-219-84.myvzw.com^
-||208.sub-70-196-213.myvzw.com^
-||208.sub-75-219-25.myvzw.com^
-||209.sub-70-213-49.myvzw.com^
-||210.sub-75-213-73.myvzw.com^
-||210.sub-97-22-111.myvzw.com^
-||211.sub-70-195-198.myvzw.com^
-||211.sub-70-222-47.myvzw.com^
-||212.sub-70-211-255.myvzw.com^
-||213.sub-174-219-235.myvzw.com^
-||213.sub-70-207-186.myvzw.com^
-||213.sub-75-206-253.myvzw.com^
-||213.sub-75-208-14.myvzw.com^
-||213.sub-75-223-50.myvzw.com^
-||214.sub-75-195-212.myvzw.com^
-||214.sub-75-212-15.myvzw.com^
-||214.sub-75-213-166.myvzw.com^
-||214.sub-75-220-45.myvzw.com^
-||216.sub-75-196-189.myvzw.com^
-||216.sub-97-239-173.myvzw.com^
-||216.sub-97-247-218.myvzw.com^
-||217.sub-75-207-15.myvzw.com^
-||217.sub-97-11-91.myvzw.com^
-||218.sub-70-208-69.myvzw.com^
-||218.sub-75-223-61.myvzw.com^
-||218.sub-97-244-97.myvzw.com^
-||219.sub-70-211-147.myvzw.com^
-||219.sub-75-213-118.myvzw.com^
-||21.sub-70-214-216.myvzw.com^
-||21.sub-75-205-82.myvzw.com^
-||21.sub-75-215-32.myvzw.com^
-||221.sub-70-214-164.myvzw.com^
-||223.sub-70-221-69.myvzw.com^
-||223.sub-75-198-250.myvzw.com^
-||224.sub-75-196-63.myvzw.com^
-||224.sub-75-206-28.myvzw.com^
-||22.sub-70-221-208.myvzw.com^
-||248.sub-75-195-29.myvzw.com^
-||248.sub-75-223-225.myvzw.com^
-||248.sub-75-237-34.myvzw.com^
-||252.sub-75-219-174.myvzw.com^
-||252.sub-75-250-25.myvzw.com^
-||253.sub-70-197-49.myvzw.com^
-||253.sub-75-219-205.myvzw.com^
-||253.sub-75-222-125.myvzw.com^
-||254.sub-75-200-53.myvzw.com^
-||254.sub-75-214-111.myvzw.com^
-||254.sub-75-220-199.myvzw.com^
-||29.sub-70-216-124.myvzw.com^
-||29.sub-75-254-58.myvzw.com^
-||2.sub-70-198-68.myvzw.com^
-||2.sub-75-198-76.myvzw.com^
-||30.sub-75-198-155.myvzw.com^
-||32.sub-75-195-114.myvzw.com^
-||32.sub-75-219-44.myvzw.com^
-||33.sub-70-197-153.myvzw.com^
-||34.sub-75-210-136.myvzw.com^
-||36.sub-75-222-196.myvzw.com^
-||37.sub-70-193-2.myvzw.com^
-||37.sub-75-217-204.myvzw.com^
-||38.sub-70-198-139.myvzw.com^
-||38.sub-75-194-43.myvzw.com^
-||38.sub-75-199-109.myvzw.com^
-||39.sub-75-220-53.myvzw.com^
-||40.sub-75-237-94.myvzw.com^
-||42.sub-75-197-124.myvzw.com^
-||42.sub-75-203-111.myvzw.com^
-||43.sub-70-212-59.myvzw.com^
-||43.sub-70-221-141.myvzw.com^
-||44.sub-75-217-44.myvzw.com^
-||45.sub-70-196-212.myvzw.com^
-||47.sub-70-208-126.myvzw.com
-||47.sub-70-208-12.myvzw.com^
-||49.sub-75-196-119.myvzw.com^
-||4.sub-75-207-172.myvzw.com^
-||53.sub-70-220-18.myvzw.com^
-||53.sub-75-198-103.myvzw.com^
-||54.sub-75-198-67.myvzw.com^
-||54.sub-75-213-167.myvzw.com^
-||56.sub-70-195-20.myvzw.com^
-||56.sub-70-223-218.myvzw.com^
-||57.sub-75-193-209.myvzw.com^
-||58.sub-70-194-163.myvzw.com^
-||59.sub-75-222-135.myvzw.com^
-||5.sub-75-206-187.myvzw.com^
-||60.sub-70-212-64.myvzw.com^
-||60.sub-70-221-49.myvzw.com^
-||61.sub-70-197-50.myvzw.com^
-||61.sub-75-200-41.myvzw.com^
-||61.sub-75-235-197.myvzw.com^
-||61.sub-97-250-109.myvzw.com^
-||62.sub-75-210-98.myvzw.com^
-||63.sub-70-214-92.myvzw.com^
-||63.sub-70-221-12.myvzw.com^
-||63.sub-75-203-233.myvzw.com^
-||64.sub-166-144-132.myvzw.com^
-||64.sub-70-197-239.myvzw.com^
-||64.sub-75-197-244.myvzw.com^
-||65.sub-97-144-19.myvzw.com^
-||65.sub-97-52-214.myvzw.com^
-||66.sub-70-213-2.myvzw.com^
-||66.sub-97-243-36.myvzw.com^
-||66.sub-97-42-92.myvzw.com^
-||68.sub-72-110-80.myvzw.com^
-||68.sub-97-185-47.myvzw.com^
-||69.sub-174-245-233.myvzw.com^
-||69.sub-70-217-242.myvzw.com^
-||69.sub-70-220-228.myvzw.com^
-||69.sub-70-222-241.myvzw.com^
-||6.sub-70-211-6.myvzw.com^
-||6.sub-70-212-77.myvzw.com^
-||6.sub-70-222-217.myvzw.com^
-||70.sub-70-211-102.myvzw.com^
-||70.sub-75-199-38.myvzw.com^
-||70.sub-75-206-123.myvzw.com^
-||71.sub-75-192-167.myvzw.com^
-||71.sub-75-237-240.myvzw.com^
-||71.sub-97-243-95.myvzw.com^
-||72.sub-75-192-241.myvzw.com^
-||74.sub-97-53-229.myvzw.com^
-||75.sub-70-214-145.myvzw.com^
-||75.sub-75-199-130.myvzw.com^
-||76.sub-70-219-188.myvzw.com^
-||76.sub-70-223-131.myvzw.com^
-||76.sub-75-219-175.myvzw.com^
-||76.sub-97-189-243.myvzw.com^
-||77.sub-70-208-201.myvzw.com^
-||77.sub-70-211-167.myvzw.com^
-||79.sub-70-198-236.myvzw.com^
-||79.sub-75-203-175.myvzw.com^
-||79.sub-75-215-51.myvzw.com^
-||79.sub-75-222-213.myvzw.com^
-||7.sub-70-221-134.myvzw.com^
-||7.sub-75-196-201.myvzw.com^
-||7.sub-75-237-111.myvzw.com^
-||7.sub-75-237-147.myvzw.com^
-||80.sub-70-198-65.myvzw.com^
-||80.sub-70-220-88.myvzw.com^
-||80.sub-97-194-229.myvzw.com^
-||81.sub-70-218-129.myvzw.com^
-||81.sub-75-212-93.myvzw.com^
-||82.sub-75-195-46.myvzw.com^
-||85.sub-70-208-55.myvzw.com^
-||85.sub-97-41-119.myvzw.com^
-||89.sub-75-198-74.myvzw.com^
-||89.sub-75-210-7.myvzw.com^
-||8.sub-70-208-145.myvzw.com^
-||8.sub-70-221-126.myvzw.com^
-||90.sub-75-218-192.myvzw.com^
-||92.sub-70-210-54.myvzw.com^
-||92.sub-75-211-89.myvzw.com^
-||93.sub-75-193-179.myvzw.com^
-||93.sub-75-248-137.myvzw.com^
-||96.sub-75-198-135.myvzw.com^
-||96.sub-75-199-50.myvzw.com^
-||97.sub-75-207-145.myvzw.com^
-||98.sub-70-210-124.myvzw.com^
-||99.sub-75-192-107.myvzw.com^
-||99.sub-75-194-88.myvzw.com^
-||99.sub-75-204-8.myvzw.com^
-||101.sub-75-199-205.myvzw.com^
-||103.sub-70-222-213.myvzw.com^
-||103.sub-75-236-210.myvzw.com^
-||105.sub-75-197-132.myvzw.com^
-||105.sub-75-223-94.myvzw.com^
-||106.sub-75-215-93.myvzw.com^
-||108.sub-70-210-70.myvzw.com^
 ||whereinlazio.com^
 ||176.122.130.225.16clouds.com^
 ||97.64.36.222.16clouds.com^
 ||2o7.net^
-||06works-plus.com^
 ||52zfu.com^
 ||5293.com^
 ||4nabs.com^
@@ -12159,7 +11569,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||200summit.com^
 ||1orange-u.com^
 ||103bees.com^
-||1010data.com^
 ||1000mercis.com^
 ||1-cl0ud.com^
 ||1-creative-1.com^
@@ -12224,7 +11633,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||652748.com^
 ||5jcom.com.cn^
 ||7895983.cn^
-||135.sub-198-224-148.myvzw.com^
 ||6to4.ipv6.microsoft.com^
 ||360yield.com^
 ||404.online.net^
@@ -12236,7 +11644,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||1100ad.com^
 ||1100i.com^
 ||123-tracker.com^
-||4dsply.com^
 ||11f976743800.com^
 ||11hour.com^
 ||123ads.nl^
@@ -12261,7 +11668,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||8.dramafeverw2.appspot.com^
 ||ptp22.com^
 ||free-adult-counters.x-xtra.com^
-||123advertising.nl^
 ||123banners.com^
 ||123count.com^
 ||123counts.com^
@@ -12280,7 +11686,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||littlematchagirl.com.au^
 ||02zps9iimwo9gukluvz8.maherstcottage.com.au^
 ||joomexp.com^
-||032439.com^
 ||123spill.no^
 ||123srv.com^
 ||123stat.com^
@@ -12288,7 +11693,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||12place.com^
 ||140proof.com^
 ||18clicks.com^
-||192.com^
 ||1ad.de^
 ||1app.blob.core.windows.net^
 ||1cash.net^
@@ -12300,9 +11704,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||360popunder.com^
 ||360switch.net^
 ||360.yahoo.com^
-||360popunder.com^
 ||360redirect.com^
-||360switch.net^
 ||3cinteractive.com^
 ||3cnce854.com^
 ||3dstats.com^
@@ -13940,7 +13342,6 @@ _statsonlineinfo
 $$amp-ad
 $$script[tag-content="(clickInfo).track"]
 $$script[tag-content="TiaraTracker.getInstance()"]
-$$script[tag-content="navigator.sendBeacon"]
 $$script[tag-content="pixelUrl"]
 $$script[tag-content="window.ga"]
 $$script[tag-content="eulerian_"]
@@ -13967,6 +13368,7 @@ $$script[tag-content="userABMessage"]
 $$script[tag-content="userABMessage"]
 $$script[tag-content="enableLinkTracking"]
 $$script[tag-content="'trackPageView'"]
+$$script[tag-content="'_trackPageView'"]
 $$script[tag-content="preloadAds"]
 $$script[tag-content="PreloadAds"]
 $$script[tag-content="','ga'"]
