@@ -20,8 +20,6 @@
 ||apple.com^$third-party
 ||spotify.com^$third-party
 ||scdn.co^$third-party
-! AdGuard Home Version
-/(protectstar\.com|unity3d\.com|disqus\.com|kiwibrowser\.com|location\.force\.com|fourchars\.com|thinkyeah\.com|.+-pa\.googleapis\.com|digitalassetlinks\.googleapis\.com|fonts\.gstatic\.com)/$ctag=user_admin
 
 ||google.com^$app=com.kiwibrowser.browser
 @@||chrome.google.com^$domain=chrome.google.com,app=com.kiwibrowser.browser
@@ -50,7 +48,8 @@
 !#if (adguard)
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
-$$script[tag-content="navigator.userAgent"]
+$$script[tag-content="AdsDuration"]
+$$script[tag-content="embeddedads"]
 $$script[tag-content="googlebot"]
 $$script[tag-content="gaCreateOptions"]
 $$script[tag-content="window.Fingerprint2"]
