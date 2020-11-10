@@ -1,5 +1,5 @@
 ! Dad
-/(windows\.net|live\.com|xboxservices\.com|microsoft\.net|onenote\.net|msn\.com)/$client='Dad'
+/(windows\.net|live\.com|xboxservices\.com|microsoft\.net|onenote\.net|msn\.com|settings-win\.data\.microsoft\.com|weather\.microsoft\.com)/$client='Dad'
 @@||www.msn.com^$client='Dad'
 @@||update.microsoft.com^$client='Dad'
 
@@ -9,6 +9,14 @@
 ! My Stuffs
 /(protectstar\.com|unity3d\.com|disqus\.com|kiwibrowser\.com|location\.force\.com|fourchars\.com|thinkyeah\.com|.+-pa\.googleapis\.com|digitalassetlinks\.googleapis\.com|fonts\.gstatic\.com|connectivity-check\.ubuntu\.com)/$ctag=user_admin
 
+! TV
+||iheart.com^$client='TV'
+
 @@||bitdefender.net^$important
 @@||qustodio.com^$important
 @@||braze.eu^$important
+
+||roblox.com^$important
+||rbxcdn.com^$important
+||bingj.com^$important
+||webcache.googleusercontent.com^$important
