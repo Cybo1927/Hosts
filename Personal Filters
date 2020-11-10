@@ -4,6 +4,9 @@
 ! Cookies
 *$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com
 
+! Hide HTTP Search Reuslts
+duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
+
 ! Unnecessary connections
 ||protectstar.com^
 ||unity3d.com^
