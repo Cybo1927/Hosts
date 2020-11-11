@@ -1,10 +1,17 @@
 # Cisco Open DNS Family Shield
-208.67.222.123
-208.67.220.123
+sdns://AAcAAAAAAAAADjIwOC42Ny4yMjIuMTIz
+sdns://AAcAAAAAAAAADjIwOC42Ny4yMjAuMTIz
 #
 # Qustodio (Parental Controls)
-[/api.qustodio.com/]9.9.9.9
+[/api.qustodio.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
 #
 # Bitdefender (AV/Parental Controls)
-[/bitdefender.net/bitdefender.com/]9.9.9.9
+[/bitdefender.net/bitdefender.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
+#
+# Other Safe Services
+# Quad 9
+[/audio4-fa.scdn.co/canvaz.scdn.co/]sdns://AAcAAAAAAAAABzEuMS4xLjE
+# Cloudflare
+[/i.scdn.co/spotify.com/iheart.com/cde-ta-g7g.amazon.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
+[/www.google.com/]sdns://AAcAAAAAAAAAFlsyNjA2OjQ3MDA6NDcwMDo6MTExMV0
 #
