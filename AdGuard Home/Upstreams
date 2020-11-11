@@ -2,24 +2,23 @@
 # Cloudflare
 https://mozilla.cloudflare-dns.com/dns-query
 sdns://AAcAAAAAAAAABzEuMS4xLjE
+sdns://AAcAAAAAAAAABzEuMC4wLjE
+#
 # Quad 9
 sdns://AAcAAAAAAAAABzkuOS45Ljk
 #
-# Ad/Tracker Blocking DNS (AdGuard)
-[/microsoft.com/microsoft.net/s-microsoft.com/gfx.ms/office.net/msedge.net/msn.com/bitdefender.net/fastpic.ru/]sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
+# Speed Up Requests
+# AdGuard
+[/adtidy.org/adguard.com/adguard.org/wetter.com/]sdns://AAcAAAAAAAAADTk0LjE0MC4xNC4xNDA
 #
-# For Clients Without "Block domains using filters and hosts files" checked (Only Block What's Safe to)
-[/googleadservices.com/mobileapptracking.com/doubleclick.net/google-analytics.com/crashlytics.com/googleadservices.com/events.data.microsoft.com/settings-win.data.microsoft.com/]0.0.0.0
+# Cloudflare
+[/iheart.com/cde-ta-g7g.amazon.com/]sdns://AAcAAAAAAAAABzEuMS4xLjE
+[/www.google.com/]sdns://AAcAAAAAAAAAFlsyNjA2OjQ3MDA6NDcwMDo6MTExMV0
 #
-# Speed up Requests
 # Google
 [/steamcdn-a.akamaihd.net/]https://dns.google/dns-query
 #
 # Ensure Extra Privacy for These Domains
 [/applied-privacy.net/]tls://dot1.applied-privacy.net
 [/snopyta.org/libreho.st/]https://fi.doh.dns.snopyta.org/dns-query
-#
-# DNS.WATCH to Prevent Censorship (Heavily Censored Domains)
-[/infowars.com/infowarsmedia.com/]84.200.69.80
-[/banned.video/infowarsstore.com/newswars.com/]84.200.70.40
 #
