@@ -2,7 +2,7 @@
 ! Expires: 1 hours
 
 ! Cookies
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com
 
 ! Hide HTTP Search Reuslts
 duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
