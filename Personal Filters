@@ -2,7 +2,7 @@
 ! Expires: 1 hours
 
 ! Cookies
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com
 
 ! Hide HTTP Search Reuslts
 duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
@@ -53,18 +53,8 @@ duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
 $$script[wildcard="*track*atob*ShadowRoot*"]
 $$script[tag-content="AdsDuration"]
 $$script[tag-content="embeddedads"]
-$$script[tag-content="googlebot"]
 $$script[tag-content="gaCreateOptions"]
 $$script[tag-content="window.Fingerprint2"]
-$$script[src="doubleclick.net"]
-$$script[src="googlesyndication.com"]
-$$script[src="google-analytics.com"]
-$$script[src="googleadservices.com"]
-$$script[src="googletagmanager.com"]
-$$script[src="googletagservices.com"]
-$$script[src="trafficjunky.net"]
-$$script[src="adlightning.com"]
-$$script[src="cookielaw.org"]
 
 !#endif
 !#endif
