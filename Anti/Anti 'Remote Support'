@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti 'Remote Support'
 ! Description: Block all known 'remote support' tools to help prevent non tech savvy people from falling for tech support scams
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
 ||bsupport.us^
 ||teamviewer.com^
@@ -23,3 +23,4 @@
 ||remoteutilities.com^
 ||solarwinds.com^
 ||atera.com^
+||one.zoho.com^
