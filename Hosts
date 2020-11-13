@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1335
+! Version: 1336
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Thursday, November 12, 2020
+! Last Modified: Friday, November 13, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -235,6 +235,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping
+||flirt4free.com^$popup,popunder
+||menhealthreport.net^$popup,popunder
 ||landing*.rk.com^$popup,popunder
 ||bimbim.com^$third-party,popup,popunder
 ||watchmygirlfriend.tv^$third-party,popup,popunder
@@ -535,6 +537,40 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||*-bitdefender.com^
+||nortonsecurityonline.com^
+||kasperskysocialchannel.com^
+||africa-newsroom.com^
+||brazzers3x.org^
+||crash.steampowered.com^
+||genesmerblogger.com^
+||dating-score.com^
+||xrclicks.xyz^
+||zopfleex.com^
+||pixmoeurops.com^
+||investing-bank.com^
+||mobilevl.com^
+||out.com^
+||tpdads.com^
+||tionmustai.fun^
+||bdwafx.com^
+||seeptauw.net^
+||louchees.net^
+||cloud9xx.com^
+||beefraidmob.com^
+||fvs.io^
+||gcloud.live^
+||femax20.com^
+||chromeosquirksserver-pa.googleapis.com^
+||plantdigestion.com^
+||cdn-103.animevibe.wtf^
+||protected-by.clarium.io^
+||tracker.metricool.com^
+||navdmp.com^
+||navegg.com^
+||horny-honey.online^
+||dihlw.com^
+||sntjim.com^
 ||olspsystem.com^
 ||googleadservices.com^
 ||klangoo.com^
@@ -12599,6 +12635,11 @@ medicalxpress.com##.ads-336x280, .article-banner
 realclearhistory.com###gotChosen, [class*="AD-BOX"], [class*="RC-AD"]
 answers.com##.bullet-slot
 great-home-decorations.com##.open-chat, .banner-bottom, [id*="acase-"] > div
+porngem.com##.top-sponsor, .sponsor
+vikiporn.com##.adv-aside, .text_adv
+uiporn.com##.a-d-v
+pornicom.com##.text_adv
+newsmax.com##.breakingnewssection, #divArticleSpecialLinks, [id*="signup"]:upward(1)
 
 !--------------------
 ! End Element Hiding |
@@ -12611,8 +12652,10 @@ great-home-decorations.com##.open-chat, .banner-bottom, [id*="acase-"] > div
 ! Wildcard
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
-*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com
+*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*/player/html.php?aid=pause_html&video_id=$subdocument
+*/player/html.php?aid=start_html&video_id=$subdocument
 */track/click/$popup,popunder
 */appclickstats
 */ip_detect
@@ -13792,7 +13835,7 @@ youtube.com#@#body { overflow:visible!important; }
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 !+ NOT_OPTIMIZED
-$removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|x|y|z|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|uid|sign|int_cmpgn|int_dept|int_lctn|int_fmt
+$removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|x|y|z|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|uid|sign|int_cmpgn|int_dept|int_lctn|int_fmt|uclick|uclickhash
 ||duckduckgo.com^$removeparam=sexp|adx|page|iai|ia|t
 ||search.yahoo.com^$removeparam=type|param1|hspart|hsimp|fr|action
 ||youtube.com^$removeparam=origin
@@ -13819,6 +13862,8 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 
 ! Remove Attributes
 *##+js(ra, ping)
+*##+js(ra, real-href)
+*##+js(ra, onmouseup, a[onmouseup="setRealHref(event)"])
 *##+js(ra, referrerpolicy)
 *##+js(ra, rel, link[rel*="pingback"])
 *##+js(ra, onclick, a[onclick*="ga"])
@@ -13844,8 +13889,8 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 *##+js(ra, rel, link[rel*="prev"])
 *##+js(ra, rel, link[rel*="prerender"])
 ! Annoyance
-*##+js(remove-attr, oncontextmenu)
-*##+js(remove-attr, contextmenu)
+*##+js(ra, oncontextmenu)
+*##+js(ra, contextmenu)
 !-----------------------------------------------------------------------
 ! Specific
 platform.everfi.net*##+js(ra, disabled)
