@@ -2,10 +2,26 @@
 ! Expires: 1 hours
 
 ! Cookies
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com
+!#if !ext_ublock
+!#if (adguard_app_android)
+
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com
+
+!#endif
+!#endif
+
+!#if !ext_ublock
+!#if (!adguard_app_android)
+
+*$cookie,first-party,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~accounts.google.com|~youtube.com
+
+!#endif
+!#endif
 
 ! Hide HTTP Search Reuslts
 duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
+! Hide Trash Websites
+duckduckgo.com##.result--url-above-snippet:has-text(tumblr.com)
 
 ! Unnecessary connections
 ||protectstar.com^
