@@ -3,7 +3,7 @@
 ! Description: Block news websites that tend to choose very biased stories with low factual reporting.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 2
+! Version: 3
 
 ! All of these sites have been checked individually by me over weeks or months so that I have a general idea about their biases.
 ! The sites political biases are judged based on what articles they have choosen to write about, article titles, writers, article content, etc. 
@@ -17,6 +17,9 @@
 ! Their True Colors as Part of the Democratic Parties Propaganda arm
 ||foxnews.com^
 ||foxbusiness.com^
+
+! Racial Supremacy
+||blackhammer.org^
 
 ! Right-Wing
 ||infowars.com^
