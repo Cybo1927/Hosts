@@ -1,6 +1,9 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
+! Whitelist
+@@&ip=$domain=youtube.com
+
 ! Cookies
 !#if !ext_ublock
 !#if (adguard_app_android)
