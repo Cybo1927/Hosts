@@ -40,7 +40,8 @@
 /(location\.services\.mozilla\.com|fbcdn.net|facebook\.net|facebook\.com|protectstar\.com|unity3d\.com|disqus\.com|kiwibrowser\.com|location\.force\.com|fourchars\.com|thinkyeah\.com|.+-pa\.googleapis\.com|digitalassetlinks\.googleapis\.com|fonts\.gstatic\.com|connectivity-check\.ubuntu\.com)/$ctag=user_admin
 
 ! TV
-||iheart.com^$client='TV'
+||iheart.com^$ctag=device_tv
+||roku.com^$ctag=device_tv
 
 @@||bitdefender.net^$important
 @@||qustodio.com^$important
