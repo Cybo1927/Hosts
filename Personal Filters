@@ -16,7 +16,7 @@
 !#if !ext_ublock
 !#if (!adguard_app_android)
 
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~accounts.google.com|~google.com|~youtube.com
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~google.com|~youtube.com
 
 !#endif
 !#endif
@@ -29,6 +29,8 @@ duckduckgo.com##.result--url-above-snippet:has-text(pinterest.com)
 duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 
 ! Unnecessary connections
+||vk.com^
+||macrodroid.com^
 ||protectstar.com^
 ||unity3d.com^
 ||disqus.com^
@@ -38,6 +40,7 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||thinkyeah.com^
 ||*-pa.googleapis.com^
 ||digitalassetlinks.googleapis.com^
+||firebaseinstallations.googleapis.com^
 ||fonts.gstatic.com^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
@@ -66,7 +69,7 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||104.23.139.7:443^$app=com.kiwibrowser.browser
 ||104.23.140.7:443^$app=com.kiwibrowser.browser
 
-*$app=com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
+*$app=com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
 !#if !ext_ublock
 !#if (adguard)
