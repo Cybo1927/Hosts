@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1337
+! Version: 1338
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Saturday, November 14, 2020
+! Last Modified: Sunday, November 15, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -10622,7 +10622,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||utarget.ru^
 ||urldata.net^
 ||ublockerext.com^
-||upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net^
 ||ustatik.com^
 ||us-chi-anx-r001.teamviewer.com^
 ||ping.teamviewer.com^
@@ -10632,7 +10631,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||127.net^
 ||user.com^
 ||usagoals.co^
-||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net^
 ||urs.microsoft.com^
 ||us-east-1-a.route.herokuapp.com^
 ||avlyun.com^
@@ -11797,7 +11795,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||log-ingestion-*.^
 ||targetedconfig-prod.*-*-*.elasticbeanstalk.com^
 ||mybitdefender-central.com^
-||my-bitdefender.com^
 ||bitdefender-login.com^
 ||installbitdefender.org^
 ||centralbitdefender.org^
@@ -12347,6 +12344,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, .ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier, [class*="-promo-"]
 youtube.com###chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com##.ytd-rich-section-renderer.style-scope:has-text(Featured)
+youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:has-text(Buy)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
 google.com###main > div:has-text(Ad)
@@ -13834,7 +13832,7 @@ youtube.com#@#body { overflow:visible!important; }
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 !+ NOT_OPTIMIZED
-$removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|x|y|z|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|uid|sign|int_cmpgn|int_dept|int_lctn|int_fmt|uclick|uclickhash
+$removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|x|y|z|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|os|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|.done|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|uid|sign|int_cmpgn|int_dept|int_lctn|int_fmt|uclick|uclickhash|ref_src|ref_url|rnid|refRID|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_p|pf_rd_r|linkId|ref|cm_re
 ||duckduckgo.com^$removeparam=sexp|adx|page|iai|ia|t
 ||search.yahoo.com^$removeparam=type|param1|hspart|hsimp|fr|action
 ||youtube.com^$removeparam=origin
