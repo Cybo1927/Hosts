@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1338
+! Version: 1339
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Sunday, November 15, 2020
+! Last Modified: Monday, November 16, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -35,7 +35,6 @@
 @@*/showads.js$domain=softgames.de|softgames.com
 @@*/advertisement.js$domain=softgames.de|softgames.com
 @@/monetization.js$domain=bitchute.com
-@@qver=*.pagespeed.$domain=altpress.com
 @@/js/canvas.js$domain=browserleaks.com
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
@@ -212,6 +211,7 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping
+||qualtrics.com^$third-party
 ||fast.fonts.net^$~font
 ||flirt4free.com^$popup,popunder
 ||menhealthreport.net^$popup,popunder
@@ -515,6 +515,24 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||opstag.com^
+||yandexcdn.com^
+||afs-federhenn.com^
+||startupislandtaiwan.com^
+||clns.club^
+||appdomain.cloud^
+||itdog.app^
+||919998.xyz^
+||datingusa.net^
+||xxxdatingafrica.com^
+||cf-china.info^
+||learn2serve.com^
+||xs.gd^
+||zhangzhen.vip^
+||dcf45.com^
+||greenjade88.com^
+||668dg.casino^
+||ck.page^
 ||answersstatus.pagescdn.com^
 ||analyticsinsight.b-cdn.net^
 ||dpbolvw.net^
@@ -894,7 +912,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||rtbpop.com^
 ||runadtag.com^
 ||sendgrid.net^
-||qualtrics.com.edgekey.net^
 ||startup.mobile.webvisor.com^
 ||appmetrica.yandex.net^
 ||static-marketolog.mts.ru^
@@ -9069,7 +9086,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||qryuumwmiupy.com^
 ||quantcast.com^
 ||qwertyuiop.stream^
-||qualtrics.com^
 ||qtechbpo.in^
 ||qccoccocmedia.vn^
 ||qc.coccoc.vn^
@@ -9643,7 +9659,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||scroll.com^
 ||stazumik.net^
 ||shouxaum.net^
-||sohu.com.cn^
 ||sgwidget.com^
 ||stat.adskiller.me^
 ||stats.privacytools.io^
@@ -12332,6 +12347,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||vikiporn.com/js/customscript.js
 ||iubenda.com/cookie-solution/
 ||disqus.com/count
+||facebook.com/rsrc.php$third-party
+||media.altpress.com/uploads/*/*_WEB-SKIN
 
 !--------------
 ! End Blocking |
@@ -12637,6 +12654,9 @@ computingforgeeks.com##[class*="adtester-"], [class*="ezoic-ad"]
 trustedreviews.com##[class*="advert-"]
 lifewire.com##[class*="adunit"]
 techradar.com##.newsletter-signup
+gumtree.com##.notification-box, .right
+mediafire.com##.CookieAcceptance
+news.thecameroontoday.com##.adsbygoogle
 
 !--------------------
 ! End Element Hiding |
@@ -12650,7 +12670,9 @@ techradar.com##.newsletter-signup
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
-*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com
+*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/cse/api/partner-pub-
+.pagespeed.$image
 */player/html.php?aid=pause_html&video_id=$subdocument
 */player/html.php?aid=start_html&video_id=$subdocument
 */track/click/$popup,popunder
@@ -13567,7 +13589,6 @@ _WebBannerAd
 _fingerprint
 .fingerprint-
 .adi.$script
-qver=*.pagespeed.
 -action/fingerprint
 -sponsored-outbrain-
 -ad-powerinbox-inline-
