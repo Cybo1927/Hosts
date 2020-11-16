@@ -1,7 +1,7 @@
 ! Title: Cybo's Anti Verizon
 ! Description: Block all known Verizon domains
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
 ||verizondigitalmedia.com^
 ||uplynk.com^
@@ -20,7 +20,6 @@
 ||gowireless.com^
 ||hum.com^
 ||tccrocks.com^
-||verizon.overview.mail.yahoo.com^
 ||verizon.mcafee.com^
 ||verizonwebhost.com^
 ||verizonmedia.com^
@@ -37,7 +36,7 @@
 ||verizonsocialadvocacy.com^
 ||d3utlhu53nfcwz.cloudfront.net^
 ||cdnstabletransit.com^
-||verizonconnect.^
+||verizonconnect.*^
 ||*-dynatrace.allstate.com^
 ||polargrizzly.com^
 ||ispcapi.mcafee.com^
@@ -45,34 +44,36 @@
 ||vznavigator.net^
 ||anscorporate.com^
 ||anscorpstaging.wpengine.com^
-||gemini.yahoo.com^
+||yahoo.com^
+||yahoo-inc.com^
 ||vzw.net^
 ||*verizon*.goog^
 ||oath.com^
-
 ! Website nameserver
 ||vzwdomain.com^
 
-/foryourhome/ordering/checkavailabilitylq.aspx
-/vzauth
-/verizonrewards
+! IP
+||69.78.235.114^
+||74.6.231.21^
+||74.6.143.26^
+||74.6.231.20^
+||98.137.11.163^
+||98.137.11.164^
+||74.6.143.25^
+||141.207.0.0^
+
+*/foryourhome/ordering/checkavailabilitylq.aspx
+*/vzauth
+*/verizonrewards
 ?goto=http*://*.verizon*
 %2everizon%2ecom%
 ||pandora.com/verizon
 
 ! AdGuard For Android
-69.78.235.114$network
-151.101.186.110$network
-128.177.14.181$network
-98.173.2.12$network
-52.27.7.77$network
-13.227.34.42$network
-54.236.3.168$network
-[2001:428:1404:2::2:11]$network
-[2001:4860:4806:8::]$network
-! Verizon WiFi Calling
-141.207.0.0$network
-! https://who.is/whois-ip/ip-address/152.195.53.200
-152.195.53.200$network
-! App Specific
+!#if !ext_ublock
+!#if (adguard_app_android)
+
 *$app=com.dcgov.verizon|com.capresults.verizon|com.capresults.verizon|com.dynamicsignal.enterprise.iamvz|com.vzw.smartlocatorhub|com.app_phonewireless.layout|com.allstate.Verizon|com.telogis.spotlight|com.telogis.logbook|com.verizonconnect.workforce
+
+!#endif
+!#endif
