@@ -2,7 +2,7 @@
 ! Expires: 1 hours
 
 ! Whitelist
-@@&ip=$domain=youtube.com
+&ip=$badfilter,domain=youtube.com
 
 ! Cookies
 !#if !ext_ublock
@@ -42,6 +42,20 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||digitalassetlinks.googleapis.com^
 ||firebaseinstallations.googleapis.com^
 ||fonts.gstatic.com^
+||inshotapp.com^
+||play.googleapis.com^
+||time.android.com^
+||mtalk.google.com^
+||alt*-mtalk.google.com^
+||android-safebrowsing.google.com^
+||www.gstatic.com^
+||www.googleapis.com^
+||android.clients.google.com^
+||android.googleapis.com^
+||connectivitycheck.gstatic.com^
+||crowdin.net^
+||ampproject.org^
+||joaoapps.com^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
@@ -68,8 +82,14 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||151.101.65.67:443^$app=com.kiwibrowser.browser
 ||104.23.139.7:443^$app=com.kiwibrowser.browser
 ||104.23.140.7:443^$app=com.kiwibrowser.browser
+||185.88.181.60^$app=com.kiwibrowser.browser
+||40.89.244.232^$app=com.kiwibrowser.browser
+||185.88.181.60^$app=com.kiwibrowser.browser
+||8.240.153.123^$app=com.kiwibrowser.browser
+||151.101.0.133^$app=com.kiwibrowser.browser
+||176.103.133.77^$app=com.kiwibrowser.browser
 
-*$app=com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
+*$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
 !#if !ext_ublock
 !#if (adguard)
