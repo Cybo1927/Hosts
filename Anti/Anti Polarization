@@ -3,24 +3,56 @@
 ! Description: Block news websites that tend to choose very biased stories with low factual reporting.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 4
+! Version: 5
 
 ! All of these sites have been checked individually by me over weeks or months so that I have a general idea about their biases.
 ! The sites political biases are judged based on what articles they have choosen to write about, article titles, writers, article content, etc. 
 ! Feel free to create an issue if you have a problem with any blocked sites or have more for me to look into
 
+! Fake News/Propaganda
 ! Biggest Perpetrators the (U.S.) "Russiagate" Hoax
 ||cnn.com^
 ||msnbc.com^
+!
+! Lying About the Trump Lawsuit - https://twitter.com/carriesheffield/status/1328357842802323458 - https://cdn.donaldjtrump.com/public-files/press_assets/pa-amended.pdf
+! politico.com/news/2020/11/15/trump-lawsuit-pennsylvania-election-results-436705
+||politico.com^
+!
+! https://www.dailymail.co.uk/news/article-8954029/Trump-launches-morning-tweet-storm-claiming-won-election.html
+||dailymail.co.uk^
+!
+! https://news.thecameroontoday.com/news/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
+||thecameroontoday.com^
+!
+! https://getaka.co.in/usa-news/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
+||getaka.co.in^
+!
+! http://investinglab.com/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
+||investinglab.com^
+!
+! https://www.onenewspage.com/n/World/1zlumkztv4/Trump-campaign-pares-back-federal-suit-over-Pennsylvania.htm
+||onenewspage.com^
 
 ! With Recent Events Related to the U.S. Election Fox has Shown
 ! Their True Colors as Part of the Democratic Parties Propaganda arm
 ||foxnews.com^
 ||foxbusiness.com^
 
-! Racial Supremacy
+! Identity Politics
 ||blackhammer.org^
 ||dailystormer.su^
+||out.com^
+||metroweekly.com^
+||outsmartmagazine.com^
+||inmagazine.ca^
+||lavendermagazine.com^
+||rainbowpagesswfl.com^
+||getoutmag.com^
+||ragemonthly.com^
+||eile.ie^
+||gayexpress.co.nz^
+||gscene.com^
+||blackgayblog.com^
 
 ! Right-Wing
 ||infowars.com^
@@ -67,3 +99,4 @@
 ||theguardian.com^
 ||freepress.net^
 ||forward.com^
+||upstract.com^
