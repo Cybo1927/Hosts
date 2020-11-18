@@ -29,6 +29,9 @@ duckduckgo.com##.result--url-above-snippet:has-text(pinterest.com)
 duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 
 ! Unnecessary connections
+||speedtest.cookiejarapps.com^
+||suggestqueries.google.com^
+||fonts.googleapis.com^
 ||vk.com^
 ||macrodroid.com^
 ||protectstar.com^
