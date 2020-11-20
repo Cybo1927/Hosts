@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1339
+! Version: 1340
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Monday, November 16, 2020
+! Last Modified: Friday, November 20, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -191,9 +191,11 @@ fastpic.ru#@#[id*="adblock-"]
 ! Start domains with modifiers ($)
 ! Domain modifier
 
-about:blank^$popup,popunder,domain=streamtape.com
+about:blank^$domain=streamtape.com|healthline.com
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
+||instagram.com^$domain=wakelet.com
+||js.live.net^$domain=wakelet.com
 ||clicks.istripper.com^$third-party,popup,popunder
 ||js.live.net^$domain=savvasrealize.com
 ||storage.googleapis.com^$domain=maharashtratimes.com
@@ -211,6 +213,8 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping
+||4chan.us.org^$third-party
+||guce.yahoo.com^$third-party
 ||qualtrics.com^$third-party
 ||fast.fonts.net^$~font
 ||flirt4free.com^$popup,popunder
@@ -515,6 +519,31 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||smetrics.cars.com^
+||xandr.com^
+||liveintent.com^
+||liveramp.com^
+||medianet.com^
+||proclivitysystems.com^
+||rutpunishsnitch.com^
+||semblanceterrifiednoon.com^
+||recyclesubsidedplight.com^
+||delightfulold.com^
+||bubblyalibiappear.com^
+||proveexclusionaye.com^
+||spillsackterrified.com^
+||x.sexhd.pics^
+||hp250820.com^
+||domnlk.com^
+||publishzinc.com^
+||videostats.panda-os.com^
+||track*.avplayer.com^
+||st2.cookiejarapps.com^
+||sharepointonline.com^
+||ontetag-sys.com^
+||bulletprofitadclick.com^
+||bulletprofitpop.com^
+||bulletprofitads.com^
 ||opstag.com^
 ||yandexcdn.com^
 ||afs-federhenn.com^
@@ -638,7 +667,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||msadsscale.azureedge.net^
 ||adspeed.net^
 ||sanalytics.disneyplus.com^
-||guce.yahoo.com^
 ||utcul.us^
 ||cfgr3.com^
 ||vfgte.com^
@@ -5764,7 +5792,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||ebis.ne.jp^
 ||eyereturn.com^
 ||mppapi.io^
-||elsevier.com^
 ||ephemeralcounters.api.roblox.com^
 ||ever3trk.com^
 ||emfbroadcasting.com^
@@ -10347,7 +10374,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||time.microsoft.akadns.net^
 !||trafficmanager.net^ - Breaks content on web pages if filtered using cname
 ||trialfire.com^
-||tse1.mm.bing.net^
 ||thikraik.net^
 ||track.tap4joy.com^
 ||tracking.playzing.g6.zing.vn^
@@ -10654,7 +10680,6 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||udc.yahoo.com^
 ||ultimatelicense.com^
 ||uptimecdn.com^
-||unbouncepages.com^
 ||upeer.me^
 ||unityads.us^
 ||unityads.com^
@@ -12349,6 +12374,10 @@ about:blank^$popup,popunder,domain=streamtape.com
 ||disqus.com/count
 ||facebook.com/rsrc.php$third-party
 ||media.altpress.com/uploads/*/*_WEB-SKIN
+||*.ssl.hwcdn.net/*.com/static/*.jpg
+||ixl.com/liveMessage/checkIfWatched
+||ixl.com/practice/logRenderTime
+||wakelet.com/cookify
 
 !--------------
 ! End Blocking |
@@ -12657,6 +12686,37 @@ techradar.com##.newsletter-signup
 gumtree.com##.notification-box, .right
 mediafire.com##.CookieAcceptance
 news.thecameroontoday.com##.adsbygoogle
+techscammersunited.com##.cc-window
+rebelnews.com##.analytics-consent
+theblaze.com##.image-article.clearfix:has-text(Sponsored):upward(2)
+theblaze.com##.tab-styled-body:has-text(/get important news/i):upward(1)
+theblaze.com##.widget-black-premium
+thelocal.dk##div.section:has-text(/sponsored/i)
+thelocal.dk##.ad_container, [id*="promo"]
+wetter.com##.slideout-panel-left.slideout-panel > .pb--.app-layout, #aug-index > div.pb--.app-layout, #lobster
+euractiv.com##.cookie-law-bar-transition-bottom, #contribs_banner
+euractiv.com##h6:has-text(Advertisement)
+sourcerer.io##.visible.bottom-bar:has-text(Create your Sourcerer profile)
+snapcraft.io##.p-notification--cookie-policy
+mail.yahoo.com###modal-outer
+dnspod.com##.tea-news
+lolhentai.net###sticky-sidebar
+gopornos.com##.privacy
+wearefine.com##div.home_blm--inner
+diaryofajournalplanner.com##div.custom-top-bar
+e-eduanswers.com##.gpm-cookie-accepted
+basic-mathematics.com###ContentColumn > div.Liner > div.CalloutBox, #ContentColumn > div.Liner > center:last-child > iframe
+mashupmath.com##.sqs-slide, .yui3-widget, .yui3-overlaycentercard02, .yui3-overlaycentercard02-content, .yui3-overlaycentercard02-focused, .sqs-slide-ready, .sqs-slide-animation-ready, .sqs-slide-layer, .layer-back, .full-width-height
+analyzemath.com##.ezoic-ad, .ezoic-top-partition
+wolframalpha.com##.oaDry, #__cookie-consent
+owl.purdue.edu###side_ad, #top_ad
+cbc.ca##.privacyNotification
+penandthepad.com##.adsense-inline
+essaypro.com###privacyPolicy
+healthline.com###modal-host, #ccpa-banner, aside[class*="css-"]
+webmd.com###webmdHoverOverlay
+cancer.org##.addthis-wrapper
+mayoclinic.org###mayoform > div.globalnotice, .mayoad
 
 !--------------------
 ! End Element Hiding |
@@ -12671,6 +12731,8 @@ news.thecameroontoday.com##.adsbygoogle
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/cornergirls.js
+*/scrollmonitor.js
 */cse/api/partner-pub-
 .pagespeed.$image
 */player/html.php?aid=pause_html&video_id=$subdocument
