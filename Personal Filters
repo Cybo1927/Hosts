@@ -55,7 +55,6 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||www.googleapis.com^
 ||android.clients.google.com^
 ||android.googleapis.com^
-||connectivitycheck.gstatic.com^
 ||crowdin.net^
 ||ampproject.org^
 ||joaoapps.com^
