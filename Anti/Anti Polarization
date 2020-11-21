@@ -3,7 +3,7 @@
 ! Description: Block news websites that tend to choose very biased stories with low factual reporting.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 5
+! Version: 6
 
 ! All of these sites have been checked individually by me over weeks or months so that I have a general idea about their biases.
 ! The sites political biases are judged based on what articles they have choosen to write about, article titles, writers, article content, etc. 
@@ -11,27 +11,30 @@
 
 ! Fake News/Propaganda
 ! Biggest Perpetrators the (U.S.) "Russiagate" Hoax
-||cnn.com^
-||msnbc.com^
+||cnn.com^$document,domain=~ "Russiagate" Hoax
+||msnbc.com^$document,domain=~ "Russiagate" Hoax
 !
 ! Lying About the Trump Lawsuit - https://twitter.com/carriesheffield/status/1328357842802323458 - https://cdn.donaldjtrump.com/public-files/press_assets/pa-amended.pdf
 ! politico.com/news/2020/11/15/trump-lawsuit-pennsylvania-election-results-436705
-||politico.com^
+||politico.com^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 !
 ! https://www.dailymail.co.uk/news/article-8954029/Trump-launches-morning-tweet-storm-claiming-won-election.html
-||dailymail.co.uk^
+||dailymail.co.uk^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 !
 ! https://news.thecameroontoday.com/news/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
-||thecameroontoday.com^
+||thecameroontoday.com^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 !
 ! https://getaka.co.in/usa-news/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
-||getaka.co.in^
+||getaka.co.in^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 !
 ! http://investinglab.com/trump-campaign-pares-back-federal-suit-over-pennsylvania-election-results/
-||investinglab.com^
+||investinglab.com^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 !
 ! https://www.onenewspage.com/n/World/1zlumkztv4/Trump-campaign-pares-back-federal-suit-over-Pennsylvania.htm
-||onenewspage.com^
+||onenewspage.com^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
+!
+! https://www.reuters.com/article/us-usa-election-pennsylvania/trump-campaign-abandons-parts-of-pennsylvania-election-lawsuit-idUSKBN27W07T
+||reuters.com^$document,domain=~ Pushing Democratic Propaganda About the U.S. 2020 Election
 
 ! With Recent Events Related to the U.S. Election Fox has Shown
 ! Their True Colors as Part of the Democratic Parties Propaganda arm
@@ -39,64 +42,64 @@
 ||foxbusiness.com^
 
 ! Identity Politics
-||blackhammer.org^
-||dailystormer.su^
-||out.com^
-||metroweekly.com^
-||outsmartmagazine.com^
-||inmagazine.ca^
-||lavendermagazine.com^
-||rainbowpagesswfl.com^
-||getoutmag.com^
-||ragemonthly.com^
-||eile.ie^
-||gayexpress.co.nz^
-||gscene.com^
-||blackgayblog.com^
+||blackhammer.org^$document,domain=~ Identity Politics
+||dailystormer.su^$document,domain=~ Identity Politics
+||out.com^$document,domain=~ Identity Politics
+||metroweekly.com^$document,domain=~ Identity Politics
+||outsmartmagazine.com^$document,domain=~ Identity Politics
+||inmagazine.ca^$document,domain=~ Identity Politics
+||lavendermagazine.com^$document,domain=~ Identity Politics
+||rainbowpagesswfl.com^$document,domain=~ Identity Politics
+||getoutmag.com^$document,domain=~ Identity Politics
+||ragemonthly.com^$document,domain=~ Identity Politics
+||eile.ie^$document,domain=~ Identity Politics
+||gayexpress.co.nz^$document,domain=~ Identity Politics
+||gscene.com^$document,domain=~ Identity Politics
+||blackgayblog.com^$document,domain=~ Identity Politics
 
 ! Right-Wing
-||infowars.com^
-||summit.news^
-||spectator.org^
-||americanthinker.com^
-||amgreatness.com^
-||frontpagemag.com^
-||prageru.com^
-||pjmedia.com^
-||oann.com^
-||nationalreview.com^
-||theepochtimes.com^
-||thefederalist.com^
-||jpost.com^
-||theimaginativeconservative.org^
-||thegatewaypundit.com^
+||infowars.com^$document,domain=~ Right-Wing
+||summit.news^$document,domain=~ Right-Wing
+||spectator.org^$document,domain=~ Right-Wing
+||americanthinker.com^$document,domain=~ Right-Wing
+||amgreatness.com^$document,domain=~ Right-Wing
+||frontpagemag.com^$document,domain=~ Right-Wing
+||prageru.com^$document,domain=~ Right-Wing
+||pjmedia.com^$document,domain=~ Right-Wing
+||oann.com^$document,domain=~ Right-Wing
+||nationalreview.com^$document,domain=~ Right-Wing
+||theepochtimes.com^$document,domain=~ Right-Wing
+||thefederalist.com^$document,domain=~ Right-Wing
+||jpost.com^$document,domain=~ Right-Wing
+||theimaginativeconservative.org^$document,domain=~ Right-Wing
+||thegatewaypundit.com^$document,domain=~ Right-Wing
 
 ! Left-Wing
-||vox.com^
-||slate.com^
-||thedailybeast.com^
-||arkansasonline.com^
-||alternet.org^
-||unicorn.riot^
-||buzzfeednews.com^
-||browngirlmagazine.com^
-||boingboing.net^
-||democracynow.org^
-||jezebel.com^
-||socialistalternative.org^
-||sfchronicle.com^
-||salon.com^
-||rollingstone.com^
-||progressivevoicesofiowa.com^
-||pinknews.co.uk^
-||newsweek.com^
-||newsone.com^
-||nymag.com^
-||newrepublic.com^
-||splinternews.com^
-||thejuggernaut.com^
-||theintercept.com^
-||theguardian.com^
-||freepress.net^
-||forward.com^
-||upstract.com^
+||vox.com^$document,domain=~ Left-Wing
+||slate.com^$document,domain=~ Left-Wing
+||thedailybeast.com^$document,domain=~ Left-Wing
+||arkansasonline.com^$document,domain=~ Left-Wing
+||alternet.org^$document,domain=~ Left-Wing
+||unicorn.riot^$document,domain=~ Left-Wing
+||buzzfeednews.com^$document,domain=~ Left-Wing
+||browngirlmagazine.com^$document,domain=~ Left-Wing
+||boingboing.net^$document,domain=~ Left-Wing
+||democracynow.org^$document,domain=~ Left-Wing
+||jezebel.com^$document,domain=~ Left-Wing
+||socialistalternative.org^$document,domain=~ Left-Wing
+||sfchronicle.com^$document,domain=~ Left-Wing
+||salon.com^$document,domain=~ Left-Wing
+||rollingstone.com^$document,domain=~ Left-Wing
+||progressivevoicesofiowa.com^$document,domain=~ Left-Wing
+||pinknews.co.uk^$document,domain=~ Left-Wing
+||newsweek.com^$document,domain=~ Left-Wing
+||newsone.com^$document,domain=~ Left-Wing
+||nymag.com^$document,domain=~ Left-Wing
+||newrepublic.com^$document,domain=~ Left-Wing
+||splinternews.com^$document,domain=~ Left-Wing
+||thejuggernaut.com^$document,domain=~ Left-Wing
+||theintercept.com^$document,domain=~ Left-Wing
+||theguardian.com^$document,domain=~ Left-Wing
+||freepress.net^$document,domain=~ Left-Wing
+||forward.com^$document,domain=~ Left-Wing
+||upstract.com^$document,domain=~ Left-Wing
