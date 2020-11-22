@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1340
-! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Friday, November 20, 2020
+! Version: 1341
+! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.9K (AdGuard Home)
+! Last Modified: Sunday, November 22, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -195,7 +195,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
 ||instagram.com^$domain=wakelet.com
-||js.live.net^$domain=wakelet.com
 ||clicks.istripper.com^$third-party,popup,popunder
 ||js.live.net^$domain=savvasrealize.com
 ||storage.googleapis.com^$domain=maharashtratimes.com
@@ -519,6 +518,13 @@ about:blank^$domain=streamtape.com|healthline.com
 ||virtuaguyhd.com^$third-party
 ! End domains with modifiers ($)
 
+||259c2775-a-62cb3a1a-s-sites.googlegroups.com^
+||pixel.barion.com^
+||ads.yahoosmallbusiness.com^
+||edge-bingads-*.cloudapp.net^
+||smetrics.*.playstation.com^
+||airbud.io^
+||variations.brave.com^
 ||smetrics.cars.com^
 ||xandr.com^
 ||liveintent.com^
@@ -6361,7 +6367,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||revenuewire.net^
 ||googlecommerce.com^
 ||graphigostream.prd.dlive.tv^
-||gosredirector.ea.com^
 ||geoip.tnt-ea.com^
 ||ib-ibi.com^
 ||gmnail.com^
@@ -12378,6 +12383,10 @@ about:blank^$domain=streamtape.com|healthline.com
 ||ixl.com/liveMessage/checkIfWatched
 ||ixl.com/practice/logRenderTime
 ||wakelet.com/cookify
+||pubnub.com/time/*?uuid
+||pltw.read.inkling.com/read/report-collector
+||pltw.read.inkling.com/read/events
+||techscammersunited.com/clicks/
 
 !--------------
 ! End Blocking |
@@ -12717,6 +12726,7 @@ healthline.com###modal-host, #ccpa-banner, aside[class*="css-"]
 webmd.com###webmdHoverOverlay
 cancer.org##.addthis-wrapper
 mayoclinic.org###mayoform > div.globalnotice, .mayoad
+a38.hu##.cc-bottom
 
 !--------------------
 ! End Element Hiding |
@@ -12731,6 +12741,7 @@ mayoclinic.org###mayoform > div.globalnotice, .mayoad
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/loggly.tracker
 */cornergirls.js
 */scrollmonitor.js
 */cse/api/partner-pub-
@@ -12907,7 +12918,6 @@ mayoclinic.org###mayoform > div.globalnotice, .mayoad
 */statistics/report/
 */ad-ace/
 */widgets-live-popup
-*-ad$image,domain=~filterlists.com
 */mpixel.js
 */facebook_pixel.
 */blank_src.gif
@@ -13885,6 +13895,7 @@ youtube.com#@#body { overflow:visible!important; }
 
 ||storage.googleapis.com^$app=com.parler.parler
 ||*-ta-*.amazon.com^$app=com.amazon.mp3
+||sites.google.com^$app=ru.kxvkvkqc.rcbdnwudd
 
 ! Non App Specific
 [2607:f8b0:4001:c14::bc]$network
@@ -13926,6 +13937,7 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 ||kiwibrowser.com^$removeparam=type|version|release_name|release_version|install_date|ref
 ||cloud.bluestacks.com^$removeparam=client_ver
 ||forbes.com^$removeparam=sh
+||adguard.com^$removeparam=source
 
 !#endif
 !#endif
