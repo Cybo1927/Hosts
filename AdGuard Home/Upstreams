@@ -1,19 +1,27 @@
 # Main Servers for Requests
 # Cloudflare
-https://mozilla.cloudflare-dns.com/dns-query
 #1.1.1.1
 sdns://AAcAAAAAAAAABzEuMS4xLjE
-#1.0.0.1
-sdns://AAcAAAAAAAAABzEuMC4wLjE
 #
 # Quad 9
-#DNSCrypt IPv4 No Filter sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+#9.9.9.9
+sdns://AAcAAAAAAAAABzkuOS45Ljk
 #
 # Speed Up Requests
 # Cloudflare
+#1.1.1.1
 [/iheart.com/cde-ta-g7g.amazon.com/]sdns://AAcAAAAAAAAABzEuMS4xLjE
-[/www.google.com/]sdns://AAcAAAAAAAAAFlsyNjA2OjQ3MDA6NDcwMDo6MTExMV0
 #
-# CryptoStorm IL (Mid-US) DNSCrypt Server
-[/steamcdn-a.akamaihd.net/]sdns://AQIAAAAAAAAADjE3My4yMzQuNTYuMTE1IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
+# AdGuard
+#94.140.14.14
+[/adtidy.org/adguard.com/]sdns://AAcAAAAAAAAADDk0LjE0MC4xNC4xNA
+#
+#8.8.8.8
+[/client-channel.google.com/]sdns://AAcAAAAAAAAABzguOC44Ljg
+#8.8.4.4
+[/googlevideo.com/]sdns://AAcAAAAAAAAABzguOC40LjQ
+#
+# Quad 9
+#9.9.9.9
+[/cdn.signal.org/]2620:fe::fe
 #
