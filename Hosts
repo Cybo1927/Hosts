@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1341
+! Version: 1342
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.9K (AdGuard Home)
-! Last Modified: Sunday, November 22, 2020
+! Last Modified: Monday, November 23, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -144,7 +144,7 @@ fastpic.ru#@#[id*="adblock-"]
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
 /[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org|~github.com|~gitlab.com,important
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
-/\.ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)+\..+/$all
+/\.ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)+\..+/
 /\/lander\.php(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+/$document,popup,popunder
 /[a-z0-9]{15,15}(e997c60ac8a4ec150-)[0-9]+\.(eu-).+\.(amazonaws)./$all
 /\/collect(ion|or)?\/v[0-9]{1,2}/$script
@@ -165,11 +165,14 @@ fastpic.ru#@#[id*="adblock-"]
 /^http(s)?:\/\/(ppcnt)\..{2,3}/$third-party,popup,popunder
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
 /.+\.(space|buzz|rest|top|wang|tk|gq|london|ryukyu|cf|ml|men|gdn|work|click|loan|top|ga|agency|biz|country|stream|download|xin|gdn|jetzt|racing|win|bid|vip|ren|kim|mom|party|review|trade|date|accountant|accountants|pro|info|xyz|xxx|adult)(\/)?$/$third-party,popup,popunder
-/(bit\.ly)\/[a-zA-Z0-9]{7,7}#[a-zA-Z0-9]{13,13}_[a-zA-Z0-9]{7,7}_[a-zA-Z0-9]{8,8}_[a-zA-Z0-9]{7,7}/$all,domain=mail.google.com,gmail.com,outlook.live.com,mail.yahoo.com
+/(bit\.ly)\/[a-zA-Z0-9]{7,7}#[a-zA-Z0-9]{13,13}_[a-zA-Z0-9]{7,7}_[a-zA-Z0-9]{8,8}_[a-zA-Z0-9]{7,7}/$document,popup,popunder
 /^https(s)?:\/\/.+\/click(s)?\/.{75,}$/$all
 /^http:\/\/.+\..+\/.+\.php/$popup,popunder
 /\/(cdn|js)\/(fb)\.[0-9a-z]{8,}\.(min\.)?(js)/
 /^http(s)?:\/\/ww[4-9][0-9]?\..+/$third-party,popup,popunder
+/^http:\/\/.+\/home\.php#[0-9a-z_]{16,}/$document,popup,popunder
+/.{0,}(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[0-9]{4,}.{0,}/
+/ppsubnew[0-9]{4,}.+/
 
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
@@ -191,7 +194,6 @@ fastpic.ru#@#[id*="adblock-"]
 ! Start domains with modifiers ($)
 ! Domain modifier
 
-about:blank^$domain=streamtape.com|healthline.com
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
 ||instagram.com^$domain=wakelet.com
@@ -516,8 +518,39 @@ about:blank^$domain=streamtape.com|healthline.com
 ||virtuaguy.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
+about:blank$third-party
 ! End domains with modifiers ($)
 
+||browser.events.data.trafficmanager.net^
+||ad.eval.hu^
+||bannerserver.hu^
+||stat.hirstart.hu^
+||event-logger.tagboard.com^
+||mywebresult.com^
+||dispensablewaves.com^
+||shareyourcharities.com^
+||thegranitepower.com^
+||healthmediatrk.com^
+||clicknj.com^
+||pushnami.com^
+||exclusiveviralreport.com^
+||slimlegmusician.com^
+||machthop.com^
+||deserteddirection.com^
+||geoip.linkv.fun^
+||hookupshub.com^
+||gettets.club^
+||magnificentofdisadvantage.com^
+||go.mk-cdn.net^
+||rewardsglobe.com^
+||strick-stain.com^
+||handsomeinbrand.com^
+||mnoova.com^
+||sableskin.com^
+||freejobsopportunities.com^
+||junoesqueingrowth.com^
+||promptconnection.company^
+||stankyrich.com^
 ||259c2775-a-62cb3a1a-s-sites.googlegroups.com^
 ||pixel.barion.com^
 ||ads.yahoosmallbusiness.com^
@@ -7989,7 +8022,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||maidesqueen.pro^
 ||mdlhzknv.com^
 ||mia-chat.com^
-||mediacnt.pro^
 ||madkudu.com^
 ||mepodownload.mediatek.com^
 ||mgepodownload.mediatek.com^
@@ -9618,7 +9650,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||sa02in01.sa02.crsi.symantec.com^
 ||supporttool-shasta-rrs.symantec.com^
 ||stats.qalabs.symantec.com^
-||safebrowsing.brave.com^
 ||stage31.net^
 ||schibsted.media^
 ||szn.cz^
@@ -9630,7 +9661,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||socio-1267.appspot.com^
 ||spolecznosci.pl^
 ||spolecznosci.net^
-||safebrowsing.googleapis.com^
 ||statsfe2.update.microsoft.com^
 ||synerise.com^
 ||snrbox.com^
@@ -10324,7 +10354,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||trackalyzer.com^
 ||trk.appthis.io^
 ||tvadsync.com^
-||time.nist.gov^
 ||trakt.tv^
 ||t2.hulu.com^
 ||tapnetwork.ru^
@@ -10357,7 +10386,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||townsquareblogs.com^
 ||tool-avpg.crsi.symantec.com^
 ||ton.smf1.twitter.com^
-||time.windows.com^
 ||t-*.wc.yahoodns.net^
 ||t0.gstatic.com^
 ||telemetry-incoming.r*-*.services.mozilla.com^
@@ -10376,7 +10404,6 @@ about:blank^$domain=streamtape.com|healthline.com
 ||klickly.com^
 ||toponclick.com^
 ||terraclicks.com^
-||time.microsoft.akadns.net^
 !||trafficmanager.net^ - Breaks content on web pages if filtered using cname
 ||trialfire.com^
 ||thikraik.net^
@@ -12387,6 +12414,8 @@ about:blank^$domain=streamtape.com|healthline.com
 ||pltw.read.inkling.com/read/report-collector
 ||pltw.read.inkling.com/read/events
 ||techscammersunited.com/clicks/
+||tapatalk.com/groups/*/app.php/buy/vip_plus?$subdocument
+||startlap.hu/feed_campaigns/
 
 !--------------
 ! End Blocking |
@@ -12727,6 +12756,10 @@ webmd.com###webmdHoverOverlay
 cancer.org##.addthis-wrapper
 mayoclinic.org###mayoform > div.globalnotice, .mayoad
 a38.hu##.cc-bottom
+tapatalk.com###pp_b
+mywot.com##[class*="CookiesConsent"]
+hazipatika.com##.bb-inner, .cikk-toplista, .advtxt
+digitalocean.com##[class*="_panel_"]:has-text(cookies)
 
 !--------------------
 ! End Element Hiding |
@@ -12741,6 +12774,7 @@ a38.hu##.cc-bottom
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/cookieconsent.min.css
 */loggly.tracker
 */cornergirls.js
 */scrollmonitor.js
@@ -13946,6 +13980,10 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 ! Begin uBlock Origin specific
 !#if ext_ublock
 !#if (!adguard)
+
+! Usually Scam Links
+||page.link^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
+||bit.ly^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
