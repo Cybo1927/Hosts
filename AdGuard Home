@@ -13,6 +13,7 @@
 @@||update.microsoft.com^$client='Dad'
 
 ! Sister (School Laptop)
+||chrome.google.com^$ctag=user_child
 ||play-lh.googleusercontent.com^$ctag=user_child
 ||messages.google.com^$ctag=user_child
 ||addtoany.com^$ctag=user_child
@@ -220,6 +221,10 @@
 @@||clientservices.googleapis.com^$ctag=user_child
 
 ! My Stuffs
+||protonmail.recruitee.com^$ctag=user_admin
+||poll-maker.com^$ctag=user_admin
+||suggestqueries.google.com^$ctag=user_admin
+||hangouts.google.com^$ctag=user_admin
 ||mozilla.com^$ctag=user_admin
 ||fbcdn.net^$ctag=user_admin
 ||facebook.net^$ctag=user_admin
@@ -274,3 +279,8 @@
 ||discord.gg^$important
 ||discord.media^$important
 ||mapper.ntppool.org^$important
+||community.playstation.net^$important
+||communities.api.playstation.com^$important
+||urlconfig.api.playstation.com^$important
+||demonware.net^$important
+||communication.playstation^$important
