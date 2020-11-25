@@ -9,7 +9,7 @@
 !#if (adguard_app_android)
 
 *$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com
-||duckduckgo.com^$cookie=/.+/;maxAge=30;sameSite=strict
+||duckduckgo.com^$cookie=/.+/;maxAge=1600;sameSite=strict
 
 !#endif
 !#endif
