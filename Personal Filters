@@ -9,7 +9,6 @@
 !#if (adguard_app_android)
 
 *$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com
-||duckduckgo.com^$cookie=/.+/;maxAge=1600
 
 !#endif
 !#endif
@@ -59,6 +58,7 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||crowdin.net^
 ||ampproject.org^
 ||joaoapps.com^
+||tenor.googleapis.com^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
@@ -68,31 +68,38 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||google.com^$app=com.kiwibrowser.browser
 @@||chrome.google.com^$domain=chrome.google.com,app=com.kiwibrowser.browser
 @@||clients2.google.com^$app=com.kiwibrowser.browser
-||172.217.8.206:443^$app=com.kiwibrowser.browser
-||209.85.164.40:443^$app=com.kiwibrowser.browser
-||172.217.4.65:443^$app=com.kiwibrowser.browser
-||104.16.18.94:443^$app=com.kiwibrowser.browser
-||216.58.192.170:443^$app=com.kiwibrowser.browser
-||40.89.244.234:443^$app=com.kiwibrowser.browser
-||104.26.7.139:443^$app=com.kiwibrowser.browser
-||172.217.4.202:443^$app=com.kiwibrowser.browser
-||34.206.226.233:443^$app=com.kiwibrowser.browser
-||172.217.4.36:443^$app=com.kiwibrowser.browser
-||50.16.178.8:443^$app=com.kiwibrowser.browser
-||104.23.139.7:443^$app=com.kiwibrowser.browser
-||18.209.191.2:443^$app=com.kiwibrowser.browser
-||52.84.125.32:443^$app=com.kiwibrowser.browser
-||151.101.65.67:443^$app=com.kiwibrowser.browser
-||104.23.139.7:443^$app=com.kiwibrowser.browser
-||104.23.140.7:443^$app=com.kiwibrowser.browser
-||185.88.181.60^$app=com.kiwibrowser.browser
-||40.89.244.232^$app=com.kiwibrowser.browser
-||185.88.181.60^$app=com.kiwibrowser.browser
-||8.240.153.123^$app=com.kiwibrowser.browser
-||151.101.0.133^$app=com.kiwibrowser.browser
-||176.103.133.77^$app=com.kiwibrowser.browser
+!||172.217.8.206:443^$app=com.kiwibrowser.browser
+!||209.85.164.40:443^$app=com.kiwibrowser.browser
+!||172.217.4.65:443^$app=com.kiwibrowser.browser
+!||104.16.18.94:443^$app=com.kiwibrowser.browser
+!||216.58.192.170:443^$app=com.kiwibrowser.browser
+!||40.89.244.234:443^$app=com.kiwibrowser.browser
+!||104.26.7.139:443^$app=com.kiwibrowser.browser
+!||172.217.4.202:443^$app=com.kiwibrowser.browser
+!||34.206.226.233:443^$app=com.kiwibrowser.browser
+!||172.217.4.36:443^$app=com.kiwibrowser.browser
+!||50.16.178.8:443^$app=com.kiwibrowser.browser
+!||104.23.139.7:443^$app=com.kiwibrowser.browser
+!||18.209.191.2:443^$app=com.kiwibrowser.browser
+!||52.84.125.32:443^$app=com.kiwibrowser.browser
+!||151.101.65.67:443^$app=com.kiwibrowser.browser
+!||104.23.139.7:443^$app=com.kiwibrowser.browser
+!||104.23.140.7:443^$app=com.kiwibrowser.browser
+!||185.88.181.60^$app=com.kiwibrowser.browser
+!||40.89.244.232^$app=com.kiwibrowser.browser
+!||185.88.181.60^$app=com.kiwibrowser.browser
+!||8.240.153.123^$app=com.kiwibrowser.browser
+!||151.101.0.133^$app=com.kiwibrowser.browser
+!||176.103.133.77^$app=com.kiwibrowser.browser
+/([0-9]{1,3}\.){3,4}(:*)?/$app=com.kiwibrowser.browser
+
+!#if !ext_ublock
+!#if (adguard_app_android)
 
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
+
+!#endif
+!#endif
 
 !#if !ext_ublock
 !#if (adguard)
