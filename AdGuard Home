@@ -269,6 +269,10 @@
 ||roku.com^$ctag=device_tv
 ||mediaservices.cdn-apple.com^$ctag=device_tv
 
+! PS4
+@@||demonware.net^$client='PS4'
+/(scdn|spotify|\.net)/$client='PS4'
+
 ||roblox.com^$important
 ||rbxcdn.com^$important
 ||bingj.com^$important
@@ -282,5 +286,5 @@
 ||community.playstation.net^$important
 ||communities.api.playstation.com^$important
 ||urlconfig.api.playstation.com^$important
-||demonware.net^$important
 ||communication.playstation^$important
+||swisssign.net^$important
