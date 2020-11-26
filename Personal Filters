@@ -12,12 +12,7 @@ duckduckgo.com##.footer, .header__clickable
 
 ! Unnecessary connections
 ||speedtest.cookiejarapps.com^
-||vk.com^
-||macrodroid.com^
-||protectstar.com^
 ||unity3d.com^
-||disqus.com^
-||kiwibrowser.com^
 ||location.force.com^
 ||fourchars.com^
 ||thinkyeah.com^
@@ -28,13 +23,11 @@ duckduckgo.com##.footer, .header__clickable
 ||googleapis.com^
 ||crowdin.net^
 ||ampproject.org^
-||joaoapps.com^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
 ||spotify.com^$third-party
 ||scdn.co^$third-party
-||brave.com^$~document
 
 !#if !ext_ublock
 !#if (adguard_app_android)
@@ -42,6 +35,14 @@ duckduckgo.com##.footer, .header__clickable
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
 *$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com
+
+||vk.com^
+||macrodroid.com^
+||protectstar.com^
+||disqus.com^
+||kiwibrowser.com^
+||joaoapps.com^
+||brave.com^
 
 ||172.217.8.206:443^$network
 ||209.85.164.40:443^$network
