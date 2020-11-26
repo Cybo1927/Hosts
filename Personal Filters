@@ -1,37 +1,17 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-! Whitelist
-&ip=$badfilter,domain=youtube.com
-
-! Cookies
-!#if !ext_ublock
-!#if (adguard_app_android)
-
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com
-
-!#endif
-!#endif
-
-!#if !ext_ublock
-!#if (!adguard_app_android)
-
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~google.com|~youtube.com|~qustodio.com|~bitdefender.com
-
-!#endif
-!#endif
-
 ! Hide HTTP Search Reuslts
 duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
 ! Hide Trash/Unused Websites
 duckduckgo.com##.result--url-above-snippet:has-text(tumblr.com)
 duckduckgo.com##.result--url-above-snippet:has-text(pinterest.com)
 duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
+! Cosmetic Filters
+duckduckgo.com##.footer, .header__clickable
 
 ! Unnecessary connections
 ||speedtest.cookiejarapps.com^
-||suggestqueries.google.com^
-||fonts.googleapis.com^
 ||vk.com^
 ||macrodroid.com^
 ||protectstar.com^
@@ -41,74 +21,74 @@ duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
 ||location.force.com^
 ||fourchars.com^
 ||thinkyeah.com^
-||*-pa.googleapis.com^
-||digitalassetlinks.googleapis.com^
-||firebaseinstallations.googleapis.com^
-||fonts.gstatic.com^
 ||inshotapp.com^
-||play.googleapis.com^
 ||time.android.com^
-||mtalk.google.com^
-||alt*-mtalk.google.com^
-||android-safebrowsing.google.com^
-||www.gstatic.com^
-||www.googleapis.com^
-||android.clients.google.com^
-||android.googleapis.com^
+||google.com^
+||gstatic.com^
+||googleapis.com^
 ||crowdin.net^
 ||ampproject.org^
 ||joaoapps.com^
-||tenor.googleapis.com^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
 ||spotify.com^$third-party
 ||scdn.co^$third-party
-
-||google.com^$app=com.kiwibrowser.browser
-@@||chrome.google.com^$domain=chrome.google.com,app=com.kiwibrowser.browser
-@@||clients2.google.com^$app=com.kiwibrowser.browser
-!||172.217.8.206:443^$app=com.kiwibrowser.browser
-!||209.85.164.40:443^$app=com.kiwibrowser.browser
-!||172.217.4.65:443^$app=com.kiwibrowser.browser
-!||104.16.18.94:443^$app=com.kiwibrowser.browser
-!||216.58.192.170:443^$app=com.kiwibrowser.browser
-!||40.89.244.234:443^$app=com.kiwibrowser.browser
-!||104.26.7.139:443^$app=com.kiwibrowser.browser
-!||172.217.4.202:443^$app=com.kiwibrowser.browser
-!||34.206.226.233:443^$app=com.kiwibrowser.browser
-!||172.217.4.36:443^$app=com.kiwibrowser.browser
-!||50.16.178.8:443^$app=com.kiwibrowser.browser
-!||104.23.139.7:443^$app=com.kiwibrowser.browser
-!||18.209.191.2:443^$app=com.kiwibrowser.browser
-!||52.84.125.32:443^$app=com.kiwibrowser.browser
-!||151.101.65.67:443^$app=com.kiwibrowser.browser
-!||104.23.139.7:443^$app=com.kiwibrowser.browser
-!||104.23.140.7:443^$app=com.kiwibrowser.browser
-!||185.88.181.60^$app=com.kiwibrowser.browser
-!||40.89.244.232^$app=com.kiwibrowser.browser
-!||185.88.181.60^$app=com.kiwibrowser.browser
-!||8.240.153.123^$app=com.kiwibrowser.browser
-!||151.101.0.133^$app=com.kiwibrowser.browser
-!||176.103.133.77^$app=com.kiwibrowser.browser
-/([0-9]{1,3}\.){3,4}(:*)?/$app=com.kiwibrowser.browser
+||brave.com^$~document
 
 !#if !ext_ublock
 !#if (adguard_app_android)
 
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
-!#endif
-!#endif
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com
 
-!#if !ext_ublock
-!#if (adguard)
+||172.217.8.206:443^$network
+||209.85.164.40:443^$network
+||172.217.4.65:443^$network
+||104.16.18.94:443^$network
+||216.58.192.170:443^$network
+||40.89.244.234:443^$network
+||104.26.7.139:443^$network
+||172.217.4.202:443^$network
+||34.206.226.233:443^$network
+||172.217.4.36:443^$network
+||50.16.178.8:443^$network
+||104.23.139.7:443^$network
+||18.209.191.2:443^$network
+||52.84.125.32:443^$network
+||151.101.65.67:443^$network
+||104.23.139.7:443^$network
+||104.23.140.7:443^$network
+||185.88.181.60^$network
+||40.89.244.232^$network
+||185.88.181.60^$network
+||8.240.153.123^$network
+||151.101.0.133^$network
+||176.103.133.77^$network
+||64.210.136.72^$network
+||172.217.3.14^$network
+||40.89.244.232^$network
+||66.230.178.234^$network
+||68.169.64.70^$network
+||151.101.4.133^$network
+||199.232.96.133^$network
 
 $$script[wildcard="*track*atob*ShadowRoot*"]
 $$script[tag-content="AdsDuration"]
 $$script[tag-content="embeddedads"]
+$$script[tag-content="adEmbed"]
+$$script[tag-content="inVideoAd"]
 $$script[tag-content="gaCreateOptions"]
 $$script[tag-content="window.Fingerprint2"]
+
+!#endif
+!#endif
+
+!#if !ext_ublock
+!#if (!adguard_app_android)
+
+*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~google.com|~youtube.com|~qustodio.com|~bitdefender.com
 
 !#endif
 !#endif
