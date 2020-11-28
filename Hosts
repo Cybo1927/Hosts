@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1345
+! Version: 1346
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.9K (AdGuard Home)
-! Last Modified: Wednesday, November 25, 2020
+! Last Modified: Friday, November 27, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -87,9 +87,6 @@
 @@||totaljerkface.com/adplayer/ads.js
 @@||player.theplatform.com
 @@||media-cdn.tripadvisor.com
-@@||services.gfe.nvidia.com
-@@||download.gfe.nvidia.com
-@@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
 @@||yospace-directv.akamaized.net
 @@||ads-e-darwin.hulustream.com
@@ -215,6 +212,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping
+||trafforsrv.com^$popup,popunder
 ||secure-12.com^$popup,popunder
 ||trackad*.com^$popup,popunder
 ||swagtraffcom.com^$popup,popunder
@@ -526,6 +524,9 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||analytic.rollout.io^
+||stats.live-video.net^
+||laotouge.cn^
 ||uinoringho.fun^
 ||secure-12.com^
 ||trackad*.com^
@@ -918,7 +919,6 @@ about:blank$third-party
 ||optimportal.com^
 ||metrics.foxnews.com^
 ||counts.air.tv^
-||darkreader.org^
 ||chromecrxstore.com^
 ||677us.com^
 ||a1shayari.com^
@@ -10126,7 +10126,6 @@ about:blank$third-party
 ||sensoro.com^
 ||sam4m.com^
 ||s4m.io^
-||static-www.ec.popcap.com^
 ||staticxx.facebook.com^
 ||sptproximitykit.com^
 ||serving-sys.com^
@@ -10693,7 +10692,6 @@ about:blank$third-party
 ||turn.com^
 ||tns-counter.ru^
 ||trk.tracksys55.com^
-||todo-ta-g7g.amazon.com^
 ||tracker.com^
 ||track.spots.im^
 ||telize.com^
@@ -12788,6 +12786,12 @@ blokt.com###cookie-law-info-bar
 mail.yahoo.com##a[href*="gemini.yahoo.com"]
 thehackernews.com##div.zoho-box.clear, .cf.google, .sidefix.av-side-box.clear, [href*="go.thn.li"]
 stackoverflow.com##.z-banner
+evga.com###cookiebar
+askubuntu.com##.z-banner
+eff.org##.pane-effector-signup
+fucktube.com##div.footer-a, .player__right-col, [src*=".gif"]
+mail.protonmail.com##.pm_modal
+community.webroot.com##.cookiebar
 
 !--------------------
 ! End Element Hiding |
