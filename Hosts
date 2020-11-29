@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1346
+! Version: 1347
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.9K (AdGuard Home)
-! Last Modified: Friday, November 27, 2020
+! Last Modified: Sunday, November 28, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -27,6 +27,10 @@
 !-----------------
 
 !#safari_cb_affinity(all)
+! Local
+@@||192.168.*.*^$first-party,important
+@@||127.0.0.1^$first-party,important
+!
 @@||sfgate.com^$generichide
 @@||github.com$generichide
 @@||uid.mavencoalition.io^
@@ -47,28 +51,20 @@
 @@||socialize.gigya.com^
 @@||login-wsprod.deltadental.com^$first-party,script
 @@||cdns*.*.gigya.com^
-@@||cdns.gigya.com^
 @@||cta-service-cms2.hubspot.com^
 @@||images-na.ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
-@@||external-content.duckduckgo.com/iu/?u=$image
-@@||apresolve.spotify.com$domain=open.spotify.com
-@@||translate.googleapis.com/translate_a/
-@@||192.168.*.*$important
 @@||haberler.com$image
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
-@@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
-@@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
+@@*/blank.gif$domain=slickdeals.net
 @@||undefined/g00/$domain=sportingnews.com
 @@||api.emsicc.com/sites/*
-@@||static.hotjar.com/$domain=emsicc.com/assessment?
+@@||static.hotjar.com/$domain=emsicc.com
 @@||pandora.com/web-version/*/ads.json?
 @@||external-preview.redd.it/*.gif
 @@||apis.google.com/js/platform.js$domain=graspablemath.com
-@@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
-@@||facebook.com/settings/*/?ref=settings
 @@||dailycaller.com/files/images/1x1.trans.gif^$image
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
@@ -85,8 +81,6 @@
 @@||link.theplatform.com^$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
 @@||totaljerkface.com/adplayer/ads.js
-@@||player.theplatform.com
-@@||media-cdn.tripadvisor.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
 @@||yospace-directv.akamaized.net
 @@||ads-e-darwin.hulustream.com
@@ -524,6 +518,16 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||smrt.as^
+||speedsagesleepy.com^
+||rum-cdn.*.*^
+||gihub.com^
+||mediatradecraft-com.videoplayerhub.com^
+||btloader.com^
+||slotslights.com^
+||movie4k.is^
+||cokepopcorn.ch^
+||best4kstream.blogspot.com^
 ||analytic.rollout.io^
 ||stats.live-video.net^
 ||laotouge.cn^
@@ -8892,7 +8896,6 @@ about:blank$third-party
 ||pr-bh.ybp.yahoo.com^
 ||sbaffiliates.com^
 ||pymx5.com^
-||pki-goog.l.google.com^
 ||pcweb.tmobile.com^
 ||otm-r.com^
 ||p.forward.com^
@@ -12553,7 +12556,7 @@ regexr.com##.noad
 appcenter.ms###msccBanner
 modapkdown.com##.fot-fixd
 happymoddownload.com##.fot-fixd
-duckduckgo.com##.sponsored, .js-results-ads
+duckduckgo.com##.sponsored, .js-results-ads, .badge-link--newsletter
 realclearpolitics.com##.RC-AD, .RC-AD-SHOW-NOW, .RC-AD-BOX-TOP, #oraPlayer, .gcwp-carousel, .js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
 android.com##.cookie-banner--show.cookie-banner
 armslist.com##.sponsor-frame
@@ -12728,7 +12731,6 @@ porngem.com##.top-sponsor, .sponsor
 vikiporn.com##.adv-aside, .text_adv
 uiporn.com##.a-d-v
 pornicom.com##.text_adv
-newsmax.com##.breakingnewssection, #divArticleSpecialLinks, [id*="signup"]:upward(1)
 appuals.com##.iubenda-cs-content
 howtogeek.com##.email-overlay, .overlay-wrapper, [id*="purch_"]
 cox.com##.cookie-notice-container
@@ -12792,6 +12794,11 @@ eff.org##.pane-effector-signup
 fucktube.com##div.footer-a, .player__right-col, [src*=".gif"]
 mail.protonmail.com##.pm_modal
 community.webroot.com##.cookiebar
+washingtontimes.com##.email-alerts, .connatixcontainer
+news24.com##.article-subs-footer, .newsletter-subscription, .lotto, .podcasts-widget
+moviesjoy.to###gift-top, .premodal, .modal-backdrop
+culturewars.com##.full-width-height.layer-back, .sqs-slide-animation-ready, .sqs-cookie-banner-v2, .sqs-popup-overlay
+fidelitypress.org##.full-width-height.layer-back, .sqs-slide-animation-ready, .sqs-cookie-banner-v2, .sqs-popup-overlay, .sqs-block-horizontalrule.horizontalrule-block.sqs-block
 
 !--------------------
 ! End Element Hiding |
@@ -12806,12 +12813,13 @@ community.webroot.com##.cookiebar
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/blueKai.$script
 */cookieconsent.min.css
 */loggly.tracker
 */cornergirls.js
 */scrollmonitor.js
 */cse/api/partner-pub-
-.pagespeed.$image
+.pagespeed.$image,domain=~leadstories.com
 */player/html.php?aid=pause_html&video_id=$subdocument
 */player/html.php?aid=start_html&video_id=$subdocument
 */track/click/$popup,popunder
