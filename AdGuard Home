@@ -13,6 +13,8 @@
 @@||update.microsoft.com^$client='Dad'
 
 ! Sister (School Laptop)
+||android.googleapis.com^$ctag=user_child
+||phonedeviceverification-pa.googleapis.com^$ctag=user_child
 ||chrome.google.com^$ctag=user_child
 ||play-lh.googleusercontent.com^$ctag=user_child
 ||messages.google.com^$ctag=user_child
@@ -221,6 +223,8 @@
 @@||clientservices.googleapis.com^$ctag=user_child
 
 ! My Stuffs
+||gravatar.com^$ctag=user_admin
+||anedot.com^$ctag=user_admin
 ||protonmail.recruitee.com^$ctag=user_admin
 ||poll-maker.com^$ctag=user_admin
 ||suggestqueries.google.com^$ctag=user_admin
@@ -268,11 +272,18 @@
 ||iheart.com^$ctag=device_tv
 ||roku.com^$ctag=device_tv
 ||mediaservices.cdn-apple.com^$ctag=device_tv
+||cortana-gateway.amazon.com^$ctag=device_tv
+||digprjsurvey.amazon.com^$ctag=device_tv
+||amazonalexa.com^$ctag=device_tv
+||appstore*.amazon.com^$ctag=device_tv
+||*-alexa-*.amazon.com^$ctag=device_tv
+||softwareupdates.amazon.com^$ctag=device_tv
+||remoteconfig-na.amazon.com^$ctag=device_tv
 
-! PS4
-@@||demonware.net^$client='PS4'
-/(scdn|spotify|\.net)/$client='PS4'
-
+||scdn.co^$important
+||spotify.com^$important
+||darkreader.github.io^$important
+||darkreader.org^$important
 ||roblox.com^$important
 ||rbxcdn.com^$important
 ||bingj.com^$important
