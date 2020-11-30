@@ -267,6 +267,8 @@
 ||treyexgaming.com^$ctag=user_admin
 ||shopify.com^$ctag=user_admin
 ||shopifycdn.com^$ctag=user_admin
+||apple.com^$ctag=os_ios
+||icloud.com^$ctag=os_ios
 
 ! TV
 ||iheart.com^$ctag=device_tv
