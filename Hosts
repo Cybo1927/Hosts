@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1348
+! Version: 1349
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Sunday, November 28, 2020
+! Last Modified: Tuesday, December 8, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -519,6 +519,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||siteintercept.qualtrics.com^
+||geo.cardinalcommerce.com^
 ||housekeeping.sudosecuritygroup.com^
 ||zenfield.pro^
 ||zenworks.online^
@@ -1944,7 +1946,6 @@ about:blank$third-party
 ||allmygoodlife.com^
 ||avantisvideo.com^
 ||video-fa.scdn.co^
-||game-mode.net^
 ||jaguar-prod.snapchat.com^
 ||mgmt.aibixby.com^
 ||naiadsystems.com^
@@ -5037,7 +5038,6 @@ about:blank$third-party
 ||clients4.brave.com^
 ||comodoca4.com^
 ||crl.sca1b.amazontrust.com^
-||crbug.com^
 ||concert.io^
 ||convertplug.com^
 ||criticalmention.com^
@@ -5049,7 +5049,6 @@ about:blank$third-party
 ||connectad.io^
 ||collector-hpn.ghostery.net^
 ||cbbp1.com^
-||cs9.wpc.v0cdn.net^
 ||chimera.ch^
 ||chatlio.com^
 ||chocolateplatform.com^
@@ -5379,7 +5378,6 @@ about:blank$third-party
 ||choice.microsoft.com.nsatc.net^
 ||client-office365-tas.msedge.net^
 ||compatexchange.cloudapp.net^
-||cs1.wpc.v0cdn.net^
 ||crl.microsoft.com^
 ||creative.ak.fbcdn.net^
 ||creative.ak.facebook.com^
@@ -9655,7 +9653,6 @@ about:blank$third-party
 ||logmatic.io^
 ||datadoghq.com^
 ||adfalcon.com^
-||digitalturbine.com^
 ||appia.com^
 ||applause.com^
 ||applytics.nordvpn.com^
