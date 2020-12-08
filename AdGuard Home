@@ -282,6 +282,19 @@
 ||softwareupdates.amazon.com^$ctag=device_tv
 ||remoteconfig-na.amazon.com^$ctag=device_tv
 
+@@||addons-amo.cdn.mozilla.net^$important
+||apple-dns.net^$ctag=os_ios
+||www-cdn.icloud.com.akadns.net^$ctag=os_ios
+||akamaiedge.net^$ctag=os_ios
+||akadns.net^$ctag=os_ios
+||mzstatic.com^$ctag=os_ios
+||b1vmfwansl.com^$ctag=os_ios
+||ocsp.*.*^
+||subscribers.com^
+||lakana-prod.com^
+||vzw.com^
+||myvzw.com^
+||brave-today-cdn.bravesoftware.com^
 ||scdn.co^$important
 ||spotify.com^$important
 ||darkreader.github.io^$important
