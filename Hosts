@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1351
+! Version: 1352
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Wednesday, December 9, 2020
+! Last Modified: Thursday, December 10, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -27,10 +27,9 @@
 !-----------------
 
 !#safari_cb_affinity(all)
-! Local
 @@||192.168.*.*^$first-party,important
 @@||127.0.0.1^$first-party,important
-!
+@@||cdn.tsyndicate.com^
 @@||sfgate.com^$generichide
 @@||github.com$generichide
 @@||uid.mavencoalition.io^
@@ -77,8 +76,6 @@
 @@||adobedtm.com/launch-*
 @@||apis.google.com/_/scs/*
 @@||link.theplatform.com^$xmlhttprequest
-@@||nbc.com/generetic/scripts/ads.js
-@@||totaljerkface.com/adplayer/ads.js
 @@||*-sponsored.dfw.vcdn.att-idns.net
 @@||yospace-directv.akamaized.net
 @@||ads-e-darwin.hulustream.com
@@ -207,6 +204,23 @@ fastpic.ru#@#[id*="adblock-"]
 ||gstatic.com^$domain=demos.net|demos.ru
 !
 *$ping
+||stunninglover.com^$third-party
+||camshq.info^$third-party
+||camiocw.com^$third-party
+||lcwfab2.com^$third-party
+||irtyd.com^$popup,popunder
+||railroadtomato.com^$popup,popunder
+||underwearnavigable.com^$popup,popunder
+||tapixesa.pro^$popup,popunder
+||comfortlesswastefulcinnamon.com^$popup,popunder
+||e2wysbacctt1.com^$popup,popunder
+||presentlyarch.com^$popup,popunder
+||thehugefeed.com^$popup,popunder
+||itnuzleafan.com^$popup,popunder
+||unreshiramor.com^$popup,popunder
+||ptwmjmp.com^$popup,popunder
+||clean-pc-now.club^$popup,popunder
+||antivirus-security-now.com^$popup,popunder
 ||nexstardigital.net^$third-party
 ||trafforsrv.com^$popup,popunder
 ||secure-12.com^$popup,popunder
@@ -520,6 +534,35 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||juxupsasu.pro^
+||shubadubadlskjfkf.com^
+||evasiondemandedlearning.com^
+||safestteacherwaiting.com^
+||railroadtomato.com^
+||underwearnavigable.com^
+||ddmax20.xyz^
+||thehugefeed.com^
+||propeller-tracking.com^
+||foapsovi.net^
+||comfortlesswastefulcinnamon.com^
+||e2wysbacctt1.com^
+||presentlyarch.com^
+||itnuzleafan.com^
+||unreshiramor.com^
+||promos.camsoda.com^
+||potwm.com^
+||ptwmjmp.com^
+||awprt.com^
+||protoawegw.com^
+||clean-pc-now.club^
+||eycrossible.fun^
+||antivirus-security-now.com^
+||adxoo.com^
+||monetiza.co^
+||marketplace.digitalfirstmedia.com^
+||sinainews.win^
+||adxbid.info^
+||analytics.pgncs.notion.so^
 ||cbsileads.com^
 ||cbsinteractive.com^
 ||saucelabs.com^
@@ -676,7 +719,6 @@ about:blank$third-party
 ||seeptauw.net^
 ||louchees.net^
 ||beefraidmob.com^
-||fvs.io^
 ||gcloud.live^
 ||femax20.com^
 ||chromeosquirksserver-pa.googleapis.com^
@@ -12457,6 +12499,9 @@ about:blank$third-party
 ||adult-empire.com/rs.php
 ||rexxx.org/banner?
 ||adguard.com/click.json
+||linkedin.com/countserv/
+||graph.facebook.com/?id=http$third-party
+||pinterest.com/*/count.json$third-party
 
 !--------------
 ! End Blocking |
@@ -12832,6 +12877,7 @@ guru99.com##[class*="ads-box"]
 mashtips.com##.adsbygoogle
 techtiptrick.com##.adsbygoogle
 techwiser.com##.adsbygoogle
+rekoroyun.com##[class*="reklam-"]
 
 !--------------------
 ! End Element Hiding |
@@ -12846,6 +12892,7 @@ techwiser.com##.adsbygoogle
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/track.php
 */AppMeasurement.$script
 */commentads.js
 */uploads/ad_inc/
@@ -13400,7 +13447,6 @@ techwiser.com##.adsbygoogle
 */coinhive.min.js
 */head.load.min.js
 */fingerprint.pc.js
-*/ads.js
 */infinity.js.aspx
 */googletagmanager.js
 */js/blank.html
@@ -13806,6 +13852,7 @@ _statsonlineinfo
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="window.open(url, "", windowprops);"]
 $$script[tag-content="var ad_idzone"]
 $$script[tag-content="var thPop ="]
 $$script[tag-content="(clickInfo).track"]
@@ -14048,6 +14095,7 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
+*##^script:has-text(window.open(url, "", windowprops);)
 *##^script:has-text(var ad_idzone)
 *##^script:has-text(var thPop =)
 *##^script:has-text((clickInfo).track)
