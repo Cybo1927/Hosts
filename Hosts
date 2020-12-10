@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1350
+! Version: 1351
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 ! Last Modified: Wednesday, December 9, 2020
 
@@ -121,6 +121,7 @@ fastpic.ru#@#[id*="adblock-"]
 @@||ads.brave.software^
 @@||ads.bravesoftware.com^
 @@||ads.brave.com^
+@@||rewards.brave.com^
 !
 !#safari_cb_affinity
 
