@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1349
+! Version: 1350
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Tuesday, December 8, 2020
+! Last Modified: Wednesday, December 9, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -519,6 +519,9 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||cbsileads.com^
+||cbsinteractive.com^
+||saucelabs.com^
 ||siteintercept.qualtrics.com^
 ||geo.cardinalcommerce.com^
 ||housekeeping.sudosecuritygroup.com^
@@ -12452,6 +12455,7 @@ about:blank$third-party
 ||yastatic.net/es5-shims/*/es5-shims.$script
 ||adult-empire.com/rs.php
 ||rexxx.org/banner?
+||adguard.com/click.json
 
 !--------------
 ! End Blocking |
@@ -12466,6 +12470,7 @@ youtube.com###chat:has-text(Chat Replay is disabled for this Premiere.)
 youtube.com##.ytd-rich-section-renderer.style-scope:has-text(Featured)
 youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:has-text(Buy)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
+youtube.com##.ytd-popup-container.style-scope:has-text(Got it)
 google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
 google.com###main > div:has-text(Ad)
 yahoo.com/_td_api/beacon/
@@ -12817,6 +12822,15 @@ miohentai.com###idtop
 uphold.com##[class*="ConsentWrapper"]
 ostechnix.com##.penci-gprd-law
 omgubuntu.co.uk##.CookieWarning
+wired.com##[class*="paywall-bar"]
+zdnet.com##.content-leaderboard-top, [class*="content-mpu"], [href*="cbsileads.com"]
+theroot.com##.js_modal_exit_intent
+geeksforgeeks.org##.cookie-consent, [id*="AP_G4GR_"], [href*="practice.geeksforgeeks.org/"]
+journals.lww.com##.cookie-jar
+guru99.com##[class*="ads-box"]
+mashtips.com##.adsbygoogle
+techtiptrick.com##.adsbygoogle
+techwiser.com##.adsbygoogle
 
 !--------------------
 ! End Element Hiding |
@@ -12831,6 +12845,8 @@ omgubuntu.co.uk##.CookieWarning
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/AppMeasurement.$script
+*/commentads.js
 */uploads/ad_inc/
 */advert.php?type=$subdocument
 */redis/uniq?domain=
@@ -13819,7 +13835,6 @@ $$script[tag-content="userABMessage"]
 $$script[tag-content="userABMessage"]
 $$script[tag-content="enableLinkTracking"]
 $$script[tag-content="'trackPageView'"]
-$$script[tag-content="'_trackPageView'"]
 $$script[tag-content="preloadAds"]
 $$script[tag-content="PreloadAds"]
 $$script[tag-content="','ga'"]
@@ -14029,6 +14044,58 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 !#if ext_ublock
 !#if (!adguard)
 
+! Inline Tracking/Ad Scripts (Firefox Only)
+!#if env_firefox
+
+*##^script:has-text(var ad_idzone)
+*##^script:has-text(var thPop =)
+*##^script:has-text((clickInfo).track)
+*##^script:has-text(TiaraTracker.getInstance())
+*##^script:has-text(pixelUrl)
+*##^script:has-text(window.ga)
+*##^script:has-text(eulerian_)
+*##^script:has-text(GoogleAnalyticsObject)
+*##^script:has-text(sendAnalytic)
+*##^script:has-text(pixelFor)
+*##^script:has-text(ClickTracking)
+*##^script:has-text(trackLinks)
+*##^script:has-text(get_country)
+*##^script:has-text(gascroll)
+*##^script:has-text(scrollEventTag)
+*##^script:has-text(popMagic.url)
+*##^script:has-text(adver.detect)
+*##^script:has-text(.isAdBlock)
+*##^script:has-text(.isAB)
+*##^script:has-text(adblock_)
+*##^script:has-text(atppop)
+*##^script:has-text(trackerCountry)
+*##^script:has-text(track_hits)
+*##^script:has-text(lastPageName)
+*##^script:has-text(clickPixels)
+*##^script:has-text(trackCustClick)
+*##^script:has-text(userABMessage)
+*##^script:has-text(userABMessage)
+*##^script:has-text(enableLinkTracking)
+*##^script:has-text('trackPageView')
+*##^script:has-text(preloadAds)
+*##^script:has-text(PreloadAds)
+*##^script:has-text(','ga')
+*##^script:has-text(window.localStorage.setItem(test, test);)
+*##^script:has-text(Google Analytics)
+*##^script:has-text(ExoLoader)
+*##^script:has-text(exoloader)
+*##^script:has-text(ExoVideoSlider)
+*##^script:has-text(exo_div)
+*##^script:has-text(exoUrl)
+*##^script:has-text(exoclick)
+*##^script:has-text(navigator.userAgent.toLowerCase()),isTansoD)
+*##^script:has-text(PopUnder)
+*##^script:has-text(zfgloaded)
+*##^script:has-text(AntiAdblock)
+*##^script:has-text(adblock.html)
+
+!#endif
+
 ! Usually Scam Links
 ||page.link^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
 ||bit.ly^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
@@ -14061,7 +14128,6 @@ $removeparam=/utm_/|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|a
 *##+js(ra, rel, link[rel*="prefetch"])
 ! These rules are relevant for Adguard for Desktop, Android, and iOS, work on all domains, not just blocked domains.
 *##+js(ra, rel, link[rel*="preconnect"])
-*##+js(ra, rel, link[rel*="preload"])
 *##+js(ra, rel, link[rel*="dns-prefetch"])
 ! Associated with pings
 ! *##+js(ra, rel, link[rel*="pingback"])
@@ -14182,6 +14248,8 @@ youtube.com#@#body:style(overflow:visible !important)
 */player_ads.$subdocument,redirect-rule=noop.html
 */analytics.min.js$script,redirect=noopjs
 */PhoenixGoogleAnalytics.min.js$script,redirect=noopjs
+*/adManager$script,redirect=noop-js
+~ads.$script,redirect=noop-js
 ! Stop the spinning incon from showing up over the album cover when out of skips - annoyance 
 ||adserver.pandora.com/haymaker/api/v1/serve/?slot=FLEX_SKIP*$xmlhttprequest,redirect-rule=noop.txt,first-party,important
 
@@ -14228,21 +14296,8 @@ youtube.com#@#body:style(overflow:visible !important)
 */show-ads.$rewrite=abp-resource:blank-js
 */analytics.min.js$rewrite=abp-resource:blank-js
 */PhoenixGoogleAnalytics.min.js$rewrite=abp-resource:blank-js
+*/adManager$rewrite=abp-resource:blank-js
+~ads.$rewrite=abp-resource:blank-js
 
 !#endif
-!#endif
-
-! Child Protection (AdGuard Home)
-!#if !ext_ublock
-
-! Whitelist
-@@||dualstack.apiproxy-nrdp-prod-nlb-*.amazonaws.com^$ctag=user_child
-@@||energized.pro^$ctag=user_child
-
-! Block AnythingThat may Bypass Blocking
-/(torproject\.org|hidemyass\.com|hide\.me|windscribe\.com|avira\.com|hotspotshield\.com|betternet\.co|zenmate\.com|browsec.com|hoxx.com|ininja.org|myiphider.com|veepn.com|tuxler.com|ivacy.com|deeprism.com|surfshark.com|tunnello.com|tunnelbear.com|cowapp.github.io|wachee.co|lethean.io|hideme.io|privatix.com|virtualshield.com|blockless.com|getqingzhou.com|freemybrowser.com|getmalus.com|getgom.com|trust.zone|hideman.net|ipburger.com|netmap.net|ipinator.com|twork.in|hubbleiq.com|smartydns.com|techreckoner.com|yournet.io|trellonet.com|chillglobal.com)/$ctag=user_child
-/(.{0,}proxy.{0,}|.{0,}vpn.{0,}|.{0,}unblock.{0,}|.{0,}bypass.{0,})/$ctag=user_child
-! Block Suspicious Domains/TLDs
-/(aptoide\.com|180upload\.com|4upfiles\.com|akafile\.com|clicknupload\.com|filefactory\.com|filehippo\.com|media1fire\.com|softpedia\.com|startpage\.com|ixquick\.com|waterfox\.net|waterfox\.onrender\.com|freedownloadscenter\.com|freedownloadmanager\.org|download\.cnet\.com|myrealgames\.com|videodownloaderfor\.com|uptodown\.com)?.{2,}\.(accountant|ads|bid|cc|cf|christmas|click|club|country|cricket|download|faith|gdn|gq|icu|jetzt|kim|link|load|market|men|mom|online|party|pro|racing|ren|review|science|space|systems|top|trade|vip|wang|webcam|win|work|xin|yokohama|zip|zone)?$/$ctag=user_child
-
 !#endif
