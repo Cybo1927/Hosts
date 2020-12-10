@@ -1,8 +1,8 @@
 ! Title: Cybo's No Scripts
 ! Description: A compliment to the basic hosts file that will block scripts on sites where it'll still allow basic functionality
 ! Expires: 8 hours
-! Version: 5
-! Last Modified: Monday, October 26, 2020
+! Version: 6
+! Last Modified: Wednesday, December 9, 2020
 
 ! Whitelist to allow needed scripts
 @@||auth.adguard.com^$inline-script
@@ -48,10 +48,11 @@ zdnet.com$script
 promiseskept.com$script
 beebom.com$script
 techtiptrick.com$script
-saucelabs.com$script
 mashtips.com$script
 mistersaad.com$script
 thinkmobiles.com$script
 techiespad.com$script
 brave.com$script
 01net.com$script
+
+*$script,domain=marketwatch.com|neonnettle.com|content-security-policy.com|computerhope.com|ccc.de|restoreprivacy.com|wikipedia.org|baxtel.com|itechgyd.com|techwiser.com|beebom.com|techtiptrick.com|thinkmobiles.com
