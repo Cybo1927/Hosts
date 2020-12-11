@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Facebook
 ! Description: Block all known connections to Facebook
 ! Expires: 1 day
-! Version: 18
+! Version: 19
 
 ||instafeed.codev.wixapps.net^
 ||fbpigeon.com^
@@ -48,7 +48,7 @@
 ! Other scripts
 *##^script:has-text(facebook-jssdk)
 
-?*facebook*$domain=~duckduckgo.com
+?*facebook*$~first-party
 ?*.facebook.
 ! https://github.com/facebook/react
 ||reactjs.org^
