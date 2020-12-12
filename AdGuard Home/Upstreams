@@ -1,27 +1,15 @@
 # Main Servers for Requests
-# Cloudflare
-#1.1.1.1
-sdns://AAcAAAAAAAAABzEuMS4xLjE
-#
-# Quad 9
-#9.9.9.9
-sdns://AAcAAAAAAAAABzkuOS45Ljk
-#
-# Speed Up Requests
-# Cloudflare
-#1.1.1.1
-[/iheart.com/cde-ta-g7g.amazon.com/]sdns://AAcAAAAAAAAABzEuMS4xLjE
-#
 # AdGuard
 #94.140.14.14
-[/adtidy.org/adguard.com/]sdns://AAcAAAAAAAAADDk0LjE0MC4xNC4xNA
+sdns://AAcAAAAAAAAADDk0LjE0MC4xNC4xNA
+#94.140.14.140
+sdns://AAcAAAAAAAAADTk0LjE0MC4xNC4xNDA
+#DoH
+sdns://AgcAAAAAAAAAAAAPZG5zLmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
 #
-#8.8.8.8
-[/client-channel.google.com/]sdns://AAcAAAAAAAAABzguOC44Ljg
-#8.8.4.4
-[/googlevideo.com/]sdns://AAcAAAAAAAAABzguOC40LjQ
+# Cloudflare
+#DoH
+https://mozilla.cloudflare-dns.com/dns-query
 #
-# Quad 9
-#9.9.9.9
-[/cdn.signal.org/]2620:fe::fe
-#
+# Experimental DNS Protocol
+[/example.com/]quic://dns-unfiltered.adguard.com:784
