@@ -1,17 +1,3 @@
 # Cisco Open DNS Family Shield
 sdns://AAcAAAAAAAAADjIwOC42Ny4yMjIuMTIz
 sdns://AAcAAAAAAAAADjIwOC42Ny4yMjAuMTIz
-#
-# Qustodio (Parental Controls)
-[/api.qustodio.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
-#
-# Bitdefender (AV/Parental Controls)
-[/bitdefender.net/bitdefender.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
-#
-# Other Safe Services
-# Quad 9
-[/audio4-fa.scdn.co/canvaz.scdn.co/api.amazon.com/series-na.amazon.com/]sdns://AAcAAAAAAAAABzEuMS4xLjE
-# Cloudflare
-[/i.scdn.co/spotify.com/iheart.com/cde-ta-g7g.amazon.com/a4k.amazon.com/p-y3-www-amazon-com-kalias.amazon.com/]sdns://AAcAAAAAAAAABzkuOS45Ljk
-[/www.google.com/]sdns://AAcAAAAAAAAAFlsyNjA2OjQ3MDA6NDcwMDo6MTExMV0
-#
