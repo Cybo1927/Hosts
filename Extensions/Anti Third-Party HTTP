@@ -1,0 +1,12 @@
+[Adblock Plus 3.6]
+! Title: Cybo's Anti Third-Party HTTP
+! Description: Block insecure third-party resources
+! Expires: 8 days
+! Version: 4
+
+http://*^$third-party,all
+
+! Try To Make HTTP Links HTTPS (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests)
+||*$csp='upgrade-insecure-requests';
+! Block 'Mixed Content' / Loading Of HTTP On HTTPS Sites (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/block-all-mixed-content)
+||*$csp='block-all-mixed-content';
