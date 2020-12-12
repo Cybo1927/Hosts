@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1352
+! Version: 1353
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Thursday, December 10, 2020
+! Last Modified: Saturday, December 12, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -534,6 +534,27 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||soundl.ly^
+||cyberads.io^
+||k3fvc.info^
+||tele.fm^
+||cifrasoft.com^
+||actv8technologies.com^
+||fluzo.com^
+||*-analytics.hotstar.com^
+||lisnr.com^
+||moodpresence.com^
+||zapr.in^
+||sonicnotify.com^
+||soniccode.net^
+||tonetag.com^
+||trillbit.com^
+||wwwpurnhurb.com^
+||capture.crutchfield.com^
+||c.crutchfieldadvisor.com^
+||noblock.pro^
+||asewlfjqwlflkew.com^
+||bullionyield.com^
 ||juxupsasu.pro^
 ||shubadubadlskjfkf.com^
 ||evasiondemandedlearning.com^
@@ -4765,7 +4786,6 @@ about:blank$third-party
 ||bingads.com^
 ||bingocabin.com^
 ||bingsclspe.download^
-||bit.do^
 ||bit.ehow.com^
 ||bitable.com^
 ||bitcast-a.bitgravity.com^
@@ -5429,7 +5449,6 @@ about:blank$third-party
 ||creative.ak.facebook.com^
 ||config.office.microsoft.com^
 ||corp.sts.microsoft.com^
-||config.edge.skype.com^
 ||cbox.ws^
 ||count.spiegel.de^
 ||c.spiegel.de^
@@ -6675,7 +6694,6 @@ about:blank$third-party
 ||harmonypsa.com^
 ||hunchads.com^
 ||hiboox.com^
-||hoverwatch.com^
 ||hostcontrol.com^
 ||hiro-media.com^
 ||hybrid.ai^
@@ -8239,7 +8257,6 @@ about:blank$third-party
 ||moz.com^
 ||mailtracker.hunter.io^
 ||madgicx.com^
-||mspy.com^
 ||mobile-tracker-free.com^
 ||mobile-tracker-free.fr^
 ||marinsoftware.com^
@@ -12502,6 +12519,7 @@ about:blank$third-party
 ||linkedin.com/countserv/
 ||graph.facebook.com/?id=http$third-party
 ||pinterest.com/*/count.json$third-party
+||amazonaws.com/bitsound.*.*
 
 !--------------
 ! End Blocking |
@@ -12878,6 +12896,8 @@ mashtips.com##.adsbygoogle
 techtiptrick.com##.adsbygoogle
 techwiser.com##.adsbygoogle
 rekoroyun.com##[class*="reklam-"]
+gemini.com###cookiePolicyAgreement
+ledger.com##.cookie-notice-container
 
 !--------------------
 ! End Element Hiding |
