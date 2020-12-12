@@ -1,0 +1,41 @@
+[Adblock Plus]
+! Title: Cybo's Anti Amazon
+! Description: Block all known connections to Amazon
+! Expires: 1 day
+! Version: 1
+
+||amazon.*^
+||aws.com^
+||kindle.com^
+||alexa.com^
+||a9.com^
+||abebooks.co.uk^
+||abebooks.com^
+||amzn.com^
+||amzn.to^
+||amazongames.com^
+||amazonrobotics.com^
+||audible.com^
+||elemental.com^
+||blinkforhome.com^
+||bookdepository.com^
+||boxofficemojo.com^
+||brillianceaudio.com^
+||brilliancepublishing.com^
+||comixology.com^
+||curse.com^
+||fandom.com^
+||dpreview.com^
+||fabric.com^
+||gamesparks.com^
+||goodreads.com^
+||imdb.com^
+||pillpack.com^
+||ring.com^
+||shopbop.com^
+||souq.com^
+||twitch.tv^
+||wholefoodsmarket.com^
+||woot.com^
+||zappos.com^
+||dogvgb9ujhybx.cloudfront.net^
