@@ -5,6 +5,9 @@
 ||impala-media-production.s3.amazonaws.com^
 
 ! https://www.nbcnews.com/technology/snapchats-unopened-messages-can-be-shared-police-8C11395848
+! https://support.cipafilter.com/index.php?/Knowledgebase/Article/View/117/0/how-to---block-snapchat
+! https://kb.k12usa.com/Knowledgebase/Blocking-Snapchat
+
 ||snapchat.com^
 ||snap.com^
 ||sc-cdn.net^
@@ -22,9 +25,6 @@
 ||sc-jpl.com^
 ||sc-prod.net^
 ||bitmoji.com^
-
-! https://support.cipafilter.com/index.php?/Knowledgebase/Article/View/117/0/how-to---block-snapchat
-! https://kb.k12usa.com/Knowledgebase/Blocking-Snapchat
 ||feelinsonice.appspot.com^
 ||feelinsonice-hrd.appspot.com^
 ||feelinsonice.com^
