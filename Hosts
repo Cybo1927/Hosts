@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1353
+! Version: 1354
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Saturday, December 12, 2020
+! Last Modified: Sunday, December 13, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -103,21 +103,18 @@ kgw.com#@#[class*="__ad"]
 fastpic.ru#@#[id*="adblock-"]
 ! Seems to deliver ads but also legit content on cnet
 @@||sdad.guru
-!
 ! Badfilter
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
-@@||fedex.com/Tracking$badfilter,important
-!
+@@||fedex.com/Tracking$important
 ! Local News Station - Blocked Under "Malware domains"
-@@||ksibradio.com$badfilter,important
-!
+@@||ksibradio.com$important
 ! Breaks TikTok Login
 ||log2.musical.ly$badfilter
-!
 ! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
 @@||ads.brave.software^
 @@||ads.bravesoftware.com^
 @@||ads.brave.com^
+@@||ads-serve.brave.com^
 @@||rewards.brave.com^
 !
 !#safari_cb_affinity
@@ -534,6 +531,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||preapp.prod.partner.netflix.net^
+||rooftopmedia.com.au^
 ||soundl.ly^
 ||cyberads.io^
 ||k3fvc.info^
