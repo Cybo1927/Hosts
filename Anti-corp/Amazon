@@ -2,9 +2,14 @@
 ! Title: Cybo's Anti Amazon
 ! Description: Block all known connections to Amazon
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
 ||amazon.*^
+||amazonvideo.com^
+||awsdns-*.org^
+||awsdns-*.com^
+||awsdns-*.net^
+||awsdns-*.co.uk^
 ||aws.com^
 ||kindle.com^
 ||alexa.com^
@@ -39,3 +44,34 @@
 ||woot.com^
 ||zappos.com^
 ||dogvgb9ujhybx.cloudfront.net^
+||bookpage.com^
+||junglee.com^
+||planetall.com^
+||livebid.com^
+||accept.com^
+||ourhouse.com^
+||joyo.com^
+||mobipocket.com^
+||smallparts.com^
+||withoutabox.com^
+||shelfari.com^
+||reflexive.com^
+||lexcycle.com^
+||snaptell.com^
+||touchco.com^
+||amiestreet.com^
+||buyvip.com^
+||evi.com^
+||annapurnalabs.com^
+||2lemetry.com^
+||c9.io^
+||graphiq.com^
+||wing.ae^
+||bodylabs.com^
+||sqrrl.com^
+||cloudendure.com^
+||tsologic.com^
+||eero.com^
+||canvas.technology^
+||inlt.com^
+||zoox.com^
