@@ -3,9 +3,9 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1355
+! Version: 1356
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Sunday, December 13, 2020
+! Last Modified: Monday, December 14, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -12523,7 +12523,6 @@ youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:has-text(Buy)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 youtube.com##.ytd-popup-container.style-scope:has-text(Got it)
 google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
-google.com###main > div:has-text(Ad)
 yahoo.com/_td_api/beacon/
 yahoo.com/_td_api?_appletType=viewer
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
@@ -12885,6 +12884,7 @@ techwiser.com##.adsbygoogle
 rekoroyun.com##[class*="reklam-"]
 gemini.com###cookiePolicyAgreement
 ledger.com##.cookie-notice-container
+quizlet.com##.StudyValueUpsellModal, .UIModal-backdrop, [class*="embeddedDesktopAdz"]
 
 !--------------------
 ! End Element Hiding |
