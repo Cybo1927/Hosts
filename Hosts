@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1354
+! Version: 1355
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 ! Last Modified: Sunday, December 13, 2020
 
@@ -27,36 +27,57 @@
 !-----------------
 
 !#safari_cb_affinity(all)
+! Local Domains
 @@||192.168.*.*^$first-party,important
 @@||127.0.0.1^$first-party,important
+! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
+@@||ads.brave.software^
+@@||ads.bravesoftware.com^
+@@||ads.brave.com^
+@@||ads-serve.brave.com^
+@@||rewards.brave.com^
+! Breaks TikTok Login
+@@||log2.musical.ly^
+! Local News Station - Blocked Under "Malware domains"
+@@||ksibradio.com^
+! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
+@@||fedex.com/Tracking
+! Required to download music from some apps
+@@||music.126.net^
+! Forums
+@@||forms.hubspot.com^
+! Delivers legit content
 @@||cdn.tsyndicate.com^
-@@||sfgate.com^$generichide
-@@||github.com$generichide
-@@||uid.mavencoalition.io^
-@@*/react-$script,domain=tinkercad.com
-@@*/ads_test
-@@*/showads.js$domain=softgames.de|softgames.com
-@@*/advertisement.js$domain=softgames.de|softgames.com
-@@/monetization.js$domain=bitchute.com
+! Unbreak BrowserLeaks tests
 @@/js/canvas.js$domain=browserleaks.com
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+! When blocked Hulu breaks
+@@||ads-e-darwin.hulustream.com^
+@@||http-v-darwin.hulustream.com^
+! When blocked Direct TV breaks
+@@||yospace-directv.akamaized.net^
+@@||*-sponsored.dfw.vcdn.att-idns.net^
+! Prevent breaking icons
+@@||ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
+! If blocked it breaks DuckDuckGo's site
+@@||duckduckgo.com/t/$stylesheet
+! Unbreak paying for things on Ebay with PayPal
+@@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+! Unbreak Delta Dental Login
+@@||login-wsprod.deltadental.com^$first-party,script
+!
+@@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
 @@||api-auth-mobile.hootsuite.com^
-@@||foxnews.com$generichide
-@@||niagarawater.com^$generichide
-@@||duckduckgo.com/t/$stylesheet
-@@||login-wsprod.deltadental.com^$first-party,script
 @@||cta-service-cms2.hubspot.com^
-@@||images-na.ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
-@@||haberler.com$image
+@@||haberler.com^$image
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
 @@*/blank.gif$domain=slickdeals.net
-@@||undefined/g00/$domain=sportingnews.com
 @@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com
 @@||pandora.com/web-version/*/ads.json?
@@ -65,31 +86,20 @@
 @@||dailycaller.com/files/images/1x1.trans.gif^$image
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
-@@||encrypted-tbn*.gstatic.com$domain=google.
-@@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
-@@||moatads.com/*.js$domain=hulu.com
 @@||content-images.p-cdn.com/images^$image
-@@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
-@@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
-@@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
 @@||adobedtm.com/launch-*
-@@||apis.google.com/_/scs/*
 @@||link.theplatform.com^$xmlhttprequest
-@@||*-sponsored.dfw.vcdn.att-idns.net
-@@||yospace-directv.akamaized.net
-@@||ads-e-darwin.hulustream.com
-@@||http-v-darwin.hulustream.com
-@@||pandora.com$genericblock
+! Generichide
+@@||zdnet.com^$generichide
+@@||kershaw.kaiusa.com^$generichide
 @@||youtube.com$generichide
 @@||duckduckgo.com$generichide
-@@||accounts.google.com$document
-@@||mediaite.com^$elemhide
-@@||zdnet.com^$generichide
-@@||google.com^$ehide
-@@||forbes.com^$ehide
-@@||cdc.gov^$ehide
-@@||kershaw.kaiusa.com^$generichide
+@@||foxnews.com$generichide
+@@||sfgate.com^$generichide
+@@||github.com$generichide
+@@||niagarawater.com^$generichide
+! Specific
 skullcandy.com#@#.cookies:style(display:none !important;)
 mediaite.com#@#^script:has-text(adsbygoogle)
 google.com#@#^script:has-text(navigator.sendBeacon)
@@ -101,22 +111,6 @@ youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 kgw.com#@#[class*="__ad"]
 fastpic.ru#@#[id*="adblock-"]
-! Seems to deliver ads but also legit content on cnet
-@@||sdad.guru
-! Badfilter
-! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
-@@||fedex.com/Tracking$important
-! Local News Station - Blocked Under "Malware domains"
-@@||ksibradio.com$important
-! Breaks TikTok Login
-||log2.musical.ly$badfilter
-! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
-@@||ads.brave.software^
-@@||ads.bravesoftware.com^
-@@||ads.brave.com^
-@@||ads-serve.brave.com^
-@@||rewards.brave.com^
-!
 !#safari_cb_affinity
 
 !---------------
@@ -531,6 +525,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||tct-teye.com^
+||ads-interfaces.sc-cdn.net^
+||sideload.net^
+||stc.tools^
+||hubs.ly^
 ||preapp.prod.partner.netflix.net^
 ||rooftopmedia.com.au^
 ||soundl.ly^
@@ -1836,7 +1835,6 @@ about:blank$third-party
 ||edgescape.abc.net.au^
 ||geoip-js.com^
 ||maxmind.com^
-||ada.support^
 ||analytics.tiktok.com^
 ||syntecx.org^
 ||clickstoclaim.com^
@@ -4480,7 +4478,6 @@ about:blank$third-party
 ||bizspring.co.kr^
 ||betweendigital.com^
 ||beemray.com^
-||bazaarvoice.com^
 ||bonnier-subscriptions.com^
 ||bdg-analytics.appspot.com^
 ||baynote.net^
@@ -5986,22 +5983,17 @@ about:blank$third-party
 ||emvm-gh1-uea*.nsa.gov^
 ||etracker.com^
 ||ebs*.telekom.de^
-||edge-oculus-shv-01-frt3.fbcdn.net^
-||edge-mqtt-shv-01-frt3.facebook.com^
-||edge-star-shv-01-frt3.facebook.com^
 ||extremeleadprogram.com^
 ||eztexting.com^
 ||elev.io^
 ||europebanks.live^
 ||tempestpremium.com^
 ||elephantdata.net^
-||episerver.net^
 ||easypcoptimizer.com^
 ||errorexpert.com^
 ||errorsafe.com^
 ||extfans.com^
 ||ekr.zdassets.com^
-||edge-star-shv-02-dfw5.facebook.com^
 ||eyequant.com^
 ||epochstats.com^
 ||econda-monitor.de^
@@ -6615,7 +6607,6 @@ about:blank$third-party
 ||3gl.net^
 ||g2crowd.com^
 ||greystripe.com^
-||go2cloud.org^
 ||proper.io^
 ||goroost.com^
 ||geobytes.com^
@@ -6688,7 +6679,6 @@ about:blank$third-party
 ||houchosi.net^
 ||huatuospeed.weiyun.com^
 ||hqq.tv^
-||hsforms.com^
 ||hsadspixel.net^
 ||harmonypsa.com^
 ||hunchads.com^
@@ -9881,7 +9871,6 @@ about:blank$third-party
 ||statebankrewardz.com^
 ||solocpm.com^
 ||stat.discogs.com^
-||svc.ms^
 ||smartlinksv2.mediresource.com^
 ||searchlock.com^
 ||saymedia.com^
@@ -9937,7 +9926,6 @@ about:blank$third-party
 ||south32.com^
 ||spywareonline.org^
 ||systemexplorer.net^
-||salesforceliveagent.com^
 ||surfbouncer.com^
 ||sitestats.com^
 ||stadig.ifeng.com^
@@ -13431,7 +13419,6 @@ ledger.com##.cookie-notice-container
 */js/platform.js
 */reportsuites.js
 */*.gif?&ads
-*/monetization.js
 */logger.js
 */log?format/
 */log?format=json/
@@ -13677,7 +13664,6 @@ ledger.com##.cookie-notice-container
 */google-adblock.js
 */ramy6P8ui3ZlbYWn/
 */gm-ga.min.js
-*/showads.js
 */adoefieldlite-
 */plugins/mashsharer/$script
 */_gap/
