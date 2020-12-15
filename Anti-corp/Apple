@@ -1,7 +1,7 @@
 ! Title: Cybo's Anti Apple
 ! Description: Block all known connections to Apple
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
 ||apple.com^
 ||apple.net^
@@ -10,3 +10,4 @@
 ||icloud.com^
 ||icloud.com.akadns.net^
 ||mzstatic.com^
+||webkit.org^
