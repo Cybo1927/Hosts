@@ -2,9 +2,11 @@
 ! Title: Cybo's Anti Amazon
 ! Description: Block all known connections to Amazon
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 ||amazon.*^
+||amazonaws.com^
+||amazoncrl.com^
 ||aboutamazon.com^
 ||amazonvideo.com^
 ||awsdns-*.org^
