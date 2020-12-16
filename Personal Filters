@@ -34,7 +34,13 @@ duckduckgo.com##.footer, .header__clickable
 
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
 
-$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~duckduckgo.com|~nextdns.io
+*$cookie
+@@||192.168.254.70^$first-party,cookie
+@@||127.0.0.1^$first-party,cookie
+@@||localhost^$first-party,cookie
+@@||secureinternetbank.com^$first-party,cookie
+@@||duckduckgo.com^$first-party,cookie
+@@||nextdns.io^$first-party,cookie
 
 ||vk.com^
 ||macrodroid.com^
