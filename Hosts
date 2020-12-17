@@ -3,9 +3,8 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1360
+! Version: 1360:thu-dec-17-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
-! Last Modified: Wednesday, December 16, 2020
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -525,6 +524,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||tx.cdnjs.work^
+||ssionsupre.fun^
 ||hello.camelcamelcamel.com^
 ||crptentry.com^
 ||tvsquared.com^
@@ -15095,7 +15096,6 @@ youtube.com#@#body:style(overflow:visible !important)
 $queryprune=utm_.+|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|sign|int_cmpgn|int_dept|int_lctn|int_fmt|uclick|uclickhash|ref_src|ref_url|rnid|refRID|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_p|pf_rd_r|linkId|ref|cm_re
 ||search.yahoo.com^$queryprune=type|param1|hspart|hsimp|fr|action
 ||youtube.com^$queryprune=origin
-||google.com^$queryprune=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 ||godaddy.com^$queryprune=isc
 ||360kuai.com^$queryprune=url|scene
 ||kiwibrowser.com^$queryprune=type|version|release_name|release_version|install_date|ref
@@ -15112,7 +15112,6 @@ $queryprune=utm_.+|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|am
 $removeparam=utm_.+|amp;source|amp;usg|amp;uact|amp;rct|amp;esrc|amp;q|amp;ved|amp;cd|amp;cad|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|platform|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|sign|int_cmpgn|int_dept|int_lctn|int_fmt|uclick|uclickhash|ref_src|ref_url|rnid|refRID|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_p|pf_rd_r|linkId|ref|cm_re
 ||search.yahoo.com^$removeparam=type|param1|hspart|hsimp|fr|action
 ||youtube.com^$removeparam=origin
-||google.com^$removeparam=source|ei|oq|sclient|uact|gs_lcp|ved|iflsig|gws_rd
 ||godaddy.com^$removeparam=isc
 ||360kuai.com^$removeparam=url|scene
 ||kiwibrowser.com^$removeparam=type|version|release_name|release_version|install_date|ref
