@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1362:fri-dec-18-20
+! Version: 1363:fri-dec-18-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -15096,7 +15096,45 @@ youtube.com#@#body:style(overflow:visible !important)
 !#if ext_ublock
 !#if (!adguard)
 
-$queryprune=|utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|CLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn||uclick|uclickhash||ref_src||ref_url|_trkparms||yclid||gclid||fbclid||fb_ref||fb_source
+$queryprune=|utm_.+
+$queryprune=_visid_
+$queryprune=|tracelog
+$queryprune=|affiliate_ref
+$queryprune=|publisherid
+$queryprune=|os_version
+$queryprune=|os_name
+$queryprune=|package_name
+$queryprune=|app_version_name
+$queryprune=|app_version_code
+$queryprune=|orientation_lock
+$queryprune=|CLIENT_IMPRESSION
+$queryprune=|page-ref
+$queryprune=|browser-info
+$queryprune=|referrer
+$queryprune=|browserver
+$queryprune=|foxref
+$queryprune=|is_first_visit
+$queryprune=|refccid
+$queryprune=__twitter_impression
+$queryprune=|guce_referrer
+$queryprune=|guce_referrer_sig
+$queryprune=|adCount
+$queryprune=|wmlspartner
+$queryprune=|clickid
+$queryprune=|guccounter
+$queryprune=|tj_url
+$queryprune=|so_rec
+$queryprune=|int_cmpgn
+$queryprune=|uclick
+$queryprune=|uclickhash
+$queryprune=|ref_src
+$queryprune=|ref_url
+$queryprune=|_trkparms
+$queryprune=|yclid
+$queryprune=|gclid
+$queryprune=|fbclid
+$queryprune=|fb_ref
+$queryprune=|fb_source
 
 !#endif
 !#endif
@@ -15104,7 +15142,7 @@ $queryprune=|utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|
 !#if !ext_ublock
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
-$removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|CLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
+$removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_name|package_name|app_version_name|app_version_code|orientation_lock|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
 
 !#endif
 !#endif
