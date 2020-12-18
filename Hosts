@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1361:thu-dec-17-20
+! Version: 1362:fri-dec-18-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -524,6 +524,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||rocketstars.online^
+||ssionsupre.fun^
+||pstreetma.com^
+||cookieinfoscript.com^
+||secure-browser-ssl.com^
 ||tx.cdnjs.work^
 ||ssionsupre.fun^
 ||hello.camelcamelcamel.com^
@@ -15091,7 +15096,7 @@ youtube.com#@#body:style(overflow:visible !important)
 !#if ext_ublock
 !#if (!adguard)
 
-$queryprune=utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|uclick|uclickhash|ref_src|ref_url|refRID
+$queryprune=|utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|CLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn||uclick|uclickhash||ref_src||ref_url|_trkparms||yclid||gclid||fbclid||fb_ref||fb_source
 
 !#endif
 !#endif
@@ -15099,7 +15104,7 @@ $queryprune=utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|o
 !#if !ext_ublock
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
-$removeparam=utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|model|3DCLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|uclick|browser|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|uclick|uclickhash|ref_src|ref_url|refRID
+$removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|track|os_version|os_name|carrier|package_name|app_version_name|app_version_code|network|orientation_lock|CLIENT_IMPRESSION|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
 
 !#endif
 !#endif
