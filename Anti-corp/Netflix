@@ -1,0 +1,15 @@
+! Title: Cybo's Anti Netflix
+! Description: Block all known Netflix domains
+! Expires: 1 day
+! Version: 1
+
+||netflix.com^
+||netflix.co.uk^
+||netflix.net^
+||nflxext.com^
+||netflixanimation.com^
+||millarworld.tv^
+||abqstudios.com^
+||storybots.com^
+||dvd.com^
+||fast.com^
