@@ -1,5 +1,5 @@
 ! Title: Cybo's Anti Cloudflare
-! Description: Block all known Cloudflare domains
+! Description: Block all known Cloudflare domains as well as block any subsidiaries
 ! Expires: 1 day
 ! Version: 3
 
