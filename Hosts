@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1363:fri-dec-18-20
+! Version: 1364:sat-dec-19-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -524,6 +524,14 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||leukemiatwinklesagacious.com^
+||arbourspankappetite.com^
+||servboost.tech^
+||opforpro.com^
+||aïeaïeaïe.eu^
+||adblock-analytics.io^
+||m-metrics.capitalone.com^
+||smetrics.capitalone.com^
 ||rocketstars.online^
 ||ssionsupre.fun^
 ||pstreetma.com^
@@ -598,8 +606,6 @@ about:blank$third-party
 ||siteintercept.qualtrics.com^
 ||geo.cardinalcommerce.com^
 ||housekeeping.sudosecuritygroup.com^
-||zenfield.pro^
-||zenworks.online^
 ||lolihentai.icu^
 ||selfpuc.com^
 ||xxx-animatrix.com^
@@ -11365,7 +11371,6 @@ about:blank$third-party
 ||zeemail.in^
 ||zer0day.ch^
 ||zcbyoqylllxe.com^
-||zendplace.pro^
 ||zog.link^
 ||zeroxxx.club^
 ||zoee.xyz^
@@ -12906,6 +12911,8 @@ quizlet.com##.StudyValueUpsellModal, .UIModal-backdrop, [class*="embeddedDesktop
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/ga.php?
+*/analytics_ads
 */track.php
 */AppMeasurement.$script
 */commentads.js
@@ -15135,6 +15142,7 @@ $queryprune=|gclid
 $queryprune=|fbclid
 $queryprune=|fb_ref
 $queryprune=|fb_source
+google.$queryprune=ei|uact|sclient|gs_lcp|oq|ved
 
 !#endif
 !#endif
@@ -15143,6 +15151,7 @@ $queryprune=|fb_source
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_name|package_name|app_version_name|app_version_code|orientation_lock|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
+google.$removeparam=ei|uact|sclient|gs_lcp|oq|ved
 
 !#endif
 !#endif
