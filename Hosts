@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1364:sat-dec-19-20
+! Version: 1365:sat-dec-19-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -2681,7 +2681,6 @@ about:blank$third-party
 ||atrafficreseller.co^
 ||adprotect.net^
 ||ads.erasuper.com^
-||amazonadsi-a.akamaihd.net^
 ||ad.nettvservices.com^
 ||applog.musical.ly^
 ||airdownload2.adobe.com^
@@ -5567,8 +5566,6 @@ about:blank$third-party
 ||dadbab.info^
 ||downloadyourmobileapp.xyz^
 ||dretracking.com^
-||device-messaging-*.amazon.com^
-||devicemessaging.*-*-1.amazon.com^
 ||dynamicadx.com^
 ||metric.gstatic.com^
 ||contentabc.com^
@@ -6118,7 +6115,6 @@ about:blank$third-party
 ||fly202.globalmailer.com^
 ||freetemplatefinder.com^
 ||searchformsonline.com^
-||fls-*.amazon.com^
 ||frozen-layer.net^
 ||fascinatednosed.club^
 ||free-browser.co^
@@ -7206,7 +7202,6 @@ about:blank$third-party
 ||kodand.wildapricot.org^
 ||kbmg.com^
 ||kupona.de^
-||kinesis.us-east-1.amazonaws.com^
 ||ksn-crypto-info-geo.kas-labs.com^
 ||ksn-cinfo-geo.kas-labs.com^
 ||keepmydevicesafe.com^
@@ -8170,7 +8165,6 @@ about:blank$third-party
 ||mppglobal.com^
 ||moengage.com^
 ||metrics.roblox.com^
-||msh.amazon.com^
 ||mobilcrashreporting.googleapis.com^
 ||mateti.net^
 ||mindbox.cloud^
