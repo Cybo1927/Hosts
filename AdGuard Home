@@ -14,8 +14,6 @@
 
 ! TV
 ||iheart.com^$ctag=device_tv
-||roku.com^$ctag=device_tv
-||mediaservices.cdn-apple.com^$ctag=device_tv
 ||cortana-gateway.amazon.com^$ctag=device_tv
 ||digprjsurvey.amazon.com^$ctag=device_tv
 ||amazonalexa.com^$ctag=device_tv
