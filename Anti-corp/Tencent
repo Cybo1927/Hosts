@@ -1,0 +1,19 @@
+[Adblock Plus]
+! Title: Cybo's Anti Tencent
+! Description: Block all known Tencent domains as well as block any subsidiaries
+! Expires: 1 day
+! Version: 1
+
+||tencent.com^
+||funcom.com^
+||grindinggear.com^
+||iflix.com^
+||tencentmusic.com^
+||supercell.com^
+||riotgames.com^
+||hypixel.net^
+||hytale.com^
+||hypixelstudios.com^
+||miniclip.com^
+||stonehearth.net^
+||clashofclans.com^
