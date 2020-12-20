@@ -1,7 +1,7 @@
 ! Title: Cybo's Anti Cloudflare
 ! Description: Block all known Cloudflare domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 ||cloudflare.com^
 ||cloudflare.net^
@@ -12,10 +12,9 @@
 ||cloudflarebolt.com^
 ||cloudflarestatus.com^
 ||one.one.one.one^
+||cloudflare.steamstatic.com^
+||pacloudflare.com^
 ||1.1.1.1^
 ||1.0.0.1^
 ||1.1.1.3^
 ||1.0.0.3^
-
-! Might break Steam
-||cloudflare.steamstatic.com^
