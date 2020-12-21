@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Facebook
 ! Description: Block all known connections to Facebook as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 19
+! Version: 20
 
 ||instafeed.codev.wixapps.net^
 ||fbpigeon.com^
@@ -13,10 +13,10 @@
 ||fbcdn.net^
 ||fb.me^
 ||fbsbx.com^
-||fbcdn-photos-*.*^
-||fbcdn-sphotos-*.*^
-||fbcdn-profile-*.*^
-||fbexternal-*.*^
+||fbcdn-photos-*.^
+||fbcdn-sphotos-*.^
+||fbcdn-profile-*.^
+||fbexternal-*.^
 ||facebook.com^
 ||instagram.com^
 ||whatsapp.net^
@@ -38,7 +38,7 @@
 ||getspool.com^
 ||atlassolutions.com^
 ||cdninstagram.com^
-
+||expresswifi.com^
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||giphy.com^
 
@@ -47,30 +47,3 @@
 *##^script:has-text(fbq)
 ! Other scripts
 *##^script:has-text(facebook-jssdk)
-
-?*facebook*$~first-party
-?*.facebook.
-! https://github.com/facebook/react
-||reactjs.org^
-*/react.$script
-*/react-$script
-
-duckduckgo.com##.has-image:has-text(Facebook)
-
-! AdGuard Specific
-!#if !ext_ublock
-!#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
-
-! facebook.com
-||157.240.14.35^$network
-! a.ns.facebook.com
-||129.134.30.12^$network
-! b.ns.facebook.com
-||129.134.31.12^$network
-! c.ns.facebook.com
-||185.89.218.12^$network
-! d.ns.facebook.com
-||185.89.219.12^$network
-
-!#endif
-!#endif
