@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1366:sun-dec-20-20
+! Version: 1367:mon-dec-21-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -519,6 +519,9 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||trafficv2.com^
+||cdnvid.top^
+||fatebbc.pro^
 ||expmediadirect.com^
 ||tutanota.io^
 ||bisonads.com^
@@ -6473,8 +6476,6 @@ about:blank$third-party
 ||geotrack.email^
 ||growsumo.com^
 ||grsm.io^
-||gumroad.com^
-||gum.co^
 ||grademyads.com^
 ||getgist.com^
 ||globetoday.com^
