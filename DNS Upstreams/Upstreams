@@ -1,15 +1,16 @@
 # Main Servers for Requests
+# Cloudflare
+#DoH (Mozilla Standard)
+https://mozilla.cloudflare-dns.com/dns-query
+#DoH
+sdns://AgcAAAAAAAAABzEuMC4wLjGgENk8mGSlIfMGXMOlIlCcKvq7AVgcrZxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk
+#
+# Quad9
+#DoH Standard 1
+sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
+#DoH Standard 2
+sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
 # AdGuard
-#94.140.14.14
-sdns://AAcAAAAAAAAADDk0LjE0MC4xNC4xNA
-#94.140.14.140
-sdns://AAcAAAAAAAAADTk0LjE0MC4xNC4xNDA
 #DoH
 sdns://AgcAAAAAAAAAAAAPZG5zLmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
-#
-# Cloudflare
-#DoH
-https://mozilla.cloudflare-dns.com/dns-query
-#
-# Experimental DNS Protocol
-[/example.com/]quic://dns-unfiltered.adguard.com:784
+[/textsecure-service.whispersystems.org/]sdns://AgcAAAAAAAAAAAAPZG5zLmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
