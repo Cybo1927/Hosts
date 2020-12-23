@@ -307,7 +307,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||popcash.net^$third-party,popup,popunder
 ||prpops.com^$third-party,popup,popunder
 ||wysyshypti.pro^$third-party,popup,popunder
-||visitstats.com^$third-party,popup,popunder
 ||timetoteens.com^$third-party,popup,popunder
 ||teen-porno.net^$third-party,popup,popunder
 ||teenpornvideos.me^$third-party,popup,popunder
@@ -342,7 +341,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||authbill.com^$third-party,popup,popunder
 ||mygreatsites.com^$third-party,popup,popunder
 ||biz260.inmotionhosting.com^$third-party,popup,popunder
-||tubememberplus.com^$third-party,popup,popunder
 ||epsprosperityhotline.com^$third-party,popup,popunder
 ||simplybucks.com^$third-party,popup,popunder
 ||3vuemarketing.com^$third-party,popup,popunder
@@ -385,7 +383,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||securesaferoute.com^$third-party,popup,popunder
 ||trck-secure.com^$third-party,popup,popunder
 ||21pron.com^$third-party,popup,popunder
-||pinksextube.com^$third-party,popup,popunder
 ||traffictrade.pro^$third-party,popup,popunder
 ||pinksextube.com^$third-party,popup,popunder
 ||sexrulez.com^$third-party,popup,popunder
@@ -510,7 +507,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||777partner.com^$third-party
 ||ziyun.com.cn^$third-party
 ||xup.to^$third-party
-||visitstats.com^$third-party,popup,popunder
 ||velocitycdn.com^$third-party,popup,popunder
 ||virtuagirl.com^$third-party
 ||virtuaguy.com^$third-party
@@ -552,7 +548,6 @@ about:blank$third-party
 ||m-metrics.capitalone.com^
 ||smetrics.capitalone.com^
 ||rocketstars.online^
-||ssionsupre.fun^
 ||pstreetma.com^
 ||cookieinfoscript.com^
 ||secure-browser-ssl.com^
@@ -769,7 +764,6 @@ about:blank$third-party
 ||out.com^
 ||tpdads.com^
 ||tionmustai.fun^
-||bdwafx.com^
 ||seeptauw.net^
 ||louchees.net^
 ||beefraidmob.com^
@@ -836,14 +830,12 @@ about:blank$third-party
 ||pixel.videohub.com^
 ||graylog.24imedia.com^
 ||device-metrics-*.amazon.com^
-||analyticsdcs.ccs.mcafee.com^
 ||dominiosvision.com^
 ||ludashi.com^
 ||reojou.com^
 ||dbn41syzjymrk.cloudfront.net^
 ||besecapi.com^
 ||besec.com^
-||analytic.rollout.io^
 ||analytics*.*.mcafee.com^
 ||railwayreason.com^
 ||msadsscale.azureedge.net^
@@ -1285,7 +1277,6 @@ about:blank$third-party
 ||youborafds01.com^
 ||adpro.discoveryeducation.com^
 ||abovemarket.com^
-||gettets.club^
 ||desktimmer.com^
 ||f1272serve.xyz^
 ||pstreetex.com^
@@ -1431,7 +1422,6 @@ about:blank$third-party
 ||privacymanager.io^
 ||drugs-center.biz^
 ||mx-*.fbi.gov^
-||device-metrics-us.amazon.com^
 ||ipengtai.com^
 ||ipengtai.net^
 ||ipengtai.cn^
@@ -1536,7 +1526,6 @@ about:blank$third-party
 ||openads.hu^
 ||anltics.com^
 ||googleapi.club^
-||strick-stain.com^
 ||motivationformation.com^
 ||beberuby.com^
 ||5gmale.com^
@@ -7844,7 +7833,6 @@ about:blank$third-party
 ||list-manage.com^
 ||driftem.com^
 ||tatadocomobusiness.com^
-||liveintent.com^
 ||lkqd.com^
 ||lkqd.net^
 ||lotame.com^
@@ -11271,7 +11259,6 @@ about:blank$third-party
 ||yieldlove.com^
 ||youtube.gq^
 ||youutube.ga^
-||yospace-directv.akamaized.net^
 ||yospace.com^
 ||yourofferpro.com^
 ||ideaeggs.press^
@@ -12291,7 +12278,6 @@ about:blank$third-party
 ! Begin Blocking |
 !----------------
 
-||youtube.com/api/stats/
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
@@ -12314,10 +12300,8 @@ about:blank$third-party
 ||google.com/imgevent?
 ||google.com/*_204
 ||google.com/async/irc
-||clients6.google.com/drive/v2internal/viewerimpressions
 ||clients4.google.com/invalidation/lcs/request
 ||clients4.google.com/chrome-sync/experimentstatus
-||docs.google.com/document/*/logImpressions?
 ||google.com/insights/
 ||google.com/analytics/
 ||google.com/intl/*/ads
@@ -12336,7 +12320,6 @@ about:blank$third-party
 ||browser.yandex.com/goodbye
 ||mail.yahoo.com/d/video_api/getVideos
 ||mail.yahoo.com/d/log
-||amazon.*/empty.gif
 ||music.amazon.com/NA/api/muse/legacy/getSimilarityRecommendations/
 ||s3.amazonaws.com/ssl-intgr-net/prebid/
 ||amazon.*/gp/redirection/*.html
@@ -12367,7 +12350,6 @@ about:blank$third-party
 ||https://cf-st.sc-cdn.net/d/*
 ||coccoc.com/log
 ||o2.pl/*/adPlaceholder.png
-||mrelko.com/c/oc.php$subdocument
 ||localgxp.gamexp.com
 ||js.stripe.com/*/fingerprinted/
 ||pelcro.com/*/analytics/
@@ -12552,7 +12534,6 @@ pandora.com##.DisplayAdController__rightRail--active, .DisplayAdController__righ
 amazon.com###heroQuickPromo_feature_div, #percolate-ui-ilm_div
 yandex.ua##.promo-popup__content
 github.com###js-flash-container, .js-octo-ga-ide, .signup-prompt, .js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
-developer.android.com##devsite-snackbar
 dw.com##.adsContainer, .cookie, .adWrapper, .bannerAd, .squareAd
 healthline.com###inline1__slot, #inline2__slot, #inline3__slot, #sticky1__slot, #sticky2__slot, #sticky3__slot, #DMR1__slot, #DCMR1__slot, #hl-adsense
 linuxize.com##.affiliate
@@ -12850,7 +12831,6 @@ mail.yahoo.com###modal-outer
 dnspod.com##.tea-news
 lolhentai.net###sticky-sidebar
 gopornos.com##.privacy
-wearefine.com##div.home_blm--inner
 diaryofajournalplanner.com##div.custom-top-bar
 e-eduanswers.com##.gpm-cookie-accepted
 basic-mathematics.com###ContentColumn > div.Liner > div.CalloutBox, #ContentColumn > div.Liner > center:last-child > iframe
@@ -13084,7 +13064,6 @@ $ping
 */tiaraTracker
 */browser_check.js
 */elog?
-*/track.php?domain=
 */taz-pixel
 */emailOpened
 */smtp.mailopen
@@ -13711,7 +13690,6 @@ $ping
 */golink?url=
 */phantomPopunder.js
 */ads-sexlink.
-*/afu.php?zoneid
 */widget/ip/
 */v2internal/viewerimpressions
 */_/jserror
@@ -13901,8 +13879,6 @@ _statsonlineinfo
 ##[class*="leaderboard-ad"]
 ##[id*="adhesion"]
 ##[class*="adhesion"]
-##[id*="amgdprcookie-"]
-##[class*="amgdprcookie-"]
 ##[id*="ptgncdn_holder"]
 ##[class*="ptgncdn_holder"]
 ##[id*="cookie_new"]
@@ -13925,10 +13901,6 @@ _statsonlineinfo
 ##[class*="removeAd"]
 ##[id*="adwords_"]
 ##[class*="adwords_"]
-##[id*="ad-wrapper"]
-##[class*="ad-wrapper"]
-##[id*="_advertisement_"]
-##[class*="_advertisement_"]
 ##[id*=".ad-event-"]
 ##[class*=".ad-event-"]
 ##[id*="ad-img"]
@@ -13997,8 +13969,6 @@ _statsonlineinfo
 ##[class*="-advertisement"]
 ##[id*="gallery-ads"]
 ##[class*="gallery-ads"]
-##[id*="adslot_"]
-##[class*="adslot_"]
 ##[id*="admax-"]
 ##[class*="admax-"]
 ##[id*="comments_ad"]
@@ -14019,8 +13989,6 @@ _statsonlineinfo
 ##[class*="adchecker"]
 ##[id*="adblock_detector"]
 ##[class*="adblock_detector"]
-##[id*="adblock-modal"]
-##[class*="adblock-modal"]
 ##[id*="adblockBanner"]
 ##[class*="adblockBanner"]
 ##[id*="corner-ad"]
@@ -14043,14 +14011,10 @@ _statsonlineinfo
 ##[class*="ad-progress"]
 ##[id*="player-ads"]
 ##[class*="player-ads"]
-##[id*="div-gpt-ad-"]
-##[class*="div-gpt-ad-"]
 ##[id*="promotedlink"]
 ##[class*="promotedlink"]
 ##[id*="adHeader"]
 ##[class*="adHeader"]
-##[id*="abAlertShown"]
-##[class*="abAlertShown"]
 ##[id*="stream-ad"]
 ##[class*="stream-ad"]
 ##[id*="ad_unit"]
@@ -14110,8 +14074,6 @@ _statsonlineinfo
 ##[class*="ab_banner"]
 ##[id*="bnnrs-player"]
 ##[class*="bnnrs-player"]
-##[id*="tall_advertising"]
-##[class*="tall_advertising"]
 ##[id*="adv-leftside"]
 ##[class*="adv-leftside"]
 ##[id*="ads-container"]
@@ -14157,8 +14119,6 @@ _statsonlineinfo
 ##[class*="spot_footer"]
 ##[id*="footer-ads"]
 ##[class*="footer-ads"]
-##[id*="__ad"]
-##[class*="__ad"]
 ##[id*="abtext"]
 ##[class*="abtext"]
 ##[id*="abmessage"]
@@ -14175,8 +14135,6 @@ _statsonlineinfo
 ##[class*="advertsLeaderboard"]
 ##[id*="promo-container"]
 ##[class*="promo-container"]
-##[id*="tc_privacy"]
-##[class*="tc_privacy"]
 ##[id*="cookiesOverlay"]
 ##[class*="cookiesOverlay"]
 ##[id*="ads-block"]
@@ -14193,8 +14151,6 @@ _statsonlineinfo
 ##[class*="leads-track"]
 ##[id*="advertising"]
 ##[class*="advertising"]
-##[id*="sidebar-ads"]
-##[class*="sidebar-ads"]
 ##[id*="adspot"]
 ##[class*="adspot"]
 ##[id*="ads-list"]
@@ -14306,8 +14262,6 @@ _statsonlineinfo
 ##[class*="m-active.cookie"]
 ##[id*="cookieContainer"]
 ##[class*="cookieContainer"]
-##[id*="div-clmb-ctn-"]
-##[class*="div-clmb-ctn-"]
 ##[id*="cc-popup"]
 ##[class*="cc-popup"]
 ##[class*="-slot"][class*="gpt"]
@@ -14361,8 +14315,6 @@ _statsonlineinfo
 ##[id*="AdRail"]
 ##[class*="adm-container"]
 ##[id*="adm-container"]
-##[class*="adblock-whitelist"]
-##[id*="adblock-whitelist"]
 ##[class*="cookieconsent"]
 ##[id*="cookieconsent"]
 ##[class*="welcome_exit"]
@@ -14379,20 +14331,14 @@ _statsonlineinfo
 ##[class*="ad_box"]
 ##[id*="slideAd"]
 ##[class*="slideAd"]
-##[id*="cookie-block"]
-##[class*="cookie-block"]
 ##[id*="text-ad"]
 ##[class*="text-ad"]
 ##[id*="text_ad"]
 ##[class*="text_ad"]
-##[id*="cookie-banner"]
-##[class*="cookie-banner"]
 ##[id*="cookie_wrapper"]
 ##[class*="cookie_wrapper"]
 ##[id*="ad_position"]
 ##[class*="ad_position"]
-##[id*="ad__inner"]
-##[class*="ad__inner"]
 ##[id*="ad_background"]
 ##[class*="ad_background"]
 ##[id*="popmake-overlay"]
@@ -14407,16 +14353,12 @@ _statsonlineinfo
 ##[class*="adsbytrafficjunky"]
 ##[id*="new-friendly-ads-wrapper"]
 ##[class*="new-friendly-ads-wrapper"]
-##[id*="aff-item-list-aside"]
-##[class*="aff-item-list-aside"]
 ##[id*="aff-item-list"]
 ##[class*="aff-item-list"]
 ##[id*="cookieBanner"]
 ##[class*="cookieBanner"]
 ##[id*="cnt-space-"]
 ##[class*="cnt-space-"]
-##[id*="cookie-announce"]
-##[class*="cookie-announce"]
 ##[id*="blacklivesmatter"]
 ##[class*="blacklivesmatter"]
 ##[id*="gpt-300x250"]
@@ -14435,7 +14377,6 @@ _statsonlineinfo
 ##[class*="-header-ad"]
 ##[id*="ad-absolute"]
 ##[class*="ad-absolute"]
-##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
 ##[class*=".ad-printservice."]
 ##[id*="AdFrame"]
@@ -14578,7 +14519,6 @@ _statsonlineinfo
 ##[href*=".searchiq.co"]
 ##[href*="carbonads.net"]
 ##[href*="buysellads.net"]
-##[href*="orange2258.com"]
 ##[href*="dianomi.com/click.epl"]
 ##[href*="cartoontube.com/hit.php"]
 ##[href*="admitad.com"]
@@ -14653,7 +14593,6 @@ $$script[tag-content="track_hits"]
 $$script[tag-content="lastPageName"]
 $$script[tag-content="clickPixels"]
 $$script[tag-content="trackCustClick"]
-$$script[tag-content="userABMessage"]
 $$script[tag-content="userABMessage"]
 $$script[tag-content="enableLinkTracking"]
 $$script[tag-content="'trackPageView'"]
@@ -14877,7 +14816,6 @@ youtube.com#@#body { overflow:visible!important; }
 *##^script:has-text(lastPageName)
 *##^script:has-text(clickPixels)
 *##^script:has-text(trackCustClick)
-*##^script:has-text(userABMessage)
 *##^script:has-text(userABMessage)
 *##^script:has-text(enableLinkTracking)
 *##^script:has-text('trackPageView')
