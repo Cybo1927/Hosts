@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1368:tue-dec-22-20
+! Version: 1369:wed-dec-23-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -76,7 +76,6 @@
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
 @@||haberler.com^$image
 @@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
-@@*/blank.gif$domain=slickdeals.net
 @@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com
 @@||pandora.com/web-version/*/ads.json?
@@ -189,6 +188,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||yvmads.com^$popup,popunder
 ||stunninglover.com^$third-party
 ||camshq.info^$third-party
 ||camiocw.com^$third-party
@@ -519,6 +519,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||vpipi.com^
+||databreakers.com^
+||montlusa.top^
+||yvmads.com^
+||bit-ad.com^
 ||riotousgrit.com^
 ||districtbaloneywhiskers.com^
 ||sololockscoin.com^
@@ -13414,7 +13419,7 @@ $ping
 */advertise
 */_pa.facebookPixelId/
 */trg.gif
-*/blank.gif
+*/blank.gif$third-party
 */adServer.bs
 */digitalfirstmedia.js
 */com.snowplowanalytics
