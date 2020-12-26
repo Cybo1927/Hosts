@@ -1,7 +1,11 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
-! Description: Block access to anything related to pornography, sexuality, and dating.
-! Version: 12:fri-dec-25-20
+! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
+! Version: 13:sat-dec-26-20
+
+!-------------------
+! Begin Pornography |
+!-------------------
 
 ||pornhub.com^
 ||phncdn.com^
@@ -1897,3 +1901,67 @@
 ||cream-pie-porn.tumblr.com^
 ||i-like-my-blondes-dirty.tumblr.com^
 ||o-r-g-a-s-m-o-s.tumblr.com^
+
+!-----------------
+! End Pornography |
+!-----------------
+
+!----------------------
+! Begin Bypass Methods |
+!----------------------
+
+||hidemyass.com^
+||hoxx.com^
+||veepn.com^
+||ipunblock.com^
+||adguard-vpn.com^
+||ivacy.com^
+||proxy-spider.com^
+||tunnello.com^
+||myiphider.com^
+||tuxler.com^
+||azinovpn.net^
+||pron-vpn.com^
+||vpnproxymaster.com^
+||ppvpn.net^
+||vpnunlimitedapp.com^
+||browsec.com^
+||hotspotshield.com^
+||1clickvpn.net^
+||touchvpn.net^
+||earth-vpn.net^
+||betternet.co^
+||dotvpn.com^
+||hola.org^
+||zenmate.com^
+||nordvpn.com^
+||nordcdn.com^
+||expressvpn.com^
+||rsocks.net^
+||touchvpn.net^
+||atlasvpn.com^
+||fastestvpn.com^
+||guardianapp.com^
+||guardianvpn.net^
+||guardian-vpn.com^
+||ininja.org^
+||safeguardianvpn.com^
+||vpn.appsverse.com^
+||vpn.mozilla.org^
+||vpn.net^
+||thebestvpn.com^
+||darknet.to
+||onion.cab^
+||onion.city^
+||onion.direct^
+||onion.dog^
+||onion.ly^
+||onion.pet^
+||onion.sh^
+||onion.to^
+||onion.ws^
+||torproject.org^
+
+!--------------------
+! End Bypass Methods |
+!--------------------
