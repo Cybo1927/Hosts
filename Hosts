@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1369:wed-dec-23-20
+! Version: 1370:sat-dec-26-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -66,6 +66,9 @@
 @@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 ! Unbreak Delta Dental Login
 @@||login-wsprod.deltadental.com^$first-party,script
+!
+! Unbreak Images
+@@/blank.gif$domain=slickdealscdn.com
 !
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
@@ -515,6 +518,28 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||cocolog-nifty.com^
+||online-dn.com^
+||sbs-jp-ad.com^
+||golden-gateway.com^
+||ad999.biz^
+||appollo-plus.com^
+||fpop.net^
+||focas.jp^
+||alfonsinopop.xyz^
+||864194.com^
+||sijex.net^
+||avdmm.top^
+||imgtc.ws^
+||nicksstevmark.com^
+||revengemeantjackpot.com^
+||ad55.net^
+||boost-next.co.jp^
+||gssp.asia^
+||infotop.jp^
+||livedoor.net^
+||souzer.com^
+||autocookie.org^
 ||vpipi.com^
 ||databreakers.com^
 ||montlusa.top^
@@ -1636,7 +1661,6 @@ about:blank$third-party
 ||bedrapiona.com^
 ||e2ertt.com^
 ||cdnads.com^
-||ping.*.adguard.io^
 ||ethicalads.io^
 ||intellipopup.com^
 ||mortcollect.com^
@@ -6385,7 +6409,6 @@ about:blank$third-party
 ||redirdomain.ru^
 ||faktor.io^
 ||googletagmanager.com^
-||get.geo.opera.com.global.prod.fastly.net^
 ||googletagservices.com^
 ||ghtenbritingso.com^
 ||goguardian.^
@@ -6428,9 +6451,7 @@ about:blank$third-party
 ||guoshipartners.com^
 ||graphenedigitalanalytics.in^
 ||gridcash.net^
-||geo*.ggpht.com^
 ||gannettdigital.com^
-||geo.opera.com^
 ||wimi5.com^
 ||good-traf.ru^
 ||grv.media^
@@ -8903,7 +8924,6 @@ about:blank$third-party
 ||pushground.com^
 ||perk0mean.com^
 ||pulsar.ebay.com^
-||p3a.brave.com^
 ||policityseriod.info^
 ||presence-heartbeat.xboxlive.com^
 ||revjet.com^
@@ -9698,9 +9718,6 @@ about:blank$third-party
 ||spoor-api.ft.com^
 ||statics-marketingsites-wcus-ms-com.akamaized.net^
 ||simple-cdn.s3.amazonaws.com^
-||safe-browsing.ghostery.net^
-||safe-browsing-quorum.privacy.ghostery.net^
-||sb-ssl.brave.com^
 ||stats.windscribe.com^
 ||signal.co^
 ||seesmic.com^
@@ -9772,7 +9789,6 @@ about:blank$third-party
 ||tailsweep.com^
 ||vdopia.com^
 ||snapmobile.asia^
-||st-hatena.com^
 ||smaato.com^
 ||ssw.live.com^
 ||symbc.com^
