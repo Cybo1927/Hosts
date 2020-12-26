@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 13:sat-dec-26-20
+! Version: 14:sat-dec-26-20
 
 !-------------------
 ! Begin Pornography |
@@ -1910,6 +1910,19 @@
 ! Begin Bypass Methods |
 !----------------------
 
+||vpnmentor.com^
+||privatevpn.com^
+||vyprvpn.com^
+||ultravpn.com^
+||protonvpn.com^
+||mullvad.net^
+||cyberghostvpn.com^
+||surfshark.com^
+||tunnelbear.com^
+||privateinternetaccess.com^
+||ipvanish.com^
+||sec-tunnel.com^
+||tor.bravesoftware.com^
 ||hidemyass.com^
 ||hoxx.com^
 ||veepn.com^
@@ -1938,7 +1951,6 @@
 ||nordcdn.com^
 ||expressvpn.com^
 ||rsocks.net^
-||touchvpn.net^
 ||atlasvpn.com^
 ||fastestvpn.com^
 ||guardianapp.com^
@@ -1964,4 +1976,40 @@
 
 !--------------------
 ! End Bypass Methods |
+!--------------------
+
+!----------------------
+! Begin Download Sites |
+!----------------------
+
+! Download sites are blocked because they can be used to bypass some downloads that should be blocked
+! They are also often full of malicious programs/applications
+
+||softonic.com^
+||softpedia.com^
+||download.cnet.com^
+||filehippo.com^
+||filehippo.net^
+||snapfiles.com^
+||ninite.com^
+||downloads.zdnet.com^
+||filehorse.com^
+||downloadcrew.com^
+||majorgeeks.com^
+||lo4d.com^
+||freedownloadmanager.org^
+||qpdownload.com^
+||autotechint.com^
+||filepuma.com^
+||ccm.net^
+||ccm2.net^
+||ccmbg.com^
+||uptodown.com^
+||tech-solution4u.com^
+||sourceforge.net^
+||yepdownload.com^
+||isoriver.com^
+
+!--------------------
+! End Download Sites |
 !--------------------
