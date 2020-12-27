@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 14:sat-dec-26-20
+! Version: 15:sun-dec-27-20
 
 !-------------------
 ! Begin Pornography |
@@ -1910,6 +1910,39 @@
 ! Begin Bypass Methods |
 !----------------------
 
+||purevpn.com^
+||purevpn-tools.com^
+||usindex.biz^
+||supervpnlist.com^
+||inconnecting.com^
+||inconnecting.zendesk.com^
+||acnet.co^
+||turbovpn.co^
+||free-signal.com^
+||mobapi-help.com^
+||get-a-x-links.com^
+||xvpn.io^
+||masterproxy-proxy.github.io^
+||pierrepolak-fotografie.de^
+||bestvpn1.com^
+||marialoibichler.de^
+||faraonpetfood.de^
+||querschlag-wanne.de^
+||opera.com^
+||operacdn.com^
+||surfeasy.com^
+||vpngate.net^
+||softether.org^
+||securitykiss.com^
+||speedify.com^
+||hide.me^
+||windscribe.com^
+||proxpn.com^
+||vpnbook.com^
+||vpnoverview.com^
+||zoogvpn.com^
+||hideman.net^
+||freevpn.one^
 ||vpnmentor.com^
 ||privatevpn.com^
 ||vyprvpn.com^
@@ -2009,6 +2042,8 @@
 ||sourceforge.net^
 ||yepdownload.com^
 ||isoriver.com^
+||aptoide.com^
+||apkpure.com^
 
 !--------------------
 ! End Download Sites |
