@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 15:sun-dec-27-20
+! Version: 16:mon-dec-28-20
 
 !-------------------
 ! Begin Pornography |
@@ -1472,8 +1472,6 @@
 ||ovivevuwyfyt.eu^
 ||dmm.com^
 ||manyvids.com^
-||okcupid.com^
-||okccdn.com^
 ||myfreecams.com^
 ||mfcimg.com^
 ||pornhubpremium.com^
@@ -1483,8 +1481,6 @@
 ||pornhublive.com^
 ||xhamsterlive.com^
 ||hitomi.la^
-||match.com^
-||pof.com^
 ||sexseq.com^
 ||sexseqhd.com^
 ||gayboystube.com^
@@ -1906,6 +1902,46 @@
 ! End Pornography |
 !-----------------
 
+!--------------
+! Begin Dating |
+!--------------
+
+||match.com^
+||pof.com^
+||okcupid.com^
+||okccdn.com^
+||dating.com^
+||zoosk.com^
+||tinder.com^
+||gotinder.com^
+||tindersparks.com^
+||mingle2.com^
+||ourtime.com^
+||luvfree.com^
+||eharmony.com^
+||silversingles.com^
+||bumble.com^
+||bumbcdn.com^
+||aimerworld.com^
+||teendatingsite.net^
+||mylol.com^
+||flirtbox.com^
+||flirtbox.co.uk^
+||flirtbox.us^
+||ourteennetwork.com^
+||crush.zone^
+||teens.town^
+||knuddels.de^
+||knuddelscom.de^
+||teensay.com^
+||chatpit.com^
+||chattyheads.com^
+||meetme.com^ 
+
+!------------
+! End Dating |
+!------------
+
 !----------------------
 ! Begin Bypass Methods |
 !----------------------
@@ -2044,6 +2080,43 @@
 ||isoriver.com^
 ||aptoide.com^
 ||apkpure.com^
+||troypoint.com^
+||apkbucket.net^
+||apk4fun.com^
+||apkmirror.com^
+||appapks.net^
+||apkmb.com^
+||apkdlmod.com^
+||apk-dl.com^
+||apk-cloud.com^
+||apk4free.org^
+||apkturbo.com^
+||modsapk.com^
+||androidout.com^
+||androidapksfree.com^
+||happymoddownload.com^
+||happymod.com^
+||fileplanet.com^
+||modapkdown.com^
+||apkhome.net^
+||pcapkapps.com^
+||getjar.com^
+||freeapksandroid.com^
+||apks-bucket1.s3.amazonaws.com^
+||comfreeapksandroid.com^
+||apkfab.com^
+||tweakboxapp.com^
+||tweakbox.fyi^
+||tweakbox-online.net^
+||tweakbox.org^
+||tweak-box.com^
+||tutuapp.moe^
+||applandinc.com^
+||appvalley.vip^
+||iosem.us^
+||cydia-app.com^
+||appbrain.com^
+||ioshaven.com^
 
 !--------------------
 ! End Download Sites |
