@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1371:sun-dec-27-20
+! Version: 1372:mon-dec-28-20
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -83,7 +83,6 @@
 @@||static.hotjar.com/$domain=emsicc.com
 @@||pandora.com/web-version/*/ads.json?
 @@||external-preview.redd.it/*.gif
-@@||apis.google.com/js/platform.js$domain=graspablemath.com
 @@||dailycaller.com/files/images/1x1.trans.gif^$image
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
@@ -191,6 +190,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||easyadblocker.com^$third-party
 ||yvmads.com^$popup,popunder
 ||stunninglover.com^$third-party
 ||camshq.info^$third-party
@@ -518,6 +518,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||clickocean.io^
 ||globalchat1.com^
 ||cocolog-nifty.com^
 ||online-dn.com^
@@ -6624,7 +6625,6 @@ about:blank$third-party
 ||gwallet.com^
 ||google-analytics.l.google.com^
 ||go.pushnative.com^
-||geo*.adobe.com^
 ||pub2srv.com^
 ||goadservices.com^
 ||gg.google.com^
@@ -11259,7 +11259,6 @@ about:blank$third-party
 ||yepshare.com^
 ||yieldoptimizer.com^
 ||yieldr.com^
-||yepdownload.com^
 ||yastroka.yandex.net^
 ||youwins.mobi^
 ||yabs.yandex.ru^
@@ -13435,7 +13434,6 @@ $ping
 */jquery.adrotate.clicktracker.js
 */adrotate.clicktracker.js
 */clicktracker.js
-*/js/platform.js
 */reportsuites.js
 */*.gif?&ads
 */logger.js
@@ -14348,10 +14346,6 @@ _statsonlineinfo
 ##[class*="ad_box"]
 ##[id*="slideAd"]
 ##[class*="slideAd"]
-##[id*="text-ad"]
-##[class*="text-ad"]
-##[id*="text_ad"]
-##[class*="text_ad"]
 ##[id*="cookie_wrapper"]
 ##[class*="cookie_wrapper"]
 ##[id*="ad_position"]
