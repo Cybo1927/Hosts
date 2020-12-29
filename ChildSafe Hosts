@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 17:tue-dec-29-20
+! Version: 18:tue-dec-29-20
 
 !-------------------
 ! Begin Pornography |
@@ -1256,7 +1256,7 @@
 ! Begin Bypass Methods |
 !----------------------
 
-/(torrent|piratebay|pirate-bay|pirates-bay|proxy|vpn|unblock)/
+/(torrent|piratebay|pirate-bay|pirates-bay|proxy|vpn|unblock)/$dnstype=~CNAME
 
 ||rocketfiles.com^
 ||softx64.com^
