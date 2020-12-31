@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1373:tue-dec-29-20
+! Version: 1374
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -190,6 +190,8 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||instawhore.net^$popup,popunder
+||instateens.net^$popup,popunder
 ||easyadblocker.com^$third-party
 ||yvmads.com^$popup,popunder
 ||stunninglover.com^$third-party
@@ -303,8 +305,8 @@ fastpic.ru#@#[id*="adblock-"]
 ||veryyoung.org^$third-party,popup,popunder
 ||lilnymph.com^$third-party,popup,popunder
 ||youngtube.cc^$third-party,popup,popunder
-||1olita.*^$third-party,popup,popunder
-||lol1ta.*^$third-party,popup,popunder
+||1olita.*^$popup,popunder
+||lol1ta.*^$popup,popunder
 ||utarget.ru^$third-party,popup,popunder
 ||skkybrought.pro^$third-party,popup,popunder
 ||popcash.net^$third-party,popup,popunder
@@ -328,7 +330,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||xxxmature.tube^$third-party,popup,popunder
 ||tubexclips.com^$third-party,popup,popunder
 ||samtrg.com^$third-party,popup,popunder
-||nextpopup.ir^$third-party,popup,popunder
+||nextpopup.ir^$popup,popunder
 ||chromextension.site^$third-party,popup,popunder
 ||libedgolart.com^$third-party,popup,popunder
 ||go.schjmp.com^$third-party,popup,popunder
@@ -405,9 +407,9 @@ fastpic.ru#@#[id*="adblock-"]
 ||placehold.it^$third-party
 ||bing.com/aclick?ld=$third-party,popup,popunder
 ||search.yahoo.com/cbclk/$third-party,popup,popunder
-||add0n.com/feedback.html$third-party,popup,popunder
-||add0n.com/*.html?*&type=install$third-party,popup,popunder
-||adblockplus.org/en/uninstalled$third-party,popup,popunder
+||add0n.com/feedback.html$popup,popunder
+||add0n.com/*.html?*&type=install$popup,popunder
+||adblockplus.org/*/uninstalled$popup,popunder
 ||ellads.com^$third-party
 ||yoast.com^$third-party
 ||realsrv.com^$third-party,popup,popunder
@@ -432,9 +434,9 @@ fastpic.ru#@#[id*="adblock-"]
 ||z3dmbpl6309s.com^$third-party,popup,popunder
 ||whatsyourflower.com^$third-party,popup,popunder
 ||inside-elections.com^$third-party
-||exosrv.com^$third-party,popup,popunder
+||exosrv.com^$popup,popunder
 ||soadvr.com^$third-party,popup,popunder
-||cam4tracking.com^$third-party,popup,popunder
+||cam4tracking.com^$popup,popunder
 ||adxite.com^$third-party,popup,popunder
 ||somecdn.bid^$third-party,popup,popunder
 ||visitstats.com^$third-party,popup,popunder
@@ -451,7 +453,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||pornstarapex.com^$third-party,popup,popunder
 ||funwarcab.club^$third-party,popup,popunder
 ||phoenixnewtimes.com^$inline-script
-||exdynsrv.com^$third-party,popup,popunder
+||exdynsrv.com^$popup,popunder
 ||propbn.com^$third-party,popup,popunder
 ||misdoers.com^$third-party
 ||cckefu.com^$third-party
@@ -479,8 +481,8 @@ fastpic.ru#@#[id*="adblock-"]
 ||floatplane.com$websocket
 ||freeonlinegames.win$third-party
 ||epnt.ebay.com$third-party
-||exoclick.com$third-party,popup,popunder
-||doublepimp.com^$third-party,popup,popunder
+||exoclick.com$popup,popunder
+||doublepimp.com^$popup,popunder
 ||us.to^$third-party
 ||uw.hu^$third-party
 ||geolocation.com^$third-party
@@ -494,16 +496,16 @@ fastpic.ru#@#[id*="adblock-"]
 ||sexad.com^$popup,popuner
 ||sexy-counter.com^$third-party
 ||sevenporn.com^$third-party,popup,popunder
-||sexad.net^$third-party,popup,popunder
-||reasonporn.com^$third-party,popup,popunder
+||sexad.net^$popup,popunder
+||reasonporn.com^$popunder
 ||pornoneverdie.com^$third-party
 ||producthunt.com^$third-party
-||prpopss.com^$third-party,popup,popunder
+||prpopss.com^$popunder
 ||panokaverit.com^$third-party
 ||panotreffit.com^$third-party
-||pornoslices.com^$third-party,popup,popunder
-||pornjacket.com^$third-party,popup,popunder
-||pornnewspaper.com^$third-party,popup,popunder
+||pornoslices.com^$popunder
+||pornjacket.com^$popunder
+||pornnewspaper.com^$popunder
 ||nydus.org^$third-party
 ||7-7-7-partner.com^$third-party
 ||777-partner.com^$third-party
@@ -518,6 +520,15 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||instana.io^
+||crowdtwist.com^
+||listrak.com^
+||smetrics.abercrombie.com^
+||d2o5idwacg3gyw.cloudfront.net^
+||nko5k1.us^
+||instawhore.net^
+||instateens.net^
+||hotxnancy69.us^
 ||ace393b21ee552.com^
 ||1869bd07900.com^
 ||xclofrfa.com^
@@ -7008,7 +7019,6 @@ about:blank$third-party
 ||xkee.com^
 ||bigjoygame.com^
 ||qkiz.com^
-||contentstack.io^
 ||machinify.com^
 ||iperceptions.com^
 ||instabug.com^
@@ -9062,7 +9072,6 @@ about:blank$third-party
 ||submissionplatform.com^
 ||plavxml.com^
 ||par2.he.net^
-||powerreviews.com^
 ||trendemon.com^
 ||profitfromfreeads.com^
 ||pa.tool.domains^
@@ -9224,7 +9233,6 @@ about:blank$third-party
 ||piano.io^
 ||propellerads.com^
 ||pixel.facebook.com^
-||wistia.com^
 ||pingdom.net^
 ||popads.media^
 ||parkingcrew.net^
@@ -12905,6 +12913,7 @@ rekoroyun.com##[class*="reklam-"]
 gemini.com###cookiePolicyAgreement
 ledger.com##.cookie-notice-container
 quizlet.com##.StudyValueUpsellModal, .UIModal-backdrop, [class*="embeddedDesktopAdz"]
+westernjournal.com###firefly-poll-container
 
 !--------------------
 ! End Element Hiding |
