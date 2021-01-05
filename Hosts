@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1375
+! Version: 1376
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -12546,11 +12546,12 @@ about:blank$third-party
 !----------------------
 
 youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, .ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier, [class*="-promo-"]
-youtube.com###chat:has-text(Chat Replay is disabled for this Premiere.)
-youtube.com##.ytd-rich-section-renderer.style-scope:has-text(Featured)
-youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:has-text(Buy)
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
-youtube.com##.ytd-popup-container.style-scope:has-text(Got it)
+youtube.com###chat:-abp-contains(Chat Replay is disabled for this Premiere.)
+youtube.com##.ytd-rich-section-renderer.style-scope:-abp-contains(Featured)
+youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:-abp-contains(Buy)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1):-abp-contains(Ad)
+youtube.com##.ytd-popup-container.style-scope:-abp-contains(Got it)
+youtube.com###contents > ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:--abp-contains(/breaking news/i)
 google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
 yahoo.com/_td_api/beacon/
 yahoo.com/_td_api?_appletType=viewer
@@ -12658,7 +12659,7 @@ armslist.com##.sponsor-frame
 minehut.com##.v-snack__content
 spanishdict.com##.ReactModal__Overlay, #adTopLarge
 thefirearmblog.com##.ad, #nmadtext, .entry-content > form
-pornhub.com##.alpha.sniperModeEngaged, .abovePlayer, #welcome, src*="phncdn.com/iframe-"], #videoCategory > deicc.alpha:first-child, [class*="adContainer"], [class*="AdContainer"]
+pornhub.com##.adsbytrafficjunky, .sponsor-text, .alpha.sniperModeEngaged, .abovePlayer, #welcome, src*="phncdn.com/iframe-"], #videoCategory > deicc.alpha:first-child, [class*="adContainer"], [class*="AdContainer"]
 open.spotify.com###leaderboard-ad-element
 gamejolt.com##.cookie-banner
 noblogs.org##.cookiebanner
@@ -12683,8 +12684,8 @@ arkoselabs.com###cookiecontentbox
 portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-header.td-header-row.td-container-header
 abc.net.au##[class*="OneN"]
 roblox.com##[src*="roblox.com/user-sponsorship/"]
-roblox.com##.left-col-list > .text-nav.small.font-bold:has-text(Events)
-roblox.com##li.game-tile.game-card:has-text(Sponsored Ad)
+roblox.com##.left-col-list > .text-nav.small.font-bold:-abp-contains(Events)
+roblox.com##li.game-tile.game-card:-abp-contains(Sponsored Ad)
 roblox.com##.push-notifications-prompt-content, .push-notifications-global-prompt-site-wide-body, .rbx-nav-sponsor
 urbandictionary.com##div[data-lazy-ad="false"]
 medicalnewstoday.com##aside[class*="css-"]
@@ -12702,13 +12703,11 @@ reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
 alotporn.com##.table > .opt:upward(1)
 songmeanings.com##[class*="Container_ATF"]
 fapster.xxx##[href*="t.frtyz.com"]:upward(2)
-donkparty.com##.updates > li:has-text(/humoron.com|twistedporn.com/)
+donkparty.com##.updates > li:-abp-contains(/humoron\.com|twistedporn\.com/)
 dato.porn##div.opt:upward(1)
 chron.com###ctpl-fullbanner1
 energysage.com###triggered-banner
-wikihow.com###contribute_footer:has-text(/ad blocker/i)
-amazon.com##[id*="CardInstance"]:has-text(/Advert/i):upward(4)
-amazon.com##.s-widget.s-border-bottom-none.s-flex-full-width.s-result-item.a-spacing-none.a-section:has-text(Price and other details may vary based on)
+wikihow.com###contribute_footer:-abp-contains(/ad blocker/i)
 dailycaller.com##.adcontainer
 nypost.com##.nyp-sitewide-notice
 business.windstream.com###ws-qual-form-modal-container
@@ -12719,9 +12718,7 @@ brighthubeducation.com##.ezo_ad
 google.com###taw
 google.com###tvcap
 mbl.is##[id*="slot-"] > iframe
-amazon.com##.sbx_td
-amazon.com##.rush-component > .rush-component:has-text(Sponsored)
-music.amazon.com##.active.barker
+amazon.com##.rush-component > .rush-component:-abp-contains(Sponsored)
 news.sky.com###leaderboard
 thesun.co.uk##div.widget-height
 mirror.co.uk##.top-slot.gpt
@@ -12830,7 +12827,7 @@ appuals.com##.iubenda-cs-content
 howtogeek.com##.email-overlay, .overlay-wrapper, [id*="purch_"]
 cox.com##.cookie-notice-container
 imore.com##.header-top-alert-bar.block-block.block, [class*="adunit-"]
-imore.com##.sidebar__section--shrink.sidebar__section:has-text(/(keep in touch|sign me up)/i)
+imore.com##.sidebar__section--shrink.sidebar__section:-abp-contains(/(keep in touch|sign me up)/i)
 analyticsinsight.net##[class*="-cookies-"]
 stevessmarthomeguide.com##.custom-html-widget.textwidget, .clearfix.container.header-main, [id*="custom_html"], [class*="email-subscribers"]
 familyinternetideas.net##.ICON.BOTTOM[class*="cookie-banner"]
@@ -12844,15 +12841,15 @@ mediafire.com##.CookieAcceptance
 news.thecameroontoday.com##.adsbygoogle
 techscammersunited.com##.cc-window
 rebelnews.com##.analytics-consent
-theblaze.com##.image-article.clearfix:has-text(Sponsored):upward(2)
-theblaze.com##.tab-styled-body:has-text(/get important news/i):upward(1)
+theblaze.com##.image-article.clearfix:-abp-contains(Sponsored):upward(2)
+theblaze.com##.tab-styled-body:-abp-contains(/get important news/i):upward(1)
 theblaze.com##.widget-black-premium
-thelocal.dk##div.section:has-text(/sponsored/i)
+thelocal.dk##div.section:-abp-contains(/sponsored/i)
 thelocal.dk##.ad_container, [id*="promo"]
 wetter.com##.slideout-panel-left.slideout-panel > .pb--.app-layout, #aug-index > div.pb--.app-layout, #lobster
 euractiv.com##.cookie-law-bar-transition-bottom, #contribs_banner
-euractiv.com##h6:has-text(Advertisement)
-sourcerer.io##.visible.bottom-bar:has-text(Create your Sourcerer profile)
+euractiv.com##h6:-abp-contains(Advertisement)
+sourcerer.io##.visible.bottom-bar:-abp-contains(Create your Sourcerer profile)
 snapcraft.io##.p-notification--cookie-policy
 mail.yahoo.com###modal-outer
 dnspod.com##.tea-news
@@ -12876,7 +12873,7 @@ a38.hu##.cc-bottom
 tapatalk.com###pp_b
 mywot.com##[class*="CookiesConsent"]
 hazipatika.com##.bb-inner, .cikk-toplista, .advtxt
-digitalocean.com##[class*="_panel_"]:has-text(cookies)
+digitalocean.com##[class*="_panel_"]:-abp-contains(cookies)
 home.neustar##.cookie-message
 blokt.com###cookie-law-info-bar
 mail.yahoo.com##a[href*="gemini.yahoo.com"]
@@ -13866,20 +13863,20 @@ adobe-analytics$domain=~flickr.com
 _right_ads.php
 _left_ads.php
 _statsonlineinfo
-*#?#a:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#p:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h1:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h2:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h3:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h4:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h5:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*#?#h6:has-text(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
-*##div.sticky-container:has-text(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)/i)
-*##div.content_aside:has-text(/advert/i)
-*##.outer-item:has-text(/advert/i)
-*###side_content:has-text(/advert/i)
-*##.caption:has-text(/advert/i)
-*###modal-outer:has-text(/unblock ads/i)
+#?#a:-abp-contains(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#p:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h1:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h2:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h3:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h4:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h5:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+#?#h6:-abp-contains(/ad(vert|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)?s (by)|remove ads|reklama|sponsored (content|stories|links by)/i)
+##div.sticky-container:-abp-contains(/ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)/i)
+##div.content_aside:-abp-contains(/advert/i)
+##.outer-item:-abp-contains(/advert/i)
+###side_content:-abp-contains(/advert/i)
+##.caption:-abp-contains(/advert/i)
+###modal-outer:-abp-contains(/unblock ads/i)
 ##[data-ads-type]
 ##[data-ad="true"]
 ##[data-empty="true"]
@@ -14576,6 +14573,7 @@ _statsonlineinfo
 @@||proprofs.com^$cookie
 @@||blueforcegear.com$cookie
 @@||linkedin.com$cookie
+@@||accounts.youtube.com^$stealth
 
 ! HTML/Script Blocking
 $$amp-ad
