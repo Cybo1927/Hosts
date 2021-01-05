@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1377
+! Version: 1378
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -14705,7 +14705,7 @@ google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google
 ||eastunionschools.org^$cookie
 ||highwebmedia.com^$cookie
 ! These cookies track all around the web
-youtube.com$cookie=/.+/;samesite=strict,domain=~accounts.google.com
+youtube.com$cookie=/.+/;samesite=strict,domain=~accounts.google.com|~google.com|~youtube.com
 ! Can Get You Unlimited Free Answers
 brainly.com$cookie=/Zadanepl_cookie.{0,}/
 ! End Anti Tracking Cookies
