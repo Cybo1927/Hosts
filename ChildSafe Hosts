@@ -1,13 +1,17 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 19:thu-dec-31-20
+! Version: 20
+! Last updated: Wednesday, January 6, 2021
+
+! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 
 !-------------------
 ! Begin Pornography |
 !-------------------
 
-/(porn|xvideo|nude|cum|babe|slut|orgasm|strip|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|trans|thot|xxx|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore)/
+/(porn|xvideo|nude|cum|babe|slut|orgasm|strip|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|trans|thot|xxx|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore|pervert|smut|seuality|taboo|jerk|twerk|clit|pussy|18yo|19yo|hdsex|sexhd|rape|erotic|fetish|cocks|fap)/
+/(\.sex$|\.sexy$|\.porn$|\.bj$|\.singles$|\.lgbt$|\.gay$)/
 
 ||instateens.net^
 ||nko5k1.us^
@@ -35,7 +39,6 @@
 ||pump-cdn.com^
 ||alohatube.com^
 ||maturetube.com^
-||tubev.sex^
 ||4tube.com^
 ||xd-cdn.com^
 ||shameless.com^
@@ -56,7 +59,6 @@
 ||good-cdn.com^
 ||badjojo.com^
 ||findtubes.com^
-||jerkmate.com^
 ||sexedchat.com^
 ||luckycrush.live^
 ||firecams.com^
@@ -92,7 +94,6 @@
 ||hottiesvr.com^
 ||girlsdocam.com^
 ||justusboys.com^
-||pussytorrents.org^
 ||barelist.com^
 ||kindgirls.com^
 ||bellesa.co^
@@ -108,20 +109,16 @@
 ||nutaku.com^
 ||gamcore.com^
 ||gamesofdesire.com^
-||jerkdolls.com^
 ||hooligapps.com^
 ||townofsins.com^
 ||cuntempire.com^
 ||lustcase.com^
-||faptitans.com^
-||smutstone.com^
 ||cuntwars.com^
 ||digitalplaygroundnetwork.com^
 ||mofosnetwork.com^
 ||twistysnetwork.com^
 ||bangbrosnetwork.com^
 ||21sextury.com^
-||puretaboo.com^
 ||nubiles.net^
 ||dorcelclub.com^
 ||freelocalsex.net^
@@ -174,7 +171,6 @@
 ||ebar.com^
 ||bestlovesexdoll.com^
 ||bravotube.tv^
-||fap18.net^
 ||cdn.tax^
 ||befuck.net^
 ||4ksex.me^
@@ -183,7 +179,6 @@
 ||18abused.com^
 ||love2lick.com^
 ||wiz69.com^
-||fapvid.net^
 ||bigvideo.net^
 ||videohd.net^
 ||vid18.net^
@@ -192,7 +187,6 @@
 ||vid123.net^
 ||clip.today^
 ||tubegalore.tv^
-||fapvid.me^
 ||tube18.biz^
 ||tube2000.com^
 ||redwap.tv^
@@ -208,7 +202,6 @@
 ||lilhumpers.com^
 ||czechsexcasting.com^
 ||realityjunkies.com^
-||teenslovehugecocks.com^
 ||project1content.com^
 ||lezdombliss.com^
 ||faketaxi.com^
@@ -217,7 +210,6 @@
 ||redtube.com^
 ||rdtcdn.com^
 ||tubebrother.com^
-||lechepussy.com^
 ||atubex.com^
 ||finepov.com^
 ||bodgirls.com^
@@ -291,8 +283,6 @@
 ||freeones.it^
 ||freeones.com^
 ||phica.net^
-||eroticatale.com^
-||eroticastory.ca^
 ||littlesexdolls.com^
 ||vrconk.com^
 ||psmcdn.net^
@@ -336,20 +326,14 @@
 ||burningcamel.com^
 ||czechcasting.com^
 ||mofos.com^
-||adult-bondage-fetish.com^
 ||forbondage.com^
-||fetish-island.com^
-||smutty.com^
 ||specialfeetforce.com^
 ||thefeethunter.com^
-||bestfootfetishtube.com^
 ||footadoration.com^
-||footfetishcuties.com^
 ||stocking-tease.com^
 ||feet9.com^
 ||livelemon.com^
 ||crazyaboutfeet.com^
-||stockingfetishvideo.com^
 ||petite18.com^
 ||18yearsold.com^
 ||innocenthigh.com^
@@ -378,7 +362,6 @@
 ||hornier.cc^
 ||sxyprn.com^
 ||yps.link^
-||pussyspace.com^
 ||brazzerscontent.com^
 ||beeg.com^
 ||xxbrits.com^
@@ -422,7 +405,6 @@
 ||evilx.su^
 ||celebjihad.com^
 ||jihadcelebs.com^
-||thefappeningblog.com^
 ||celebjihad.ltd^
 ||celebwebs.com^
 ||celebmasta.com^
@@ -441,7 +423,6 @@
 ||datoons.com^
 ||silvercartoon.com^
 ||porzo.com^
-||hdsex.info^
 ||dogsexzoo.fun^
 ||fuckanime.net^
 ||ilikecomix.io^
@@ -463,7 +444,6 @@
 ||svs-games.com^
 ||svscomics.com^
 ||linkshit.com^
-||smutxx.com^
 ||jabcomix.com^
 ||insane3d.com^
 ||toonpass.com^
@@ -478,12 +458,8 @@
 ||crazyshit.com^
 ||bigfuck.tv^
 ||zzztube.com^
-||teengirlerotica.com^
 ||18andabused.pro^
 ||xxnx.name^
-||fapnado.com^
-||mywetpussycams.com^
-||fapcat.com^
 ||in35.com^
 ||amateurest.com^
 ||xxvids.net^
@@ -492,7 +468,6 @@
 ||bigboobbettys.com^
 ||lechetube.com^
 ||adultdeepfakes.com^
-||lebonfap.com^
 ||viptube.com^
 ||fuqer.com^
 ||punishworld.com^
@@ -513,15 +488,12 @@
 ||jacquieetmichel.net^
 ||thisvid.com^
 ||ebony8.com^
-||thebestfetishsites.com^
-||pussyanna.com^
 ||hot1sex.com^
 ||lewdchat.com^
 ||mylust.com^
 ||cdn13.com^
 ||maturesimages.com^
 ||lewd7.com^
-||imagefap.com^
 ||onlysenpai.com^
 ||teenager365.com^
 ||7feel.net^
@@ -529,7 +501,6 @@
 ||sexcdn.net^
 ||fantasticwomans.com^
 ||crazygrannypics.com^
-||bravoerotica.com^
 ||lewdstars.com^
 ||lewdgamer.com^
 ||cospixy.com^
@@ -539,7 +510,6 @@
 ||celebritygossips.co^
 ||nudostar.com^
 ||schaken-mods.com^
-||fapdungeon.com^
 ||cliptrend.com^
 ||famousinternetgirls.com^
 ||erome.com^
@@ -548,7 +518,6 @@
 ||flingswipe.com^
 ||shesfreaky.com^
 ||lewdweb.net^
-||fappinghd.com^
 ||leakedpie.com^
 ||famousinternetgirlsgalleries.com^
 ||creepshots.org^
@@ -588,10 +557,8 @@
 ||redcamtube.com^
 ||tumbex.com^
 ||teenswithbigtits.com^
-||botfap.com^
 ||yummyteens.net^
 ||erosberry.com^
-||thefappening.wiki^
 ||nucelebs.com^
 ||oregonleatherboy.com^
 ||adultdb.com^
@@ -619,7 +586,6 @@
 ||xzoohamster.com^
 ||greybison.com^
 ||greystatic.com^
-||youngpussy.pics^
 ||sexhotpictures.net^
 ||blackcockhunger.com^
 ||agedlust.com^
@@ -632,20 +598,16 @@
 ||onlyasianmovies.net^
 ||eastorgies.com^
 ||japansvids.com^
-||pervertasian.com^
 ||asianhub.net^
 ||sultrymovies.com^
 ||loveamateurfacials.com^
 ||toxamedia.com^
 ||dirtyhomemadevideo.com^
 ||goldencdn.com^
-||sexhdtuber.com^
 ||mybeautyteen.com^
 ||uhfuck.com^
 ||brbpics.com^
-||pervertedmothers.com^
 ||egovids.com^
-||literotica.com^
 ||olderia.com^
 ||agedflowers.com^
 ||spankbang.com.es^
@@ -655,8 +617,6 @@
 ||wifebucket.com^
 ||wifebucket.net^
 ||asianhamster.com^
-||interracialsexhd.com^
-||asianrape.net^
 ||wifesthumbs.com^
 ||homemadempegs.com^
 ||viewmature.com^
@@ -666,7 +626,6 @@
 ||gfpicsforfree.com^
 ||letstry69.xyz^
 ||ritzysex.com^
-||asianwifepussy.com^
 ||playvids.com^
 ||fuckpicsfree.com^
 ||hornbunny.com^
@@ -675,7 +634,6 @@
 ||fwtrck.com^
 ||iwantclips.com^
 ||womanolder.com^
-||fapality.com^
 ||femefun.com^
 ||xcafe.com^
 ||flyflv.com^
@@ -683,8 +641,6 @@
 ||socialmediagirls.com^
 ||ancensored.com^
 ||ancensoredcdn2.xyz^
-||thefappeningnew.com^
-||thefappening.pro^
 ||your-persona.ru^
 ||i-gangbang.com^
 ||furaffinity.net^
@@ -700,29 +656,23 @@
 ||teenssun.com^
 ||veryteensex.com^
 ||reallifecam.com^
-||18yo.pro^
 ||18sextube.net^
 ||thumb18.com^
-||18eroticteen.com^
 ||nu-bay.com^
 ||18boyz.com^
 ||twinkybf.com^
 ||18girlssex.com^
-||tube18.sex^
 ||cashvideotube.com^
 ||livetubez.com^
 ||18teenvid.com^
 ||scrolller.com^
 ||indecent18.com^
 ||amateurgirlspictures.com^
-||hdsex18.com^
 ||wtfpass.com^
 ||teen4love.com^
-||18yocuties.com^
 ||hqtoplist.com^
 ||innocentpeaches.com^
 ||nichehit.net^
-||baldyoungpussy.com^
 ||smallteentits.net^
 ||cutennteens.com^
 ||niceteenmodels.com^
@@ -759,16 +709,13 @@
 ||kittiescollection.com^
 ||teenseuro.com^
 ||youngandyoungest.net^
-||picsforperverts.com^
 ||darknetdolls.top^
-||tinyclits.net^
 ||sweet-little-angels.net^
 ||youngestphotos.com^
 ||minitits.net^
 ||timidyounggirls.net^
 ||hairless-russian-teens.net^
 ||smallundies.com^
-||minipussy.net^
 ||younygirls.com^
 ||youngwhisky.top^
 ||softcorelist.com^
@@ -781,7 +728,6 @@
 ||kikfriender.com^
 ||lil18.com^
 ||pilssken.booru.org^
-||fappeningsauce.com^
 ||hqbutt.com^
 ||webclicks24.com^
 ||metart.com^
@@ -793,7 +739,6 @@
 ||tiny-titz.com^
 ||rgsex.com^
 ||joombie.com^
-||swapsmut.com^
 ||ebony-beauty.com^
 ||hotblackfuck.com^
 ||sexecherche.com^
@@ -805,12 +750,10 @@
 ||sexcartoontube.com^
 ||adultgamestop.com^
 ||rips.icu^
-||wetpussygames.com^
 ||odir.org^
 ||juicygif.com^
 ||animesexclip.com^
 ||cartoonseximages.com^
-||3dpervert.com^
 ||its2.net^
 ||biguz.net^
 ||xanimehub.com^
@@ -848,24 +791,18 @@
 ||redwap.xyz^
 ||redwap2.com^
 ||upicsz.com^
-||besthugecocks.com^
 ||d-serv.net^
 ||cdn19.com^
 ||em-player.com^
 ||xhamster.desi^
 ||xnxx.es^
 ||cafesex.net^
-||smutr.com^
-||twerkqueens.com^
 ||rolotube.com^
-||letmejerk.com^
 ||dirtyship.com^
 ||ytboob.com^
-||fappeninghd.com^
 ||sexpicturespass.com^
 ||blackbuttpictures.com^
 ||blackgirlspictures.net^
-||blackteenspussy.net^
 ||blacktitspictures.com^
 ||damcdn.net^
 ||domainprofi.de^
@@ -884,7 +821,6 @@
 ||dikoross.ru^
 ||reblop.com^
 ||pincelebs.net^
-||fappeningbook.com^
 ||kompoz2.com^
 ||kompoz.me^
 ||mashable.com^
@@ -940,7 +876,6 @@
 ||blacked.com^
 ||thisav.com^
 ||ps0z.com^
-||hdsex.org^
 ||ivxo.com^
 ||iwank.tv^
 ||adultsites.co^
@@ -1101,6 +1036,13 @@
 ||htvncdn.net^
 ||hgamecg.com^
 ||loytube.com^
+||ozeex.com^
+||bizarresextube.net^
+||abnormalextreme.com^
+||free-farmsex.com^
+||heyzoo.net^
+||flagmantube.com^
+||jemtube.com^
 
 ! NewGrounds
 ||alekerectsociety.newgrounds.com^
@@ -1188,7 +1130,6 @@
 ||adams2336.tumblr.com^
 ||ng4w.tumblr.com^
 ||bredanaar79.tumblr.com^
-||thefunnypervert.tumblr.com^
 ||astonishingfamilies.tumblr.com^
 ||haikyuuknbaescenarios.tumblr.com^
 ||naughtyfandom.tumblr.com^
