@@ -1,11 +1,12 @@
 ! Title: Cybo's Anti Microsoft
 ! Description: Block all known Microsoft domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 17
+! Version: 18
 
 ! Block Microsoft and their services
 
 ||microsoft.com^
+||sharepointonline.com^
 ||onecs-live.azureedge.net^
 ||onenote.net^
 ||msedge.net^
