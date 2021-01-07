@@ -11,6 +11,6 @@ sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
 #DoH Standard 2
 sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
 # AdGuard
-#DoH
-sdns://AgcAAAAAAAAAAAAPZG5zLmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
-[/textsecure-service.whispersystems.org/]sdns://AgcAAAAAAAAAAAAPZG5zLmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
+#DoQ
+quic://dns.adguard.com
+[/textsecure-service.whispersystems.org/]quic://dns.adguard.com
