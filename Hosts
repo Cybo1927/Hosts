@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1379
+! Version: 1380
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -518,6 +518,9 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||analytics.app.lucidchart.com^
+||aptrinsic.com^
+||getsentry.com^
 ||adoperatorcore.com^
 ||kqzyfj.com^
 ||whittakercdn.xyz^
@@ -14593,10 +14596,8 @@ $$script[tag-content="(clickInfo).track"]
 $$script[tag-content="TiaraTracker.getInstance()"]
 $$script[tag-content="pixelUrl"]
 $$script[tag-content="eulerian_"]
-$$script[tag-content="GoogleAnalyticsObject"]
 $$script[tag-content="sendAnalytic"]
 $$script[tag-content="pixelFor"]
-$$script[tag-content="ClickTracking"]
 $$script[tag-content="trackLinks"]
 $$script[tag-content="get_country"]
 $$script[tag-content="gascroll"]
@@ -14817,10 +14818,8 @@ youtube.com#@#body { overflow:visible!important; }
 *##^script:has-text(TiaraTracker.getInstance())
 *##^script:has-text(pixelUrl)
 *##^script:has-text(eulerian_)
-*##^script:has-text(GoogleAnalyticsObject)
 *##^script:has-text(sendAnalytic)
 *##^script:has-text(pixelFor)
-*##^script:has-text(ClickTracking)
 *##^script:has-text(trackLinks)
 *##^script:has-text(get_country)
 *##^script:has-text(gascroll)
@@ -15122,3 +15121,6 @@ google.$removeparam=ei|uact|sclient|gs_lcp|oq|ved
 
 !#endif
 !#endif
+
+! AdGuard Home
+@@||pi.pardot.com$dnstype=CNAME
