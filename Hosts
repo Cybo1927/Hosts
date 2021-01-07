@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1378
+! Version: 1379
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -118,7 +118,7 @@ fastpic.ru#@#[id*="adblock-"]
 ! RegEX Stuffs
 /^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
-/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org|~github.com|~gitlab.com|~login.live.com,important
+/[&]platform[=][a-zA-Z]/$domain=~spotify.com|~translate.yandex.com|~voicetech.yandex.net|~addons.mozilla.org|~github.com|~gitlab.com|~login.live.com|~rewards.brave.com,important
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 /\/lander\.php(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+/$document,popup,popunder
 /[a-z0-9]{15,15}(e997c60ac8a4ec150-)[0-9]+\.(eu-).+\.(amazonaws)./$all
@@ -518,6 +518,12 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||adoperatorcore.com^
+||kqzyfj.com^
+||whittakercdn.xyz^
+||ueaggress.top^
+||miesobserv.fun^
+||happierleads.com^
 ||vercel-insights.com^
 ||laptop-updates.brave.com^
 ||instana.io^
@@ -12923,7 +12929,7 @@ westernjournal.com###firefly-poll-container
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 $ping
-*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com
+*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
 */ga.php?
 */analytics_ads
@@ -14576,6 +14582,7 @@ _statsonlineinfo
 @@||accounts.youtube.com^$stealth
 @@||myaccount.google.com^$stealth
 @@||accounts.google.com^$stealth
+@@||nextdns.io^$stealth
 
 ! HTML/Script Blocking
 $$amp-ad
@@ -14643,6 +14650,7 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+||steamstatic.com^$cookie=__cfduid
 ||mediacnt.com^$cookie
 ||sendlane.com^$cookie
 ||fontawesome.com^$cookie
@@ -14786,6 +14794,9 @@ youtube.com#@#body { overflow:visible!important; }
 213.87.44.182$network,app=chrome.exe
 23.67.243.219$network,app=firefox.exe
 ||d2u1q3j7uk6p0t.cloudfront.net^$app=Bluestacks.exe
+||steampowered.com:*/cmping/$app=steam.exe
+||steamcdn-a.akamaihd.net/client/steam_client_win32$app=steam.exe
+||*.cm.steampowered.com:27035/cmsocket^$app=steam.exe
 
 !#endif
 !#endif
