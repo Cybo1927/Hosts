@@ -1,8 +1,8 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 20
-! Last updated: Wednesday, January 6, 2021
+! Version: 21
+! Last updated: Friday, January 8, 2021
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 
@@ -1200,8 +1200,12 @@
 ! Begin Bypass Methods |
 !----------------------
 
-/(torrent|piratebay|pirate-bay|pirates-bay|proxy|vpn|unblock)/$dnstype=~CNAME
+/(torrent|piratebay|pirate-bay|pirates-bay|vpn|unblock)/
+/(proxy)/$dnstype=~CNAME
 
+||whonix.org^
+||qubes-os.org^
+||parrotsec.org^
 ||messages.google.com^
 ||rocketfiles.com^
 ||softx64.com^
@@ -1295,6 +1299,30 @@
 ||onion.to^
 ||onion.ws^
 ||torproject.org^
+
+! Unknown/unsupported search engines for safesearch
+
+/searx\..+/
+
+||searx.me^
+||searx.space^
+||searx.ru^
+||searx.ch^
+||swisscows.com^
+||metager.org^
+||acestream.me^
+||dogpile.com^
+||qwant.com^
+||search.aol.com^
+||search.yahoo.com^
+||startpage.com^
+||boomle.com^
+||gibiru.com^
+||gigablast.com^
+||lukol.com^
+||mojeek.com^
+||searchencrypt.com^
+||yippy.com^
 
 !--------------------
 ! End Bypass Methods |
