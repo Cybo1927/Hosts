@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1380
+! Version: 1381
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -188,6 +188,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||iubenda.com^$third-party
 ||instawhore.net^$popup,popunder
 ||instateens.net^$popup,popunder
 ||easyadblocker.com^$third-party
@@ -518,6 +519,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||analytics.trovit.com^
+||msmetrics-test.ws.sonos.com^
 ||analytics.app.lucidchart.com^
 ||aptrinsic.com^
 ||getsentry.com^
@@ -6352,7 +6355,6 @@ about:blank$third-party
 ||freecontent.loan^
 ||freecontent.racing^
 ||freecontent.win^
-||flocdn.com^
 ||fuckadblock.sitexw.fr^
 ||foxurl.net^
 ||freebytecoin.cf^
@@ -12430,7 +12432,6 @@ about:blank$third-party
 ||yahoo.com/admax/
 ||mail.yahoo.com/psearch/v*/recentSearches?&
 ||github.com/notifications/beacon/
-||d*.cloudfront.net/script.js
 ||macromedia.com/images/pixel.gif
 ||duckduckgo.com/t/
 ||a.wattpad.com/js/tracker/
@@ -12545,6 +12546,7 @@ about:blank$third-party
 ||pinterest.com/*/count.json$third-party
 ||amazonaws.com/bitsound.*.*
 ||facebook.net/*/fbevents.js
+||combo.staticflickr.com/*/hermes-template-photo-ad-page/
 
 !--------------
 ! End Blocking |
@@ -12681,7 +12683,7 @@ sedo.com##.cookie-notice
 maserati.com###cookieAlert
 translate.google.com##.notification-container.tlid-notification-container
 flickr.com##.photo-page-m-container, .head-banner-style.basic-banner, has-global-nav.photo-page-ad-scrappy-view, .fluid-modal-overlay, .flickr-view-root-view.fluid-modal-view.view
-||combo.staticflickr.com/*/hermes-template-photo-ad-page/
+bitchute.com##.advert-container
 answers.yahoo.com##[class*="answersListLoginBanner"], [class*="joinAnswersBanner"]
 yahoo.com##[class*="darla"], [class*="promotedClaim"], [class*="-ad-"], [id*="PageLRECClean"], [id*="sda-"]
 tvn.pl###rodoLayer, #msgLayer > div
@@ -15117,7 +15119,9 @@ google.$queryprune=ei|uact|sclient|gs_lcp|oq|ved
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_name|package_name|app_version_name|app_version_code|orientation_lock|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
-google.$removeparam=ei|uact|sclient|gs_lcp|oq|ved
+||google.^$removeparam=ei|uact|sclient|gs_lcp|oq|ved
+||bitdefender.com/box/blog$removeparam=/.+/
+||bitdefender.com/blog$removeparam=/.+/
 
 !#endif
 !#endif
