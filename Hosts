@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1382
+! Version: 1383
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -5380,7 +5380,6 @@ about:blank$third-party
 ||awesomeads.us^
 ||cv-ph.rdtcdn.com^
 ||csi.gstatic.com^
-||cello.client-channel.google.com^
 ||cpanel-dc1.proxpn.com^
 ||cj.com^
 ||consent.theneweuropean.co.uk^
@@ -5503,7 +5502,6 @@ about:blank$third-party
 ||china-netwave.com^
 ||clickmedias.info^
 ||consensu.org^
-||client-channel.google.com.au^
 ||clientmetrics-pa.googleapis.com^
 ||countess.twitch.tv^
 ||client-event-reporter.twitch.tv^
@@ -6720,7 +6718,6 @@ about:blank$third-party
 ||hscta.net^
 ||staticstuff.net^
 ||help.com^
-||hr.client-channel.google.com^
 ||hb.lifecycle.norton.com^
 ||html5shiv.googlecode.com^
 ||helpinghandinternetmarketing.com^
@@ -12545,6 +12542,7 @@ about:blank$third-party
 ||amazonaws.com/bitsound.*.*
 ||facebook.net/*/fbevents.js
 ||combo.staticflickr.com/*/hermes-template-photo-ad-page/
+||pornhub.com/svvt/add?
 
 !--------------
 ! End Blocking |
@@ -12668,7 +12666,7 @@ armslist.com##.sponsor-frame
 minehut.com##.v-snack__content
 spanishdict.com##.ReactModal__Overlay, #adTopLarge
 thefirearmblog.com##.ad, #nmadtext, .entry-content > form
-pornhub.com##.adsbytrafficjunky, .sponsor-text, .alpha.sniperModeEngaged, .abovePlayer, #welcome, src*="phncdn.com/iframe-"], #videoCategory > deicc.alpha:first-child, [class*="adContainer"], [class*="AdContainer"]
+pornhub.com##.adsbytrafficjunky, .sniperModeEngaged, #pb_block, .underplayerAd, ins.adsbytrafficjunky, a[href*="ads.trafficjunky.net"], a[href*="livehdcams.com"]
 open.spotify.com###leaderboard-ad-element
 gamejolt.com##.cookie-banner
 noblogs.org##.cookiebanner
@@ -12686,8 +12684,8 @@ answers.yahoo.com##[class*="answersListLoginBanner"], [class*="joinAnswersBanner
 yahoo.com##[class*="darla"], [class*="promotedClaim"], [class*="-ad-"], [id*="PageLRECClean"], [id*="sda-"]
 tvn.pl###rodoLayer, #msgLayer > div
 reddit.com##[data-before-content*="advertisement"], [class*="_2"]:nth-of-type(2) > [class*="_1"], [class*="_2"]:nth-of-type(3) > [class*="_1"]
-celeb.gate.cc##[href*="goo.gl"]
-dl-android.com##[href*="/apps/azio-player[dlandroid.com].apk"]
+celeb.gate.cc##a[href*="goo.gl"]
+dl-android.com##a[href*="/apps/azio-player[dlandroid.com].apk"]
 metrolyrics.com##.related-container, .driver-related
 arkoselabs.com###cookiecontentbox
 portcitydaily.com##.td-header-sp-logoleft, .td-header-sp-logoright, .td-header-header.td-header-row.td-container-header
@@ -12711,7 +12709,7 @@ anysex.com##.no_pop.center, .content_right > .no_pop, .clear_both
 reddit.com##[class*="_2"] > [class*="_2"] > [class*="_i1"]
 alotporn.com##.table > .opt:upward(1)
 songmeanings.com##[class*="Container_ATF"]
-fapster.xxx##[href*="t.frtyz.com"]:upward(2)
+fapster.xxx##a[href*="t.frtyz.com"]:upward(2)
 donkparty.com##.updates > li:-abp-contains(/humoron\.com|twistedporn\.com/)
 dato.porn##div.opt:upward(1)
 chron.com###ctpl-fullbanner1
@@ -12721,8 +12719,8 @@ dailycaller.com##.adcontainer
 nypost.com##.nyp-sitewide-notice
 business.windstream.com###ws-qual-form-modal-container
 addictivetips.com##.ggnoads
-walla.co.il##li > [href*="b2c.we-sure.co.il"]
-walla.co.il##li > [href*="shw.co.il"]
+walla.co.il##li > a[href*="b2c.we-sure.co.il"]
+walla.co.il##li > a[href*="shw.co.il"]
 brighthubeducation.com##.ezo_ad
 google.com###taw
 google.com###tvcap
@@ -12732,7 +12730,7 @@ news.sky.com###leaderboard
 thesun.co.uk##div.widget-height
 mirror.co.uk##.top-slot.gpt
 mirror.co.uk##.secondary.related-column
-wakingtimes.com##[href*="wakingtimes.com/ads/"]
+wakingtimes.com##a[href*="wakingtimes.com/ads/"]
 change.org##.bottom-bar-interrupt, .interrupt-prompt
 telugu.samayam.com##.topStorieswrap
 gizmodo.com##div.js_commerce-inset-permalink
@@ -12740,13 +12738,13 @@ gizmodo.com###commerce-inset-wrapper
 discord.com##[class*="color"][class*="notice-"]
 nypost.com##.modal-inner
 brighteon.com##.overlay, .bottom-banner, #statusmessagediv, .video-subscription
-brighteon.com##[href*="support.brighteon.com"]:nth-of-type(1):upward(2)
-brighteon.com##[href*="support.brighteon.com"]:nth-of-type(2)
+brighteon.com##a[href*="support.brighteon.com"]:nth-of-type(1):upward(2)
+brighteon.com##a[href*="support.brighteon.com"]:nth-of-type(2)
 fastpic.ru##.sticky-top, div.col.text-center
 ventsmagazine.com##.e3lan, .e3lan-top
 theprp.com##div.post-body.clearfix > blockquote > div
 thebetterindia.com##.adp-banner-link, .adp-heading, .container.adp-container
-wmur.com##[href*="wmur.com/app/get"]:upward(1)
+wmur.com##a[href*="wmur.com/app/get"]:upward(1)
 sportsaspire.com##p > div > div > ins > ins, div > span:first-child > div > div > span
 caranddriver.com##div.end-of-content-playlist:last-child, main.site-content > div.content-container.standard-container> div.standard-body > div.article-body-content.standard-body-content:last-child > div.embed.embed-editorial-links, main.site-content > div.top-pathing
 autoblog.com###autoblog-daily-digest
@@ -12776,8 +12774,8 @@ www1.cbn.com##[class*="related-articles"], [class*="related-title"], [class*="re
 express.co.uk##[class*="top-articles-container"], [class*="newsletter"], [id*="div-gpt-ad"]
 270towin.com###header-ad
 newsweek.com##[id*="dfp-ad"]
-infowars.com###ifwAdLink, [href*="infowarsstore.com"]
-sex.com##.ad, [href*="ads.cdn.live"]:upward(1)
+infowars.com###ifwAdLink, a[href*="infowarsstore.com"]
+sex.com##.ad, a[href*="ads.cdn.live"]:upward(1)
 abcnews.go.com##[id*="ad-Banner"]
 history.com##[class*="header-ad"], [class*="rev-content"], [class*="in-content-ad"]
 dailymotion.com##[class*="CookiePopup"]
@@ -12816,7 +12814,7 @@ britannica.com##[class*="-ad"], [class*="col-da-"], .marketing-SLIDER, .marketin
 genome.gov###covid
 scientificamerican.com##[class*="toaster-ad"], [class*="-promo"]
 usnews.com##[class*="Ad__Container"]
-systemtek.co.uk##.adsbygoogle, .ckcontent, [href*="goo.gl/"], [href*="nordvpn.net/"]
+systemtek.co.uk##.adsbygoogle, .ckcontent, a[href*="goo.gl/"], a[href*="nordvpn.net/"]
 sciencedaily.com##.hidden-tiny, .hidden-xs.hidden-sm.center-block.left-skyscraper, [class*="unit"]
 verywellmind.com##[class*="gpt-adunit"], [class*="leaderboard--"]
 psychologytoday.com##[class*="pt-ads"]
@@ -12886,7 +12884,7 @@ digitalocean.com##[class*="_panel_"]:-abp-contains(cookies)
 home.neustar##.cookie-message
 blokt.com###cookie-law-info-bar
 mail.yahoo.com##a[href*="gemini.yahoo.com"]
-thehackernews.com##div.zoho-box.clear, .cf.google, .sidefix.av-side-box.clear, [href*="go.thn.li"]
+thehackernews.com##div.zoho-box.clear, .cf.google, .sidefix.av-side-box.clear, a[href*="go.thn.li"]
 stackoverflow.com##.z-banner
 evga.com###cookiebar
 askubuntu.com##.z-banner
@@ -12906,9 +12904,9 @@ uphold.com##[class*="ConsentWrapper"]
 ostechnix.com##.penci-gprd-law
 omgubuntu.co.uk##.CookieWarning
 wired.com##[class*="paywall-bar"]
-zdnet.com##.content-leaderboard-top, [class*="content-mpu"], [href*="cbsileads.com"]
+zdnet.com##.content-leaderboard-top, [class*="content-mpu"], a[href*="cbsileads.com"]
 theroot.com##.js_modal_exit_intent
-geeksforgeeks.org##.cookie-consent, [id*="AP_G4GR_"], [href*="practice.geeksforgeeks.org/"]
+geeksforgeeks.org##.cookie-consent, [id*="AP_G4GR_"], a[href*="practice.geeksforgeeks.org/"]
 journals.lww.com##.cookie-jar
 guru99.com##[class*="ads-box"]
 mashtips.com##.adsbygoogle
@@ -12919,6 +12917,7 @@ gemini.com###cookiePolicyAgreement
 ledger.com##.cookie-notice-container
 quizlet.com##.StudyValueUpsellModal, .UIModal-backdrop, [class*="embeddedDesktopAdz"]
 westernjournal.com###firefly-poll-container
+developer.android.com##.devsite-banner-message:-abp-contains(racial equity)
 
 !--------------------
 ! End Element Hiding |
@@ -14469,98 +14468,98 @@ _statsonlineinfo
 ##img[name="sponsored"]
 ##img[name="Sponsored"]
 ##img[name="Sponsor"]
-##[src*="scfsdvc.com"]
-##[href*="raznoeporno.info"]
-##[href*="?ad_provider"]
-##[href*="blacklivesmatters."]
-##[href*="libedgolart.com"]
-##[href*="ads.livepromotools.com"]
-##[href*="frtyz.com"]
-##[href*="go.schjmp.com"]
-##[src*="go.schjmp.com"]
-##[href*="/ads/click"]
-##[href*="/services/AdsRedirect."]
-##[href*="imlive.com/wmaster.ashx?"]
-##[href*="securedatingconnection.com"]
-##[href*=".space/redirect/"]
-##[href*="is.gd"]
-##[href*="clickstoclaim.com"]
-##[href*="getyoursnow.info"]
-##[href*="engine.eroge.com"]
-##[href*="6i4uibyg0c82.com"]
-##[href*="actiondesk.com"]
-##[href*="strpjmp.com"]
-##[href*="adtng.com"]
-##[href*="/ads?zone_id="]
-##[href*="trafficjunky.com"]
-##[href*="trafficjunky.net"]
-##[href*="adultfriendfinder.com"]
-##[href*="orange2258.com"]
-##[href*="crazylead.com"]
-##[href*="outbrain.com"]
-##[href*="trcklks.com"]
-##[href*="advertising.com"]
-##[href*="adult.xyz"]
-##[href*="panokaverit.com"]
-##[href*="panotreffit.com"]
-##[href*="wpadkigwiazd.pl"]
-##[href*="strefa18.pl"]
-##[href*="xnylfcp.com"]
-##[href*="bingads.com"]
-##[href*="revsharecash.com"]
-##[href*="clickadilla.com"]
-##[href*="hrtya.com"]
-##[href*="sexvl.pro"]
-##[href*="gg.gg"]
-##[href*="prf.hn"]
-##[href*="adinfo."]
-##[href*="chaturbate.com/in/"]
-##[href*="/out.php?l=http://"]
-##[href*="/out.php?member="]
-##[href*="/_clicktracker.php"]
-##[href*="/adclicksTag.php"]
-##[href*="/adclick.php"]
-##[href*="/adredir.php"]
-##[href*="/affiliates."]
-##[href*="/affiliates/"]
-##[href*="/advertise/"]
-##[href*="/trackhit/"]
-##[href*="/adClick/"]
-##[href*="/track/"]
-##[href*="?campaign_id="]
-##[href*="&tracker_id="]
-##[href*="?link_id="]
-##[href*="tai789.net"]
-##[href*="doubleclick.net"]
-##[href*="googleadservices.com"]
-##[href*="rs-stripe.com"]
-##[href*="bytesignal.com"]
-##[href*=".searchiq.co"]
-##[href*="carbonads.net"]
-##[href*="buysellads.net"]
-##[href*="dianomi.com/click.epl"]
-##[href*="cartoontube.com/hit.php"]
-##[href*="admitad.com"]
-##[href*="onelink.me"]
-##[href*="clickbank.net"]
-##[href*="fourchan.com"]
-##[href*="feed111.me"]
-##[href*="dynsrvbaa.com"]
-##[href*="adtracks.biz"]
-##[href*="grtyv.com"]
-##[href*="mobtyb.com"]
-##[href*="/advert/"]
-##[href*="/avt/"]
-##[href*="/adrotate-out.php?"]
-##[href*="/adServe/"]
-##[src*="/ai/a/ex/ab.php?"]
-##[src*="/adver/index."]
-##[src*="nichedlinks.com/hop/"]
-##[src*="/_ad"]
-##[src*="/cats/meow/"]
-##[onclick=*"track"]
-##[onclick=*"adclick"]
-##[onclick=*"/ping_url/"]
+##a[src*="scfsdvc.com"]
+##a[href*="raznoeporno.info"]
+##a[href*="?ad_provider"]
+##a[href*="blacklivesmatters."]
+##a[href*="libedgolart.com"]
+##a[href*="ads.livepromotools.com"]
+##a[href*="frtyz.com"]
+##a[href*="go.schjmp.com"]
+##a[src*="go.schjmp.com"]
+##a[href*="/ads/click"]
+##a[href*="/services/AdsRedirect."]
+##a[href*="imlive.com/wmaster.ashx?"]
+##a[href*="securedatingconnection.com"]
+##a[href*=".space/redirect/"]
+##a[href*="is.gd"]
+##a[href*="clickstoclaim.com"]
+##a[href*="getyoursnow.info"]
+##a[href*="engine.eroge.com"]
+##a[href*="6i4uibyg0c82.com"]
+##a[href*="actiondesk.com"]
+##a[href*="strpjmp.com"]
+##a[href*="adtng.com"]
+##a[href*="/ads?zone_id="]
+##a[href*="trafficjunky.com"]
+##a[href*="trafficjunky.net"]
+##a[href*="adultfriendfinder.com"]
+##a[href*="orange2258.com"]
+##a[href*="crazylead.com"]
+##a[href*="outbrain.com"]
+##a[href*="trcklks.com"]
+##a[href*="advertising.com"]
+##a[href*="adult.xyz"]
+##a[href*="panokaverit.com"]
+##a[href*="panotreffit.com"]
+##a[href*="wpadkigwiazd.pl"]
+##a[href*="strefa18.pl"]
+##a[href*="xnylfcp.com"]
+##a[href*="bingads.com"]
+##a[href*="revsharecash.com"]
+##a[href*="clickadilla.com"]
+##a[href*="hrtya.com"]
+##a[href*="sexvl.pro"]
+##a[href*="gg.gg"]
+##a[href*="prf.hn"]
+##a[href*="adinfo."]
+##a[href*="chaturbate.com/in/"]
+##a[href*="/out.php?l=http://"]
+##a[href*="/out.php?member="]
+##a[href*="/_clicktracker.php"]
+##a[href*="/adclicksTag.php"]
+##a[href*="/adclick.php"]
+##a[href*="/adredir.php"]
+##a[href*="/affiliates."]
+##a[href*="/affiliates/"]
+##a[href*="/advertise/"]
+##a[href*="/trackhit/"]
+##a[href*="/adClick/"]
+##a[href*="/track/"]
+##a[href*="?campaign_id="]
+##a[href*="&tracker_id="]
+##a[href*="?link_id="]
+##a[href*="tai789.net"]
+##a[href*="doubleclick.net"]
+##a[href*="googleadservices.com"]
+##a[href*="rs-stripe.com"]
+##a[href*="bytesignal.com"]
+##a[href*=".searchiq.co"]
+##a[href*="carbonads.net"]
+##a[href*="buysellads.net"]
+##a[href*="dianomi.com/click.epl"]
+##a[href*="cartoontube.com/hit.php"]
+##a[href*="admitad.com"]
+##a[href*="onelink.me"]
+##a[href*="clickbank.net"]
+##a[href*="fourchan.com"]
+##a[href*="feed111.me"]
+##a[href*="dynsrvbaa.com"]
+##a[href*="adtracks.biz"]
+##a[href*="grtyv.com"]
+##a[href*="mobtyb.com"]
+##a[href*="/advert/"]
+##a[href*="/avt/"]
+##a[href*="/adrotate-out.php?"]
+##a[href*="/adServe/"]
+##a[src*="/ai/a/ex/ab.php?"]
+##a[src*="/adver/index."]
+##a[src*="nichedlinks.com/hop/"]
+##a[src*="/_ad"]
+##a[src*="/cats/meow/"]
+##a[onclick=*"track"]
+##a[onclick=*"adclick"]
+##a[onclick=*"/ping_url/"]
 ##a[onclick="closeMyAd()"]
 ##a[h$="Ad"]
 ##a[h$="Advert"]
