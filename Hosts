@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1381
+! Version: 1382
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -707,7 +707,6 @@ about:blank$third-party
 ||swagtraffcom.com^
 ||gnatpointed.com^
 ||api-partner.spotify.com^
-||evtubescms.phncdn.com^
 ||moneycdn.com^
 ||realtime-bid.com^
 ||usertrk.site^
@@ -7179,7 +7178,6 @@ about:blank$third-party
 ||ipify.org^
 ||ipcalf.com^
 ||kissmetrics.com^
-||ionicframework.com^
 ||jload01.info^
 ||jan-sampark.nic.in^
 ||jurqfivc.ml^
