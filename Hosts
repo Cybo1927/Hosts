@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1383
+! Version: 1384
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -188,7 +188,12 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
-||iubenda.com^$third-party
+||extreme-ip-lookup.com^$third-party
+||freegeoip.app^$third-party
+||geojs.io^$third-party
+||titsx.com^$third-party
+||tracemyip.org^$third-party
+||ip-adress.com^$third-party
 ||instawhore.net^$popup,popunder
 ||instateens.net^$popup,popunder
 ||easyadblocker.com^$third-party
@@ -519,6 +524,16 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||track.miro.com^
+||track.realtimeboard.com^
+||ioam.de^
+||iocnt.net^
+||analytics-ingress-global.bitmovin.com^
+||analytics.proofapi.com^
+||urfbyhijwd.club^
+||bonertraffic14.pro^
+||he7ll.com^
+||smartclick.net^
 ||analytics.trovit.com^
 ||msmetrics-test.ws.sonos.com^
 ||analytics.app.lucidchart.com^
@@ -1043,7 +1058,6 @@ about:blank$third-party
 ||freegeoip.net^
 ||ipstack.com^
 ||ipstack.net^
-||tracemyip.org^
 ||xn--yotu-1ra.be^
 ||xn--discrd-zxa.com^
 ||xn--srahah-bua.eu^
@@ -14650,6 +14664,7 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+||freshxcdn.com^$cookie
 ||steamstatic.com^$cookie=__cfduid
 ||mediacnt.com^$cookie
 ||sendlane.com^$cookie
