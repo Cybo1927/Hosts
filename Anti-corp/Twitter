@@ -2,9 +2,12 @@
 ! Title: Cybo's Anti Twitter
 ! Description: Block all known Twitter domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
 ||twitter.com^
 ||twttr.com^
 ||twimg.com^
 ||t.co^
+||periscope.tv^
+||pscp.tv^
+||mopub.com^
