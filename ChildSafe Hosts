@@ -1,8 +1,8 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 21
-! Last updated: Friday, January 8, 2021
+! Version: 22
+! Last updated: Wednesday, January 13, 2021
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 
@@ -1043,6 +1043,7 @@
 ||heyzoo.net^
 ||flagmantube.com^
 ||jemtube.com^
+||swing-zone.com^
 
 ! NewGrounds
 ||alekerectsociety.newgrounds.com^
@@ -1160,11 +1161,12 @@
 ! Begin Dating |
 !--------------
 
+/(dating|singles)/
+
 ||match.com^
 ||pof.com^
 ||okcupid.com^
 ||okccdn.com^
-||dating.com^
 ||zoosk.com^
 ||tinder.com^
 ||gotinder.com^
@@ -1173,7 +1175,6 @@
 ||ourtime.com^
 ||luvfree.com^
 ||eharmony.com^
-||silversingles.com^
 ||bumble.com^
 ||bumbcdn.com^
 ||aimerworld.com^
