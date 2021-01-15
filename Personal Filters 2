@@ -1,0 +1,11 @@
+! Title: Cybo's Personal Filters - AdGuard for Windows
+! Expires: 1 hours
+
+@@||mail.protonmail.com^$important,document
+
+*$cookie
+*$cookie,badfilter,domain=youtube.com|planningcenteronline.com|protonmail.com|192.168.254.70|192.168.254.75|nextdns.io|qustodio.com|github.com
+
+*$app=NZXT CAM.exe
+
+youtube.com###voice-search-button
