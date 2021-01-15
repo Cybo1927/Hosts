@@ -4,12 +4,12 @@
 ! Hide HTTP Search Reuslts
 duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
 ! Hide Trash/Unused Websites
-duckduckgo.com##.result--url-above-snippet:has-text(tumblr.com)
-duckduckgo.com##.result--url-above-snippet:has-text(pinterest.com)
-duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
-duckduckgo.com##.result--url-above-snippet:has-text(twitter.com)
-duckduckgo.com##.result--url-above-snippet:has-text(facebook.com)
-duckduckgo.com##.result--url-above-snippet:has-text(instagram.com)
+duckduckgo.com##.links_deep:contains(tumblr.com)
+duckduckgo.com##.links_deep:contains(pinterest.com)
+duckduckgo.com##.links_deep:contains(apps.apple.com)
+duckduckgo.com##.links_deep:contains(twitter.com)
+duckduckgo.com##.links_deep:contains(facebook.com)
+duckduckgo.com##.links_deep:contains(instagram.com)
 ! Cosmetic Filters
 duckduckgo.com##.footer, .header__clickable
 
