@@ -1,17 +1,7 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
 
-! Hide HTTP Search Reuslts
-duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
-! Hide Trash/Unused Websites
-duckduckgo.com##.links_deep:contains(tumblr.com)
-duckduckgo.com##.links_deep:contains(pinterest.com)
-duckduckgo.com##.links_deep:contains(apps.apple.com)
-duckduckgo.com##.links_deep:contains(twitter.com)
-duckduckgo.com##.links_deep:contains(facebook.com)
-duckduckgo.com##.links_deep:contains(instagram.com)
-! Cosmetic Filters
-duckduckgo.com##.footer, .header__clickable
+duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-link, .footer
 
 !#if !ext_ublock
 !#if (adguard_app_android)
@@ -92,6 +82,18 @@ duckduckgo.com##.footer, .header__clickable
 ||68.169.64.70^$network
 ||151.101.4.133^$network
 ||199.232.96.133^$network
+
+!#endif
+!#endif
+
+!#if !ext_ublock
+!#if (adguard_app_windows && !adguard_app_android)
+
+@@||mail.protonmail.com^$important,document
+
+*$app=NZXT CAM.exe
+
+youtube.com###voice-search-button
 
 !#endif
 !#endif
