@@ -3,19 +3,6 @@
 
 @@||mail.protonmail.com^$important,document
 
-*$cookie
-@@||192.168.254.70^
-@@||192.168.254.75^
-@@||google.com^$cookie,domain=youtube.com|accounts.google.com|gmail.com|mail.google.com|classroom.google.com
-@@||gmail.com^$cookie,domain=gmail.com|mail.google.com|accounts.google.com
-@@||mail.google.com^$cookie,domain=mail.google.com|accounts.google.com
-@@||youtube.com^$cookie,domain=youtube.com
-@@||planningcenteronline.com^$cookie,domain=planningcenteronline.com
-@@||protonmail.com^$cookie,domain=protonmail.com
-@@||nextdns.io^$cookie,domain=nextdns.io
-@@||qustodio.com^$cookie,domain=qustodio.com
-@@||github.com^$cookie,domain=github.com
-
 *$app=NZXT CAM.exe
 
 youtube.com###voice-search-button
