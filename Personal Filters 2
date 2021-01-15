@@ -4,7 +4,17 @@
 @@||mail.protonmail.com^$important,document
 
 *$cookie
-*$cookie,badfilter,domain=youtube.com|planningcenteronline.com|protonmail.com|192.168.254.70|192.168.254.75|nextdns.io|qustodio.com|github.com
+@@||192.168.254.70^
+@@||192.168.254.75^
+@@||google.com^$cookie,domain=youtube.com|accounts.google.com|gmail.com|mail.google.com
+@@||gmail.com^$cookie,first-party
+@@||mail.google.com^$cookie,first-party
+@@||youtube.com^$cookie,domain=youtube.com
+@@||planningcenteronline.com^$cookie,domain=planningcenteronline.com
+@@||protonmail.com^$cookie,domain=protonmail.com
+@@||nextdns.io^$cookie,domain=nextdns.io
+@@||qustodio.com^$cookie,domain=qustodio.com
+@@||github.com^$cookie,domain=github.com
 
 *$app=NZXT CAM.exe
 
