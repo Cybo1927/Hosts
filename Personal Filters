@@ -7,32 +7,17 @@ duckduckgo.com##.result--url-above-snippet:not(:has-text(https))
 duckduckgo.com##.result--url-above-snippet:has-text(tumblr.com)
 duckduckgo.com##.result--url-above-snippet:has-text(pinterest.com)
 duckduckgo.com##.result--url-above-snippet:has-text(apps.apple.com)
+duckduckgo.com##.result--url-above-snippet:has-text(twitter.com)
+duckduckgo.com##.result--url-above-snippet:has-text(facebook.com)
+duckduckgo.com##.result--url-above-snippet:has-text(instagram.com)
 ! Cosmetic Filters
 duckduckgo.com##.footer, .header__clickable
-
-! Unnecessary connections
-||speedtest.cookiejarapps.com^
-||unity3d.com^
-||location.force.com^
-||fourchars.com^
-||thinkyeah.com^
-||inshotapp.com^
-||time.android.com^
-||google.com^
-||gstatic.com^
-||googleapis.com^
-||crowdin.net^
-||ampproject.org^
-||filepicker.io^$third-party
-||filestack.com^$third-party
-||apple.com^$third-party
-||spotify.com^$third-party
-||scdn.co^$third-party
 
 !#if !ext_ublock
 !#if (adguard_app_android)
 
-*$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro
+*$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads
+*$network,app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads
 
 *$cookie
 @@||192.168.254.70^$first-party,cookie
@@ -48,6 +33,34 @@ duckduckgo.com##.footer, .header__clickable
 ||disqus.com^
 ||kiwibrowser.com^
 ||joaoapps.com^
+||tnt-ea.com^
+||eamobile.com^
+||popcap.com^
+||speedtest.cookiejarapps.com^
+||unity3d.com^
+||location.force.com^
+||fourchars.com^
+||thinkyeah.com^
+||inshotapp.com^
+||time.android.com^
+||crowdin.net^
+||ampproject.org^
+||test.nextdns.io^
+||tenor.googleapis.com^
+||*-pa.googleapis.com^
+||play.googleapis.com^
+||safebrowsing.*^
+||firebaseinstallations.googleapis.com^
+||gravatar.com^
+||suggestqueries.google.com^
+||android.clients.google.com^
+||android.googleapis.com^
+||connectivitycheck.gstatic.com^
+||filepicker.io^$third-party
+||filestack.com^$third-party
+||apple.com^$third-party
+||spotify.com^$third-party
+||scdn.co^$third-party
 
 ||172.217.8.206:443^$network
 ||209.85.164.40:443^$network
@@ -79,22 +92,6 @@ duckduckgo.com##.footer, .header__clickable
 ||68.169.64.70^$network
 ||151.101.4.133^$network
 ||199.232.96.133^$network
-
-$$script[wildcard="*track*atob*ShadowRoot*"]
-$$script[tag-content="AdsDuration"]
-$$script[tag-content="embeddedads"]
-$$script[tag-content="adEmbed"]
-$$script[tag-content="inVideoAd"]
-$$script[tag-content="gaCreateOptions"]
-$$script[tag-content="window.Fingerprint2"]
-
-!#endif
-!#endif
-
-!#if !ext_ublock
-!#if (!adguard_app_android)
-
-*$cookie,domain=~192.168.254.70|~127.0.0.1|~localhost|~secureinternetbank.com|~github.com|~flickr.com|~staticflickr.com|~google.com|~youtube.com|~qustodio.com|~bitdefender.com
 
 !#endif
 !#endif
