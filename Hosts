@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1384
+! Version: 1385
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -524,6 +524,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||voodoo-ads.io^
+||crosspromo.voodoo.io^
 ||track.miro.com^
 ||track.realtimeboard.com^
 ||ioam.de^
@@ -540,7 +542,6 @@ about:blank$third-party
 ||aptrinsic.com^
 ||getsentry.com^
 ||adoperatorcore.com^
-||kqzyfj.com^
 ||whittakercdn.xyz^
 ||ueaggress.top^
 ||miesobserv.fun^
@@ -1170,7 +1171,6 @@ about:blank$third-party
 ||mediator.imgsmail.ru^
 ||iriworldwide.com^
 ||moluapps.com^
-||uptime.signal.org^
 ||madjoh.com^
 ||currus-full-snapshots-track-*-prod.s3.amazonaws.com^
 ||piwik.openstreetmap.org^
@@ -2127,7 +2127,6 @@ about:blank$third-party
 ||fasta.xyz^
 ||las4srv.com^
 ||faw.cn^
-||prf.hn^
 ||d2focgxak1cn74.cloudfront.net^
 ||rfksrv.com^
 ||vizury.com^
@@ -2270,7 +2269,6 @@ about:blank$third-party
 ||larrenpicture.pro^
 ||martafatass.pro^
 ||cconseent.info^
-||redirector.brave.com^
 ||spectrum.gettyimages.com^
 ||alleni.com^
 ||alleninteractions.com^
@@ -3990,7 +3988,6 @@ about:blank$third-party
 ||leadboltmobile.net^
 ||anyclip.com^
 ||analytics.slashdotmedia.com^
-||anrdoezrs.net^
 ||adziff.com^
 ||ads.yahoo.com^
 ||acuty1adsrv.com^
@@ -4761,7 +4758,6 @@ about:blank$third-party
 ||bodelen.com^
 ||beaverads.com^
 ||beacon.walmart.com^
-||bizrate.com^
 ||oddcast.com^
 ||banner.chat.ru^
 ||browser-update.org^
@@ -5182,11 +5178,9 @@ about:blank$third-party
 ||cnevids.com^
 ||crownpeak.net^
 ||podium.com^
-||crlsets.brave.com^
 ||chrome.adtidy.org^
 ||crl.certum.pl^
 ||crl.pki.goog^
-||clients4.brave.com^
 ||comodoca4.com^
 ||crl.sca1b.amazontrust.com^
 ||concert.io^
@@ -5242,7 +5236,6 @@ about:blank$third-party
 ||cleverppc.com^
 ||captaingrowth.ai^
 ||contextsmith.com^
-||cocospy.com^
 ||context.ly^
 ||commento.io^
 ||cityspark.com^
@@ -7285,7 +7278,6 @@ about:blank$third-party
 ||keytape.fun^
 ||keyrich.fun^
 ||k12insight.com^
-||kqzyfj.com^
 ||*-kra2007c.net^
 ||kitbit.net^
 ||keywordblocks.com^
@@ -7892,7 +7884,6 @@ about:blank$third-party
 ||lkqd.com^
 ||lkqd.net^
 ||lotame.com^
-||linksynergy.com^
 ||leadplace.fr^
 ||phunware.com^
 ||logconfig.polarisoffice.com^
@@ -11021,7 +11012,6 @@ about:blank$third-party
 ||viewmypdf.com^
 ||verblife-3.co^
 ||vtrack.com^
-||viglink.com^
 ||zopim.com^
 ||vortex.data.microsoft.com^
 ||vortex-*.data.microsoft.com^
@@ -12557,6 +12547,7 @@ about:blank$third-party
 ||facebook.net/*/fbevents.js
 ||combo.staticflickr.com/*/hermes-template-photo-ad-page/
 ||pornhub.com/svvt/add?
+||animeporn.xxx/wp-content/uploads/*/ad*.gif
 
 !--------------
 ! End Blocking |
@@ -12566,13 +12557,12 @@ about:blank$third-party
 ! Begin Element Hiding |
 !----------------------
 
-youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, .ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier, [class*="-promo-"]
+youtube.com###masthead-ad, .ytd-primetime-promo-renderer, .ytd-mealbar-promo-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-compact-promoted-video-renderer, .sparkles-light-cta, .ytd-promoted-video-renderer, #clarify-box, .vidiq-social-stats-upsell, .ytd-compact-promoted-item-renderer, .ytd-carousel-ad-renderer, .ytd-player-legacy-desktop-watch-ads-renderer, .ytp-ad-module.video-ads, .ytp-ad-display-override, #old-browser-alert, .ytd-primetime-promo-renderer, #YtKevlarVisibilityIdentifier, [class*="-promo-"], #contents > ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:first-child, #player-ads
 youtube.com###chat:-abp-contains(Chat Replay is disabled for this Premiere.)
 youtube.com##.ytd-rich-section-renderer.style-scope:-abp-contains(Featured)
 youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:-abp-contains(Buy)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1):-abp-contains(Ad)
 youtube.com##.ytd-popup-container.style-scope:-abp-contains(Got it)
-youtube.com###content > ytd-rich-shelf-renderer.style-scope.ytd-rich-section-renderer
 google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
 yahoo.com/_td_api/beacon/
 yahoo.com/_td_api?_appletType=viewer
@@ -12947,6 +12937,7 @@ developer.android.com##.devsite-banner-message:-abp-contains(racial equity)
 $ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/pics/promobanner
 */ga.php?
 */analytics_ads
 */track.php
@@ -13203,7 +13194,7 @@ $ping
 */dd-browser-logs-rum.
 */beacon_
 */link.engine?
-*/blank.mp4
+*/blank.mp4$domain=~thots.tv
 */agent.php?spot=
 */get_country.php
 */oo_$script
@@ -14525,7 +14516,6 @@ _statsonlineinfo
 ##a[href*="hrtya.com"]
 ##a[href*="sexvl.pro"]
 ##a[href*="gg.gg"]
-##a[href*="prf.hn"]
 ##a[href*="adinfo."]
 ##a[href*="chaturbate.com/in/"]
 ##a[href*="/out.php?l=http://"]
@@ -14599,9 +14589,12 @@ _statsonlineinfo
 @@||myaccount.google.com^$stealth
 @@||accounts.google.com^$stealth
 @@||nextdns.io^$stealth
+@@||login.bitdefender.com^$stealth
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="ga('set',"]
+$$script[tag-content="EmbeddedAdsDuration"]
 $$script[tag-content="window.open(url, "", windowprops);"]
 $$script[tag-content="var ad_idzone"]
 $$script[tag-content="var thPop ="]
@@ -14825,6 +14818,8 @@ youtube.com#@#body { overflow:visible!important; }
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
+*##^script:has-text(ga('set',)
+*##^script:has-text(EmbeddedAdsDuration)
 *##^script:has-text(window.open(url, "", windowprops);)
 *##^script:has-text(var ad_idzone)
 *##^script:has-text(var thPop =)
