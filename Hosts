@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1385
+! Version: 1386
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -109,6 +109,31 @@ youtube.com#@#offer-module
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 kgw.com#@#[class*="__ad"]
 fastpic.ru#@#[id*="adblock-"]
+! Blocked in Steven Black's Hosts for either political or censorship reasons which is NOT okay
+! Global Research CA (Just publishes research stuffs)
+0.0.0.0 www.globalresearch.ca$badfilter
+0.0.0.0 globalresearch.ca$badfilter
+! American Military News is very centered absolutely no reason to be blocked
+0.0.0.0 americanmilitarynews.com$badfilter
+! Breitbart is a Right leaning news source
+0.0.0.0 www.breitbart.com$badfilter
+! NewsMax is a Right leaning news source
+0.0.0.0 www.newsmax.com$badfilter
+! MRC's News Busters is a Right leaning news source
+0.0.0.0 www.newsbusters.org$badfilter
+! Hard Right but by no means fake news
+0.0.0.0 www.thegatewaypundit.com$badfilter
+0.0.0.0 www.theblaze.com$badfilter
+0.0.0.0 www.redstate.com$badfilter
+0.0.0.0 www.prisonplanet.com$badfilter
+0.0.0.0 www.infowars.com$badfilter
+0.0.0.0 infowars.com$badfilter
+0.0.0.0 tv.infowars.com$badfilter
+0.0.0.0 www.bizpacreview.com$badfilter
+! Project Veritas exposes corruption from both parties no reason to block
+0.0.0.0 projectveritas.com$badfilter
+! I don't have any idea why this is blocked
+0.0.0.0 westdesmoinesguide.com$badfilter
 !#safari_cb_affinity
 
 !---------------
@@ -524,11 +549,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||insight.samsunghealth.com^
 ||voodoo-ads.io^
 ||crosspromo.voodoo.io^
 ||track.miro.com^
 ||track.realtimeboard.com^
-||ioam.de^
 ||iocnt.net^
 ||analytics-ingress-global.bitmovin.com^
 ||analytics.proofapi.com^
@@ -2430,7 +2455,6 @@ about:blank$third-party
 ||plxnt.com^
 ||adfyre.co^
 ||bullion.media^
-||he7ll.com^
 ||publica1.com^
 ||fakehub.com^
 ||creoads.com^
@@ -2949,7 +2973,6 @@ about:blank$third-party
 ||adguardian.net^
 ||a.ria.ru^
 ||adblockmetrics.ru^
-||analytics-ingress-global.bitmovin.com^
 ||adlibr.com^
 ||arsdev.net^
 ||1mobile.com^
@@ -3254,7 +3277,6 @@ about:blank$third-party
 ||at.alicdn.com^
 ||analytics-tracker.thescore.com^
 ||axa.cloud.ca.com^
-||analytics-events.inshorts.com^
 ||aotter.net^
 ||ad.intl.xiaomi.com^
 ||alooma.com^
@@ -10265,7 +10287,6 @@ about:blank$third-party
 ||st.a-link.co.kr^
 ||sprout-ad.com^
 ||srv.main.ebayrtm.com^
-||smartclick.net^
 ||statcounter.com^
 ||snap.licdn.com^
 ||suppoet.me^
@@ -11278,7 +11299,6 @@ about:blank$third-party
 ||xxxwebtraffic.com^
 ||yournewtab.com^
 ||yjtag.jp^
-||yieldlove-ad-serving.net^
 ||yepshare.com^
 ||yieldoptimizer.com^
 ||yieldr.com^
@@ -14999,7 +15019,6 @@ youtube.com#@#body:style(overflow:visible !important)
 */adScript*$script,redirect=noopjs,important
 */*gpt_*$script,redirect=noopjs,important
 */*prebid_*$script,redirect=noopjs,important
-*/cleardot.gif$image,redirect=1x1.gif,important
 */*/header.js$script,redirect=noopjs,important
 */pubads_$script,redirect=noopjs,important
 */ads/pop.$script,redirect-rule=noopjs,important
@@ -15050,7 +15069,6 @@ youtube.com#@#body:style(overflow:visible !important)
 */adScript*$rewrite=abp-resource:blank-js
 */*gpt_*$rewrite=abp-resource:blank-js
 */*prebid_*$rewrite=abp-resource:blank-js
-*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif
 */*/header.js$rewrite=abp-resource:blank-js
 */pubads_$rewrite=abp-resource:blank-js
 */ads_prebid$rewrite=abp-resource:blank-js
