@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Alphabet
 ! Description: Block all known Alphabet/Google domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 35
+! Version: 36
 
 ! Google
 ||google.ad^
@@ -272,6 +272,9 @@
 
 ! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||tenor.com^
+
+! https://blog.fitbit.com/2021-update/
+||fitbit.com^
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
