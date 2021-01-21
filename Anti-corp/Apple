@@ -1,13 +1,14 @@
 ! Title: Cybo's Anti Apple
 ! Description: Block all known connections to Apple as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 4
+! Version: 5
 
 ||apple.com^
 ||apple.net^
 ||apple.com.edgekey.net^
 ||apple.com.edgesuite.net^
 ||apple.com.akadns.net^
+||ls-apple.com.akadns.net^
 ||itunes-apple.com.akadns.net^
 ||icloud.com.edgekey.net^
 ||apple.com.edgekey.net.globalredir.akadns.net^
