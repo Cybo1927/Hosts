@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1387
+! Version: 1388
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -14566,18 +14566,17 @@ _statsonlineinfo
 ##a[href*="adtracks.biz"]
 ##a[href*="grtyv.com"]
 ##a[href*="mobtyb.com"]
-##a[href*="/advert/"]
-##a[href*="/avt/"]
+##a[href*="/advert"]
 ##a[href*="/adrotate-out.php?"]
 ##a[href*="/adServe/"]
 ##a[src*="/ai/a/ex/ab.php?"]
 ##a[src*="/adver/index."]
 ##a[src*="nichedlinks.com/hop/"]
 ##a[src*="/_ad"]
-##a[src*="/cats/meow/"]
+##a[src*="/cats/meow"]
 ##a[onclick=*"track"]
 ##a[onclick=*"adclick"]
-##a[onclick=*"/ping_url/"]
+##a[onclick=*"/ping_url"]
 ##a[onclick="closeMyAd()"]
 ##a[h$="Ad"]
 ##a[h$="Advert"]
@@ -15148,3 +15147,6 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 
 ! AdGuard Home
 @@||pi.pardot.com$dnstype=CNAME
+
+! This doesn't need to go anywhere
+||local.adguard.org^$dnsrewrite=127.0.0.1
