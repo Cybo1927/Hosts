@@ -1,10 +1,11 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 22
-! Last updated: Wednesday, January 13, 2021
+! Version: 23
+! Last updated: Thursday, January 21, 2021
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
+! It will be mainly based around RegEX and should be used alongside other blacklists.
 
 !-------------------
 ! Begin Pornography |
@@ -1178,7 +1179,6 @@
 ||bumble.com^
 ||bumbcdn.com^
 ||aimerworld.com^
-||teendatingsite.net^
 ||mylol.com^
 ||flirtbox.com^
 ||flirtbox.co.uk^
@@ -1313,7 +1313,6 @@
 ||metager.org^
 ||acestream.me^
 ||dogpile.com^
-||qwant.com^
 ||search.aol.com^
 ||search.yahoo.com^
 ||startpage.com^
