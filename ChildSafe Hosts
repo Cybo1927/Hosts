@@ -1,8 +1,8 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 23
-! Last updated: Thursday, January 21, 2021
+! Version: 24
+! Last updated: Tuesday, January 26, 2021
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 ! It will be mainly based around RegEX and should be used alongside other blacklists.
@@ -11,7 +11,7 @@
 ! Begin Pornography |
 !-------------------
 
-/(porn|xvideo|nude|cum|babe|slut|orgasm|strip|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|trans|thot|xxx|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore|pervert|smut|seuality|taboo|jerk|twerk|clit|pussy|18yo|19yo|hdsex|sexhd|rape|erotic|fetish|cocks|fap)/
+/(porn|xvideo|nude|cum|babe|slut|orgasm|stripper|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|thot|xxx|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore|pervert|smut|seuality|taboo|jerk|twerk|clit|pussy|18yo|19yo|hdsex|sexhd|rape|erotic|fetish|cocks|fap)/
 /(\.sex$|\.sexy$|\.porn$|\.bj$|\.singles$|\.lgbt$|\.gay$)/
 
 ||instateens.net^
