@@ -47,6 +47,8 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||voodoo-tech.io^
 ||voodoo.io^
 ||www.google.com^
+||discordapp.com^
+||cryptauthenrollment.googleapis.com^
 ||172.67.209.209^
 ||2606:4700:3035::6815:5d75^
 ||filepicker.io^$third-party
