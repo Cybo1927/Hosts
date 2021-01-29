@@ -1,7 +1,7 @@
 ! Title: Cybo's Anti Verizon
 ! Description: Block all known Verizon domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 ||imsvm.com^
 ||verizondigitalmedia.com^
@@ -50,6 +50,9 @@
 ||vzw.net^
 ||*verizon*.goog^
 ||oath.com^
+||yahoo.com^
+||yimg.com^
+||aol.com^
 ! Website nameserver
 ||vzwdomain.com^
 
