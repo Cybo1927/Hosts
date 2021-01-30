@@ -1,10 +1,15 @@
-[Adblock Plus]
 ! Title: Cybo's Anti Amazon
 ! Description: Block all known connections to Amazon as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 6
 
-||amazon.*^
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
+
+||amazon.^
 ||amazontrust.com^
 ||amazon-dss.com^
 ||amazonaws.com^
@@ -80,3 +85,7 @@
 ||canvas.technology^
 ||inlt.com^
 ||zoox.com^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
