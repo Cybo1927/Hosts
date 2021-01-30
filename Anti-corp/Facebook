@@ -1,8 +1,13 @@
-[Adblock Plus 3.6]
 ! Title: Cybo's Anti Facebook
 ! Description: Block all known connections to Facebook as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 20
+
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||instafeed.codev.wixapps.net^
 ||fbpigeon.com^
@@ -39,11 +44,8 @@
 ||atlassolutions.com^
 ||cdninstagram.com^
 ||expresswifi.com^
-! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||giphy.com^
 
-! Used to call the tracking pixel
-! "All standard events are tracked by calling the pixel's fbq('track') function, with the event name, and (optionally) a JSON object as its parameters."
-*##^script:has-text(fbq)
-! Other scripts
-*##^script:has-text(facebook-jssdk)
+!----------------------
+! End Domain Blacklist |
+!----------------------
