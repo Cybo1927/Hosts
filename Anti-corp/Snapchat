@@ -2,11 +2,16 @@
 ! Description: Block all known Snapchat domains  as well as block any subsidiaries
 ! Expires: 1 day
 
-||impala-media-production.s3.amazonaws.com^
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
 
 ! https://www.nbcnews.com/technology/snapchats-unopened-messages-can-be-shared-police-8C11395848
 ! https://support.cipafilter.com/index.php?/Knowledgebase/Article/View/117/0/how-to---block-snapchat
 ! https://kb.k12usa.com/Knowledgebase/Blocking-Snapchat
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||snapchat.com^
 ||snap.com^
@@ -32,3 +37,8 @@
 ||feelinsonice.l.google.com^
 ||appspot.l.google.com^
 ||data.flurry.com^
+||impala-media-production.s3.amazonaws.com^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
