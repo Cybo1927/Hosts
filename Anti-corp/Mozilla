@@ -1,11 +1,13 @@
 ! Title: Cybo's Anti Mozilla
 ! Description: Block all knwon Mozilla domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 2
 
-! Mozilla's Firefox tracks you using Google Analytics (mainly through the URL itself using ?utm_*)
-! Which leads me to not trust any of their services
-! This list is meant to be used with DNS Sinkholes
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||mozilla.com^
 ||mozilla.net^
@@ -16,3 +18,7 @@
 ||d2k03kvdk5cku0.cloudfront.net^
 ||detectportal.firefox.com-v2.edgesuite.net^
 ||mozilla.wpengine.com^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
