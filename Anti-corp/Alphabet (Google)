@@ -1,12 +1,24 @@
-[Adblock Plus]
 ! Title: Cybo's Anti Alphabet
 ! Description: Block all known Alphabet/Google domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 36
 
-! Google
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
+
+! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
+! https://wwws.nightwatchcybersecurity.com/tag/gps/
+! http://whois.domaintools.com/izatcloud.net
+! http://whois.domaintools.com/izatcloud.com
+! http://whois.domaintools.com/gpsonextra.net
+! http://whois.domaintools.com/gpsonextra.com
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
+
 ||google.ad^
-||google.aegoogle.al^
+||google.ae^
+||google.al^
 ||google.am^
 ||google.as^
 ||google.at^
@@ -205,9 +217,6 @@
 ||ggpht.com^
 ||googlezip.net^
 ||googlesource.com^
-
-! Hosting
-/(amp)(\.|-).+.+/$document,subdocument,popup,popunder,domain=~github.com|~gitlab.com
 ||appspot.com^
 ||youtube.com^
 ||blogger.com^
@@ -218,29 +227,15 @@
 ||gvt1.com^
 ||blogblog.com^
 ||blogspot.com^
-
-! Mail
 ||gmail.com^
 ||googlemail.com^
-
-! Ads
 ||doubleclick.net^
 ||admob.com^
-
-! Forms
 ||forms.gle^
-
-! AMP Project
 ||cdn.ampproject.org^
 ||ampproject.org^
 ||adguard-com.cdn.ampproject.org^
-
-! DNS
-||8.8.8.8^
-||8.8.4.4^
 ||dns.google^
-
-! Misc
 ||web.dev^
 ||calicolabs.com^
 ||nest.com^
@@ -269,36 +264,35 @@
 ||angulardart.dev^
 ||global-dealer-ssl.spotify.com^
 ||load.com^
-
-! https://www.youtube.com/watch?v=FfM7tzskcwQ
 ||tenor.com^
-
-! https://blog.fitbit.com/2021-update/
 ||fitbit.com^
+||izatcloud.net^
+||izatcloud.com^
+||gpsonextra.net^
+||gpsonextra.com^
 
-! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
-! https://wwws.nightwatchcybersecurity.com/tag/gps/
-! http://whois.domaintools.com/izatcloud.net
-! http://whois.domaintools.com/izatcloud.com
-! http://whois.domaintools.com/gpsonextra.net
-! http://whois.domaintools.com/gpsonextra.com
-||izatcloud.net^$important
-||izatcloud.com^$important
-||gpsonextra.net^$important
-||gpsonextra.com^$important
+!----------------------
+! End Domain Blacklist |
+!----------------------
 
-! Third-party
-*/GA360.php
-*/ajaxCustomerInfoGA
+!--------------------
+! Begin IP Blacklist |
+!--------------------
 
 ! IPs
-||172.217.*.*^
-||216.58.*.*^
-||216.56.*.*^
-||216.239.*.*^
+||172.217.*.^
+||216.58.*.^
+||216.56.*.^
+||216.239.*.^
 ||64.233.160.0^
 ||121.121.121.121^
 ||35.201.97.85^
 ||34.83.64.96^
+||8.8.8.8^
+||8.8.4.4^
 [2001:4860:4860::8888]$network
 [2001:4860:4860::8844]$network
+
+!------------------
+! End IP Blacklist |
+!------------------
