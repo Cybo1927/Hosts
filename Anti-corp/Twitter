@@ -1,8 +1,13 @@
-[Adblock Plus]
 ! Title: Cybo's Anti Twitter
 ! Description: Block all known Twitter domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 2
+
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: Periscope
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||twitter.com^
 ||twttr.com^
@@ -11,3 +16,7 @@
 ||periscope.tv^
 ||pscp.tv^
 ||mopub.com^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
