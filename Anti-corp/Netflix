@@ -1,7 +1,13 @@
 ! Title: Cybo's Anti Netflix
 ! Description: Block all known Netflix domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 1
+
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||netflix.com^
 ||netflix.co.uk^
@@ -13,3 +19,7 @@
 ||storybots.com^
 ||dvd.com^
 ||fast.com^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
