@@ -2,14 +2,20 @@
 ! Description: Block all known Samsung domains as well as block any subsidiaries
 ! Expires: 1 day
 
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: Bixby AI
+
 ! https://www.computerworld.com/article/3514999/samsung-selling-data.html
 ! https://www.cnet.com/news/samsungs-warning-our-smart-tvs-record-your-living-room-chatter/
-
 ! https://bgp.he.net/net/103.39.36.0/22#_netinfo
 ! https://bgp.he.net/net/210.108.67.0/24#_dns
 ! https://bgp.he.net/net/91.199.239.0/24#_dns
 ! https://bgp.he.net/net/27.106.204.0/24#_dns
 ! https://bgp.he.net/net/218.249.63.0/24#_dns
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||samsungapps.com^
 ||samsungcloud.com^
@@ -79,6 +85,8 @@
 ||samsungapps.com.gslb.cdnetworks.net^
 ||samsungapps.com.cdngc.net^
 ||aibixby.com^
-
-! Samsung Devices Keep Conecting to This?
 ||example.org^
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
