@@ -1,11 +1,15 @@
 ! Title: Cybo's Anti Microsoft
 ! Description: Block all known Microsoft domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 19
 
-! Block Microsoft and their services
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: N/A
 
 ! https://bgp.he.net/ip/204.79.197.200#_dns
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||microsoft.com^
 ||sfx.ms^
@@ -164,7 +168,8 @@
 ||yigalaxy.com^
 ||za7.net^
 ||zyhcxzs.com^
+||xboxlive.com^
 
-! AdGuard Specific
-! https://who.is/whois-ip/ip-address/13.89.240.193
-13.89.240.193$network
+!----------------------
+! End Domain Blacklist |
+!----------------------
