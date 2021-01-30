@@ -1,7 +1,13 @@
 ! Title: Cybo's Anti Verizon
 ! Description: Block all known Verizon domains as well as block any subsidiaries
 ! Expires: 1 day
-! Version: 9
+
+! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
+! Subsidiaries blocked: Yahoo!, AOL, and Oath
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
 
 ||imsvm.com^
 ||verizondigitalmedia.com^
@@ -50,13 +56,19 @@
 ||vzw.net^
 ||*verizon*.goog^
 ||oath.com^
-||yahoo.com^
 ||yimg.com^
+||yahooapis.com^
 ||aol.com^
-! Website nameserver
 ||vzwdomain.com^
 
-! IP
+!----------------------
+! End Domain Blacklist |
+!----------------------
+
+!--------------------
+! Begin IP Blacklist |
+!--------------------
+
 ||69.78.235.114^
 ||74.6.231.21^
 ||74.6.143.26^
@@ -66,18 +78,6 @@
 ||74.6.143.25^
 ||141.207.0.0^
 
-*/foryourhome/ordering/checkavailabilitylq.aspx
-*/vzauth
-*/verizonrewards
-?goto=http*://*.verizon*
-%2everizon%2ecom%
-||pandora.com/verizon
-
-! AdGuard For Android
-!#if !ext_ublock
-!#if (adguard_app_android)
-
-*$app=com.dcgov.verizon|com.capresults.verizon|com.capresults.verizon|com.dynamicsignal.enterprise.iamvz|com.vzw.smartlocatorhub|com.app_phonewireless.layout|com.allstate.Verizon|com.telogis.spotlight|com.telogis.logbook|com.verizonconnect.workforce
-
-!#endif
-!#endif
+!------------------
+! End IP Blacklist |
+!------------------
