@@ -1,0 +1,32 @@
+[Adblock Plus]
+! Title: Cybo's Anti Alphabet - Third-Party
+! Description: Block all known Alphabet domains and any subsidiaries on third-party sites
+! Expires: 1 day
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
+
+||google.^$third-party,domain=~youtube.com
+||googlevideo.com^$third-party,domain=~youtube.com
+||ggpht.com^$third-party,domain=~youtube.com
+||ytimg.com^$third-party,domain=~youtube.com
+||googleapis.com^$third-party
+||googleusercontent.com^$third-party
+||*.goog^$third-party
+||gstatic.com^$third-party
+||googlezip.net^$third-party
+||googlesource.com^$third-party
+||appspot.com^$third-party
+||youtube.com^$third-party
+||blogger.com^$third-party
+||googlehosted.com^$third-party
+||firebase.io^$third-party
+||googlehosts.org^$third-party
+||blogblog.com^$third-party
+||blogspot.com^$third-party
+||forms.gle^$third-party
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
