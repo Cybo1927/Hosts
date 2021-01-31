@@ -3,7 +3,7 @@
 ! Expires: 1 day
 
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
-! Subsidiaries blocked: Android, YouTube, Blogger, AMP, Nest, Calico, Verily, DeepMind, Waymo, Wing, Sidewalk Labs, X Company, Loon, GV, Chronicle Security, CapitalG, VirusTotal, TensorFlow, Angular, Tenor, and Fitbit
+! Subsidiaries blocked: Google, Android, YouTube, Blogger, AMP, Nest, Calico, Verily, DeepMind, Waymo, Wing, Sidewalk Labs, X Company, Loon, GV, Chronicle Security, CapitalG, VirusTotal, TensorFlow, Angular, Tenor, and Fitbit
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -232,9 +232,7 @@
 ||doubleclick.net^
 ||admob.com^
 ||forms.gle^
-||cdn.ampproject.org^
 ||ampproject.org^
-||adguard-com.cdn.ampproject.org^
 ||dns.google^
 ||web.dev^
 ||calicolabs.com^
