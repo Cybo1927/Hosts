@@ -7,14 +7,14 @@
 ! Start Domain Blacklist |
 !------------------------
 
-||google.^$third-party,domain=~youtube.com
+||google.^$third-party,domain=~youtube.com,~play.google.com
 ||googlevideo.com^$third-party,domain=~youtube.com
 ||ggpht.com^$third-party,domain=~youtube.com
 ||ytimg.com^$third-party,domain=~youtube.com
+||googleusercontent.com^$third-party,domain=~play.google.com
+||gstatic.com^$third-party,domain=~play.google.com
 ||googleapis.com^$third-party
-||googleusercontent.com^$third-party
 ||*.goog^$third-party
-||gstatic.com^$third-party
 ||googlezip.net^$third-party
 ||googlesource.com^$third-party
 ||appspot.com^$third-party
