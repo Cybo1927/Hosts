@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1390
+! Version: 1391
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -552,6 +552,10 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||neuro-id.com^
+||clientstream-ga.launchdarkly.com^
+||t.icebns.com^
+||cnt.iceporn.com^
 ||*-beacon.secure.yahoo.com^
 ||soft-com.biz^
 ||nuvidp.com^
@@ -5923,7 +5927,6 @@ about:blank$third-party
 ||ipvertising.com^
 ||dps.bing.com^
 ||destinationurl.com^
-||ds-aksb-a.akamaihd.net^
 ||datafest.com^
 ||toutiao.com^
 ||pstatp.com^
@@ -8240,7 +8243,6 @@ about:blank$third-party
 ||mxcdn.net^
 ||msftncsi.com^
 ||markitcdn.com^
-||markitondemand.com^
 ||moneyducks.com^
 ||mdrtrck.com^
 ||mdn2015x*.com^
@@ -14616,19 +14618,22 @@ _statsonlineinfo
 
 ! AdGuard specific whitelist
 @@||sourceforge.net$generichide,genericblock
-@@||accounts.google.^$cookie
-@@||accounts.google.^$stealth
 @@||googlevideo.com^$stealth
 @@||chrome.google.com^$stealth
 @@||addons.cdn.mozilla.net^$stealth
 @@||proprofs.com^$cookie
 @@||blueforcegear.com$cookie
 @@||linkedin.com$cookie
+! Unbreak Logins
+@@||accounts.google.^$cookie
+@@||accounts.google.^$stealth
 @@||accounts.youtube.com^$stealth
 @@||myaccount.google.com^$stealth
 @@||accounts.google.com^$stealth
 @@||nextdns.io^$stealth
 @@||login.bitdefender.com^$stealth
+! Unbreak Login and Stocks Trading
+@@||fidelity.com^$stealth
 
 ! HTML/Script Blocking
 $$amp-ad
@@ -14696,6 +14701,7 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
+||bitwarden.com^$cookie=__cfduid
 ||freshxcdn.com^$cookie
 ||steamstatic.com^$cookie=__cfduid
 ||mediacnt.com^$cookie
