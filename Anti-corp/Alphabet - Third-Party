@@ -8,7 +8,8 @@
 !------------------------
 
 ||google.^$third-party,domain=~youtube.com,~play.google.com
-||googlevideo.com^$third-party,domain=~youtube.com
+||youtube.com^$third-party,domain=~docs.google.com,~drive.google.com
+||googlevideo.com^$third-party,domain=~youtube.com,~docs.google.com,~drive.google.com
 ||ggpht.com^$third-party,domain=~youtube.com
 ||ytimg.com^$third-party,domain=~youtube.com
 ||googleusercontent.com^$third-party,domain=~play.google.com,~docs.google.com,~drive.google.com
@@ -18,7 +19,6 @@
 ||googlezip.net^$third-party
 ||googlesource.com^$third-party
 ||appspot.com^$third-party
-||youtube.com^$third-party
 ||blogger.com^$third-party
 ||googlehosted.com^$third-party
 ||firebase.io^$third-party
