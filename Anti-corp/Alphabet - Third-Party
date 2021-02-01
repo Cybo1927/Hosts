@@ -11,9 +11,9 @@
 ||googlevideo.com^$third-party,domain=~youtube.com
 ||ggpht.com^$third-party,domain=~youtube.com
 ||ytimg.com^$third-party,domain=~youtube.com
-||googleusercontent.com^$third-party,domain=~play.google.com
-||gstatic.com^$third-party,domain=~play.google.com,~classroom.google.com
-||googleapis.com^$third-party,domain=~classroom.google.com
+||googleusercontent.com^$third-party,domain=~play.google.com,~docs.google.com,~drive.google.com
+||gstatic.com^$third-party,domain=~play.google.com,~classroom.google.com,~docs.google.com
+||googleapis.com^$third-party,domain=~classroom.google.com,~drive.google.com
 ||*.goog^$third-party
 ||googlezip.net^$third-party
 ||googlesource.com^$third-party
