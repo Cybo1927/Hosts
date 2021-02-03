@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1392
+! Version: 1393
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -213,6 +213,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||cdn.mp3vizor.com^$third-party
 ||impactserving.com^$popup,popunder
 ||milffox.com^$third-party
 ||xcams.images-dnxlive.com^$third-party
@@ -552,6 +553,18 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||myadstrk.com^
+||log.kgmobi.com^
+||adblocksosal.ru^
+||reine.ru^
+||log.*.yandex.*^
+||rnldustal.com^
+||dzubavstal.com^
+||notify6.com^
+||infoboom.life^
+||track.mp3vizor.com^
+||analitycs.net^
+||snowplow-pixel.*^
 ||neuro-id.com^
 ||clientstream-ga.launchdarkly.com^
 ||t.icebns.com^
@@ -759,7 +772,7 @@ about:blank$third-party
 ||youyube.com^
 ||smrt.as^
 ||speedsagesleepy.com^
-||rum-cdn.*.^
+||rum-cdn.*.*^
 ||gihub.com^
 ||mediatradecraft-com.videoplayerhub.com^
 ||btloader.com^
@@ -1194,11 +1207,11 @@ about:blank$third-party
 ||p2r14.com^
 ||mediav.com^
 ||e.so.com^
-||smetric.^
-||smetrics.^
-||webstats.^
-||adproxy.^
-||mlog.^
+||smetric.*^
+||smetrics.*^
+||webstats.*^
+||adproxy.*^
+||mlog.*^
 ||ptgncdn.com^
 ||opensharecount.com^
 ||wn.nr^
@@ -1301,9 +1314,9 @@ about:blank$third-party
 ||emb-api.com^
 ||honky.com^
 ||*.karere.mega.nz^
-||adfox.yandex.^
-||adengine.rt.^
-||adengine.*.rt.^
+||adfox.yandex.*^
+||adengine.rt.*^
+||adengine.*.rt.*^
 ||mostbet.partners
 ||top-films.world^
 ||easypayments.ch^
@@ -1488,8 +1501,8 @@ about:blank$third-party
 ||veryyoung.org^
 ||lilnymph.com^
 ||youngtube.cc^
-||1olita.^
-||lol1ta.^
+||1olita.*^
+||lol1ta.*^
 ||adwidgets.ru^
 ||dmdbuilders.net^
 ||king15.com^
@@ -1840,7 +1853,7 @@ about:blank$third-party
 ||snapmeet.xyz^
 ||localhookup50.com^
 ||absorblms.com^
-||ads.zoo.^
+||ads.zoo.*^
 ||boostcpm.su^
 ||insights.alibaba.com^
 ||efuse.atlassian.net^
@@ -1922,8 +1935,8 @@ about:blank$third-party
 ||althroc.com^
 ||nablons.com^
 ||grapeshot.co.uk^
-||http-check-headers.yandex.^
-||googleadsserving.^
+||http-check-headers.yandex.*^
+||googleadsserving.*^
 ||iad.sdk.apple.com^
 ||gb.lgrecommends.lgappstv.com^
 ||gb.lgtvsdp.com^
@@ -2572,7 +2585,7 @@ about:blank$third-party
 ||admost.com^
 ||ads.vaguthu.mv^
 ||ads.xyz.ng^
-||analytics-tracker.^
+||analytics-tracker.*^
 ||ablogica.com^
 ||ads-*-nfl.yinzcam.com^
 ||ads-resources.waze.com^
@@ -2636,7 +2649,7 @@ about:blank$third-party
 ||ad-server.co.za^
 ||ad-sponsor.com^
 ||adreach.co^
-||adservice.google.^
+||adservice.google.*^
 ||adsdk.picooapps.com^
 ||adsdk-picooapp*-*.amazonaws.com^
 ||adsdk.picooapp.com^
@@ -2690,7 +2703,7 @@ about:blank$third-party
 ||ads.linksrequest.com^
 ||ads.yenimedya.com.tr^
 ||advgalaxy.com^
-||adwiretracker.^
+||adwiretracker.*^
 ||affilate.mercola.com^
 ||affiliate.productreview.com.au^
 ||affiliates.de^
@@ -2814,7 +2827,7 @@ about:blank$third-party
 ||analytics-ingestion.production-public.tubi.io^
 ||acc-hd.de^
 ||adzcore.com^
-||ad-cdn.^
+||ad-cdn.*^
 ||adbetclickin.pink^
 ||adbetnet.com^
 ||adbreak.cubecdn.net^
@@ -2895,7 +2908,7 @@ about:blank$third-party
 ||alfaleads.net^
 ||affmy.com^
 ||adfox.ru^
-||advert-technology.^
+||advert-technology.*^
 ||adshob.com^
 ||ali-crm.ru^
 ||analytics-v4-poc.ff.avast.com^
@@ -3363,7 +3376,7 @@ about:blank$third-party
 ||analytics.spotify.com^
 ||clickbank.com^
 ||ads-icl.googleusercontent.com^
-||adwords.google.^
+||adwords.google.*^
 ||affiliate.googleusercontent.com^
 ||agoogle.com^
 ||ampcid.google.com^
@@ -3669,7 +3682,7 @@ about:blank$third-party
 ||aclickoooo.host^
 ||ap.smardroid.com^
 ||advertserve.com^
-||adsmogo.^
+||adsmogo.*^
 ||adtiming.com^
 ||adbert.info^
 ||agent.tamedia.com.tw^
@@ -3938,7 +3951,7 @@ about:blank$third-party
 ||analytics.google.com^
 ||analytics-api-samples.googlecode.com^
 ||afs.googleusercontent.com^
-||ads.google.^
+||ads.google.*^
 ||ad-creatives-public.commondatastorage.googleapis.com^
 ||av.beap.bc.yahoo.com^
 ||avatraffic.com^
@@ -3985,7 +3998,7 @@ about:blank$third-party
 ||analytics.mobile.walmart.com^
 ||app-analytics.snapchat.com^
 ||actualdeals.com^
-||advertising.yandex.^
+||advertising.yandex.*^
 ||ads.namiflow.com^
 ||*-amazon-adsystem.amazon.com^
 ||aka-root.com^
@@ -4401,7 +4414,7 @@ about:blank$third-party
 ||ads.medienhaus.de^
 ||ads.mobilautomaten.com^
 ||ads.motor-forum.nl^
-||ads.multimania.lycos.^
+||ads.multimania.lycos.*^
 ||ads.nationalgeographic.com^
 ||ads.networksolutions.com^
 ||ads.newdream.net^
@@ -4444,7 +4457,7 @@ about:blank$third-party
 ||adonion.com^
 ||ad-clicks.com^
 ||admaster.com.cn^
-||adocean.^
+||adocean.*^
 ||adforce.ru^
 ||adcycle.everyone.net^
 ||adgear.com^
@@ -4654,7 +4667,7 @@ about:blank$third-party
 ||bitrix.info^
 ||bitrix24.com^
 ||bitrix.ru^
-||blockadblock.com.^
+||blockadblock.com.*^
 ||biz.world.waze.com^
 ||botmatic.ai^
 ||buglife.com^
@@ -5026,7 +5039,7 @@ about:blank$third-party
 ||bunchofads.com^
 ||bunitd.com^
 ||crptgate.com^
-||cradver.^
+||cradver.*^
 ||clean.gg^
 ||consent.api.ua.com^
 ||chelpus.com^
@@ -5247,7 +5260,7 @@ about:blank$third-party
 ||clickterra.net^
 ||click-plus.net^
 ||crta.dailymail.co.uk^
-||concertads-configs.*.^
+||concertads-configs.*.*^
 ||circularhub.com^
 ||cpagrip.com^
 ||contentlockingnetworks.com^
@@ -5607,7 +5620,7 @@ about:blank$third-party
 ||counter.nope.dk^
 ||clickcash.com^
 ||clients1.google.com^
-||crash-stats.mozilla.^
+||crash-stats.mozilla.*^
 ||clarium.global.ssl.fastly.net^
 ||clickfuse.com^
 ||cointraffic.io^
@@ -5735,7 +5748,7 @@ about:blank$third-party
 ||dataxpand.com^
 ||datalicious.com^
 ||dolphincdn.xyz^
-||device-metrics-*.amazon.^
+||device-metrics-*.amazon.*^
 ||dov-e.com^
 ||display.io^
 ||dpmsrv.com^
@@ -6489,7 +6502,7 @@ about:blank$third-party
 ||googletagmanager.com^
 ||googletagservices.com^
 ||ghtenbritingso.com^
-||goguardian.^
+||goguardian.*^
 ||gse.io^
 ||trafficshop.com^
 ||gunnepaa.xyz^
@@ -6631,7 +6644,7 @@ about:blank$third-party
 ||google-analyitics.org^
 ||google-adwords.com.vn^
 ||googleadsl.com^
-||googleadservices.^
+||googleadservices.*^
 ||googleadapis.l.google.com^
 ||googlestatisticalserver.com^
 ||google-feed.net^
@@ -6995,7 +7008,7 @@ about:blank$third-party
 ||geoip.alm.com^
 ||bark.us^
 ||i-mobile.co.jp^
-||imp-adedge.^
+||imp-adedge.*^
 ||adocean.pl^
 ||ipm.bitdefender.com^
 ||inform.com^
@@ -7104,7 +7117,7 @@ about:blank$third-party
 ||localsearch.ch^
 ||idll44.ph^
 ||id.l.google.com^
-||id.google.^
+||id.google.*^
 ||intercom.com^
 ||m-pathy.com^
 ||interstitial-ads-prod-fusepowered.netdna-ssl.com^
@@ -8076,7 +8089,7 @@ about:blank$third-party
 ||lmiutil.com^
 ||log.spotify.com^
 ||liveinternet.ru^
-||layer-ads.^
+||layer-ads.*^
 ||laughcloth.com^
 ||leaplunchroom.com^
 ||limpingline.com^
@@ -8208,7 +8221,7 @@ about:blank$third-party
 ||mywebclick.net^
 ||mediahits.club^
 ||mypurecloud.com^
-||mail-ads.google.^
+||mail-ads.google.*^
 ||macebearer.cf^
 ||mainstrat.com^
 ||madspms.com^
@@ -8331,7 +8344,7 @@ about:blank$third-party
 ||mobileanalytics.*.amazonaws.com^
 ||matchbin-assets.s3.amazonaws.com^
 ||mobilepicture.com^
-||mt*.google.^
+||mt*.google.*^
 ||ml-attr.com^
 ||mintigollg.appspot.com^
 ||metadata.io^
@@ -8431,8 +8444,8 @@ about:blank$third-party
 ||monsido.com^
 ||msmetrics.ws.sonos.com^
 ||metrics.plex.tv^
-||metrika.yandex.^
-||metrica.yandex.^
+||metrika.yandex.*^
+||metrica.yandex.*^
 ||moatads.com.edgekey.net^
 ||marketing.neustar^
 ||metrics.hsbc.com.au^
@@ -8677,7 +8690,6 @@ about:blank$third-party
 ||ns*.bankofamerica.com^
 ||ns*.vodafone.com^
 ||yipes.com^
-||ns*.google.^
 ||netzathleten-media.de^
 ||newsharecounts.com^
 ||nds-network-nav.ea.com^
@@ -8773,7 +8785,7 @@ about:blank$third-party
 ||olymptrade.com^
 ||outbrainimg.com^
 ||oct8ne.com^
-||opentracker.^
+||opentracker.*^
 ||opentracker.acgnx.se^
 ||opsen.dolphin-browser.com^
 ||onesignal.com^
@@ -8914,7 +8926,7 @@ about:blank$third-party
 ||promote.thinkyeah.com^
 ||pixel.marsble.com^
 ||pumpkin.abine.com^
-||propellerad.^
+||propellerad.*^
 ||purple6401.com^
 ||purplestats.com^
 ||prolificmail.com^
@@ -9312,7 +9324,7 @@ about:blank$third-party
 ||placeiq.com^
 ||pub.network^
 ||skimresources.com^
-||pixel.wp.^
+||pixel.wp.*^
 ||stumbleupon.com^
 ||predictiveresponse.net^
 ||pubmatic.com^
@@ -9432,7 +9444,7 @@ about:blank$third-party
 ||report-uri.highwebmedia.com^
 ||realtime.services.disqus.com^
 ||richducks.com^
-||rarbg*.^
+||rarbg*.*^
 ||rekoverr.com^
 ||rsz.sk^
 ||referrer.disqus.com^
@@ -10005,7 +10017,7 @@ about:blank$third-party
 ||safedk.com^
 ||subscrib.com^
 ||smartrcdn.s3.amazonaws.com^
-||subscrib.^
+||subscrib.*^
 ||sastrk.com^
 ||siencesratify.com^
 ||skimlinks.com^
@@ -10445,7 +10457,7 @@ about:blank$third-party
 ||tracedock.com^
 ||trafficshaping.dsp.mp.microsoft.com^
 ||trbas.com^
-||telemetry-in.^
+||telemetry-in.*^
 ||terrapsps.com^
 ||terrasdsdstd.com^
 ||top-nudism.eu^
@@ -10475,7 +10487,6 @@ about:blank$third-party
 ||triblio.com^
 ||tribl.io^
 ||telemetry.*.quicinc.com^
-||trac.torproject.org^
 ||thedoctopdf.com^
 ||talkwalker.com^
 ||thepromoexperts.com^
@@ -12026,8 +12037,8 @@ about:blank$third-party
 ||loading-delivery1.com^
 ||checkm8.com^
 ||1e100.net^
-||log-config.^
-||log-ingestion-*.^
+||log-config.*^
+||log-ingestion-*.*^
 ||targetedconfig-prod.*-*-*.elasticbeanstalk.com^
 ||mybitdefender-central.com^
 ||bitdefender-login.com^
@@ -12961,6 +12972,9 @@ quizlet.com##.StudyValueUpsellModal, .UIModal-backdrop, [class*="embeddedDesktop
 westernjournal.com###firefly-poll-container
 developer.android.com##.devsite-banner-message:-abp-contains(racial equity)
 nasdaq.com##.header-ads
+theweek.co.uk##.polaris__subscription, .polaris__newsletter
+iwm.org.uk##.cc_banner, .cc_container, .cc_container--open, [class*="promo-"]
+raspberrypi.org##.cookieinfo
 
 !--------------------
 ! End Element Hiding |
@@ -14624,6 +14638,10 @@ _statsonlineinfo
 @@||proprofs.com^$cookie
 @@||blueforcegear.com$cookie
 @@||linkedin.com$cookie
+@@||snowflake.freehaven.net^$stealth
+@@||snowflake-broker.freehaven.net^$stealth
+@@||snowflake-broker.torproject.net^$stealth
+@@||snowflake.torproject.org^$stealth
 ! Unbreak Logins
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
@@ -14637,6 +14655,18 @@ _statsonlineinfo
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="analytics.plugins."]
+$$script[tag-content="vads.viewport_width"]
+$$script[tag-content="function gtag(){"]
+$$script[tag-content="ga-counter\""]
+$$script[tag-content="('track', 'PageView')"]
+$$script[tag-content="_gaq.push(['_trackPageview'])"]
+$$script[tag-content="NREUM.info={"beacon"]
+$$script[tag-content="InterstitialTsAd"]
+$$script[tag-content="screen.colorDepth"]
+$$script[tag-content="screen.pixelDepth"]
+$$script[tag-content="ad_popup_force"]
+$$script[tag-content="var PREROLL_SCROLL_DOWN_URL"]
 $$script[tag-content="ga('set',"]
 $$script[tag-content="EmbeddedAdsDuration"]
 $$script[tag-content="window.open(url, "", windowprops);"]
@@ -14683,6 +14713,10 @@ $$script[tag-content="zfgloaded"]
 $$script[tag-content="AntiAdblock"]
 $$script[tag-content="adblock.html"]
 $$script[src="popads.net"]
+$$noscript[tag-content="facebook.com/tr"]
+$$noscript[tag-content="exosrv"]
+$$script[wildcard="**window.onbeforeunload*popit == true*"]
+$$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
 
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 #%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
@@ -14864,6 +14898,18 @@ youtube.com#@#body { overflow:visible!important; }
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
+*##^script:has-text(ga(analytics.plugins.)
+*##^script:has-text(ga(vads.viewport_width)
+*##^script:has-text(ga(function gtag(){)
+*##^script:has-text(ga(ga-counter\")
+*##^script:has-text(ga(('track', 'PageView'))
+*##^script:has-text(ga(_gaq.push(['_trackPageview']))
+*##^script:has-text(ga(NREUM.info={"beacon)
+*##^script:has-text(ga(InterstitialTsAd)
+*##^script:has-text(ga(screen.colorDepth)
+*##^script:has-text(ga(screen.pixelDepth)
+*##^script:has-text(ga(ad_popup_force)
+*##^script:has-text(ga(var PREROLL_SCROLL_DOWN_URL)
 *##^script:has-text(ga('set',)
 *##^script:has-text(EmbeddedAdsDuration)
 *##^script:has-text(window.open(url, "", windowprops);)
@@ -15173,7 +15219,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||google.^$removeparam=ei|uact|sclient|gs_lcp|oq|ved
 ||bitdefender.com/box/blog$removeparam=/.+/
 ||bitdefender.com/blog$removeparam=/.+/
-||amazon.^$removeparam=tag
+||amazon.^$removeparam=tag|ref_
 
 !#endif
 !#endif
