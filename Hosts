@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1394
+! Version: 1395
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -14656,6 +14656,11 @@ _statsonlineinfo
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="'adblockTracker',"] 
+$$script[tag-content="juicyads.rocks"]
+$$script[tag-content=".isAdblock"]
+$$script[tag-content="adver('preroll',"]
+$$script[tag-content="adver('interstitial', "]
 $$script[tag-content="analytics.plugins."]
 $$script[tag-content="vads.viewport_width"]
 $$script[tag-content="function gtag(){"]
@@ -14714,10 +14719,12 @@ $$script[tag-content="zfgloaded"]
 $$script[tag-content="AntiAdblock"]
 $$script[tag-content="adblock.html"]
 $$script[src="popads.net"]
-$$noscript[tag-content="facebook.com/tr"]
-$$noscript[tag-content="exosrv"]
+$$script[src="tsyndicate.com"]
+$$script[wildcard="*setCookie*countVisit();*"]
 $$script[wildcard="**window.onbeforeunload*popit == true*"]
 $$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
+$$noscript[tag-content="facebook.com/tr"]
+$$noscript[tag-content="exosrv"]
 
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 #%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
@@ -14899,18 +14906,23 @@ youtube.com#@#body { overflow:visible!important; }
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
-*##^script:has-text(ga(analytics.plugins.)
-*##^script:has-text(ga(vads.viewport_width)
-*##^script:has-text(ga(function gtag(){)
-*##^script:has-text(ga(ga-counter\")
-*##^script:has-text(ga(('track', 'PageView'))
-*##^script:has-text(ga(_gaq.push(['_trackPageview']))
-*##^script:has-text(ga(NREUM.info={"beacon)
-*##^script:has-text(ga(InterstitialTsAd)
-*##^script:has-text(ga(screen.colorDepth)
-*##^script:has-text(ga(screen.pixelDepth)
-*##^script:has-text(ga(ad_popup_force)
-*##^script:has-text(ga(var PREROLL_SCROLL_DOWN_URL)
+*##^script:has-text('adblockTracker',) 
+*##^script:has-text(juicyads.rocks)
+*##^script:has-text(.isAdblock)
+*##^script:has-text(adver('preroll',)
+*##^script:has-text(adver('interstitial', )
+*##^script:has-text(analytics.plugins.)
+*##^script:has-text(vads.viewport_width)
+*##^script:has-text(function gtag(){)
+*##^script:has-text(ga-counter\")
+*##^script:has-text(('track', 'PageView'))
+*##^script:has-text(_gaq.push(['_trackPageview']))
+*##^script:has-text(NREUM.info={"beacon)
+*##^script:has-text(InterstitialTsAd)
+*##^script:has-text(screen.colorDepth)
+*##^script:has-text(screen.pixelDepth)
+*##^script:has-text(ad_popup_force)
+*##^script:has-text(var PREROLL_SCROLL_DOWN_URL)
 *##^script:has-text(ga('set',)
 *##^script:has-text(EmbeddedAdsDuration)
 *##^script:has-text(window.open(url, "", windowprops);)
