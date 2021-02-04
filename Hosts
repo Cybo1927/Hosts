@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1393
+! Version: 1394
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -8344,7 +8344,6 @@ about:blank$third-party
 ||mobileanalytics.*.amazonaws.com^
 ||matchbin-assets.s3.amazonaws.com^
 ||mobilepicture.com^
-||mt*.google.*^
 ||ml-attr.com^
 ||mintigollg.appspot.com^
 ||metadata.io^
@@ -14642,6 +14641,8 @@ _statsonlineinfo
 @@||snowflake-broker.freehaven.net^$stealth
 @@||snowflake-broker.torproject.net^$stealth
 @@||snowflake.torproject.org^$stealth
+@@||txxx.tube^$stealth
+@@||*.ahcdn.com^$media,stealth
 ! Unbreak Logins
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
