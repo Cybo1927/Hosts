@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1395
+! Version: 1396
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -188,6 +188,13 @@ fastpic.ru#@#[id*="adblock-"]
 ||facebook.net^$domain=printcloud.dremel.com
 ##[onclick*="facebook.com/sharer.php?"]
 
+! From https://github.com/gwarser/filter-lists/blob/master/lan-block.txt
+||[::1]^$third-party
+||localhost^$third-party
+||0.0.0.0^$third-party
+!
+||127.0.0.1^$third-party,websocket,other
+
 !------------------------
 ! Start Domain Blocklist |
 !------------------------
@@ -262,7 +269,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||go.omnislots.com^$third-party,popup,popunder
 ||wsj.net^$websocket,third-party
 ||highwebmedia.com^$websocket
-||127.0.0.1^$third-party,websocket
 ||zgo.at^$third-party
 ||bufferapp.com^$third-party
 ||buffer.com^$third-party
@@ -553,6 +559,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||zineone.com^
 ||myadstrk.com^
 ||log.kgmobi.com^
 ||adblocksosal.ru^
@@ -12989,6 +12996,8 @@ raspberrypi.org##.cookieinfo
 $ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/ads?zone_id=
+*?ad_sub$third-party
 */pixel.gif?
 */pixel2.gif?
 */s/s/sur.php?
@@ -15014,13 +15023,6 @@ youtube.com#@#body { overflow:visible!important; }
 *##+js(ra, oncontextmenu)
 *##+js(ra, contextmenu)
 !-----------------------------------------------------------------------
-! Specific
-platform.everfi.net*##+js(ra, disabled)
-
-! From https://github.com/gwarser/filter-lists/blob/master/lan-block.txt
-||[::1]^$third-party
-||localhost^$third-party
-||0.0.0.0^$third-party
 
 ! Extra JS injections
 pandora.com##+js(aeld, /hashchange/i)
