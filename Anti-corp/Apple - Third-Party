@@ -1,0 +1,34 @@
+[Adblock Plus]
+! Title: Cybo's Anti Apple - Third-Party
+! Description: Block all known Apple domains and any subsidiaries on third-party sites
+! Expires: 1 day
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
+
+||apple.com^$third-party
+||apple.net^$third-party
+||apple.com.edgekey.net^$third-party
+||apple.com.edgesuite.net^$third-party
+||apple.com.akadns.net^$third-party
+||ls-apple.com.akadns.net^$third-party
+||itunes-apple.com.akadns.net^$third-party
+||icloud.com.edgekey.net^$third-party
+||apple.com.edgekey.net.globalredir.akadns.net^$third-party
+||origin-apple.com.akadns.net^$third-party
+||push-apple.com.akadns.net^$third-party
+||e673.dsce9.akamaiedge.net^$third-party
+||e6987.a.akamaiedge.net^$third-party
+||applimg.com^$third-party
+||cdn-apple.com^$third-party
+||apple-dns.net^$third-party
+||itunes.apple.com^$third-party
+||icloud.com^$third-party
+||icloud.com.akadns.net^$third-party
+||mzstatic.com^$third-party
+||webkit.org^$third-party
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
