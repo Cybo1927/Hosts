@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1396
+! Version: 1397
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -220,6 +220,8 @@ fastpic.ru#@#[id*="adblock-"]
 ||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
 ||gstatic.com^$domain=demos.net|demos.ru
 !
+||adtng.com^$popup,popunder
+||adfoc.us^$third-party
 ||cdn.mp3vizor.com^$third-party
 ||impactserving.com^$popup,popunder
 ||milffox.com^$third-party
@@ -559,6 +561,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||greengrowth.space^
+||fruitfliestown.com^
+||magic1.info^
+||omniture.walmart.com^
+||omniture-ssl.walmart.com^
 ||zineone.com^
 ||myadstrk.com^
 ||log.kgmobi.com^
@@ -4118,7 +4125,6 @@ about:blank$third-party
 ||ad.aboutwebservices.com^
 ||ad.abum.com^
 ||ad.afy11.net^
-||adfoc.us^
 ||ad.allstar.cz^
 ||ad.altervista.org^
 ||ad.amgdgt.com^
@@ -12981,6 +12987,40 @@ nasdaq.com##.header-ads
 theweek.co.uk##.polaris__subscription, .polaris__newsletter
 iwm.org.uk##.cc_banner, .cc_container, .cc_container--open, [class*="promo-"]
 raspberrypi.org##.cookieinfo
+vivatube.com##.drt-spot-box, .no-buttons, .drt-spot-visible, .spots, .livecams, .thr-rcolm, .trailerspots, .thr-rcol, [id*="spot_video_"]
+hotmovs.com##.underplayer, .sidebar, .annoying-container, [class*="adv-name"]
+sleazyneasy.com##.adv-aside, .text_adv, .bottom-banners, .advertising
+pervclips.com##.thumb_spots, .spot-after, .player_adv
+viptube.com##.drt-spot-box, .drt-spot-visible, .promotion, #spot_footer, #spot_video_underplayer_livecams
+vikiporn.com###after-adv, .bottom-banners, .advertising
+pornicom.com##.advertising, .pre-ad, .thumb_spots
+iceporn.com##.drt-spot-box, .drt-spot-visible, #spot_footer, [id*="spot_video"]
+porn.com##.foot-zn
+katestube.com##.spot, .advertising, .bottom-banners
+txxx.com##.bxlhhaamkzhaqrecynlre, .bxlhhaamkzsbbgre-onaaref, .bxlhhaamkzivqrb-pbagrag-evtug, .cookie-notify
+nuvid.com##.drt-spot-box, .drt-spot-visible, .video-options, .aside, [id*="spot_video"]
+proporn.com##.drt-spot-box, .no-buttons, .drt-spot-visible, #spot_video_underplayer_livecams, .livecams, .thr-rcol, .c-medtitle-output, .spots
+pornhat.com##.before-player, .show, .player-bn, .bns-bl, .bns-bl-new
+tubeon.com##.drt-spot-box, .no-buttons, .drt-spot-visible, #spot_video_underplayer_livecams, .livecams, .spots, .thr-rcol
+upornia.com##.sidebar, .fel-sbar, #channel-video-banner
+pornrabbit.com###inPlayer, .stage-promo, .spots, .wrap-spots
+yeptube.com##.thr-rcol, .drt-spot-box, .no-buttons, .drt-spot-visible, #spot_video_underplayer_livecams, .livecams, .spots
+xhamster.com##.wio-vbanner, .wio-vspb, .wio-vspa
+ok.xxx##.before-player, .show, .player-bn, .bns-bl, .bns-bl-new
+porn.com##div.list-global__item:-abp-contains(FetishShrine)
+porn.com##div.list-global__item:-abp-contains(HD 21)
+wankoz.com##.advertising, .banner, .bottom-banners
+porndoe.com##.fly-in-popup, .porndoecams-popup, .advertisement-box, .-fpo-bar
+laidhub.com##.aside-itempage-col
+winporn.com##.thr-rcol, .drt-spot-box, .no-buttons, .drt-spot-visible, #spot_video_underplayer_livecams, .spots, .footer_spots, .livecams
+drtuber.com##.drt-spot-box, .drt-spot-visible
+hentaihaven.xxx##.script_manager_video_master
+hanime.tv##.htvad, .smart_banner
+hentai.tv##.sidebar
+hentaidude.com##.main-vip, #idunder
+nudemovies.pro##[class*="promo-col"]
+redtube.com##.uwommw, #ab_banner, .abovePlayer, #below_footer_ad_content
+apple.com##.unit-wrapper:-abp-contains(/racial equity/i):upward(2)
 
 !--------------------
 ! End Element Hiding |
@@ -13203,7 +13243,6 @@ $ping
 */promos/iframe/
 */popin-min.js
 */ads.txt
-*/exoclick.ads
 */google_analytics/
 */plugins/popup-builder/
 */*.gif?l=http
@@ -14652,6 +14691,7 @@ _statsonlineinfo
 @@||snowflake.torproject.org^$stealth
 @@||txxx.tube^$stealth
 @@||*.ahcdn.com^$media,stealth
+@@||filepicker.io^$stealth
 ! Unbreak Logins
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
@@ -14682,7 +14722,6 @@ $$script[tag-content="screen.colorDepth"]
 $$script[tag-content="screen.pixelDepth"]
 $$script[tag-content="ad_popup_force"]
 $$script[tag-content="var PREROLL_SCROLL_DOWN_URL"]
-$$script[tag-content="ga('set',"]
 $$script[tag-content="EmbeddedAdsDuration"]
 $$script[tag-content="window.open(url, "", windowprops);"]
 $$script[tag-content="var ad_idzone"]
@@ -14932,7 +14971,6 @@ youtube.com#@#body { overflow:visible!important; }
 *##^script:has-text(screen.pixelDepth)
 *##^script:has-text(ad_popup_force)
 *##^script:has-text(var PREROLL_SCROLL_DOWN_URL)
-*##^script:has-text(ga('set',)
 *##^script:has-text(EmbeddedAdsDuration)
 *##^script:has-text(window.open(url, "", windowprops);)
 *##^script:has-text(var ad_idzone)
