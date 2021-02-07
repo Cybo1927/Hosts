@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1397
+! Version: 1398
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -7216,7 +7216,6 @@ about:blank$third-party
 ||ininmacerad.pro^
 ||intellitxt.com^
 ||tapjoy.com^
-||imasdk.googleapis.com^
 ||infolinks.com^
 ||po.st^
 ||izatcloud.net^
@@ -12609,6 +12608,7 @@ about:blank$third-party
 ||pornhub.com/svvt/add?
 ||animeporn.xxx/wp-content/uploads/*/ad*.gif
 ||google.com/log
+||aoeapps.com/api/screens.php?do=
 
 !--------------
 ! End Blocking |
@@ -13021,6 +13021,7 @@ hentaidude.com##.main-vip, #idunder
 nudemovies.pro##[class*="promo-col"]
 redtube.com##.uwommw, #ab_banner, .abovePlayer, #below_footer_ad_content
 apple.com##.unit-wrapper:-abp-contains(/racial equity/i):upward(2)
+curseforge.com###cookiebar
 
 !--------------------
 ! End Element Hiding |
