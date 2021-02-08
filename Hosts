@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1398
+! Version: 1399
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -12858,7 +12858,7 @@ nypost.com##[class*="outbrain"], .billboard-ad, #zephr-component-1
 encyclopedia.com##.article-content-ad, #block-trustme-rightcolumntopad
 luscious.net##[class*="ad_banner"]
 nypost.com##[class*="billboard-ad"], [class*="outbrain"]
-marketwatch.com##[class*="ad"][class*="element"], [class*="j-ad"]
+marketwatch.com##.partner-center, [class*="ad"][class*="element"], [class*="j-ad"]
 usatoday.com##[id*="ad-slot"]
 storyboardthat.com###site-wide-message > div, .cc_banner
 sciencenewsforstudents.org##[class*="newsletter-signup"]
@@ -13299,7 +13299,7 @@ $ping
 */dd-browser-logs-rum.
 */beacon_
 */link.engine?
-*/blank.mp4$domain=~thots.tv
+*/blank.mp4$domain=~thots.tv|~fluidplayer.com
 */agent.php?spot=
 */get_country.php
 */oo_$script
