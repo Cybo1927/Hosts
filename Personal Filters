@@ -66,6 +66,11 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||digibites.nl^
 ||www.googleapis.com^
 ||techet.net^
+||android-safebrowsing.google.com^
+||darken.eu^
+||accounts.google.com^
+||aoeapps.com^
+||firebaseio.com^
 ||172.67.209.209^
 ||2606:4700:3035::6815:5d75^
 ||filepicker.io^$third-party
