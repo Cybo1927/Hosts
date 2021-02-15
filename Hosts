@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1399
+! Version: 1400
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13025,6 +13025,11 @@ nudemovies.pro##[class*="promo-col"]
 redtube.com##.uwommw, #ab_banner, .abovePlayer, #below_footer_ad_content
 apple.com##.unit-wrapper:-abp-contains(/racial equity/i):upward(2)
 curseforge.com###cookiebar
+forbes.com##.fbs-ad-wrapper, [class*="fbs-ad"], [class*="ad-container"]
+lifehack.org##.lazyload-ad, .leaderboard, .convertflow-cta, .cf-overlay, .ad-wrap-transparent, .article-top-ad
+growthmastery.net###catapult-cookie-bar, .adsbygoogle
+mentalfloss.com##.top-leaderboard-ad, .ad-container, .ad-background
+dumblittleman.com##.td-more-articles-box, .td-front-end-display-block, .adsbygoogle
 
 !--------------------
 ! End Element Hiding |
