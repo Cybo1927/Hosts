@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1400
+! Version: 1401
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -561,6 +561,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||netizen.co^
 ||counter.theconversation.edu.au^
 ||metrics.shmeeb.net^
 ||checkip.amazonaws.com^
@@ -2986,7 +2987,6 @@ about:blank$third-party
 ||amazinggiftcardforyou.us^
 ||androidcheatsonline.com^
 ||akk.li^
-||associates-amazon.com^
 ||actnx.com^
 ||adtwbjs.com^
 ||adncdnend.azureedge.net^
@@ -2996,7 +2996,6 @@ about:blank$third-party
 ||af.opera.com^
 ||adbooks.ru^
 ||a0.nic.payu^
-||aax-us-iad.amazon.com^
 ||advertising.amazon.com^
 ||omtrdc.net^
 ||ads.roblox.com^
@@ -4049,7 +4048,6 @@ about:blank$third-party
 ||ads.mobilebet.com^
 ||ads.msstate.edu^
 ||ads.cdnslate.com^
-||assoc-amazon.com^
 ||amazingcounters.com^
 ||adassembly.com^
 ||adroll.com^
@@ -12418,20 +12416,10 @@ about:blank$third-party
 ||browser.yandex.com/goodbye
 ||mail.yahoo.com/d/video_api/getVideos
 ||mail.yahoo.com/d/log
-||music.amazon.com/NA/api/muse/legacy/getSimilarityRecommendations/
 ||s3.amazonaws.com/ssl-intgr-net/prebid/
-||amazon.*/gp/redirection/*.html
-||amazon.*/gp/cerberus/gv
-||amazon.*/gp/overlay/display.html
-||amazon.*/gp/aq-feedback/
-||amazon.*/gp/page/
-||amazon.*/ah/ajax/counter
-||amazon.*/gp/uedata
 ||coin.amazonpay.com/rb/checkStatus
 ||images-na.ssl-images-amazon.com/images/*/grey-pixel.gif
 ||*.amazonaws.com/ssl-intgr-net/tags/
-||music.amazon.com/*/recordWeblabTrigger.html
-||music.amazon.com/*/refMarkerTarget.html
 ||pandora.com/web-client-assets/displayAdFrame/
 ||pandora.com/util/mediaserverPublicRedirect.jsp?type=file&file=ads
 ||mediaserver-cont-*.pandora.com/*/*/devicead
@@ -12634,7 +12622,7 @@ mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 mail.yahoo.com###theAd, #mega-banner, .darla, #browserExtensionPromotionBanner, .ads_reserve_space, #LeadAd-0-ComboAd-Proxy
 yahoo.com##li[data-test-id="infinite-scroll-AD"]
 pandora.com##.DisplayAdController__rightRail--active, .DisplayAdController__rightRail, #ad, #DisplayAdController__adContainerTwo, .region-adBanner, .region-adBanner--double_wide, .region-adBanner--active, .region-adSkin__primary, .region-adSkin__secondary, .region-adSkin, .region-adSkin--double_wide, .region-adSkin--active, .region-adSkin--rightRail, #adContainer, #googleDCMTagContainer, #leader_board_container
-amazon.com###heroQuickPromo_feature_div, #percolate-ui-ilm_div
+amazon.com###heroQuickPromo_feature_div
 yandex.ua##.promo-popup__content
 github.com###js-flash-container, .js-octo-ga-ide, .signup-prompt, .js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
 dw.com##.adsContainer, .cookie, .adWrapper, .bannerAd, .squareAd
@@ -12793,7 +12781,6 @@ brighthubeducation.com##.ezo_ad
 google.com###taw
 google.com###tvcap
 mbl.is##[id*="slot-"] > iframe
-amazon.com##.rush-component > .rush-component:-abp-contains(Sponsored)
 news.sky.com###leaderboard
 thesun.co.uk##div.widget-height
 mirror.co.uk##.top-slot.gpt
@@ -13030,6 +13017,10 @@ lifehack.org##.lazyload-ad, .leaderboard, .convertflow-cta, .cf-overlay, .ad-wra
 growthmastery.net###catapult-cookie-bar, .adsbygoogle
 mentalfloss.com##.top-leaderboard-ad, .ad-container, .ad-background
 dumblittleman.com##.td-more-articles-box, .td-front-end-display-block, .adsbygoogle
+discogs.com##.ad, .display-ad, .ads-here, .ads-ad
+popularmechanics.com##.leaderboard-ad, .affiliate-disclaimer, .top-pathing
+bestreviews.com##.email-drawer-pop-up
+bobvila.com##.bv-unit-wrapper
 
 !--------------------
 ! End Element Hiding |
@@ -15281,7 +15272,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||google.^$removeparam=ei|uact|sclient|gs_lcp|oq|ved
 ||bitdefender.com/box/blog$removeparam=/.+/
 ||bitdefender.com/blog$removeparam=/.+/
-||amazon.^$removeparam=tag|ref_
+||amazon.^$removeparam=ref_
 
 !#endif
 !#endif
