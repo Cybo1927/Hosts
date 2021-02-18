@@ -16,6 +16,8 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 
+||cdnjs.cloudflare.com^
+||boltdns.net^
 ||vk.com^
 ||macrodroid.com^
 ||protectstar.com^
@@ -63,6 +65,7 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||yodo1api.com^
 ||172.67.209.209^
 ||2606:4700:3035::6815:5d75^
+||bcboltcbn-*.akamaihd.net^$~media
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
