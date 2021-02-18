@@ -16,6 +16,12 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 
+||opera.com^
+||operacdn.com^
+||opera.software^
+||opera-mini.net^
+||opera-api.com^
+||feednews.com^
 ||bcboltcbn-*.akamaihd.net^
 ||bcliveunivsecure-lh.akamaihd.net^
 ||cdnjs.cloudflare.com^
@@ -66,12 +72,16 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||chillgaming.org^
 ||yodo1api.com^
 ||172.67.209.209^
+||37.228.107.253^
 ||2606:4700:3035::6815:5d75^
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
 ||spotify.com^$third-party
 ||scdn.co^$third-party
+
+! Block port 1080
+||*:1080^
 
 ||172.217.8.206:443^$network
 ||209.85.164.40:443^$network
