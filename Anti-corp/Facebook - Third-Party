@@ -1,0 +1,49 @@
+[Adblock Plus]
+! Title: Cybo's Anti Facebook - Third-Party
+! Description: Block all known connections to Facebook and any subsidiaries on third-party sites
+! Expires: 1 day
+
+!------------------------
+! Start Domain Blacklist |
+!------------------------
+
+||fbcdn-video-*.akamaihd.net^$third-party,domain=~facebook.com
+||fbcdn-vthumb-*.akamaihd.net^$third-party,domain=~facebook.com
+||fbexternal-*.akamaihd.net^$third-party,domain=~facebook.com
+||fbstatic-*.akamaihd.net^$third-party,domain=~facebook.com
+||fbcdn.net^$third-party,domain=~facebook.com
+||fbsbx.com^$third-party,domain=~facebook.com
+||fbcdn-photos-*.^$third-party,domain=~facebook.com
+||fbcdn-sphotos-*.^$third-party,domain=~facebook.com
+||fbcdn-profile-*.^$third-party,domain=~facebook.com
+||fbexternal-*.^$third-party,domain=~facebook.com
+||cdninstagram.com^$third-party,domain=~instagram.com
+||instafeed.codev.wixapps.net^$third-party
+||fbpigeon.com^$third-party
+||fb.me^$third-party
+||facebook.com^$third-party
+||instagram.com^$third-party
+||whatsapp.net^$third-party
+||workplace.com^$third-party
+||crowdtangle.com^$third-party
+||internet.org^$third-party
+||sanzaru.com^$third-party
+||redkix.com^$third-party
+||scape.io^$third-party
+||mapillary.com^$third-party
+||readyatdawn.com^$third-party
+||crowdtangle.com^$third-party
+||privatecore.com^$third-party
+||oculus.com^$third-party
+||onavo.com^$third-party
+||parseplatform.org^$third-party
+||lightbox.com^$third-party
+||face.com^$third-party
+||getspool.com^$third-party
+||atlassolutions.com^$third-party
+||expresswifi.com^$third-party
+||giphy.com^$third-party
+
+!----------------------
+! End Domain Blacklist |
+!----------------------
