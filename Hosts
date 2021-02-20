@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1401
+! Version: 1402
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -173,10 +173,6 @@ fastpic.ru#@#[id*="adblock-"]
 /\/[a-z][0-9]{11,11}\.js/$first-party
 /^http:\/\/.+\..{2,4}\/(outback\.php|play\.php)/$popup,popunder
 /\/api\/spots\/[0-9]{5,}\?[a-z]=.+/
-
-! Content Security Policies
-||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
-||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 
 ! Email Trackers Redirect to URLS Like This
 &group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
@@ -561,6 +557,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||baresi.xyz^
 ||netizen.co^
 ||counter.theconversation.edu.au^
 ||metrics.shmeeb.net^
@@ -13021,6 +13018,12 @@ discogs.com##.ad, .display-ad, .ads-here, .ads-ad
 popularmechanics.com##.leaderboard-ad, .affiliate-disclaimer, .top-pathing
 bestreviews.com##.email-drawer-pop-up
 bobvila.com##.bv-unit-wrapper
+ign.com##.privacy-banner
+digitaltrends.com##.dtads-slot, .dtads-slot-hub
+outsidepursuits.com###cookie-law-info-bar
+nextcloud.com###cookieConsent
+weheartit.com##[id*="grid-ad"]
+dailydot.com##.cta-article-wrapper
 
 !--------------------
 ! End Element Hiding |
@@ -14673,8 +14676,7 @@ _statsonlineinfo
 ##a[href$="_banner"]
 
 ! Begin AdGuard General
-! Have to add two because AdGuard and uBo don't wanna work together
-!#if !ext_ublock
+! Have to add two because AdGuard and uBlock Origin don't wanna work together
 !#if (adguard)
 
 ! AdGuard specific whitelist
@@ -14705,6 +14707,9 @@ _statsonlineinfo
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="exdynsrv.com"] 
+$$script[tag-content="window['gtag']"] 
+$$script[tag-content="'clickTrackerInit',"]
 $$script[tag-content="'adblockTracker',"] 
 $$script[tag-content="juicyads.rocks"]
 $$script[tag-content=".isAdblock"]
@@ -14871,14 +14876,12 @@ $webrtc,domain=xda-developers.com|4chan.org|8kun.top|kiwifarms.net|voat.co
 youtube.com#@#body { overflow:visible!important; }
 
 !#endif
-!#endif
 ! End AdGuard General
 
 ! Begin AdGuard Apps
 
 ! Android specific whitelist/blocklist
 ! Include network modifiers for Android
-!#if !ext_ublock
 !#if (adguard_app_android)
 
 @@||remote-data.urbanairship.com^$app=com.hp.printercontrol
@@ -14924,36 +14927,31 @@ youtube.com#@#body { overflow:visible!important; }
 [2607:f8b0:4001:c0a::bc]$network
 
 !#endif
-!#endif
 ! AdGuard Windows App
-!#if !ext_ublock
 !#if (adguard_app_windows)
 
 @@||*$important,app=Update.exe
 @@||discordapp.com/api/modules/stable/versions.json?*$app=Discord.exe,important
 @@||steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/*_full.jpg$app=steam.exe,important
 
-74.117.181.67$network,app=chrome.exe
-192.168.254.67$network,app=chrome.exe
-213.87.44.182$network,app=chrome.exe
-23.67.243.219$network,app=firefox.exe
 ||d2u1q3j7uk6p0t.cloudfront.net^$app=Bluestacks.exe
 ||steampowered.com:*/cmping/$app=steam.exe
 ||steamcdn-a.akamaihd.net/client/steam_client_win32$app=steam.exe
 ||*.cm.steampowered.com:27035/cmsocket^$app=steam.exe
 
 !#endif
-!#endif
 
 ! End AdGuard Specific
 
 ! Begin uBlock Origin specific
-!#if ext_ublock
 !#if (!adguard)
 
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
+*##^script:has-text(exdynsrv.com)
+*##^script:has-text('clickTrackerInit',)
+*##^script:has-text('window['gtag'])
 *##^script:has-text('adblockTracker',) 
 *##^script:has-text(juicyads.rocks)
 *##^script:has-text(.isAdblock)
@@ -15018,18 +15016,6 @@ youtube.com#@#body { overflow:visible!important; }
 
 !#endif
 
-! Usually Scam Links
-||page.link^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
-||bit.ly^$document,domain=~If_this_link_was_sent_via_email_it_is_best_not_to_continue
-
-! uBO (Only Works With Third-Party Cookies)
-*##+js(cookie-remover, /kt_referer|AkaSTrackingID|optimizelyEndUserId|ab\.storage\.deviceId|ab\._gd|_pageviews|landing_page|orig_referrer|svSession|ssr-caching|bSession|Country-Code|AETN-EU|_iub_cs|_pk_id|_pk_ses|_iubenda_session|personalization_id|adCounter|_client_tz|geoCC|_cloudproxy_|popupData|_sp_ses.|_sp_id.|external_no_cache|XR_PAGE_TYPE|_landing|_referrer|first_visit|first_visit_src|svSession|_cpvisit|_cvisit|grav-site-|History|ak_bmsc|bm_sv|sharedsession|st_cur_page|nyt-purr|nyt-a|__cfruid|inHouseAds|_mooc_sso|_normandy_session|log_session_id|hmb_source|exo_zones|smarter-navigation\[|nb-no-req-|splashWeb-|KeywordCookie|LastVisited|LocationTaxonomiesCookie|ReferrerCookie|SubjectTaxonomiesCookie|cedsess|gpv_Channel|gpv_Contenttype|gpv_Subchannel|gpv_pageName|gpv_pn|s_cc|s_pn|s_vi|s_visit|fp_token_|ab_test_stickiness|OptanonConsent|wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|gup_clientid|utag_main|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy|crak|tracking|40AdobeOrg|_gid|_gtm_|AWSELBCORS|articleViews|Country_Code|browser_width|active_template::|ezCMPCCS|ezepvv|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezovid_|ezovuuid_|ezovuuidtime_|lp_[0-9]{3,}|__cf_bm|ab_uuid|AspNetCore.Antiforgery|metrika|ym_isad|ym_uid|page_count|session_id|fly_geo|fly_zip|fly_device|SessionStarted|SessionCount|X-CSRF-TOKEN|exid|GeoIP|WMF-Last-Access-Global/)
-
-! Make Disqus Click-to-Load
-||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
-||disqus.com/embed.js$script,redirect=disqus.com/embed.js
-@@||disqus.com/embed.js?_=1457540*$script
-
 ! Remove Attributes
 *##+js(ra, ping)
 *##+js(ra, real-href)
@@ -15061,16 +15047,6 @@ youtube.com#@#body { overflow:visible!important; }
 *##+js(ra, oncontextmenu)
 *##+js(ra, contextmenu)
 !-----------------------------------------------------------------------
-
-! Extra JS injections
-pandora.com##+js(aeld, /hashchange/i)
-crack2games.com,cracked-games.org,ovagames.com,bit.ly,nmac.to##+js(aeld, /click|mousedown/)
-youtube.com##+js(json-prune, adPlacements playerAds)
-*##+js(aeld, /pageshow/i)
-*##+js(aeld, /pagehide/i)
-*##+js(aeld, /contextmenu/i)
-! No BlockAdBlock
-arenavision.in##+js(nobab)
 
 ! Important from ublock privacy
 !-----------------------------------------------------------------------
@@ -15109,12 +15085,9 @@ arenavision.in##+js(nobab)
 youtube.com#@#body:style(overflow:visible !important)
 
 !#endif
-!#endif
 ! End uBlock Origin specific
 
 ! Redirect (AdGuard and uBlock Origin)
-!#if ext_ublock
-!#if (adguard)
 
 ||pandora.com/ping.txt?f=*$xmlhttprequest,redirect-rule=nooptext,first-party,important
 ||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noop-0.1s.mp3,domain=hulu.com,important
@@ -15167,8 +15140,7 @@ youtube.com#@#body:style(overflow:visible !important)
 ! Stop the spinning incon from showing up over the album cover when out of skips - annoyance 
 ||adserver.pandora.com/haymaker/api/v1/serve/?slot=FLEX_SKIP*$xmlhttprequest,redirect-rule=noop.txt,first-party,important
 
-!#endif
-!#endif
+
 ! Redirect (Adblock Plus)
 !#if ext_abp
 !#if (!adguard)
@@ -15215,57 +15187,7 @@ youtube.com#@#body:style(overflow:visible !important)
 !#endif
 !#endif
 
-! Soon to work together?
-
-! Queryprune (uBlock Origin)
-!#if ext_ublock
-!#if (!adguard)
-
-$queryprune=|utm_.+
-$queryprune=_visid_
-$queryprune=|tracelog
-$queryprune=|affiliate_ref
-$queryprune=|publisherid
-$queryprune=|os_version
-$queryprune=|os_name
-$queryprune=|package_name
-$queryprune=|app_version_name
-$queryprune=|app_version_code
-$queryprune=|orientation_lock
-$queryprune=|CLIENT_IMPRESSION
-$queryprune=|page-ref
-$queryprune=|browser-info
-$queryprune=|referrer
-$queryprune=|browserver
-$queryprune=|foxref
-$queryprune=|is_first_visit
-$queryprune=|refccid
-$queryprune=__twitter_impression
-$queryprune=|guce_referrer
-$queryprune=|guce_referrer_sig
-$queryprune=|adCount
-$queryprune=|wmlspartner
-$queryprune=|clickid
-$queryprune=|guccounter
-$queryprune=|tj_url
-$queryprune=|so_rec
-$queryprune=|int_cmpgn
-$queryprune=|uclick
-$queryprune=|uclickhash
-$queryprune=|ref_src
-$queryprune=|ref_url
-$queryprune=|_trkparms
-$queryprune=|yclid
-$queryprune=|gclid
-$queryprune=|fbclid
-$queryprune=|fb_ref
-$queryprune=|fb_source
-google.$queryprune=ei|uact|sclient|gs_lcp|oq|ved
-
-!#endif
-!#endif
-! Removeparam (AdGuard)
-!#if !ext_ublock
+! Removeparam (AdGuard & uBlock Origin)
 !#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_name|package_name|app_version_name|app_version_code|orientation_lock|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
@@ -15274,7 +15196,6 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||bitdefender.com/blog$removeparam=/.+/
 ||amazon.^$removeparam=ref_
 
-!#endif
 !#endif
 
 ! AdGuard Home
