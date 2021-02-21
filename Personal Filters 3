@@ -1,0 +1,18 @@
+! Title: Cybo's Personal Filters - AdGuard Home
+! Expires: 1 hours
+
+||cortana-gateway.amazon.com^
+||test.nextdns.io^
+||screencastify.com^
+||texthelp.com^
+||greatsuspender.github.io^
+||spotify.com^
+||scdn.co^
+||amazonalexa.com^
+||roblox.com^
+||rbxcdn.com^
+||discord.com^
+||discord.gg^
+||discordapp.com^
+
+||*.in-addr.arpa^$client='192.168.254.76'
