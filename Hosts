@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1402
+! Version: 1403
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -69,6 +69,9 @@
 !
 ! Unbreak Images
 @@/blank.gif$domain=slickdealscdn.com
+!
+! Unbreak Some Apps (Such as HP Printer Control on Android)
+@@||remote-data.urbanairship.com^
 !
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
@@ -197,25 +200,30 @@ fastpic.ru#@#[id*="adblock-"]
 ! Start domains with modifiers ($)
 ! Domain modifier
 
+! Administrator Blocked Pages 
 ||wired.meraki.com:*/blocked.cgi*$domain=~ Administrator Blocked This Site,document
 ||localhost:*/block_screen.html*$domain=~ Administrator Blocked This Site,document
+! ---------------------------
+! Instagram Tracking on Third-Party Sites
 ||instagram.com^$domain=wakelet.com
-||clicks.istripper.com^$third-party,popup,popunder
-||js.live.net^$domain=savvasrealize.com
-||storage.googleapis.com^$domain=maharashtratimes.com
-||firebaseio.com^$domain=walla.co.il
-||atl-paas.net^$third-party,domain=~atlassian.com
-||cnc.cdn.dopc.cz^$domain=~tiscali.cz
-||ffjjti.frl$third-party,domain=~mp3juices.cc
-||gotchosen.com^$domain=realclearpolitics.com
-||platform.linkedin.com^$domain=realclearpolitics.com
-||export.tvnet.lv^$domain=zl.lv
-||web-view.net^$domain=gmail.com
-||tree.com^$domain=cnn.com
-||videodelivery.net^$domain=reuters.com
-||google.com^$domain=molll.mobi|theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com|demos.net|demos.ru
-||gstatic.com^$domain=demos.net|demos.ru
+!----------------------------------------
+! Bitly Popup/Popunder Ads
+||bitly.com^$popup,domain=manytoon.com
+||bitly.com^$popunder
+||bit.ly^$popunder
+!-------------------------
+! Block Discord Embeds for privacy Reasons
+||discord.com^$third-party,domain=~discordapp.com
+||discordapp.com^$third-party,domain=~discord.com
+!-----------------------------------------
 !
+||istripper.com^$third-party,popup,popunder
+||choconart.com^$popup,popunder
+||mbtrx.com^$third-party,popup
+||adultgamepass.com^$third-party,popup
+||gamcore.com^$third-party,popup
+||imglnke.com^$third-party
+||static.cfgr3.com^$third-party
 ||adtng.com^$popup,popunder
 ||adfoc.us^$third-party
 ||cdn.mp3vizor.com^$third-party
@@ -557,6 +565,22 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||pqe.io^
+||tracker.mnixdata.com^
+||xtrafficplus.com^
+||vanessablog.online^
+||doreenblog.online^
+||inspectlet.com^
+||edkay.com^
+||capturehighered.net^
+||hyperoi.com^
+||gamcore.com^
+||stimmtso.space^
+||yogar2ti8nf09.com^
+||choconart.com^
+||lapypushistyye.com^
+||ponchowafesargb.com^
+||sffsdvc.com^
 ||baresi.xyz^
 ||netizen.co^
 ||counter.theconversation.edu.au^
@@ -1204,7 +1228,6 @@ about:blank$third-party
 ||adsunflower.com^
 ||adfuture.cn^
 ||adups.com^
-||isu.pub^
 ||mb-cosmos.com^
 ||metrics.*.hp.com^
 ||stats.kde.org^
@@ -13024,6 +13047,11 @@ outsidepursuits.com###cookie-law-info-bar
 nextcloud.com###cookieConsent
 weheartit.com##[id*="grid-ad"]
 dailydot.com##.cta-article-wrapper
+lbry.tv##.nag, .ads__claim-item
+homenetworkgeek.com##.ezoic-ad, [class*="adtester-container-"]
+hd.freehentaistream.com###natheader, .natheader-title, .aside-banner
+cartoonprn.com##.opt, .table, .sponsor, .footer-margin
+manytoon.com##.c-sidebar
 
 !--------------------
 ! End Element Hiding |
@@ -14707,6 +14735,8 @@ _statsonlineinfo
 
 ! HTML/Script Blocking
 $$amp-ad
+$$script[tag-content="('log','pageview');"]
+$$script[tag-content="(""log"",""pageview"");"]
 $$script[tag-content="exdynsrv.com"] 
 $$script[tag-content="window['gtag']"] 
 $$script[tag-content="'clickTrackerInit',"]
@@ -14867,9 +14897,6 @@ youtube.com$cookie=/.+/;samesite=strict,domain=~accounts.google.com|~google.com|
 brainly.com$cookie=/Zadanepl_cookie.{0,}/
 ! End Anti Tracking Cookies
 
-! Block webrtc on these domains
-$webrtc,domain=xda-developers.com|4chan.org|8kun.top|kiwifarms.net|voat.co
-
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
 #$#body { overflow:visible!important; }
 ! Annoyance on fullscreen videos
@@ -14884,10 +14911,7 @@ youtube.com#@#body { overflow:visible!important; }
 ! Include network modifiers for Android
 !#if (adguard_app_android)
 
-@@||remote-data.urbanairship.com^$app=com.hp.printercontrol
-@@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
 @@||img.samsungapps.com
-||mtalk.google.com^$badfilter
 
 ! Hard Facebook Blocking
 ! https://adguard.com/en/blog/one-does-not-simply-delete-facebook.html
@@ -14949,6 +14973,8 @@ youtube.com#@#body { overflow:visible!important; }
 ! Inline Tracking/Ad Scripts (Firefox Only)
 !#if env_firefox
 
+*##^script:has-text(('log','pageview');)
+*##^script:has-text(("log","pageview");)
 *##^script:has-text(exdynsrv.com)
 *##^script:has-text('clickTrackerInit',)
 *##^script:has-text('window['gtag'])
