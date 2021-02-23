@@ -16,6 +16,10 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 
+||patreon.com^
+||nextcloud.com^
+||droidhen.com^
+||tenor.com^
 ||opera.com^
 ||operacdn.com^
 ||opera.software^
