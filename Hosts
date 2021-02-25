@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1403
+! Version: 1404
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -217,6 +217,7 @@ fastpic.ru#@#[id*="adblock-"]
 ||discordapp.com^$third-party,domain=~discord.com
 !-----------------------------------------
 !
+||julrdr.com^$popup,popunder
 ||istripper.com^$third-party,popup,popunder
 ||choconart.com^$popup,popunder
 ||mbtrx.com^$third-party,popup
@@ -565,6 +566,49 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||thenewfling.com^
+||cmkfotografie.de^
+||dwetwdstom1020.com^
+||onbigcock.com^
+||chrantary-vocking.com^
+||gejute.com^
+||thetaweblink.com^
+||flirtentag.com^
+||xvideos-xnxx.net^
+||promo-bc.com^
+||best-offer-for-you.com^
+||kiolim.com^
+||techtimesweekly.com^
+||drivelargebetter-7.life^
+||adxpartner.com^
+||menhealthreport.net^
+||shewantyou.com^
+||find-your-slut.com^
+||singleandhorny.net^
+||canadarx24h.com^
+||wct.link^
+||surveypush.com^
+||drivelargebetter-3.life^
+||milffinder.com^
+||mbjrkm.link^
+||belikemed.com^
+||tdpages.com^
+||qlitrk.com^
+||froggyads.com^
+||catchslipyellow-12.life^
+||poisism.com^
+||beyourxfriend.com^
+||imglnke.com^
+||inflationbreedinghoax.com^
+||mbtrx.com^
+||giotre.com^
+||metrics.aetn.com^
+||fullxhamster.com^
+||ets2bdcreativezone.com^
+||boomerbenefits.com^
+||orebecau.fun^
+||itroggenrolaa.com^
+||private-vids.com^
 ||pqe.io^
 ||tracker.mnixdata.com^
 ||xtrafficplus.com^
@@ -13052,6 +13096,8 @@ homenetworkgeek.com##.ezoic-ad, [class*="adtester-container-"]
 hd.freehentaistream.com###natheader, .natheader-title, .aside-banner
 cartoonprn.com##.opt, .table, .sponsor, .footer-margin
 manytoon.com##.c-sidebar
+sourceforge.net##.sterling, #mirror, #newsletter-floating
+tatumreport.com##.sponsor
 
 !--------------------
 ! End Element Hiding |
@@ -13067,6 +13113,7 @@ manytoon.com##.c-sidebar
 $ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/track/click/$popunder
 */ads?zone_id=
 *?ad_sub$third-party
 */pixel.gif?
@@ -14722,6 +14769,8 @@ _statsonlineinfo
 @@||txxx.tube^$stealth
 @@||*.ahcdn.com^$media,stealth
 @@||filepicker.io^$stealth
+! Unbreak Page Load
+@@||classroom.google.com^$stealth
 ! Unbreak Logins
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
@@ -14826,7 +14875,6 @@ amiunique.org$cookie=AmIUniqueId;maxAge=43200
 ! Google Cookies On Third-Party Sites Only Last 3 Days
 google.$third-party,cookie=/.+/;maxAge=4320,domain=~youtube.com|~accounts.google.com
 !
-||bitwarden.com^$cookie=__cfduid
 ||freshxcdn.com^$cookie
 ||steamstatic.com^$cookie=__cfduid
 ||mediacnt.com^$cookie
@@ -14901,6 +14949,9 @@ brainly.com$cookie=/Zadanepl_cookie.{0,}/
 #$#body { overflow:visible!important; }
 ! Annoyance on fullscreen videos
 youtube.com#@#body { overflow:visible!important; }
+
+! Taken From AdGuard's "Base filter"
+youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
 
 !#endif
 ! End AdGuard General
@@ -15109,6 +15160,11 @@ youtube.com#@#body { overflow:visible!important; }
 *##body:style(overflow:visible !important)
 ! Annoyance on fullscreen videos
 youtube.com#@#body:style(overflow:visible !important)
+
+! Taken From uBlock Origin's "uBlock filters"
+youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 
 !#endif
 ! End uBlock Origin specific
