@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1404
+! Version: 1405
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -566,6 +566,48 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||steamcloud-*.storage.googleapis.com^
+||gammae.com^
+||gammastats.com^
+||hit.ua^
+||pickyourfling.com^
+||ultraboostjuice.com^
+||tiktok-max.com^
+||clothesneighbour326this.live^
+||teenhd.porn^
+||wildindianvideos.com^
+||datingcity.org^
+||54647.io^
+||adult.game^
+||zoo3d.in.net^
+||aslnk.link^
+||jpg4.info^
+||techloris.com^
+||gamehitz*.os.tc^
+||freetestnow.app^
+||pedestrianneighbourly.com^
+||atozmanuals.com^
+||abnglhca.com^
+||lonelypartners.com^
+||eromatch.com^
+||get-express-vpn.online^
+||mediamarketstream.com^
+||trousersrabbits.club^
+||convertitsearch.com^
+||topsearchconverter.com^
+||4ksportsearchs.com^
+||b6u2w2z4.ssl.hwcdn.net^
+||musicstreamsearches.com^
+||streamadblock.net^
+||magicmoviesearch.com^
+||cookie-muncher.com^
+||clean-pc-now.xyz^
+||achilles-ena.com^
+||vexacion.com^
+||liveradiosearch.com^
+||fromdoctopdf.com^
+||downloadrecipesearch.com^
+||onlinemapfinder.com^
 ||thenewfling.com^
 ||cmkfotografie.de^
 ||dwetwdstom1020.com^
@@ -12664,6 +12706,7 @@ about:blank$third-party
 ||animeporn.xxx/wp-content/uploads/*/ad*.gif
 ||google.com/log
 ||aoeapps.com/api/screens.php?do=
+||apkpure.com/analytics
 
 !--------------
 ! End Blocking |
@@ -14769,8 +14812,10 @@ _statsonlineinfo
 @@||txxx.tube^$stealth
 @@||*.ahcdn.com^$media,stealth
 @@||filepicker.io^$stealth
-! Unbreak Page Load
+! Unbreak Page Loads
 @@||classroom.google.com^$stealth
+@@||googleapis.com^$stealth
+@@||kamiaccessfiles.com^$stealth
 ! Unbreak Logins
 @@||accounts.google.^$cookie
 @@||accounts.google.^$stealth
@@ -14852,6 +14897,8 @@ $$script[tag-content="AntiAdblock"]
 $$script[tag-content="adblock.html"]
 $$script[src="popads.net"]
 $$script[src="tsyndicate.com"]
+$$script[wildcard="*const pop*'pop',*url: '*"]
+$$script[wildcard="*oneClicks = true;*iCanPop*"]
 $$script[wildcard="*setCookie*countVisit();*"]
 $$script[wildcard="**window.onbeforeunload*popit == true*"]
 $$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
