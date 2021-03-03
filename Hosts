@@ -3,8 +3,8 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1405
-! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
+! Version: 1406
+! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -147,7 +147,7 @@ fastpic.ru#@#[id*="adblock-"]
 /^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
 /[&]platform[=][a-zA-Z]/$domain=~spotify.com,~translate.yandex.com,~voicetech.yandex.net,~addons.mozilla.org,~github.com,~gitlab.com,~login.live.com,~rewards.brave.com,~mapquest.com
-/[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
+/[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net,reuters.com
 /\/lander\.php(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+(\?|&).+/$document,popup,popunder
 /[a-z0-9]{15,15}(e997c60ac8a4ec150-)[0-9]+\.(eu-).+\.(amazonaws)./$all
 /\/collect(ion|or)?\/v[0-9]{1,2}/$script
@@ -167,7 +167,7 @@ fastpic.ru#@#[id*="adblock-"]
 /.+\/popup[0-9]{1,}\.html$/$popup,popunder
 /(bit\.ly)\/[a-zA-Z0-9]{7,7}#[a-zA-Z0-9]{13,13}_[a-zA-Z0-9]{7,7}_[a-zA-Z0-9]{8,8}_[a-zA-Z0-9]{7,7}/$document,popup,popunder
 /^https(s)?:\/\/.+\/click(s)?\/.{75,}$/$all
-/^http:\/\/.+\..+\/.+\.php/$third-party,popup,popunder,domain=~google.ad|~google.aegoogle.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~private.sh|~yahoo.com|~aol.com|~excite.com|~excite.co.jp|~ecosia.org|~duckduckgo.com|~dogpile.com|~bing.com|~baidu.com|~baidu.cn|~ask.com|~lycos.com|~hotbot.com|~gigablast.com|~qwant.com|~searx.me|~searx.space|~searx.*.|~mojeek.co.uk|~mojeek.com|~metacrawler.com|~webcrawler.com|~swisscows.com|~startpage.com|~soso.com|~sogou.com|~yandex.|~youdao.com|~yippy.com|~ciao.co.uk|~a9.com|~teoma.com|~egerin.com~netscape.com|~bol.uol.com.br|~search.is|~leit.is|~fireball.com|~fireball.de|~biglobe.co.jp|~rambler.ru|~pipilika.com|~naver.com|~naver.co.jp|~najdi.si|~miner.hu|~maktoob.com|~search.walla.co.il|~seznam.cz|~sesam.se|~sesam.no|~search.ch|~sapo.pt|~sapo.cv|~sapo.ao|~sapo.mz|~sapo.tl|~rediff.com
+/^http:\/\/.+\..+\/.+\.php/$third-party,popup,popunder,domain=~google.ad,~google.aegoogle.al,~google.am,~google.as,~google.at,~google.az,~google.ba,~google.be,~google.bf,~google.bg,~google.bi,~google.bj,~google.bs,~google.bt,~google.by,~google.ca,~google.cat,~google.cd,~google.cf,~google.cg,~google.ch,~google.ci,~google.cl,~google.cm,~google.cn,~google.co.ao,~google.co.bw,~google.co.ck,~google.co.cr,~google.co.id,~google.co.il,~google.co.in,~google.co.jp,~google.co.ke,~google.co.kr,~google.co.ls,~google.co.ma,~google.co.mz,~google.co.nz,~google.co.th,~google.co.tz,~google.co.ug,~google.co.uk,~google.co.uz,~google.co.ve,~google.co.vi,~google.co.za,~google.co.zm,~google.co.zw,~google.com,~google.com.af,~google.com.ag,~google.com.ai,~google.com.ar,~google.com.au,~google.com.bd,~google.com.bh,~google.com.bn,~google.com.bo,~google.com.br,~google.com.bz,~google.com.co,~google.com.cu,~google.com.cy,~google.com.do,~google.com.ec,~google.com.eg,~google.com.et,~google.com.fj,~google.com.gh,~google.com.gi,~google.com.gt,~google.com.hk,~google.com.jm,~google.com.kh,~google.com.kw,~google.com.lb,~google.com.ly,~google.com.mm,~google.com.mt,~google.com.mx,~google.com.my,~google.com.na,~google.com.nf,~google.com.ng,~google.com.ni,~google.com.np,~google.com.om,~google.com.pa,~google.com.pe,~google.com.pg,~google.com.ph,~google.com.pk,~google.com.pr,~google.com.py,~google.com.qa,~google.com.sa,~google.com.sb,~google.com.sg,~google.com.sl,~google.com.sv,~google.com.tj,~google.com.tr,~google.com.tw,~google.com.ua,~google.com.uy,~google.com.vc,~google.com.vn,~google.cv,~google.cz,~google.de,~google.dj,~google.dk,~google.dm,~google.dz,~google.ee,~google.es,~google.fi,~google.fm,~google.fr,~google.ga,~google.ge,~google.gg,~google.gl,~google.gm,~google.gp,~google.gr,~google.gy,~google.hn,~google.hr,~google.ht,~google.hu,~google.ie,~google.im,~google.iq,~google.is,~google.it,~google.je,~google.jo,~google.kg,~google.ki,~google.kz,~google.la,~google.li,~google.lk,~google.lt,~google.lu,~google.lv,~google.md,~google.me,~google.mg,~google.mk,~google.ml,~google.mn,~google.ms,~google.mu,~google.mv,~google.mw,~google.ne,~google.nl,~google.no,~google.nr,~google.nu,~google.pl,~google.pn,~google.ps,~google.pt,~google.ro,~google.rs,~google.ru,~google.rw,~google.sc,~google.se,~google.sh,~google.si,~google.sk,~google.sm,~google.sn,~google.so,~google.sr,~google.st,~google.td,~google.tg,~google.tk,~google.tl,~google.tm,~google.tn,~google.to,~google.tt,~google.vg,~google.vu,~google.ws,~private.sh,~yahoo.com,~aol.com,~excite.com,~excite.co.jp,~ecosia.org,~duckduckgo.com,~dogpile.com,~bing.com,~baidu.com,~baidu.cn,~ask.com,~lycos.com,~hotbot.com,~gigablast.com,~qwant.com,~searx.me,~searx.space,~searx.*.,~mojeek.co.uk,~mojeek.com,~metacrawler.com,~webcrawler.com,~swisscows.com,~startpage.com,~soso.com,~sogou.com,~yandex.,~youdao.com,~yippy.com,~ciao.co.uk,~a9.com,~teoma.com,~egerin.com~netscape.com,~bol.uol.com.br,~search.is,~leit.is,~fireball.com,~fireball.de,~biglobe.co.jp,~rambler.ru,~pipilika.com,~naver.com,~naver.co.jp,~najdi.si,~miner.hu,~maktoob.com,~search.walla.co.il,~seznam.cz,~sesam.se,~sesam.no,~search.ch,~sapo.pt,~sapo.cv,~sapo.ao,~sapo.mz,~sapo.tl,~rediff.com
 /\/(cdn|js)\/(fb)\.[0-9a-z]{8,}\.(min\.)?(js)/
 /^http(s)?:\/\/ww[4-9][0-9]?\..+/$third-party,popup,popunder
 /^http:\/\/.+\/home\.php#[0-9a-z_]{16,}/$document,popup,popunder
@@ -176,6 +176,7 @@ fastpic.ru#@#[id*="adblock-"]
 /\/[a-z][0-9]{11,11}\.js/$first-party
 /^http:\/\/.+\..{2,4}\/(outback\.php|play\.php)/$popup,popunder
 /\/api\/spots\/[0-9]{5,}\?[a-z]=.+/
+/.+(offer|prize|win|[0-9]{2,3}game).+\.(live|life|info)$/
 
 ! Email Trackers Redirect to URLS Like This
 &group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
@@ -223,8 +224,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||mbtrx.com^$third-party,popup
 ||adultgamepass.com^$third-party,popup
 ||gamcore.com^$third-party,popup
-||imglnke.com^$third-party
-||static.cfgr3.com^$third-party
 ||adtng.com^$popup,popunder
 ||adfoc.us^$third-party
 ||cdn.mp3vizor.com^$third-party
@@ -232,7 +231,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||milffox.com^$third-party
 ||xcams.images-dnxlive.com^$third-party
 ||extreme-ip-lookup.com^$third-party
-||freegeoip.app^$third-party
 ||geojs.io^$third-party
 ||titsx.com^$third-party
 ||tracemyip.org^$third-party
@@ -566,6 +564,16 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||permanently-private.com^
+||radiofanaticsearch.com^
+||thoughtwriter218game.live^
+||prize-winner-ko4d.live^
+||bestoffer21.info^
+||win-your-prize-now2.life^
+||universal-storage-mobileapp.net^
+||4kmoviesearch.com^
+||retailproductsusa.com^
+||rouonixon.com^
 ||steamcloud-*.storage.googleapis.com^
 ||gammae.com^
 ||gammastats.com^
@@ -656,7 +664,6 @@ about:blank$third-party
 ||xtrafficplus.com^
 ||vanessablog.online^
 ||doreenblog.online^
-||inspectlet.com^
 ||edkay.com^
 ||capturehighered.net^
 ||hyperoi.com^
@@ -742,7 +749,6 @@ about:blank$third-party
 ||instana.io^
 ||crowdtwist.com^
 ||listrak.com^
-||smetrics.abercrombie.com^
 ||d2o5idwacg3gyw.cloudfront.net^
 ||nko5k1.us^
 ||instawhore.net^
@@ -811,7 +817,6 @@ about:blank$third-party
 ||aïeaïeaïe.eu^
 ||adblock-analytics.io^
 ||m-metrics.capitalone.com^
-||smetrics.capitalone.com^
 ||rocketstars.online^
 ||pstreetma.com^
 ||cookieinfoscript.com^
@@ -959,10 +964,8 @@ about:blank$third-party
 ||pixel.barion.com^
 ||ads.yahoosmallbusiness.com^
 ||edge-bingads-*.cloudapp.net^
-||smetrics.*.playstation.com^
 ||airbud.io^
 ||variations.brave.com^
-||smetrics.cars.com^
 ||xandr.com^
 ||liveintent.com^
 ||liveramp.com^
@@ -1044,7 +1047,6 @@ about:blank$third-party
 ||dihlw.com^
 ||sntjim.com^
 ||olspsystem.com^
-||googleadservices.com^
 ||klangoo.com^
 ||getfun-stuff.com^
 ||megalibido.com^
@@ -1093,7 +1095,6 @@ about:blank$third-party
 ||stat.adguard.com^
 ||pixel.videohub.com^
 ||graylog.24imedia.com^
-||device-metrics-*.amazon.com^
 ||dominiosvision.com^
 ||ludashi.com^
 ||reojou.com^
@@ -2001,7 +2002,6 @@ about:blank$third-party
 ||analyticsq.com^
 ||bntech.io^
 ||bldrdoc.gov^
-||adproxy.ndmdhs.com^
 ||hostedprebid.com^
 ||landing.freecams.com^
 ||vfthr.com^
@@ -2165,7 +2165,6 @@ about:blank$third-party
 ||stats.openvpn.net^
 ||vivads.net^
 ||instant-impact.com^
-||pixel.wp.com^
 ||heartbeat.pmc.com^
 ||adshort.org^
 ||adshell.net^
@@ -2417,7 +2416,6 @@ about:blank$third-party
 ||gamesrevenue.com^
 ||qqjar.ru^
 ||run-syndicate.com^
-||stimmtso.space^
 ||ts-syndicate.com^
 ||warumbistdusoarm.space^
 ||thebestgame2020.com^
@@ -2437,7 +2435,6 @@ about:blank$third-party
 ||crentgate.com^
 ||0i0i0i0.com^
 ||hq3x.com^
-||cradver.livejasmin.com^
 ||lobizan.com^
 ||patroposalun.pro^
 ||rtnews.pro^
@@ -2624,7 +2621,6 @@ about:blank$third-party
 ||creoads.com^
 ||plufdsb.com^
 ||brandporno.com^
-||adservice.google.com^
 ||jrrmwjybfaztct.com^
 ||ysyrcnsb.com^
 ||1ts18.top^
@@ -2743,7 +2739,6 @@ about:blank$third-party
 ||adup-tech.com^
 ||adv.blogupp.com^
 ||advert-solutions.com^
-||advert-technology.ru^
 ||advert.ee^
 ||advert.io^
 ||advertio.com^
@@ -2823,7 +2818,6 @@ about:blank$third-party
 ||a.nytimes.com^
 ||ad2up.com^
 ||adw.wp.pl^
-||adocean.cz^
 ||ads.linksrequest.com^
 ||ads.yenimedya.com.tr^
 ||advgalaxy.com^
@@ -3046,7 +3040,6 @@ about:blank$third-party
 ||androidc.mxplay.com^
 ||analytics.feeder.co^
 ||awstats.org^
-||goguardian.com^
 ||antburape.club^
 ||ailawlani.club^
 ||andarcair.club^
@@ -3335,7 +3328,6 @@ about:blank$third-party
 ||advmob.cn^
 ||adpop.club^
 ||abbp1.com^
-||adproxy.7tv.de^
 ||adk2x.com^
 ||acrabakasaka.com^
 ||adgebra.com^
@@ -3435,7 +3427,6 @@ about:blank$third-party
 ||imdserve.com^
 ||apteligent.com^
 ||at.alicdn.com^
-||analytics-tracker.thescore.com^
 ||axa.cloud.ca.com^
 ||aotter.net^
 ||ad.intl.xiaomi.com^
@@ -5747,8 +5738,6 @@ about:blank$third-party
 ||clck.yandex.ru^
 ||clicksor.com^
 ||csc.beap.bc.yahoo.com^
-||crash-stats.mozilla.com^
-||concertads-configs.vox-cdn.com^
 ||clicksor.net^
 ||connatix.com^
 ||cookie-script.com^
@@ -7129,7 +7118,6 @@ about:blank$third-party
 ||bark.us^
 ||i-mobile.co.jp^
 ||imp-adedge.*^
-||adocean.pl^
 ||ipm.bitdefender.com^
 ||inform.com^
 ||inter1ads.com^
@@ -8164,7 +8152,6 @@ about:blank$third-party
 ||letsrebold.com^
 ||leanplum.com^
 ||clmbtech.com^
-||log-ingestion-*.samsungacr.com^
 ||internetat.tv^
 ||librato-collector.genius.com^
 ||logicanalytics.io^
@@ -8904,7 +8891,6 @@ about:blank$third-party
 ||outbrainimg.com^
 ||oct8ne.com^
 ||opentracker.*^
-||opentracker.acgnx.se^
 ||opsen.dolphin-browser.com^
 ||onesignal.com^
 ||oem.twimg.com^
@@ -8935,7 +8921,6 @@ about:blank$third-party
 ||onesettings-windowsservices-tas.msedge.net^
 ||osservice.vmos.com^
 ||optimisemedia.com^
-||opentracker.net^
 ||oimg.nbcuni.com^
 ||ophan.theguardian.com^
 ||ss2.us^
@@ -9374,7 +9359,6 @@ about:blank$third-party
 ||premiumads.com.br^
 ||proofly.date^
 ||prgmh.com^
-||promo-bc.com^
 ||peerclick.com^
 ||peer-click.com^
 ||parklogic.com^
@@ -10133,7 +10117,6 @@ about:blank$third-party
 ||salemove.com^
 ||saberfeedback.com^
 ||safedk.com^
-||subscrib.com^
 ||smartrcdn.s3.amazonaws.com^
 ||subscrib.*^
 ||sastrk.com^
@@ -10760,7 +10743,6 @@ about:blank$third-party
 ||tail.digital^
 ||tamgrt.com^
 ||telemetry.api.swiftkey.com^
-||telemetry-in.battle.net^
 ||tracking.epicgames.com^
 ||tracking.drillisch.de^
 ||tracking.finanzen.net^
@@ -12495,8 +12477,6 @@ about:blank$third-party
 ||google.com/maps/preview/vp
 ||google.com/maps/preview/log204
 ||google.com/maps/preview/lp
-||shopping.google.com/logbounceevent
-||play.google.com/log
 ||translate.google.com/gen204
 ||google.com/adsense/
 ||google.com/imgevent?
@@ -12722,7 +12702,7 @@ youtube.com##.ytd-rich-section-renderer.style-scope:-abp-contains(Featured)
 youtube.com##.ytd-unlimited-offer-module-renderer.style-scope:-abp-contains(Buy)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1):-abp-contains(Ad)
 youtube.com##.ytd-popup-container.style-scope:-abp-contains(Got it)
-google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap
+google.com##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap, #taw
 yahoo.com/_td_api/beacon/
 yahoo.com/_td_api?_appletType=viewer
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
@@ -12885,8 +12865,6 @@ addictivetips.com##.ggnoads
 walla.co.il##li > a[href*="b2c.we-sure.co.il"]
 walla.co.il##li > a[href*="shw.co.il"]
 brighthubeducation.com##.ezo_ad
-google.com###taw
-google.com###tvcap
 mbl.is##[id*="slot-"] > iframe
 news.sky.com###leaderboard
 thesun.co.uk##div.widget-height
@@ -14750,7 +14728,6 @@ _statsonlineinfo
 ##a[href*="/adredir.php"]
 ##a[href*="/affiliates."]
 ##a[href*="/affiliates/"]
-##a[href*="/advertise/"]
 ##a[href*="/trackhit/"]
 ##a[href*="/adClick/"]
 ##a[href*="/track/"]
