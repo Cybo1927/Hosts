@@ -15,7 +15,11 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||duckduckgo.com^$first-party,cookie
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
+@@||youtube.com^$first-party,cookie
+@@||accounts.google.com^$cookie,domain=youtube.com,accounts.google.com
+@@||accounts.youtube.com^$cookie
 
+||launchdarkly.com^
 ||patreon.com^
 ||nextcloud.com^
 ||droidhen.com^
@@ -60,7 +64,6 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||adobedtm.com^
 ||klinkerapps.com^
 ||avatars.planningcenteronline.com^
-||youtube.com^
 ||googlezip.net^
 ||gstatic.com^
 ||digibites.nl^
@@ -78,6 +81,8 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 ||172.67.209.209^
 ||37.228.107.253^
 ||2606:4700:3035::6815:5d75^
+||youtube.com^$third-party
+||googlevideo.com^$third-party,domain=~youtube.com
 ||filepicker.io^$third-party
 ||filestack.com^$third-party
 ||apple.com^$third-party
