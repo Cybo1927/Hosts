@@ -18,6 +18,7 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||youtube.com^$first-party,cookie
 @@||accounts.google.com^$cookie,domain=youtube.com,accounts.google.com
 @@||accounts.youtube.com^$cookie
+@@||youtube-ui.l.google.com^
 
 ||launchdarkly.com^
 ||patreon.com^
