@@ -18,6 +18,7 @@
 ||fbcdn-profile-*.^$third-party,domain=~facebook.com
 ||fbexternal-*.^$third-party,domain=~facebook.com
 ||cdninstagram.com^$third-party,domain=~instagram.com
+||facebook.net^$third-party
 ||instafeed.codev.wixapps.net^$third-party
 ||fbpigeon.com^$third-party
 ||fb.me^$third-party
