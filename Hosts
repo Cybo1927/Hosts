@@ -3,7 +3,7 @@
 ! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1406
+! Version: 1407
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -564,6 +564,7 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||tradetraffic.top^
 ||permanently-private.com^
 ||radiofanaticsearch.com^
 ||thoughtwriter218game.live^
@@ -798,7 +799,6 @@ about:blank$third-party
 ||tentmess.com^
 ||yourwebbars.com^
 ||adtrackxx.com^
-||gdz-2020.info^
 ||c-stat.eu^
 ||trafficv2.com^
 ||cdnvid.top^
@@ -836,7 +836,6 @@ about:blank$third-party
 ||rooftopmedia.com.au^
 ||soundl.ly^
 ||cyberads.io^
-||k3fvc.info^
 ||tele.fm^
 ||cifrasoft.com^
 ||actv8technologies.com^
@@ -927,7 +926,6 @@ about:blank$third-party
 ||jomtingi.net^
 ||aidatabaseonline.com^
 ||a.hentaimotel.com^
-||thecompensations.us^
 ||camgz.com^
 ||podsolnu9hi10.com^
 ||browser.events.data.trafficmanager.net^
@@ -1148,7 +1146,6 @@ about:blank$third-party
 ||prosumsit.com^
 ||ahaumplab.com^
 ||caradstag.casa^
-||farehitchlower.icu^
 ||highfalutinhoney.com^
 ||flirttactic.com^
 ||static.dating^
@@ -1168,7 +1165,6 @@ about:blank$third-party
 ||8a8altrk.com^
 ||data8a8altrk.com^
 ||sdcool.xyz^
-||adybad.site^
 ||irtyd.com^
 ||offerit.com^
 ||offerit-track-lb-*.*.elb.amazonaws.com^
@@ -1210,7 +1206,6 @@ about:blank$third-party
 ||client*-holanetworksltd.netdna-ssl.com^
 ||holaalt-holanetworksltd.netdna-ssl.com^
 ||curiouscat.club^
-||catsnthings.fun^
 ||catsnthing.com^
 ||skypeipresolver.net^
 ||spylink.net^
@@ -1354,7 +1349,6 @@ about:blank$third-party
 ||global.asimov.events.data.trafficmanager.net^
 ||keysvc.cs.roku.com^
 ||ravm.tv^
-||leya.tech^
 ||privacy-center.org^
 ||phoenix-widget.com^
 ||analysis.fi^
@@ -1370,7 +1364,6 @@ about:blank$third-party
 ||boomads.com^
 ||brandaffinity.net^
 ||acquisio.com^
-||ad360.media^
 ||rtbpop.com^
 ||runadtag.com^
 ||sendgrid.net^
@@ -1391,8 +1384,6 @@ about:blank$third-party
 ||prsaln.com^
 ||prsitecheck.com^
 ||pronetadvertising.com^
-||props.id^
-||prchecker.info^
 ||gepush.com^
 ||pubexchange.com^
 ||previouspotato.com^
@@ -1411,8 +1402,6 @@ about:blank$third-party
 ||gos-gsp.io^
 ||sinaapp.com^
 ||roq.ad^
-||ascend.ai^
-||cav.ai^
 ||airserve.net^
 ||trustnav.com^
 ||census.zorinos.com^
@@ -1429,7 +1418,6 @@ about:blank$third-party
 ||jerkmatelive.com^
 ||cwfabt1.com^
 ||neutronspace.com^
-||dc8c4e64942bae1e5bf8e5214e01185b6.com^
 ||bidmachine.io^
 ||comet.yahoo.com^
 ||xobni.yahoo.com^
