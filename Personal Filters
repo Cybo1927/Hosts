@@ -20,6 +20,7 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||accounts.youtube.com^$cookie
 @@||youtube-ui.l.google.com^
 
+||brave.com^
 ||launchdarkly.com^
 ||patreon.com^
 ||nextcloud.com^
