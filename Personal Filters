@@ -16,8 +16,8 @@ duckduckgo.com##.badge-link, .badge-link--serp, .ddg-extension-hide, .js-badge-l
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 @@||youtube.com^$first-party,cookie
-@@||accounts.google.com^$cookie,domain=youtube.com,accounts.google.com
-@@||accounts.youtube.com^$cookie
+@@||accounts.google.com^
+@@||accounts.youtube.com^
 @@||youtube-ui.l.google.com^
 
 ||brave.com^
