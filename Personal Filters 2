@@ -3,6 +3,7 @@
 
 @@||mail.protonmail.com^$important,document
 
-*$app=NZXT CAM.exe
+*$app=NZXT CAM.exe|msedge.exe|5KPlayer.exe
+*$network,app=ColorMunkiDisplayTray.exe
 
 youtube.com###voice-search-button
