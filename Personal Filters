@@ -17,9 +17,7 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 @@||gab.com^$first-party,cookie
 
 ||s.ytimg.com^
-||brave.com^
 ||launchdarkly.com^
-||patreon.com^
 ||nextcloud.com^
 ||droidhen.com^
 ||tenor.com^
@@ -33,10 +31,8 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 ||bcliveunivsecure-lh.akamaihd.net^
 ||cdnjs.cloudflare.com^
 ||boltdns.net^
-||vk.com^
 ||macrodroid.com^
 ||protectstar.com^
-||disqus.com^
 ||kiwibrowser.com^
 ||joaoapps.com^
 ||tnt-ea.com^
@@ -51,18 +47,15 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 ||time.android.com^
 ||crowdin.net^
 ||ampproject.org^
-||test.nextdns.io^
 ||safebrowsing.*^
 ||gravatar.com^
 ||pavoldev.ru^
 ||voodoo-tech.io^
 ||voodoo.io^
-||discordapp.com^
 ||3g.cn^
 ||rikka.app^
 ||adobedtm.com^
 ||klinkerapps.com^
-||avatars.planningcenteronline.com^
 ||googlezip.net^
 ||gstatic.com^
 ||digibites.nl^
