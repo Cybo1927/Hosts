@@ -1,9 +1,9 @@
 [Adblock Plus 3.6]
 ! Title: Cybo's Hosts
-! Description: A multilingual blocklist of ads, trackers, anti-adblock, malware, IP grabbers and tracking cookies.
+! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1407
+! Version: 1408
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -300,55 +300,9 @@ fastpic.ru#@#[id*="adblock-"]
 ||coconut.rocks^$third-party,popup,popunder
 ||cryptocoinsad.com^$third-party,popup,popunder
 ||p.1ts11.top^$third-party,popup,popunder
-||hotday.biz^$third-party,popup,popunder
-||nudismphoto.top^$third-party,popup,popunder
-||youngestlolas.com^$third-party,popup,popunder
-||youngpussy.ws^$third-party,popup,popunder
-||teddybear.world^$third-party,popup,popunder
-||daddycum.top^$third-party,popup,popunder
-||nicenudism.eu^$third-party,popup,popunder
-||longsex.club^$third-party,popup,popunder
-||young-milky-teenies.top^$third-party,popup,popunder
-||nn-mod.top^$third-party,popup,popunder
-||cute-little.ga^$third-party,popup,popunder
 ||meecam.ru^$third-party,popup,popunder
-||sapid.club^$third-party,popup,popunder
-||nudisttbeach.eu^$third-party,popup,popunder
-||lola-nu.top^$third-party,popup,popunder
-||d4rk.icu^$third-party,popup,popunder
-||fervently.xyz^$third-party,popup,popunder
-||nudismmovies.eu^$third-party,popup,popunder
-||archivexxx.xyz^$third-party,popup,popunder
-||nudistsport.eu^$third-party,popup,popunder
-||topsex.cc^$third-party,popup,popunder
-||xhotmodels.top^$third-party,popup,popunder
-||popin-cherries.top^$third-party,popup,popunder
-||teenie-heaven.top^$third-party,popup,popunder
-||darkporn.club^$third-party,popup,popunder
-||xxxunicorn.com^$third-party,popup,popunder
-||candysandra.top^$third-party,popup,popunder
-||jr-mods.top^$third-party,popup,popunder
-||smileporn.top^$third-party,popup,popunder
-||f6ck.top^$third-party,popup,popunder
-||innocentgirls.top^$third-party,popup,popunder
-||nudesex.pro^$third-party,popup,popunder
 ||nudistafrican.eu^$third-party,popup,popunder
-||petite-virgin-teens.xyz^$third-party,popup,popunder
-||nudists-top.top^$third-party,popup,popunder
-||youngestnymphets.com^$third-party,popup,popunder
-||underground.icu^$third-party,popup,popunder
-||innocentexposedteenies.top^$third-party,popup,popunder
-||littlepussy.pink^$third-party,popup,popunder
-||naughtyseries.top^$third-party,popup,popunder
-||xxxlist.cc^$third-party,popup,popunder
-||russianschoolgirls.top^$third-party,popup,popunder
-||homesecret.top^$third-party,popup,popunder
-||littlekittie1.top^$third-party,popup,popunder
 ||lilholes.com^$third-party,popup,popunder
-||lolaxxx.cc^$third-party,popup,popunder
-||veryyoung.org^$third-party,popup,popunder
-||lilnymph.com^$third-party,popup,popunder
-||youngtube.cc^$third-party,popup,popunder
 ||1olita.^$popup,popunder
 ||lol1ta.^$popup,popunder
 ||utarget.ru^$third-party,popup,popunder
@@ -564,6 +518,11 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||spam.xxxtraffic.top^
+||betterpull501can.live^
+||wellhello.com^
+||cybermeetfun.com^
+||20secondsecret.com^
 ||tradetraffic.top^
 ||permanently-private.com^
 ||radiofanaticsearch.com^
@@ -1453,7 +1412,7 @@ about:blank$third-party
 ||yassociallya.club^
 ||landlordmanoeuvre.com^
 ||witstandfridge.com^
-||y0tube.live^
+||y0tube.*^
 ||networkadverts.club^
 ||invitesuperstitiousadmire.com^
 ||regulationprivilegescan.top^
@@ -1527,14 +1486,12 @@ about:blank$third-party
 ||adpro.discoveryeducation.com^
 ||abovemarket.com^
 ||desktimmer.com^
-||f1272serve.xyz^
 ||pstreetex.com^
 ||itsup.com^
 ||matomo.adguard.com^
 ||lauk.icu^
 ||inheritwalter.com^
 ||lrysiw.com^
-||l7nq2jukv.com^
 ||searchads-old.apple.com^
 ||piwik-*.apple.com^
 ||loadonenot.online^
@@ -1565,56 +1522,9 @@ about:blank$third-party
 ||adiktivebanners.b-cdn.net^
 ||adsfind.ru^
 ||advertsdata.com^
-||hotday.biz^
-||nudismphoto.top^
-||youngestlolas.com^
-||youngpussy.ws^
-||teddybear.world^
-||daddycum.top^
-||nicenudism.eu^
-||longsex.club^
-||young-milky-teenies.top^
-||nn-mod.top^
-||cute-little.ga^
 ||meecam.ru^
-||sapid.club^
-||nudisttbeach.eu^
-||lola-nu.top^
-||d4rk.icu^
-||fervently.xyz^
-||nudismmovies.eu^
-||archivexxx.xyz^
-||nudistsport.eu^
-||topsex.cc^
-||xhotmodels.top^
-||popin-cherries.top^
-||teenie-heaven.top^
-||darkporn.club^
-||xxxunicorn.com^
-||candysandra.top^
-||jr-mods.top^
-||smileporn.top^
-||f6ck.top^
-||innocentgirls.top^
-||nudesex.pro^
 ||nudistafrican.eu^
-||petite-virgin-teens.xyz^
-||nudists-top.top^
-||youngestnymphets.com^
-||underground.icu^
-||innocentexposedteenies.top^
-||littlepussy.pink^
-||naughtyseries.top^
-||xxxlist.cc^
-||russianschoolgirls.top^
-||homesecret.top^
-||littlekittie1.top^
 ||lilholes.com^
-||lolaxxx.cc^
-||veryyoung.org^
-||lilnymph.com^
-||youngtube.cc^
-||1olita.*^
 ||lol1ta.*^
 ||adwidgets.ru^
 ||dmdbuilders.net^
@@ -1631,9 +1541,7 @@ about:blank$third-party
 ||bishoppeda.club^
 ||cdn4ads.com^
 ||esentencec.club^
-||bmwzdfrra.com^
 ||dryone-incess.com^
-||rpjzlykhkdc.com^
 ||tulecheja.pro^
 ||onstunkyr.com^
 ||l5fvoqimjfug.com^
