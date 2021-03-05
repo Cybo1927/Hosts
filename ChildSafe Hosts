@@ -1,8 +1,8 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 25
-! Last updated: Sunday, January 31, 2021
+! Version: 26
+! Last updated: Thursday, March 4, 2021
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 ! It will be mainly based around RegEX and should be used alongside other blacklists.
@@ -20,6 +20,7 @@
 ||kenyaadultblog.com^
 ||juiceboxit.com^
 ||sexblogtoplist.com^
+||xxxtraffic.top^
 
 ! NewGrounds
 ||reqqles.newgrounds.com^
