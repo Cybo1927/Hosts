@@ -5,6 +5,8 @@
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: N/A
 
+! Important note: Give them less data on you because of trash political takes such as https://blog.mozilla.org/blog/2021/01/08/we-need-more-than-deplatforming/
+
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
