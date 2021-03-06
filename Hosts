@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1408
+! Version: 1409
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -362,7 +362,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||jizzhutplus.com^$third-party,popup,popunder
 ||pay-pv.com^$third-party,popup,popunder
 ||pvchg.com^$third-party,popup,popunder
-||social7news.com^$third-party,popup,popunder
 ||tubememberplus.com^$third-party,popup,popunder
 ||tubemembers.mobi^$third-party,popup,popunder
 ||tubetoolkit.com^$third-party,popup,popunder
@@ -375,7 +374,6 @@ fastpic.ru#@#[id*="adblock-"]
 ||youjizzhidef.com^$third-party,popup,popunder
 ||youwerehacked.com^$third-party,popup,popunder
 ||badoinku.com^$third-party,popup,popunder
-||pornicle.mobi^$third-party,popup,popunder
 ||findandtry.com^$third-party,popup,popunder
 ||hislut.com^$third-party,popup,popunder
 ||hislutdating.com^$third-party,popup,popunder
@@ -1747,7 +1745,6 @@ about:blank$third-party
 ||jizzhutplus.com^
 ||pay-pv.com^
 ||pvchg.com^
-||social7news.com^
 ||tubemembers.mobi^
 ||tubetoolkit.com^
 ||webnr.net^
@@ -1759,7 +1756,6 @@ about:blank$third-party
 ||youjizzhidef.com^
 ||youwerehacked.com^
 ||badoinku.com^
-||pornicle.mobi^
 ||findandtry.com^
 ||hislut.com^
 ||hislutdating.com^
@@ -1805,17 +1801,13 @@ about:blank$third-party
 ||click-connect.com^
 ||chaport.com^
 ||trkn.us^
-||coinlab.biz^
 ||1-pregnant-sex.com^
 ||28365-365.com^
 ||igodigital.com^
 ||advision-adnw.jp^
 ||whereinpiemonte.com^
-||a15c5009bcbe272.com^
-||*.5tps.xyz^
 ||wangmeng.baidu.com^
 ||oadz.com^
-||99click.com^
 ||a1714.com^
 ||lqc200.com^
 ||mobafftrck.com^
@@ -1833,13 +1825,10 @@ about:blank$third-party
 ||worldofwonder.net^
 ||nanorep.co^
 ||bold360.com^
-||got-money.online^
 ||cp7gyw5w94c7.com^
-||amazonmoney.co^
 ||gogoel.com^
 ||btpnative.com^
 ||myfirsttab.com^
-||letmeleadyou.me^
 ||infosendpro.com^
 ||blogherads.com^
 ||htlbid.com^
@@ -1859,7 +1848,6 @@ about:blank$third-party
 ||testcnx.com^
 ||buriatelyn.club^
 ||wpush.org^
-||ndreammin.space^
 ||pacitiesbo.info^
 ||pushsales.space^
 ||abnormaticn.club^
@@ -1871,8 +1859,6 @@ about:blank$third-party
 ||livetroik.xyz^
 ||ocry.net^
 ||snapmeet.net^
-||snapmeet.xyz^
-||localhookup50.com^
 ||absorblms.com^
 ||ads.zoo.*^
 ||boostcpm.su^
@@ -1902,7 +1888,6 @@ about:blank$third-party
 ||landing.freecams.com^
 ||vfthr.com^
 ||loadrecent-theoverlyfile.best^
-||w-updater.icu^
 ||8ozhygzz5eke.com^
 ||u2htfd3bvwvl.com^
 ||w7zglmcdreij.com^
@@ -1943,7 +1928,6 @@ about:blank$third-party
 ||clicker.com^
 ||goadv.com^
 ||dealer.com^
-||d1272serve.xyz^
 ||mylocalcrush.com^
 ||gethugetoday.com^
 ||searchflings.com^
@@ -1965,7 +1949,6 @@ about:blank$third-party
 ||logfiles-va-*.zoom.us^
 ||5yw028ngxe9x.com^
 ||adxnexus.com^
-||prosperidadeplena.online^
 ||pwz2.com^
 ||popmonetizer.net^
 ||revrtb.net^
@@ -2027,12 +2010,10 @@ about:blank$third-party
 ||bigosext10.com^
 ||real-flirtpartner3.com^
 ||tdsjsext3.com^
-||pleasurefindyouhere.info^
 ||bigo-sext.com^
 ||hiido.com^
 ||spankychat.com^
 ||datecums.com^
-||discord.birth^
 ||advinci.uno^
 ||antiadblock.cz^
 ||antiadblock.com^
@@ -2042,10 +2023,7 @@ about:blank$third-party
 ||dreamlinux.com.br^
 ||dreamlinux.net^
 ||imgvieweriri.com^
-||u9xum5jlsvitcwvk5wll.org^
 ||track.ultimate-guitar.com^
-||ps-btc.info^
-||pinion.gg^
 ||motdgd.com^
 ||gameserverads.com^
 ||advertiserurl.com^
@@ -2084,7 +2062,6 @@ about:blank$third-party
 ||api-a.op-mobile.opera.com^
 ||samsungacr.com^
 ||advertica-cdn2.com^
-||hulinu.info^
 ||playhydrax.com^
 ||roujaufu.net^
 ||2020mustang.com^
@@ -2113,7 +2090,6 @@ about:blank$third-party
 ||20143.vip^
 ||000888.net^
 ||24949.com^
-||com-alerts.info^
 ||leadboltads.net^
 ||qingstor.com^
 ||allmobilize.com^
@@ -2140,7 +2116,6 @@ about:blank$third-party
 ||kolyabe2.ru^
 ||acales.ru^
 ||cdn1272serve.xyz^
-||n1272serv.xyz^
 ||adsession.com^
 ||primalgrowpro.com^
 ||dow068lag04cv.cloudfront.net^
@@ -2178,7 +2153,6 @@ about:blank$third-party
 ||dtignite.com^
 ||*-geo.kaspersky-labs.com^
 ||acdnpro.com^
-||vb17103elmerwatson.pw^
 ||salahstream.ml^
 ||hadsoks.com^
 ||passtechusa.com^
@@ -2206,7 +2180,6 @@ about:blank$third-party
 ||shetkarimarket.com^
 ||asianastarr.com^
 ||pipedrive.com^
-||goodcode.me^
 ||rednews.me^
 ||fasta.xyz^
 ||las4srv.com^
@@ -2224,10 +2197,8 @@ about:blank$third-party
 ||medallia.com^
 ||cyveillance.com^
 ||lookingglasscyber.com^
-||hell.com^
 ||likebtn.com^
 ||1clickflow.com^
-||2wap.org^
 ||adlabs.ru^
 ||clickio.com^
 ||luxadv.com^
@@ -2235,12 +2206,9 @@ about:blank$third-party
 ||tazeros.com^
 ||bisdgsd.pro^
 ||lfodsae.pro^
-||smartlock.google.com^
 ||ol.epicgames.com^
 ||ak.epicgames.com^
-||e1879.e7.akamaiedge.net^
 ||pagiwp.com^
-||lessblog.pro^
 ||sexvl.pro^
 ||microad.tw^
 ||microad.co.jp^
