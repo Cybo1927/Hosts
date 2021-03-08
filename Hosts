@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1410
+! Version: 1411
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -516,6 +516,8 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||actonservice.com^
+||act-on.com^
 ||spam.xxxtraffic.top^
 ||betterpull501can.live^
 ||wellhello.com^
@@ -2341,17 +2343,10 @@ about:blank$third-party
 ||paslsa.com^
 ||qualified.com^
 ||trk.oceanriddle.site^
-||rqyezhetbspk.com^
-||wgkurvzvd.com^
-||ilkmawgod.site^
 ||adtival.network^
 ||ailpielei.com^
 ||hionedaugsbu.info^
-||boyaidare.club^
 ||kawanfilm21.fun^
-||luxury111bet.com^
-||luxury138.cc^
-||agenpoker234.me^
 ||gobnz.com^
 ||idnpoker96.com^
 ||petchesa.net^
@@ -2364,16 +2359,11 @@ about:blank$third-party
 ||vlitag.com^
 ||sharefreeall.com^
 ||linkvertise.net^
-||megadownload42.wixsite.com^
-||drop-box.online^
 ||softsversion.com^
 ||ottomdisede.club^
-||pikecdn.xyz^
-||tremembersy.site^
 ||underwards.site^
 ||pisism.com^
 ||go2reach.com^
-||yuhuads.com^
 ||ultraadserver.com^
 ||tizerclik.com^
 ||scroogefrog.com^
@@ -2392,27 +2382,23 @@ about:blank$third-party
 ||propelmedia.com^
 ||pixelhere.com^
 ||sphereup.com^
-||firstads.de^
 ||firstsponsor.de^
 ||flatad.de^
 ||funtastic-ads.de^
 ||love-money.de^
 ||intertakekuhy.info^
-||spareton.online^
 ||boayipids.com^
 ||naiadmmm.com^
 ||luxyad.com^
 ||001888.org^
 ||4447774.com^
 ||888877x.com^
-||netadz.de^
 ||network-marketing24.com^
 ||blueparrot.media^
 ||ads.ndtv1.com^
 ||bizzabo.com^
 ||collector.*.mi.com^
 ||*-stat.appmifile.com^
-||eample.com^
 ||searchxt.com^
 ||wingreatprizes-now3.info^
 ||pushails.com^
@@ -12533,6 +12519,7 @@ about:blank$third-party
 ||google.com/log
 ||aoeapps.com/api/screens.php?do=
 ||apkpure.com/analytics
+||trustpilot.com/stats/
 
 !--------------
 ! End Blocking |
@@ -12981,8 +12968,9 @@ $ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
 */track/click/$popunder
+*/visitor?domain_name=
 */ads?zone_id=
-*?ad_sub$third-party
+*?ad_sub$third-party,~document
 */pixel.gif?
 */pixel2.gif?
 */s/s/sur.php?
@@ -15139,7 +15127,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 !#endif
 
 ! Removeparam (AdGuard & uBlock Origin)
-!#if (adguard_app_android || adguard_app_windows || adguard_app_mac || adguard_app_ios)
 
 $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_name|package_name|app_version_name|app_version_code|orientation_lock|CLIENT_IMPRESSION|page-ref|browser-info|referrer|browserver|foxref|is_first_visit|refccid|__twitter_impression|guce_referrer|guce_referrer_sig|adCount|wmlspartner|clickid|guccounter|tj_url|so_rec|int_cmpgn|^uclick|uclickhash|^ref_src|^ref_url|_trkparms|^yclid|^gclid|^fbclid|^fb_ref|^fb_source/
 ||google.^$removeparam=ei|uact|sclient|gs_lcp|oq|ved
@@ -15147,11 +15134,10 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||bitdefender.com/blog$removeparam=/.+/
 ||amazon.^$removeparam=ref_
 
-!#endif
-
 ! AdGuard Home
 @@||pi.pardot.com$dnstype=CNAME
 @@||go.pardot.com$dnstype=CNAME
 
 ! This doesn't need to go anywhere
 ||local.adguard.org^$dnsrewrite=127.0.0.1
+||injections.adguard.org^$dnsrewrite=127.0.0.1
