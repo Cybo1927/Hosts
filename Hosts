@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1409
+! Version: 1410
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -2209,13 +2209,10 @@ about:blank$third-party
 ||ol.epicgames.com^
 ||ak.epicgames.com^
 ||pagiwp.com^
-||sexvl.pro^
 ||microad.tw^
 ||microad.co.jp^
 ||ascraftan.com^
 ||chamsoop.net^
-||brothersail.com^
-||pushnotifications.click^
 ||moneyoffer.pro^
 ||bestcontentfood.top^
 ||bestcontenttrade.top^
@@ -2227,19 +2224,13 @@ about:blank$third-party
 ||z3dmbpl6309s.com^
 ||tanit-dio.com^
 ||mi82ltk3veb7.com^
-|referrer.space^
 ||adultfriendfinder.com^
 ||bngpt.com^
 ||aweproto.com^
 ||aweptjmp.com^
-||trupgrade.com^
-||defutohy.pro^
 ||ladsecs.com^
 ||wpnsrv.com^
 ||xadsmart.com^
-||kepler-37b.com^
-||szneae7977100.com^
-||toi-125b.com^
 ||skeetstick.com^
 ||bp512.com^
 ||mfadsrvr.com^
@@ -2261,18 +2252,15 @@ about:blank$third-party
 ||*rockstarreports*.com^
 ||ws.symantec.com^
 ||beacon.video.llnw.net^
-||yoursexcontact1.com^
 ||cyan92010.com^
 ||symcb.com^
 ||2leep.com^
-||nmcdn.us^
 ||soadvr.com^
 ||cam4tracking.com^
 ||adxite.com^
 ||exi8ef83z9.com^
 ||easy2cnjuh34jb.com^
 ||mrjb7hvcks.com^
-||briggbrought.pro^
 ||selfpua.com^
 ||bdwafx.com^
 ||mnbvjhg.com^
@@ -2309,15 +2297,11 @@ about:blank$third-party
 ||trippealbirthda.info^
 ||masterbate.pro^
 ||wsjlbbqemr23.com^
-||hmvos.com^
 ||plehimselves.info^
 ||hpyrdr.com^
 ||hadsabz.com^
 ||somecdn.bid^
 ||fnacgbik9v14.com^
-||halleyperson.pro^
-||larrenpicture.pro^
-||martafatass.pro^
 ||cconseent.info^
 ||spectrum.gettyimages.com^
 ||alleni.com^
@@ -2348,11 +2332,9 @@ about:blank$third-party
 ||intelliresponse.com^
 ||siteimprove.com^
 ||displayvertising.com^
-||corona-virus.cc^
 ||cpaevent.ru^
 ||cpfclassifieds.com^
 ||click.oneplus.com^
-||2mdnsys.com^
 ||projectagoralibs.com^
 ||projectagoraservices.com^
 ||i4rsrcj6.top^
@@ -14580,7 +14562,6 @@ _statsonlineinfo
 ##a[href*="revsharecash.com"]
 ##a[href*="clickadilla.com"]
 ##a[href*="hrtya.com"]
-##a[href*="sexvl.pro"]
 ##a[href*="gg.gg"]
 ##a[href*="adinfo."]
 ##a[href*="chaturbate.com/in/"]
