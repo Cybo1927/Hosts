@@ -16,7 +16,8 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 
-||s.ytimg.com^
+||brave.com^
+||ytimg.com^
 ||launchdarkly.com^
 ||nextcloud.com^
 ||droidhen.com^
