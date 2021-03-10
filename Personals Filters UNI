@@ -12,3 +12,5 @@
 ||fonts.googleapis.com^$domain=~docs.google.com
 ||vimeo.com^$third-party
 ||vimeocdn.com^$third-party
+
+||brave.com/safebrowsing/
