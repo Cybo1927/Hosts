@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1411
+! Version: 1412
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -30,11 +30,10 @@
 @@||192.168.*.^$first-party,important
 @@||127.0.0.1^$first-party,important
 ! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
-@@||ads.brave.software^$important
-@@||ads.bravesoftware.com^$important
 @@||ads.brave.com^$important
 @@||ads-serve.brave.com^$important
 @@||grant.rewards.brave.com^$important
+@@||ads-static.brave.com^$important
 ! Breaks TikTok Login
 @@||log2.musical.ly^
 ! Local News Station - Blocked Under "Malware domains"
@@ -705,7 +704,6 @@ about:blank$third-party
 ||miesobserv.fun^
 ||happierleads.com^
 ||vercel-insights.com^
-||laptop-updates.brave.com^
 ||instana.io^
 ||crowdtwist.com^
 ||listrak.com^
@@ -10436,7 +10434,6 @@ about:blank$third-party
 ||traffichunt.com^
 ||topoffers.com^
 ||trafforsrv.com^
-||winudf.com^
 ||traq.li^
 ||thefreesite.com^
 ||trafficsan.com^
@@ -12474,7 +12471,6 @@ about:blank$third-party
 ||google.com/aclk
 ||static.india.com/*/images/*-banner.jpg
 ||wikipedia.org/beacon
-||static.parastorage.com/services/editor-elements/dist/WFacebookLike.$script
 ||qhimg.com/*_monitor.$script
 ||cdn.flipboard.com/web/buttons/js/flbuttons$script
 ||reddit.com/sw-stats/
@@ -12520,6 +12516,8 @@ about:blank$third-party
 ||aoeapps.com/api/screens.php?do=
 ||apkpure.com/analytics
 ||trustpilot.com/stats/
+||z-dn.net/action?platform=*
+||*.droidhen.com/game/Sub.php?
 
 !--------------
 ! End Blocking |
@@ -12965,8 +12963,9 @@ tatumreport.com##.sponsor
 ! /analytics/ (breaks legit sites like moodysanalytics.com)
 ! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php)
 $ping
-*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net
+*/favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/get/*?zoneid=$script,media,other
 */track/click/$popunder
 */visitor?domain_name=
 */ads?zone_id=
