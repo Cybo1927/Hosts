@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1413
+! Version: 1414
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -515,6 +515,9 @@ fastpic.ru#@#[id*="adblock-"]
 about:blank$third-party
 ! End domains with modifiers ($)
 
+||valueclick.com^
+||bestofpost.com^
+||totemcash.com^
 ||actonservice.com^
 ||act-on.com^
 ||spam.xxxtraffic.top^
@@ -2462,23 +2465,18 @@ about:blank$third-party
 ||gpsecureads.com^
 ||pritmail-granoviet.com^
 ||undrininvereb.info^
-||ban.jo^
 ||inpagepush.com^
 ||offerimage.com^
-||a.a^
 ||advinci.co^
 ||ofgogoatan.com^
 ||inabsolor.com^
 ||abgligarchan.com^
-||chairwaydenew.site^
 ||pushno.com^
 ||hepilkkit.site^
 ||luckarea.com^
 ||news-headlines.co^
-||offgashah.club^
 ||pinpdmn.com^
 ||propu.sh^
-||showcasethat.com^
 ||superbuzz.io^
 ||xmlppcbuzz.com^
 ||cadskiz.com^
@@ -2487,7 +2485,6 @@ about:blank$third-party
 ||ryrecdiretbet.info^
 ||cadspms.com^
 ||dadspms.com^
-||hadslims.com^
 ||intl.miui.com^
 ||comscoreresearch.com^
 ||iadsdk.apple.com^
@@ -2519,15 +2516,12 @@ about:blank$third-party
 ||admo.net^
 ||analytics.webdunia.com^
 ||adbox.lk^
-||adlink.lk^
-||ads.korri.fr^
-||advgoogle.com^
+||korri.fr^
 ||admost.com^
 ||ads.vaguthu.mv^
 ||ads.xyz.ng^
 ||analytics-tracker.*^
-||ablogica.com^
-||ads-*-nfl.yinzcam.com^
+||ads-*-*.yinzcam.com^
 ||ads-resources.waze.com^
 ||ads.internal.unity3d.com^
 ||analytics.bsgwireless.com^
@@ -2543,7 +2537,6 @@ about:blank$third-party
 ||affiliatecruise.com^
 ||affiliate-cruise-mail.com^
 ||affiliates-spinit.com^
-||annapartners.com^
 ||ads.askgamblers.com^
 ||ads.b10f.jp^
 ||ads.cherrycasino.com^
@@ -14680,9 +14673,7 @@ $$script[tag-content="enableLinkTracking"]
 $$script[tag-content="'trackPageView'"]
 $$script[tag-content="preloadAds"]
 $$script[tag-content="PreloadAds"]
-$$script[tag-content="','ga'"]
 $$script[tag-content="window.localStorage.setItem(test, test);"]
-$$script[tag-content="Google Analytics"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="exoloader"]
 $$script[tag-content="ExoVideoSlider"]
@@ -14701,7 +14692,6 @@ $$script[wildcard="*oneClicks = true;*iCanPop*"]
 $$script[wildcard="*setCookie*countVisit();*"]
 $$script[wildcard="**window.onbeforeunload*popit == true*"]
 $$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
-$$noscript[tag-content="facebook.com/tr"]
 $$noscript[tag-content="exosrv"]
 
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
@@ -14922,9 +14912,7 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 *##^script:has-text('trackPageView')
 *##^script:has-text(preloadAds)
 *##^script:has-text(PreloadAds)
-*##^script:has-text(','ga')
 *##^script:has-text(window.localStorage.setItem(test, test);)
-*##^script:has-text(Google Analytics)
 *##^script:has-text(ExoLoader)
 *##^script:has-text(exoloader)
 *##^script:has-text(ExoVideoSlider)
