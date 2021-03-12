@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1412
+! Version: 1413
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -2406,21 +2406,15 @@ about:blank$third-party
 ||mr2cnjuh34jb.com^
 ||popcash.net^
 ||aysnmnzu4u.com^
-||snap-affairs.com^
 ||ankunding.biz^
-||mericnakliyat.com^
-||meridian-don.com^
 ||shopifytrack.com^
 ||adready.com^
 ||digitalremedy.com^
 ||air2s.com^
 ||hstrck.com^
 ||mstrlytcs.com^
-||nexeps.com^
 ||optmstr.com^
 ||ablsrv.com^
-||licensechecker.pw^
-||errorr.org^
 ||fortnite-pine.com^
 ||census.shodan.io^
 ||shadowserver.org^
@@ -2431,7 +2425,6 @@ about:blank$third-party
 ||gotprofits.com^
 ||grtyb.com^
 ||trblocked.com^
-||danzhallfes.com^
 ||bestcontentpc.top^
 ||bestcontentjob.top^
 ||onclickmega.com^
@@ -2451,13 +2444,10 @@ about:blank$third-party
 ||creoads.com^
 ||plufdsb.com^
 ||brandporno.com^
-||jrrmwjybfaztct.com^
-||ysyrcnsb.com^
 ||1ts18.top^
 ||revsharecash.com^
 ||yomeno.xyz^
 ||stats.framasoft.org^
-||rbnnetwork.com^
 ||uni-rostock.de^
 ||auth1.opendns.com^
 ||pathful.com^
