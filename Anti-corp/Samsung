@@ -17,6 +17,9 @@
 ! Start Domain Blacklist |
 !------------------------
 
+||samsungresources.visionobjects.com^
+||samsungsemi.com^
+||samsungmobile.com^
 ||samsungapps.com^
 ||samsungcloud.com^
 ||samsunghealth.com^
