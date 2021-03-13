@@ -17,6 +17,8 @@
 ! Start Domain Blacklist |
 !------------------------
 
+||ospserver.net^
+||samsappsbn.vo.llnwd.net^
 ||samsungresources.visionobjects.com^
 ||samsungsemi.com^
 ||samsungmobile.com^
