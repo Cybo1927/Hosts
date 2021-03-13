@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1414
+! Version: 1415
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -15116,5 +15116,4 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 @@||go.pardot.com$dnstype=CNAME
 
 ! This doesn't need to go anywhere
-||local.adguard.org^$dnsrewrite=127.0.0.1
 ||injections.adguard.org^$dnsrewrite=127.0.0.1
