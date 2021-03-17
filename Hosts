@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1415
+! Version: 1416
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -176,6 +176,8 @@ fastpic.ru#@#[id*="adblock-"]
 /^http:\/\/.+\..{2,4}\/(outback\.php|play\.php)/$popup,popunder
 /\/api\/spots\/[0-9]{5,}\?[a-z]=.+/
 /.+(offer|prize|win|[0-9]{2,3}game).+\.(live|life|info)$/
+/^(applog|adservice|adsdk|ad(-)?img|ad-beacon|activetracker|analytic(s)?-tracker|ad(s)?-resources|telemetry|adslog|advertica-cdn).+/
+/^zg9tywlubmftzw5ldz.+\.com$/
 
 ! Email Trackers Redirect to URLS Like This
 &group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
@@ -519,7 +521,6 @@ about:blank$third-party
 ||bestofpost.com^
 ||totemcash.com^
 ||actonservice.com^
-||act-on.com^
 ||spam.xxxtraffic.top^
 ||betterpull501can.live^
 ||wellhello.com^
@@ -1432,7 +1433,6 @@ about:blank$third-party
 ||cfdomains.com^
 ||acsbapp.com^
 ||ping.*.microsoft.com^
-||telemetry.*.microsoft.com^
 ||027wuhan.com^
 ||027wuhan.net^
 ||selectmedia.asia^
@@ -2064,7 +2064,6 @@ about:blank$third-party
 ||track.*.daum.net^
 ||api-a.op-mobile.opera.com^
 ||samsungacr.com^
-||advertica-cdn2.com^
 ||playhydrax.com^
 ||roujaufu.net^
 ||2020mustang.com^
@@ -2144,7 +2143,6 @@ about:blank$third-party
 ||enjoyadsplatform.com^
 ||analytics.videoshowglobalserver.com^
 ||pubnative.info^
-||adslog.apexinnotech.com^
 ||d1f4dp0syfp2oq.cloudfront.net^
 ||pow.im^
 ||alog.umengcloud.com^
@@ -2246,10 +2244,8 @@ about:blank$third-party
 ||seo-monster.ru^
 ||webeffector.ru^
 ||userclick.su^
-||telemetry.*.taketwointeractive.com^
 ||report.*.taketwointeractive.com^
 ||reports.*.taketwointeractive.com^
-||telemetry.*.rockstargames.com^
 ||report.*.rockstargames.com^
 ||reports.*.rockstargames.com^
 ||*rockstarreports*.com^
@@ -2520,9 +2516,7 @@ about:blank$third-party
 ||admost.com^
 ||ads.vaguthu.mv^
 ||ads.xyz.ng^
-||analytics-tracker.*^
 ||ads-*-*.yinzcam.com^
-||ads-resources.waze.com^
 ||ads.internal.unity3d.com^
 ||analytics.bsgwireless.com^
 ||ams-ads-cornerstone-pda-creatives.s3.amazonaws.com^
@@ -2556,7 +2550,6 @@ about:blank$third-party
 ||advert.io^
 ||advertio.com^
 ||adverticum.net^
-||afdah.tv^
 ||affiliate-b.com^
 ||afi-b.com^
 ||affinity.com^
@@ -2569,22 +2562,13 @@ about:blank$third-party
 ||admulti.com^
 ||abctrack.bid^
 ||acookie.alibaba.com^
-||activetracker.activehotels.com^
 ||ad-bay.com^
-||ad-beacon-v01.uliza.jp^
 ||ad-gbn.com^
-||ad-goi.com^
-||ad-img.diyidan.net^
-||ad-indicator.com^
 ||ad-m.asia^
 ||ad-recommend.com^
 ||ad-server.co.za^
 ||ad-sponsor.com^
 ||adreach.co^
-||adservice.google.*^
-||adsdk.picooapps.com^
-||adsdk-picooapp*-*.amazonaws.com^
-||adsdk.picooapp.com^
 ||analytics.ninjakiwi.com^
 ||analytics.bluemosh.com^
 ||ads.dailyfeed.co.uk^
@@ -2601,7 +2585,6 @@ about:blank$third-party
 ||ad-srv.net^
 ||affec.tv^
 ||ads.yap.yahoo.com^
-||applog.musical.ly.edgekey.net^
 ||apptornado.com^
 ||androidcrosspromoapi.herokuapp.com^
 ||appannie.com^
@@ -2617,7 +2600,6 @@ about:blank$third-party
 ||apppcdownload.com^
 ||altmetric.com^
 ||advil.waze.com^
-||ads-resources-legacy.waze.com
 ||api-proxy.nevo.app^
 ||analytics.valuepotion.com^
 ||adpopcorn.com^
@@ -2748,7 +2730,6 @@ about:blank$third-party
 ||adprotect.net^
 ||ads.erasuper.com^
 ||ad.nettvservices.com^
-||applog.musical.ly^
 ||airdownload2.adobe.com^
 ||aens.belugaboost.com^
 ||appad-*.perfectcorp.com^
@@ -3523,7 +3504,6 @@ about:blank$third-party
 ||adinc.co.kr^
 ||gpm-digital.com^
 ||catzwolf.com^
-||adimg.donga.com^
 ||adimage.newscloud.or.kr^
 ||adhappy.co.kr^
 ||adgger.com^
@@ -3631,7 +3611,6 @@ about:blank$third-party
 ||anetwork.ir^
 ||adzouktech.com^
 ||adzouk1tag.com^
-||advertica-cdn.com^
 ||advertica.ae^
 ||adv0.com^
 ||adtube.ir^
@@ -3842,8 +3821,6 @@ about:blank$third-party
 ||analytics.twitter.com^
 ||analytics.net^
 ||analytics.teksystems.com^
-||adservices.net^
-||adservice.com^
 ||analytic.herokuapp.com^
 ||admanmedia.com^
 ||addfreestats.com^
@@ -4006,7 +3983,6 @@ about:blank$third-party
 ||ad-pay.de^
 ||youmi.net^
 ||ad-rotator.com^
-||adimg*.search.naver.net^
 ||analytics.yahoo.com^
 ||gulasidorna.se^
 ||amobee.com^
@@ -4019,7 +3995,6 @@ about:blank$third-party
 ||atdmt.com^
 ||ad-serverparc.nl^
 ||alexametrics.com^
-||adservices.com^
 ||analytics.edgekey.net^
 ||ad-souk.com^
 ||ad-space.net^
@@ -4110,9 +4085,6 @@ about:blank$third-party
 ||adimages.homestore.com^
 ||adimages.omroepzeeland.nl^
 ||adimages.sanomawsoy.fi^
-||adimg.cnet.com^
-||adimg*.chosun.com^
-||adimgs.sapo.pt^
 ||admailtiser.com^
 ||adman.gr^
 ||adman.otenet.gr^
@@ -5091,7 +5063,6 @@ about:blank$third-party
 ||casespace.fun^
 ||caseduo.fun^
 ||conversiobot.com^
-||telemetry.microsoft.com^
 ||caramel.press^
 ||verticalhealth.net^
 ||coinad.com^
@@ -7062,7 +7033,6 @@ about:blank$third-party
 ||ip-info.ff.avast.com^
 ||is-tracking-pixel-api-prod.appspot.com^
 ||info.muxy.io^
-||telemetry.mozilla.org^
 ||ink1001.com^
 ||zotabox.com^
 ||treasuredata.com^
@@ -8809,7 +8779,6 @@ about:blank$third-party
 ||oblvk.ru^
 ||outstream.today^
 ||osrones.ru^
-||telemetry.microsoft.com.nsatc.net^
 ||one.ru^
 ! ||o2.co.uk^ (UK ISP)
 ||optimizely.com^
@@ -9610,7 +9579,6 @@ about:blank$third-party
 ||stats-proto.pandora.com^
 ||sanalytics.verizon.com^
 ||sdk.out.usbla.net^
-||telemetry.intel.com^
 ||stat.hackedonlinegames.com^
 ||stat.ripe.net^
 ||storetail.io^
@@ -10371,7 +10339,6 @@ about:blank$third-party
 ||tracedock.com^
 ||trafficshaping.dsp.mp.microsoft.com^
 ||trbas.com^
-||telemetry-in.*^
 ||terrapsps.com^
 ||terrasdsdstd.com^
 ||top-nudism.eu^
@@ -10400,7 +10367,6 @@ about:blank$third-party
 ||tempo.inc.com^
 ||triblio.com^
 ||tribl.io^
-||telemetry.*.quicinc.com^
 ||thedoctopdf.com^
 ||talkwalker.com^
 ||thepromoexperts.com^
@@ -10478,14 +10444,11 @@ about:blank$third-party
 ||trace.51jingying.com^
 ||truste.com^
 ||tidio.com^
-||telemetry.caddyserver.com^
-||telemetry-experiment.cdn.mozilla.net^
 ||townsquareblogs.com^
 ||tool-avpg.crsi.symantec.com^
 ||ton.smf1.twitter.com^
 ||t-*.wc.yahoodns.net^
 ||t0.gstatic.com^
-||telemetry-incoming.r*-*.services.mozilla.com^
 ||trackonomics.net^
 ||tracking.bi.psafe.com^
 ||tdtalliance.com^
@@ -10554,12 +10517,10 @@ about:blank$third-party
 ||theplatform.com^
 ||tail.digital^
 ||tamgrt.com^
-||telemetry.api.swiftkey.com^
 ||tracking.epicgames.com^
 ||tracking.drillisch.de^
 ||tracking.finanzen.net^
 ||strmtrk.com^
-||telemetry.appex.bing.net^
 ||tremorhub.com^
 ||tagmanager.google.com^
 ||thinknear.com^
@@ -10579,7 +10540,6 @@ about:blank$third-party
 ||tailwhups.net^
 ||theparkingplace.com^
 ||tqn.com^
-||telemetry.appex.bing.com^
 ||ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au^
 ||t-ipnet.de^
 ||ttgtmedia.com^
@@ -10669,8 +10629,6 @@ about:blank$third-party
 ||blindferret.media^
 ||blindferret.com^
 ||track.mmsvc.io^
-||telemetry.malwarebytes.com^
-||telemetry.nvidia.com^
 ||top100.ru^
 ||top100.*.ru^
 ||stats.seedr.com^
