@@ -13,6 +13,10 @@
 
 ||microsoft.com^
 ||microsoftonline.com^
+||msauth.net^
+||msocdn.com^
+||office.com^
+||gfx.ms^
 ||sfx.ms^
 ||sharepointonline.com^
 ||onecs-live.azureedge.net^
@@ -33,7 +37,7 @@
 ||appcenter.ms^
 ||playfabapi.com^
 ||trafficmanager.net^
-||img-s-msn-com.akamaized.net^
+||akamaized.net^
 ||flipgrid.com^
 ||s-microsoft.com^
 ||getmicsoft.com^
