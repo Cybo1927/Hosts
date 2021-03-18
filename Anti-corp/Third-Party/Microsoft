@@ -11,7 +11,7 @@
 
 ||microsoft.com^$third-party,domain=~live.com,~xbox.com,~minecraft.net,~office.com
 ||xboxlive.com^$third-party,domain=~xbox.com
-||msecnd.net^$third-party,domain=~live.com,~xbox.com,~minecraft.net
+||msecnd.net^$third-party,domain=~live.com,~xbox.com,~minecraft.net,~microsoft.com
 ||office365.com^$third-party,domain=~live.com
 ||live.com^$third-party,domain=~bing.com,~office.com
 ||microsoftonline.com^$third-party,domain=~bing.com,~office.com
