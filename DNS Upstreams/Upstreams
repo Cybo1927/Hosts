@@ -1,16 +1,15 @@
 # AdGuard
 #QUIC
 quic://dns-unfiltered.adguard.com
-#DOH Unfiltered
-sdns://AgcAAAAAAAAAAAAaZG5zLXVuZmlsdGVyZWQuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
+#
+#DNSCrypt
+sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA
 #
 # Cloudflare
 #1.1.1.1
-sdns://AAcAAAAAAAAABzEuMS4xLjE
+sdns://AAAAAAAAAAAABzEuMS4xLjE
 #
 # Quad9
-#DoH Standard 1
-sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
-#DoH Standard 2
-sdns://AgEAAAAAAAAAAAANZG5zLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
+#DNSCrypt
+sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 #
