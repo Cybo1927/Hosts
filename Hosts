@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1416
+! Version: 1417
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.3K (AdGuard Home)
 
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13400,8 +13400,6 @@ $ping
 */adnetwork.js
 */api/v1/tracking-event/creative_view
 */fuckadblock
-*/FuckAdBlock
-*/BlockAdBlock
 */blockadblock
 */Ping.aspx
 */adoric.js
