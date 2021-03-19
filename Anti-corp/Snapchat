@@ -1,5 +1,5 @@
 ! Title: Cybo's Anti Snapchat
-! Description: Block all known Snapchat domains  as well as block any subsidiaries
+! Description: Block all known Snapchat domains as well as block any subsidiaries
 ! Expires: 1 day
 
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
