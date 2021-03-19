@@ -1,8 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 26
-! Last updated: Thursday, March 4, 2021
+! Version: 27
 
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 ! It will be mainly based around RegEX and should be used alongside other blacklists.
@@ -214,6 +213,7 @@
 
 /(torrent|piratebay|pirate-bay|pirates-bay|vpn|unblock)/
 /(proxy)/$dnstype=~CNAME
+/^(doh(-.{1,4})?|dns([0-9]{1,3})?|dnsovertls([0-9]{1,3})?|dnsotls)\..+\..+/$dnstype=~CNAME
 
 ||whonix.org^
 ||qubes-os.org^
