@@ -2,16 +2,16 @@
 ! Title: Cybo's Anti Twitter - Third-Party
 ! Description: Block all known Twitter domains as well as block any subsidiaries on third-party sites
 ! Expires: 1 day
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
 
-||twitter.com^$third-party
 ||twimg.com^$third-party,domain=~twitter.com
 ||t.co^$third-party,domain=~twitter.com
 ||periscope.tv^$third-party,domain=~twitter.com
 ||pscp.tv^$third-party,domain=~twitter.com,~periscope.tv
+||twitter.com^$third-party
 ||mopub.com^$third-party
 
 !----------------------
