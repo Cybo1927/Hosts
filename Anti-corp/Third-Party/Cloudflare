@@ -2,7 +2,7 @@
 ! Title: Cybo's Anti Cloudflare - Third-Party
 ! Description: Block all known Cloudflare domains and any subsidiaries on third-party sites
 ! Expires: 1 day
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
