@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1418
+! Version: 1419
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -210,8 +210,12 @@ fastpic.ru#@#[id*="adblock-"]
 ||discord.com^$third-party,domain=~discordapp.com
 ||discordapp.com^$third-party,domain=~discord.com
 !-----------------------------------------
+! Sketchy popups
+||*^$third-party,popup,domain=bolfilmizle.com
+!---------------
 ! End domain modifier
 ! Start other modifiers
+||sexyadsrun.com^$popup,popunder
 ||julrdr.com^$popup,popunder
 ||istripper.com^$third-party,popup,popunder
 ||choconart.com^$popup,popunder
@@ -511,6 +515,15 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||expendituredefeated.com^
+||mesucces.top^
+||negyuk.com^
+||sersh.com^
+||shacsda.name^
+||nativeadsfeed.com^
+||erdecisesgeorg.info^
+||wilafhhbdyewgbd.xyz^
+||sexyadsrun.com^
 ||uniconsent.com^
 ||alignclamstram.com^
 ||glumpaul.net^
@@ -9337,7 +9350,6 @@ about:blank$third-party
 ||report-uri.highwebmedia.com^
 ||realtime.services.disqus.com^
 ||richducks.com^
-||rarbg*.*^
 ||rekoverr.com^
 ||rsz.sk^
 ||referrer.disqus.com^
