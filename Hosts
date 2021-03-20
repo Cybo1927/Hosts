@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1419
+! Version: 1420
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -8679,7 +8679,6 @@ about:blank$third-party
 ||opoxv.com^
 ||demonii.com^
 ||opentor.org^
-||opentrackr.org^
 ||ortermodown.ru^
 ||olc0.cn^
 ||openbracket.co^
@@ -8838,10 +8837,8 @@ about:blank$third-party
 ||purplestats.com^
 ||prolificmail.com^
 ||promotions.betfair.com^
-||p4p.arenabg.ch^
 ||adnet.bg^
 ||gblcdn.com^
-||p4p.arenabg.com^
 ||presentationtracking.netflix.com^
 ||pixanalytics.com^
 ||pixazza.com^
