@@ -1,5 +1,0 @@
-# AdGuard
-#QUIC
-quic://dns-family.adguard.com
-# Safe websites/servers on faster server
-[/google.com/goguardian.com/googleusercontent.com/gstatic.com/googleapis.com/ytimg.com/youtube.com/youtu.be/appspot.com/android.com/apple.com/apple.net/cdn-apple.com/cloudfront.net/sketch.io/paintserver.com/grammarly.com/cloudfront.net/amazon.com/a2z.com/]quic://dns-unfiltered.adguard.com
