@@ -1,18 +1,30 @@
 ! Title: Cybo's Personal Filters - Universal
-! Expires: 1 hours
+! Expires: 8 hours
 
+! Crap that doesn't need queried
 ||binance.com^
 ||patreon.com^
 ||vk.com^
 ||disqus.com^
 ||test.nextdns.io^
-||avatars.planningcenteronline.com^
 
-||fonts.google.com^$domain=~docs.google.com
-||fonts.googleapis.com^$domain=~docs.google.com
+! URL Shortners
+||bit.ly^
+||bitly.com^
+||tinyurl.com^
+||cutt.ly^
+||shortlink.net^
+
+! Reduce third-party exposure
+||fonts.*^$third-party,domain=~docs.google.com
 ||vimeo.com^$third-party
 ||vimeocdn.com^$third-party
 
-||brave.com/safebrowsing/
+! No HTTP
+|http://*$all
 
+! Hiding
+duckduckgo.com##.links_deep:not(:has-text(https))
+
+||brave.com/safebrowsing/
 */cast_sender.js
