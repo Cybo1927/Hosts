@@ -7,6 +7,8 @@
 ||vk.com^
 ||disqus.com^
 ||test.nextdns.io^
+||fontawesome.com^
+||fonts.*^
 
 ! URL Shortners
 ||bit.ly^
@@ -16,7 +18,8 @@
 ||shortlink.net^
 
 ! Reduce third-party exposure
-||fonts.*^$third-party,domain=~docs.google.com
+||*.woff^$third-party
+||*.woff^$third-party
 ||vimeo.com^$third-party
 ||vimeocdn.com^$third-party
 
