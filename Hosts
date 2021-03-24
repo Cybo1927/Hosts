@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1422
+! Version: 1423
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -166,6 +166,9 @@ fastpic.ru#@#[id*="adblock-"]
 !---------------
 ! End domain modifier
 ! Start other modifiers
+||x2sfa.javgg.eu^$popup,popunder
+||getoiu.com^$popup,popunder
+||o333o.com^$popup,popunder
 ||mackeeper.com^$popup,popunder
 ||lovechats.org^$popup,popunder
 ||sexyadsrun.com^$popup,popunder
@@ -464,10 +467,20 @@ fastpic.ru#@#[id*="adblock-"]
 ||virtuaguy.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virtuaguyhd.com^$third-party
+about:blank#blocked$popunder
 about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||prprocess.com^
+||expertnifg.com^
+||heiressplane.com^
+||brandnewapp.pro^
+||x2sfa.javgg.eu^
+||getoiu.com^
+||insomn.pro^
+||gamalk-sehetk.com^
+||runbornto.com^
 ||forkjork12.com^
 ||betweenstep.online^
 ||ninkorant.online^
@@ -12244,7 +12257,6 @@ about:blank$third-party
 /\?(resource=)(pubJS)/
 /^http(s)?:\/\/(cdn)[0-9]{1,2}(s-ref)\..{0,}(cdn)\..+/
 /\/(cdn|js)\/(fb)\.[0-9a-z]{8,}\.(min\.)?(js)/
-/\/api\/spots\/[0-9]{5,}\?[a-z]=.+/
 ! Email Trackers Redirect to URLS Like This
 &group_id=*&cntrl=*&pid=*&redid=*&gsid=*&campaign_id=*&p_id=*&id=*&impid=*$domain=google.com,document
 ! Harder Blocking of Facebook Tracking
@@ -12264,6 +12276,10 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/api/click/$popup,popunder
+*/retarget/add?
+*/js/popper.js
+*/api/spots/
 */preroll_stats
 */set-cookie.gif
 *?spot_id=$script,xhr
@@ -14042,7 +14058,14 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||z-dn.net/action?platform=*
 ||*.droidhen.com/game/Sub.php?
 ||lebo3.live/images/banner/*.*$image
-||asianclub.tv/asset/bann.js?
+||asianclub.tv/asset/bann.js
+||guilded.gg/api/presence
+||guilded.gg/api/data/event
+||i.imgur.com/hUZx1CF.gif
+||javlove.*/asset/bann.js
+||wpncdn.com/pn.php
+||wpncdn.com/worker.php
+||javtiful.com/jtmoney/jtmoney
 !--------------
 ! End Blocking |
 !--------------
@@ -14481,6 +14504,18 @@ torrentqq79.com##[href*="/ads/"]
 cornell.edu##.results-sponsored
 megatube.xxx###sponsor-widget
 its.porn##aside
+riskwatch.com###cookie-law-info-bar
+thehill.com###signup-modal-overlay, .incontent_widgets, [id*="ad-incontent"], [id*="signup-modal"]
+tandfonline.com##.banner
+bucksexton.com##.fwdmsp-controler:upward(3)
+thenation.com##.email-signup-module, .indents.indent.left, div.ad-wrap, [class*="inline-cta-"]
+learnreligions.com##[class*=gdpr-notification], [class*=adunit]
+cleanpng.com##.ad-warp, .fot-fixd
+javhdhd.com##.video-archive-ad, .adsvideo, [class*="inside-player"]
+javtivi.com##.video-archive-ad, .adsvideo, [class*="inside-player"]
+javfullsex.com##.video-archive-ad, .adsvideo, [class*="inside-player"]
+jav1996.com##[href="#!"]
+javtiful.com##.dontblockme, .jtmoney-invideo
 !--------------------
 ! End Element Hiding |
 !--------------------
