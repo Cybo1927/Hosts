@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1423
+! Version: 1424
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -166,6 +166,7 @@ fastpic.ru#@#[id*="adblock-"]
 !---------------
 ! End domain modifier
 ! Start other modifiers
+||amazing-dating.com^$popup,popunder
 ||x2sfa.javgg.eu^$popup,popunder
 ||getoiu.com^$popup,popunder
 ||o333o.com^$popup,popunder
@@ -472,6 +473,20 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||bid.glass^
+||glassmilheart.com^
+||displaycontentprofit.com^
+||amazing-dating.com^
+||pinkpig2le8tt09.com^
+||ttmetrics.jcpenney.com^
+||cavisson.com^
+||termageddon.com^
+||confsettings.com^
+||adpredictive.com^
+||ads.avct.cloud^
+||analytics.leya.tech^
+||ads.avocet.io^
+||floors.dev^
 ||prprocess.com^
 ||expertnifg.com^
 ||heiressplane.com^
@@ -14516,6 +14531,7 @@ javtivi.com##.video-archive-ad, .adsvideo, [class*="inside-player"]
 javfullsex.com##.video-archive-ad, .adsvideo, [class*="inside-player"]
 jav1996.com##[href="#!"]
 javtiful.com##.dontblockme, .jtmoney-invideo
+thisworldthesedays.com##[class*="cookie-consent"]
 !--------------------
 ! End Element Hiding |
 !--------------------
