@@ -24,7 +24,7 @@
 ||vimeocdn.com^$third-party
 
 ! No HTTP
-|http://*$all
+|http://*$third-party
 
 ! Hiding
 duckduckgo.com##.links_deep:not(:has-text(https))
