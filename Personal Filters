@@ -3,8 +3,12 @@
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
-||*^$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
-||*^$network,app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
+*$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
+*$network,app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
+
+@@||api.guilded.gg^
+@@||discord.gg^
+@@||discord.com^
 
 *$cookie
 @@||192.168.254.75^$first-party,cookie
@@ -16,7 +20,11 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 
+||appspot.com^
+||ntp.org^
 ||brave.com^
+||youtube.com^
+||youtube-nocookie.com^
 ||ytimg.com^
 ||launchdarkly.com^
 ||nextcloud.com^
