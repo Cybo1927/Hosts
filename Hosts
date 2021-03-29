@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1425
+! Version: 1426
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -51,8 +51,8 @@
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
 ! When blocked Hulu breaks
-@@||ads-e-darwin.hulustream.com^
-@@||http-v-darwin.hulustream.com^
+@@||ads-*-darwin.hulustream.com^
+@@||http-*-darwin.hulustream.com^
 ! When blocked Direct TV breaks
 @@||yospace-directv.akamaized.net^
 @@||*-sponsored.dfw.vcdn.att-idns.net^
@@ -99,17 +99,6 @@
 @@||sfgate.com^$generichide
 @@||github.com$generichide
 @@||niagarawater.com^$generichide
-! Specific
-skullcandy.com#@#.cookies:style(display:none !important;)
-mediaite.com#@#^script:has-text(adsbygoogle)
-google.com#@#^script:has-text(navigator.sendBeacon)
-pandora.com#@#[class$="Ads"]:not(html):not(body)
-foxnews.com#@#.cookies
-cnn.com#@#[class*="gdpr"]
-youtube.com#@#offer-module
-reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
-kgw.com#@#[class*="__ad"]
-fastpic.ru#@#[id*="adblock-"]
 ! Blocked in Steven Black's Hosts for either political or censorship reasons which is NOT okay
 ! Global Research CA (Just publishes research stuffs)
 0.0.0.0 www.globalresearch.ca$badfilter
@@ -474,6 +463,11 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||privatestats.whatsapp.net^
+||clarity.microsoft.com^
+||clarity.ms^
+||truepush.com^
+||trustarc.com^
 ||15dfjkbvdf.club^
 ||ledslevier.com^
 ||banesnorttat.cam^
@@ -14106,6 +14100,12 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 !----------------------
 ! This list will only cover more popular sites, it's more focused on blocking than hiding
 google.*##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap, #taw
+youtube.com##.ytd-statement-banner-renderer, #content > .ytd-rich-section-renderer.style-scope, [class*="promo-renderer"], ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1), #clarify-box > .ytd-watch-flexy.style-scope, ytd-promoted-sparkles-text-search-renderer.style-scope
+youtube.com###contentWrapper > .ytd-popup-container.style-scope:has-text(/got it/i)
+duckduckgo.com##.sponsored, [class*="-ads"]
+theblaze.com##.ad-tag, [class*="gdpr-cookie"], [id*="gpt-ad"], [id*="Newsletter"]
+theblaze.com##div.widget:has-text(sponsored)
+fee.org###infinite-scroll, #related-articles
 !--------------------
 ! End Element Hiding |
 !--------------------
