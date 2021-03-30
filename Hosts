@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1426
+! Version: 1427
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -156,6 +156,7 @@
 !---------------
 ! End domain modifier
 ! Start other modifiers
+||claring-loccelkin.com^$popup,popunder
 ||amazing-dating.com^$popup,popunder
 ||x2sfa.javgg.eu^$popup,popunder
 ||getoiu.com^$popup,popunder
@@ -463,6 +464,11 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||geolocation.1trust.app^
+||mktoevents.com^
+||ip.pichunter.com^
+||gexo.me^
+||claring-loccelkin.com^
 ||privatestats.whatsapp.net^
 ||clarity.microsoft.com^
 ||clarity.ms^
@@ -12298,6 +12304,9 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/js/analytics
+*/geoip.php
+*/click.json
 */track-view
 */api/click/$popup,popunder
 */retarget/add?
@@ -14091,6 +14100,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||javtiful.com/jtmoney/jtmoney
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/_td_api?_appletType=viewer
+||porn.com/*&action=visit
 !--------------
 ! End Blocking |
 !--------------
