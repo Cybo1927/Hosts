@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1427
-! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 14.1K (AdGuard Home)
+! Version: 1428
+! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.8K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -464,6 +464,7 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||postclick.com^
 ||geolocation.1trust.app^
 ||mktoevents.com^
 ||ip.pichunter.com^
@@ -6974,7 +6975,6 @@ about:blank$third-party
 ||event.iqoption.com^
 ||ilovehits.com^
 ||is.gd^
-||instapage.com^
 ||infinitytrafficboost.com^
 ||instantleadsandincome.com^
 ||ipaddress.is^
@@ -11068,7 +11068,6 @@ about:blank$third-party
 ||worldprofit.com^
 ||worldprofittube.com^
 ||worldprofitadvertising.com^
-||wordstream.com^
 ||weblogtracker.net^
 ||webhostingcounter.com^
 ||web-analytics-collector.thescore.com^
@@ -13788,7 +13787,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 */adScript*$script,redirect=noopjs,important
 */*gpt_*$script,redirect=noopjs,important
 */*prebid_*$script,redirect=noopjs,important
-*/*/header.js$script,redirect=noopjs,important
 */pubads_$script,redirect=noopjs,important
 */ads/pop.$script,redirect-rule=noopjs,important
 */js/pop.$script,redirect-rule=noopjs,important
@@ -13834,7 +13832,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 */adScript*$rewrite=abp-resource:blank-js
 */*gpt_*$rewrite=abp-resource:blank-js
 */*prebid_*$rewrite=abp-resource:blank-js
-*/*/header.js$rewrite=abp-resource:blank-js
 */pubads_$rewrite=abp-resource:blank-js
 */ads_prebid$rewrite=abp-resource:blank-js
 */atmedia_ms_v*$rewrite=abp-resource:blank-js,third-party
