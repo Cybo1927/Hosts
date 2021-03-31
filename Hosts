@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1428
+! Version: 1429
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.8K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -464,6 +464,38 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||ajc1.cn^
+||cnyc99.com^
+||dxrbc.cn^
+||hwhssc.cn^
+||mjzssc.cn^
+||nnmssc.cn^
+||tnfbc.cn^
+||toolce.cn^
+||zjrbc.cn^
+||lovebird.guru^
+||trulove.guru^
+||dateing.club^
+||otherhalf.life^
+||shrekis.life^
+||datasig.io^
+||datauth.io^
+||headshot.monster^
+||gaming-at-my.best^
+||progaming.monster^
+||yourmy.monster^
+||screenshare.host^
+||imageshare.best^
+||screenshot.best^
+||gamingfun.me^
+||catsnthings.fun^
+||alanlindsay.net^
+||asianrbtrade.net^
+||linkify.me^
+||bitly-bot.com^
+||adfly-bot.online^
+||grabify.icu^
+||googleboost.xyz^
 ||postclick.com^
 ||geolocation.1trust.app^
 ||mktoevents.com^
@@ -580,7 +612,6 @@ about:blank$third-party
 ||4kmoviesearch.com^
 ||retailproductsusa.com^
 ||rouonixon.com^
-||steamcloud-*.storage.googleapis.com^
 ||gammae.com^
 ||gammastats.com^
 ||hit.ua^
@@ -12598,7 +12629,6 @@ about:blank$third-party
 */o.php?id=
 */o.php?site=
 */o.php?domain=
-*/stats/$script
 */autotrack.$script
 */pixel/
 */afu.php?zoneid=
