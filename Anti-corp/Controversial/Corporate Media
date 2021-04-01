@@ -82,3 +82,6 @@
 !
 ! Hate-based fake news
 *,~constantinereport.com##a[href*="constantinereport.com"]:before:style(content: "Hate-based media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~unicornriot.ninja##a[href*="unicornriot.ninja"]:before:style(content: "Hateful race-based media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~dailystormer.su##a[href*="dailystormer.su"]:before:style(content: "Hateful race-based media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~theroot.com##a[href*="theroot.com"]:before:style(content: "Hateful race-based media outlet : " !important; color: #FF8000 !important; visibility: visible)
