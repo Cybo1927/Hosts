@@ -79,3 +79,6 @@
 *,~cbsnews.com##a[href*="cbsnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
 *,~npr.org##a[href*="npr.org"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
 *,~apnews.com##a[href*="apnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Hate-based fake news
+*,~constantinereport.com##a[href*="constantinereport.com"]:before:style(content: "Hate-based media outlet : " !important; color: #FF8000 !important; visibility: visible)
