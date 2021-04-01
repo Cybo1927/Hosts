@@ -1,0 +1,81 @@
+! Title: Cybo's Anti Corporate Media
+! Description: A uBlock Origin only list that will warn you before clicking links that lead to the corporate media as they are most often the actual perpetrators of so-called "fake news."
+! Homepage: https://github.com/Cybo1927/Hosts
+! Expires: 8 hours
+!
+! Corporate media is also often referred to as the "legacy media" or "mainstream media"
+!
+! While this list shouldn't be used to keep you from using anything considered to be corporate news
+! it should be used to help you realize your exposure to these media conglomerates. Most of which
+! will publish some form of fake news or clickbait to keep your attention and get you hooked on
+! the hate facing America.
+!
+! With about half of Americans viewing the Biden administration as illegitimate and the other half
+! spewing violent hate-based rhetoric towards them for their choice in a political candidate the
+! polarization is getting worse and it's profiting most-if not all-of the mainstream outlets.
+!
+! This list was made with the idea in mind that it's important to understand the grip these
+! media conglomerates have on the flow of our information. It will also let you know about
+! hate driven media outlets and warn you about them. Don't let hate drive your attention!
+!
+! I hope this list can help those in my generation (zoomers) and any other generation
+! to see the grips money has on our minds. Break free of your chains and take control of
+! your mind and being; don't let them control you.
+!
+! Good quotes to think about:
+! “Stop letting people who do so little for you control so much of your mind, feelings and emotions” - Will Smith
+!
+! “Self-control is the chief element in self-respect, and self-respect is the chief element in courage.” - Thucydides
+!
+! "We're ashamed to be American, you should probably love it
+! 'Cause you have the right to say it and not gеt strung up in public" - Tom MacDonald
+!
+! "There's a portion of the population that hates America.... They have the support of the 
+! culture, the elite and the institutions. We're the ones in the way. We're the dissenting 
+! voice. The narrative is America is bad," - John Doyle
+!
+! "Most politicians have one mission: Say or do whatever it takes to keep your attention
+! I guess you think the truth is so boring. They get away with telling lies and you’re dumb enough to vote for em’
+! Left, right, republicans, or democrats. Red or blue, different sides on the same crap" - Eric July (Backwardz)
+!
+! "They never freed the slaves, they realized that they don't need the chains
+! They gave us tiny screens, we think we free 'cause we can't see the cage
+! They knew that race war would be the game they'd need to play
+! For people to pick teams, they use the media to feed the flame" - Tom MacDonald
+!
+! Right-wing
+*,~breitbart.com##a[href*="breitbart.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~infowars.com##a[href*="infowars.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~oann.com##a[href*="oann.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Left-wing
+*,~cnn.com##a[href*="cnn.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~nytimes.com##a[href*="nytimes.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~washingtonpost.com##a[href*="washingtonpost.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~huffpost.com##a[href*="huffpost.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~abcnews.go.com##a[href*="abcnews.go.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~nbcnews.com##a[href*="nbcnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~usatoday.com##a[href*="usatoday.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~news.google.com##a[href*="news.google.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~news.yahoo.com##a[href*="news.yahoo.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~msn.com##a[href*="msn.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~msnbc.com##a[href*="msnbc.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~today.com##a[href*="today.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~bbc.com##a[href*="bbc.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~axios.com##a[href*="axios.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~buzzfeednews.com##a[href*="buzzfeednews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~thedailybeast.com##a[href*="thedailybeast.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~aol.com##a[href*="aol.com/news/"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Right
+*,~foxnews.com##a[href*="foxnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~nypost.com##a[href*="nypost.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~newsmax.com##a[href*="newsmax.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~dailymail.co.uk##a[href*="dailymail.co.uk"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~dailywire.com##a[href*="dailywire.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~dailycaller.com##a[href*="dailycaller.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Left
+*,~cbsnews.com##a[href*="cbsnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~npr.org##a[href*="npr.org"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~apnews.com##a[href*="apnews.com"]:before:style(content: "Corporate media outlet : " !important; color: #FF8000 !important; visibility: visible)
