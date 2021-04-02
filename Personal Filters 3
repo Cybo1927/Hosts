@@ -77,6 +77,7 @@
 ||*-samsungsemi.com^$ctag=user_regular
 ||samsungapps.com.cdngc.net^$ctag=user_regular
 ||aibixby.com^$ctag=user_regular
+||xboxlive.com^$ctag=user_regular
 
 ! Apple devices are retarded and send http:// and https:// stuff to a DNS server for whatever reason
 ||http*://
