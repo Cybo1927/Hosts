@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1430
+! Version: 1431
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.8K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -156,6 +156,8 @@
 !---------------
 ! End domain modifier
 ! Start other modifiers
+||log-in-*.com^$third-party
+||teamskeetxluxurygirls.com^$popup,popunder
 ||claring-loccelkin.com^$popup,popunder
 ||amazing-dating.com^$popup,popunder
 ||x2sfa.javgg.eu^$popup,popunder
@@ -464,6 +466,31 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||*systemerror-service*.*^
+||*systemerrorservice*.*^
+||*system-error*.*^
+||*virusfound*.*^
+||*antivirus-update*.*^
+||*antivirusupdate*.*^
+||lcwfabt1.com^
+||btpnav.com^
+||click-now.co^
+||tagtoo.com.tw^
+||tagtoo.co^
+||teamskeetxluxurygirls.com^
+||*-*covid19petition.ga^
+||*covid19petition*-*.ga^
+||xtr2020.com^
+||serverads.net^
+||adcheap.network^
+||adbank.network^
+||alli-ti-hunter.com^
+||budvawshes.ru^
+||dayznews.biz^
+||presssnews.biz^
+||makedreamprofits.ru^
+||jumpoutpopup.ru^
+||ladyclick.ru^
 ||ajc1.cn^
 ||cnyc99.com^
 ||dxrbc.cn^
