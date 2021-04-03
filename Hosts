@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1431
+! Version: 1432
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.8K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -11028,8 +11028,6 @@ about:blank$third-party
 ||verblife-3.co^
 ||vtrack.com^
 ||zopim.com^
-||vortex.data.microsoft.com^
-||vortex-*.data.microsoft.com^
 ||video-stats.video.google.com^
 ||v10.xmlsearch.miva.com^
 ||visitor-track.com^
