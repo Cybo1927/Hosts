@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1432
+! Version: 1433
 ! Approximate Number Of Ad Services, Trackers, And Malware, Etc. Blocked: 13.8K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -466,6 +466,11 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||onclickgenius.com^
+||onclickperformance.com^
+||onclickalgo.com^
+||newdisplayformats.com^
+||stats.dungeonboss.com^
 ||*systemerror-service*.*^
 ||*systemerrorservice*.*^
 ||*system-error*.*^
@@ -10488,7 +10493,6 @@ about:blank$third-party
 ||ssisurveys.com^
 ||tri247ads.com^
 ||trcklks.com^
-||title.mgt.xboxlive.com^
 ||targetednotifications.azurewebsites.net^
 ||tradelab.fr^
 ||twittermobi.com^
@@ -12359,6 +12363,11 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/_microsoft_clarity$script
+*/suurl.php?
+*/identify.html
+*/ip2geo/
+*/ipAddress
 */js/analytics
 */geoip.php
 */click.json
@@ -14246,6 +14255,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/_td_api?_appletType=viewer
 ||porn.com/*&action=visit
+||achcdn.com/script/chrome.js
 !--------------
 ! End Blocking |
 !--------------
