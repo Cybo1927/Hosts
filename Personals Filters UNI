@@ -8,7 +8,9 @@
 ||disqus.com^
 ||test.nextdns.io^
 ||fontawesome.com^
+||pinterest.com^
 ||fonts.*^
+||jsdelivr.net/*/font-*
 
 ! URL Shortners
 ||bit.ly^
