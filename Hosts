@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1434
+! Version: 1435
 ! Approximate number of ad services, trackers, malware, etc. blocked: 13.9K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -466,6 +466,30 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||mxtads.com^
+||xtrackme.com^
+||trafficlide.com^
+||woodmountain.icu^
+||altyaziliporno.casa^
+||bewarespray.com^
+||searchconverternet.com^
+||agacelebir.com^
+||freychang.fun^
+||ygqukhllchpw.com^
+||hgglguotkgfo.com^
+||rdrctgoweb.com^
+||track4ref.com^
+||dynsrvdea.com^
+||local-sluts.com^
+||lovenights.net^
+||hgcmnews.pro^
+||pd-news.com^
+||searchmarquis.com^
+||jmrnews.pro^
+||rewards4claim.net^
+||injectlocum.com^
+||advmaker.su^
+||myangular.life^
 ||casqwer.com^
 ||franicsiekbus.cf^
 ||downloads2020.com^
@@ -12372,6 +12396,14 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/plugins/poppy/
+*/poppy.js
+*/cams/?spot
+*.php?spot=
+*?type=impressions
+*/ad%20image/
+*/iframe_views
+*/tracking.php
 */_microsoft_clarity$script
 */fdlogger/
 */fdlogger.js
@@ -12662,7 +12694,6 @@ about:blank$third-party
 */beacon_
 */link.engine?
 */blank.mp4$domain=~thots.tv|~fluidplayer.com
-*/agent.php?spot=
 */get_country.php
 */oo_$script
 */quit-hogging$script
@@ -13882,8 +13913,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="catsnthings.fun/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="curiouscat.club/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="rëddït.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="yoütu.be/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="xda-developers.us/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="särahah.eu/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="särahah.pl/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="xda-developers.io/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
@@ -13924,8 +13953,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="yoütübe.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütübe.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="cyberh1.xyz/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="bucks.as/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="yoütübe.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 !#endif
 ! End uBlock Origin specific
 ! Redirect (AdGuard and uBlock Origin)
@@ -14269,6 +14296,9 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||yahoo.com/_td_api?_appletType=viewer
 ||porn.com/*&action=visit
 ||achcdn.com/script/chrome.js
+||tnaflix.com/azUhsbtsuzm
+||txxx.com/ofdjks/galleryn*.awemdia.com
+||hypnohub.net/assets/hub.php
 !--------------
 ! End Blocking |
 !--------------
