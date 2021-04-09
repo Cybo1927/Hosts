@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1435
+! Version: 1436
 ! Approximate number of ad services, trackers, malware, etc. blocked: 13.9K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -466,6 +466,18 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||sognal.org^
+||bidsimulator.com^
+||pizzaseo.com^
+||ecsmeasure.top^
+||imtwjwoasak.com^
+||youvetube.com^
+||youutube.com^
+||websocket-visitors.*^
+||views.hulu.com^
+||sites.foi.com^
+||system-usage-report.intel.com^
+||google.com.onion^
 ||mxtads.com^
 ||xtrackme.com^
 ||trafficlide.com^
