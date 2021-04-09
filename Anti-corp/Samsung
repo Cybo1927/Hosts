@@ -91,6 +91,9 @@
 ||samsungapps.com.cdngc.net^
 ||aibixby.com^
 ||example.org^
+||google.com.onion^
+||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^
+0.0.0.0 *google.com
 
 !----------------------
 ! End Domain Blacklist |
