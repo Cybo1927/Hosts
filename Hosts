@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1436
-! Approximate number of ad services, trackers, malware, etc. blocked: 13.9K (AdGuard Home)
+! Version: 1437
+! Approximate number of ad services, trackers, malware, etc. blocked: 14K (AdGuard Home)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -466,6 +466,15 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||oulddothesa.biz^
+||ancheonyo.fun^
+||acalatthen.fun^
+||interstitial-0*.com^
+||pseepsie.com^
+||toglooman.com^
+||whaxanso.net^
+||phicmune.net^
+||profitabletrustednetwork.com^
 ||sognal.org^
 ||bidsimulator.com^
 ||pizzaseo.com^
@@ -2313,7 +2322,6 @@ about:blank$third-party
 ||video-fa.scdn.co^
 ||jaguar-prod.snapchat.com^
 ||mgmt.aibixby.com^
-||naiadsystems.com^
 ||location.live.net^
 ||log.kmplayer.com^
 ||exposebox.com^
@@ -11021,8 +11029,6 @@ about:blank$third-party
 ||vss.norton.com^
 ||vzwwo.com^
 ||valor.c.hotheadgames.com^
-||valor-api-alb-1080470264.us-east-1.elb.amazonaws.com^
-||vzwdm.com^
 ||vzims.com^
 ||*-*-pixel-*.vc-networks.com^
 ||vietad.vn^
@@ -12408,6 +12414,10 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/ad_break
+*/zone?pub=
+*&zone_id=
+*&action=postviews
 */plugins/poppy/
 */poppy.js
 */cams/?spot
@@ -14311,6 +14321,8 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||tnaflix.com/azUhsbtsuzm
 ||txxx.com/ofdjks/galleryn*.awemdia.com
 ||hypnohub.net/assets/hub.php
+||youtube.com/app_shell
+||gstatic.com/*/promos/
 !--------------
 ! End Blocking |
 !--------------
@@ -14320,7 +14332,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 !----------------------
 ! This list will only cover more popular sites, it's more focused on blocking than hiding
 google.*##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap, #taw
-youtube.com##.ytd-statement-banner-renderer, #content > .ytd-rich-section-renderer.style-scope, [class*="promo-renderer"], ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1), #clarify-box > .ytd-watch-flexy.style-scope, ytd-promoted-sparkles-text-search-renderer.style-scope, .ytd-promoted-video-renderer.style-scope, [class*="companion-ad"]
+youtube.com##.ytd-statement-banner-renderer, #content > .ytd-rich-section-renderer.style-scope, [class*="promo-renderer"], ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1), #clarify-box > .ytd-watch-flexy.style-scope, ytd-promoted-sparkles-text-search-renderer.style-scope, .ytd-promoted-video-renderer.style-scope, [class*="companion-ad"], [class*="masthead-ad"]
 youtube.com###contentWrapper > .ytd-popup-container.style-scope:has-text(/got it/i)
 youtube.com##.ytd-popup-container.style-scope > .yt-tooltip-renderer:has-text(Join this channel and unlock)
 duckduckgo.com##.sponsored, [class*="-ads"]
