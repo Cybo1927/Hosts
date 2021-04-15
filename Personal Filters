@@ -3,12 +3,15 @@
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
+! Trash that fills my search results and fake news
+duckduckgo.com##.links_deep:-abp-contains(news.google.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(news.yahoo.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(msn.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(bing.com/news):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(theonion.com):upward(1)
+
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
 *$network,app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
-
-@@||api.guilded.gg^
-@@||discord.gg^
-@@||discord.com^
 
 *$cookie
 @@||192.168.254.75^$first-party,cookie
@@ -19,7 +22,15 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 @@||duckduckgo.com^$first-party,cookie
 @@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
+@@||thelancet.com^$cookie
 
+*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com
+@@||images.ctfassets.net$image,domain=projectveritas.com
+@@||rebelmouse.io^$image,domain=theblaze.com
+@@||i.guim.co.uk^$image,domain=theguardian.com
+@@||forbesimg.com^$domain=forbes.com
+
+||www.bromite.org^
 ||appspot.com^
 ||ntp.org^
 ||brave.com^
@@ -92,34 +103,3 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 
 ! Block port 1080
 ||*:1080^
-
-||172.217.8.206:443^$network
-||209.85.164.40:443^$network
-||172.217.4.65:443^$network
-||104.16.18.94:443^$network
-||216.58.192.170:443^$network
-||40.89.244.234:443^$network
-||104.26.7.139:443^$network
-||172.217.4.202:443^$network
-||34.206.226.233:443^$network
-||172.217.4.36:443^$network
-||50.16.178.8:443^$network
-||104.23.139.7:443^$network
-||18.209.191.2:443^$network
-||52.84.125.32:443^$network
-||151.101.65.67:443^$network
-||104.23.139.7:443^$network
-||104.23.140.7:443^$network
-||185.88.181.60^$network
-||40.89.244.232^$network
-||185.88.181.60^$network
-||8.240.153.123^$network
-||151.101.0.133^$network
-||176.103.133.77^$network
-||64.210.136.72^$network
-||172.217.3.14^$network
-||40.89.244.232^$network
-||66.230.178.234^$network
-||68.169.64.70^$network
-||151.101.4.133^$network
-||199.232.96.133^$network
