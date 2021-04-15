@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1437
-! Approximate number of ad services, trackers, malware, etc. blocked: 14K (AdGuard Home)
+! Version: 1438
+! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -466,6 +466,48 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||iigggames.com^
+||nosteam.ro^
+||oceanoftgames.blogspot.com^
+||oceanofgames.co.in^
+||ooceanofgames.com^
+||oceanofgames4u.com^
+||ofoceansgames.org^
+||oceanofgamese.net^
+||ooceanofgames.com^
+||oceanof.games^
+||freedownloadmanager.org^
+||gamesfree26.wixsite.com^
+||qpdownload.com^
+||oceansofgamess.com^
+||oceanofgamese.com^
+||oceanofgamesu.com^
+||oceanof-games.com^
+||oceanofgames.live^
+||oceantogames.com^
+||oceanofgames.com^
+||fitgirlrepacks.co^
+||fitgirl-repacks.cc^
+||fitgirl-repacks.com^
+||fitgirlrepacks.in^
+||fitgirl-repacks.to^
+||fitgirl-repacks.website^
+||dataunlocker.com^
+||toprevenuecpmnetwork.com^
+||madcpms.com^
+||2cnjuh34jbman.com^
+||sviter2s1olenyami1.com^
+||fikri-ayo.com^
+||iconcnd.net^
+||riverpush.com^
+||easyads*.mobi^
+||ideliv.net^
+||etoschedul.fun^
+||beyanmaan.com^
+||performit.xyz^
+||premium4kflix.top^
+||top-performance.top^
+||unblocker.pro^
 ||oulddothesa.biz^
 ||ancheonyo.fun^
 ||acalatthen.fun^
@@ -1733,7 +1775,6 @@ about:blank$third-party
 ||trafiq.win^
 ||watchmygirlfriend.to^
 ||wg-aff.com^
-||sopornvideos.com^
 ||tube2017.com^
 ||xxxmature.tube^
 ||tubexclips.com^
@@ -6013,7 +6054,6 @@ about:blank$third-party
 ||databerries.com^
 ||doubleverify.com^
 ||reson8.com^
-||dl1.cbsistatic.com^
 ||doubleclick.net^
 ||datanyze.com^
 ||demandbase.com^
@@ -12414,6 +12454,7 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/popunder.js
 */ad_break
 */zone?pub=
 *&zone_id=
@@ -14323,6 +14364,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||hypnohub.net/assets/hub.php
 ||youtube.com/app_shell
 ||gstatic.com/*/promos/
+||phncdn.com/*/pb_block.js
 !--------------
 ! End Blocking |
 !--------------
@@ -14339,6 +14381,61 @@ duckduckgo.com##.sponsored, [class*="-ads"]
 theblaze.com##.ad-tag, [class*="gdpr-cookie"], [id*="gpt-ad"], [id*="Newsletter"]
 theblaze.com##div.widget:has-text(sponsored)
 fee.org###infinite-scroll, #related-articles
+! Hide malicious and fake sites
+! DuckDuckGo
+duckduckgo.com##.links_deep:-abp-contains(iigggames.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(nosteam.ro):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanoftgames.blogspot.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgames.co.in):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(ooceanofgames.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgames4u.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(ofoceansgames.org):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgamese.net):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(ooceanofgames.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanof.games):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(freedownloadmanager.org):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(gamesfree26.wixsite.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(qpdownload.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceansofgamess.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgamese.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgamesu.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanof-games.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgames.live):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceantogames.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(oceanofgames.com):upward(1)
+duckduckgo.com##.result__extras__url:has-text(fitgirlrepacks.co):upward(3)
+duckduckgo.com##.result__extras__url:has-text(fitgirl-repacks.cc):upward(3)
+duckduckgo.com##.result__extras__url:has-text(fitgirl-repacks.com):upward(3)
+duckduckgo.com##.links_deep:has-text(fitgirlrepacks.in):upward(1)
+duckduckgo.com##.links_deep:has-text(fitgirl-repacks.to):upward(1)
+duckduckgo.com##.links_deep:has-text(fitgirl-repacks.website):upward(1)
+! Google
+google.*##div.g:-abp-contains(iigggames.com)
+google.*##div.g:-abp-contains(nosteam.ro)
+google.*##div.g:-abp-contains(oceanoftgames.blogspot.com)
+google.*##div.g:-abp-contains(oceanofgames.co.in)
+google.*##div.g:-abp-contains(ooceanofgames.com)
+google.*##div.g:-abp-contains(oceanofgames4u.com)
+google.*##div.g:-abp-contains(ofoceansgames.org)
+google.*##div.g:-abp-contains(oceanofgamese.net)
+google.*##div.g:-abp-contains(ooceanofgames.com)
+google.*##div.g:-abp-contains(oceanof.games)
+google.*##div.g:-abp-contains(freedownloadmanager.org)
+google.*##div.g:-abp-contains(gamesfree26.wixsite.com)
+google.*##div.g:-abp-contains(qpdownload.com)
+google.*##div.g:-abp-contains(oceansofgamess.com)
+google.*##div.g:-abp-contains(oceanofgamese.com)
+google.*##div.g:-abp-contains(oceanofgamesu.com)
+google.*##div.g:-abp-contains(oceanof-games.com)
+google.*##div.g:-abp-contains(oceanofgames.live)
+google.*##div.g:-abp-contains(oceantogames.com)
+google.*##div.g:-abp-contains(oceanofgames.com)
+google.*##div.g:-abp-contains(fitgirlrepacks.co)
+google.*##div.g:-abp-contains(fitgirl-repacks.cc)
+google.*##div.g:-abp-contains(fitgirl-repacks.com)
+google.*##div.g:-abp-contains(fitgirlrepacks.in)
+google.*##div.g:-abp-contains(fitgirl-repacks.to)
+google.*##div.g:-abp-contains(fitgirl-repacks.website)
 !--------------------
 ! End Element Hiding |
 !--------------------
