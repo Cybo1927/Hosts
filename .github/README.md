@@ -1,6 +1,6 @@
 ## Available lists and folders
- Name | Description | Raw URL |
------ |:----------- |:--------|
+ Name |      Description      | Raw URL |
+----- |:----------------------|---------|
 **Hosts** | A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies. | https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts
 **Fake News** | A blacklist of the so-called fake news everyone's so worried about these days. But with one major difference; unlike the other blacklists I will be actively trying to minimize my personal biases. | https://raw.githubusercontent.com/Cybo1927/Hosts/master/Fake%20News
 **ChildSafe Hosts** | Block access to anything related to pornography, sexuality, dating, or bypassing parental controls. | https://raw.githubusercontent.com/Cybo1927/Hosts/master/ChildSafe%20Hosts
