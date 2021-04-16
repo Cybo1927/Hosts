@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1439
+! Version: 1440
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -201,6 +201,9 @@
 !---------------
 ! End domain modifier
 ! Start other modifiers
+||*-eset.com^$document
+||*-trendmicro.com^$document
+||*-bitdefender.com^$document
 ||log-in-*.com^$third-party
 ||teamskeetxluxurygirls.com^$popup,popunder
 ||claring-loccelkin.com^$popup,popunder
@@ -511,6 +514,10 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||gbitdefendercentral.com^
+||helpavast.com^
+||stormtrk.com^
+||loyality-program.com^
 ||iigggames.com^
 ||nosteam.ro^
 ||oceanoftgames.blogspot.com^
@@ -1221,7 +1228,6 @@ about:blank$third-party
 ||fstats.xyz^
 ||tapixesa.pro^
 ||foowafoa.com^
-||*-bitdefender.com^
 ||nortonsecurityonline.com^
 ||kasperskysocialchannel.com^
 ||africa-newsroom.com^
@@ -12475,7 +12481,7 @@ about:blank$third-party
 /^https(s)?:\/\/.+\/click(s)?\/.{75,}$/$all
 /^http(s)?:\/\/ww[4-9][0-9]?\..+/$third-party,popup,popunder
 /^http:\/\/.+\/home\.php#[0-9a-z_]{16,}/$all
-/.{0,}(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[0-9]{4,}.{0,}/$all
+/.{0,}(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[0-9]{4,}.{0,}/$popup,popunder
 /^(applog|adservice|adsdk|ad(-)?img|ad-beacon|activetracker|analytic(s)?-tracker|ad(s)?-resources|telemetry|adslog|advertica-cdn).+/$all
 /^http:\/\/.+\..{2,4}\/(outback\.php|play\.php)/$popup,popunder
 /^zg9tywlubmftzw5ldz.+\.com$/$all
@@ -12503,6 +12509,8 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/session-event-tracker
+*/session-pixel.js
 */popunder.js
 */ad_break
 */zone?pub=
@@ -12930,8 +12938,6 @@ about:blank$third-party
 */cookie-prompt
 */geo/get
 */public/ads/
-*/vendor/bowser.js
-*/vendor/bowser.min.js
 */devicead/*
 */shopify_justuno_*
 */ads.min@
@@ -14434,6 +14440,7 @@ duckduckgo.com##.sponsored, [class*="-ads"]
 theblaze.com##.ad-tag, [class*="gdpr-cookie"], [id*="gpt-ad"], [id*="Newsletter"]
 theblaze.com##div.widget:has-text(sponsored)
 fee.org###infinite-scroll, #related-articles
+tatumreport.com##.sponsor
 ! Hide malicious and fake sites
 ! DuckDuckGo
 duckduckgo.com##.links_deep:-abp-contains(iigggames.com):upward(1)
@@ -14456,12 +14463,17 @@ duckduckgo.com##.links_deep:-abp-contains(oceanof-games.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(oceanofgames.live):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(oceantogames.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(oceanofgames.com):upward(1)
-duckduckgo.com##.result__extras__url:has-text(fitgirlrepacks.co):upward(3)
-duckduckgo.com##.result__extras__url:has-text(fitgirl-repacks.cc):upward(3)
-duckduckgo.com##.result__extras__url:has-text(fitgirl-repacks.com):upward(3)
-duckduckgo.com##.links_deep:has-text(fitgirlrepacks.in):upward(1)
-duckduckgo.com##.links_deep:has-text(fitgirl-repacks.to):upward(1)
-duckduckgo.com##.links_deep:has-text(fitgirl-repacks.website):upward(1)
+duckduckgo.com##.result__extras__url:-abp-contains(fitgirlrepacks.co):upward(3)
+duckduckgo.com##.result__extras__url:-abp-contains(fitgirl-repacks.cc):upward(3)
+duckduckgo.com##.result__extras__url:-abp-contains(fitgirl-repacks.com):upward(3)
+duckduckgo.com##.links_deep:-abp-contains(fitgirlrepacks.in):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(fitgirl-repacks.to):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(fitgirl-repacks.website):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(helpavast.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(-eset.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(-trendmicro.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(-bitdefender.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(gbitdefendercentral.com):upward(1)
 ! Google
 google.*##div.g:-abp-contains(iigggames.com)
 google.*##div.g:-abp-contains(nosteam.ro)
@@ -14489,6 +14501,11 @@ google.*##div.g:-abp-contains(fitgirl-repacks.com)
 google.*##div.g:-abp-contains(fitgirlrepacks.in)
 google.*##div.g:-abp-contains(fitgirl-repacks.to)
 google.*##div.g:-abp-contains(fitgirl-repacks.website)
+google.*##div.g:-abp-contains(helpavast.com)
+google.*##div.g:-abp-contains(-eset.com)
+google.*##div.g:-abp-contains(-trendmicro.com)
+google.*##div.g:-abp-contains(-bitdefender.com)
+google.*##div.g:-abp-contains(gbitdefendercentral.com)
 
 !--------------------
 ! End Element Hiding |
