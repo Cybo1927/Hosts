@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1438
+! Version: 1439
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -24,6 +24,7 @@
 !-----------------
 ! Begin Whitelist |
 !-----------------
+
 !#safari_cb_affinity(all)
 ! Local Domains
 @@||192.168.*.^$first-party,important
@@ -102,29 +103,72 @@
 ! Blocked in Steven Black's Hosts for either political or censorship reasons which is NOT okay
 ! Global Research CA (Just publishes research stuffs)
 0.0.0.0 www.globalresearch.ca$badfilter
+127.0.0.1 www.globalresearch.ca$badfilter
 0.0.0.0 globalresearch.ca$badfilter
+127.0.0.1 globalresearch.ca$badfilter
+||www.globalresearch.ca$badfilter
+||globalresearch.ca$badfilter
+||www.globalresearch.ca^$badfilter
+||globalresearch.ca^$badfilter
 ! American Military News is very centered absolutely no reason to be blocked
 0.0.0.0 americanmilitarynews.com$badfilter
-! Breitbart is a Right leaning news source
-0.0.0.0 www.breitbart.com$badfilter
+127.0.0.1 americanmilitarynews.com$badfilter
+||americanmilitarynews.com$badfilter
+||americanmilitarynews.com^$badfilter
 ! NewsMax is a Right leaning news source
 0.0.0.0 www.newsmax.com$badfilter
+127.0.0.1 www.newsmax.com$badfilter
+||www.newsmax.com$badfilter
+||www.newsmax.com^$badfilter
 ! MRC's News Busters is a Right leaning news source
 0.0.0.0 www.newsbusters.org$badfilter
+127.0.0.1 www.newsbusters.org$badfilter
+||www.newsbusters.org$badfilter
+||www.newsbusters.org^$badfilter
 ! Hard Right but by no means fake news
+0.0.0.0 www.breitbart.com$badfilter
+127.0.0.1 www.breitbart.com$badfilter
+||www.breitbart.com$badfilter
+||www.breitbart.com^$badfilter
 0.0.0.0 www.thegatewaypundit.com$badfilter
+127.0.0.1 www.thegatewaypundit.com$badfilter
+||www.thegatewaypundit.com$badfilter
+||www.thegatewaypundit.com^$badfilter
 0.0.0.0 www.theblaze.com$badfilter
+127.0.0.1 www.theblaze.com$badfilter
+||www.theblaze.com$badfilter
+||www.theblaze.com^$badfilter
 0.0.0.0 www.redstate.com$badfilter
+127.0.0.1 www.redstate.com$badfilter
+||www.redstate.com$badfilter
+||www.redstate.com^$badfilter
 0.0.0.0 www.prisonplanet.com$badfilter
+127.0.0.1 www.prisonplanet.com$badfilter
+||www.prisonplanet.com$badfilter
+||www.prisonplanet.com^$badfilter
 0.0.0.0 www.infowars.com$badfilter
+127.0.0.1 www.infowars.com$badfilter
+||www.infowars.com$badfilter
+||www.infowars.com^$badfilter
 0.0.0.0 infowars.com$badfilter
+127.0.0.1 infowars.com$badfilter
+||infowars.com$badfilter
+||infowars.com^$badfilter
 0.0.0.0 tv.infowars.com$badfilter
+127.0.0.1 tv.infowars.com$badfilter
+||tv.infowars.com$badfilter
+||tv.infowars.com^$badfilter
 0.0.0.0 www.bizpacreview.com$badfilter
-! Project Veritas exposes corruption from both parties
+127.0.0.1 www.bizpacreview.com$badfilter
+||www.bizpacreview.com$badfilter
+||www.bizpacreview.com^$badfilter
+! Project Veritas is investigative journalism and exposes corruption from both parties 
 0.0.0.0 projectveritas.com$badfilter
-! I don't have any idea why this is blocked
-0.0.0.0 westdesmoinesguide.com$badfilter
+127.0.0.1 projectveritas.com$badfilter
+||projectveritas.com$badfilter
+||projectveritas.com^$badfilter
 !#safari_cb_affinity
+
 !---------------
 ! End Whitelist |
 !---------------
@@ -132,6 +176,7 @@
 !------------------------
 ! Start Domain Blocklist |
 !------------------------
+
 ! Start domains with modifiers ($)
 ! Start domain modifier
 ! Administrator Blocked Pages 
@@ -12139,6 +12184,7 @@ about:blank$third-party
 ||novads.co^
 ||igadget24.com^
 ! End basic domains
+
 !----------------------
 ! End Domain Blocklist |
 !----------------------
@@ -12146,6 +12192,7 @@ about:blank$third-party
 !--------------------
 ! Begin IP Blacklist |
 !--------------------
+
 ! Admiral
 ||35.190.58.50^
 ! Marketo
@@ -12397,6 +12444,7 @@ about:blank$third-party
 ||216.218.206.124^
 ||216.218.206.125^
 ||216.218.206.126^
+
 !------------------
 ! End IP Blacklist |
 !------------------
@@ -12404,6 +12452,7 @@ about:blank$third-party
 !-----------------------------------
 ! Begin Ad/Content Blocker Specific |
 !-----------------------------------
+
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$domain=~istockphoto.com
 /[&]platform[=][a-zA-Z]/$domain=~spotify.com,~translate.yandex.com,~voicetech.yandex.net,~addons.mozilla.org,~github.com,~gitlab.com,~login.live.com,~rewards.brave.com,~mapquest.com
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net,reuters.com
@@ -14116,9 +14165,11 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||bitdefender.com/box/blog$removeparam=/.+/
 ||bitdefender.com/blog$removeparam=/.+/
 ||amazon.^$removeparam=ref_
+
 !----------------
 ! Begin Blocking |
 !----------------
+
 ||youtube.com/set_awesome
 ||youtube.com/ad_data
 ||youtube.com/youtubei/*/log_event
@@ -14365,6 +14416,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||youtube.com/app_shell
 ||gstatic.com/*/promos/
 ||phncdn.com/*/pb_block.js
+
 !--------------
 ! End Blocking |
 !--------------
@@ -14372,6 +14424,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 !----------------------
 ! Begin Element Hiding |
 !----------------------
+
 ! This list will only cover more popular sites, it's more focused on blocking than hiding
 google.*##.c, .commercial-unit-desktop-top, #tadsb, #tads, #rhs, #tvcap, #taw
 youtube.com##.ytd-statement-banner-renderer, #content > .ytd-rich-section-renderer.style-scope, [class*="promo-renderer"], ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1), #clarify-box > .ytd-watch-flexy.style-scope, ytd-promoted-sparkles-text-search-renderer.style-scope, .ytd-promoted-video-renderer.style-scope, [class*="companion-ad"], [class*="masthead-ad"]
@@ -14436,6 +14489,7 @@ google.*##div.g:-abp-contains(fitgirl-repacks.com)
 google.*##div.g:-abp-contains(fitgirlrepacks.in)
 google.*##div.g:-abp-contains(fitgirl-repacks.to)
 google.*##div.g:-abp-contains(fitgirl-repacks.website)
+
 !--------------------
 ! End Element Hiding |
 !--------------------
@@ -14443,6 +14497,7 @@ google.*##div.g:-abp-contains(fitgirl-repacks.website)
 !---------------------------------
 ! End Content/Ad Blocker Specific |
 !---------------------------------
+
 ! AdGuard Home
 ! Whitelist
 @@||pi.pardot.com$dnstype=CNAME
