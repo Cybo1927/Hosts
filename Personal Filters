@@ -7,8 +7,10 @@ duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t
 duckduckgo.com##.links_deep:-abp-contains(news.google.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(news.yahoo.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(msn.com):upward(1)
-duckduckgo.com##.links_deep:-abp-contains(bing.com/news):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(bing.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(theonion.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(google.com):upward(1)
+duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 
 *$app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
 *$network,app=com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter
