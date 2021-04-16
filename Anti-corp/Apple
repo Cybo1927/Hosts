@@ -1,10 +1,12 @@
 ! Title: Cybo's Anti Apple
 ! Description: Block all known connections to Apple as well as block any subsidiaries
 ! Expires: 1 day
-
+!
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: iCloud
-
+!
+! https://youtu.be/y8SjmcVJOjw
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
