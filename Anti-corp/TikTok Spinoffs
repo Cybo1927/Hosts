@@ -1,10 +1,10 @@
 ! Title: Cybo's Anti TikTok Spinoffs
 ! Description: Block all known TikTok spinoffs
 ! Expires: 1 day
-
+!
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: N/A
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
