@@ -1,17 +1,17 @@
 ! Title: Cybo's Anti Alphabet
 ! Description: Block all known Alphabet/Google domains as well as block any subsidiaries
 ! Expires: 1 day
-
+!
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: Google, Android, YouTube, Blogger, AMP, Nest, Calico, Verily, DeepMind, Waymo, Wing, Sidewalk Labs, X Company, Loon, GV, Chronicle Security, CapitalG, VirusTotal, TensorFlow, Angular, Tenor, and Fitbit
-
+!
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
 ! http://whois.domaintools.com/izatcloud.net
 ! http://whois.domaintools.com/izatcloud.com
 ! http://whois.domaintools.com/gpsonextra.net
 ! http://whois.domaintools.com/gpsonextra.com
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
@@ -272,7 +272,7 @@
 !----------------------
 ! End Domain Blacklist |
 !----------------------
-
+!
 !--------------------
 ! Begin IP Blacklist |
 !--------------------
