@@ -1,10 +1,10 @@
 ! Title: Cybo's Anti Verizon
 ! Description: Block all known Verizon domains as well as block any subsidiaries
 ! Expires: 1 day
-
+!
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: Yahoo!, AOL, and Oath
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
@@ -64,7 +64,7 @@
 !----------------------
 ! End Domain Blacklist |
 !----------------------
-
+!
 !--------------------
 ! Begin IP Blacklist |
 !--------------------
