@@ -1,12 +1,12 @@
 ! Title: Cybo's Anti TikTok
 ! Description: Block all known TikTok domains as well as block any subsidiaries
 ! Expires: 1 day
-
+!
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
 ! Subsidiaries blocked: N/A
-
+!
 ! Special thanks to DandelionSprout for multiple entries in this list (https://github.com/DandelionSprout)
-
+!
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
