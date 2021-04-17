@@ -32,6 +32,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||i.guim.co.uk^$image,domain=theguardian.com
 @@||forbesimg.com^$domain=forbes.com
 
+@@||cloud.unity3d.com^
 ||iframe.ly^
 ||www.bromite.org^
 ||appspot.com^
