@@ -2,7 +2,7 @@
 ! Title: Cybo's Fake News Blacklist
 ! Description: A blacklist of the so-called fake news everyone's so worried about these days. But with one major difference; unlike the other blacklists I will be actively trying to minimize my personal biases.
 ! Expires: 8 hours
-! Version: 5
+! Version: 6
 !
 ! NOTICE: This blacklist will NEVER block publications based on individuals. E.g. blocking Infowars over Alex Jones, CNN over Don Lemon or MSNBC over Rachel Maddow.
 !
@@ -12,6 +12,7 @@
 ! Sites that use loaded headlines for hate-based clicks with a lack of sources or proof
 ||blacknews.com^
 ||breakingchristiannews.com^
+||bravenewsblog.com^
 !
 ! Abortions.news is marked as fake news for articles trying to conflate things seen as emotional to push their beliefs such as
 ! "Why justifying abortion is like justifying slavery" - https://abortions.news/2020-12-14-why-justifying-abortion-is-like-justifying-slavery.html
