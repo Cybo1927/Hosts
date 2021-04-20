@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1440
+! Version: 1441
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -72,6 +72,12 @@
 ! Unbreak Some Apps (Such as HP Printer Control on Android)
 @@||remote-data.urbanairship.com^
 !
+! https://github.com/nextdns/metadata/issues/632
+@@||nv-sdk.jumio.com^
+!
+! Not ads, just trying to bait adblockers into breaking embeded content
+@@||static-cdn.spot.im/production/conversation/*/ad-container-bundle.js
+!
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
 @@||api-auth-mobile.hootsuite.com^
@@ -102,6 +108,7 @@
 @@||niagarawater.com^$generichide
 ! Blocked in Steven Black's Hosts for either political or censorship reasons which is NOT okay
 ! Global Research CA (Just publishes research stuffs)
+www.globalresearch.ca$badfilter
 0.0.0.0 www.globalresearch.ca$badfilter
 127.0.0.1 www.globalresearch.ca$badfilter
 0.0.0.0 globalresearch.ca$badfilter
@@ -111,58 +118,71 @@
 ||www.globalresearch.ca^$badfilter
 ||globalresearch.ca^$badfilter
 ! American Military News is very centered absolutely no reason to be blocked
+americanmilitarynews.com$badfilter
 0.0.0.0 americanmilitarynews.com$badfilter
 127.0.0.1 americanmilitarynews.com$badfilter
 ||americanmilitarynews.com$badfilter
 ||americanmilitarynews.com^$badfilter
 ! NewsMax is a Right leaning news source
+www.newsmax.com$badfilter
 0.0.0.0 www.newsmax.com$badfilter
 127.0.0.1 www.newsmax.com$badfilter
 ||www.newsmax.com$badfilter
 ||www.newsmax.com^$badfilter
 ! MRC's News Busters is a Right leaning news source
+www.newsbusters.org$badfilter
 0.0.0.0 www.newsbusters.org$badfilter
 127.0.0.1 www.newsbusters.org$badfilter
 ||www.newsbusters.org$badfilter
 ||www.newsbusters.org^$badfilter
 ! Hard Right but by no means fake news
+www.breitbart.com$badfilter
 0.0.0.0 www.breitbart.com$badfilter
 127.0.0.1 www.breitbart.com$badfilter
 ||www.breitbart.com$badfilter
 ||www.breitbart.com^$badfilter
+www.thegatewaypundit.com$badfilter
 0.0.0.0 www.thegatewaypundit.com$badfilter
 127.0.0.1 www.thegatewaypundit.com$badfilter
 ||www.thegatewaypundit.com$badfilter
 ||www.thegatewaypundit.com^$badfilter
+www.theblaze.com$badfilter
 0.0.0.0 www.theblaze.com$badfilter
 127.0.0.1 www.theblaze.com$badfilter
 ||www.theblaze.com$badfilter
 ||www.theblaze.com^$badfilter
+www.redstate.com$badfilter
 0.0.0.0 www.redstate.com$badfilter
 127.0.0.1 www.redstate.com$badfilter
 ||www.redstate.com$badfilter
 ||www.redstate.com^$badfilter
+www.prisonplanet.com$badfilter
 0.0.0.0 www.prisonplanet.com$badfilter
 127.0.0.1 www.prisonplanet.com$badfilter
 ||www.prisonplanet.com$badfilter
 ||www.prisonplanet.com^$badfilter
+www.infowars.com$badfilter
 0.0.0.0 www.infowars.com$badfilter
 127.0.0.1 www.infowars.com$badfilter
 ||www.infowars.com$badfilter
 ||www.infowars.com^$badfilter
+infowars.com$badfilter
 0.0.0.0 infowars.com$badfilter
 127.0.0.1 infowars.com$badfilter
 ||infowars.com$badfilter
 ||infowars.com^$badfilter
+tv.infowars.com$badfilter
 0.0.0.0 tv.infowars.com$badfilter
 127.0.0.1 tv.infowars.com$badfilter
 ||tv.infowars.com$badfilter
 ||tv.infowars.com^$badfilter
+www.bizpacreview.com$badfilter
 0.0.0.0 www.bizpacreview.com$badfilter
 127.0.0.1 www.bizpacreview.com$badfilter
 ||www.bizpacreview.com$badfilter
 ||www.bizpacreview.com^$badfilter
 ! Project Veritas is investigative journalism and exposes corruption from both parties 
+projectveritas.com$badfilter
 0.0.0.0 projectveritas.com$badfilter
 127.0.0.1 projectveritas.com$badfilter
 ||projectveritas.com$badfilter
@@ -514,6 +534,16 @@ about:blank$third-party
 ! End other modifiers
 ! End domains with modifiers ($)
 ! Start basic domains
+||expertspost.com^
+||myqualifica.fun^
+||ngthatwe.fun^
+||pix.spot.im^
+||metrics-logger.spot.im^
+||events-collector.spot.im^
+||direct-events-collector.spot.im^
+||contentinsights.com^
+||dmgmediaprivacy.co.uk^
+||inskinad.com^
 ||gbitdefendercentral.com^
 ||helpavast.com^
 ||stormtrk.com^
@@ -9511,7 +9541,6 @@ about:blank$third-party
 ||rlog_sem.vizio.com^
 ||replymsg.com^
 ||mailcoral.com^
-||rs6.net^
 ||regstat.betfair.com^
 ||rlogs.youdao.com^
 ||ru.com^
@@ -10342,7 +10371,6 @@ about:blank$third-party
 ||statsforads.com^
 ||service.t.sina.com.cn^
 ||static.ak.fbcdn.net^
-||spot.im^
 ||ssl-heise.met.vgwort.de^
 ||sharethrough.com^
 ||sail-horizon.com^
@@ -12509,6 +12537,13 @@ about:blank$third-party
 ||*^$ping
 */favicon.ico$third-party,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/adsid/
+*/ads/tags/
+*/ad-choises
+*/event-tracking/
+*/pixel-ads
+*-google-adsense
+*/locationjson.
 */session-event-tracker
 */session-pixel.js
 */popunder.js
@@ -14422,6 +14457,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||youtube.com/app_shell
 ||gstatic.com/*/promos/
 ||phncdn.com/*/pb_block.js
+||rackcdn.com/stf.js$third-party
 
 !--------------
 ! End Blocking |
