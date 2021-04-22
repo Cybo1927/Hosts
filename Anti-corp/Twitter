@@ -9,7 +9,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||twitter.com^
 ||twttr.com^
 ||twimg.com^
@@ -17,7 +17,7 @@
 ||periscope.tv^
 ||pscp.tv^
 ||mopub.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
