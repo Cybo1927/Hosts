@@ -9,7 +9,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||netflix.com^
 ||netflix.co.uk^
 ||netflix.net^
@@ -20,7 +20,7 @@
 ||storybots.com^
 ||dvd.com^
 ||fast.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
