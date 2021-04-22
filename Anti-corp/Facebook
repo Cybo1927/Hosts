@@ -9,7 +9,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||facebook.net^
 ||instafeed.codev.wixapps.net^
 ||fbpigeon.com^
@@ -20,10 +20,10 @@
 ||fbcdn.net^
 ||fb.me^
 ||fbsbx.com^
-||fbcdn-photos-*.^
-||fbcdn-sphotos-*.^
-||fbcdn-profile-*.^
-||fbexternal-*.^
+||fbcdn-photos-*.*^
+||fbcdn-sphotos-*.*^
+||fbcdn-profile-*.*^
+||fbexternal-*.*^
 ||facebook.com^
 ||instagram.com^
 ||whatsapp.net^
@@ -47,7 +47,7 @@
 ||cdninstagram.com^
 ||expresswifi.com^
 ||giphy.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
