@@ -8,7 +8,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||apple.com^$third-party
 ||apple.net^$third-party
 ||apple.com.edgekey.net^$third-party
@@ -30,7 +30,7 @@
 ||icloud.com.akadns.net^$third-party
 ||mzstatic.com^$third-party
 ||webkit.org^$third-party
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
