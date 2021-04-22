@@ -11,7 +11,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||mozilla.com^
 ||mozilla.net^
 ||mozilla.org^
@@ -21,7 +21,7 @@
 ||d2k03kvdk5cku0.cloudfront.net^
 ||detectportal.firefox.com-v2.edgesuite.net^
 ||mozilla.wpengine.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
