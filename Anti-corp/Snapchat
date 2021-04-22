@@ -13,7 +13,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||snapchat.com^
 ||snap.com^
 ||sc-cdn.net^
@@ -39,7 +39,7 @@
 ||appspot.l.google.com^
 ||data.flurry.com^
 ||impala-media-production.s3.amazonaws.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
