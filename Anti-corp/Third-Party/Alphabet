@@ -7,7 +7,7 @@
 ! Start Domain Blacklist |
 !------------------------
 !
-||google.^$third-party,domain=~youtube.com,~play.google.com
+||google.*^$third-party,domain=~youtube.com,~play.google.com
 ||youtube.com^$third-party,domain=~docs.google.com,~drive.google.com
 ||googlevideo.com^$third-party,domain=~youtube.com,~docs.google.com,~drive.google.com
 ||ggpht.com^$third-party,domain=~youtube.com
