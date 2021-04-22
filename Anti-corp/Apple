@@ -11,7 +11,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||apple.com^
 ||apple.net^
 ||apple.com.edgekey.net^
@@ -33,7 +33,7 @@
 ||icloud.com.akadns.net^
 ||mzstatic.com^
 ||webkit.org^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
