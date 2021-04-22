@@ -11,7 +11,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||microsoft.com^
 ||clarity.ms^
 ||microsoftonline.com^
@@ -176,7 +176,7 @@
 ||za7.net^
 ||zyhcxzs.com^
 ||xboxlive.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
