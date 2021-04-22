@@ -6,8 +6,8 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
-||amazon.^$third-party,domain=~twitch.tv
+!
+||amazon.*^$third-party,domain=~twitch.tv
 ||amazontrust.com^$third-party
 ||amazon-dss.com^$third-party
 ||amazonaws.com^$third-party
@@ -84,7 +84,7 @@
 ||canvas.technology^$third-party
 ||inlt.com^$third-party
 ||zoox.com^$third-party
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
