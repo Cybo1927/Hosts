@@ -11,7 +11,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||tiktok.com^
 ||musical.ly^
 ||musically.ly^
@@ -24,7 +24,7 @@
 ||*-tiktokcdn-com.akamaized.net^
 ||tiktokcdn.com^
 ||tiktokv.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
