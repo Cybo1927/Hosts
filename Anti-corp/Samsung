@@ -17,7 +17,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||ospserver.net^
 ||samsappsbn.vo.llnwd.net^
 ||samsungresources.visionobjects.com^
@@ -95,7 +95,7 @@
 ||google.com.onion^
 ||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^
 0.0.0.0 *google.com
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
