@@ -9,8 +9,8 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
-||amazon.^
+!
+||amazon.*^
 ||amazontrust.com^
 ||amazon-dss.com^
 ||amazonaws.com^
@@ -87,7 +87,7 @@
 ||canvas.technology^
 ||inlt.com^
 ||zoox.com^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
