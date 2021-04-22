@@ -6,14 +6,14 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||twimg.com^$third-party,domain=~twitter.com
 ||t.co^$third-party,domain=~twitter.com
 ||periscope.tv^$third-party,domain=~twitter.com
 ||pscp.tv^$third-party,domain=~twitter.com,~periscope.tv
 ||twitter.com^$third-party
 ||mopub.com^$third-party
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
