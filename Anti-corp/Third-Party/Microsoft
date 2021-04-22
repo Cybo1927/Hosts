@@ -8,7 +8,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||microsoft.com^$third-party,domain=~live.com,~xbox.com,~minecraft.net,~office.com
 ||xboxlive.com^$third-party,domain=~xbox.com
 ||msecnd.net^$third-party,domain=~live.com,~xbox.com,~minecraft.net,~microsoft.com
@@ -173,7 +173,7 @@
 ||yigalaxy.com^$third-party
 ||za7.net^$third-party
 ||zyhcxzs.com^$third-party
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
