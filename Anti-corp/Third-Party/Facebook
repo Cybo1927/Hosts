@@ -6,17 +6,17 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||fbcdn-video-*.akamaihd.net^$third-party,domain=~facebook.com
 ||fbcdn-vthumb-*.akamaihd.net^$third-party,domain=~facebook.com
 ||fbexternal-*.akamaihd.net^$third-party,domain=~facebook.com
 ||fbstatic-*.akamaihd.net^$third-party,domain=~facebook.com
 ||fbcdn.net^$third-party,domain=~facebook.com
 ||fbsbx.com^$third-party,domain=~facebook.com
-||fbcdn-photos-*.^$third-party,domain=~facebook.com
-||fbcdn-sphotos-*.^$third-party,domain=~facebook.com
-||fbcdn-profile-*.^$third-party,domain=~facebook.com
-||fbexternal-*.^$third-party,domain=~facebook.com
+||fbcdn-photos-*.*^$third-party,domain=~facebook.com
+||fbcdn-sphotos-*.*^$third-party,domain=~facebook.com
+||fbcdn-profile-*.*^$third-party,domain=~facebook.com
+||fbexternal-*.*^$third-party,domain=~facebook.com
 ||cdninstagram.com^$third-party,domain=~instagram.com
 ||facebook.net^$third-party
 ||instafeed.codev.wixapps.net^$third-party
@@ -44,7 +44,7 @@
 ||atlassolutions.com^$third-party
 ||expresswifi.com^$third-party
 ||giphy.com^$third-party
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
