@@ -9,7 +9,7 @@
 !------------------------
 ! Start Domain Blacklist |
 !------------------------
-
+!
 ||clashapp.co^
 ||4p5rxxd3le.execute-api.*.amazonaws.com^
 ||clash-prod-uploads.s3.*.amazonaws.com^
@@ -39,7 +39,7 @@
 ||videoshowapp.com^
 ||videostarapp.com^
 ||mustar.me^
-
+!
 !----------------------
 ! End Domain Blacklist |
 !----------------------
