@@ -17,22 +17,36 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 
 *$cookie=/.+/;maxAge=5
 @@||192.168.254.75^$first-party,cookie
-@@||192.168.254.76^$first-party,cookie
-@@||127.0.0.1^$first-party,cookie
-@@||localhost^$first-party,cookie
+@@||192.168.254.66^$first-party,cookie
+@@||nextdns.io^$first-party,cookie
 @@||secureinternetbank.com^$first-party,cookie
 @@||duckduckgo.com^$first-party,cookie
-@@||nextdns.io^$first-party,cookie
 @@||gab.com^$first-party,cookie
 @@||thelancet.com^$cookie
+@@||planningcenteronline.com^$first-party,cookie
 
-*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com
+*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com|androidcentral.com|9to5google.com
+||dailysignal.com^$script,inline-script
+||cnn.com^$script
+||theguardian.com^$script,inline-script
+||forbes.com^$script
+||androidcentral.com^$script
+||9to5google.com^$script,inline-script
 @@||images.ctfassets.net$image,domain=projectveritas.com
 @@||rebelmouse.io^$image,domain=theblaze.com
 @@||i.guim.co.uk^$image,domain=theguardian.com
 @@||forbesimg.com^$domain=forbes.com
 
 @@||cloud.unity3d.com^
+@@||mtalk.google.com^
+@@||alt*-mtalk.google.com^
+@@142.250.111.188$network,app=com.google.android.gms
+||loginradius.com^
+||jwplayer.com^
+||jwpsrv.com^
+||jwpcdn.com^
+||jquery.com^
+||bootstrapcdn.com^
 ||iframe.ly^
 ||www.bromite.org^
 ||appspot.com^
