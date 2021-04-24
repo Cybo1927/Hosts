@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1444
+! Version: 1445
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -543,7 +543,6 @@ about:blank$third-party
 !
 ! Start basic domains
 !
-||engage.hulu.com^
 ||getrockerbox.com^
 ||adnami.io^
 ||eligibility-panelresearch.googlevideo.com^
