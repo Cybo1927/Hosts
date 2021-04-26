@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1446
+! Version: 1447
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13785,7 +13785,7 @@ $$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*
 $$noscript[tag-content="exosrv"]
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 !+ NOT_OPTIMIZED PLATFORM(android)
-*,~youtube.com#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return ''; } });
+com,net,org,edu,gov,co,uk,io,name,news,~youtube.com#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } });
 ! Can help fix ReCAPTCHA detecting you use an ad/content blocker and giving you worse CAPTCHAs
 !+ NOT_OPTIMIZED
 google.*,gstatic.*#%#Object.defineProperty(navigator, 'plugins', { get: function() { return 'undefined'; } });
