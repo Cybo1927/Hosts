@@ -24,23 +24,29 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||gab.com^$first-party,cookie
 @@||thelancet.com^$cookie
 @@||planningcenteronline.com^$first-party,cookie
+@@||notion.so^$first-party,cookie
 
-*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com|androidcentral.com|9to5google.com
-||dailysignal.com^$script,inline-script
-||cnn.com^$script
-||theguardian.com^$script,inline-script
-||forbes.com^$script
-||androidcentral.com^$script
-||9to5google.com^$script,inline-script
+*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com|androidcentral.com|9to5google.com|ground.news
 @@||images.ctfassets.net$image,domain=projectveritas.com
 @@||rebelmouse.io^$image,domain=theblaze.com
 @@||i.guim.co.uk^$image,domain=theguardian.com
 @@||forbesimg.com^$domain=forbes.com
+@@||groundnews.b-cdn.net^$domain=ground.news
 
 @@||cloud.unity3d.com^
 @@||mtalk.google.com^
-@@||alt*-mtalk.google.com^
 @@142.250.111.188$network,app=com.google.android.gms
+||cloudfront.net^
+||windowscentral.com^
+||technobuffalo.com^
+||imore.com^
+||futureplc.com^
+||crackberry.com^
+||thrifter.com^
+||mobilenations.com^
+||wp.com^
+||w.org^
+||wordpress.com^
 ||loginradius.com^
 ||jwplayer.com^
 ||jwpsrv.com^
