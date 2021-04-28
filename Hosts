@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1447
+! Version: 1448
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -543,6 +543,10 @@ about:blank$third-party
 !
 ! Start basic domains
 !
+||frigchat.com^
+||69packs.com^
+||userstats.xboxlive.com^
+||requestmetrics.com^
 ||telemetry.intel.com^
 ||collector.xhamster.com^
 ||getrockerbox.com^
@@ -11752,7 +11756,6 @@ about:blank$third-party
 ||allmyverygreatlife.com^
 ||tracker.arc.io^
 ||ilovejuju.be^
-||mc-nat-t.cloudapp.net^
 ||piwik.tapatalk.com^
 ||search-log.tapatalk.com^
 ||video-*-cdn-spotify-com.akamaized.net^
@@ -14533,6 +14536,8 @@ bhphotovideo.com##[href*="/promotion"]
 9to5google.com##.ad-container, .inlinead
 androidcentral.com##adunit-purch, .adunit-wrap, .internal-cta, .cta, [class*="-taboola"]
 biography.com##[class*="ad--slot"]
+louderwithcrowder.com##[id*="Newsletter_Block"]
+history.com##[class*="-ad-"]
 ! Hide malicious and fake sites
 ! DuckDuckGo
 duckduckgo.com##.links_deep:-abp-contains(iigggames.com):upward(1)
