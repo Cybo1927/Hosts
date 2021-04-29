@@ -1,32 +1,32 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
 ! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 28
-
+! Version: 29
+!
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 ! It will be mainly based around RegEX and should be used alongside other blacklists.
-
+!
 ! Recommended blacklists:
 ! https://block.energized.pro/porn/formats/filter
 ! https://raw.githubusercontent.com/ammnt/AmmoniteFilter/master/filter.txt
-
+!
 !-------------------
 ! Begin Pornography |
 !-------------------
-
+!
 /(porn|xvideo|nude|babe|slut|orgasm|stripper|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|thot|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore|pervert|smut|seuality|sexuality|taboo|jerk|twerk|clit|pussy|18yo|19yo|hdsex|sexhd|rape|erotic|fetish|cocks|fap|horny|shota|sext|leaked-pics|leakedpics|yaoi|orgasm)/
-/(xxx|cum)/$dnstype=~CNAME
+/(xxx)/$dnstype=~CNAME
 /(\.sex$|\.sexy$|\.porn$|\.bj$|\.singles$|\.lgbt$|\.gay$)/
-
+!
 ||無料同人誌.com^
 ||kenyaadultblog.com^
 ||juiceboxit.com^
 ||sexblogtoplist.com^
 ||xxxtraffic.top^
-
+!
 ! NewGrounds needs blocked as it's very easy to access pornography without any way to filter at a DNS level
 ||newgrounds.com^
-
+!
 ! Tumblr
 ||allthingsgirlfriend.tumblr.com^
 ||wareagle9608.tumblr.com^
@@ -56,8 +56,7 @@
 ||leakedblack.tumblr.com^
 ||i-like-my-blondes-dirty.tumblr.com^
 ||o-r-g-a-s-m-o-s.tumblr.com^
-
-
+!
 ! Blogspot
 ||bestspankingblogs.blogspot.^
 ||new-mexile.blogspot.^
@@ -66,17 +65,17 @@
 ||dirtyc101.blogspot.^
 ||jennnnnajameson.blogspot.^
 ||amateurguysonvideo.blogspot.^
-
+!
 !-----------------
 ! End Pornography |
 !-----------------
-
+!
 !--------------
 ! Begin Dating |
 !--------------
-
+!
 /(dating|singles)/
-
+!
 ||match.com^
 ||pof.com^
 ||okcupid.com^
@@ -105,19 +104,19 @@
 ||chatpit.com^
 ||chattyheads.com^
 ||meetme.com^ 
-
+!
 !------------
 ! End Dating |
 !------------
-
+!
 !----------------------
 ! Begin Bypass Methods |
 !----------------------
-
+!
 /(torrent|piratebay|pirate-bay|pirates-bay|vpn|unblock)/
 /(proxy)/$dnstype=~CNAME
 /^(doh(-.{1,4})?|dns([0-9]{1,3})?|dnsovertls([0-9]{1,3})?|dnsotls)\..+\..+/$dnstype=~CNAME
-
+!
 ||whonix.org^
 ||qubes-os.org^
 ||parrotsec.org^
@@ -214,11 +213,11 @@
 ||onion.to^
 ||onion.ws^
 ||torproject.org^
-
+!
 ! Unknown/unsupported search engines for safesearch
-
+!
 /searx\..+/
-
+!
 ||searx.space^
 ||searx.ru^
 ||searx.ch^
@@ -236,18 +235,18 @@
 ||mojeek.com^
 ||searchencrypt.com^
 ||yippy.com^
-
+!
 !--------------------
 ! End Bypass Methods |
 !--------------------
-
+!
 !----------------------
 ! Begin Download Sites |
 !----------------------
-
+!
 ! Download sites are blocked because they can be used to bypass some downloads that should be blocked
 ! They are also often full of malicious programs/applications
-
+!
 ||softonic.com^
 ||softpedia.com^
 ||download.cnet.com^
@@ -311,7 +310,7 @@
 ||cydia-app.com^
 ||appbrain.com^
 ||ioshaven.com^
-
+!
 !--------------------
 ! End Download Sites |
 !--------------------
