@@ -3,13 +3,13 @@
 
 !TEST
 !+ NOT_OPTIMIZED PLATFORM(android)
-*##.inner-ad
+com,net##.inner-ad
 !+ NOT_OPTIMIZED PLATFORM(android)
-*##.ad
+com,net##.ad
 !+ NOT_OPTIMIZED PLATFORM(android)
-*##[class*="inner-ad"]
+com,net##[class*="inner-ad"]
 !+ NOT_OPTIMIZED PLATFORM(android)
-*##[class*="ad"]
+com,net##[class*="ad"]
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
