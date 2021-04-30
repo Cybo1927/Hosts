@@ -36,7 +36,8 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||mtalk.google.com^
-@@||142.250.*.188^$network,app=com.google.android.gms
+@@||alt*-mtalk.google.com^
+@@||1*2.25*.*.188^$network,app=com.google.android.gms
 ||cloudfront.net^
 ||windowscentral.com^
 ||technobuffalo.com^
