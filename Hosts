@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1448
+! Version: 1449
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -543,6 +543,10 @@ about:blank$third-party
 !
 ! Start basic domains
 !
+||xvideoa.com^
+||kinesis.*-1.amazonaws.com^
+||networkadvertising.org^
+||examole.com^
 ||frigchat.com^
 ||69packs.com^
 ||userstats.xboxlive.com^
@@ -1401,7 +1405,6 @@ about:blank$third-party
 ||crashlyticsreports-pa.googleapis.com^
 ||partners.camsoda.com^
 ||adrise.tv^
-||example.org^
 ||huluim.com^
 ||googlesyndication.com^
 ||openx.dwebsite.com^
@@ -1555,7 +1558,6 @@ about:blank$third-party
 ||track.cordial.io^
 ||trcksp.cordial.io^
 ||log.zoom.us^
-||optimportal.com^
 ||metrics.foxnews.com^
 ||counts.air.tv^
 ||chromecrxstore.com^
@@ -5440,7 +5442,6 @@ about:blank$third-party
 ||cnevids.com^
 ||crownpeak.net^
 ||podium.com^
-||chrome.adtidy.org^
 ||crl.certum.pl^
 ||crl.pki.goog^
 ||comodoca4.com^
