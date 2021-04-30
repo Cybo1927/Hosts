@@ -3,10 +3,6 @@
 
 !TEST
 !+ NOT_OPTIMIZED PLATFORM(android)
-com,net##.inner-ad
-!+ NOT_OPTIMIZED PLATFORM(android)
-com,net##.ad
-!+ NOT_OPTIMIZED PLATFORM(android)
 com,net##[class*="inner-ad"]
 !+ NOT_OPTIMIZED PLATFORM(android)
 com,net##[class*="ad"]
