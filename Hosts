@@ -13690,8 +13690,6 @@ _statsonlineinfo
 !------------------------
 ! Begin AdGuard Specific |
 !------------------------
-!#if (adguard)
-!
 ! AdGuard specific whitelist
 @@||sourceforge.net$generichide,genericblock
 @@||googlevideo.com^$stealth
@@ -13894,7 +13892,6 @@ brainly.com$cookie=/Zadanepl_cookie.{0,}/
 youtube.com#@#body { overflow:visible!important; }
 ! Taken From AdGuard's "Base filter"
 youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
-!#endif
 ! End AdGuard General
 ! Begin AdGuard Apps
 ! Android specific whitelist/blacklist
@@ -14129,7 +14126,6 @@ com,net,co,uk,io,info##a[onclick=*"adclick"]
 com,net,co,uk,io,info##a[onclick=*"/ping_url"]
 !+ NOT_OPTIMIZED
 com,net,co,uk,io,info##a[onclick="closeMyAd()"]
-!#endif
 !----------------------
 ! End AdGuard Specific |
 !----------------------
