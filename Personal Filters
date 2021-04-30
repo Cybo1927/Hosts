@@ -1,10 +1,6 @@
 ! Title: Cybo's Personal Filters - AdGuard for Android
 ! Expires: 1 hours
 
-!TEST
-!+ NOT_OPTIMIZED
-com,net,co,uk,io,info##[class*="inner-ad"]
-
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
 ! Trash that fills my search results and fake news
