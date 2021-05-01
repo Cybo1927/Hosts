@@ -1,36 +1,8 @@
 ! Title: Cybo's Personal Filters - AdGuard for Android
 ! Expires: 1 hours
 
-!+ NOT_OPTIMIZED
-com,net##.ad-unit
-!+ NOT_OPTIMIZED
-com,net##.ad-small
-!+ NOT_OPTIMIZED
-com,net##.ad-large
-!+ NOT_OPTIMIZED
-com,net##.adsbytrafficjunky
-!+ NOT_OPTIMIZED
-com,net##.removeAdLink
-!+ NOT_OPTIMIZED
-com,net##[class*="inner-ad"]
-!+ NOT_OPTIMIZED
-com,net##[class*="gdpr-cookie"]
-!+ NOT_OPTIMIZED
-com,net##[id*="gpt-ad"]
-!+ NOT_OPTIMIZED
-com,net##[class*="-taboola"]
-!+ NOT_OPTIMIZED
-com,net##.adunit-wrap
-!+ NOT_OPTIMIZED
-com,net##adunit-purch
-!+ NOT_OPTIMIZED
-com,net##.sponsor
-!+ NOT_OPTIMIZED
-com,net##.sponsored
-!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED PLATFORM(android)
 com,net##.inlinead
-!+ NOT_OPTIMIZED
-com,net##.ad-container
 !+ NOT_OPTIMIZED
 com,net##a[href*="ads.cdn.live"]
 
