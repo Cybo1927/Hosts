@@ -1,6 +1,39 @@
 ! Title: Cybo's Personal Filters - AdGuard for Android
 ! Expires: 1 hours
 
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.ad-unit
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.ad-small
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.ad-large
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.adsbytrafficjunky
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.removeAdLink
+!+ NOT_OPTIMIZED
+com,net,co,io,info##[class*="inner-ad"]
+!+ NOT_OPTIMIZED
+com,net,co,io,info##[class*="gdpr-cookie"]
+!+ NOT_OPTIMIZED
+com,net,co,io,info##[id*="gpt-ad"]
+!+ NOT_OPTIMIZED
+com,net,co,io,info##[class*="-taboola"]
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.adunit-wrap
+!+ NOT_OPTIMIZED
+com,net,co,io,info##adunit-purch
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.sponsor
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.sponsored
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.inlinead
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.ad-container
+!+ NOT_OPTIMIZED
+com,net,co,io,info##a[href*="ads.cdn.live"]
+
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
 ! Trash that fills my search results and fake news
