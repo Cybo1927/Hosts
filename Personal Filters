@@ -2,37 +2,37 @@
 ! Expires: 1 hours
 
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.ad-unit
+com,net##.ad-unit
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.ad-small
+com,net##.ad-small
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.ad-large
+com,net##.ad-large
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.adsbytrafficjunky
+com,net##.adsbytrafficjunky
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.removeAdLink
+com,net##.removeAdLink
 !+ NOT_OPTIMIZED
-com,net,co,io,info##[class*="inner-ad"]
+com,net##[class*="inner-ad"]
 !+ NOT_OPTIMIZED
-com,net,co,io,info##[class*="gdpr-cookie"]
+com,net##[class*="gdpr-cookie"]
 !+ NOT_OPTIMIZED
-com,net,co,io,info##[id*="gpt-ad"]
+com,net##[id*="gpt-ad"]
 !+ NOT_OPTIMIZED
-com,net,co,io,info##[class*="-taboola"]
+com,net##[class*="-taboola"]
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.adunit-wrap
+com,net##.adunit-wrap
 !+ NOT_OPTIMIZED
-com,net,co,io,info##adunit-purch
+com,net##adunit-purch
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.sponsor
+com,net##.sponsor
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.sponsored
+com,net##.sponsored
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.inlinead
+com,net##.inlinead
 !+ NOT_OPTIMIZED
-com,net,co,io,info##.ad-container
+com,net##.ad-container
 !+ NOT_OPTIMIZED
-com,net,co,io,info##a[href*="ads.cdn.live"]
+com,net##a[href*="ads.cdn.live"]
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
