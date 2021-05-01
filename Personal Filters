@@ -2,9 +2,7 @@
 ! Expires: 1 hours
 
 !+ NOT_OPTIMIZED PLATFORM(android)
-com,net##[class*="inner-ad"]
-!+ NOT_OPTIMIZED PLATFORM(android)
-com,net##[href*="ads.cdn.live"]
+com,net##[class*="ad"]
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
