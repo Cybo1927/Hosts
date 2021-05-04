@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1451
+! Version: 1452
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -200,8 +200,13 @@ projectveritas.com$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||sexeanonyme.com^
+||tools-affil2.com^
+||bugleczmoidgxo.com^
+||qoijertneio.com^
+||wstats.e-wok.tv^
+||plxnt.com^
 ||xvideoa.com^
-||kinesis.*-1.amazonaws.com^
 ||networkadvertising.org^
 ||examole.com^
 ||frigchat.com^
@@ -11930,6 +11935,9 @@ projectveritas.com$badfilter
 ||*-eset.com^$document
 ||*-trendmicro.com^$document
 ||*-bitdefender.com^$document
+||wlresources.com^$third-party
+||erostocam.com^$third-party,image
+||plxnt.com^$popup,popunder
 ||log-in-*.com^$third-party
 ||teamskeetxluxurygirls.com^$popup,popunder
 ||claring-loccelkin.com^$popup,popunder
@@ -12293,6 +12301,9 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*_dyn.php?
+*/gen_regie.php
+*/hash_stat/
 */rlog/$script
 */banner.html$frame
 */activity/ad/
@@ -13297,6 +13308,7 @@ _statsonlineinfo
 ##[class*="gdpr-cookie"]
 ##[id*="gpt-ad"]
 ##[class*="-taboola"]
+##.adsbygoogle
 ##.ad-unit
 ##.ad-small
 ##.ad-large
@@ -13607,15 +13619,17 @@ youtube.com#@#body { overflow:visible!important; }
 youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
 !
 !+ NOT_OPTIMIZED
-##.ad-unit
+com,net,co,io,info##.adsbygoogle
 !+ NOT_OPTIMIZED
-##.ad-small
+com,net,co,io,info##.ad-unit
 !+ NOT_OPTIMIZED
-##.ad-large
+com,net,co,io,info##.ad-small
 !+ NOT_OPTIMIZED
-##.adsbytrafficjunky
+com,net,co,io,info##.ad-large
 !+ NOT_OPTIMIZED
-##.removeAdLink
+com,net,co,io,info##.adsbytrafficjunky
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.removeAdLink
 !+ NOT_OPTIMIZED
 com,net,co,io,info##[class*="inner-ad"]
 !+ NOT_OPTIMIZED
@@ -14413,6 +14427,11 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||phncdn.com/*/pb_block.js
 ||rackcdn.com/stf.js$third-party
 ||bdstatic.com/linksubmit/
+||xlovecam.com/js/ads.js
+||platform.twitter.com/widgets$third-party
+||pinterest.com/js/pinit_main.js$third-party
+||pinterest.com/js/pinit.js$third-party
+||apis.google.com/js/plusone.js$third-party
 !
 !----------------------
 ! Begin Element Hiding |
