@@ -1,9 +1,6 @@
 ! Title: Cybo's Personal Filters - AdGuard for Android
 ! Expires: 1 hours
 
-!+ NOT_OPTIMIZED PLATFORM(android)
-com,net##[class*="ad"]
-
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
 
 ! Trash that fills my search results and fake news
@@ -40,6 +37,14 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||cdn.signal.org^
 @@||mtalk.google.com^
 @@||142.250.123.188^$network,app=com.google.android.gms
+@@||142.250.111.188^$network,app=com.google.android.gms
+@@||142.250.112.188^$network,app=com.google.android.gms
+||*.global.ssl.fastly.net^
+||metv.com^
+||financialcontent.com^
+||marketminute.com^
+||titantv.com^
+||cloudquote.io^
 ||cloudfront.net^
 ||windowscentral.com^
 ||technobuffalo.com^
