@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1452
+! Version: 1453
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -200,6 +200,7 @@ projectveritas.com$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||lat-services.api.data.roku.com^
 ||sexeanonyme.com^
 ||tools-affil2.com^
 ||bugleczmoidgxo.com^
@@ -13308,6 +13309,7 @@ _statsonlineinfo
 ##[class*="gdpr-cookie"]
 ##[id*="gpt-ad"]
 ##[class*="-taboola"]
+##.adContainer
 ##.adsbygoogle
 ##.ad-unit
 ##.ad-small
@@ -13445,78 +13447,78 @@ _statsonlineinfo
 !
 ! HTML/script filtering
 $$amp-ad
-$$script[tag-content="('log','pageview');"]
-$$script[tag-content="(""log"",""pageview"");"]
-$$script[tag-content="exdynsrv.com"] 
-$$script[tag-content="window['gtag']"] 
-$$script[tag-content="'clickTrackerInit',"]
-$$script[tag-content="'adblockTracker',"] 
-$$script[tag-content="juicyads.rocks"]
-$$script[tag-content=".isAdblock"]
-$$script[tag-content="adver('preroll',"]
-$$script[tag-content="adver('interstitial', "]
-$$script[tag-content="analytics.plugins."]
-$$script[tag-content="vads.viewport_width"]
-$$script[tag-content="function gtag(){"]
-$$script[tag-content="ga-counter\""]
-$$script[tag-content="('track', 'PageView')"]
-$$script[tag-content="_gaq.push(['_trackPageview'])"]
-$$script[tag-content="NREUM.info={"beacon"]
-$$script[tag-content="InterstitialTsAd"]
-$$script[tag-content="screen.colorDepth"]
-$$script[tag-content="screen.pixelDepth"]
-$$script[tag-content="ad_popup_force"]
-$$script[tag-content="var PREROLL_SCROLL_DOWN_URL"]
-$$script[tag-content="EmbeddedAdsDuration"]
-$$script[tag-content="window.open(url, "", windowprops);"]
-$$script[tag-content="var ad_idzone"]
-$$script[tag-content="var thPop ="]
-$$script[tag-content="(clickInfo).track"]
-$$script[tag-content="TiaraTracker.getInstance()"]
-$$script[tag-content="pixelUrl"]
-$$script[tag-content="eulerian_"]
-$$script[tag-content="sendAnalytic"]
-$$script[tag-content="pixelFor"]
-$$script[tag-content="trackLinks"]
-$$script[tag-content="get_country"]
-$$script[tag-content="gascroll"]
-$$script[tag-content="scrollEventTag"]
-$$script[tag-content="popMagic.url"]
-$$script[tag-content="adver.detect"]
-$$script[tag-content=".isAdBlock"]
-$$script[tag-content=".isAB"]
-$$script[tag-content="adblock_"]
-$$script[tag-content="atppop"]
-$$script[tag-content="trackerCountry"]
-$$script[tag-content="track_hits"]
-$$script[tag-content="lastPageName"]
-$$script[tag-content="clickPixels"]
-$$script[tag-content="trackCustClick"]
-$$script[tag-content="userABMessage"]
-$$script[tag-content="enableLinkTracking"]
-$$script[tag-content="'trackPageView'"]
-$$script[tag-content="preloadAds"]
-$$script[tag-content="PreloadAds"]
-$$script[tag-content="window.localStorage.setItem(test, test);"]
-$$script[tag-content="ExoLoader"]
-$$script[tag-content="exoloader"]
-$$script[tag-content="ExoVideoSlider"]
-$$script[tag-content="exo_div"]
-$$script[tag-content="exoUrl"]
-$$script[tag-content="exoclick"]
-$$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
-$$script[tag-content="PopUnder"]
-$$script[tag-content="zfgloaded"]
-$$script[tag-content="AntiAdblock"]
-$$script[tag-content="adblock.html"]
-$$script[src="popads.net"]
-$$script[src="tsyndicate.com"]
-$$script[wildcard="*const pop*'pop',*url: '*"]
-$$script[wildcard="*oneClicks = true;*iCanPop*"]
-$$script[wildcard="*setCookie*countVisit();*"]
-$$script[wildcard="**window.onbeforeunload*popit == true*"]
-$$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
-$$noscript[tag-content="exosrv"]
+!$$script[tag-content="('log','pageview');"]
+!$$script[tag-content="(""log"",""pageview"");"]
+!$$script[tag-content="exdynsrv.com"] 
+!$$script[tag-content="window['gtag']"] 
+!$$script[tag-content="'clickTrackerInit',"]
+!$$script[tag-content="'adblockTracker',"] 
+!$$script[tag-content="juicyads.rocks"]
+!$$script[tag-content=".isAdblock"]
+!$$script[tag-content="adver('preroll',"]
+!$$script[tag-content="adver('interstitial', "]
+!$$script[tag-content="analytics.plugins."]
+!$$script[tag-content="vads.viewport_width"]
+!$$script[tag-content="function gtag(){"]
+!$$script[tag-content="ga-counter\""]
+!$$script[tag-content="('track', 'PageView')"]
+!$$script[tag-content="_gaq.push(['_trackPageview'])"]
+!$$script[tag-content="NREUM.info={"beacon"]
+!$$script[tag-content="InterstitialTsAd"]
+!$$script[tag-content="screen.colorDepth"]
+!$$script[tag-content="screen.pixelDepth"]
+!$$script[tag-content="ad_popup_force"]
+!$$script[tag-content="var PREROLL_SCROLL_DOWN_URL"]
+!$$script[tag-content="EmbeddedAdsDuration"]
+!$$script[tag-content="window.open(url, "", windowprops);"]
+!$$script[tag-content="var ad_idzone"]
+!$$script[tag-content="var thPop ="]
+!$$script[tag-content="(clickInfo).track"]
+!$$script[tag-content="TiaraTracker.getInstance()"]
+!$$script[tag-content="pixelUrl"]
+!$$script[tag-content="eulerian_"]
+!$$script[tag-content="sendAnalytic"]
+!$$script[tag-content="pixelFor"]
+!$$script[tag-content="trackLinks"]
+!$$script[tag-content="get_country"]
+!$$script[tag-content="gascroll"]
+!$$script[tag-content="scrollEventTag"]
+!$$script[tag-content="popMagic.url"]
+!$$script[tag-content="adver.detect"]
+!$$script[tag-content=".isAdBlock"]
+!$$script[tag-content=".isAB"]
+!$$script[tag-content="adblock_"]
+!$$script[tag-content="atppop"]
+!$$script[tag-content="trackerCountry"]
+!$$script[tag-content="track_hits"]
+!$$script[tag-content="lastPageName"]
+!$$script[tag-content="clickPixels"]
+!$$script[tag-content="trackCustClick"]
+!$$script[tag-content="userABMessage"]
+!$$script[tag-content="enableLinkTracking"]
+!$$script[tag-content="'trackPageView'"]
+!$$script[tag-content="preloadAds"]
+!$$script[tag-content="PreloadAds"]
+!$$script[tag-content="window.localStorage.setItem(test, test);"]
+!$$script[tag-content="ExoLoader"]
+!$$script[tag-content="exoloader"]
+!$$script[tag-content="ExoVideoSlider"]
+!$$script[tag-content="exo_div"]
+!$$script[tag-content="exoUrl"]
+!$$script[tag-content="exoclick"]
+!$$script[tag-content="navigator.userAgent.toLowerCase()),isTansoD"]
+!$$script[tag-content="PopUnder"]
+!$$script[tag-content="zfgloaded"]
+!$$script[tag-content="AntiAdblock"]
+!$$script[tag-content="adblock.html"]
+!$$script[src="popads.net"]
+!$$script[src="tsyndicate.com"]
+!$$script[wildcard="*const pop*'pop',*url: '*"]
+!$$script[wildcard="*oneClicks = true;*iCanPop*"]
+!$$script[wildcard="*setCookie*countVisit();*"]
+!$$script[wildcard="**window.onbeforeunload*popit == true*"]
+!$$script[wildcard="*navigator.plugins[i].name*screen.width*window.location.href*"]
+!$$noscript[tag-content="exosrv"]
 !
 ! Never found a site that uses this for anything other than tracking (for some reason required by YouTube though)
 !+ NOT_OPTIMIZED PLATFORM(android)
@@ -13618,6 +13620,8 @@ youtube.com#@#body { overflow:visible!important; }
 ! Taken From AdGuard's "Base filter"
 youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
 !
+!+ NOT_OPTIMIZED
+com,net,co,io,info##.adContainer
 !+ NOT_OPTIMIZED
 com,net,co,io,info##.adsbygoogle
 !+ NOT_OPTIMIZED
