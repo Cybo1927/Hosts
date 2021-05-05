@@ -13635,6 +13635,225 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 [*]$network,app=com.mgoogle.android.gms|com.vanced.android.youtube|com.discord
 !
 !#endif
+! Generic hiding for mobile
+!#if (adguard_app_android && adguard_app_ios)
+!
+!+ NOT_OPTIMIZED
+##[class*="inner-ad"]
+!+ NOT_OPTIMIZED
+##[class*="gdpr-cookie"]
+!+ NOT_OPTIMIZED
+##[id*="gpt-ad"]
+!+ NOT_OPTIMIZED
+##[class*="-taboola"]
+!+ NOT_OPTIMIZED
+##.adContainer
+!+ NOT_OPTIMIZED
+##.adsbygoogle
+!+ NOT_OPTIMIZED
+##.ad-unit
+!+ NOT_OPTIMIZED
+##.ad-small
+!+ NOT_OPTIMIZED
+##.ad-large
+!+ NOT_OPTIMIZED
+##.adsbytrafficjunky
+!+ NOT_OPTIMIZED
+##.removeAdLink
+!+ NOT_OPTIMIZED
+##.adunit-wrap
+!+ NOT_OPTIMIZED
+##adunit-purch
+!+ NOT_OPTIMIZED
+##.sponsor
+!+ NOT_OPTIMIZED
+##.sponsored
+!+ NOT_OPTIMIZED
+##.inlinead
+!+ NOT_OPTIMIZED
+##.ad-container
+!+ NOT_OPTIMIZED
+##a[href*="ads.cdn.live"]
+!+ NOT_OPTIMIZED
+##a[src*="scfsdvc.com"]
+!+ NOT_OPTIMIZED
+##a[href*="raznoeporno.info"]
+!+ NOT_OPTIMIZED
+##a[href*="?ad_provider"]
+!+ NOT_OPTIMIZED
+##a[href*="blacklivesmatters."]
+!+ NOT_OPTIMIZED
+##a[href*="libedgolart.com"]
+!+ NOT_OPTIMIZED
+##a[href*="ads.livepromotools.com"]
+!+ NOT_OPTIMIZED
+##a[href*="frtyz.com"]
+!+ NOT_OPTIMIZED
+##a[href*="go.schjmp.com"]
+!+ NOT_OPTIMIZED
+##a[src*="go.schjmp.com"]
+!+ NOT_OPTIMIZED
+##a[href*="/ads/click"]
+!+ NOT_OPTIMIZED
+##a[href*="/services/AdsRedirect."]
+!+ NOT_OPTIMIZED
+##a[href*="imlive.com/wmaster.ashx?"]
+!+ NOT_OPTIMIZED
+##a[href*="securedatingconnection.com"]
+!+ NOT_OPTIMIZED
+##a[href*=".space/redirect/"]
+!+ NOT_OPTIMIZED
+##a[href*="is.gd"]
+!+ NOT_OPTIMIZED
+##a[href*="clickstoclaim.com"]
+!+ NOT_OPTIMIZED
+##a[href*="getyoursnow.info"]
+!+ NOT_OPTIMIZED
+##a[href*="engine.eroge.com"]
+!+ NOT_OPTIMIZED
+##a[href*="6i4uibyg0c82.com"]
+!+ NOT_OPTIMIZED
+##a[href*="actiondesk.com"]
+!+ NOT_OPTIMIZED
+##a[href*="strpjmp.com"]
+!+ NOT_OPTIMIZED
+##a[href*="adtng.com"]
+!+ NOT_OPTIMIZED
+##a[href*="/ads?zone_id="]
+!+ NOT_OPTIMIZED
+##a[href*="trafficjunky.com"]
+!+ NOT_OPTIMIZED
+##a[href*="trafficjunky.net"]
+!+ NOT_OPTIMIZED
+##a[href*="adultfriendfinder.com"]
+!+ NOT_OPTIMIZED
+##a[href*="orange2258.com"]
+!+ NOT_OPTIMIZED
+##a[href*="crazylead.com"]
+!+ NOT_OPTIMIZED
+##a[href*="outbrain.com"]
+!+ NOT_OPTIMIZED
+##a[href*="trcklks.com"]
+!+ NOT_OPTIMIZED
+##a[href*="advertising.com"]
+!+ NOT_OPTIMIZED
+##a[href*="adult.xyz"]
+!+ NOT_OPTIMIZED
+##a[href*="panokaverit.com"]
+!+ NOT_OPTIMIZED
+##a[href*="panotreffit.com"]
+!+ NOT_OPTIMIZED
+##a[href*="wpadkigwiazd.pl"]
+!+ NOT_OPTIMIZED
+##a[href*="strefa18.pl"]
+!+ NOT_OPTIMIZED
+##a[href*="xnylfcp.com"]
+!+ NOT_OPTIMIZED
+##a[href*="bingads.com"]
+!+ NOT_OPTIMIZED
+##a[href*="revsharecash.com"]
+!+ NOT_OPTIMIZED
+##a[href*="clickadilla.com"]
+!+ NOT_OPTIMIZED
+##a[href*="hrtya.com"]
+!+ NOT_OPTIMIZED
+##a[href*="gg.gg"]
+!+ NOT_OPTIMIZED
+##a[href*="adinfo."]
+!+ NOT_OPTIMIZED
+##a[href*="chaturbate.com/in/"]
+!+ NOT_OPTIMIZED
+##a[href*="/out.php?l=http://"]
+!+ NOT_OPTIMIZED
+##a[href*="/out.php?member="]
+!+ NOT_OPTIMIZED
+##a[href*="/_clicktracker.php"]
+!+ NOT_OPTIMIZED
+##a[href*="/adclicksTag.php"]
+!+ NOT_OPTIMIZED
+##a[href*="/adclick.php"]
+!+ NOT_OPTIMIZED
+##a[href*="/adredir.php"]
+!+ NOT_OPTIMIZED
+##a[href*="/affiliates."]
+!+ NOT_OPTIMIZED
+##a[href*="/affiliates/"]
+!+ NOT_OPTIMIZED
+##a[href*="/trackhit/"]
+!+ NOT_OPTIMIZED
+##a[href*="/adClick/"]
+!+ NOT_OPTIMIZED
+##a[href*="/track/"]
+!+ NOT_OPTIMIZED
+##a[href*="?campaign_id="]
+!+ NOT_OPTIMIZED
+##a[href*="&tracker_id="]
+!+ NOT_OPTIMIZED
+##a[href*="?link_id="]
+!+ NOT_OPTIMIZED
+##a[href*="tai789.net"]
+!+ NOT_OPTIMIZED
+##a[href*="doubleclick.net"]
+!+ NOT_OPTIMIZED
+##a[href*="googleadservices.com"]
+!+ NOT_OPTIMIZED
+##a[href*="rs-stripe.com"]
+!+ NOT_OPTIMIZED
+##a[href*="bytesignal.com"]
+!+ NOT_OPTIMIZED
+##a[href*=".searchiq.co"]
+!+ NOT_OPTIMIZED
+##a[href*="carbonads.net"]
+!+ NOT_OPTIMIZED
+##a[href*="buysellads.net"]
+!+ NOT_OPTIMIZED
+##a[href*="dianomi.com/click.epl"]
+!+ NOT_OPTIMIZED
+##a[href*="cartoontube.com/hit.php"]
+!+ NOT_OPTIMIZED
+##a[href*="admitad.com"]
+!+ NOT_OPTIMIZED
+##a[href*="onelink.me"]
+!+ NOT_OPTIMIZED
+##a[href*="clickbank.net"]
+!+ NOT_OPTIMIZED
+##a[href*="fourchan.com"]
+!+ NOT_OPTIMIZED
+##a[href*="feed111.me"]
+!+ NOT_OPTIMIZED
+##a[href*="dynsrvbaa.com"]
+!+ NOT_OPTIMIZED
+##a[href*="adtracks.biz"]
+!+ NOT_OPTIMIZED
+##a[href*="grtyv.com"]
+!+ NOT_OPTIMIZED
+##a[href*="mobtyb.com"]
+!+ NOT_OPTIMIZED
+##a[href*="/advert"]
+!+ NOT_OPTIMIZED
+##a[href*="/adrotate-out.php?"]
+!+ NOT_OPTIMIZED
+##a[href*="/adServe/"]
+!+ NOT_OPTIMIZED
+##a[src*="/ai/a/ex/ab.php?"]
+!+ NOT_OPTIMIZED
+##a[src*="/adver/index."]
+!+ NOT_OPTIMIZED
+##a[src*="nichedlinks.com/hop/"]
+!+ NOT_OPTIMIZED
+##a[src*="/_ad"]
+!+ NOT_OPTIMIZED
+##a[src*="/cats/meow"]
+!+ NOT_OPTIMIZED
+##a[onclick=*"track"]
+!+ NOT_OPTIMIZED
+##a[onclick=*"adclick"]
+!+ NOT_OPTIMIZED
+##a[onclick=*"/ping_url"]
+!+ NOT_OPTIMIZED
+##a[onclick="closeMyAd()"]
+!
+!#endif
 !----------------------
 ! End AdGuard Specific |
 !----------------------
