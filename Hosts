@@ -13638,6 +13638,10 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 ! Generic hiding for mobile
 !#if (adguard_app_android && adguard_app_ios)
 !
+com,net,info,mobi##[class*="inner-ad"]
+com,net,info,mobi##[class*="gdpr-cookie"]
+com,net,info,mobi##[id*="gpt-ad"]
+com,net,info,mobi##[class*="-taboola"]
 com,net,info,mobi##.adContainer
 com,net,info,mobi##.adsbygoogle
 com,net,info,mobi##.ad-unit
