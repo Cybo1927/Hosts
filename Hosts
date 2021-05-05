@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, anti-adblock, malware, IP grabbers, fake sites and tracking cookies.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1454
+! Version: 1455
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13639,219 +13639,219 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 !#if (adguard_app_android && adguard_app_ios)
 !
 !+ NOT_OPTIMIZED
-##[class*="inner-ad"]
+com,net,info,mobi##[class*="inner-ad"]
 !+ NOT_OPTIMIZED
-##[class*="gdpr-cookie"]
+com,net,info,mobi##[class*="gdpr-cookie"]
 !+ NOT_OPTIMIZED
-##[id*="gpt-ad"]
+com,net,info,mobi##[id*="gpt-ad"]
 !+ NOT_OPTIMIZED
-##[class*="-taboola"]
+com,net,info,mobi##[class*="-taboola"]
 !+ NOT_OPTIMIZED
-##.adContainer
+com,net,info,mobi##.adContainer
 !+ NOT_OPTIMIZED
-##.adsbygoogle
+com,net,info,mobi##.adsbygoogle
 !+ NOT_OPTIMIZED
-##.ad-unit
+com,net,info,mobi##.ad-unit
 !+ NOT_OPTIMIZED
-##.ad-small
+com,net,info,mobi##.ad-small
 !+ NOT_OPTIMIZED
-##.ad-large
+com,net,info,mobi##.ad-large
 !+ NOT_OPTIMIZED
-##.adsbytrafficjunky
+com,net,info,mobi##.adsbytrafficjunky
 !+ NOT_OPTIMIZED
-##.removeAdLink
+com,net,info,mobi##.removeAdLink
 !+ NOT_OPTIMIZED
-##.adunit-wrap
+com,net,info,mobi##.adunit-wrap
 !+ NOT_OPTIMIZED
-##adunit-purch
+com,net,info,mobi##adunit-purch
 !+ NOT_OPTIMIZED
-##.sponsor
+com,net,info,mobi##.sponsor
 !+ NOT_OPTIMIZED
-##.sponsored
+com,net,info,mobi##.sponsored
 !+ NOT_OPTIMIZED
-##.inlinead
+com,net,info,mobi##.inlinead
 !+ NOT_OPTIMIZED
-##.ad-container
+com,net,info,mobi##.ad-container
 !+ NOT_OPTIMIZED
-##a[href*="ads.cdn.live"]
+com,net,info,mobi##a[href*="ads.cdn.live"]
 !+ NOT_OPTIMIZED
-##a[src*="scfsdvc.com"]
+com,net,info,mobi##a[src*="scfsdvc.com"]
 !+ NOT_OPTIMIZED
-##a[href*="raznoeporno.info"]
+com,net,info,mobi##a[href*="raznoeporno.info"]
 !+ NOT_OPTIMIZED
-##a[href*="?ad_provider"]
+com,net,info,mobi##a[href*="?ad_provider"]
 !+ NOT_OPTIMIZED
-##a[href*="blacklivesmatters."]
+com,net,info,mobi##a[href*="blacklivesmatters."]
 !+ NOT_OPTIMIZED
-##a[href*="libedgolart.com"]
+com,net,info,mobi##a[href*="libedgolart.com"]
 !+ NOT_OPTIMIZED
-##a[href*="ads.livepromotools.com"]
+com,net,info,mobi##a[href*="ads.livepromotools.com"]
 !+ NOT_OPTIMIZED
-##a[href*="frtyz.com"]
+com,net,info,mobi##a[href*="frtyz.com"]
 !+ NOT_OPTIMIZED
-##a[href*="go.schjmp.com"]
+com,net,info,mobi##a[href*="go.schjmp.com"]
 !+ NOT_OPTIMIZED
-##a[src*="go.schjmp.com"]
+com,net,info,mobi##a[src*="go.schjmp.com"]
 !+ NOT_OPTIMIZED
-##a[href*="/ads/click"]
+com,net,info,mobi##a[href*="/ads/click"]
 !+ NOT_OPTIMIZED
-##a[href*="/services/AdsRedirect."]
+com,net,info,mobi##a[href*="/services/AdsRedirect."]
 !+ NOT_OPTIMIZED
-##a[href*="imlive.com/wmaster.ashx?"]
+com,net,info,mobi##a[href*="imlive.com/wmaster.ashx?"]
 !+ NOT_OPTIMIZED
-##a[href*="securedatingconnection.com"]
+com,net,info,mobi##a[href*="securedatingconnection.com"]
 !+ NOT_OPTIMIZED
-##a[href*=".space/redirect/"]
+com,net,info,mobi##a[href*=".space/redirect/"]
 !+ NOT_OPTIMIZED
-##a[href*="is.gd"]
+com,net,info,mobi##a[href*="is.gd"]
 !+ NOT_OPTIMIZED
-##a[href*="clickstoclaim.com"]
+com,net,info,mobi##a[href*="clickstoclaim.com"]
 !+ NOT_OPTIMIZED
-##a[href*="getyoursnow.info"]
+com,net,info,mobi##a[href*="getyoursnow.info"]
 !+ NOT_OPTIMIZED
-##a[href*="engine.eroge.com"]
+com,net,info,mobi##a[href*="engine.eroge.com"]
 !+ NOT_OPTIMIZED
-##a[href*="6i4uibyg0c82.com"]
+com,net,info,mobi##a[href*="6i4uibyg0c82.com"]
 !+ NOT_OPTIMIZED
-##a[href*="actiondesk.com"]
+com,net,info,mobi##a[href*="actiondesk.com"]
 !+ NOT_OPTIMIZED
-##a[href*="strpjmp.com"]
+com,net,info,mobi##a[href*="strpjmp.com"]
 !+ NOT_OPTIMIZED
-##a[href*="adtng.com"]
+com,net,info,mobi##a[href*="adtng.com"]
 !+ NOT_OPTIMIZED
-##a[href*="/ads?zone_id="]
+com,net,info,mobi##a[href*="/ads?zone_id="]
 !+ NOT_OPTIMIZED
-##a[href*="trafficjunky.com"]
+com,net,info,mobi##a[href*="trafficjunky.com"]
 !+ NOT_OPTIMIZED
-##a[href*="trafficjunky.net"]
+com,net,info,mobi##a[href*="trafficjunky.net"]
 !+ NOT_OPTIMIZED
-##a[href*="adultfriendfinder.com"]
+com,net,info,mobi##a[href*="adultfriendfinder.com"]
 !+ NOT_OPTIMIZED
-##a[href*="orange2258.com"]
+com,net,info,mobi##a[href*="orange2258.com"]
 !+ NOT_OPTIMIZED
-##a[href*="crazylead.com"]
+com,net,info,mobi##a[href*="crazylead.com"]
 !+ NOT_OPTIMIZED
-##a[href*="outbrain.com"]
+com,net,info,mobi##a[href*="outbrain.com"]
 !+ NOT_OPTIMIZED
-##a[href*="trcklks.com"]
+com,net,info,mobi##a[href*="trcklks.com"]
 !+ NOT_OPTIMIZED
-##a[href*="advertising.com"]
+com,net,info,mobi##a[href*="advertising.com"]
 !+ NOT_OPTIMIZED
-##a[href*="adult.xyz"]
+com,net,info,mobi##a[href*="adult.xyz"]
 !+ NOT_OPTIMIZED
-##a[href*="panokaverit.com"]
+com,net,info,mobi##a[href*="panokaverit.com"]
 !+ NOT_OPTIMIZED
-##a[href*="panotreffit.com"]
+com,net,info,mobi##a[href*="panotreffit.com"]
 !+ NOT_OPTIMIZED
-##a[href*="wpadkigwiazd.pl"]
+com,net,info,mobi##a[href*="wpadkigwiazd.pl"]
 !+ NOT_OPTIMIZED
-##a[href*="strefa18.pl"]
+com,net,info,mobi##a[href*="strefa18.pl"]
 !+ NOT_OPTIMIZED
-##a[href*="xnylfcp.com"]
+com,net,info,mobi##a[href*="xnylfcp.com"]
 !+ NOT_OPTIMIZED
-##a[href*="bingads.com"]
+com,net,info,mobi##a[href*="bingads.com"]
 !+ NOT_OPTIMIZED
-##a[href*="revsharecash.com"]
+com,net,info,mobi##a[href*="revsharecash.com"]
 !+ NOT_OPTIMIZED
-##a[href*="clickadilla.com"]
+com,net,info,mobi##a[href*="clickadilla.com"]
 !+ NOT_OPTIMIZED
-##a[href*="hrtya.com"]
+com,net,info,mobi##a[href*="hrtya.com"]
 !+ NOT_OPTIMIZED
-##a[href*="gg.gg"]
+com,net,info,mobi##a[href*="gg.gg"]
 !+ NOT_OPTIMIZED
-##a[href*="adinfo."]
+com,net,info,mobi##a[href*="adinfo."]
 !+ NOT_OPTIMIZED
-##a[href*="chaturbate.com/in/"]
+com,net,info,mobi##a[href*="chaturbate.com/in/"]
 !+ NOT_OPTIMIZED
-##a[href*="/out.php?l=http://"]
+com,net,info,mobi##a[href*="/out.php?l=http://"]
 !+ NOT_OPTIMIZED
-##a[href*="/out.php?member="]
+com,net,info,mobi##a[href*="/out.php?member="]
 !+ NOT_OPTIMIZED
-##a[href*="/_clicktracker.php"]
+com,net,info,mobi##a[href*="/_clicktracker.php"]
 !+ NOT_OPTIMIZED
-##a[href*="/adclicksTag.php"]
+com,net,info,mobi##a[href*="/adclicksTag.php"]
 !+ NOT_OPTIMIZED
-##a[href*="/adclick.php"]
+com,net,info,mobi##a[href*="/adclick.php"]
 !+ NOT_OPTIMIZED
-##a[href*="/adredir.php"]
+com,net,info,mobi##a[href*="/adredir.php"]
 !+ NOT_OPTIMIZED
-##a[href*="/affiliates."]
+com,net,info,mobi##a[href*="/affiliates."]
 !+ NOT_OPTIMIZED
-##a[href*="/affiliates/"]
+com,net,info,mobi##a[href*="/affiliates/"]
 !+ NOT_OPTIMIZED
-##a[href*="/trackhit/"]
+com,net,info,mobi##a[href*="/trackhit/"]
 !+ NOT_OPTIMIZED
-##a[href*="/adClick/"]
+com,net,info,mobi##a[href*="/adClick/"]
 !+ NOT_OPTIMIZED
-##a[href*="/track/"]
+com,net,info,mobi##a[href*="/track/"]
 !+ NOT_OPTIMIZED
-##a[href*="?campaign_id="]
+com,net,info,mobi##a[href*="?campaign_id="]
 !+ NOT_OPTIMIZED
-##a[href*="&tracker_id="]
+com,net,info,mobi##a[href*="&tracker_id="]
 !+ NOT_OPTIMIZED
-##a[href*="?link_id="]
+com,net,info,mobi##a[href*="?link_id="]
 !+ NOT_OPTIMIZED
-##a[href*="tai789.net"]
+com,net,info,mobi##a[href*="tai789.net"]
 !+ NOT_OPTIMIZED
-##a[href*="doubleclick.net"]
+com,net,info,mobi##a[href*="doubleclick.net"]
 !+ NOT_OPTIMIZED
-##a[href*="googleadservices.com"]
+com,net,info,mobi##a[href*="googleadservices.com"]
 !+ NOT_OPTIMIZED
-##a[href*="rs-stripe.com"]
+com,net,info,mobi##a[href*="rs-stripe.com"]
 !+ NOT_OPTIMIZED
-##a[href*="bytesignal.com"]
+com,net,info,mobi##a[href*="bytesignal.com"]
 !+ NOT_OPTIMIZED
-##a[href*=".searchiq.co"]
+com,net,info,mobi##a[href*=".searchiq.co"]
 !+ NOT_OPTIMIZED
-##a[href*="carbonads.net"]
+com,net,info,mobi##a[href*="carbonads.net"]
 !+ NOT_OPTIMIZED
-##a[href*="buysellads.net"]
+com,net,info,mobi##a[href*="buysellads.net"]
 !+ NOT_OPTIMIZED
-##a[href*="dianomi.com/click.epl"]
+com,net,info,mobi##a[href*="dianomi.com/click.epl"]
 !+ NOT_OPTIMIZED
-##a[href*="cartoontube.com/hit.php"]
+com,net,info,mobi##a[href*="cartoontube.com/hit.php"]
 !+ NOT_OPTIMIZED
-##a[href*="admitad.com"]
+com,net,info,mobi##a[href*="admitad.com"]
 !+ NOT_OPTIMIZED
-##a[href*="onelink.me"]
+com,net,info,mobi##a[href*="onelink.me"]
 !+ NOT_OPTIMIZED
-##a[href*="clickbank.net"]
+com,net,info,mobi##a[href*="clickbank.net"]
 !+ NOT_OPTIMIZED
-##a[href*="fourchan.com"]
+com,net,info,mobi##a[href*="fourchan.com"]
 !+ NOT_OPTIMIZED
-##a[href*="feed111.me"]
+com,net,info,mobi##a[href*="feed111.me"]
 !+ NOT_OPTIMIZED
-##a[href*="dynsrvbaa.com"]
+com,net,info,mobi##a[href*="dynsrvbaa.com"]
 !+ NOT_OPTIMIZED
-##a[href*="adtracks.biz"]
+com,net,info,mobi##a[href*="adtracks.biz"]
 !+ NOT_OPTIMIZED
-##a[href*="grtyv.com"]
+com,net,info,mobi##a[href*="grtyv.com"]
 !+ NOT_OPTIMIZED
-##a[href*="mobtyb.com"]
+com,net,info,mobi##a[href*="mobtyb.com"]
 !+ NOT_OPTIMIZED
-##a[href*="/advert"]
+com,net,info,mobi##a[href*="/advert"]
 !+ NOT_OPTIMIZED
-##a[href*="/adrotate-out.php?"]
+com,net,info,mobi##a[href*="/adrotate-out.php?"]
 !+ NOT_OPTIMIZED
-##a[href*="/adServe/"]
+com,net,info,mobi##a[href*="/adServe/"]
 !+ NOT_OPTIMIZED
-##a[src*="/ai/a/ex/ab.php?"]
+com,net,info,mobi##a[src*="/ai/a/ex/ab.php?"]
 !+ NOT_OPTIMIZED
-##a[src*="/adver/index."]
+com,net,info,mobi##a[src*="/adver/index."]
 !+ NOT_OPTIMIZED
-##a[src*="nichedlinks.com/hop/"]
+com,net,info,mobi##a[src*="nichedlinks.com/hop/"]
 !+ NOT_OPTIMIZED
-##a[src*="/_ad"]
+com,net,info,mobi##a[src*="/_ad"]
 !+ NOT_OPTIMIZED
-##a[src*="/cats/meow"]
+com,net,info,mobi##a[src*="/cats/meow"]
 !+ NOT_OPTIMIZED
-##a[onclick=*"track"]
+com,net,info,mobi##a[onclick=*"track"]
 !+ NOT_OPTIMIZED
-##a[onclick=*"adclick"]
+com,net,info,mobi##a[onclick=*"adclick"]
 !+ NOT_OPTIMIZED
-##a[onclick=*"/ping_url"]
+com,net,info,mobi##a[onclick=*"/ping_url"]
 !+ NOT_OPTIMIZED
-##a[onclick="closeMyAd()"]
+com,net,info,mobi##a[onclick="closeMyAd()"]
 !
 !#endif
 !----------------------
