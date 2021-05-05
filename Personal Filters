@@ -36,9 +36,9 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||mtalk.google.com^
-@@142.250.123.188^$network,app=com.google.android.gms,important
-@@142.250.111.188^$network,app=com.google.android.gms,important
-@@142.250.112.188^$network,app=com.google.android.gms,important
+@@142.250.123.188$network,app=com.google.android.gms
+@@142.250.111.188$network,app=com.google.android.gms
+@@142.250.112.188$network,app=com.google.android.gms
 ||*.global.ssl.fastly.net^
 ||metv.com^
 ||financialcontent.com^
