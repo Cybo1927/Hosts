@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1456
+! Version: 1457
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -142,6 +142,11 @@ www.newsbusters.org$badfilter
 ||www.newsbusters.org$badfilter
 ||www.newsbusters.org^$badfilter
 ! Hard Right but by no means fake news
+www.zerohedge.com$badfilter
+0.0.0.0 www.zerohedge.com$badfilter
+127.0.0.1 www.zerohedge.com$badfilter
+||zerohedge.com$badfilter
+||zerohedge.com^$badfilter
 www.breitbart.com$badfilter
 0.0.0.0 www.breitbart.com$badfilter
 127.0.0.1 www.breitbart.com$badfilter
@@ -200,6 +205,7 @@ projectveritas.com$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||qgogogox.com^
 ||lat-services.api.data.roku.com^
 ||sexeanonyme.com^
 ||tools-affil2.com^
@@ -12302,6 +12308,7 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/jquery.track.js
 *_dyn.php?
 */gen_regie.php
 */hash_stat/
@@ -13355,6 +13362,14 @@ _statsonlineinfo
 ##.sponsored
 ##.inlinead
 ##.ad-container
+##[class*="Advert_align"]
+##[class*="Advert_placement"]
+##[class*="SidebarNewsletter"]
+##[class*="BlockLogin_container"]
+##[class*="FeaturedContributors"]
+##[class*="ExitModal"]
+##[class*="exitModal"]
+##[class*="ArticleNewsletter"]
 ##[class*="inner-ad"]
 ##[class*="gdpr-cookie"]
 ##[class*="adsense_"]
@@ -13682,6 +13697,22 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 ! Generic hiding for mobile devices using AdGuard
 !#if (adguard_app_android && adguard_app_ios)
 !
+!+ NOT_OPTIMIZED
+##[class*="Advert_align"]
+!+ NOT_OPTIMIZED
+##[class*="Advert_placement"]
+!+ NOT_OPTIMIZED
+##[class*="SidebarNewsletter"]
+!+ NOT_OPTIMIZED
+##[class*="BlockLogin_container"]
+!+ NOT_OPTIMIZED
+##[class*="FeaturedContributors"]
+!+ NOT_OPTIMIZED
+##[class*="ExitModal"]
+!+ NOT_OPTIMIZED
+##[class*="exitModal"]
+!+ NOT_OPTIMIZED
+##[class*="ArticleNewsletter"]
 !+ NOT_OPTIMIZED
 com,net,info,mobi###banner300x100
 !+ NOT_OPTIMIZED
