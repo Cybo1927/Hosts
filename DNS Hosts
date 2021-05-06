@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 1453
+! Version: 2
 !
 !-----------------
 ! Begin Whitelist |
@@ -124,6 +124,11 @@ www.newsbusters.org$badfilter
 ||www.newsbusters.org$badfilter
 ||www.newsbusters.org^$badfilter
 ! Hard Right but by no means fake news
+www.zerohedge.com$badfilter
+0.0.0.0 www.zerohedge.com$badfilter
+127.0.0.1 www.zerohedge.com$badfilter
+||zerohedge.com$badfilter
+||zerohedge.com^$badfilter
 www.breitbart.com$badfilter
 0.0.0.0 www.breitbart.com$badfilter
 127.0.0.1 www.breitbart.com$badfilter
@@ -182,6 +187,7 @@ projectveritas.com$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||qgogogox.com^
 ||lat-services.api.data.roku.com^
 ||sexeanonyme.com^
 ||tools-affil2.com^
