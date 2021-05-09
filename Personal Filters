@@ -2,6 +2,7 @@
 ! Expires: 1 hours
 
 duckduckgo.com##.js-open-in-app-link, div.footer--mobile, div.related-searches.t-m
+duckduckgo.com##.links_deep:not(:has-text(https))
 
 ! Trash that fills my search results and fake news
 duckduckgo.com##.links_deep:-abp-contains(news.google.com):upward(1)
@@ -33,7 +34,13 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||forbesimg.com^$domain=forbes.com
 @@||groundnews.b-cdn.net^$domain=ground.news
 
+*/*.woff^$third-party
+*/*.ttf^$third-party
+*/*.otf^$third-party
+*/*/font-*$third-party
+*/font*$script,third-party
 */authentication.aspx
+*/cast_sender.js
 
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
@@ -42,6 +49,14 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@142.250.123.188$network,app=com.google.android.gms
 @@142.250.111.188$network,app=com.google.android.gms
 @@142.250.112.188$network,app=com.google.android.gms
+||vimeo.com^
+||vimeocdn.com^
+||pinterest.com^
+||fonts.*^
+||test.nextdns.io^
+||vk.com^
+||patreon.com^
+||binance.com^
 ||jsdelivr.net^
 ||disqus.com^
 ||disquscdn.com^
@@ -128,7 +143,6 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 ||googlezip.net^
 ||gstatic.com^
 ||digibites.nl^
-||googleapis.com^
 ||techet.net^
 ||darken.eu^
 ||google.com^
@@ -136,19 +150,15 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 ||firebaseio.com^
 ||habby.com^
 ||habby.mobi^
-||googleusercontent.com^
 ||chillgaming.org^
 ||yodo1api.com^
-||172.67.209.209^
-||37.228.107.253^
-||2606:4700:3035::6815:5d75^
-||youtube.com^$third-party
-||googlevideo.com^$third-party,domain=~youtube.com
-||filepicker.io^$third-party
-||filestack.com^$third-party
-||apple.com^$third-party
-||spotify.com^$third-party
-||scdn.co^$third-party
+||filepicker.io^
+||filestack.com^
+||apple.com^
+||spotify.com^
+||scdn.co^
 
 ! Block port 1080
 ||*:1080^
+
+|http:$third-party
