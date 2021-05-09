@@ -1,0 +1,41 @@
+! Title: Cybo's Personal Filters - Browser Extensions
+! Expires: 1 hours
+
+! Remove voice search button
+youtube.com###voice-search-button
+! Make search button bigger
+youtube.com###search-form > .ytd-searchbox.style-scope:style(width: 150px !important)
+! Add spacing between icons
+youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope:style(width: 60px !important)
+youtube.com##.notification-button-style-type-default.ytd-notification-topbar-button-renderer.style-scope:style(width: 60px !important)
+
+##[class*="SocialSharing"]:not(body)
+##[class*="SharingButtons"]:not(body)
+##[class*="shareIcon"]:not(body)
+##[class*="footer-social"]:not(body)
+##[class*="social-menu"]:not(body)
+##[class*="social-container"]:not(body)
+##[class*="td_social"]:not(body)
+##[class*="social-item"]:not(body)
+##[class*="sharing-button"]:not(body)
+##[class*="share-bar"]:not(body)
+##[class*="post-share"]:not(body)
+##[class*="float-social"]:not(body)
+##[class*="social-sharing"]:not(body)
+##[class*="social-icons"]:not(body)
+##[class*="inline-share"]:not(body)
+##.embedForm:not(body)
+##.social-follow:not(body)
+##.jssocials:not(body)
+##.post-content-share:not(body)
+##.jssocials-shares:not(body)
+##.btn-facebook:not(body)
+##.btn-twitter:not(body)
+##.social:not(body)
+##.share:not(body)
+##.socialprofiles:not(body)
+
+*/get-location/
+
+||buymeacoffee.com^
+||patreon.com^
