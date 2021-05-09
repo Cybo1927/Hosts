@@ -6,8 +6,17 @@ youtube.com###voice-search-button
 ! Make search button bigger
 youtube.com###search-form > .ytd-searchbox.style-scope:style(width: 150px !important)
 ! Add spacing between icons
-youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope:style(width: 60px !important)
-youtube.com##.notification-button-style-type-default.ytd-notification-topbar-button-renderer.style-scope:style(width: 60px !important)
+youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope:style(width: 55px !important)
+youtube.com##.notification-button-style-type-default.ytd-notification-topbar-button-renderer.style-scope:style(width: 55px !important)
+youtube.com###guide-button:style(padding-right: 45px !important)
+! Make the seek bar bigger and easier to use
+youtube.com##div.ytp-exp-chapter-hover-container.ytp-chapter-hover-container:style(height: 12px !important)
+! Move seek bar up a bit
+youtube.com##.ytp-progress-bar:style(height: 14px !important)
+! Hide the scrubber as it can't conform to the bigger seek bar
+youtube.com##.ytp-scrubber-container
+! Hide unused buttons
+youtube.com###button > .ytd-topbar-menu-button-renderer.style-scope
 
 ##[class*="SocialSharing"]:not(body)
 ##[class*="SharingButtons"]:not(body)
