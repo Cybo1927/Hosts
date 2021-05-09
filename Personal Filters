@@ -15,9 +15,9 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 *$app=com.adguard.system|com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
 *$network,app=com.adguard.system|com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
 
-*$cookie=/.+/;maxAge=60;sameSite=strict
+*$cookie=/.+/;maxAge=25
 @@||192.168.254.75^$first-party,cookie
-@@||192.168.254.66^$first-party,cookie
+@@||192.168.254.72^$first-party,cookie
 @@||nextdns.io^$first-party,cookie
 @@||secureinternetbank.com^$first-party,cookie
 @@||duckduckgo.com^$first-party,cookie
@@ -33,6 +33,8 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||forbesimg.com^$domain=forbes.com
 @@||groundnews.b-cdn.net^$domain=ground.news
 
+*/authentication.aspx
+
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||mtalk.google.com^
@@ -40,6 +42,10 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@142.250.123.188$network,app=com.google.android.gms
 @@142.250.111.188$network,app=com.google.android.gms
 @@142.250.112.188$network,app=com.google.android.gms
+||jsdelivr.net^
+||disqus.com^
+||disquscdn.com^
+||fontawesome.com^
 ||iconfinder.com^
 ||freenode.net^
 ||videoplayerhub.com^
@@ -92,7 +98,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 ||feednews.com^
 ||bcboltcbn-*.akamaihd.net^
 ||bcliveunivsecure-lh.akamaihd.net^
-||cdnjs.cloudflare.com^
+||cloudflare.com^
 ||boltdns.net^
 ||macrodroid.com^
 ||protectstar.com^
