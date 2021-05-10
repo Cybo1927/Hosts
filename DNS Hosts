@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 2
+! Version: 3
 !
 !-----------------
 ! Begin Whitelist |
@@ -187,6 +187,12 @@ projectveritas.com$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||analytics.lbry.com^
+||collector-service.api.lbry.tv^
+||sopr-api.cian.ru^
+||baremetrics.com^
+||id-ward.com^
+||moneyplatform.biz^
 ||qgogogox.com^
 ||lat-services.api.data.roku.com^
 ||sexeanonyme.com^
@@ -11893,4 +11899,28 @@ projectveritas.com$badfilter
 ||support-desks.com^
 ||novads.co^
 ||igadget24.com^
+!
+!-----------------------------
+! Begin AdGuard Home Specific |
+!-----------------------------
+!-----------
+! Whitelist |
+!-----------
+@@||pi.pardot.com^$dnstype=CNAME
+@@||go.pardot.com^$dnstype=CNAME
+!
+!-------
+! Regex |
+!-------
+/^(http)?(s)?.+\.(home|col|localdomain|qjz9zk)$/
+/^(applog|adservice|adsdk|ad(-)?img|ad-beacon|activetracker|analytic(s)?-tracker|ad(s)?-resources|telemetry|adslog|advertica-cdn).+/
+/^zg9tywlubmftzw5ldz.+\.com$/
+/.+(offer|prize|win|[0-9]{2,3}game).+\.(live|life|info|xyz|surf|solar)$/
+/^notification-[a-z0-9]{30,}\..+\.(live|life|info|xyz|surf|solar)/
+!
+!--------------
+! DNS Rewrites |
+!--------------
+! This doesn't need to go anywhere
+||injections.adguard.org^$dnsrewrite=127.0.0.1
 !
