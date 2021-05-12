@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 4
+! Version: 5
 !
 !-----------------
 ! Begin Whitelist |
@@ -64,6 +64,8 @@
 ! https://github.com/nextdns/metadata/issues/638#issuecomment-823537069
 @@||r20.rs6.net^
 !
+@@||auth-*.tinypass.com^
+@@||directory-prod.lb.ownlocal.com^
 @@||*-www.cdn.advance.net^
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
@@ -787,6 +789,11 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||vastshmast.com^
+||tagdelivery.com^
+||vmrcommunications.com^
+||adserver-*.*.elb.amazonaws.com^
+||track.solvhealth.com^
 ||gatag.it^
 ||analytics.lbry.com^
 ||collector-service.api.lbry.tv^
@@ -12512,7 +12519,7 @@ g00.dailymail.co.uk$badfilter
 !-------
 ! Regex |
 !-------
-/^(http)?(s)?.+\.(home|col|localdomain|qjz9zk)$/
+/^(http)?(s)?.+\.(col|localdomain|qjz9zk)$/
 /^(applog|adservice|adsdk|ad(-)?img|ad-beacon|activetracker|analytic(s)?-tracker|ad(s)?-resources|telemetry|adslog|advertica-cdn).+/
 /^zg9tywlubmftzw5ldz.+\.com$/
 /.+(offer|prize|win|[0-9]{2,3}game).+\.(live|life|info|xyz|surf|solar)$/
