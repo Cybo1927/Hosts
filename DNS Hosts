@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 5
+! Version: 6
 !
 !-----------------
 ! Begin Whitelist |
@@ -789,6 +789,16 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||matomo.waterfox.net^
+||goat.blahdns.com^
+||calmcactus.com^
+||fireflyengagement.com^
+||ezodn.com^
+||impulsejewel.com^
+||yads.*.yimg.*^
+||log000.goo.ne.jp^
+||adcdn.goo.ne.jp^
+||bwb101.goo.ne.jp^
 ||vastshmast.com^
 ||tagdelivery.com^
 ||vmrcommunications.com^
