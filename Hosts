@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1461
-! Approximate number of ad services, trackers, malware, etc. blocked: 16.7K (uBlock Origin)
+! Version: 1462
+! Approximate number of ad services, trackers, malware, etc. blocked: 14.6K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -807,6 +807,7 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||adhouse.pro^
 ||matomo.waterfox.net^
 ||goat.blahdns.com^
 ||calmcactus.com^
@@ -2586,7 +2587,6 @@ g00.dailymail.co.uk$badfilter
 ||leadinfo.net^
 ||leadinfo-website.s3-eu-west-1.amazonaws.com^
 ||ipccdn.co.uk^
-||ipinfo.io^
 ||iprom.net^
 ||iprom.com^
 ||iprom.eu^
@@ -7316,7 +7316,6 @@ g00.dailymail.co.uk$badfilter
 ||homebusinessourway.com^
 ||hubs.vidyard.com^
 ||hittail.com^
-||herokucdn.com^
 ||hisimply.com^
 ||hsappstatic.net^
 ||hey.lt^
@@ -10172,7 +10171,6 @@ g00.dailymail.co.uk$badfilter
 ||sanalytics.verizon.com^
 ||sdk.out.usbla.net^
 ||stat.hackedonlinegames.com^
-||stat.ripe.net^
 ||storetail.io^
 ||storage.ape.yandex.net^
 ||static-mon.yandex.net^
@@ -12562,6 +12560,7 @@ g00.dailymail.co.uk$badfilter
 ! Block all third-party popups
 ||*^$third-party,popup,domain=bolfilmizle.com
 !
+||ipinfo.io^$third-party
 ||*-eset.com^$document
 ||*-trendmicro.com^$document
 ||*-bitdefender.com^$document
@@ -12925,7 +12924,7 @@ about:blank$third-party
 !-------------------------
 !
 /favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn
-*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
+*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com|~herokucdn.com
 ||*^$ping
 !
 ||/*advertising*.swf
