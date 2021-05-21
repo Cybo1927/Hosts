@@ -1,9 +1,0 @@
-! Title: Cybo's Personal Filters - AdGuard for Windows
-! Expires: 1 hours
-
-@@||mail.protonmail.com^$important,document
-
-*$app=NZXT CAM.exe|msedge.exe|5KPlayer.exe
-*$network,app=ColorMunkiDisplayTray.exe
-
-youtube.com###voice-search-button
