@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 6
+! Version: 7
 !
 !-----------------
 ! Begin Whitelist |
@@ -789,6 +789,7 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||adhouse.pro^
 ||matomo.waterfox.net^
 ||goat.blahdns.com^
 ||calmcactus.com^
@@ -2568,7 +2569,6 @@ g00.dailymail.co.uk$badfilter
 ||leadinfo.net^
 ||leadinfo-website.s3-eu-west-1.amazonaws.com^
 ||ipccdn.co.uk^
-||ipinfo.io^
 ||iprom.net^
 ||iprom.com^
 ||iprom.eu^
@@ -7298,7 +7298,6 @@ g00.dailymail.co.uk$badfilter
 ||homebusinessourway.com^
 ||hubs.vidyard.com^
 ||hittail.com^
-||herokucdn.com^
 ||hisimply.com^
 ||hsappstatic.net^
 ||hey.lt^
@@ -10154,7 +10153,6 @@ g00.dailymail.co.uk$badfilter
 ||sanalytics.verizon.com^
 ||sdk.out.usbla.net^
 ||stat.hackedonlinegames.com^
-||stat.ripe.net^
 ||storetail.io^
 ||storage.ape.yandex.net^
 ||static-mon.yandex.net^
