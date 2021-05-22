@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1462
+! Version: 1463
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.6K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -12772,7 +12772,6 @@ g00.dailymail.co.uk$badfilter
 ||poppcheck.de^$third-party
 ||wazazu.com^$third-party
 ||pp.d2-apps.net^$third-party
-||arkoselabs.com^$third-party
 ||warumbistdusoarm.space^$third-party,popup,popunder
 ||quadrapp.net^$third-party
 ||hawk.so^$third-party
