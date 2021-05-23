@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1464
-! Approximate number of ad services, trackers, malware, etc. blocked: 14.6K (uBlock Origin)
+! Version: 1465
+! Approximate number of ad services, trackers, malware, etc. blocked: 14.7K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -807,6 +807,14 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||newrrb.bid^
+||smoggysnakes.com^
+||smarterhq.io^
+||tribdss.com^
+||atom-log.3.cn^
+||beacon.tingyun.com^
+||collect.tianya.cn^
+||analysis.huanqiu.com^
 ||adhouse.pro^
 ||matomo.waterfox.net^
 ||goat.blahdns.com^
@@ -12921,14 +12929,26 @@ about:blank$third-party
 ! Begin Wildcard Blocking |
 !-------------------------
 !
-/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn
-*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com|~herokucdn.com
+*/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn|~herokucdn.com
+*/*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
 ||*^$ping
 !
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
 */branding/paywall/
+*/tinygif.gif?
+*/Test_oPS_Script_Loads?
+*/tracker/index.js
+*/adcreatives
+*/ADMark/
+*/*tracking-page-exposure
+*/trackad.js
+*/ad/template
+*/ad/json
+*/adsame/
+*/stat/stat_$script
+*/clickAnalyse.jsp
 */paywall.min.js
 */adpost
 */api/v*/collector
@@ -13953,6 +13973,26 @@ _statsonlineinfo
 !
 !#if (!adguard_app_android && !adguard_app_ios)
 !
+##.active.cookie-container
+##.gdpr-default
+##.gdpr-banner.gdpr
+##.full-ad
+##.in-content-ad-container
+##.in-content-ad
+##.full-ad__text
+##.gdpr_infobar_postion_bottom
+##.moove-gdpr-dark-scheme
+##.moove-gdpr-align-center
+##.jeg_ad_module
+##.jeg_ad
+##.ads-wrapper
+##.ads-text
+##.m-header-ad--slot
+##.active.cookie_toolbar
+##.ad-300x250
+##.pb-ad-prod
+##.pb-ad
+##.ad-panel
 ##* > .ad
 ##.no-ads
 ###cookienotif
@@ -14021,8 +14061,6 @@ _statsonlineinfo
 ###spot_video_ntv_c
 ##.puFloatDiv
 ##.puFloatLine
-##.ng-scope.vpr-section
-##.ng-scope
 ##.porndoecams-popup
 ##.fly-in-popup
 ###adWrapper
@@ -14053,6 +14091,10 @@ _statsonlineinfo
 ##[id*="my-ads"]
 ##[id*="strm-ad"]
 ##[id*="notif_asker_"]
+##[id*="ROS_728x90"]
+##[id*="floor-ad"]
+##[class*="ad_fullWidth"]
+##[class*="ImgAdv"]
 ##[class*="hide-ad"]
 ##[class*="ad-confirmation"]
 ##[class*="RectAd"]
@@ -14401,451 +14443,495 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 !#if (adguard_app_android && adguard_app_ios)
 !
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#* > .ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.active.cookie-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.no-ads
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr-default
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##cookienotif
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr-banner.gdpr
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad300x250
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.full-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad_adc
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.in-content-ad-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad970x250
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.in-content-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad300x600
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.full-ad__text
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.promobox
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr_infobar_postion_bottom
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.advertisement-widget
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.moove-gdpr-dark-scheme
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.cookie-banner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.moove-gdpr-align-center
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.popup-wrapper__overlay
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.jeg_ad_module
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#popup-wrapper
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.jeg_ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.snigel-cmp-framework
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ads-wrapper
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.remodal-is-opened
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ads-text
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.remodal-wrapper
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.m-header-ad--slot
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.analytics-banner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.active.cookie_toolbar
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##analytics-consent
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-300x250
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.analytics-consent
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pb-ad-prod
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.js-consent-banner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pb-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.advert-wrapper--placeholder
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-panel
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.advert-wrapper--leaderboard
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##* > .ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.advert-wrapper
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.no-ads
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.advert-wrapper__placeholder-inner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookienotif
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.dfp-ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad300x250
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.cookie--visible
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad_adc
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-pos-top
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad970x250
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-content
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad300x600
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-block
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.promobox
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##exposeMask
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advertisement-widget
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.overlay-promo
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-banner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.header-ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.popup-wrapper__overlay
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.modal__overlay
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##popup-wrapper
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.-show.related-bar
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.snigel-cmp-framework
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adslot
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.remodal-is-opened
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##v2campaignmidpage
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.remodal-wrapper
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.promotedlink
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.analytics-banner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-slot
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###analytics-consent
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.sidebar-subscribe-box
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.analytics-consent
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.tibrr-cookie-consent-container
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-consent-banner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##cookie-agreement
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advert-wrapper--placeholder
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adtester-container
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advert-wrapper--leaderboard
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ezoic-ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advert-wrapper
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##ezmobfooter
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advert-wrapper__placeholder-inner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ezmob-footer-desktop
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.dfp-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ezo_ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie--visible
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ezoic-floating-bottom
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-pos-top
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ezmob-footer
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-content
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.membership-container
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-block
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.inline-donation
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###exposeMask
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##banner300x100
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.overlay-promo
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.banner300x100
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.header-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##ad_300X250
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.modal__overlay
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.banner300x250
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.-show.related-bar
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##banner_240x400
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adslot
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.banner_240x400
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###v2campaignmidpage
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adModule
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.promotedlink
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.js-underplayerAd
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-slot
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.underplayerAd
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.sidebar-subscribe-box
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.cookie-announce
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.tibrr-cookie-consent-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.cookie-notify
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-agreement
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.aff-item-list-aside
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adtester-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.aff-item-list
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ezoic-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adv-aside
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###ezmobfooter
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##spot_video_ntv_a
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ezmob-footer-desktop
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##spot_video_ntv_b
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ezo_ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##spot_video_ntv_c
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ezoic-floating-bottom
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.puFloatDiv
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ezmob-footer
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.puFloatLine
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.membership-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ng-scope.vpr-section
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.inline-donation
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ng-scope
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###banner300x100
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.porndoecams-popup
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.banner300x100
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.fly-in-popup
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###ad_300X250
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##adWrapper
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.banner300x250
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##adHeadBanner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###banner_240x400
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##Adfox_Banner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.banner_240x400
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.tjads
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adModule
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-engage
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-underplayerAd
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.topbannerad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.underplayerAd
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adHeaderAdbanner
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-announce
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adsenseBox
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-notify
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.billboard-ad
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.aff-item-list-aside
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.recirc--outbrain
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.aff-item-list
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.outbrain-enabled
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adv-aside
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##section-leaderboard:not(body)
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###spot_video_ntv_a
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adContainer
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###spot_video_ntv_b
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adsbygoogle
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###spot_video_ntv_c
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-unit
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.puFloatDiv
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-small
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.puFloatLine
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-large
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.porndoecams-popup
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adsbytrafficjunky
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.fly-in-popup
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.removeAdLink
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###adWrapper
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.adunit-wrap
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###adHeadBanner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#adunit-purch
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###Adfox_Banner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.sponsor
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.tjads
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.sponsored
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-engage
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.inlinead
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.topbannerad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#.ad-container
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adHeaderAdbanner
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="my-ads"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adsenseBox
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="strm-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.billboard-ad
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="notif_asker_"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.recirc--outbrain
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="hide-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.outbrain-enabled
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="ad-confirmation"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###section-leaderboard:not(body)
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="RectAd"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adContainer
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="Ad__Container"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adsbygoogle
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="InartAd"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-unit
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="AdWrapper"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-small
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="show-Popup-"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-large
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="spot_header"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adsbytrafficjunky
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="subscribe-form"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.removeAdLink
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="Advert_align"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.adunit-wrap
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="Advert_placement"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##adunit-purch
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="SidebarNewsletter"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.sponsor
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="BlockLogin_container"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.sponsored
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="FeaturedContributors"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.inlinead
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="ExitModal"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-container
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="exitModal"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="my-ads"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="ArticleNewsletter"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="strm-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="inner-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="notif_asker_"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="gdpr-cookie"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ROS_728x90"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="adsense_"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="floor-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="adsense-"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ad_fullWidth"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class^="infeedAd"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ImgAdv"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="sidebar-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="hide-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class$="ad__placeholder"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ad-confirmation"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[class*="-taboola"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="RectAd"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="bunyad-social"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="Ad__Container"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="subscribe-form"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="InartAd"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="incontent-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="AdWrapper"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id*="gpt-ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="show-Popup-"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id^="advbroker_place_"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="spot_header"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[id^="google_ads_"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="subscribe-form"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#iframe[src*="/ads-iframe"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="Advert_align"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src^="/local_su.js"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="Advert_placement"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="scfsdvc.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="SidebarNewsletter"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="/ai/a/ex/ab.php?"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="BlockLogin_container"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="/adver/index."]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="FeaturedContributors"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="nichedlinks.com/hop/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ExitModal"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="/_ad"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="exitModal"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#[src*="/cats/meow"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ArticleNewsletter"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[onclick*="track"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="inner-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[onclick*="adclick"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="gdpr-cookie"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[onclick*="/ping_url"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="adsense_"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[onclick="closeMyAd()"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="adsense-"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="ads.cdn.live"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class^="infeedAd"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="raznoeporno.info"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="sidebar-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="?ad_provider"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class$="ad__placeholder"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="blacklivesmatters."]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="-taboola"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="libedgolart.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="bunyad-social"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="ads.livepromotools.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="subscribe-form"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="frtyz.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="incontent-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="go.schjmp.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="gpt-ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[src*="go.schjmp.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="advbroker_place_"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/ads/click"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="google_ads_"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/services/AdsRedirect."]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##iframe[src*="/ads-iframe"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="imlive.com/wmaster.ashx?"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src^="/local_su.js"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="securedatingconnection.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="scfsdvc.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*=".space/redirect/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="/ai/a/ex/ab.php?"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="is.gd"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="/adver/index."]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="clickstoclaim.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="nichedlinks.com/hop/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="getyoursnow.info"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="/_ad"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="engine.eroge.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[src*="/cats/meow"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="6i4uibyg0c82.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[onclick*="track"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="actiondesk.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[onclick*="adclick"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="strpjmp.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[onclick*="/ping_url"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="adtng.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[onclick="closeMyAd()"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/ads?zone_id="]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="ads.cdn.live"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="trafficjunky.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="raznoeporno.info"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="trafficjunky.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="?ad_provider"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="adultfriendfinder.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="blacklivesmatters."]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="orange2258.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="libedgolart.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="crazylead.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="ads.livepromotools.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="outbrain.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="frtyz.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="trcklks.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="go.schjmp.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="advertising.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[src*="go.schjmp.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="adult.xyz"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/ads/click"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="panokaverit.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/services/AdsRedirect."]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="panotreffit.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="imlive.com/wmaster.ashx?"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="wpadkigwiazd.pl"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="securedatingconnection.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="strefa18.pl"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*=".space/redirect/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="xnylfcp.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="is.gd"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="bingads.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="clickstoclaim.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="revsharecash.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="getyoursnow.info"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="clickadilla.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="engine.eroge.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="hrtya.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="6i4uibyg0c82.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="gg.gg"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="actiondesk.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="adinfo."]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="strpjmp.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="chaturbate.com/in/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="adtng.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/out.php?l=http://"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/ads?zone_id="]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/out.php?member="]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="trafficjunky.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/_clicktracker.php"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="trafficjunky.net"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adclicksTag.php"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="adultfriendfinder.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adclick.php"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="orange2258.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adredir.php"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="crazylead.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/affiliates."]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="outbrain.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/affiliates/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="trcklks.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/trackhit/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="advertising.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adClick/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="adult.xyz"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/track/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="panokaverit.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="?campaign_id="]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="panotreffit.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="&tracker_id="]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="wpadkigwiazd.pl"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="?link_id="]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="strefa18.pl"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="tai789.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="xnylfcp.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="doubleclick.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="bingads.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="googleadservices.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="revsharecash.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="rs-stripe.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="clickadilla.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="bytesignal.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="hrtya.com"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*=".searchiq.co"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="gg.gg"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="carbonads.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="adinfo."]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="buysellads.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="chaturbate.com/in/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="dianomi.com/click.epl"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/out.php?l=http://"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="cartoontube.com/hit.php"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/out.php?member="]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="admitad.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/_clicktracker.php"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="onelink.me"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adclicksTag.php"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="clickbank.net"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adclick.php"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="fourchan.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adredir.php"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="feed111.me"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/affiliates."]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="dynsrvbaa.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/affiliates/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="adtracks.biz"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/trackhit/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="grtyv.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adClick/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="mobtyb.com"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/track/"]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/advert"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="?campaign_id="]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adrotate-out.php?"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="&tracker_id="]
 !+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn#a[href*="/adServe/"]
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="?link_id="]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="tai789.net"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="doubleclick.net"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="googleadservices.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="rs-stripe.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="bytesignal.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*=".searchiq.co"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="carbonads.net"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="buysellads.net"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="dianomi.com/click.epl"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="cartoontube.com/hit.php"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="admitad.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="onelink.me"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="clickbank.net"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="fourchan.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="feed111.me"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="dynsrvbaa.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="adtracks.biz"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="grtyv.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="mobtyb.com"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/advert"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adrotate-out.php?"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adServe/"]
 !
 !#endif
 !
@@ -15391,7 +15477,7 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||pinterest.com/js/pinit.js$third-party
 ||apis.google.com/js/plusone.js$third-party
 ||reddit.com/counters/client-screenview
-||reddit.com/timings/
+||alexa.com/mixpanel/
 !
 !----------------------
 ! Begin Element Hiding |
