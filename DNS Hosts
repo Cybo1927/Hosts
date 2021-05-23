@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 8
+! Version: 9
 !
 !-----------------
 ! Begin Whitelist |
@@ -789,6 +789,14 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||newrrb.bid^
+||smoggysnakes.com^
+||smarterhq.io^
+||tribdss.com^
+||atom-log.3.cn^
+||beacon.tingyun.com^
+||collect.tianya.cn^
+||analysis.huanqiu.com^
 ||adhouse.pro^
 ||matomo.waterfox.net^
 ||goat.blahdns.com^
