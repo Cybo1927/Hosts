@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 9
+! Version: 10
 !
 !-----------------
 ! Begin Whitelist |
@@ -3756,7 +3756,7 @@ g00.dailymail.co.uk$badfilter
 ||assetsamillionads*-prod.s3.amazonaws.com^
 ||amillionads.com^
 ||adnexus.net^
-||activity.windows.com^
+!||activity.windows.com^ https://github.com/lightswitch05/hosts/issues/279
 ||analyticsmarket.com^
 ||adtaxi.com^
 ||adinplay.com^
@@ -5662,7 +5662,7 @@ g00.dailymail.co.uk$badfilter
 ||cloudflareinsights.com^
 ||clouding.live^
 ||crisp.im^
-||cs.dds.microsoft.com^
+!||cs.dds.microsoft.com^ https://github.com/lightswitch05/hosts/issues/265
 ||crtx.info^
 ||country.incartupsell.com^
 ||compare.easyvoyage.com^
@@ -8674,7 +8674,7 @@ g00.dailymail.co.uk$badfilter
 ||mobilecrashreporting.googleapis.com^
 ||track-n-trace.net^
 ||rtmark.net^
-||watson.data.microsoft.com.akadns.net^
+!||watson.data.microsoft.com.akadns.net^ https://github.com/lightswitch05/hosts/issues/161
 ||msftconnecttest.com^
 ||monu.delivery^
 ||mediad2.jp^
@@ -8730,7 +8730,7 @@ g00.dailymail.co.uk$badfilter
 ||maranhesduve.club^
 ||m6r.eu^
 ||mxcdn.net^
-||msftncsi.com^
+!||msftncsi.com^ https://github.com/lightswitch05/hosts/issues/161
 ||markitcdn.com^
 ||moneyducks.com^
 ||mdrtrck.com^
@@ -9125,7 +9125,6 @@ g00.dailymail.co.uk$badfilter
 ||ns*.p16.dynect.net^
 ||nav-it.ru^
 ||notify.medicalnewstoday.com^
-||nielsen.com^
 ||novelty.media^
 ||native.ai^
 ||npttech.com^
@@ -11477,7 +11476,7 @@ g00.dailymail.co.uk$badfilter
 ||vistohub.com^
 ||vmg.nyc^
 ||vibecdn.forkcdn.com^
-||events.data.microsoft.com^
+!||events.data.microsoft.com^ https://github.com/lightswitch05/hosts/issues/161
 ||vcc-na7b.8x8.com^
 ||videopal.io^
 ||videopal.me^
