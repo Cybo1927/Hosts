@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1465
+! Version: 1466
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.7K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13540,7 +13540,6 @@ _ads_$image,xhr
 */i/jot/syndication
 */csi_204/
 */insights/consumersurveys/async_survey
-*/adsid/google/ui/
 */js/ssa.firefly.head.js
 */framework/js/ssa.firefly.body.js
 */js/respond.js
@@ -13850,7 +13849,6 @@ _ads_$image,xhr
 */yandex-metrica-watch/
 */ads-top
 */ad-inserter/
-*/xhr/api/v2/collector
 */hit.xiti
 */Telemetry.Request
 */smartpop/
@@ -14224,7 +14222,7 @@ _statsonlineinfo
 !------------------------
 ! Begin AdGuard Specific |
 !------------------------
-!#if (adguard)
+!#if adguard
 ! Whitelist
 @@||sourceforge.net$generichide,genericblock
 @@||googlevideo.com^$stealth
@@ -14414,7 +14412,6 @@ youtube.com#@#body { overflow:visible!important; }
 ! Taken From AdGuard's "Base filter"
 youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
 !
-!#endif
 !
 ! Android specifics
 !#if (adguard_app_android)
@@ -14934,7 +14931,10 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adrotate-out.php?
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adServe/"]
 !
 !#endif
+! Disable FLOC by default in Chromium browsers
+#%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
+!#endif
 !------------------------------
 ! Begin uBlock Origin specific |
 !------------------------------
@@ -15009,6 +15009,10 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adServe/"]
 *##^script:has-text(AntiAdblock)
 *##^script:has-text(adblock.html)
 !
+!#endif
+! Disable FLOC by default in Chromium browsers
+!#if env_chromium
+*##+js(no-floc)
 !#endif
 !
 ! Remove attributes
@@ -15339,7 +15343,6 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||allure.com/hotzones/src/pixelpropagate.js
 ||i.quotev.com/t.gif
 ||omegle.com/typing
-||gstatic.com/*/img/promos/
 ||ding.wix.com/asdk/dispatcher.js
 ||imgur.com/lumbar.gif
 ||imgur.com/albumview.gif?
@@ -15435,7 +15438,6 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||yastatic.net/es5-shims/*/es5-shims.$script
 ||adult-empire.com/rs.php
 ||rexxx.org/banner?
-||adguard.com/click.json
 ||linkedin.com/countserv/
 ||graph.facebook.com/?id=http$third-party
 ||pinterest.com/*/count.json$third-party
