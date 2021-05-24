@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1466
+! Version: 1467
 ! Approximate number of ad services, trackers, malware, etc. blocked: 14.7K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -3774,7 +3774,7 @@ g00.dailymail.co.uk$badfilter
 ||assetsamillionads*-prod.s3.amazonaws.com^
 ||amillionads.com^
 ||adnexus.net^
-||activity.windows.com^
+!||activity.windows.com^ https://github.com/lightswitch05/hosts/issues/279
 ||analyticsmarket.com^
 ||adtaxi.com^
 ||adinplay.com^
@@ -5680,7 +5680,7 @@ g00.dailymail.co.uk$badfilter
 ||cloudflareinsights.com^
 ||clouding.live^
 ||crisp.im^
-||cs.dds.microsoft.com^
+!||cs.dds.microsoft.com^ https://github.com/lightswitch05/hosts/issues/265
 ||crtx.info^
 ||country.incartupsell.com^
 ||compare.easyvoyage.com^
@@ -8692,7 +8692,7 @@ g00.dailymail.co.uk$badfilter
 ||mobilecrashreporting.googleapis.com^
 ||track-n-trace.net^
 ||rtmark.net^
-||watson.data.microsoft.com.akadns.net^
+!||watson.data.microsoft.com.akadns.net^ https://github.com/lightswitch05/hosts/issues/161
 ||msftconnecttest.com^
 ||monu.delivery^
 ||mediad2.jp^
@@ -8748,7 +8748,7 @@ g00.dailymail.co.uk$badfilter
 ||maranhesduve.club^
 ||m6r.eu^
 ||mxcdn.net^
-||msftncsi.com^
+!||msftncsi.com^ https://github.com/lightswitch05/hosts/issues/161
 ||markitcdn.com^
 ||moneyducks.com^
 ||mdrtrck.com^
@@ -9143,7 +9143,6 @@ g00.dailymail.co.uk$badfilter
 ||ns*.p16.dynect.net^
 ||nav-it.ru^
 ||notify.medicalnewstoday.com^
-||nielsen.com^
 ||novelty.media^
 ||native.ai^
 ||npttech.com^
@@ -11495,7 +11494,7 @@ g00.dailymail.co.uk$badfilter
 ||vistohub.com^
 ||vmg.nyc^
 ||vibecdn.forkcdn.com^
-||events.data.microsoft.com^
+!||events.data.microsoft.com^ https://github.com/lightswitch05/hosts/issues/161
 ||vcc-na7b.8x8.com^
 ||videopal.io^
 ||videopal.me^
@@ -12567,6 +12566,7 @@ g00.dailymail.co.uk$badfilter
 ! Block all third-party popups
 ||*^$third-party,popup,domain=bolfilmizle.com
 !
+||nielsen.com^$third-party
 ||ipinfo.io^$third-party
 ||*-eset.com^$document
 ||*-trendmicro.com^$document
