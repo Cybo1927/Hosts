@@ -43,6 +43,11 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 */authentication.aspx
 */cast_sender.js
 
+@@||mtalk.google.com^
+@@||alt*-mtalk.google.com^
+@@142.251.4.188$network,app=com.google.android.gms
+@@108.177.12.188$network,app=com.google.android.gms
+!
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||storage.signal.org^
