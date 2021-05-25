@@ -45,8 +45,11 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 
 @@||mtalk.google.com^
 @@||alt*-mtalk.google.com^
-@@142.25*.188$network,app=com.google.android.gms
-@@10*.177.12.188$network,app=com.google.android.gms
+@@142.250.123.188$network,app=com.google.android.gms
+@@142.250.27.188$network,app=com.google.android.gms
+@@142.251.9.188$network,app=com.google.android.gms
+@@142.250.111.188$network,app=com.google.android.gms
+@@64.233.184.188$network,app=com.google.android.gms
 !
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
