@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 10
+! Version: 11
 !
 !-----------------
 ! Begin Whitelist |
@@ -179,7 +179,7 @@ www.bizpacreview.com$badfilter
 127.0.0.1 www.bizpacreview.com$badfilter
 ||www.bizpacreview.com$badfilter
 ||www.bizpacreview.com^$badfilter
-! Project Veritas is investigative journalism and exposes corruption from both parties 
+! Project Veritas is investigative journalism and exposes corruption from both parties
 projectveritas.com$badfilter
 0.0.0.0 projectveritas.com$badfilter
 127.0.0.1 projectveritas.com$badfilter
@@ -1688,7 +1688,7 @@ g00.dailymail.co.uk$badfilter
 ||wmcdp.io^
 ||crashlyticsreports-pa.googleapis.com^
 ||partners.camsoda.com^
-||adrise.tv^
+!||adrise.tv^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||huluim.com^
 ||googlesyndication.com^
 ||openx.dwebsite.com^
@@ -2800,7 +2800,7 @@ g00.dailymail.co.uk$badfilter
 ||bisdgsd.pro^
 ||lfodsae.pro^
 ||ol.epicgames.com^
-||ak.epicgames.com^
+!||ak.epicgames.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||pagiwp.com^
 ||microad.tw^
 ||microad.co.jp^
@@ -6413,7 +6413,7 @@ g00.dailymail.co.uk$badfilter
 ||*.wns.windows.com^
 ||dc.services.visualstudio.com^
 ||diagnostics.support.microsoft.com^
-||displaycatalog.mp.microsoft.com^
+!||displaycatalog.mp.microsoft.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||switchads.com^
 ||switchadhub.com^
 ||doublepimpssl.com^
@@ -6438,7 +6438,7 @@ g00.dailymail.co.uk$badfilter
 ||sharelive.net^
 ||dup.baidustatic.com^
 ||driftt.com^
-||rlcdn.com^
+!||rlcdn.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||dotcomsecrets.com^
 ||dmvorg.s3.amazonaws.com^
 ||digidip.net^
@@ -7574,7 +7574,7 @@ g00.dailymail.co.uk$badfilter
 ||ilyonanalytics.herokuapp.com^
 ||ijinshan.com^
 ||innertrends.com^
-||secureserver.net^
+!||secureserver.net^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||id.maxis.com.my^
 ||infoarmor.net^
 ||winsysdev.com^
@@ -8675,7 +8675,7 @@ g00.dailymail.co.uk$badfilter
 ||track-n-trace.net^
 ||rtmark.net^
 !||watson.data.microsoft.com.akadns.net^ https://github.com/lightswitch05/hosts/issues/161
-||msftconnecttest.com^
+!||msftconnecttest.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||monu.delivery^
 ||mediad2.jp^
 ||marenhemperdidn.pro^
@@ -9032,7 +9032,7 @@ g00.dailymail.co.uk$badfilter
 ||mobvista.com^
 ||mopub.com^
 ||mobileads.com^
-||mailchimp.com^
+!||mailchimp.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||myfinance.com^
 ||mybbc-analytics.files.bbci.co.uk^
 ||mktoresp.com^
@@ -9471,7 +9471,7 @@ g00.dailymail.co.uk$badfilter
 ||poweradspy.com^
 ||pushground.com^
 ||perk0mean.com^
-||pulsar.ebay.com^
+!||pulsar.ebay.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||policityseriod.info^
 ||presence-heartbeat.xboxlive.com^
 ||revjet.com^
@@ -10255,7 +10255,7 @@ g00.dailymail.co.uk$badfilter
 ||staticcache.org^
 ||stats.ibtimes.co.uk^
 ||spoor-api.ft.com^
-||statics-marketingsites-wcus-ms-com.akamaized.net^
+!||statics-marketingsites-wcus-ms-com.akamaized.net^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||simple-cdn.s3.amazonaws.com^
 ||stats.windscribe.com^
 ||signal.co^
@@ -11569,7 +11569,7 @@ g00.dailymail.co.uk$badfilter
 ||wal.wolfram.com^
 ||w.o0bc.com^
 ||walsalladvertiser.co.uk^
-||wdcp.microsoft.com^
+!||wdcp.microsoft.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||wdcpalt.microsoft.com^
 ||whatismyip.akamai.com^
 ||www-a22.vip^
@@ -11798,7 +11798,7 @@ g00.dailymail.co.uk$badfilter
 ||yesware.com^
 ||yaspsd.ir^
 ||yume.com^
-||yext.com^
+!||yext.com^ https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 ||yciuyrlw.ml^
 ||yahu99.vip^
 ||yvzgazds6d.com^
