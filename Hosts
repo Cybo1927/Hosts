@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1468
-! Approximate number of ad services, trackers, malware, etc. blocked: 14.7K (uBlock Origin)
+! Version: 1469
+! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -13298,14 +13298,10 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="spottyfly.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="stopify.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütu.be/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="starbucksiswrong.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="starbucksisbadforyou.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="bucks.as/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="discörd.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="minecräft.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="freegiftcards.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="disçordapp.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="xda-developers.us/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="quickmessage.us/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="fortnight.space/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="fortnitechat.site/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
@@ -13313,14 +13309,8 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="joinmy.site/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="crabrave.pw/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="ajc1.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="cnyc99.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="dxrbc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="hwhssc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="mjzssc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="nnmssc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="tnfbc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="toolce.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="zjrbc.cn/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="catsnthing.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="lovebird.guru/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="trulove.guru/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
@@ -13342,8 +13332,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="rëddït.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="särahah.eu/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="särahah.pl/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="xda-developers.io/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="watches-my.stream/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="alanlindsay.net/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="asianrbtrade.net/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="iplogger.org/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
@@ -13360,10 +13348,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="ipgrabber.ru/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="ipgraber.ru/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="skypegrab.net/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="fortnite-stats.site/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="minecraft-skins.xyz/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="booter.icu/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="discordcrypt.xyz/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="gyazo.nl/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yȯutube.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="linkify.me/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
@@ -13379,7 +13364,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="quickmessage.io/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütübe.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütübe.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="cyberh1.xyz/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 !
 !#endif
 !
