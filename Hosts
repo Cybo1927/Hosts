@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1469
+! Version: 1470
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -42,8 +42,6 @@
 @@||fedex.com/Tracking
 ! Required to download music from some apps
 @@||music.126.net^
-! Forums
-@@||forms.hubspot.com^
 ! Delivers legit content
 @@||cdn.tsyndicate.com^
 ! Unbreak BrowserLeaks tests
@@ -88,7 +86,6 @@
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
 @@||api-auth-mobile.hootsuite.com^
-@@||cta-service-cms2.hubspot.com^
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
@@ -807,6 +804,11 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||admetricspro.com^
+||bc0a.com^
+||gdpr.studybreakmedia.com^
+||analytics.chegg.com^
+||jeeng.com^
 ||smoggysnakes.com^
 ||smarterhq.io^
 ||newrrb.bid^
@@ -6615,7 +6617,6 @@ g00.dailymail.co.uk$badfilter
 ||hostcontrol.com^
 ||hsionlineorders.net^
 ||hubspotfeedback.com^
-||hubspot.com^
 ||hdownloadmyinboxhelper.com^
 ||hquickmapsanddirections.com^
 ||reports.ghostery.net^
@@ -6628,7 +6629,6 @@ g00.dailymail.co.uk$badfilter
 ||hisimply.com^
 ||informer.com^
 ||hey.lt^
-||hsappstatic.net^
 ||hupso.com^
 ||helpscout.com^
 ||heat-map.co^
@@ -11081,6 +11081,10 @@ g00.dailymail.co.uk$badfilter
 ! Block all third-party popups
 ||*^$third-party,popup,domain=bolfilmizle.com
 !
+||hubspot.com^$~first-party
+||hsappstatic.net^$~first-party
+||reallyfreegeoip.org^$third-party
+||mailchimp.com^$third-party
 ||nielsen.com^$third-party
 ||ipinfo.io^$third-party
 ||*-eset.com^$document
@@ -11144,6 +11148,36 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~drive.google.com
+*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif
+*/metrics.$rewrite=abp-resource:blank-js
+*.com/be_fl.js$rewrite=abp-resource:blank-js
+*/sensorsdata.$rewrite=abp-resource:blank-js
+*/prebid*$rewrite=abp-resource:blank-js
+*/adScript*$rewrite=abp-resource:blank-js
+*/*gpt_*$rewrite=abp-resource:blank-js
+*/*prebid_*$rewrite=abp-resource:blank-js
+*/pubads_$rewrite=abp-resource:blank-js
+*/ads_prebid$rewrite=abp-resource:blank-js
+*/atmedia_ms_v*$rewrite=abp-resource:blank-js,third-party
+*/google_tag-$rewrite=abp-resource:blank-js
+*/google_tag.$rewrite=abp-resource:blank-js
+*.gif?pingver=$rewrite=abp-resource:1x1-transparent-gif
+*/ua-parser-$rewrite=abp-resource:blank-js
+*/ua-parser.$rewrite=abp-resource:blank-js
+*/gtag/$rewrite=abp-resource:blank-js
+*/gtag.$rewrite=abp-resource:blank-js
+*/gtm.$rewrite=abp-resource:blank-js
+*/show-ads.$rewrite=abp-resource:blank-js
+*/analytics.min.js$rewrite=abp-resource:blank-js
+*/PhoenixGoogleAnalytics.min.js$rewrite=abp-resource:blank-js
+*/adManager$rewrite=abp-resource:blank-js
+~ads.$rewrite=abp-resource:blank-js
+*/affiliateplayerV2/
+*/videojs.ads.js$script,redirect=blank-js
+*/doubleclick/
+*/setAdsTestVariant
+*/uncookied-treatment
 */branding/paywall/
 */tinygif.gif?
 */Test_oPS_Script_Loads?
@@ -12294,11 +12328,43 @@ _statsonlineinfo
 ##.sponsored
 ##.inlinead
 ##.ad-container
+##.in-article-promo
+##.in-article-promo-title
+###ad_text
+##.ad-scroll
+##.ad-bottom
+###static-ad-right-alt
+##.cookies-background
+##.ad-iframe-wrap
+##.ad_box_small
+##.ccpaCookieBanner_container-custom
+##.ccpaCookieBanner_container
+##.cookie-consent
+###cookie-law-info-bar
+##.js-cookie-consent
+##.cookie-consent
+##.cookie-notification
+###cookie-policy-info
+##.cookies-message
+###consent
+##.full-ad-wrapper
+##.pane-st-dfp-ads
+##.pane-st-dfp-ads-st-dfp-ads-med-rec
+##.st-ad-wrapper
+##.panel-dfp-ad
+##.region-top-ad-block
+##[id*="bunyad-social"]
+##[id*="subscribe-form"]
+##[id*="incontent-ad"]
+##[id*="gpt-ad"]
+##[id^="advbroker_place_"]
+##[id^="google_ads_"]
 ##[id*="my-ads"]
 ##[id*="strm-ad"]
 ##[id*="notif_asker_"]
 ##[id*="ROS_728x90"]
 ##[id*="floor-ad"]
+##[class*="SiteAd-"]
 ##[class*="ad_fullWidth"]
 ##[class*="ImgAdv"]
 ##[class*="hide-ad"]
@@ -12326,12 +12392,6 @@ _statsonlineinfo
 ##[class*="sidebar-ad"]
 ##[class$="ad__placeholder"]
 ##[class*="-taboola"]
-##[id*="bunyad-social"]
-##[id*="subscribe-form"]
-##[id*="incontent-ad"]
-##[id*="gpt-ad"]
-##[id^="advbroker_place_"]
-##[id^="google_ads_"]
 ##iframe[src*="/ads-iframe"]
 ##[src^="/local_su.js"]
 ##[src*="scfsdvc.com"]
@@ -12878,6 +12938,68 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.inlinead
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-container
 !+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.in-article-promo
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.in-article-promo-title
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###ad_text
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-scroll
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-bottom
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###static-ad-right-alt
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookies-background
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-iframe-wrap
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad_box_small
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ccpaCookieBanner_container-custom
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ccpaCookieBanner_container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-consent
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-law-info-bar
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-cookie-consent
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-consent
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-notification
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-policy-info
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookies-message
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###consent
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.full-ad-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pane-st-dfp-ads
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pane-st-dfp-ads-st-dfp-ads-med-rec
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.st-ad-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.panel-dfp-ad
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.region-top-ad-block
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="bunyad-social"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="subscribe-form"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="incontent-ad"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="gpt-ad"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="advbroker_place_"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="google_ads_"]
+!+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="my-ads"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="strm-ad"]
@@ -12887,6 +13009,8 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="notif_asker_"]
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ROS_728x90"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="floor-ad"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="SiteAd-"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="ad_fullWidth"]
 !+ NOT_OPTIMIZED
@@ -12941,18 +13065,6 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="sidebar-ad"]
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class$="ad__placeholder"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="-taboola"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="bunyad-social"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="subscribe-form"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="incontent-ad"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="gpt-ad"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="advbroker_place_"]
-!+ NOT_OPTIMIZED
-com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id^="google_ads_"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##iframe[src*="/ads-iframe"]
 !+ NOT_OPTIMIZED
@@ -13280,6 +13392,9 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##a[href*="/adServe/"]
 ||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
 !-----------------------------------------------------------------------
 !
+! Block YouTube from loading by default on third-party sites
+||youtube.com^$frame,redirect=click2load.html,third-party
+!
 ! Fix for the pesky sites that block scroll bars because you use an adblocker
 *##body:style(overflow:visible !important)
 !
@@ -13366,46 +13481,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="yoütübe.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 !
 !#endif
-!
-! Begin redirect (Adblock Plus sytax is supported by all!)
-!
-||assetshuluimcom-a.akamaihd.net/*.mp3$rewrite=abp-resource:blank-mp3,domain=hulu.com
-||taskernet.com/shares/countstats.js$rewrite=abp-resource:blank-js
-||audio-akp-quic-control-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
-||audio-sp-sea.spotifycdn.net$rewrite=abp-resource:blank-mp3
-||heads-ak-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
-||audio-akp-bbr-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
-||video-fa.scdn.co$rewrite=abp-resource:blank-mp3
-||video-ak.cdn.spotify.com.akahost.net$rewrite=abp-resource:blank-mp3
-||video-ak.cdn.spotify.com.eip.akadns.net$rewrite=abp-resource:blank-mp3
-||doubleclick.net/instream/ad_status.js$rewrite=abp-resource:blank-js
-||apis.google.com/js/client.js^$rewrite=abp-resource:blank-js,domain=savvasrealize.com
-||tags.tiqcdn.com/utag/*/utag.js$rewrite=abp-resource:blank-js
-*/cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~drive.google.com
-*/netcheck.gif$rewrite=abp-resource:1x1-transparent-gif
-*/metrics.$rewrite=abp-resource:blank-js
-*.com/be_fl.js$rewrite=abp-resource:blank-js
-*/sensorsdata.$rewrite=abp-resource:blank-js
-*/prebid*$rewrite=abp-resource:blank-js
-*/adScript*$rewrite=abp-resource:blank-js
-*/*gpt_*$rewrite=abp-resource:blank-js
-*/*prebid_*$rewrite=abp-resource:blank-js
-*/pubads_$rewrite=abp-resource:blank-js
-*/ads_prebid$rewrite=abp-resource:blank-js
-*/atmedia_ms_v*$rewrite=abp-resource:blank-js,third-party
-*/google_tag-$rewrite=abp-resource:blank-js
-*/google_tag.$rewrite=abp-resource:blank-js
-*.gif?pingver=$rewrite=abp-resource:1x1-transparent-gif
-*/ua-parser-$rewrite=abp-resource:blank-js
-*/ua-parser.$rewrite=abp-resource:blank-js
-*/gtag/$rewrite=abp-resource:blank-js
-*/gtag.$rewrite=abp-resource:blank-js
-*/gtm.$rewrite=abp-resource:blank-js
-*/show-ads.$rewrite=abp-resource:blank-js
-*/analytics.min.js$rewrite=abp-resource:blank-js
-*/PhoenixGoogleAnalytics.min.js$rewrite=abp-resource:blank-js
-*/adManager$rewrite=abp-resource:blank-js
-~ads.$rewrite=abp-resource:blank-js
 !
 ! Begin Removeparam (AdGuard & uBlock Origin)
 !
@@ -13672,6 +13747,18 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||apis.google.com/js/plusone.js$third-party
 ||reddit.com/counters/client-screenview
 ||alexa.com/mixpanel/
+||assetshuluimcom-a.akamaihd.net/*.mp3$rewrite=abp-resource:blank-mp3,domain=hulu.com
+||taskernet.com/shares/countstats.js$rewrite=abp-resource:blank-js
+||audio-akp-quic-control-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
+||audio-sp-sea.spotifycdn.net$rewrite=abp-resource:blank-mp3
+||heads-ak-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
+||audio-akp-bbr-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
+||video-fa.scdn.co$rewrite=abp-resource:blank-mp3
+||video-ak.cdn.spotify.com.akahost.net$rewrite=abp-resource:blank-mp3
+||video-ak.cdn.spotify.com.eip.akadns.net$rewrite=abp-resource:blank-mp3
+||doubleclick.net/instream/ad_status.js$rewrite=abp-resource:blank-js
+||apis.google.com/js/client.js^$rewrite=abp-resource:blank-js,domain=savvasrealize.com
+||tags.tiqcdn.com/utag/*/utag.js$rewrite=abp-resource:blank-js
 !
 !----------------------
 ! Begin Element Hiding |
