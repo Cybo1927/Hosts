@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 11
+! Version: 12
 !
 !-----------------
 ! Begin Whitelist |
@@ -24,8 +24,6 @@
 @@||fedex.com/Tracking
 ! Required to download music from some apps
 @@||music.126.net^
-! Forums
-@@||forms.hubspot.com^
 ! Delivers legit content
 @@||cdn.tsyndicate.com^
 ! Unbreak BrowserLeaks tests
@@ -70,7 +68,6 @@
 @@||uid.mavencoalition.io^
 @@||yandex.*/clck/$domain=kinopoisk.ru
 @@||api-auth-mobile.hootsuite.com^
-@@||cta-service-cms2.hubspot.com^
 @@||2o7.net^$domain=totaljobs.com
 @@||redirectingat.com^$image,domain=techradar.com
 @@||inmotion-hosting.evyy.net^$image,domain=techradar.com
@@ -789,6 +786,11 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||admetricspro.com^
+||bc0a.com^
+||gdpr.studybreakmedia.com^
+||analytics.chegg.com^
+||jeeng.com^
 ||smoggysnakes.com^
 ||smarterhq.io^
 ||newrrb.bid^
@@ -6597,7 +6599,6 @@ g00.dailymail.co.uk$badfilter
 ||hostcontrol.com^
 ||hsionlineorders.net^
 ||hubspotfeedback.com^
-||hubspot.com^
 ||hdownloadmyinboxhelper.com^
 ||hquickmapsanddirections.com^
 ||reports.ghostery.net^
@@ -6610,7 +6611,6 @@ g00.dailymail.co.uk$badfilter
 ||hisimply.com^
 ||informer.com^
 ||hey.lt^
-||hsappstatic.net^
 ||hupso.com^
 ||helpscout.com^
 ||heat-map.co^
