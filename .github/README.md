@@ -7,6 +7,7 @@
 **ChildSafe Hosts** | Block access to anything related to pornography, sexuality, dating, or bypassing parental controls. | [Link](https://raw.githubusercontent.com/Cybo1927/Hosts/master/ChildSafe%20Hosts)
 **[/Anti-corp/](https://github.com/Cybo1927/Hosts/tree/master/Anti-corp)** | A folder full of corporations that you can choose to block all domains for or alternatively only block on third-party sites. | N/A
 **[/AdGuard Home/Specific Whitelist/](https://github.com/Cybo1927/Hosts/tree/master/AdGuard%20Home/Specific%20Whitelist)** | A folder of services that require whitelisting of ad/tracking servers to work which have only been tested in AdGuard Home. | N/A
+**[/Extensions/](https://github.com/Cybo1927/Hosts/tree/master/Extensions)** | A folder that serves the purpose of providing users extended blocking based on personal preferences.  | N/A
 
 ## How to add a list to your favorite adblocker
 ### Adblock Plus
