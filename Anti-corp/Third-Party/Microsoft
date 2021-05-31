@@ -21,6 +21,9 @@
 ||gfx.ms^$third-party,domain=~office.com
 ||msauth.net^$third-party,domain=~office.com
 ||msocdn.com^$third-party,domain=~office.com
+||userpxt.io^$third-party
+||makecode.com^$third-party
+||s-msft.com^$third-party
 ||clarity.ms^$third-party
 ||office.com^$third-party
 ||sfx.ms^$third-party
