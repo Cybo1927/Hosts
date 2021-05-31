@@ -18,6 +18,7 @@
 !------------------------
 !
 ||google.*^
+||v8.dev^
 ||googleapis.com^
 ||googlevideo.com^
 ||googleusercontent.com^
