@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 13
+! Version: 14
 !
 !-----------------
 ! Begin Whitelist |
@@ -5991,7 +5991,6 @@ g00.dailymail.co.uk$badfilter
 ||easypcoptimizer.com^
 ||elephantdata.net^
 ||errorsafe.com^
-||ekr.zdassets.com^
 ||epochstats.com^
 ||extfans.com^
 ||errorexpert.com^
@@ -6332,7 +6331,6 @@ g00.dailymail.co.uk$badfilter
 ||ga-dev-tools.appspot.com^
 ||geni.us^
 ||gtm.oasisfeng.com^
-||georiot.com^
 ||referralcandy.com^
 ||googleclubstore.com^
 ||g2afse.com^
@@ -6664,7 +6662,6 @@ g00.dailymail.co.uk$badfilter
 ||hello.myfonts.net^
 ||heyzap.com^
 ||gcion.com^
-||hm.baidu.com^
 ||h-bid.com^
 ||htl.bid^
 ||hotjar.com^
@@ -8698,7 +8695,6 @@ g00.dailymail.co.uk$badfilter
 ||pixel-tracker.com^
 ||pix.nbcuni.com^
 ||placeiq.com^
-||skimresources.com^
 ||stumbleupon.com^
 ||predictiveresponse.net^
 ||pubmatic.com^
@@ -10353,7 +10349,6 @@ g00.dailymail.co.uk$badfilter
 ||market-place.su^
 ||wgplayer.com^
 ||sub2tech.com^
-||exacttarget.com^
 ||imageshack.host^
 ||wearesmartertravel.com^
 ||web-stats.org^
