@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1471
+! Version: 1472
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -13750,7 +13750,6 @@ $removeparam=/^utm_.+|_visid_|tracelog|affiliate_ref|publisherid|os_version|os_n
 ||mail.yahoo.com/d/log
 ||s3.amazonaws.com/ssl-intgr-net/prebid/
 ||coin.amazonpay.com/rb/checkStatus
-||images-na.ssl-images-amazon.com/images/*/grey-pixel.gif
 ||*.amazonaws.com/ssl-intgr-net/tags/
 ||pandora.com/web-client-assets/displayAdFrame/
 ||pandora.com/util/mediaserverPublicRedirect.jsp?type=file&file=ads
