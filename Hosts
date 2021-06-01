@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1473
+! Version: 1474
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -6009,7 +6009,6 @@ g00.dailymail.co.uk$badfilter
 ||easypcoptimizer.com^
 ||elephantdata.net^
 ||errorsafe.com^
-||ekr.zdassets.com^
 ||epochstats.com^
 ||extfans.com^
 ||errorexpert.com^
@@ -6350,7 +6349,6 @@ g00.dailymail.co.uk$badfilter
 ||ga-dev-tools.appspot.com^
 ||geni.us^
 ||gtm.oasisfeng.com^
-||georiot.com^
 ||referralcandy.com^
 ||googleclubstore.com^
 ||g2afse.com^
@@ -6682,7 +6680,6 @@ g00.dailymail.co.uk$badfilter
 ||hello.myfonts.net^
 ||heyzap.com^
 ||gcion.com^
-||hm.baidu.com^
 ||h-bid.com^
 ||htl.bid^
 ||hotjar.com^
@@ -8716,7 +8713,6 @@ g00.dailymail.co.uk$badfilter
 ||pixel-tracker.com^
 ||pix.nbcuni.com^
 ||placeiq.com^
-||skimresources.com^
 ||stumbleupon.com^
 ||predictiveresponse.net^
 ||pubmatic.com^
@@ -10371,7 +10367,6 @@ g00.dailymail.co.uk$badfilter
 ||market-place.su^
 ||wgplayer.com^
 ||sub2tech.com^
-||exacttarget.com^
 ||imageshack.host^
 ||wearesmartertravel.com^
 ||web-stats.org^
@@ -11356,7 +11351,7 @@ about:blank$third-party
 ! Begin Wildcard Blocking |
 !-------------------------
 !
-*/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn|~herokucdn.com
+*/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn|~herokucdn.com|~corriereobjects.it
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
 ||*^$ping
 !
@@ -11681,7 +11676,6 @@ _ads_$image,xhr
 *?collectionId=
 /*AdobeAnalytics.min.js?
 */beacon.min.js?
-*/ad.min.js?v=20*-*
 */statistics/report/
 */ad-ace/
 */widgets-live-popup
@@ -13990,7 +13984,6 @@ bhphotovideo.com##[href*="/promotion"]
 androidcentral.com##.internal-cta, .cta
 biography.com##[class*="ad--slot"]
 louderwithcrowder.com##[id*="Newsletter_Block"]
-history.com##[class*="-ad-"]
 pornhub.com###hotVideosSection > .alpha
 genius.com##.dfp_unit, [class*="Leaderboard-"]
 sparknotes.com##.tag--bnPod-rightRail, .partner__pw__header
