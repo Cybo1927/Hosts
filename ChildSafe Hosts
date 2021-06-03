@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's ChildSafe Hosts
-! Description: Block access to anything related to pornography, sexuality, dating, or bypassing parental controls.
-! Version: 29
+! Description: Block access to anything related to pornography, sexual choice/mental illness, dating, or bypassing parental controls.
+! Version: 30
 !
 ! This blacklist is made specifically for AdGuard Home and using it with any other software might lead to breakage.
 ! It will be mainly based around RegEX and should be used alongside other blacklists.
@@ -16,7 +16,7 @@
 !
 /(porn|xvideo|nude|babe|slut|orgasm|stripper|gay|lesbian|hentai|futa|loli|milf|shemale|tranny|thot|creampie|nsfw|sexy|boobs|dick|naked|bdsm|kink|whore|pervert|smut|seuality|sexuality|taboo|jerk|twerk|clit|pussy|18yo|19yo|hdsex|sexhd|rape|erotic|fetish|cocks|fap|horny|shota|sext|leaked-pics|leakedpics|yaoi|orgasm)/
 /(xxx)/$dnstype=~CNAME
-/(\.sex$|\.sexy$|\.porn$|\.bj$|\.singles$|\.lgbt$|\.gay$)/
+/(\.sex$|\.sexy$|\.porn$|\.bj$|\.singles$)/
 !
 ||無料同人誌.com^
 ||kenyaadultblog.com^
@@ -108,6 +108,43 @@
 !------------
 ! End Dating |
 !------------
+!
+!-----------------------------------
+! Begin promotion of mental illness |
+!-----------------------------------
+!
+! A few examples as to why I consider homosexuality a mental illness:
+! https://pubmed.ncbi.nlm.nih.gov/26048483/
+! https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2072932/
+! https://pubmed.ncbi.nlm.nih.gov/18194003/
+! https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016885
+! http://saravyc.sites.olt.ubc.ca/files/2015/05/SARAVYC_Trans-Youth-Health-Report_EN_Final_Print.pdf#page=44
+! https://www.aappublications.org/news/2019/10/14/suicide101419
+! https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214157
+!
+/(\.gay$)/
+/(lgbt|queer)/
+!
+||gaycenter.org^
+||pride.com^
+||advocate.com^
+||gayety.co^
+||gaynewstoday.com^
+||washingtonblade.com^
+||instinctmagazine.com^
+||greginhollywood.com^
+||gaystarnews.com^
+||gaycitynews.com^
+||pinknews.co.uk^
+||lesbianandgaynews.com^
+||sgn.org^
+||losangelesblade.com^
+||hotspotsmagazine.com^
+||sfbaytimes.com^
+!
+!---------------------------------
+! End promotion of mental illness |
+!---------------------------------
 !
 !----------------------
 ! Begin Bypass Methods |
