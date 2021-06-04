@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 14
+! Version: 15
 !
 !-----------------
 ! Begin Whitelist |
@@ -786,6 +786,8 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||omnisnippet1.com^
+||mobile-events.eservice.emarsys.net^
 ||bidencare-healthquote.com^
 ||savagegrowplus.com^
 ||apphacks.github.io^
@@ -8691,7 +8693,6 @@ g00.dailymail.co.uk$badfilter
 ||partnerads.ysm.yahoo.com^
 ||presage.io^
 ||park.above.com^
-||perimeterx.net^
 ||pixel-tracker.com^
 ||pix.nbcuni.com^
 ||placeiq.com^
