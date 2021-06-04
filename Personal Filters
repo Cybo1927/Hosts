@@ -58,6 +58,10 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||storage.signal.org^
+@@||addons.mozilla.org^
+@@||addons.cdn.mozilla.net^
+||in-addr.arpa^
+||ip6.arpa^
 ||editmysite.com^
 ||megaphone.fm^
 ||imgix.net^
