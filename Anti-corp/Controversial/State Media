@@ -1,0 +1,26 @@
+! Title: Cybo's Anti State Media
+! Description: A uBlock Origin only list that will warn you before clicking links that lead to the state-owned media outlets.
+! Homepage: https://github.com/Cybo1927/Hosts
+! Expires: 8 hours
+!
+! China:
+*,~globaltimes.cn##a[href*="globaltimes.cn"]:before:style(content: "Chinese state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~chinadaily.com.cn##a[href*="chinadaily.com.cn"]:before:style(content: "Chinese state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~cgtn.com##a[href*="cgtn.com"]:before:style(content: "Chinese state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~xinhuanet.com##a[href*="xinhuanet.com"]:before:style(content: "Chinese state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Russia:
+*,~vesti.ru##a[href*="vesti.ru"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~tass.ru##a[href*="tass.ru"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~tv-novosti.ru##a[href*="tv-novosti.ru"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~rt.com##a[href*="rt.com"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! North Korea:
+*,~kcna.kp##a[href*="kcna.kp"]:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~rodong.rep.kp##a[href*="rodong.rep.kp"]:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~minzu.rep.kp##a[href*="minzu.rep.kp"]:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~pyongyangtimes.com.kp##a[href*="pyongyangtimes.com.kp"]:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+!
+! Turkey:
+*,~trt.net.tr##a[href*="trt.net.tr"]:before:style(content: "Turkish state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~aa.com.tr##a[href*="aa.com.tr"]:before:style(content: "Turkish state media outlet : " !important; color: #FF8000 !important; visibility: visible)
