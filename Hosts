@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1474
+! Version: 1475
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -804,6 +804,8 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||omnisnippet1.com^
+||mobile-events.eservice.emarsys.net^
 ||bidencare-healthquote.com^
 ||savagegrowplus.com^
 ||apphacks.github.io^
@@ -8709,7 +8711,6 @@ g00.dailymail.co.uk$badfilter
 ||partnerads.ysm.yahoo.com^
 ||presage.io^
 ||park.above.com^
-||perimeterx.net^
 ||pixel-tracker.com^
 ||pix.nbcuni.com^
 ||placeiq.com^
@@ -11291,6 +11292,9 @@ g00.dailymail.co.uk$badfilter
 ! Block all third-party popups
 ||*^$third-party,popup,domain=bolfilmizle.com
 !
+||exacttarget.com^$popunder
+||s3.amazonaws.com/*/*.html#*$popunder
+||vk.com/js/api/openapi.js$third-party
 ||hubspot.com^$~first-party
 ||hsappstatic.net^$~first-party
 ||reallyfreegeoip.org^$third-party
@@ -11358,6 +11362,10 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/openx_track.js
+*/rcs_data-tracking/
+*/utag.sync.js
+*/ad-blocker.gif
 */cleardot.gif$rewrite=abp-resource:1x1-transparent-gif,domain=~drive.google.com
 */netcheck.gif$rewrite=abp-resource:1x1-transparent-gif
 */metrics.$rewrite=abp-resource:blank-js
@@ -12421,6 +12429,50 @@ _statsonlineinfo
 !
 !#if (!adguard_app_android && !adguard_app_ios)
 !
+##.ad-wireframe-wrapper
+##.ad-wireframe-wrapper--nostick
+##.ad-wireframe-wrapper--awareness
+##div.related-articles
+##.related-title
+##.related-border
+###klicked-poll-box
+##.klicked-poll-continues
+###dfp-ad-top-wrapper
+###topad
+###right1ad
+##.klicked-ads
+##.tpd-box-ad-a
+###NR-Ads
+##.NR-Ads-content
+###eu-cookie-law
+###oupcookiepolicy_message
+##div.gdpr-msg
+##.cookies-alert-box-wrapper
+##.zd-privacy-content
+##.r-width.boxy-ad
+##.m-ad-minh
+##.m-ad-brick
+##.cookie-bar
+###fixed-ad-bottom
+##.gdpr-privacy-bar.gdpr
+##.gdpr-wrapper
+##.ad-text
+##.pmc-adm-boomerang-pub-div
+##.boomerang.adma
+##.dfp-leaderboard-container
+##.dtads-slot-atn
+##.dtads-slot
+##.sqs-cookie-banner-v2
+###ccpa-cookie
+##.pea_cook_topcenter
+##.pea_cook_wrapper
+##.AdContainer
+##._has-ads
+##.AdContainer-Sidebar
+###_cpmt-iframe
+##.js-cookie-info__panel
+##.m-in-content-ad-row
+###ocn-cookie-wrap
 ##.active.cookie-container
 ##.gdpr-default
 ##.gdpr-banner.gdpr
@@ -12572,6 +12624,16 @@ _statsonlineinfo
 ##[id*="notif_asker_"]
 ##[id*="ROS_728x90"]
 ##[id*="floor-ad"]
+##[id*="inline-article-ad"]
+##[id*="ad_widget"]
+##[id*="dfp-ad-right"]
+##[id*="ad-lazyads"]
+##[id*="ad-bottom-wrapper"]
+##[id*="popup-modal"]
+##[id*="mailpoet_form"]
+##[id*="-banner-ad-"]
+##[class*="CookiePopup"]
+##[class*="SidebarAdView"]
 ##[class*="SiteAd-"]
 ##[class*="ad_fullWidth"]
 ##[class*="ImgAdv"]
@@ -12916,6 +12978,94 @@ youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.a
 !#if (adguard_app_android && adguard_app_ios)
 !
 !+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wireframe-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wireframe-wrapper--nostick
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wireframe-wrapper--awareness
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##div.related-articles
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.related-title
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.related-border
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###klicked-poll-box
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.klicked-poll-continues
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###dfp-ad-top-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###topad
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###right1ad
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.klicked-ads
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.tpd-box-ad-a
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###NR-Ads
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.NR-Ads-content
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###eu-cookie-law
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###oupcookiepolicy_message
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##div.gdpr-msg
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookies-alert-box-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.zd-privacy-content
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.r-width.boxy-ad
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.m-ad-minh
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.m-ad-brick
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-bar
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###fixed-ad-bottom
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr-privacy-bar.gdpr
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-text
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pmc-adm-boomerang-pub-div
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.boomerang.adma
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.dfp-leaderboard-container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.dtads-slot-atn
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.dtads-slot
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.sqs-cookie-banner-v2
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###ccpa-cookie
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pea_cook_topcenter
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pea_cook_wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.AdContainer
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##._has-ads
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.AdContainer-Sidebar
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###_cpmt-iframe
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-cookie-info__panel
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.m-in-content-ad-row
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###ocn-cookie-wrap
+!+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.active.cookie-container
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.gdpr-default
@@ -13217,6 +13367,26 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="notif_asker_"]
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ROS_728x90"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="floor-ad"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="inline-article-ad"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ad_widget"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="dfp-ad-right"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ad-lazyads"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="ad-bottom-wrapper"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="popup-modal"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="mailpoet_form"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="-banner-ad-"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="CookiePopup"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="SidebarAdView"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="SiteAd-"]
 !+ NOT_OPTIMIZED
@@ -13687,6 +13857,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 *##a[href*="quickmessage.io/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütübe.co/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="yoütübe.com/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="mypic.icu/"]:before:style(content: "WARNING: This link has been identified as an IP grabber : " !important; color: #E6000D !important; visibility: visible)
 !
 !#endif
 !
@@ -13987,6 +14158,11 @@ louderwithcrowder.com##[id*="Newsletter_Block"]
 pornhub.com###hotVideosSection > .alpha
 genius.com##.dfp_unit, [class*="Leaderboard-"]
 sparknotes.com##.tag--bnPod-rightRail, .partner__pw__header
+newsweek.com##.remaining-articles, #block-ibtmedia-dfp-ibtmedia-dfp-belowcontent, #block-nw-content-recirc > div.content
+dailywire.com##.in-body-articles
+news.com.au###module-more-in
+pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
+cbn.com###cbn_leaderboard_atf
 ! Hide malicious and fake sites
 ! DuckDuckGo
 duckduckgo.com##.links_deep:-abp-contains(iigggames.com):upward(1)
