@@ -11,6 +11,7 @@
 !------------------------
 !
 ||amazon.*^
+||payments-amazon.com^
 ||amazontrust.com^
 ||amazon-dss.com^
 ||amazonaws.com^
