@@ -8,6 +8,7 @@
 !------------------------
 !
 ||amazon.*^$third-party,domain=~twitch.tv
+||payments-amazon.com^$third-party,domain=~twitch.tv|~amazon.*
 ||amazontrust.com^$third-party
 ||amazon-dss.com^$third-party
 ||amazonaws.com^$third-party
