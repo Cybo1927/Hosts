@@ -60,6 +60,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||storage.signal.org^
 @@||addons.mozilla.org^
 @@||addons.cdn.mozilla.net^
+||payments-amazon.com^
 ||in-addr.arpa^
 ||ip6.arpa^
 ||editmysite.com^
