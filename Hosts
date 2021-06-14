@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1477
+! Version: 1478
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -4141,9 +4141,7 @@ g00.dailymail.co.uk$badfilter
 ||advert.funimation.com^
 ||aus5.mozilla.org^
 ||adcontent.videoegg.com^
-||android^
 ||mtalk.google.com^
-||android^
 ||ad.hi5.com^
 ||ad.creafi.com^
 ||adserver.yahoo.com^
