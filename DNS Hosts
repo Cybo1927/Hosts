@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 16
+! Version: 17
 !
 !-----------------
 ! Begin Whitelist |
@@ -4123,9 +4123,7 @@ g00.dailymail.co.uk$badfilter
 ||advert.funimation.com^
 ||aus5.mozilla.org^
 ||adcontent.videoegg.com^
-||android^
 ||mtalk.google.com^
-||android^
 ||ad.hi5.com^
 ||ad.creafi.com^
 ||adserver.yahoo.com^
