@@ -4,7 +4,6 @@
 ! Expires: 1 day
 !
 ! This blacklist is meant to be used with a DNS sinkhole such as AdGuard Home
-! Subsidiaries blocked: Bixby AI
 !
 ! https://www.computerworld.com/article/3514999/samsung-selling-data.html
 ! https://www.cnet.com/news/samsungs-warning-our-smart-tvs-record-your-living-room-chatter/
@@ -18,6 +17,7 @@
 ! Start Domain Blacklist |
 !------------------------
 !
+||samsungvisioncloud.com^
 ||ospserver.net^
 ||samsappsbn.vo.llnwd.net^
 ||samsungresources.visionobjects.com^
