@@ -1,15 +1,24 @@
 ! Title: Cybo's Personal Filters - Personal AdGuard Home
 ! Expires: 1 hours
 
+! Whitelist
+@@||addons.mozilla.org^$important
+@@||addons.cdn.mozilla.net^$important
+@@||libraries.minecraft.net^$important
+@@||resources.download.minecraft.net^$important
+!
 ! Admin
 ||google.*^$ctag=user_admin
 ||gstatic.com^$ctag=user_admin
 ||googleapis.com^$ctag=user_admin
 !
 ! All home network
+/.+\.home$/
 ||dns.*^
 ||dns-*^
 ||one.one.one.one^
+||ip6.arpa^
+||in-addr.arpa^
 ||android.clients.google.com^
 ||play.googleapis.com^
 ||play.google.com^
@@ -27,3 +36,5 @@
 ||candycrushsoda.king.com^
 ||www.ripe.net^
 ||safebrowsing.brave.com^
+||appstore-tv-prod-na.amazon.com^
+||ipv6check-http.steamcontent.com^
