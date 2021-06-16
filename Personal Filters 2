@@ -1,0 +1,29 @@
+! Title: Cybo's Personal Filters - Personal AdGuard Home
+! Expires: 1 hours
+
+! Admin
+||google.*^$ctag=user_admin
+||gstatic.com^$ctag=user_admin
+||googleapis.com^$ctag=user_admin
+!
+! All home network
+||dns.*^
+||dns-*^
+||one.one.one.one^
+||android.clients.google.com^
+||play.googleapis.com^
+||play.google.com^
+||connectivitycheck.gstatic.com^
+||android.googleapis.com^
+||android.com^
+||example.org^
+||*.roku.com^
+||rokuapi.net^
+||amazontrust.com^
+||kinesis.*-1.amazonaws.com^
+||location-services-measurements.s3-external-1.amazonaws.com^
+||ocsp.quovadisoffshore.com^
+||ping.archlinux.org^
+||candycrushsoda.king.com^
+||www.ripe.net^
+||safebrowsing.brave.com^
