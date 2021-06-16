@@ -13,8 +13,8 @@ duckduckgo.com##.links_deep:-abp-contains(theonion.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(google.com):upward(1)
 duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 
-*$app=available|com.adguard.system|com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
-*$network,app=available|com.adguard.system|com.google.android.gms|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
+*$app=available|com.adguard.system|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
+*$network,app=available|com.adguard.system|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
 ||dl.discordapp.net^$app=com.discord
 
 *$cookie=/.+/;maxAge=25
@@ -45,15 +45,6 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 
 @@||mtalk.google.com^
 @@||alt*-mtalk.google.com^
-@@142.250.123.188$network,app=com.google.android.gms
-@@142.250.27.188$network,app=com.google.android.gms
-@@142.251.9.188$network,app=com.google.android.gms
-@@142.250.111.188$network,app=com.google.android.gms
-@@142.250.112.188$network,app=com.google.android.gms
-@@142.250.153.188$network,app=com.google.android.gms
-@@64.233.184.188$network,app=com.google.android.gms
-@@108.177.12.188$network,app=com.google.android.gms
-@@142.250.112.188$network,app=com.google.android.gms
 !
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
