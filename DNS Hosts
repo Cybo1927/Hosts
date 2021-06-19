@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 17
+! Version: 18
 !
 !-----------------
 ! Begin Whitelist |
@@ -786,6 +786,30 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||whowhipi.net^
+||abostimp.com^
+||annamurray.xyz^
+||forzubatr.com^
+||tagdatax.com^
+||cowardlymissinggranulated.com^
+||moviemutilate.com^
+||adskeeper.com^
+||icotrack.net^
+||wheeshoo.net^
+||dvanced.club^
+||eneverals.biz^
+||rtpdn12.com^
+||unltdentertainment.co^
+||siredonlacs.com^
+||thongaspredo.com^
+||youradexchange.com^
+||rdrer.xyz^
+||dozubatan.com^
+||pre4sentre8dhf.com^
+||marketingcloudapis.com^
+||lobbydesires.com^
+||conductrics.net^
+||brid.tv^
 ||system-usage-report.intel.com^
 ||omnisnippet1.com^
 ||mobile-events.eservice.emarsys.net^
@@ -2514,7 +2538,6 @@ g00.dailymail.co.uk$badfilter
 ||reporting.familysafety.microsoft.com.akadns.net^
 ||quicinc.com^
 ||samsungacr.com^
-||playhydrax.com^
 ||2020mustang.com^
 ||roujaufu.net^
 ||statserv.net^
