@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1478
+! Version: 1479
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -804,6 +804,30 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||whowhipi.net^
+||abostimp.com^
+||annamurray.xyz^
+||forzubatr.com^
+||tagdatax.com^
+||cowardlymissinggranulated.com^
+||moviemutilate.com^
+||adskeeper.com^
+||icotrack.net^
+||wheeshoo.net^
+||dvanced.club^
+||eneverals.biz^
+||rtpdn12.com^
+||unltdentertainment.co^
+||siredonlacs.com^
+||thongaspredo.com^
+||youradexchange.com^
+||rdrer.xyz^
+||dozubatan.com^
+||pre4sentre8dhf.com^
+||marketingcloudapis.com^
+||lobbydesires.com^
+||conductrics.net^
+||brid.tv^
 ||system-usage-report.intel.com^
 ||omnisnippet1.com^
 ||mobile-events.eservice.emarsys.net^
@@ -2532,7 +2556,6 @@ g00.dailymail.co.uk$badfilter
 ||reporting.familysafety.microsoft.com.akadns.net^
 ||quicinc.com^
 ||samsungacr.com^
-||playhydrax.com^
 ||2020mustang.com^
 ||roujaufu.net^
 ||statserv.net^
@@ -11348,13 +11371,20 @@ about:blank$third-party
 ! Begin Wildcard Blocking |
 !-------------------------
 !
-*/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn|~herokucdn.com|~corriereobjects.it
+*/favicon.ico$3p,domain=~inkling.com|~amazonaws.com|~marketwatch.com|~pornhub.com|~hwcdn.net|~sstatic.net|~ydstatic.com|~img.linux.net.cn|~herokucdn.com|~corriereobjects.it|~cloudinary.com
 */*.gif?*id*$domain=~discord.com|~discordapp.com|~sex.com|~pornhub.com
 ||*^$ping
 !
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/search-ahead-sponsor
+*?type=pageView$xhr
+*/wp-content/plugins/post-views-counter/
+*/suurl*.php?
+*/impression/iP
+*/redirect$third-party,popup
+*/click$third-party,popup
 */openx_track.js
 */rcs_data-tracking/
 */utag.sync.js
@@ -14040,7 +14070,6 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 ||reddit.com/counters/client-screenview
 ||alexa.com/mixpanel/
 ||assetshuluimcom-a.akamaihd.net/*.mp3$rewrite=abp-resource:blank-mp3,domain=hulu.com
-||taskernet.com/shares/countstats.js$rewrite=abp-resource:blank-js
 ||audio-akp-quic-control-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
 ||audio-sp-sea.spotifycdn.net$rewrite=abp-resource:blank-mp3
 ||heads-ak-spotify-com.akamaized.net$rewrite=abp-resource:blank-mp3
