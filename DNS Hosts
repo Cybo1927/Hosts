@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 18
+! Version: 19
 !
 !-----------------
 ! Begin Whitelist |
@@ -786,6 +786,8 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||moatads.com^
+||naucaish.net^
 ||whowhipi.net^
 ||abostimp.com^
 ||annamurray.xyz^
