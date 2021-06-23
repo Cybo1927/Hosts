@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1479
+! Version: 1480
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -804,6 +804,8 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||moatads.com^
+||naucaish.net^
 ||whowhipi.net^
 ||abostimp.com^
 ||annamurray.xyz^
@@ -11378,6 +11380,7 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/api/v*/metrics/
 */search-ahead-sponsor
 *?type=pageView$xhr
 */wp-content/plugins/post-views-counter/
@@ -13992,7 +13995,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 ||livelyvideo.tv/*/logger
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
-||brave.com/*/usage*
+||brave.com/*/usage*$~document
 ||google.com/aclk
 ||static.india.com/*/images/*-banner.jpg
 ||wikipedia.org/beacon
