@@ -1,6 +1,5 @@
 ||firebaselogging.googleapis.com^
 ||twimg.com^
-||imasdk.googleapis.com^
 ||sybo.net^
 ||dailyinnovation.biz^
 ||unity3d.com^
@@ -9,9 +8,7 @@
 ||tritondigital.com^
 ||braze.com^
 ||adobe.io^
-||clientservices.googleapis.com^
 ||*-pa.googleapis.com^
-||userlocation.googleapis.com^
 ||adobe.com^
 ||fungames-forfree.com^
 ||tfgco.com^
@@ -57,7 +54,6 @@
 ||zoom.us^
 ||www.googleapis.com^
 ||accounts.google.com^
-||clientauthconfig.googleapis.com^
 ||vzwdm.com^
 ||amazonaws.com^
 ||zeptolab.com^
@@ -70,7 +66,6 @@
 ||www.gstatic.com^
 ||inshot.cc^
 ||myinstashot.com^
-||apis.google.com^
 ||khms*.googleapis.com^
 ||fonts.gstatic.com^
 ||googlezip.net^
