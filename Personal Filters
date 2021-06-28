@@ -16,6 +16,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 *$app=available|com.adguard.system|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
 *$network,app=available|com.adguard.system|com.camerasideas.trimmer|com.arlosoft.macrodroid|com.kimcy929.secretvideorecorder|com.mojang.minecraftpe|com.joaomgcd.autotools|com.samsung.android.scloud|com.sec.android.app.billing|com.osp.app.signin|com.samsung.android.kidsinstaller|com.sec.spp.push|com.protectstar.cameraguardfree|com.microsoft.skydive|com.protectstar.microguardfree|com.protectstar.ishredder.android.standard|com.protectstar.ilockersecurenotes|com.fourchars.privary|com.thinkyeah.galleryvault|com.ludashi.dualspace|com.parallel.space.pro|io.voodoo.dune|com.mokvold.flatzombies_defense_free|com.littleinferno.google|com.ea.game.pvzfree_row|com.noodlecake.blockheads|com.google.android.apps.messaging|com.bethsoft.falloutshelter|com.google.android.inputmethod.latin
 ||dl.discordapp.net^$app=com.discord
+||cdn.discordapp.com^$app=com.discord
 
 *$cookie=/.+/;maxAge=25
 @@||192.168.254.75^$first-party,cookie
@@ -28,7 +29,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||planningcenteronline.com^$first-party,cookie
 @@||notion.so^$first-party,cookie
 
-*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com|androidcentral.com|9to5google.com|ground.news
+*$third-party,domain=troyhunt.com|projectveritas.com|theblaze.com|dailysignal.com|cbn.com|tatumreport.com|cnn.com|theguardian.com|forbes.com|androidcentral.com|9to5google.com|ground.news|legiochristi.com
 @@||images.ctfassets.net$image,domain=projectveritas.com
 @@||rebelmouse.io^$image,domain=theblaze.com
 @@||i.guim.co.uk^$image,domain=theguardian.com
@@ -42,6 +43,7 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 */font*$script,third-party
 */authentication.aspx
 */cast_sender.js
+*/cloudflare-static/email-decode.
 
 @@||mtalk.google.com^
 @@||alt*-mtalk.google.com^
@@ -49,8 +51,16 @@ duckduckgo.com##.links_deep:-abp-contains(apps.apple.com):upward(1)
 @@||cloud.unity3d.com^
 @@||cdn.signal.org^
 @@||storage.signal.org^
-@@||addons.mozilla.org^
-@@||addons.cdn.mozilla.net^
+@@||cdn.jsdelivr.net^
+||authorize.net^
+||chargebee.com^
+||youmaker.com^
+||newsroom.bi^
+||mrf.io^
+||marfeelrev.com^
+||www.bromite.org^
+||cloudflare-dns.com^
+||pages.dev^
 ||payments-amazon.com^
 ||in-addr.arpa^
 ||ip6.arpa^
