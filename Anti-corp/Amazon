@@ -10,7 +10,6 @@
 !------------------------
 !
 ||amazon.*^
-||wickr.com^
 ||payments-amazon.com^
 ||amazontrust.com^
 ||amazon-dss.com^
@@ -88,6 +87,9 @@
 ||canvas.technology^
 ||inlt.com^
 ||zoox.com^
+||freetimecaptiveportal.com^
+||firetvcaptiveportal.com^
+||wickr.com^
 !
 !----------------------
 ! End Domain Blacklist |
