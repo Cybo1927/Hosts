@@ -16,6 +16,7 @@
 /.+\.home$/
 ||dns.*^
 ||dns-*^
+||seventeen.com^
 ||one.one.one.one^
 ||ip6.arpa^
 ||in-addr.arpa^
