@@ -1,0 +1,8 @@
+! Title: Whitelist Paramount
+! Expires: 8 hours
+! Version: 1
+
+! Whitelist some ad/tracker services to make the ad supported version of Paramount work (If this isn't done it has an error and nothing will play)
+! Only tested with AdGuard Home on a Roku TV
+
+@@||pubads.g.doubleclick.net^$ctag=device_tv
