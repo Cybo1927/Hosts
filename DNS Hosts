@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 19
+! Version: 20
 !
 !-----------------
 ! Begin Whitelist |
@@ -786,6 +786,16 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||regularplants.com^
+||mutinycdn.com^
+||mutinyhq.com^
+||mutinyhq.io^
+||pastoralroad.com^
+||talkable.com^
+||loopgift.com^
+||loopassets.net^
+||ao-freegeoip.herokuapp.com^
+||t.skimresources.com^
 ||moatads.com^
 ||naucaish.net^
 ||whowhipi.net^
@@ -6354,7 +6364,6 @@ g00.dailymail.co.uk$badfilter
 ||greedseed.world^
 ||gpswox.com^
 ||ga-dev-tools.appspot.com^
-||geni.us^
 ||gtm.oasisfeng.com^
 ||referralcandy.com^
 ||googleclubstore.com^
@@ -8516,7 +8525,6 @@ g00.dailymail.co.uk$badfilter
 ||pushokey.com^
 ||publir.com^
 ||personalization.bloomberg.com^
-||polyfill.io^
 ||polldaddy.com^
 ||pushmejs.com^
 ||poplink.io^
