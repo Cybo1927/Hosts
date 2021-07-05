@@ -3,8 +3,8 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1480
-! Approximate number of ad services, trackers, malware, etc. blocked: 12.2K (uBlock Origin)
+! Version: 1481
+! Approximate number of ad services, trackers, malware, etc. blocked: 12.5K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
 !-----------------------------------------------------------------------
@@ -804,6 +804,16 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||regularplants.com^
+||mutinycdn.com^
+||mutinyhq.com^
+||mutinyhq.io^
+||pastoralroad.com^
+||talkable.com^
+||loopgift.com^
+||loopassets.net^
+||ao-freegeoip.herokuapp.com^
+||t.skimresources.com^
 ||moatads.com^
 ||naucaish.net^
 ||whowhipi.net^
@@ -6372,7 +6382,6 @@ g00.dailymail.co.uk$badfilter
 ||greedseed.world^
 ||gpswox.com^
 ||ga-dev-tools.appspot.com^
-||geni.us^
 ||gtm.oasisfeng.com^
 ||referralcandy.com^
 ||googleclubstore.com^
@@ -8534,7 +8543,6 @@ g00.dailymail.co.uk$badfilter
 ||pushokey.com^
 ||publir.com^
 ||personalization.bloomberg.com^
-||polyfill.io^
 ||polldaddy.com^
 ||pushmejs.com^
 ||poplink.io^
@@ -11311,6 +11319,7 @@ g00.dailymail.co.uk$badfilter
 ! Unnecessary HTTP
 http://yourjavascript.com$third-party
 !
+||geni.us^$third-party
 ||exacttarget.com^$popunder
 ||vk.com/js/api/openapi.js$third-party
 ||hubspot.com^$~first-party
@@ -11380,6 +11389,8 @@ about:blank$third-party
 ||/*advertising*.swf
 ||/*_ads_*.swf
 ||/*_banner.swf
+*/adobe/VisitorAPI.js
+*/adobe/at.js
 */api/v*/metrics/
 */search-ahead-sponsor
 *?type=pageView$xhr
@@ -12639,6 +12650,75 @@ _statsonlineinfo
 ##.st-ad-wrapper
 ##.panel-dfp-ad
 ##.region-top-ad-block
+##.ag-cookiePolicy
+##.privacyPolicyPopup
+##.ad-wrapper--flexibleportrait
+##.ad-wrapper
+##.ad-wrapper--articletop
+##.ad-wrapper--flexiblepushdown
+##.ad-wrapper--mid_article_inject
+##.ad-wrapper--ad-unit-wrap
+##.ad-wrapper__ad-slug
+##.newsletter-signup__container
+##.advertorial-header__paid
+##.notice--cookie
+###header_leaderboard
+###catapult-cookie-bar
+##.ad__mapping1
+##.ad__wrapper
+##.cookie-message
+###cookie_wrapper
+##.Container_ATF_970
+##.Container_ATFR_300
+##.c-cookie-banner
+###quads-ad1
+##.cookieinfo
+##.email-drawer-pop-up
+##.modal-container--open
+##.cookielaw-bottom
+##.cookielaw-banner
+##.tco-content-dock-on.left
+##.hurrytimer-sticky
+##.sign-up-footer
+##.post_detail_right_advert
+###cookie-footer
+##.js-popup-modal
+##.js-cookiewall
+##.cookiewall
+##.pane-bean-email-capture
+##.htlad-Top_Leaderboard
+##.top_ad_banner_sticky
+##.top_ad_banner
+##.Footer-whitelist
+##.takeover-container
+##.ad-bar-container
+##.top-ad-container
+##.santaana-campaign
+##.consent-banner
+##.consentPopup
+##.cookies
+##.c-cookie-consent
+###cookie-bar
+##.cadre_inner_alert_cookies
+###cookieBanner
+##.google-dfp-ad-wrapper
+##.ad--inArticleBanner
+##.ad--desktopOnly
+##.slate-ad
+##.PageTopAd
+###cookie-message
+##.ad_cls_fix
+##.ad_content_below
+##.ad_push
+##.mod_ad_container
+##.ads-336x280
+##div.adun
+##.jnews-cookie-law-policy
+##[class*="top-ad-wrapper"]
+##[class*="-adDisplay"]
+##[class*="adSkyBox"]
+##[id*="AdThrive_Content"]
+##[id*="snhb-mid_content-"]
 ##[id*="bunyad-social"]
 ##[id*="subscribe-form"]
 ##[id*="incontent-ad"]
@@ -13300,6 +13380,144 @@ com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.st-ad-wrapper
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.panel-dfp-ad
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.region-top-ad-block
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ag-cookiePolicy
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.privacyPolicyPopup
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper--flexibleportrait
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper--articletop
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper--flexiblepushdown
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper--mid_article_inject
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper--ad-unit-wrap
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-wrapper__ad-slug
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.newsletter-signup__container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.advertorial-header__paid
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.notice--cookie
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###header_leaderboard
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###catapult-cookie-bar
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad__mapping1
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad__wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookie-message
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie_wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.Container_ATF_970
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.Container_ATFR_300
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.c-cookie-banner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###quads-ad1
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookieinfo
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.email-drawer-pop-up
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.modal-container--open
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookielaw-bottom
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookielaw-banner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.tco-content-dock-on.left
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.hurrytimer-sticky
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.sign-up-footer
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.post_detail_right_advert
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-footer
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-popup-modal
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.js-cookiewall
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookiewall
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.pane-bean-email-capture
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.htlad-Top_Leaderboard
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.top_ad_banner_sticky
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.top_ad_banner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.Footer-whitelist
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.takeover-container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad-bar-container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.top-ad-container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.santaana-campaign
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.consent-banner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.consentPopup
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cookies
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.c-cookie-consent
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-bar
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.cadre_inner_alert_cookies
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookieBanner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.google-dfp-ad-wrapper
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad--inArticleBanner
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad--desktopOnly
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.slate-ad
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.PageTopAd
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn###cookie-message
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad_cls_fix
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad_content_below
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ad_push
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.mod_ad_container
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.ads-336x280
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##div.adun
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##.jnews-cookie-law-policy
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="top-ad-wrapper"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="-adDisplay"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[class*="adSkyBox"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="AdThrive_Content"]
+!+ NOT_OPTIMIZED
+com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="snhb-mid_content-"]
 !+ NOT_OPTIMIZED
 com,co,net,info,io,ly,me,xyz,mobi,biz,zone,xxx,porn##[id*="bunyad-social"]
 !+ NOT_OPTIMIZED
@@ -14110,6 +14328,7 @@ news.com.au###module-more-in
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 cbn.com###cbn_leaderboard_atf
 washingtonpost.com###leaderboard-wrapper, .pb-lgmod, div.db-ns.dn, .right-rail
+forbes.com##.fbs-ad--top-wrapper--desktop, .fbs-ad--top-wrapper
 ! Hide malicious and fake sites
 ! DuckDuckGo
 duckduckgo.com##.links_deep:-abp-contains(iigggames.com):upward(1)
