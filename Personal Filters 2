@@ -6,6 +6,9 @@
 @@||addons.cdn.mozilla.net^$important
 @@||libraries.minecraft.net^$important
 @@||resources.download.minecraft.net^$important
+@@||wwwimg.roku.com^$important
+@@||mtalk.google.com^$important
+@@||alt*-mtalk.google.com^$important
 !
 ! Admin
 ||google.*^$ctag=user_admin
@@ -16,6 +19,16 @@
 /.+\.home$/
 ||dns.*^
 ||dns-*^
+||go-updater.brave.com^
+||darkreader.github.io^
+||darkreader.org^
+||pcdn.brave.com^
+||rewards.brave.com^
+||static*.brave.com^
+||tenor.co^
+||amazonalexa.com^
+||justgetflux.com^
+||cache.api.intel.com^
 ||seventeen.com^
 ||one.one.one.one^
 ||ip6.arpa^
