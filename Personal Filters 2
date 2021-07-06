@@ -19,10 +19,8 @@
 /.+\.home$/
 ||dns.*^
 ||dns-*^
-||go-updater.brave.com^
 ||darkreader.github.io^
 ||darkreader.org^
-||pcdn.brave.com^
 ||rewards.brave.com^
 ||static*.brave.com^
 ||tenor.co^
