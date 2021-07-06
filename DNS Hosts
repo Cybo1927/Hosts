@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's DNS Hosts
 ! Expires: 8 hours
-! Version: 20
+! Version: 21
 !
 !-----------------
 ! Begin Whitelist |
@@ -786,6 +786,7 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||insights.sitesearch360.com^
 ||regularplants.com^
 ||mutinycdn.com^
 ||mutinyhq.com^
@@ -5227,7 +5228,6 @@ g00.dailymail.co.uk$badfilter
 ||client.teamviewer.com^
 ||trafficmanager.com^
 ||contentive.com^
-||cbsig.net^
 ||cdin.me^
 ||cdn2.ghostery.com^
 ||cnetcontentsolutions.com^
