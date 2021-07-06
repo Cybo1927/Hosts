@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1481
+! Version: 1482
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.5K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -804,6 +804,7 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||insights.sitesearch360.com^
 ||regularplants.com^
 ||mutinycdn.com^
 ||mutinyhq.com^
@@ -5245,7 +5246,6 @@ g00.dailymail.co.uk$badfilter
 ||client.teamviewer.com^
 ||trafficmanager.com^
 ||contentive.com^
-||cbsig.net^
 ||cdin.me^
 ||cdn2.ghostery.com^
 ||cnetcontentsolutions.com^
@@ -11599,7 +11599,7 @@ _ads_$image,xhr
 *?action=reportMetrics
 */visitormatch/
 */AdServer/$image
-*/utils/geo.js
+*/utils/geo.js$domain=~foxnews.com
 */flashcookie/
 */adzone.
 */adunit/
