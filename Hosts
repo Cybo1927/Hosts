@@ -3,7 +3,7 @@
 ! Description: A multilingual blacklist of ads, trackers, annoyances, malware, IP grabbers, fake sites, tracking cookies, etc.
 ! Homepage: https://github.com/Cybo1927/Hosts
 ! Expires: 8 hours
-! Version: 1482
+! Version: 1483
 ! Approximate number of ad services, trackers, malware, etc. blocked: 12.5K (uBlock Origin)
 !
 ! Resources to better help you understand "hosts" files / "filter lists"
@@ -29,38 +29,51 @@
 ! Local Domains
 @@||192.168.*.*^$first-party,important
 @@||127.0.0.1^$first-party,important
+!
 ! These Ads are opt-in (not forced) and shouldn't be blocked for any reason
 @@||ads.brave.com^$important
 @@||ads-serve.brave.com^$important
 @@||grant.rewards.brave.com^$important
 @@||ads-static.brave.com^$important
+!
 ! Breaks TikTok Login
 @@||log2.musical.ly^
+!
 ! Local News Station - Blocked Under "Malware domains"
 @@||ksibradio.com^
+!
 ! Some Filters Incorrectly Block This - This Is The Link To Track Your Package
 @@||fedex.com/Tracking
+!
 ! Required to download music from some apps
 @@||music.126.net^
+!
 ! Delivers legit content
 @@||cdn.tsyndicate.com^
+!
 ! Unbreak BrowserLeaks tests
 @@/js/canvas.js$domain=browserleaks.com
 @@/webgl.js$domain=browserleaks.com
 @@/rects.js$domain=browserleaks.com
 @@/js/ip.js$domain=browserleaks.com
+!
 ! When blocked Hulu breaks
 @@||ads-*-darwin.hulustream.com^
 @@||http-*-darwin.hulustream.com^
+!
 ! When blocked Direct TV breaks
 @@||yospace-directv.akamaized.net^
 @@||*-sponsored.dfw.vcdn.att-idns.net^
+!
 ! Prevent breaking icons
 @@||ssl-images-amazon.com/images/*/sprites/nav-sprite-global_
+!
 ! If blocked it breaks DuckDuckGo's site
 @@||duckduckgo.com/t/$stylesheet
+!
 ! Unbreak paying for things on Ebay with PayPal
 @@||paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+!
 ! Unbreak Delta Dental Login
 @@||login-wsprod.deltadental.com^$first-party,script
 !
@@ -79,6 +92,12 @@
 !
 ! https://github.com/nextdns/metadata/issues/638#issuecomment-823537069
 @@||r20.rs6.net^
+!
+! Required for updates
+@@||data.mistat.intl.xiaomi.com^
+!
+! https://github.com/nextdns/metadata/issues/605
+@@||cl.exct.net^
 !
 @@||auth-*.tinypass.com^
 @@||directory-prod.lb.ownlocal.com^
@@ -101,8 +120,6 @@
 @@||content-images.p-cdn.com/images^$image
 @@||maps.gstatic.com^$image
 @@||link.theplatform.com^$xmlhttprequest
-!
-! Generichide
 @@||zdnet.com^$generichide
 @@||kershaw.kaiusa.com^$generichide
 @@||youtube.com$generichide
@@ -804,6 +821,11 @@ g00.dailymail.co.uk$badfilter
 ! Start Domain Blacklist |
 !------------------------
 !
+||marfeelrev.com^
+||adnxs-simple.com^
+||youtuhbe.com^
+||ampverified.com^
+||ap01.net^
 ||insights.sitesearch360.com^
 ||regularplants.com^
 ||mutinycdn.com^
@@ -1858,7 +1880,6 @@ g00.dailymail.co.uk$badfilter
 ||heartbeat.savvasrealize.com^
 ||atomisons.xyz^
 ||events.adguard.com^
-||hdm.windstream.com^
 ||mylol.com^
 ||browser.events.data.msn.com^
 ||privacy-center.org^
@@ -9801,7 +9822,6 @@ g00.dailymail.co.uk$badfilter
 ||trafmag.com^
 ||t1.daumcdn.net^
 ||tvadsync.com^
-||trakt.tv^
 ||t2.hulu.com^
 ||t.rainide.com^
 ||tapnetwork.ru^
@@ -11398,7 +11418,7 @@ about:blank$third-party
 */suurl*.php?
 */impression/iP
 */redirect$third-party,popup
-*/click$third-party,popup
+*/click$third-party,popup,doamin=~click.justwatch.com
 */openx_track.js
 */rcs_data-tracking/
 */utag.sync.js
@@ -11641,7 +11661,7 @@ _ads_$image,xhr
 */FrontendStatusUpdate
 */miscellaneousstats
 */contrib-ads.
-*/empty.gif
+*/empty.gif$domain=~banggood.com
 */ad_label*.gif
 */counter.php?
 */cookie-law-info/
