@@ -13,7 +13,7 @@
 *,~vesti.ru,~duckduckgo.com##a[href*="vesti.ru/"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 *,~tass.ru,~duckduckgo.com##a[href*="tass.ru/"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 *,~tv-novosti.ru,~duckduckgo.com##a[href*="tv-novosti.ru/"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
-*,~rt.com,~duckduckgo.com##a[href*="rt.com/"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+*,~rt.com,~duckduckgo.com##a[href="rt.com/"]:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 !
 ! North Korea:
 *,~kcna.kp,~duckduckgo.com##a[href*="kcna.kp/"]:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
@@ -33,7 +33,7 @@ duckduckgo.com##a[href*="xinhuanet.com"].js-result-title-link:before:style(conte
 duckduckgo.com##a[href*="vesti.ru"].js-result-title-link:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 duckduckgo.com##a[href*="tass.ru"].js-result-title-link:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 duckduckgo.com##a[href*="tv-novosti.ru"].js-result-title-link:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
-duckduckgo.com##a[href*="rt.com"].js-result-title-link:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
+duckduckgo.com##a[href="rt.com"].js-result-title-link:before:style(content: "Russian state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 duckduckgo.com##a[href*="kcna.kp"].js-result-title-link:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 duckduckgo.com##a[href*="rodong.rep.kp"].js-result-title-link:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
 duckduckgo.com##a[href*="minzu.rep.kp"].js-result-title-link:before:style(content: "North Korean state media outlet : " !important; color: #FF8000 !important; visibility: visible)
